@@ -16,6 +16,7 @@ in base a specifiche esigenze di distribuzione geografica mantenendo inalterata 
 
 .. image:: img/Availability-zones.png
 
+.. _struttura_Organizzativa:
 
 **La struttura organizzativa**
 ==============================
@@ -69,7 +70,7 @@ dei ruoli abilitati ad operare a questo livello.
 
 .. image:: img/Org-ruoli.png
 
-
+.. _utenti-ruoli:
 
 **Utenti, ruoli ed Account**
 ============================
@@ -101,7 +102,7 @@ delle risorse associate agli account della propria organizzazione.
 
 **Master di Divisione**: questo ruolo rappresenta gli utenti che possono
 svolgere funzioni amministrative all’interno della Divisione quali la
-creazione , sempre all’interno della divisione di pertinenza, degli
+creazione, sempre all’interno della divisione di pertinenza, degli
 account; può inoltre profilare gli utenti per renderli operativi
 all’interno della propria struttura ed eventualmente ha la possibilità
 di registrare utenti non ancora presenti sulla piattaforma. Il Master di
@@ -126,7 +127,17 @@ Master di Account può quindi creare/cancellare/modificare le risorse,
 può anche gestire le risorse create da altri utenti nell’account. Il
 Master di Account può visualizzare e accedere ai report dei costi e dei
 consumi relativamente al proprio account. Il master di account non può
-registrare nuovi utenti all’interno della propria piattaforma e non può
+registrare nuovi utenti all’interno del proprio account e non può
+profilare utenti già censiti ad accedervi.
+
+**Viewer di Account**: utente che all’interno dell’Account può visualizzare
+tutte le risorse, sulle quali non ha però privilegi di modifica/cancellazione.
+Il Viewer di Account può quindi visualizzare l'elenco dei servizi attivi
+sull'Account , può visualizzarne il dettaglio, ma non ha possibilità 
+di attivarne di nuovi e modificarne lo stato. 
+Il Viewer di Account può visualizzare e accedere ai report 
+dei costi e dei consumi aggregati dell'account. Il Viewer di account non può
+registrare nuovi utenti all’interno della piattaforma e non può
 profilare altri utenti ad accedervi.
 
 La fase di introduzione di un nuovo utente si articola in questo modo:

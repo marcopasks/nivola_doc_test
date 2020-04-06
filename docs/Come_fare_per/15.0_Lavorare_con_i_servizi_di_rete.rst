@@ -5,10 +5,10 @@
 
 I vari segmenti di rete presenti all’interno della parte infrastrutturale di Nivola
 sono tutti protetti tramite
-firewall e relative regole di sicurezza, che garantiscono il controllo degli accessi
+firewall e le relative regole di sicurezza, che garantiscono il controllo degli accessi
 effettuati. Il controllo degli accessi e la configurazione delle regole
-a cui devono afferire, sono compito delle funzioni che i servizi di rete
-stabiliscono.
+a cui devono attenersi, sono il compito delle funzioni che i servizi di rete
+svolgono.
 Per la parte di account, le policies permettono la comunicazione a tutti
 i servizi presenti all’interno dello stesso perimetro di rete,
 bloccano gli accessi da e verso altri account e/o reti.

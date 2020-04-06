@@ -17,7 +17,7 @@ dello schermo.
 .. image:: img/VPC_elenco.png
 
 La creazione di un VPC avviene
-tramite una richiesta specifica al **Supporto del Csi-Piemonte**.
+con una richiesta specifica al **Supporto del Csi-Piemonte**.
 Il provider, dopo aver preso in carico la richiesta, avviserà l'utente
 non appena conclusa l'attività prevista.
 L'istanza è effettuata via e-mail dal sistema dopo la compilazione di una form

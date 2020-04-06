@@ -6,7 +6,7 @@
 La funzione rientra in **Reti e Sicurezza**.  :ref:`La creazione del Security Group <Creare_Security_Group>`
 è utilizzabile dalla parte sinistra dello schermo,
 cliccando la freccia a fianco di **Reti e Sicurezza**
-e successivamente su **Security Group** nel sottomenù.
+e successivamente, su **Security Group** nel sottomenù.
 
 .. image:: img/SG_innesco.png
 
@@ -22,10 +22,11 @@ Costituiscono questo gruppo di operazioni:
 **Cercare un Security Group**
 =============================
 
-All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create
+All'interno di ogni Account è possibile fare ricerche su tutte le sue istanze.
 La ricerca è eseguita tramite una stringa inserita dall’operatore.
 Nivola ricerca il set di caratteri nelle colonne dove sono elencate
-le caratteristiche dei server. Per eseguire una ricerca è necessario procedere come segue:
+le caratteristiche dei SG. Per effettuare la ricerca è necessario procedere
+in questo modo:
 
     1. Inserire stringa di ricerca sotto la label **"Ricerca"** e premere invio;
 
@@ -37,18 +38,18 @@ le caratteristiche dei server. Per eseguire una ricerca è necessario procedere 
 **Visualizzare regole del Security Group**
 ==========================================
 
-Le regole che caratterizzano un **Security Group** possono essere lette
-nel dettaglio seguendo questi passaggi:
+Le regole che caratterizzano un **Security Group** possono essere consultate
+nel dettaglio attraverso questi passaggi:
 
     1. Inserire stringa di ricerca sotto la label **"Ricerca"** e premere invio;
 
        .. image:: img/SG_ricerca.png
 
-    2. Selezionare regola e premere pulsante **Visualizza Regole**;
+    2. Selezionare la regola e premere il pulsante **Visualizza Regole**;
 
        .. image:: img/VM_Pannello_controllo.png
 
-    3. Attendere che il sistema esponga il dettaglio delle regole d'ingresso e di uscita del Security Group; ;
+    3. Attendere che il sistema esponga l'elenco delle regole d'ingresso e di uscita del Security Group;
 
        .. image:: img/SG_regole.png
 
@@ -70,11 +71,11 @@ effettuare le seguenti operazioni:
 
         •	**Tipo di regola** scegliendo uno dei valori presenti nella comboox;
         •	**Dominio** indicandolo tra quelli proposti;
-        •	Il range degli IP scrivendolo sotto la label **Classless Inter-Domain Routing** ;
+        •	Il range degli IP scrivendolo sotto la label **Classless Inter-Domain Routing**;
         •	**Protocollo** indicandolo tra le opzioni possibili;
         •	Definire l'intervallo delle porte nei campi **Da Porta** **A Porta**;
-        •	La **Descrizione** della regola è da inserire nel textbox dedicato;
+        •	La **Descrizione** della regola è da inserire, scrivendola, nel textbox;
 
-    3. Al termine, per confermare la regola inserita, premere il pulsante **SALVA REGOLA**;
+    3. Al termine, per salvare la regola inserita, premere il pulsante **SALVA REGOLA**;
 
         .. image:: img/SG_Salva_regola.png

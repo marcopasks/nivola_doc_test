@@ -11,29 +11,29 @@ di assistenza.
 L’attività di assistenza all’interno del Team di Supporto Nivola è
 articolata su uno schema di supporto basato su tre livelli:
 
--  (I) Developer: chat, compilazione form su SP
+#. Developer: chat, compilazione form su SP
 
--  (II) Standard: chat, compilazione form su SP, invio e-mail, contatto
+#. Standard: chat, compilazione form su SP, invio e-mail, contatto
    telefonico
 
--  (III) Premium: chat, compilazione form su SP invio e-mail, contatto
+#. Premium: chat, compilazione form su SP invio e-mail, contatto
    telefonico
 
 Per quanto riguarda la copertura oraria e Livelli di Servizio fare
 riferimento all’\ `Allegato tecnico del Catalogo Servizi Nivola. <http://intranet.csi.it/monitoraggio/dwd/2019/Catalogo-e-Listino-CSI-2019-04-Allegato-tecnico-Servizi-Nivola.pdf>`__
 
-Tutti i canali, ad eccezione della chat, sono presidiati dal Centro
-Unico di Contatto (CUC) nella fascia lavorativa dal lunedì al venerdì
+Tutti i canali, ad eccezione della chat, sono presidiati dal **Centro
+Unico di Contatto (CUC)** nella fascia lavorativa dal lunedì al venerdì
 dalle 8 alle 18. Per le restanti fasce orarie è possibile avere un
 riscontro immediato solo attraverso il canale telefonico garantito dal
 gruppo Conduzione Operativa.
 
-Il Centro Unico di Contatto inoltra la richiesta al Nivola Support
-Center (NSC) tramite lo strumento di ticketing. Nel caso in cui, la
+Il Centro Unico di Contatto inoltra la richiesta al **Nivola Support
+Center (NSC)** tramite lo strumento di ticketing. Nel caso in cui, la
 problematica non possa essere risolta da NSC viene inoltrata al gruppo
 di Ingegneria Nivola.
 
-Durante l’orario presidiato dal gruppo Assistenza Operativa, nel caso
+Durante l’orario presidiato dal gruppo **Assistenza Operativa**, nel caso
 non fossero in grado di risolvere la probletica evidenziata dall’utente,
 sarà chiamato il reperibile del gruppo di NSC o di Ingegneria.
 
@@ -42,8 +42,6 @@ sezione specifica dove può trovare le informazioni di base relative
 all’utilizzo della piattaforma.
 
 In particolare sono disponibili:
-
--  manuali utente sull’utilizzo della piattaforma;
 
 -  manuali utente sull’utilizzo della piattaforma;
 
@@ -82,6 +80,6 @@ Il Supporto è attivabile dagli utenti esterni sui seguenti canali
 
 Service Portal: chat, compilazione form su Service Portal
 
-E-mail alla casella: hd_servizinivola@csi.it
+**E-mail** alla casella: hd_servizinivola@csi.it
 
-Centro Unico di Contatto: tel. 011 0824221
+**Telefono** Centro Unico di Contatto: +39 011 0824221
