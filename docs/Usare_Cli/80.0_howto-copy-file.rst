@@ -3,11 +3,11 @@
 Copy file
 =========
 
-There are two ways to make a copy of a file. [Get]_ to copy from remote VM to Server where you are using the CLI
-on contrary you need to use [put]_.
+There are two ways to make a copy of a file. :ref:`GET` to copy from remote VM to Server where you are using the CLI
+on contrary you need to use :ref:`PUT`.
 
 
-.. [Get]
+.. _GET:
 
 ​How to copy file using get
 ---------------------------
@@ -49,7 +49,7 @@ on contrary you need to use [put]_.
 
 
 
-.. [put]
+.. _PUT:
 
 ​How to copy file using put
 ---------------------------

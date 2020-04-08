@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/05.4_Revocare_Utente.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Come_muovere_primi_passi/10_Passaggi_necessari.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
@@ -53,8 +48,13 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -86,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Come_fare_per/11.4_Gestione_chiavi_ssh.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.2_Accedere_VM.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/16.0_Lavorare_con_STAAS.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.6_Modificare_tipo_VM.rst" />
@@ -137,6 +136,7 @@
         <option value="$PROJECT_DIR$/Usare_Cli/index_Usare_Cli.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" />
+        <option value="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" />
       </list>
     </option>
   </component>
@@ -272,9 +272,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/img/VM_Pannello_controllo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/img/Pulsante_modifica.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -423,6 +420,9 @@
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
