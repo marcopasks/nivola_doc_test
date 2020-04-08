@@ -7,13 +7,13 @@ It is the main service that you must have in your Account to use all the other f
 From CLI is possible to manage the Virtual Machines (VM). Generally the life cycle of the VM includes
 the following steps.
 
-  :ref:`Create` your Virtual machine
-- [Access]_ your Virtual machine
-- [Verify]_ the virtual machine into account
-- [Update]_ Virtual Machine
-- [Stop]_ Virtual Machine
-- [Start_ Virtual Machine
-- [Delete]_ Virtual Machine
+  :ref:`Create`
+  :ref:`Access`
+  :ref:`Verify`
+  :ref:`Update`
+  :ref:`Stop`
+  :ref:`Start`
+  :ref:`Delete`
 
 
 The steps creation and capabiity assign are mandatory for service use.
@@ -209,7 +209,7 @@ To see the VM is running use the list command with the following syntax
        b0633d20-399e-4168-9f13-60fba49a40fe  vm-demo           vm.l8.large  running  2019-02-27T09:44:34Z  account-demo  SiteTorino02     10.138.160.62  vm-demo.site02.nivolapiemonte.it             Centos7  SubnetBE-torino02
 
 
-.. [Access]
+.. _Access:
 
 How to List Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -251,8 +251,7 @@ The command below is used to acces on Virtual machine instantiated into your acc
         -rt, --runtime        Enable command duration log.
 
 
-
-.. [Verify]
+.. _Verify:
 
 How to List Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -272,8 +271,7 @@ The command below is used to ontain the list Virtual machine instantiated into y
        b0633d20-399e-4168-9f13-60fba49a40fe  vm-demo           vm.l8.large  running  2019-02-27T09:44:34Z  account-demo  SiteTorino02     10.138.160.62  vm-demo.site02.nivolapiemonte.it             Centos7  SubnetBE-torino02
 
 
-
-.. [Update]
+.. _Update:
 
 
 How to Update Virtual Machine
@@ -318,9 +316,7 @@ This is the Nivola response when the type was changed
       -----------------------------------------------------------
       Modify virtual machine b0633d20-399e-4168-9f13-60fba49a40fe
 
-
-.. [Start]
-
+.. _Start:
 
 How to Start Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -356,8 +352,7 @@ If it is necessary to start the VM, you have to use next command from CLi:
                               asked is yes.
         -rt, --runtime        Enable command duration log.
 
-.. [Stop]
-
+.. _Stop:
 
 How to Stop Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -394,8 +389,7 @@ If you need to stop the VM, you have to use next command:
         -rt, --runtime        Enable command duration log.
 
 
-.. [Delete]
-
+.. _Delete:
 
 How to Delete Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
