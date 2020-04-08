@@ -7,13 +7,14 @@ It is the main service that you must have in your Account to use all the other f
 From CLI is possible to manage the Virtual Machines (VM). Generally the life cycle of the VM includes
 the following steps.
 
-- [Create]_ your Virtual machine
+  :ref:`Create` your Virtual machine
 - [Access]_ your Virtual machine
 - [Verify]_ the virtual machine into account
 - [Update]_ Virtual Machine
 - [Stop]_ Virtual Machine
 - [Start_ Virtual Machine
 - [Delete]_ Virtual Machine
+
 
 The steps creation and capabiity assign are mandatory for service use.
 
@@ -23,8 +24,7 @@ Life Cycle of Virtual Machine
 
 .. image:: img/ComputeLifeCycle.png
 
-
-.. [Create]
+.. _Create:
 
 
 How to Create Virtual Machine
