@@ -16,7 +16,7 @@ the following steps.
 -  :ref:`Delete`
 
 
-The steps creation and capabiity assign are mandatory for service use.
+The steps creation and capability assign are mandatory for service use.
 
 
 Life Cycle of Virtual Machine
