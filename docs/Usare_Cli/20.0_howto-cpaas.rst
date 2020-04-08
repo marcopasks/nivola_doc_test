@@ -7,13 +7,13 @@ It is the main service that you must have in your Account to use all the other f
 From CLI is possible to manage the Virtual Machines (VM). Generally the life cycle of the VM includes
 the following steps.
 
-  :ref:`Create`
-  :ref:`Access`
-  :ref:`Verify`
-  :ref:`Update`
-  :ref:`Stop`
-  :ref:`Start`
-  :ref:`Delete`
+-  :ref:`Create`
+-  :ref:`Access`
+-  :ref:`Verify`
+-  :ref:`Update`
+-  :ref:`Stop`
+-  :ref:`Start`
+-  :ref:`Delete`
 
 
 The steps creation and capabiity assign are mandatory for service use.
