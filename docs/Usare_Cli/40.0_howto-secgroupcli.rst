@@ -7,10 +7,10 @@ Security group acts as a firewall for Nivola instances,
 controlling both inbound and outbound traffic at the instance level.
 The life cycle of the security group includes the following steps.
 
-- Obtain information on template of the Security Group and VPC
-- Create Security Group
-- Manage rules of Security Group
-- Delete Security Group
+-  :ref:`Obtain`
+-  :ref:`Create`
+-  :ref:`Manage`
+-  :ref:`Delete`
 
 For manage security groups we assume that you are familiar with **VPC**.
 VPC is an acronym for Virtual Private Cloud. VPC is a virtual network dedicated to the Nivola account.
@@ -33,6 +33,7 @@ Use case of Security Group
 --------------------------
 
 
+.. _Obtain:
 Obtain information about Security Group and VPC
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -188,6 +189,8 @@ In the next example will be possible to see how to use the list vpcs command uti
       0fd1a70c-ef3a-4ba7-961c-15baee6962b5  VpcBE        available  test           10.138.128.0/21, 10.138.160.0/21, 10.138.192.0/21
 
 
+.. _Create:
+
 Create Security Group
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -240,6 +243,7 @@ Next step we are going to see the new list of security groups
        0c35528a-6e43-45c3-8b41-d8265deeddf4  sec-group-demo         available  account-demo  VpcBE                     0                0
 
 
+.. _Update:
 
 Update rules of the security group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -403,6 +407,7 @@ The commands below are used to delete ingress or egress rules from SG.
             -rt, --runtime        Enable command duration log.
 
 
+.. _Delete:
 
 Delete security group
 ^^^^^^^^^^^^^^^^^^^^^^^

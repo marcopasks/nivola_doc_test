@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +48,13 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -61,11 +66,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Come_fare_per/05.3_Verificare_Accrediti_Utente.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/img/Utente_pulsante_Togliaccredito.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -86,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Usare_Cli/01.1_howto-access-cli.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.4_Gestione_chiavi_ssh.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.2_Accedere_VM.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/16.0_Lavorare_con_STAAS.rst" />
@@ -137,6 +136,7 @@
         <option value="$PROJECT_DIR$/Overview_Nivola/2_Concetti_Base.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/index_Usare_Cli.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst" />
+        <option value="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" />
       </list>
     </option>
   </component>
@@ -174,6 +174,12 @@
               <item name="docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Usare_Cli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Usare_Cli" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,9 +272,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/img/VM_pannello_gest.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/img/VM_Pannello_controllo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -417,6 +420,9 @@
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
