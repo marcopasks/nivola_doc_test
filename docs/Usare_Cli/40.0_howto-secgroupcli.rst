@@ -34,6 +34,7 @@ Use case of Security Group
 
 
 .. _Obtain:
+
 Obtain information about Security Group and VPC
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -243,9 +244,9 @@ Next step we are going to see the new list of security groups
        0c35528a-6e43-45c3-8b41-d8265deeddf4  sec-group-demo         available  account-demo  VpcBE                     0                0
 
 
-.. _Update:
+.. _Manage:
 
-Update rules of the security group
+Manage rules of the security group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
