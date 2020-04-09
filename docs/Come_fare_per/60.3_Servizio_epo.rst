@@ -1,6 +1,6 @@
 .. _Servizio_epo:
 
-**SERVIZIO ANTIVIRUS EPO (MCAFEE EPOLICY ORCHESTRATOR)**
+**Servizio antivirus EPO (Mcafee Epolicy Orchestrator)**
 ********************************************************
 
 Al fine di garantire un adeguato livello di gestione centralizzata della sicurezza (come da normativa vigente) delle VM ospitate sul Cloud Nivola, si è proceduto con l’allestimento di una Virtual Machine (VM) dedicata sul dominio di management di livello superiore nivola.nivolapiemonte.it, con le caratteristiche descritte nei punti successivi:
@@ -16,15 +16,17 @@ Modalità di attivazione del servizio.
 Invio di una mail nelle seguenti modalità:
 
 •   Destinatari:
-    To: sistemisti-windows@csi.it
-    Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
+        To: sistemisti-windows@csi.it
+
+        Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
 
 •   Oggetto: Richiesta Installazione Agent McAfee
 
 •   Corpo del messaggio (a titolo indicativo):
-    Si richiede l’installazione dell’Agent McAfee sulla VM <nome_VM> (<IP_VM>)
-    e successivo  inserimento nella Console ePO del server Antivirus centralizzato
-    per i servizi Nivola (nvl-av.nivola.nivolapiemonte.it)
+
+        Si richiede l’installazione dell’Agent McAfee sulla VM <nome_VM> (<IP_VM>)
+        e successivo  inserimento nella Console ePO del server Antivirus centralizzato
+        per i servizi Nivola (nvl-av.nivola.nivolapiemonte.it)
 
 
 
