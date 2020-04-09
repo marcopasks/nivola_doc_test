@@ -126,9 +126,9 @@ tutte le risorse, sulle quali ha quindi il massimo dei privilegi. Il
 Master di Account può quindi creare/cancellare/modificare le risorse,
 può anche gestire le risorse create da altri utenti nell’account. Il
 Master di Account può visualizzare e accedere ai report dei costi e dei
-consumi relativamente al proprio account. Il master di account non può
-registrare nuovi utenti all’interno del proprio account e non può
-profilare utenti già censiti ad accedervi.
+consumi relativamente al proprio account. Il master di account può
+registrare nuovi utenti all’interno del proprio account e può
+profilare o revocare utenti già censiti ad accedervi.
 
 **Viewer di Account**: utente che all’interno dell’Account può visualizzare
 tutte le risorse, sulle quali non ha però privilegi di modifica/cancellazione.
@@ -155,8 +155,11 @@ Riassumendo:
    all’interno delle proprie divisioni o account
 
 -  Un Master di Divisione può :ref:`accreditare o revocare utenti <Creare_Accreditare_Utente>` all’interno
-   dei propri account.
+   dei propri account e della propria divisione.
 
+-  Un Master di Account può :ref:`accreditare o revocare utenti <Creare_Accreditare_Utente>` all’interno
+   del proprio account.
+   
 -  L’Amministratore di Backoffice può :ref:`accreditare o revocare ruoli <Creare_Accreditare_Utente>` agli
    utenti a qualsiasi livello della struttura gerarchica.
 
