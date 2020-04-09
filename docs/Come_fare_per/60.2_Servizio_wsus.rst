@@ -1,0 +1,39 @@
+.. _Servizio_wsus:
+
+**SERVIZIO WSUS (WINDOWS SERVER UPDATE SERVICES)**
+**************************************************
+
+Al fine di garantire adeguato livello di securizzazione (come da normativa vigente)
+delle VM ospitate sul Cloud Nivola, attraverso gli aggiornamenti di sicurezza critici,
+si è proceduto con l’allestimento di una Virtual Machine (VM) dedicata sul dominio
+di management di livello superiore nivola.nivolapiemonte.it, con le caratteristiche
+descritte nei punti successivi:
+
+•	Host Name: nvl-wsus.nivola.nivolapiemonte.it
+•	IP: 10.138.154.51
+•	Sistema Operativo: Windows Server 2019
+
+
+Modalità di attivazione del servizio.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Invio di una mail nelle seguenti modalità:
+
+•   Destinatari:
+    To: sistemisti-windows@csi.it
+    Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
+
+•   Oggetto: Richiesta inserimento in WSUS
+
+•	Corpo del messaggio (a titolo indicativo):
+    Si richiede l’inserimento della VM <nome_VM> (<IP_VM>) negli appositi gruppi
+    di gestione del server WSUS centralizzato per i servizi Nivola
+    (nvl-wsus.nivola.nivolapiemonte.it)
+
+Perimetro di responsanbilità del servizio.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+•	Il servizio in oggetto è incluso nel perimetro di gestione delle VM Microsoft, per tutte le VM infrastrutturali la cui gestione sia in carico a CSI Piemonte e per le VM applicative delle quali il Cliente richieda l’inserimento in dominio, se la gestione del dominio stesso sia in carico a CSI Piemonte
+•	Il servizio in oggetto non è incluso nel perimetro di gestione delle VM Microsoft per tutte le VM infrastrutturali/applicative la cui gestione non sia in carico a CSI Piemonte. La responsabilità di garantire adeguato livello di securizzazione (come da normativa vigente) ricade, in questo caso, nell’esclusivo perimetro di responsabilità del Cliente e/o fornitore
+•	Nel caso in cui il Cliente faccia richiesta di apposita VM per i servizi WSUS della propria componente server e/o client, si procederà con la realizzazione di una nuova VM all’interno del Tenant del cliente, opportunamente contabilizzata sulla base dei correnti valori a listino
+

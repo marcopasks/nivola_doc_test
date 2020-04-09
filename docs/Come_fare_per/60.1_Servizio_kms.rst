@@ -32,3 +32,9 @@ procedere con l’eventuale attivazione manuale della *licenza da server KMS*:
 
 Perimetro di responsanbilità del servizio.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+È necessario procedere con rilascio ed attivazione della Licenza su tutte le VM con
+Sistema Operativo Microsoft, indipendentemente se gestite o non gestite da CSI Piemonte.
+Il servizio in oggetto è incluso nel perimetro di gestione
+delle VM Microsoft, e non è prevista la sua disponibilità a listino.
+
