@@ -1,0 +1,15 @@
+.. _Servizi_Trasversali_Microsoft:
+
+**Servizi Trasversali Microsoft**
+#################################
+
+Nei seguenti paragrafi sono descritte le linee guida e l’ambito di applicazione
+per l’utilizzo dei servizi trasversali Microsoft sulla piattaforma Cloud Nivola
+del CSI Piemonte
+
+.. toctree::
+   :maxdepth: 2
+ 
+   60.1_Servizio_kms.rst
+   60.2_Servizio_wsus.rst
+   60.3_Servizio_epo.rst

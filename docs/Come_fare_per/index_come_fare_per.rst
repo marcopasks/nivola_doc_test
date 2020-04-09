@@ -36,7 +36,7 @@ ad interagire con la piattaforma, attraverso il portale.
       30.1_Monitoraggio.rst
       30.2_Log.rst
    40.0_Consultare_costi_e_consumi.rst
-   50.0_Attivare_il_supporto.rst
+   90.0_Attivare_il_supporto.rst
 
 
    

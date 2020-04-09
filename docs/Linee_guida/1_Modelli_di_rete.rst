@@ -41,7 +41,7 @@ Sono presenti due reti:
 -	Front-end (RUPAR), si riferisce ad indirizzi della rete RUPAR per condividere ed accedere a sistemi e servizi con altri Enti della PA o del CSI; questi sistemi possono essere raggiunti dalla rete internet tramite NAT e Bilanciatore
 
 
-Private Cluod – Internet.
+Private Cloud – Internet.
 =========================
 
 Questo tipo di modello è idoneo per gli Enti non

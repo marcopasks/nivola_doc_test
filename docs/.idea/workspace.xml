@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Come_fare_per/50.0_Attivare_il_supporto.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/90.0_Attivare_il_supporto.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,17 +21,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_muovere_primi_passi/10_Passaggi_necessari.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Overview_Nivola/2_Concetti_Base.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -53,18 +45,28 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Usare_Cli/index_Usare_Cli.rst">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/05.3_Verificare_Accrediti_Utente.rst">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/60.0_Servizi_Trasversali_Microsoft.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Usare_Cli/index_Usare_Cli.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -86,8 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Come_fare_per/11.2_Accedere_VM.rst" />
-        <option value="$PROJECT_DIR$/Come_fare_per/16.0_Lavorare_con_STAAS.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.6_Modificare_tipo_VM.rst" />
         <option value="$PROJECT_DIR$/Overview_Nivola/4_Certificazioni_Compliance.rst" />
         <option value="$PROJECT_DIR$/Linee_guida/1_Modelli_di_rete.rst" />
@@ -124,7 +124,6 @@
         <option value="$PROJECT_DIR$/Come_fare_per/05.0_Creare_Utente.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente - Copia.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.0_Lavorare_con_VM.rst" />
-        <option value="$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/10.0_Creare_Account.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente .rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.2_Accreditare_Utente.rst" />
@@ -137,6 +136,9 @@
         <option value="$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" />
+        <option value="$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst" />
+        <option value="$PROJECT_DIR$/Come_fare_per/60.0_Servizi_Trasversali_Microsoft.rst" />
+        <option value="$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst" />
       </list>
     </option>
   </component>
@@ -164,22 +166,6 @@
               <item name="docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Come_fare_per" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Overview_Nivola" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Usare_Cli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Usare_Cli" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,12 +258,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/img/Pulsante_modifica.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/img/Add_VM.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/img/STAAS_autorizza_crea.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -308,7 +288,7 @@
     <entry file="file://$PROJECT_DIR$/Come_fare_per/img/SG_pulsante_crea.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/50.0_Attivare_il_supporto.rst">
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/90.0_Attivare_il_supporto.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/18.1_Comunicare_con_internet.rst">
@@ -362,9 +342,6 @@
     <entry file="file://$PROJECT_DIR$/index_Nivola_doc">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/11.2_Accedere_VM.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
@@ -404,12 +381,6 @@
     <entry file="file://$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linee_guida/1_Modelli_di_rete.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Overview_Nivola/2_Concetti_Base.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Usare_Cli/index_Usare_Cli.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
@@ -423,6 +394,21 @@
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/60.0_Servizi_Trasversali_Microsoft.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Overview_Nivola/2_Concetti_Base.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linee_guida/1_Modelli_di_rete.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
