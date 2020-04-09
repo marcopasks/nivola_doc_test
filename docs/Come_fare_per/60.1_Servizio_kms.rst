@@ -26,7 +26,7 @@ procedere con l’eventuale attivazione manuale della *licenza da server KMS*:
 1.	Collegarsi alla VM con utenza Administrator
 2.	Cliccare sul pulsante Start --> Esegui
 3.	Nella casella di testo digitare il comando cmd per aprire un prompt dei comandi
-    Nella shell cmd digitare i seguenti comandi:
+4.  Dalla shell cmd digitare i seguenti comandi:
 
 .. code-block:: bash
 
