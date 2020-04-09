@@ -17,4 +17,18 @@ nivola.nivolapiemonte.it, con le caratteristiche descritte nei punti successivi:
 Modalità di attivazione del servizio.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+L’attivazione della licenza KMS è automatizzata poiché contenuta nel Template
+del Sistema Operativo da cui vengono deployate le VM, tramite apposita chiave
+di registro.
+Di seguito sono indicati, se necessari , i passi da seguire per
+procedere con l’eventuale attivazione manuale della *licenza da server KMS*:
 
+1.	Collegarsi alla VM con utenza Administrator
+2.	Cliccare sul pulsante Start  Esegui
+3.	Nella casella di testo digitare il comando cmd per aprire un prompt dei comandi
+    Nella shell cmd digitare i seguenti comandi:
+		slmgr /skms 10.138.154.50:1688 <INVIO>
+		slmgr /ato <INVIO>
+
+Perimetro di responsanbilità del servizio.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
