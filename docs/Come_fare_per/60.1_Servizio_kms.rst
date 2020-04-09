@@ -1,13 +1,13 @@
 .. _Servizio_kms:
 
-**SERVIZIO KMS (KEY MANAGER SYSTEM)**
+**Servizio KMS (Key Manager System)**
 *************************************
 
 Al fine di consentire il contemporaneo rilascio ed attivazione di
 Licenze server di tipo Volume sui Tenant dei clienti,
 si è proceduto con l’allestimento di una Virtual Machine (VM)
 dedicata sul dominio di management di livello superiore
-nivola.nivolapiemonte.it, con le caratteristiche descritte nei punti successivi:
+nivola.nivolapiemonte.it, con queste caratteristiche:
 
 •	Host Name: nvl-kms.nivola.nivolapiemonte.it
 •	IP: 10.138.154.50
@@ -24,7 +24,7 @@ Di seguito sono indicati, se necessari , i passi da seguire per
 procedere con l’eventuale attivazione manuale della *licenza da server KMS*:
 
 1.	Collegarsi alla VM con utenza Administrator
-2.	Cliccare sul pulsante Start  Esegui
+2.	Cliccare sul pulsante Start --> Esegui
 3.	Nella casella di testo digitare il comando cmd per aprire un prompt dei comandi
     Nella shell cmd digitare i seguenti comandi:
 		slmgr /skms 10.138.154.50:1688 <INVIO>

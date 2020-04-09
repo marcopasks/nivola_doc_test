@@ -1,7 +1,7 @@
 .. _Servizio_wsus:
 
-**SERVIZIO WSUS (WINDOWS SERVER UPDATE SERVICES)**
-**************************************************
+**Servizio WSUS (Windows Server Update Service)**
+*************************************************
 
 Al fine di garantire adeguato livello di securizzazione (come da normativa vigente)
 delle VM ospitate sul Cloud Nivola, attraverso gli aggiornamenti di sicurezza critici,
@@ -20,10 +20,12 @@ Modalità di attivazione del servizio.
 Invio di una mail nelle seguenti modalità:
 
 •   Destinatari:
+
     To: sistemisti-windows@csi.it
     Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
 
 •   Oggetto: Richiesta inserimento in WSUS
+
 
 •	Corpo del messaggio (a titolo indicativo):
     Si richiede l’inserimento della VM <nome_VM> (<IP_VM>) negli appositi gruppi
