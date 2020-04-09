@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Come_fare_per/60.2_Servizio_wsus.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/60.2_Servizio_wsus.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +29,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/11.3_Gestire_VM.rst">
+        <entry file="file://$PROJECT_DIR$/Usare_Cli/01.1_howto-access-cli.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -59,7 +58,7 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -301,9 +300,6 @@
     <entry file="file://$PROJECT_DIR$/Come_fare_per/18.2_Abilitare_vpn.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Usare_Cli/01.1_howto-access-cli.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/16.1_Creare_STAAS.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
@@ -406,13 +402,16 @@
     <entry file="file://$PROJECT_DIR$/Come_fare_per/60.3_Servizio_epo.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/60.2_Servizio_wsus.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst">
+    <entry file="file://$PROJECT_DIR$/Usare_Cli/01.1_howto-access-cli.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst">
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/60.1_Servizio_kms.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
