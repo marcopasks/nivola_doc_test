@@ -20,10 +20,9 @@ Modalità di attivazione del servizio.
 Invio di una mail nelle seguenti modalità:
 
 •   Destinatari:
-    To: sistemisti-windows@csi.it
+        To: sistemisti-windows@csi.it
 
-    Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
-
+        Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
 
 •   Oggetto: Richiesta inserimento in WSUS
 
