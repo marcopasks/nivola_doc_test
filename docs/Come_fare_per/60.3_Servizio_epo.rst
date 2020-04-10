@@ -26,6 +26,8 @@ Invio di una mail nelle seguenti modalità:
 •   Oggetto: Richiesta Installazione Agent McAfee
 
 
+
+
 •   Corpo del messaggio (a titolo indicativo):
 
         Si richiede l’installazione dell’Agent McAfee sulla VM <nome_VM> (<IP_VM>)
