@@ -29,7 +29,6 @@ Invio di una mail nelle seguenti modalità:
 
 
 •   Corpo del messaggio (a titolo indicativo):
-
         Si richiede l’installazione dell’Agent McAfee sulla VM <nome_VM> (<IP_VM>)
         e successivo  inserimento nella Console ePO del server Antivirus centralizzato
         per i servizi Nivola (nvl-av.nivola.nivolapiemonte.it)
