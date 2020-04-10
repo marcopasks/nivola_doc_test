@@ -19,15 +19,16 @@ Modalità di attivazione del servizio.
 
 Invio di una mail nelle seguenti modalità:
 
+   .. line-block::
 •   Destinatari:
         To: sistemisti-windows@csi.it
 
         Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
 
-
+   .. line-block::
 •   Oggetto: Richiesta inserimento in WSUS
 
-
+   .. line-block::
 •	Corpo del messaggio (a titolo indicativo):
     Si richiede l’inserimento della VM <nome_VM> (<IP_VM>) negli appositi gruppi
     di gestione del server WSUS centralizzato per i servizi Nivola
