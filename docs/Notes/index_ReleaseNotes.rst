@@ -5,7 +5,7 @@
 
 .. _release-1.8.0:
 
-Service Portal 1.8.0 (2020-04-08)
+Service Portal 1.8.0 (2020-04-10)
 ---------------------------------
 
 **New**
@@ -16,10 +16,12 @@ Service Portal 1.8.0 (2020-04-08)
 
 *   l'utente Master di Divisione ha a disposizione una nuova funzionalità in modo da poter
     accreditare e registare utenti all'interno della propria struttura organizzativa.
-
     
-*   l'utente di BackOffice ha ha disposizione una nuova funzionalità di visualizzazione
-    dei Servizi disponibili su ogni Account.
+*   l'utente con ruolo Master di Account ha a disposizione una nuova funzionalità con cui
+    può accreditare e revocare accreditamenti all'interno della propria struttura organizzativa.
+ 
+*   l'utente con ruolo di BackOffice ha ha disposizione la ossibilità di visualizzare tutti  i
+    Servizi istanziati all'intefno di ogni Account.
     
 **Changed**
 
@@ -30,6 +32,7 @@ Service Portal 1.8.0 (2020-04-08)
 *   La grafica e il contenuto del pannello Costi e Consumi di un Account sono stati rivisti e migliorati.
 
 *   Nel pannello di gestione di una Vm è  ora possibile visualizzare eventuali dischi aggiuntivi.
+
     
 
 **Fixed**    
@@ -40,22 +43,4 @@ Service Portal 1.8.0 (2020-04-08)
 
 *   Bux fixing su alcune informazioni contenute nella home page dell'uente Master di Account (#779)
 
-.. _release-1.7.0:
 
-Service Portal 1.7.0 (2020-03-02)
----------------------------------
-
-New:
-
-*   rilasciata funzionalità che permette all'utente Master di Account di visualizzare
-    il dettaglio di tutti i costi legati al proprio account
-
-    
-Changed
-
-*   La procedura di creazione chiavi dbaas è stata aggiornata on la richiesta del parametro
-    Disco Aggiuntivo
-
-Fixed:    
-    
-*   Bug Risolti (issue:4420,4023)
