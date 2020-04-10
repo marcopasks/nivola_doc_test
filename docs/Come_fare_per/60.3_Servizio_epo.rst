@@ -17,16 +17,17 @@ Modalità di attivazione del servizio.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Invio di una mail nelle seguenti modalità:
 
+   .. line-block::
 •   Destinatari:
         To: sistemisti-windows@csi.it
 
         Cc: gaetano.pioppo@csi.it, graziano.isabello@csi.it
 
+   .. line-block::
 
 •   Oggetto: Richiesta Installazione Agent McAfee
 
-
-
+   .. line-block::
 
 •   Corpo del messaggio (a titolo indicativo):
         Si richiede l’installazione dell’Agent McAfee sulla VM <nome_VM> (<IP_VM>)
