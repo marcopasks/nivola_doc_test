@@ -1,12 +1,11 @@
 .. _costruzione:
 
-**Guida in costruzione**
+**Under Costruction**
 ===================================
 
 
+Stiamo lavorando alla redazione della documentazione per l'argomento
+che hai scelto.
 
-**Working**
-
-Stiamo lavorando alla documentazione.
 Ci scusiamo, la documentazione sarà disponibile on line 
 il prima possibile
