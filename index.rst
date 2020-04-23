@@ -13,3 +13,6 @@
     docs/Glossario/index_Glossario.rst
     docs/Notes/index_ReleaseNotes.rst
 
+.. toctree::
+   :hidden:
+    docs/Notes/in_costruzione.rst
