@@ -14,5 +14,5 @@
     docs/Notes/index_ReleaseNotes.rst
 
 .. toctree::
-   :hidden:
+    :hidden:
     docs/Notes/in_costruzione.rst
