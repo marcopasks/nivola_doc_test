@@ -12,8 +12,10 @@ Service Portal 1.9.0 (2020-05-06)
 **New**
 
 *   E' disponibile una nuova funzionalità per l'utente di Backoffice per visualizzare la
-    cronologia delle operazioni effettuate all'interno di ogni Account. La funzionalità 
-    sarà presto disponibile anche per i ruoli "Master di Account"
+    cronologia delle operazioni effettuate all'interno di ogni Account. 
+    
+*   L'utente "Master di Account" adesso può visualizzare lo storico delle operazioni effettuate 
+    all'interno del proprio account da parte di quasiasi utente.
 
 *   E' disponibile la nuova voce di menu "Log Management" che permette di accedere al servizio
     di gestione log della piattaforma. 
@@ -27,7 +29,7 @@ Service Portal 1.9.0 (2020-05-06)
 *   Aggiunto un attributo ad ogni account con cui è possibile specificare la data di inizio
     rendicontazione.
 
-*   Miglioramento nella presentazione dei pannelli costi e consumi.
+*   Adeguamento grafico nella presentazione dei pannelli costi e consumi.
 
 *   Nel pannello di gestione di un DBaaS è  ora possibile visualizzare eventuali dischi aggiuntivi.
 
