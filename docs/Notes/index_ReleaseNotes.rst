@@ -3,6 +3,44 @@
 **Release Notes**
 ===================================
 
+
+.. _release-1.8.0:
+
+Service Portal 1.9.0 (2020-05-06)
+---------------------------------
+
+**New**
+
+*   E' disponibile una nuova funzionalità per l'utente di Backoffice per visualizzare la
+    cronologia delle operazioni effettuate all'interno di ogni Account. La funzionalità 
+    sarà presto disponibile anche per i ruoli "Master di Account"
+
+*   E' disponibile la nuova voce di menu "Log Management" che permette di accedere al servizio
+    di gestione log della piattaforma. 
+    
+
+    
+**Changed**
+
+*   Modificata la naming convention per i servizi DBaaS.
+
+*   Aggiunto un attributo ad ogni account con cui è possibile specificare la data di inizio
+    rendicontazione.
+
+*   Miglioramento nella presentazione dei pannelli costi e consumi.
+
+*   Nel pannello di gestione di un DBaaS è  ora possibile visualizzare eventuali dischi aggiuntivi.
+
+    
+
+**Fixed**    
+    
+*   Risolto bug #907 relativo alla corretta presentazione dei dati nella dashboard "Servizi attivi Account".
+
+*   Risolto il problema  #929 della visualizzazione dell'elenco utenti per il MAster di Divisione.
+
+*   I dati presentati nella dashboard "Storage" sono stati corretti #906
+
 .. _release-1.8.0:
 
 Service Portal 1.8.0 (2020-04-10)

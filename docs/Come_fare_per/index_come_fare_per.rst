@@ -36,11 +36,15 @@ ad interagire con la piattaforma, attraverso il portale.
       30.1_Monitoraggio.rst
       30.2_Log.rst
    40.0_Consultare_costi_e_consumi.rst
-   60.0_Servizi_Trasversali_Microsoft.rst
-      60.1_Servizio_kms.rst
-      60.2_Servizio_wsus.rst
-      60.3_Servizio_epo.rst
+
    90.0_Attivare_il_supporto.rst
+   
+.. toctree::
+    :hidden:
+     60.0_Servizi_Trasversali_Microsoft.rst
+     60.1_Servizio_kms.rst
+     60.2_Servizio_wsus.rst
+     60.3_Servizio_epo.rst
 
 
    
