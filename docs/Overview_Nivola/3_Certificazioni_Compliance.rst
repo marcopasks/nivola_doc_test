@@ -3,7 +3,8 @@
 
 
 .. image:: img/loghi_qualità_052020.png
- |
+
+ 
 **Certificazioni e Compliance**
 *******************************
 
