@@ -1,6 +1,9 @@
 .. _Certificazioni_Compliance:
 
 
+
+.. image:: img/loghi_qualità_052020.png
+
 **Certificazioni e Compliance**
 *******************************
 
@@ -23,10 +26,6 @@ rendono conformi ai maggiori standard di sicurezza e affidabilità.
 
 **ISO 9001:2015**
 
-.. image:: img/iso_9001.png
-   :width: 300px
-   :height: 200px
-   :align: center
 
 La Certificazione assicura che il nostro sistema prevede la gestione
 sistematica dei rischi e delle opportunità, il monitoraggio costante
@@ -43,10 +42,6 @@ e il rispetto di tempi e costi del servizio nell’ambito di:
 
 **ISO 27001:2013**
 
-.. image:: img/iso_27001.png
-   :width: 200px
-   :height: 200px
-   :align: center
 
 Lo standard **ISO/IEC 27001** è l'unica norma internazionale soggetta a
 verifica e certificabile che definisce i **requisiti per un SGSI**
@@ -65,10 +60,6 @@ Data Center e servizi di cloud computing.
 
 **ISO 27017:2015**
 
-.. image:: img/iso_27017.png
-   :width: 200px
-   :height: 200px
-   :align: center
 
 Lo standard **ISO/IEC 27017** rientra tra gli standard della serie
 ISO/IEC 27001 e **definisce controlli avanzati sia per fornitori,
@@ -80,10 +71,6 @@ la capacità del CSI Piemonte di assicurare la protezione dei dati**.
 
 **ISO 27018:2014**
 
-.. image:: img/iso_27018.png
-   :width: 200px
-   :height: 200px
-   :align: center
 
 La Certificazione attesta che il Sistema Nivola è conforme alle direttive
 sulla tutela dei dati personali e quindi della privacy dei clienti che affidano le
@@ -108,10 +95,6 @@ di assicurare la protezione dei dati**.
 
 **ISO 20000-1:2018**
 
-.. image:: img/iso_20000.png
-   :width: 200px
-   :height: 200px
-   :align: center
 
 La Certificazione dimostra che il CSI, come Cloud Provider, attua
 tutte le best practices per stabilire, implementare, mantenere e
@@ -125,10 +108,6 @@ standard adottato dal CSI Piemonte fin dai primi anni 2000
 
 **ISO 22301:2012**
 
-.. image:: img/csq_22301.png
-   :width: 200px
-   :height: 200px
-   :align: center
 
 La Certificazione riconosce che la capacità del CSI Piemonte in relazione ai servizi
 cloud erogati di mettere in atto comportamenti, raccomandazioni, processi, tecnologie
@@ -138,10 +117,6 @@ continuità.
 
 **ISO 50001:2011**
 
-.. image:: img/iso_50001.png
-   :width: 200px
-   :height: 200px
-   :align: center
 
 La Certificazione determina che il nostro Sistema di Gestione dell’Energia è stato
 pianificato e realizzato nel rispetto della legislazione in materia energetica
@@ -157,11 +132,6 @@ ed è volto a garantire l’efficienza energetica dei processi produttivi promuo
    all'efficienza energetica.
 
 **ANSI TIA 942 2017 Rating III**
-
-.. image:: img/tia_942.png
-   :width: 300px
-   :height: 200px
-   :align: center
 
 
 La capacità del nostro Data Center di garantire la continuità dei servizi erogati è
@@ -181,6 +151,14 @@ nell’erogazione dei nostri servizi adottiamo tutti gli standard previsti per o
 servizi digitali alla PA. Informazioni aggiuntive sono visionabili
 nel Cloud Marketplace di AGID. https://cloud.italia.it/marketplace/service/12
 
- |pic1|
 
-.. |pic1| image:: img/loghi_qualità_052020.png
+ |pic1|  |pic2|  |pic3|
+
+.. |pic1| image:: img/Cert_infrastruttura.png
+   :width: 31%
+
+.. |pic2| image:: img/Cert_iaas.png
+   :width: 31%
+
+.. |pic3| image:: img/Cert_paas.png
+   :width: 28%
