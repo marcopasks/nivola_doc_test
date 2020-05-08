@@ -181,13 +181,6 @@ nell’erogazione dei nostri servizi adottiamo tutti gli standard previsti per o
 servizi digitali alla PA. Informazioni aggiuntive sono visionabili
 nel Cloud Marketplace di AGID. https://cloud.italia.it/marketplace/service/12
 
- |pic1|  |pic2|  |pic3|
+ |pic1|
 
-.. |pic1| image:: img/Cert_infrastruttura.png
-   :width: 31%
-
-.. |pic2| image:: img/Cert_iaas.png
-   :width: 31%
-
-.. |pic3| image:: img/Cert_paas.png
-   :width: 28%
+.. |pic1| image:: img/loghi_qualità_052020.png
