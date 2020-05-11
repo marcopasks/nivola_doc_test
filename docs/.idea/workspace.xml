@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,27 +20,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Overview_Nivola/2_Concetti_Base.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Linee_guida/1_Modelli_di_rete.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Usare_Cli/01.1_howto-access-cli.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst">
-          <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -49,8 +29,28 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/14.2_Gestire_DBAAS.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/30.0_Strumenti.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/30.2_Log.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -97,7 +97,6 @@
         <option value="$PROJECT_DIR$/Service_Portal/index_Service_Portal.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.0_Creare_utente.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/30.0_Strumenti.rst" />
-        <option value="$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/30.2_Log.rst" />
         <option value="$PROJECT_DIR$/Overview_Nivola/1_Cosa_e_Nivola.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.4_Cancellare_VM.rst" />
@@ -138,6 +137,7 @@
         <option value="$PROJECT_DIR$/Come_fare_per/60.3_Servizio_epo.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/60.2_Servizio_wsus.rst" />
         <option value="$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst" />
+        <option value="$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst" />
       </list>
     </option>
   </component>
@@ -164,18 +164,13 @@
             <path>
               <item name="docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Overview_Nivola" type="462c0819:PsiDirectoryNode" />
+              <item name="Come_fare_per" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Overview_Nivola" type="462c0819:PsiDirectoryNode" />
+              <item name="Come_fare_per" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Usare_Cli" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,7 +221,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.22693452" />
@@ -268,15 +263,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/img/Pulsante_cancella.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/img/STAAS_autorizza_piu.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/img/STAAS_crea_dimensioni_combo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/img/STAAS_modifica.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -317,9 +303,6 @@
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/11.1_Creare_VM.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/14.2_Gestire_DBAAS.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/16.0_Lavorare_con_STAAS.rst">
@@ -419,6 +402,18 @@
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.2_Log.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/14.2_Gestire_DBAAS.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.0_Strumenti.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
