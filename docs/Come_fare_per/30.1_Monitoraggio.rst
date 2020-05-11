@@ -9,7 +9,7 @@ Per attivarla sfruttare il pulsante sulla sinistra dello schermo:
 
 .. image:: img/Strumenti_attivita.png
 
-La piattaforma esporrà al centro dello schermo l'elenco delle attività svolte
+La piattaforma esporrà, al centro dello schermo, l'elenco delle attività svolte
 sull'account
 
 .. image:: img/Strumenti_elenco_attivita.png
