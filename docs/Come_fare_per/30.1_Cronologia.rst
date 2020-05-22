@@ -1,6 +1,6 @@
-.. _Monitoraggio:
+.. _Cronologia:
 
-**Monitoraggio Attività**
+**Cronologia Attività**
 *************************
 
 E' possibile vedere l'elenco delle operazioni compiute sull'account
@@ -22,7 +22,7 @@ Per ogni attività dell'elenco è riportata:
 #. Descrizione
 #. Parametri usati
 #. IP da quale macchina è stata svolta l'attività.
-#. User-role il ruolo  ricoperto dall'utente.
+#. User-role il ruolo ricoperto dall'utente.
 
 Ciascuna delle informazioni può essere oggetto di ricerca all'interno della lista.
 

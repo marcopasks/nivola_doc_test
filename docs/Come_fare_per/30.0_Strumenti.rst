@@ -1,10 +1,11 @@
 .. _Strumenti:
 
-**Strumenti Monitoraggio e Log**
+**Monitoraggio e Log**
 ********************************
 
 .. toctree::
    :maxdepth: 2
 
-   30.1_Monitoraggio.rst
+   30.1_Cronologia.rst
+   30.3_Monitoraggio
    30.2_Log.rst
