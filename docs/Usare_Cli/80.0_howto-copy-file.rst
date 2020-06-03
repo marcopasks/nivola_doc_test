@@ -14,7 +14,7 @@ on contrary you have to use :ref:`PUT<PUT>`.
 
 .. code-block:: bash
 
-    $  beehive ssh nodes files get <node> <local-file> <remote-file> [nodeuser=..] [options ...]
+    $  beehive ssh nodes files get <node> <remote-file> <local-file> [nodeuser=..] [options ...]
 
       Copy file from node
 

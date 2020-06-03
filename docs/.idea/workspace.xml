@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst">
+        <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -129,7 +129,6 @@
         <option value="$PROJECT_DIR$/Usare_Cli/index_Usare_Cli.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/20.0_howto-cpaas.rst" />
         <option value="$PROJECT_DIR$/Usare_Cli/40.0_howto-secgroupcli.rst" />
-        <option value="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/60.0_Servizi_Trasversali_Microsoft.rst" />
         <option value="$PROJECT_DIR$/Linee_guida/1_Modelli_di_rete.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/index_come_fare_per.rst" />
@@ -138,14 +137,15 @@
         <option value="$PROJECT_DIR$/Come_fare_per/60.2_Servizio_wsus.rst" />
         <option value="$PROJECT_DIR$/Overview_Nivola/3_Certificazioni_Compliance.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst" />
+        <option value="$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="234" />
+    <option name="y" value="351" />
+    <option name="width" value="961" />
+    <option name="height" value="434" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,6 +171,11 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Come_fare_per" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Usare_Cli" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,10 +226,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="234" y="351" width="961" height="434" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.22693452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.33044422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.21502976" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,9 +373,6 @@
     <entry file="file://$PROJECT_DIR$/Come_fare_per/11.3_Gestire_VM.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/60.0_Servizi_Trasversali_Microsoft.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
@@ -410,10 +412,13 @@
     <entry file="file://$PROJECT_DIR$/Come_fare_per/14.2_Gestire_DBAAS.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/30.0_Strumenti.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.1_Monitoraggio.rst">
+    <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
