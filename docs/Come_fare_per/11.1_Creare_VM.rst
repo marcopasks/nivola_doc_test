@@ -40,14 +40,8 @@ Subnet e Gruppo di sicurezza**.  Al termine cliccare su **VAI A TAGS**;
 
 .. image:: img/Network_Security_VM.png
 
-6. Nel caso servissero, è possibile assegnare dei tags alla virtual machine,
-scrivendoli nella casella di testo e premendo invio.
-E' possibile eliminare quanto inserito in precedenza, cliccando la **"X"**
-a fianco dei tags da cancellare. Alla fine, proseguire premendo **VAI A SICUREZZA**;
 
-.. image:: img/Tags_VM.png
-
-7. In questa fase è obbligatorio generare una **CHIAVE SSH** da associare alla
+6. In questa fase è obbligatorio generare una **CHIAVE SSH** da associare alla
 virtual machine, per farlo, Nivola mette a disposizione 3 metodi distinti.
 
 **SCEGLIENDO UNA DELLE CHIAVI DALLA LISTA**
