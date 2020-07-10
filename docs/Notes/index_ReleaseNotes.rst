@@ -3,6 +3,51 @@
 **Release Notes**
 ===================================
 
+.. _release-2.0.0:
+
+Service Portal 2.0.0 (2020-07-16)
+---------------------------------
+
+**New**
+
+*   Importante upgrade tecnologico in modo da sfruttare le potenzialità del deploy della CMP 
+    su un cluster Kubernates. Maggiore affidabilità e scalabilità del sistema.
+    
+*   In fase di creazione di virtual machine e DBaaS è ora possibile avere la previsione del costo
+    mensile delle risorse che si intendono allocare.
+
+*   Completa gestione dei TAG sugli oggetti VM e DBaaS.
+
+*   Nuova funzioanlità di autoregistrazione sul SP per gli utenti Csi. 
+
+*   Revisione della funzionalità "Costi e Consumi". E' ora disponibile per tutti i profili con una
+    migliore fruibilità dei dati. Aggiunta la possiblità di avere i costi aggregati per Divisione
+    e Organizzazione.
+    
+*  Integrazione con il sistema di ticketing  Remedy per le richieste di supporto effettuate 
+   tramite Service Portal.
+
+    
+**Changed**
+
+*   Migliorata la navigazione all'interno delle procedure guidate di creazione servizi.
+
+*   Aggiornata la naming convention per i servizi DBaaS.
+
+*   Aggiunti nuovi tagli per il dimensionamento dei Volumi e dei dischi.
+
+*
+
+    
+
+**Fixed**    
+    
+*   Risolti bug #972 #975 #976 relativo alla corretta presentazione dei servizi per i profili
+    Master di Division e Organization.
+
+*   Risolto il problema  #936  #937 per la visualizzazione liste strutture organizzative.
+
+*  
 
 .. _release-1.9.0:
 
