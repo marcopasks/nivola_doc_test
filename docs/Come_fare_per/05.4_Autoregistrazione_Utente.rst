@@ -23,6 +23,6 @@ Dopo aver superato il primo accreditamento di Shibboleth, procedere come segue:
 
 3. Al termine premere il pulsante *REGISTRA UTENTE*
 
-   .. image:: img/Autoreg_Utente_compila_campi.png
+   .. image:: img/Autoreg_Utente_registra.png
 
 
