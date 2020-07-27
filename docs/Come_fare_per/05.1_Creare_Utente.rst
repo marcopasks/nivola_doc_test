@@ -3,7 +3,8 @@
 **Creare Utente**
 #################
 
-La funzione **Creazione di un utente** è attivabile attraverso due distinte modalità:
+La funzione **Creazione di un utente** è attivabile, principalmente,
+attraverso queste due modalità:
 
 1. Dalla parte sinistra dello schermo, cliccando sulla label **Registra Nuovo Utente**
    nel gruppo **Amministrazione**
@@ -20,6 +21,10 @@ presentata dal sistema indicando: *Codice Fiscale*, *Nome*, *Cognome* e il *tipo
 e al termine premere il tasto **REGISTRA UTENTE**.
 
   .. image:: img/Utente_form_crea.png
+
+Esiste la possibilità, esclusivamente per gli utenti del **dominio csi**, nella quale è
+possibile :ref:`l'utoregistrazione <Autoregistrazione_Utente>`.
+
 
 L'utente, se i dati inseriti saranno corretti, verrà generato e quindi disponibile per
 l' :ref:`Accreditamento <Accreditare_Utente>`
