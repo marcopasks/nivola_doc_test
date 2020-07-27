@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/Linee_guida/1_Modelli_di_rete.rst" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Come_fare_per/05.4_Autoregistrazione_Utente" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Come_fare_per/05.1_Creare_Utente.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/05.1_Creare_Utente.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Come_fare_per/05.4_Revocare_Utente.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/05.6_Revocare_Utente.rst" afterDir="false" />
-    </list>
+    <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="234" />
     <option name="y" value="351" />
     <option name="width" value="961" />
@@ -223,7 +217,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.22693452" />
