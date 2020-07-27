@@ -5,15 +5,15 @@
 
 .. _release-2.0.0:
 
-Service Portal 2.0.0 (2020-07-16)
+Service Portal 2.0.0 (2020-07-29)
 ---------------------------------
 
 **New**
 
-*   Importante upgrade tecnologico in modo da sfruttare le potenzialità del deploy della CMP 
+*   Upgrade tecnologico in modo da sfruttare le potenzialità del deploy della CMP 
     su un cluster Kubernates. Maggiore affidabilità e scalabilità del sistema.
     
-*   In fase di creazione di virtual machine e DBaaS è ora possibile avere la previsione del costo
+*   In fase di creazione di virtual machine, DBaaS e STaaS è ora possibile avere la previsione del costo
     mensile delle risorse che si intendono allocare.
 
 *   Completa gestione dei TAG sugli oggetti VM e DBaaS.
@@ -24,8 +24,8 @@ Service Portal 2.0.0 (2020-07-16)
     migliore fruibilità dei dati. Aggiunta la possiblità di avere i costi aggregati per Divisione
     e Organizzazione.
     
-*  Integrazione con il sistema di ticketing  Remedy per le richieste di supporto effettuate 
-   tramite Service Portal.
+*  Integrazione con il sistema di ticketing  Remedy per le richieste di supporto sugli oggetti DBaaS 
+   effettuate tramite Service Portal.
 
     
 **Changed**
@@ -36,7 +36,9 @@ Service Portal 2.0.0 (2020-07-16)
 
 *   Aggiunti nuovi tagli per il dimensionamento dei Volumi e dei dischi.
 
-*
+*   Migliorato il sistema di gestione Errori.
+
+*   Evoluzione delle procedure di calcolo giornaliero dei costi con generazione di report pdf e csv
 
     
 
@@ -47,7 +49,8 @@ Service Portal 2.0.0 (2020-07-16)
 
 *   Risolto il problema  #936  #937 per la visualizzazione liste strutture organizzative.
 
-*  
+*  Issue #1071, #1072 relative alla creazione vm con immagini Microsoft.
+
 
 .. _release-1.9.0:
 
