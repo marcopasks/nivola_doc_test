@@ -84,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Come_fare_per/02_Come_muovere_primi_passi.rst" />
         <option value="$PROJECT_DIR$/Come_muovere_primi_passi/index_come_muovere_primi_passi.rst" />
         <option value="$PROJECT_DIR$/index_Nivola_doc" />
         <option value="$PROJECT_DIR$/Glossario/Glossario.rst" />
@@ -135,6 +134,7 @@
         <option value="$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.1_Creare_Utente.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.4_Autoregistrazione_Utente" />
+        <option value="$PROJECT_DIR$/Come_fare_per/05.4_Autoregistrazione_Utente.rst" />
       </list>
     </option>
   </component>
@@ -407,10 +407,10 @@
     <entry file="file://$PROJECT_DIR$/Come_fare_per/05.1_Creare_Utente.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/05.4_Autoregistrazione_Utente.rst">
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente.rst">
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/05.4_Autoregistrazione_Utente.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/img/Autoreg_Utente_registra.png">
