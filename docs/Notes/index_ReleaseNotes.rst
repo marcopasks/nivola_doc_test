@@ -24,8 +24,8 @@ Service Portal 2.0.0 (2020-07-29)
     migliore fruibilità dei dati. Aggiunta la possiblità di avere i costi aggregati per Divisione
     e Organizzazione.
     
-*  Integrazione con il sistema di ticketing  Remedy per le richieste di supporto sugli oggetti DBaaS 
-   effettuate tramite Service Portal.
+*   Integrazione con il sistema di ticketing  Remedy per le richieste di supporto sugli oggetti DBaaS 
+    effettuate tramite Service Portal.
 
     
 **Changed**
@@ -49,7 +49,7 @@ Service Portal 2.0.0 (2020-07-29)
 
 *   Risolto il problema  #936  #937 per la visualizzazione liste strutture organizzative.
 
-*  Issue #1071, #1072 relative alla creazione vm con immagini Microsoft.
+*   Issue #1071, #1072 relative alla creazione vm con immagini Microsoft.
 
 
 .. _release-1.9.0:
