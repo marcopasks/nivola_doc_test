@@ -29,4 +29,20 @@ per la governance delle componenti, sulle quali è stato richiesto il **monitora
 
 .. image:: img/Monitoraggio_Dashboard.png
 
+A titolo di esempio è possibile raggiungere, la risorsa monitorata, cliccando su **Dashboard**
+e scegliendo **Manage** tra le voci esposte dal sistema
+
+.. image:: img/Monitoraggio_Manage.png
+
+Optare per **Resource** tra le varie opzioni
+
+.. image:: img/Monitoraggio_Resource.png
+
+Specificare il Sito e l'host monitorato per vedere i dettagli del controllo in corso.
+
+.. image:: img/Monitoraggio_VM.png
+
+
+
+
 
