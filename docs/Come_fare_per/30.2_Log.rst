@@ -7,14 +7,12 @@ E' possibile attivare il servizio di Log utilizzando la funzione **Richiesta sup
 
 .. image:: img/Richiesta_Assistenza.png
 
-Dall'elenco attraverso il pulsante **"+"** compilare
-la richiesta specificando si richiede il servizio di **Log** nel messaggio
+Dall'elenco attraverso il pulsante **"+"** compilare la richiesta specificando si richiede il servizio di **Log** nel messaggio
 e premere invia.
 
 .. image:: img/Richiesta_email.png
 
-Sulla base della richiesta, il supporto, vi contatterà per modellare insieme
-il servizio sulle specifiche necessità.
+Sulla base della richiesta, il supporto, vi contatterà per modellare insieme il servizio sulle specifiche necessità.
 
 Il servizio sarà fruibile dal portale, attraverso la label **Log e management**
 oppure utilizzando l'url https://logwatch.site01.nivolapiemonte.it/login?next=%2F
