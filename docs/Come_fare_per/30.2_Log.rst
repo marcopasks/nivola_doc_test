@@ -7,7 +7,7 @@ E' possibile attivare il servizio di Log utilizzando la funzione **Richiesta sup
 
 .. image:: img/Richiesta_Assistenza.png
 
-Dall'elenco attraverso il pulsante **"+"**,
+Dall'elenco attraverso il pulsante **"+"**
 
 .. image:: img/Elenco_Richieste.png
 
@@ -16,7 +16,8 @@ e premere invia.
 
 .. image:: img/Richiesta_email.png
 
-Sulla base della richiesta, il supporto, vi contatterà per modellare insieme il servizio sulle specifiche necessità.
+Sulla base della richiesta, il supporto, vi contatterà per modellare insieme
+il servizio sulle specifiche necessità.
 
 Il servizio sarà fruibile dal portale, attraverso la label **Log e management**
 oppure utilizzando l'url https://logwatch.site01.nivolapiemonte.it/login?next=%2F
@@ -31,12 +32,10 @@ Selezionare l'oggetto tra quelli proposti dal sistema.
 
 .. image:: img/Kibana_Selezionare.png
 
-
 Procedere all'utilizzo della Dashboard di Kibana sulla base delle esigenze. A titolo di esempio
 è possibile utilizzare il tasto **Discover**.
 
 .. image:: img/Kibana_Discover.png
-
 
 Per selezionare un server e indicare il lasso di tempo in cui poter visualizzare i log
 
