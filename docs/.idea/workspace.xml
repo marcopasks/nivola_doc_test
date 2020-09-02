@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327537dd-ecfc-4dd2-be4f-f9c381c6904d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Come_fare_per/30.3_Monitoraggio.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/30.3_Monitoraggio.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Come_fare_per/30.2_Log.rst" beforeDir="false" afterPath="$PROJECT_DIR$/Come_fare_per/30.2_Log.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Come_fare_per/30.3_Monitoraggio.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -59,12 +59,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/05.0_Creare_Accreditare_Utente.rst">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/05.1_Creare_Utente.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Come_fare_per/05.1_Creare_Utente.rst">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Come_fare_per/30.2_Log.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
@@ -93,7 +93,6 @@
         <option value="$PROJECT_DIR$/Service_Portal/index_Service_Portal.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.0_Creare_utente.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/30.0_Strumenti.rst" />
-        <option value="$PROJECT_DIR$/Come_fare_per/30.2_Log.rst" />
         <option value="$PROJECT_DIR$/Overview_Nivola/1_Cosa_e_Nivola.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.4_Cancellare_VM.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/11.3_Gestire_VM.rst" />
@@ -137,6 +136,7 @@
         <option value="$PROJECT_DIR$/Come_fare_per/05.4_Autoregistrazione_Utente" />
         <option value="$PROJECT_DIR$/Come_fare_per/05.4_Autoregistrazione_Utente.rst" />
         <option value="$PROJECT_DIR$/Come_fare_per/30.3_Monitoraggio.rst" />
+        <option value="$PROJECT_DIR$/Come_fare_per/30.2_Log.rst" />
       </list>
     </option>
   </component>
@@ -164,17 +164,6 @@
               <item name="docs" type="b2602c69:ProjectViewProjectNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Come_fare_per" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Come_fare_per" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Usare_Cli" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +214,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.24181548" />
@@ -367,9 +356,6 @@
     <entry file="file://$PROJECT_DIR$/Usare_Cli/80.0_howto-copy-file.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.2_Log.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Come_fare_per/img/Autoreg_Utente_compila_campi.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -412,10 +398,13 @@
     <entry file="file://$PROJECT_DIR$/Come_fare_per/16.2_Gestire_STAAS.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.3_Monitoraggio.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Come_muovere_primi_passi/10_Passaggi_necessari.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.3_Monitoraggio.rst">
+    <entry file="file://$PROJECT_DIR$/Come_fare_per/30.2_Log.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
