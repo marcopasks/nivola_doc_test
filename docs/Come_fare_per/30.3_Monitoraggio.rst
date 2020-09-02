@@ -8,8 +8,11 @@ la funzione **Richiesta supporto**.
 
 .. image:: img/Richiesta_Assistenza.png
 
-Dall'elenco attraverso il pulsante **"+"** compilare
-la richiesta specificando: **Account**, **VM** e **Cartella** nel messaggio
+Dall'elenco richieste attraverso il pulsante **"+"**
+
+.. image:: img/Elenco_Richieste.png
+
+Compilare il pannello, specificando: **Account**, **VM** e **Cartella** nel messaggio
 e premere invia.
 
 .. image:: img/Richiesta_email.png
