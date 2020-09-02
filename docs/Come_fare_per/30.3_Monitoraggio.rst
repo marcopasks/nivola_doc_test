@@ -19,9 +19,8 @@ e premere invia.
 
 Sulla base delle indicazioni ricevute, il supporto,
 attiverà il **Monitoraggio** e avviserà il richiedente attraverso l'e-mail indicata.
-
 Il servizio sarà fruibile dal portale, attraverso la label **Monitoraggio**
-oppure utilizzando l'url https://syswatch.nivolapiemonte.it/?orgId=1
+oppure utilizzando l'url: https://syswatch.nivolapiemonte.it/?orgId=1
 
 .. image:: img/Monitoraggio_Innesco.png
 
