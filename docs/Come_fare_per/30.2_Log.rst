@@ -7,9 +7,13 @@ E' possibile attivare il servizio di Log utilizzando la funzione **Richiesta sup
 
 .. image:: img/Richiesta_Assistenza.png
 
-Dall'elenco attraverso il pulsante **"+"**
+Dall'elenco richieste
 
 .. image:: img/Elenco_Richieste.png
+
+Premere il pulsante **"+"**
+
+.. image:: img/Add_VM.png
 
 Compilare la form, specificando che si richiede il servizio di **Log** nel messaggio
 e premere invia.
