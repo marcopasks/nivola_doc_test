@@ -35,7 +35,7 @@ Procedere all'utilizzo della Dashboard di Kibana sulla base delle esigenze. A ti
 
 .. image:: img/Kibana_Discover.png
 
-Per selezionare un server e indicare lo spazio temporale in cui visualizzare i log
+Per selezionare l'indice su cui impostare le ricerche e personalizzare i filtri secondo le proprie esigenze.
 
 .. image:: img/Kibana_Risultato.png
 
