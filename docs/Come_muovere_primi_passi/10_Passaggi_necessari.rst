@@ -85,7 +85,7 @@ che ad ogni livello, potranno agire sugli oggetti con compiti specifici.
 ======================
 
 Dopo la creazione dell'Account e l'associazione delle utenze al profilo organizzativo corretto
-è da verificare la corretta configurazione dei propri VPC (Virtual Private clud). All'interno
+è da verificare la corretta configurazione dei propri **VPC (Virtual Private Clud)**. All'interno
 dei propri VPC l'utente potrà gestire e configurare le proprie risorse. Il **VPC**
 garantisce il necessario isolamento tra le varie organizzazioni.
 
