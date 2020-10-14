@@ -3,6 +3,48 @@
 **Release Notes**
 ===================================
 
+.. _release-2.1.0:
+
+Service Portal 2.1.0 (2020-10-04)
+---------------------------------
+
+**New**
+
+*   Aggiunta la gestione TAG anche per gli oggetti di tipo STaaS.
+    
+*   Nelll'elenco delle VM per Account viene visualizzata anche la colonna Tag. E' quindi possibile 
+    effettuare la ricerca anche su questo campo Tag.
+
+*   L'utente di Backoffice può visualizzare i Security Group e i VPC degli Account. 
+
+*   E' ora possibile visualizzare i Costi e Consumi anche relativi ad un'Organizzazione
+
+*   L'utente Master/Viewer di account può consultare l'elenco dei servizi di gestione attivati sulle
+    proprie risorse
+    
+
+    
+**Changed**
+
+*   Migliorati i report pdf/csv relativi ai Costi e Consumi mensili.
+
+*   Il report pdf di dettaglio mensile Costi è ora accedibile e scaricabile direttamente
+    dalla voce di menu "Costi e Consumi"
+
+
+
+**Fixed**    
+    
+*   Risolto bug #1118. La naming convention dei dbaas non prevede caratteri minuscoli.
+
+*   Migliorata la fruibilità della funzione di add rule per i Security Group (#1113)
+
+*   I Tag relativi agli oggetti VM, DBaaS, STaaS possono contenere fino a 64 caratteri (#1083) 
+
+*   Risolti bug #1137, #1117, #1114, #1113, #1058, #594
+
+
+
 .. _release-2.0.0:
 
 Service Portal 2.0.0 (2020-07-29)
