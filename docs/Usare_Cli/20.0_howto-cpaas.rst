@@ -39,44 +39,37 @@ role with privileges who permit to use add command. The way to use the command a
 
 .. code-block:: bash
 
-    $ beehive bu cpaas vms add name=.. account=.. type=.. subnet=.. image=.. security-group=.. key-name=.. [pwd=..] [main-disk=..] [disks=..] [hypervisor=..] [meta=..] [options ...]
+    $ beehive3 bu cpaas vms add -name NAME -account ACCOUNT -type TYPE -subnet SUBNET -image IMAGE -sg SG [-sshkey SSHKEY] [-pwd PWD] [-main-disk MAIN_DISK] [-other-disk OTHER_DISK][-hypervisor HYPERVISOR][-host-group HOST_GROUP][-multi-avz MULTI_AVZ] [-meta META]
 
-      Add Virtual Machine.
+      Create a Virtual Machine.
 
       Fields:
-        name                  vm name
-        account               account id or composed name (org.div.account)
-        type                  vm type
-        subnet                subnet id or name
-        image                 image id or name
-        security-group        security group id or name
-        key-name              ssh key name
+        name                  virtual machine name
+        account               parent account id
+        type                  virtual machine type
+        subnet                virtual machine subnet id
+        image                 virtual machine image id
+        sg                    virtual machine security group id
+
+        sshkey                ssh key name [optional]
         pwd                   root password [optional]
         main-disk             optional main disk size configuration. Use <size>:<tag> to set custom disk size and storage tag.
                               Ex. 5:oracle [optional]
-        disks                 list of additional disk sizes comma separated. Use :<tag> to set custom storage tag.
+        other-disk            list of additional disk sizes comma separated. Use :<tag> to set custom storage tag.
                               Ex. 5,10 or 5:oracle,10 [optional]
-        hypervisor            set hypervisor. Can be: openstack or vsphere [default=openstack]
+        hypervisor            set hypervisor. Can be: openstack or vsphere [optional default=openstack]
         meta                  custom metadata [optional]
 
       optional arguments:
         -h, --help            show this help message and exit
-        --debug               toggle debug output
-        --quiet               suppress all output
-        -o {json}             output handler
-        -v, --version         show program's version number and exit
+        -y                    Force delete
+        -e ENV, --env ENV     Execution environment
+        -f FORMAT             Output format
         -k KEY, --key KEY     Secret key file to use for encryption/decryption
         --vault VAULT         Ansible vault password to use for inventory decryption
-        -e ENV, --env ENV     Execution environment
-        -E ENVS, --envs ENVS  Comma separated execution environments
-        -f FRMT, --frmt FRMT  response format
-        --color COLOR         response colered. Can be true or false. [default=true]
-        --verbose VERBOSITY   ansible verbosity
-        --cmds                list available commands
-        --notruncate          disable long string truncation
-        --truncate TRUNCATE   set max length of long string
-        --curl                log curl request
-        --fields FIELDS       response fields
+        --time                Print command execution time
+        --notruncate          Disable truncate of output
+        --curl                Print api requst as curl command in console log
 
 
 
@@ -94,11 +87,11 @@ to create a usable VM:
 
 First Step
 
-You are going to remember the Account id using list command
+You are going to find the Account id using list command
 
 .. code-block:: bash
 
-    $ beehive bu accounts list
+    $ beehive3 bu accounts get
 
        Account list obtained
 
@@ -110,30 +103,40 @@ List command help you to get from Nivola the Types that you can use within accou
 
 .. code-block:: bash
 
-    $  beehive bu cpaas vms types list accounts=account-demo
+    $  beehive3 bu cpaas vms types 
 
 
        VM Types list obtained
 
-       id                                    instance_type    desc                        status    active    creation              is_default
-       ------------------------------------  ---------------  --------------------------  --------  --------  --------------------  ------------
-       9bb61461-f6e6-4540-99ea-2de3c0eac140  vm.l8.4xlarge    vcpus:8 ram:56GB disk:80GB  ACTIVE    True      2019-02-19T11:11:01Z  False
-       d509186d-0b9a-45ad-8da4-64aa4a0b5282  vm.l8.3xlarge    vcpus:8 ram:48GB disk:80GB  ACTIVE    True      2019-02-19T11:11:01Z  False
-       76a9b1da-b118-40ad-b0f8-31450b696f33  vm.l8.2xlarge    vcpus:8 ram:40GB disk:80GB  ACTIVE    True      2019-02-19T11:11:00Z  False
-       e040ac12-86f5-41b1-a329-f3c3213b183x  vm.l8.xlarge     vcpus:8 ram:32GB disk:80GB  ACTIVE    True      2019-02-19T11:10:59Z  False
-       7ddd3c4c-0b32-401f-bf3b-e90519ef6a3z  vm.l8.large      vcpus:8 ram:24GB disk:80GB  ACTIVE    True      2019-02-19T11:10:58Z  False
-       8b8c93a2-376d-4a5b-94d0-48cc57003339  vm.m8.3xlarge    vcpus:8 ram:48GB disk:40GB  ACTIVE    True      2019-02-19T11:10:57Z  False
-       860e7430-5244-4179-9e09-d8d8e97fe57g  vm.m8.2xlarge    vcpus:8 ram:40GB disk:40GB  ACTIVE    True      2019-02-19T11:10:57Z  False
-       6affa6af-5c6d-4725-8311-354837a6ed8h  vm.m8.xlarge     vcpus:8 ram:32GB disk:40GB  ACTIVE    True      2019-02-19T11:10:56Z  False
-       d15850cb-6ae7-4569-bdbb-27e8558c56f1  vm.m8.large      vcpus:8 ram:24GB disk:40GB  ACTIVE    True      2019-02-19T11:10:55Z  False
-       526ff3e0-ceb7-4f3c-9c35-ba2274b0f49a  vm.m4.6xlarge    vcpus:4 ram:48GB disk:40GB  ACTIVE    True      2019-02-19T11:10:54Z  False
+       id                                    instance_type    desc                           vcpus  disk    ram
+       1bc4e93c-2130-4843-937b-01a44d80422d  vm.l16.5xlarge   vcpus:16 ram:64GB disk:80GB       16  80GB    64GB
+       0ab0ce63-b3b7-4a5b-92f7-1d9bbcb4dd98  vm.l16.4xlarge   vcpus:16 ram:56GB disk:80GB       16  80GB    56GB
+       cf63bf74-1355-463d-b785-3b93eb28718d  vm.l16.3xlarge   vcpus:16 ram:48GB disk:80GB       16  80GB    48GB
+       c6af9f07-65a7-4ebb-aab2-17bf6772d2c5  vm.l16.2xlarge   vcpus:16 ram:40GB disk:80GB       16  80GB    40GB
+       625a4c5a-506b-44b6-8384-97e19725d850  vm.l16.xlarge    vcpus:16 ram:32GB disk:80GB       16  80GB    32GB
+       d35d19b3-d6b8-4208-b690-a51da2525497  vm.l16.large     vcpus:16 ram:24GB disk:80GB       16  80GB    24GB
+       af209b92-d5e6-4e60-8139-5b2492f569a3  vm.c1.one        vcpus:12 ram:8GB disk:40GB        12  40GB    8GB
+       be4aea04-2758-41ad-aeeb-931b83369388  vm.l8.7xlarge    vcpus:8 ram:128GB disk:80GB        8  80GB    128GB
+       50ede1ca-cea7-4d15-b2ff-db7ce96ff36d  vm.l8.6xlarge    vcpus:8 ram:96GB disk:80GB         8  80GB    96GB
+       38ff9b80-7ba6-4aa8-b6db-3cdaeb17247f  vm.l8.5xlarge    vcpus:8 ram:64GB disk:80GB         8  80GB    64GB
+       9bb61461-f6e6-4540-99ea-2de3c0eac141  vm.l8.4xlarge    vcpus:8 ram:56GB disk:80GB         8  80GB    56GB
+       d509186d-0b9a-45ad-8da4-64aa4a0b5284  vm.l8.3xlarge    vcpus:8 ram:48GB disk:80GB         8  80GB    48GB
+       76a9b1da-b118-40ad-b0f8-31450b696f99  vm.l8.2xlarge    vcpus:8 ram:40GB disk:80GB         8  80GB    40GB
+       e040ac12-86f5-41b1-a329-f3c3213b183a  vm.l8.xlarge     vcpus:8 ram:32GB disk:80GB         8  80GB    32GB
+       7ddd3c4c-0b32-401f-bf3b-e90519ef6a34  vm.l8.large      vcpus:8 ram:24GB disk:80GB         8  80GB    24GB
+       8b8c93a2-376d-4a5b-94d0-48cc5700333b  vm.m8.3xlarge    vcpus:8 ram:48GB disk:40GB         8  40GB    48GB
+       860e7430-5244-4179-9e09-d8d8e97fe57c  vm.m8.2xlarge    vcpus:8 ram:40GB disk:40GB         8  40GB    40GB
+       6affa6af-5c6d-4725-8311-354837a6ed8a  vm.m8.xlarge     vcpus:8 ram:32GB disk:40GB         8  40GB    32GB
+       d15850cb-6ae7-4569-bdbb-27e8558c56f0  vm.m8.large      vcpus:8 ram:24GB disk:40GB         8  40GB    24GB
+       526ff3e0-ceb7-4f3c-9c35-ba2274b0f59a  vm.m4.6xlarge    vcpus:4 ram:48GB disk:40GB         4  40GB    48GB
+
 
 
 List command help you to get from Nivola the Subnets that you can use within account-demo
 
 .. code-block:: bash
 
-    $  beehive bu cpaas subnets list accounts=account-demo
+    $  beehive3 bu netaas subnets list -accounts Acc_demo1_nmsflike -accounts account-demo
 
        Subnets list obtained
 
@@ -153,22 +156,31 @@ List command help you to get from Nivola the Images that you can use within acco
 
 .. code-block:: bash
 
-    $  beehive bu cpaas images list accounts=account-demo
+    $  beehive3 bu cpaas images list -accounts account-demo
 
        Images list obtained
 
-       id                                    name          state      type     account         platform
-       ------------------------------------  ------------  ---------  -------  ---------       -------------
-       dd07271b-410e-4162-82ec-572a9904b4b8  Centos7-nmsf  available  machine  test            centos 7.6
-       97ca993d-f2ff-46fb-81b6-0331e21b5575  Ubuntu16      available  machine  gaetest         ubuntu 16
-       36ba1d80-58f4-4f20-97c2-384cc0d73085  OracleLinux7  available  machine  gaetest         OracleLinux 7
-       ab343efb-a2fe-4e94-b293-5b037dbaeb0e  Centos6       available  machine  gaetest         centos 6.9
-       cfe3ffd2-0b1e-4279-b17d-6178a3adba31  Centos7       available  machine  gaetest         centos 7.    5
-       aaa8e2c7-7c73-47c3-9766-2dc2f3844949  Ubuntu16      available  machine  account-demo    ubuntu 16
-       a5164e53-4e28-4f99-9c10-5c893fd9dadf  OracleLinux7  available  machine  account-demo    OracleLinux 7
-       66c4c569-8a22-4de1-ab9e-573e66706733  Centos6       available  machine  account-demo    centos 6.9
-       01fb2a8f-2d14-47c2-aa70-f780b1cf8a8f  Centos7       available  machine  account-demo    centos 7.5
-       38a085d0-491e-43ed-bc4b-04d57f81d4cf  Ubuntu16      available  machine  test            ubuntu 16
+       id                                    name                    state      type     account       platform       hypervisor
+       24d58a6a-3828-4bcf-a003-a885d135d33c  Oracle19EE              available  machine  account-demo  OracleLinux 7  vsphere
+       6686379b-bc54-4826-9a5f-2fc895077ebf  Oracle12EE              available  machine  account-demo  OracleLinux 7  vsphere
+       ed3918ed-938c-4155-bf68-ea62b2d666ef  Oracle19                available  machine  account-demo  None None
+       8bb43ffd-4385-438a-abbd-7991f04fae77  Oracle12                available  machine  account-demo  OracleLinux 7  vsphere
+       3dd93fe2-0d81-4657-bc7b-1d61352e38e0  Oracle11                available  machine  account-demo  OracleLinux 7  vsphere
+       2f330fcd-f0d2-4711-a4ec-b8ebac94a43e  RedhatLinux8            available  machine  account-demo  RedhatLinux 8  openstack
+       ddc7aa6d-26fd-413f-b7ed-056c6e6d25a7  Centos8                 available  machine  account-demo  centos 8       openstack
+       50276360-e996-40f1-a395-f801bc561767  MicrosoftSqlServer2017  available  machine  account-demo  Windows 2016   vsphere
+       40f89578-4e90-4363-9898-cf86e0092062  Windows2019             available  machine  account-demo  Windows 2019   vsphere
+       48d5bdbd-7876-44ab-b040-f107c9944d63  Windows2012             available  machine  account-demo  Windows 2012   vsphere
+       96755454-1d2a-40dc-8744-d557f8156a76  Windows2016             available  machine  account-demo  Windows 2016   vsphere
+       c612bbe9-ec94-46d7-978a-ab5d7e61543d  OracleLinux7            available  machine  account-demo  OracleLinux 7  openstack
+       111ffa24-0729-48ff-b1a2-e23ade0fa77d  Ubuntu18                available  machine  account-demo  ubuntu 18      openstack
+       e2d0edb7-6f6a-498e-9c02-cede3fb9074d  Centos6-nmsf            available  machine  account-demo  centos 6.10    openstack
+       64adf40f-7378-4951-95cc-ea364dffe8c8  Centos7-docker          available  machine  account-demo  centos 7.7     openstack
+       766a58cb-6c92-44d8-b997-c44ebaf07cb1  Centos7                 available  machine  account-demo  centos 7.5     openstack,vsphere
+       79064aba-8627-4e6b-af09-53d166154335  Ubuntu16                available  machine  account-demo  ubuntu 16      openstack
+       c3508165-9c39-4c71-9ce8-7efe7457bd49  Centos7-nmsf            available  machine  account-demo  centos 7.6     openstack
+       7c392c75-3b7c-4591-8af3-a7550f1f8ec9  Centos6                 available  machine  account-demo  centos 6.9     openstack
+
 
 At last you have to know the ssh key using the command ssh key list
 
