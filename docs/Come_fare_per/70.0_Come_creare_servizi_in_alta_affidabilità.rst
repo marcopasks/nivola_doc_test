@@ -1,7 +1,7 @@
-.. _Attivare_il_supporto:
+.. _Come_creare_servizi_in_alta_affidabilità:
 
-**Come attivare il Supporto**
-*****************************
+**Come creare servizi in alta affidabilità**
+********************************************
 
 Le attività di assistenza relative al Service Portal Nivola e a tutti i
 servizi fruibili non possono prescindere dai livelli di servizio
