@@ -1,4 +1,4 @@
-.. _Come_creare_servizi_in_alta_affidabilità:
+.. _Come_creare_servizi_in_alta_affidabilita:
 
 **Come creare servizi in alta affidabilità**
 ********************************************
