@@ -3,15 +3,28 @@
 **Come creare servizi in alta affidabilità**
 ********************************************
 
-Le attività di assistenza relative al Service Portal Nivola e a tutti i
-servizi fruibili non possono prescindere dai livelli di servizio
-individuati nonché degli strumenti adottati per l’erogazione dei servizi
-di assistenza.
+Sfruttando l’architettura multi zone di Nivola è molto semplice creare servizi
+altamente affidabili in grado di sopperire alla caduta di una delle 3 AZ all’interno della Region.
+Partiamo riprendendo il modello logico visto nella sezione di Overiview
 
-L’attività di assistenza all’interno del Team di Supporto Nivola è
-articolata su uno schema di supporto basato su tre livelli:
 
-#. Developer: chat, compilazione form su SP
+.. image:: img/AF_Overview.png
+
+
+che riproduce in modo schematico la presenza delle 3 AZ dislocate presso i datacenter di Torino e
+Vercelli, collegate tramite anello in fibra ottica ad elevato throughput. L’utente può istanziare
+servizi in single-zone o in multi-zone. In questo secondo caso basterà installare tutte le componenti
+applicative avendo cura di implementare le seguenti linee guida. Prendiamo ad esempio un’applicazione
+standard composta da front-end http, back-end per la logica applicativa con middleware specifico,
+database server relazionale e storage condiviso. I passi sono i seguenti:
+
+
+#. **BACKUP**: Avere cura di attivare i servizi di backup sulle componenti IaaS (virtual machine)
+e sui servizi di DBaaS implementando le politiche di retention più idonee per il servizio. Generalmente
+il backup viene effettuato tramite l’effettuazione di una snapshot giornaliera (ogni 24 ore) nella
+fascia oraria 18-6 e mantenuta per un periodo minimo di 14 giorni. Per i servizi di DBaaS oltre alla
+snapshot è garantito il backup logico dei dati (export) con retention che possono arrivare fino a
+ 10 anni.
 
 #. Standard: chat, compilazione form su SP, invio e-mail, contatto
    telefonico
