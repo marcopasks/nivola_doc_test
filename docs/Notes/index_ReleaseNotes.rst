@@ -12,17 +12,17 @@ Service Portal 2.2.0 (2022-02-17)
 
 *   `[NSP-120] <https://jira.csi.it/browse/NSP-120>`_  - L'utente Master di account può visualizzare le quote del proprio Account
     
-*   [NSP-132] - Modifica/Cambio Security Group VM per Master di Account.
+*   `[NSP-132] <https://jira.csi.it/browse/NSP-132>`_ - Modifica/Cambio Security Group VM per Master di Account.
 
-*   [NSP-140] - Nuova funzionalità di Eliminazione/Rimuozione STAAS 
+*   `[NSP-140] <https://jira.csi.it/browse/NSP-140>`_ - Nuova funzionalità di Eliminazione/Rimuozione STAAS 
 
-*   [NSP-187] - Visualizzazione lista Snapshot Virtual Machine
+*   `[NSP-187] <https://jira.csi.it/browse/NSP-187>`_ - Visualizzazione lista Snapshot Virtual Machine
 
-*   [NSP-207] - integrazione consumi e calcolo costi SQLServer
+*   `[NSP-207] <https://jira.csi.it/browse/NSP-207>`_ - integrazione consumi e calcolo costi SQLServer
 
-*   [NSP-319] - Elenco Dbaas, visualizzazione e possibilità di effettuare ricerche per tags
+*   `[NSP-319] <https://jira.csi.it/browse/NSP-319>`_ - Elenco Dbaas, visualizzazione e possibilità di effettuare ricerche per tags
 
-*   [NSP-300] - Lista VM - aggiunta colonna Securiy Group
+*   `[NSP-300] <https://jira.csi.it/browse/NSP-300>`_ - Lista VM - aggiunta colonna Securiy Group
 
 *   Inserimento listino 2021
     
@@ -30,28 +30,28 @@ Service Portal 2.2.0 (2022-02-17)
     
 **Changed**
 
-*  [NSP-237] - riorganizzazione report pdf e raggruppamenti Costi e Consumi
+*  `[NSP-237] <https://jira.csi.it/browse/NSP-237>`_ - riorganizzazione report pdf e raggruppamenti Costi e Consumi
 
-*  [NSP-180] - adeguamento presentazione costi e consumi su Service Portal
+*  `[NSP-180] <https://jira.csi.it/browse/NSP-180>`_ - adeguamento presentazione costi e consumi su Service Portal
 
-*  [NSP-288] - creazione SG - Ripristino funzionalità
+*  `[NSP-288] <https://jira.csi.it/browse/NSP-288>`_ - creazione SG - Ripristino funzionalità
 
-*  [NSP-412] - Adeguamento strutture dati e gestione listino 2021
+*  `[NSP-412] <https://jira.csi.it/browse/NSP-412>`_ - Adeguamento strutture dati e gestione listino 2021
 
-*  [NSP-274] - Miglioramento interfaccia presentazione rendiconti costi e consumi
+*  `[NSP-274] <https://jira.csi.it/browse/NSP-274>`_ - Miglioramento interfaccia presentazione rendiconti costi e consumi
 
 
 **Fixed**    
     
-*   [NSP-186] - Risolto problema bloccante creazione regole Security Group
+*   `[NSP-186] <https://jira.csi.it/browse/NSP-186>`_ - Risolto problema bloccante creazione regole Security Group
 
-*   [NSP-208] - Risolto bug campo "Descrizione" in creazione regole SG
+*   `[NSP-208] <https://jira.csi.it/browse/NSP-208>`_ - Risolto bug campo "Descrizione" in creazione regole SG
 
-*   [NSP-183] - Lista bud presentazione SecurityGroup maggiore di 10
+*   `[NSP-183] <https://jira.csi.it/browse/NSP-183>`_ - Lista bud presentazione SecurityGroup maggiore di 10
 
-*   [NSP-225] - Bug paginazione visualizzazione servizi account
+*   `[NSP-225] <https://jira.csi.it/browse/NSP-225>`_ - Bug paginazione visualizzazione servizi account
 
-*   [NSP-153] - [NSP-184] - [NSP-186] - [NSP-249] - [NSP-266] - [NSP-321] - [NSP-330] - [NSP-319] - [NSP-342]
+*   `[NSP-153] <https://jira.csi.it/browse/NSP-153>`_ - `[NSP-184] <https://jira.csi.it/browse/NSP-184>`_ - `[NSP-186] <https://jira.csi.it/browse/NSP-186>`_ - `[NSP-249] <https://jira.csi.it/browse/NSP-249>`_ - `[NSP-266] <https://jira.csi.it/browse/NSP-266>`_ - `[NSP-321] <https://jira.csi.it/browse/NSP-321>`_ - `[NSP-330] <https://jira.csi.it/browse/NSP-330>`_ - `[NSP-319] <https://jira.csi.it/browse/NSP-319>`_ - `[NSP-342] <https://jira.csi.it/browse/NSP-342>`_
 
 
 
