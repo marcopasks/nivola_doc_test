@@ -3,6 +3,58 @@
 **Release Notes**
 ===================================
 
+.. _release-2.2.0:
+
+Service Portal 2.2.0 (2022-02-17)
+---------------------------------
+
+**New**
+
+*   `[NSP-120] <https://jira.csi.it/browse/NSP-120>`_  - L'utente Master di account può visualizzare le quote del proprio Account
+    
+*   [NSP-132] - Modifica/Cambio Security Group VM per Master di Account.
+
+*   [NSP-140] - Nuova funzionalità di Eliminazione/Rimuozione STAAS 
+
+*   [NSP-187] - Visualizzazione lista Snapshot Virtual Machine
+
+*   [NSP-207] - integrazione consumi e calcolo costi SQLServer
+
+*   [NSP-319] - Elenco Dbaas, visualizzazione e possibilità di effettuare ricerche per tags
+
+*   [NSP-300] - Lista VM - aggiunta colonna Securiy Group
+
+*   Inserimento listino 2021
+    
+
+    
+**Changed**
+
+*  [NSP-237] - riorganizzazione report pdf e raggruppamenti Costi e Consumi
+
+*  [NSP-180] - adeguamento presentazione costi e consumi su Service Portal
+
+*  [NSP-288] - creazione SG - Ripristino funzionalità
+
+*  [NSP-412] - Adeguamento strutture dati e gestione listino 2021
+
+*  [NSP-274] - Miglioramento interfaccia presentazione rendiconti costi e consumi
+
+
+**Fixed**    
+    
+*   [NSP-186] - Risolto problema bloccante creazione regole Security Group
+
+*   [NSP-208] - Risolto bug campo "Descrizione" in creazione regole SG
+
+*   [NSP-183] - Lista bud presentazione SecurityGroup maggiore di 10
+
+*   [NSP-225] - Bug paginazione visualizzazione servizi account
+
+*   [NSP-153] - [NSP-184] - [NSP-186] - [NSP-249] - [NSP-266] - [NSP-321] - [NSP-330] - [NSP-319] - [NSP-342]
+
+
+
 .. _release-2.1.0:
 
 Service Portal 2.1.0 (2020-10-14)
