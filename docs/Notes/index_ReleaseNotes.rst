@@ -3,9 +3,58 @@
 **Release Notes**
 ===================================
 
+.. _release-2.3.0:
+
+Service Portal 2.3.0 (2021-04-09)
+---------------------------------
+
+**New**
+
+*   Gestione completa delle snapshot VM. La funzionalità comprende:
+
+    *   `[NSP-188] <https://jira.csi.it/browse/NSP-188>`_ - Creazione nuova snapshot per VM
+	
+    *   `[NSP-189] <https://jira.csi.it/browse/NSP-189>`_ - Revert snapshot su VM
+	
+	*   `[NSP-359] <https://jira.csi.it/browse/NSP-359>`_ - Cancellazione snapshot VM
+
+*   `[NSP-113] <https://jira.csi.it/browse/NSP-113>`_ - Compute Service - Visualizzazione lista Volumi associati all'Account
+    
+*   `[NSP-168] <https://jira.csi.it/browse/NSP-168>`_ - Visualizzazione e gestione Notizie con layout grafico
+
+*   `[NSP-466] <https://jira.csi.it/browse/NSP-466>`_ - L'utente di BackOffice può visualizzare le quote relative ai singoli account
+
+*   `[NSP-516] <https://jira.csi.it/browse/NSP-516>`_ - Inserita la nuova sezione Documentazione - SLA 
+
+*   `[NSP-477] <https://jira.csi.it/browse/NSP-477>`_ - Primo prototipo versione Inglese del Service Portal 
+    
+**Changed**
+
+*   `[NSP-465] <https://jira.csi.it/browse/NSP-113>`_ - Modificata la visualizzazione delle Quote di un Account distinguendola per singolo Servizio (Compute, DBaas, Staas)
+
+*   `[NSP-493] <https://jira.csi.it/browse/NSP-493>`_ - Nuova modalità di visualizzazione del menù laterale di navigazione
+
+*   `[NSP-530] <https://jira.csi.it/browse/NSP-530>`_ - Refactoring SP per adeguamento e miglioramento gestione "ruolo Utente"
+
+*   `[NSP-477] <https://jira.csi.it/browse/NSP-530>`_ - Miglioramento presentazione dati report PDF di dettaglio
+
+**Fixed**    
+    
+*   `[NSP-132] <https://jira.csi.it/browse/NSP-132>`_ - Risolto problema funzionalità di modifica/cambio Security Group
+
+*   `[NSP-553] <https://jira.csi.it/browse/NSP-553>`_ - Risolto problema di inserimento Notizie contenenti TAG HTML
+
+*   `[NSP-551] <https://jira.csi.it/browse/NSP-551>`_ - Le azioni di cambio Flavour VM vengono ora inserite nella cronologia attività account
+
+*   `[NSP-390] <https://jira.csi.it/browse/NSP-390>`_ - `[NSP-563] <https://jira.csi.it/browse/NSP-563>`_ - `[NSP-442] <https://jira.csi.it/browse/NSP-442>`_ - `[NSP-572] <https://jira.csi.it/browse/NSP-572>`_ - `[NSP-557] <https://jira.csi.it/browse/NSP-557>`_ - `[NSP-555] <https://jira.csi.it/browse/NSP-555>`_ - `[NSP-330] <https://jira.csi.it/browse/NSP-536>`_ - `[NSP-536] <https://jira.csi.it/browse/NSP-515>`_ 
+
+
+
+===================================
+
 .. _release-2.2.0:
 
-Service Portal 2.2.0 (2022-02-17)
+Service Portal 2.2.0 (2021-02-17)
 ---------------------------------
 
 **New**
@@ -14,7 +63,7 @@ Service Portal 2.2.0 (2022-02-17)
     
 *   `[NSP-132] <https://jira.csi.it/browse/NSP-132>`_ - Modifica/Cambio Security Group VM per Master di Account.
 
-*   `[NSP-140] <https://jira.csi.it/browse/NSP-140>`_ - Nuova funzionalità di Eliminazione/Rimuozione STAAS 
+*   `[NSP-140] <https://jira.csi.it/browse/NSP-140>`_ - Nuova funzionalità di Eliminazione/Rimozione STAAS 
 
 *   `[NSP-187] <https://jira.csi.it/browse/NSP-187>`_ - Visualizzazione lista Snapshot Virtual Machine
 
@@ -24,7 +73,7 @@ Service Portal 2.2.0 (2022-02-17)
 
 *   `[NSP-300] <https://jira.csi.it/browse/NSP-300>`_ - Lista VM - aggiunta colonna Securiy Group
 
-*   Inserimento listino 2021
+*   Inserimento e adeguamento listino 2021
     
 
     
