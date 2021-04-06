@@ -16,7 +16,7 @@ Service Portal 2.3.0 (2021-04-09)
 	
     *   `[NSP-189] <https://jira.csi.it/browse/NSP-189>`_ - Revert snapshot su VM
 	
-	*   `[NSP-359] <https://jira.csi.it/browse/NSP-359>`_ - Cancellazione snapshot VM
+    *   `[NSP-359] <https://jira.csi.it/browse/NSP-359>`_ - Cancellazione snapshot VM
 
 *   `[NSP-113] <https://jira.csi.it/browse/NSP-113>`_ - Compute Service - Visualizzazione lista Volumi associati all'Account
     
