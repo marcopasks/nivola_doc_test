@@ -23,19 +23,19 @@ Per la creazione dello **snapshot**, procedere in questo modo:
 
 .. image:: img/Snap_gestione.png
 
-4. Premer il tasto **"+"**:
+4. Premer il tasto **+**:
 
 .. image:: img/Add_VM.png
 
 5. Scrivere il nome dell'oggetto e premere  **CREA SNAPSHOT**:
 
-.. image:: img/Snap_Indica_nome.png
+.. image:: img/Add_VM.png
 
-6. Il sistema segnalerà la creazione, premendo il pulsante  **Refresh**:
+6. Dopo che il sistema segnalerà la creazione, proseguire premendo il pulsante  **Refresh**:
 
 .. image:: img/Pulsante_refresh.png 
 
-7. La snapshot creata, apparirà nell'elenco.
+7. La nuova snapshot, apparirà nell'elenco.
 
 .. image:: img/Snap_elenco_create.png 
 
