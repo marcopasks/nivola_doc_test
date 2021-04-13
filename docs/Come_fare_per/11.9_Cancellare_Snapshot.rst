@@ -2,14 +2,14 @@
 
 **Cancellare Snapshot**
 ===================
-La funzione rientra nel **servizio compute**. La **Creazione Snapshot** è attivabile dalla parte
+La funzione rientra nel **servizio compute**. La **Cancellazione Snapshot** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
 .. image:: img/VM_innesco_crea.png
 
 A seguito di un clic su **VM**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
-Per la creazione dello **snapshot**, procedere in questo modo:
+Per la cancellazione dello **snapshot**, procedere in questo modo:
 
 1. Selezionare la VM
 
@@ -23,20 +23,13 @@ Per la creazione dello **snapshot**, procedere in questo modo:
 
 .. image:: img/Snap_gestione.png
 
-4. Premer il tasto **+**:
+4. Premere il tasto **Elimina snapshot**:
 
-.. image:: img/Add_VM.png
+.. image:: img/Snap_cancella.png
 
-5. Scrivere il nome dell'oggetto e premere  **CREA SNAPSHOT**:
+5. L'eliminazione avverrà, premendo il tasto **CONFERMA**:
 
-.. image:: img/Add_VM.png
+.. image:: img/Snap_cancella_conferma.png 
 
-6. Il sistema segnalerà la creazione, premendo il pulsante  **Refresh**:
-
-.. image:: img/Pulsante_refresh.png 
-
-7. La snapshot creata, apparirà nell'elenco
-
-.. image:: img/Snap_elenco_create.png 
 
 

@@ -27,7 +27,7 @@ Per modificare lo **snapshot**, procedere in questo modo:
 
 .. image:: img/Snap_revert.png
 
-7. L'operazione ripristino avverrà, premendo il tasto **CONFERMA**:
+5. L'operazione ripristino avverrà, premendo il tasto **CONFERMA**:
 
 .. image:: img/Snap_revert_conferma.png 
 
