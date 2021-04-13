@@ -1,7 +1,7 @@
-.. _Modificare_Snapshot:
+.. _Ripristinare_Snapshot:
 
-**Modificare Snapshot**
-=======================
+**Ripristinare Snapshot**
+=========================
 La funzione rientra nel **servizio compute**. La **modifica Snapshot** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 

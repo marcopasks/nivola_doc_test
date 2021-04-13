@@ -29,7 +29,7 @@ Per la creazione dello **snapshot**, procedere in questo modo:
 
 5. Scrivere il nome dell'oggetto e premere  **CREA SNAPSHOT**:
 
-.. image:: img/Add_VM.png
+.. image:: img/Snap_Indica_nome.png
 
 6. Dopo che il sistema segnalerà la creazione, proseguire premendo il pulsante  **Refresh**:
 
