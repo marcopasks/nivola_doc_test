@@ -1,6 +1,6 @@
-.. _Creare_Snapshot:
+.. _Cancellare_Snapshot:
 
-**Creare Snapshot**
+**Cancellare Snapshot**
 ===================
 La funzione rientra nel **servizio compute**. La **Creazione Snapshot** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
