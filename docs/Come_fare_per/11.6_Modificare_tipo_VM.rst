@@ -14,7 +14,7 @@ Per **modificare il tipo VM** è necessario procedere in questo modo:
 
        .. image:: img/Ricerca_VM.png
 
-    2. Cliccare sul simobolo della matita a fianco del **Tipo VM**;
+    2. Cliccare sul simbolo della matita a fianco del **Tipo VM**;
 
       .. image:: img/VM_pannello_gest.png
 
