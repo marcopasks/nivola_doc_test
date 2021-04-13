@@ -15,5 +15,5 @@ Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
    11.5_Gestione_chiavi_ssh.rst
    11.6_Modificare_tipo_VM.rst
    11.7_Creare_Snapshot.rst
-   11.8_Modificare_Snapshot.rst
+   11.8_Ripristinare_Snapshot.rst
    11.9_Cancellare_Snapshot.rst
