@@ -7,9 +7,9 @@ attivabile dalla parte sinistra dello schermo, cliccando sulla label **VM** sott
 
 .. image:: img/VM_innesco_crea.png
 
-A seguito di un clic su **VM**, il sistema popolerà la
+A seguito di un clic su **V**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
-Per modificare il **Security Group**, di una VM, procedere in questo modo:
+Per attribuire un nuovo *Security Group**, ad una VM, procedere in questo modo:
 
 1. Selezionare la VM
 
@@ -31,7 +31,7 @@ Per modificare il **Security Group**, di una VM, procedere in questo modo:
 
 .. image:: img/VM_Modifica_SG_B.png
 
-6. Terminare premendo il pulsante  **CONFERMA**:
+6. Terminare, premendo il pulsante  **CONFERMA**:
 
 .. image:: img/VM_Modifica_SG_C.png 
 
