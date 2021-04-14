@@ -19,6 +19,7 @@ ad interagire con la piattaforma, attraverso il portale.
       11.7_Creare_Snapshot.rst
       11.8_Ripristinare_Snapshot.rst
       11.9_Cancellare_Snapshot.rst
+      11.10_Modificare_SG.rst 
    14.0_Lavorare_con_DBAAS.rst
       14.1_Creare_DBAAS.rst
       14.2_Gestire_DBAAS.rst

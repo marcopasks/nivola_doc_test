@@ -1,0 +1,42 @@
+.. _Modificare_SG:
+
+**Modificare Security Group**
+=============================
+La funzione rientra nel **servizio compute**. La **Creazione Snapshot** è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
+
+.. image:: img/VM_innesco_crea.png
+
+A seguito di un clic su **VM**, il sistema popolerà la
+parte destra del video con l'**Elenco delle VM**.
+Per la creazione dello **snapshot**, procedere in questo modo:
+
+1. Selezionare la VM
+
+.. image:: img/Snap_elenco_vm.png
+
+2. Fare clic sul pulsante:
+
+.. image:: img/VM_Pannello_controllo.png
+
+3. Dal pannello di Gestione VM, selezionare la voce **SNAPSHOT**:
+
+.. image:: img/Snap_gestione.png
+
+4. Premer il tasto **+**:
+
+.. image:: img/Add_VM.png
+
+5. Scrivere il nome dell'oggetto e premere  **CREA SNAPSHOT**:
+
+.. image:: img/Snap_Indica_nome.png
+
+6. Dopo che il sistema segnalerà la creazione, proseguire premendo il pulsante  **Refresh**:
+
+.. image:: img/Pulsante_refresh.png 
+
+7. La nuova snapshot, apparirà nell'elenco.
+
+.. image:: img/Snap_elenco_create.png 
+
+
