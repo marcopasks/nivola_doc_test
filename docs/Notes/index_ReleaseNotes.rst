@@ -3,6 +3,77 @@
 **Release Notes**
 ===================================
 
+.. _release-2.4.0:
+
+Service Portal 2.4.0 (2021-06-22)
+---------------------------------
+
+**New**
+
+*   Gestione completa Volume Service (Beta). La funzionalità comprende:
+
+    *   `[NSP-360] <https://jira.csi.it/browse/NSP-360>`_ - Creazione nuovo volume
+	
+    *   `[NSP-396] <https://jira.csi.it/browse/NSP-396>`_ - Elenco Volumi associati a VM
+	
+    *   `[NSP-361] <https://jira.csi.it/browse/NSP-361>`_ - Attach volume a VM
+	
+	*   `[NSP-395] <https://jira.csi.it/browse/NSP-395>`_ - Detach volume da VM
+	
+	*   `[NSP-589] <https://jira.csi.it/browse/NSP-589>`_ - Delete volume
+
+*   `[NSP-655] <https://jira.csi.it/browse/NSP-655>`_ - Rimozione SG da istanza VM
+    
+*   `[NSP-658] <https://jira.csi.it/browse/NSP-658>`_ - Aggiunta SG a istanza VM
+
+*   `[NSP-425] <https://jira.csi.it/browse/NSP-425>`_ - Funzionaità di BackOffice. Possibilità di allegare documenti di offerta e provisioning all'account
+
+*   `[NSP-193] <https://jira.csi.it/browse/NSP-193>`_ - Elenco Shares - Visualizzazione colonna Tags
+
+*   `[NSP-301] <https://jira.csi.it/browse/NSP-301>`_ - Disponibilità Report Csv con le risorse associate all'Account
+    
+**Changed**
+
+*   `[NSP-289] <https://jira.csi.it/browse/NSP-289>`_ - Nuova gestione e icone per lo stato risorse
+
+*   `[NSP-637] <https://jira.csi.it/browse/NSP-637>`_ - Ordinamento cronologia attività
+
+*   `[NSP-550] <https://jira.csi.it/browse/NSP-550>`_ - Refactoring per visualizzazione 1366x768
+
+*   `[NSP-707] <https://jira.csi.it/browse/NSP-707>`_ - Lista VM Account - tooltips su nome VM
+
+*   `[NSP-638] <https://jira.csi.it/browse/NSP-638>`_ - Adeguamento interfaccia con aggiunta "Drill-Down" button su menu di navigazione
+
+**Fixed**    
+    
+*   `[NSP-703] <https://jira.csi.it/browse/NSP-703>`_ - Elenco rendiconti account: mancata internazionalizzazione del mese
+
+*   `[NSP-691] <https://jira.csi.it/browse/NSP-691>`_ - bug visualizzazione dettaglio account
+
+*   `[NSP-517] <https://jira.csi.it/browse/NSP-517>` _ problema visualizzazione Service Portal
+
+*   `[NSP-610] <https://jira.csi.it/browse/NSP-610>` _ Lista snapshot "Creation Date" : aggiungere ora e minuti
+
+*   `[NSP-639] <https://jira.csi.it/browse/NSP-639>` _ Bug Quote STAAS/SNAPSHOT
+
+*   `[NSP-641] <https://jira.csi.it/browse/NSP-641>` _ Viusalizzazione report mese in corso (Master Account)
+
+*   `[NSP-642] <https://jira.csi.it/browse/NSP-642>` _ presentazione Costi (Euro) nei report PDF
+
+*   `[NSP-643] <https://jira.csi.it/browse/NSP-643>` _ allineamento colonne report dettaglio pdf
+
+*   `[NSP-648] <https://jira.csi.it/browse/NSP-648>` _ Elenco ruoli compare solo voce (ruoli_elenco.Ospite)
+
+*   `[NSP-649] <https://jira.csi.it/browse/NSP-649>` _ bug tootip menu sinistro
+
+*   `[NSP-336] <https://jira.csi.it/browse/NSP-636>`_ - `[NSP-644] <https://jira.csi.it/browse/NSP-644>`_ - `[NSP-645] <https://jira.csi.it/browse/NSP-645>`_ - `[NSP-650] <https://jira.csi.it/browse/NSP-650>`_ - `[NSP-667] <https://jira.csi.it/browse/NSP-667>`_
+
+
+
+
+
+===================================
+
 .. _release-2.3.0:
 
 Service Portal 2.3.0 (2021-04-09)
