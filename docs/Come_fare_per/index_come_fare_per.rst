@@ -31,7 +31,7 @@ ad interagire con la piattaforma, attraverso il portale.
    16.0_Lavorare_con_STAAS.rst
       16.1_Creare_STAAS.rst
       16.2_Gestire_STAAS.rst
-   17.0_Interagire_con_il_supporto.rst
+   17.0_Lavorare_con_VOLUMI.rst
    18.1_Comunicare_con_internet.rst
    18.2_Abilitare_vpn.rst
    20.0_Gestione_password_esterni.rst
