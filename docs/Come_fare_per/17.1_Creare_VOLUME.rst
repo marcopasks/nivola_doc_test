@@ -1,15 +1,15 @@
-.. _Creare_STAAS:
+.. _Creare_VOLUME:
 
-**Creare lo Storage as Service**
-********************************
+**Creare un Volume**
+********************
 
-Per la creazione di share, procedere come segue:
+Per la creazione di un volume, procedere come segue:
 
 1. Fare clic sul pulsante **"+""**:
 
 .. image:: img/Add_VM.png
 
-2. Inserire il **Nome dello share** nella textbox e cliccare il pulsante **VAI A SPAZIO DI ARCHIVIAZIONE**;
+2. Inserire il **Nome del volume** e tutti i parametri richiesti e cliccare il pulsante **CREA VOLUME**;
 
 .. image:: img/STAAS_crea_generali.png
 
