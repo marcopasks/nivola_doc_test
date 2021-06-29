@@ -1,0 +1,20 @@
+.. 17.0_Lavorare_con_VOLUMI:
+
+**Lavorare con i Volumi**
+*************************
+
+Il servizio per la creazione e gestione dei Volumi è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Servizi**, sotto la funzione **Volumi**.
+
+
+.. image:: img/VOLUMI_collegarsi.png
+
+
+.. toctree::
+   :maxdepth: 2
+
+   17.1_Creare_VOLUME.rst
+   17.2_Attach_VOLUME.rst
+   17.3_Dettach_VOLUME.rst
+   17.4_Cancella_VOLUME.rst
+
