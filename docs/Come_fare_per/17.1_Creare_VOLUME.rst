@@ -17,7 +17,7 @@ Per la creazione di un volume, procedere come segue:
 
 .. image:: img/VOLUMI_creato.png
 
-4. L'istanza creata apparirà, nella lista dei volumi, con lo stato ad impostato ad **"available"** ;
+4. L'istanza creata apparirà, nella lista dei volumi, con lo stato impostato ad **"available"** ;
 
 .. image:: img/VOLUMI_lista.png
 
