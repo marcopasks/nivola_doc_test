@@ -9,28 +9,15 @@ Per la creazione di un volume, procedere come segue:
 
 .. image:: img/Add_VM.png
 
-2. Inserire il **Nome del volume** e tutti i parametri richiesti e cliccare il pulsante **CREA VOLUME**;
+2. Inserire il **Nome del volume** e tutti i parametri richiesti e premere il pulsante **CREA VOLUME**;
 
-.. image:: img/STAAS_crea_generali.png
+.. image:: img/VOLUMI_crea.png
 
-3. Premere **Dimensione dello share**;
+3. Il sistema avviserà dell'avvenuta creazione del volume con il seguente messaggio;
 
-.. image:: img/STAAS_crea_dimensioni.png
+.. image:: img/VOLUMI_creato.png
 
-4. Specificare dimensione dello Share indicando uno dei valori presenti nella **combo box** e proseguire
-premendo il pulsante **VAI A NETWORK**;
+4. L'istanza creata, apparià nella lista dei volumi, con lo stato, ad impostato ad **"available"** ;
 
-.. image:: img/STAAS_crea_dimensioni_combo.png
+.. image:: img/VOLUMI_lista.png
 
-6. Sfruttando le combo box, proposte, inserire: **Region, Availability Zone,
-Subnet**.  Al termine cliccare su **VAI A RIEPILOGO**;
-
-.. image:: img/STAAS_crea_vai_riepilogo.png
-
-7. Controllare i parametri inseriti e premere, **CONFERMA E CREA SHARE**;
-
-.. image:: img/STAAS_crea_conferma.png
-
-8. Lo storage creato comparire nell'elenco;
-
-.. image:: img/STAAS_crea_termina.png
