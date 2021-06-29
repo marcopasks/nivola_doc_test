@@ -32,6 +32,10 @@ ad interagire con la piattaforma, attraverso il portale.
       16.1_Creare_STAAS.rst
       16.2_Gestire_STAAS.rst
    17.0_Lavorare_con_VOLUMI.rst
+      17.1_Creare_VOLUME.rst
+      17.2_Attach_VOLUME.rst
+      17.3_Dettach_VOLUME.rst
+      17.4_Cancella_VOLUME.rst
    18.1_Comunicare_con_internet.rst
    18.2_Abilitare_vpn.rst
    20.0_Gestione_password_esterni.rst

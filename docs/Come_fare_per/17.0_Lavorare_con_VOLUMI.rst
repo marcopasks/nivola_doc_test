@@ -4,7 +4,7 @@
 *************************
 
 Il servizio per la creazione e gestione dei Volumi è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **Servizi**, sotto la funzione **Volumi**.
+sinistra dello schermo, cliccando sulla label **Servizi** e successivamente, la funzione **Volumi**.
 
 
 .. image:: img/VOLUMI_collegarsi.png
