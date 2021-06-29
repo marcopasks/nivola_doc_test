@@ -18,9 +18,9 @@ Service Portal 2.4.0 (2021-06-28)
 	
     *   `[NSP-361] <https://jira.csi.it/browse/NSP-361>`_ - Attach volume a VM
 	
-	*   `[NSP-395] <https://jira.csi.it/browse/NSP-395>`_ - Detach volume da VM
+    *   `[NSP-395] <https://jira.csi.it/browse/NSP-395>`_ - Detach volume a VM
 	
-	*   `[NSP-589] <https://jira.csi.it/browse/NSP-589>`_ - Delete volume
+    *   `[NSP-589] <https://jira.csi.it/browse/NSP-589>`_ - Delete volume
 
 *   `[NSP-655] <https://jira.csi.it/browse/NSP-655>`_ - Rimozione SG da istanza VM
     
@@ -50,21 +50,21 @@ Service Portal 2.4.0 (2021-06-28)
 
 *   `[NSP-691] <https://jira.csi.it/browse/NSP-691>`_ - bug visualizzazione dettaglio account
 
-*   `[NSP-517] <https://jira.csi.it/browse/NSP-517>` _ problema visualizzazione Service Portal
+*   `[NSP-517] <https://jira.csi.it/browse/NSP-517>` _ - problema visualizzazione Service Portal
 
-*   `[NSP-610] <https://jira.csi.it/browse/NSP-610>` _ Lista snapshot "Creation Date" : aggiungere ora e minuti
+*   `[NSP-610] <https://jira.csi.it/browse/NSP-610>` _ - Lista snapshot "Creation Date" : aggiungere ora e minuti
 
-*   `[NSP-639] <https://jira.csi.it/browse/NSP-639>` _ Bug Quote STAAS/SNAPSHOT
+*   `[NSP-639] <https://jira.csi.it/browse/NSP-639>` _ - Bug Quote STAAS/SNAPSHOT
 
-*   `[NSP-641] <https://jira.csi.it/browse/NSP-641>` _ Viusalizzazione report mese in corso (Master Account)
+*   `[NSP-641] <https://jira.csi.it/browse/NSP-641>` _ - Viusalizzazione report mese in corso (Master Account)
 
-*   `[NSP-642] <https://jira.csi.it/browse/NSP-642>` _ presentazione Costi (Euro) nei report PDF
+*   `[NSP-642] <https://jira.csi.it/browse/NSP-642>` _ - presentazione Costi (Euro) nei report PDF
 
-*   `[NSP-643] <https://jira.csi.it/browse/NSP-643>` _ allineamento colonne report dettaglio pdf
+*   `[NSP-643] <https://jira.csi.it/browse/NSP-643>` _ - allineamento colonne report dettaglio pdf
 
-*   `[NSP-648] <https://jira.csi.it/browse/NSP-648>` _ Elenco ruoli compare solo voce (ruoli_elenco.Ospite)
+*   `[NSP-648] <https://jira.csi.it/browse/NSP-648>` _ - Elenco ruoli compare solo voce (ruoli_elenco.Ospite)
 
-*   `[NSP-649] <https://jira.csi.it/browse/NSP-649>` _ bug tootip menu sinistro
+*   `[NSP-649] <https://jira.csi.it/browse/NSP-649>` _ - bug tootip menu sinistro
 
 *   `[NSP-336] <https://jira.csi.it/browse/NSP-636>`_ - `[NSP-644] <https://jira.csi.it/browse/NSP-644>`_ - `[NSP-645] <https://jira.csi.it/browse/NSP-645>`_ - `[NSP-650] <https://jira.csi.it/browse/NSP-650>`_ - `[NSP-667] <https://jira.csi.it/browse/NSP-667>`_
 
