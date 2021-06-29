@@ -9,15 +9,15 @@ Per la creazione di un volume, procedere come segue:
 
 .. image:: img/Add_VM.png
 
-2. Inserire il **Nome del volume** e tutti i parametri richiesti e premere il pulsante **CREA VOLUME**;
+2. Inserire il **Nome del volume** con tutti i parametri richiesti e premere il pulsante **CREA VOLUME**;
 
 .. image:: img/VOLUMI_crea.png
 
-3. Il sistema avviserà dell'avvenuta creazione del volume con il seguente messaggio;
+3. Il sistema avviserà dell'avvenuta creazione del volume, con il seguente messaggio;
 
 .. image:: img/VOLUMI_creato.png
 
-4. L'istanza creata, apparià nella lista dei volumi, con lo stato, ad impostato ad **"available"** ;
+4. L'istanza creata apparirà, nella lista dei volumi, con lo stato ad impostato ad **"available"** ;
 
 .. image:: img/VOLUMI_lista.png
 
