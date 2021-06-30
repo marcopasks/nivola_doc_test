@@ -3,20 +3,26 @@
 **Attach di un Volume**
 ***********************
 
-Per fare un attach di un volume, procedere come segue:
+Per fare l'**attach** di un volume, occorre:
 
-1. Fare clic sul pulsante **"+""**:
+1. Selezionare il volume, spuntando la checkbox:
 
-.. image:: img/Add_VM.png
+.. image:: img/Volumi_selezionato.png
 
-2. Inserire il **Nome del volume** con tutti i parametri richiesti e premere il pulsante **CREA VOLUME**;
+2. Premere il pulsante **Attach**;
 
-.. image:: img/VOLUMI_crea.png
+.. image:: img/Pulsante_connetti.png
 
-3. Il sistema avviserà dell'avvenuta creazione del volume, con il seguente messaggio;
+3. Selezionare la Virtual Machine a cui collegare il volume e cliccare su **ATTACCA**;
 
 .. image:: img/VOLUMI_creato.png
 
-4. L'istanza creata apparirà, nella lista dei volumi, con lo stato impostato ad **"available"** ;
+4. Proseguire, usando il pulsante **CONFERMA**;
 
-.. image:: img/VOLUMI_lista.png
+.. image:: img/VOLUMI_Collega.png
+
+5. Al termine, il volume, comparià nell'elenco con lo stato impostato a **In utilizzo** ;
+
+.. image:: img/VOLUMI_Collegato.png
+
+
