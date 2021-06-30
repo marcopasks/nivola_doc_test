@@ -7,7 +7,7 @@ Per fare l'**attach** di un volume, occorre:
 
 1. Selezionare il volume, spuntando la checkbox:
 
-.. image:: img/Volumi_selezionato.png
+.. image:: img/VOLUMI_selezionato.png
 
 2. Premere il pulsante **Attach**;
 
