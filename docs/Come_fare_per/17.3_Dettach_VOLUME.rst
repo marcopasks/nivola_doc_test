@@ -17,6 +17,11 @@ Per fare un dettach di un volume, è necessario seguire questi passaggi:
 
 .. image:: img/VOLUMI_Pan_gestione.png
 
-4. Per scollegare il volume, utilizzare il pulsante **"Dettach"**, sotto la label **azioni** ;
+4. Per scollegare il volume, utilizzare il pulsante **"Dettach"**, sotto la label **azioni**;
 
 .. image:: img/Pulsante_scollega.png
+
+5. Confermare il **Dettach del volume**, usando il tasto **PROCEDI**;
+
+.. image:: img/VOLUMI_Conferma_dettach.png
+
