@@ -3,7 +3,7 @@
 **Cancellare un Volume**
 ************************
 
-Per fare un dettach di un volume, procedere come segue:
+Per eliminare un volume, procedere in questo modo:
 
 1. Fare clic sul pulsante **"+""**:
 
