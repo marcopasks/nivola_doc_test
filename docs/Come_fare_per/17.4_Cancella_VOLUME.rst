@@ -3,20 +3,25 @@
 **Cancellare un Volume**
 ************************
 
-Per eliminare un volume, procedere in questo modo:
+Per eliminare un volume, procedere secondo questa scaletta:
 
-1. Fare clic sul pulsante **"+""**:
+1. Dall'elenco, selezionare il volume da cancellare, facendo attenzione che sia in stato **available**:
 
-.. image:: img/Add_VM.png
+.. image:: img/VOLUMI_sele_daCancellare.png
 
-2. Inserire il **Nome del volume** con tutti i parametri richiesti e premere il pulsante **CREA VOLUME**;
+2. Premere l'icona **Elimina Volume**;
 
-.. image:: img/VOLUMI_crea.png
+.. image:: img/Pulsante_cancella.png
 
-3. Il sistema avviserà dell'avvenuta creazione del volume, con il seguente messaggio;
+3. Rispondere **SI** alla richiesta di **Conferma**;
 
-.. image:: img/VOLUMI_creato.png
+.. image:: img/VOLUMI_Conferma_cancella.png
 
-4. L'istanza creata apparirà, nella lista dei volumi, con lo stato impostato ad **"available"** ;
+4. Il sistema confermerà, l'avvenuta eliminazione, con il seguente messaggio;
 
-.. image:: img/VOLUMI_lista.png
+.. image:: img/VOLUMI_Conferma_cancella.png
+
+5. Il volume cancellato sparirà dall'elenco;
+
+.. image:: img/VOLUMI_Conferma_cancella.png
+
