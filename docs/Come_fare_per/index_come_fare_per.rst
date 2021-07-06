@@ -43,6 +43,7 @@ ad interagire con la piattaforma, attraverso il portale.
       30.1_Monitoraggio.rst
       30.2_Log.rst
    40.0_Consultare_costi_e_consumi.rst
+   45.100_Scaricare_Elenchi.rst
    70.0_Come_creare_servizi_in_alta_affidabilita.rst
 
    90.0_Attivare_il_supporto.rst
