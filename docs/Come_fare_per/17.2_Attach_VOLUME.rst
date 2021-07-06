@@ -13,9 +13,9 @@ Per fare l'**attach** di un volume, occorre:
 
 .. image:: img/Pulsante_connetti.png
 
-3. Proseguire, usando il pulsante **CONFERMA**;
+3. Proseguire, usando il pulsante **Attacca**;
 
-.. image:: img/VOLUMI_Collega.png
+.. image:: img/VOLUMI_attacca.png
 
 4. Al termine, il volume, comparià nell'elenco con lo stato impostato a **In utilizzo** ;
 
