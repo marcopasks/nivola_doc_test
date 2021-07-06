@@ -7,7 +7,7 @@ In ogni elenco presente nel portale, esiste la funzione per poterlo scaricare ne
 postazione in formato **CSV**. Per ottenere lo scopo, i passaggi sono seguenti:
 
 
-1. Raggiunta la lista, in questo caso quella dei *Volumi*:
+1. Raggiunta la lista, in questo caso, quella dei *Volumi*:
 
 .. image:: img/VOLUMI_elenco1.png
 
