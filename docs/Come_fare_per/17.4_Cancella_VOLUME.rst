@@ -17,7 +17,7 @@ Per eliminare un volume, procedere secondo questa scaletta:
 
 .. image:: img/VOLUMI_Conferma_cancella.png
 
-4. Il volume cancellato sparirà dall'elenco;
+4. Il volume cancellato, sparirà dall'elenco e non sarà più utilizzabile;
 
 .. image:: img/VOLUMI_cancellato.png
 
