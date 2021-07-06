@@ -4,9 +4,15 @@
 ************************************
 
 In ogni elenco presente nel portale, esiste la funzione per poterlo scaricare nella propria
-postazione in formato **CSV**. Per raggiungere lo scopo, i passaggi sono seguenti:
+postazione in formato **CSV**. Per ottenere lo scopo, i passaggi sono seguenti:
 
 
-1. Raggiunta la lista, in questo caso quella degli *Shares*, premere il tasto **Scarica report csv**:
+1. Raggiunta la lista, in questo caso quella dei *Volumi*:
+
+.. image:: img/VOLUMI_elenco1.png
+
+2. Premere il tasto **Scarica report csv**:
 
 .. image:: img/Pulsante_scarica.png
+
+3. Il sistema scaricherà l'elenco, in formato csv, nella postazione.
