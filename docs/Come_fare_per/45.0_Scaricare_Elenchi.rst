@@ -15,4 +15,4 @@ postazione in formato **CSV**. Per ottenere lo scopo, i passaggi sono seguenti:
 
 .. image:: img/Pulsante_scarica.png
 
-3. Il sistema scaricherà l'elenco, in formato csv, nella postazione.
+3. Il sistema scaricherà l'elenco, in formato csv, nella postazione di lavoro.
