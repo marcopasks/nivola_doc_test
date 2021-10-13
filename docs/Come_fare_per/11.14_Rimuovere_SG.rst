@@ -26,7 +26,7 @@ Per rimuovere *Security Group**, dall'istanza, procedere in questo modo:
 
 4. Premere, il pulsante **"X"**, a fianco dell'oggetto da rimuovere;
 
-.. image:: img/Pulsante_rimuovi.
+.. image:: img/Pulsante_rimuovi.png
 
 5. Il sistema eliminerà, dalla lista, il SG.
 
