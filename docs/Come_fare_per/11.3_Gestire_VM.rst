@@ -53,7 +53,13 @@ Per fermare l'attività della Virtual Machine, seguire i seguenti passaggi:
 
       .. image:: img/VM_Pannello_controllo.png
 
-    3. Cliccare su tasto **"START/STOP"**, successivamente su pulsante **"STOP"** e la VM verrà stoppata;
+    3. Optare per tabstrip **"START/STOP/RIAVVIA"**;
+    
+
+      .. image:: img/VM_Pannello_dettagli.png
+
+    
+    4. Concludere, utilizzando il pulsante **"STOP"** e la VM verrà stoppata;
 
       .. image:: img/VM_stop.png
 
@@ -74,8 +80,14 @@ Per effettuare lo **start** della Virtual Machine, procedere come segue:
 
       .. image:: img/VM_Pannello_controllo.png
 
-    3. Concludere con il tasto **"START/STOP"** e successivamente sul pulsante **"START"**;
+    3. Optare per tabstrip **"START/STOP/RIAVVIA"**;
+    
 
+      .. image:: img/VM_Pannello_dettagli.png
+
+    
+    4. Concludere, utilizzando il pulsante **"STOP"** e la VM verrà stoppata;
+    
       .. image:: img/VM_start.png
 
 
