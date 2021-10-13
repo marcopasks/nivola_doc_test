@@ -22,3 +22,7 @@ Per la vedere l'elenco degli **snapshot**, procedere in questo modo:
 3. Optare per il tabstrip **"SNAPSHOT"**;
     
 .. image:: img/VM_Pannello_dettagli.png
+
+4. Il sistema metterà a disposizione l'elenco delle **"SNAPSHOT"** a disposizione;
+
+.. image:: img/VM_Elenco_snap.png
