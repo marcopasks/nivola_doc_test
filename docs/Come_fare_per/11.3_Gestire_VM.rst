@@ -87,6 +87,7 @@ Per effettuare lo **start** della Virtual Machine, procedere come segue:
 
       .. image:: img/VM_start.png
 
+.. _Riavviare VM:
 
 **Riavviare le Virtual Machine**
 ================================
