@@ -14,7 +14,8 @@ Appartengono a questo gruppo di operazioni:
 
     1. :ref:`Cercare VM`
     2. :ref:`Stoppare VM`
-    3. :ref:`Accendere VM`
+    3. :ref:`Accendere VM`    
+    4. :ref:`Riavviare VM`
 
 
 
@@ -43,23 +44,21 @@ Per eseguire una ricerca è necessario procedere in questo modo:
 
 **Stoppare le Virtual Machine**
 ===============================
-Per fermare l'attività della Virtual Machine, seguire i seguenti passaggi:
+Per fermare l'attività della Virtual Machine, seguire questi passaggi:
 
     1. Selezionare la VM dall’**Elenco VM** e fare clic sul bottone **Pannello gestione VM**;
 
-       .. image:: img/Ricerca_VM.png
-
-    2. Cliccare su tasto **"Pannello gestione VM"**;
-
-      .. image:: img/VM_Pannello_controllo.png
-
-    3. Optare per tabstrip **"START/STOP/RIAVVIA"**;
+       .. image:: img/Ricerca_VM_b.png
     
+    2. Usare il bottone **Pannello gestione VM**;
 
+       .. image:: img/Pulsante_dettagli.png
+
+    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
+    
       .. image:: img/VM_Pannello_dettagli.png
-
     
-    4. Concludere, utilizzando il pulsante **"STOP"** e la VM verrà stoppata;
+    4. Concludere, utilizzando il pulsante **"STOP"** e la VM verrà spenta;
 
       .. image:: img/VM_stop.png
 
@@ -88,6 +87,26 @@ Per effettuare lo **start** della Virtual Machine, procedere come segue:
 
       .. image:: img/VM_start.png
 
+
+**Riavviare le Virtual Machine**
+================================
+Per **riavviare** la Virtual Machine, occorrono i seguenti passaggi:
+
+    1. Selezionare la VM dall’**Elenco VM** e fare clic sul bottone **Pannello gestione VM**;
+
+       .. image:: img/Ricerca_VM_b.png
+    
+    2. Usare il bottone **Pannello gestione VM**;
+
+       .. image:: img/Pulsante_dettagli.png
+
+    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
+    
+      .. image:: img/VM_Pannello_dettagli.png
+    
+    4. Ottenere il riavvio, utilizzando il pulsante **"RIAVVIA"**;
+
+      .. image:: img/VM_stop.png
 
 
 
