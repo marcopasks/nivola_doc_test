@@ -39,6 +39,7 @@ ad interagire con la piattaforma, attraverso il portale.
       17.2_Attach_VOLUME.rst
       17.3_Dettach_VOLUME.rst
       17.4_Cancella_VOLUME.rst
+      17.6_Elenco_VOLUMI.rst
    18.1_Comunicare_con_internet.rst
    18.2_Abilitare_vpn.rst
    20.0_Gestione_password_esterni.rst

@@ -17,4 +17,5 @@ sinistra dello schermo, cliccando sulla label **Servizi** e successivamente, la 
    17.2_Attach_VOLUME.rst
    17.3_Dettach_VOLUME.rst
    17.4_Cancella_VOLUME.rst
+   17.6_Elenco_VOLUMI.rst
 
