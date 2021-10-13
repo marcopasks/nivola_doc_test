@@ -1,0 +1,17 @@
+.. _Elenco_Snapshot:
+
+**Elenco Snapshot**
+===================
+La funzione rientra nel **servizio compute**. La **Creazione Snapshot** è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
+
+.. image:: img/VM_innesco_crea.png
+
+A seguito di un clic su **VM**, il sistema popolerà la
+parte destra del video con l'**Elenco delle VM**.
+Per la creazione dello **snapshot**, procedere in questo modo:
+
+1. Selezionare la VM
+
+.. image:: img/Snap_elenco_vm.png
+

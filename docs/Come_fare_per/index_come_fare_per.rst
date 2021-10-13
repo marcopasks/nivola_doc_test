@@ -17,6 +17,7 @@ ad interagire con la piattaforma, attraverso il portale.
       11.3_Cancellare_VM.rst
       11.4_Gestione_chiavi_ssh.rst
       11.7_Creare_Snapshot.rst
+      11.7.0_Elenco_Snapshot.rst
       11.8_Ripristinare_Snapshot.rst
       11.9_Cancellare_Snapshot.rst
       11.10_Modificare_SG.rst 
