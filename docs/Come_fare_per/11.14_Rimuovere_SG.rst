@@ -1,7 +1,7 @@
-.. _Aggiungere_SG:
+.. _Rimuovere_SG:
 
-**Aggiungere Security Group**
-=============================
+**Rimuovere Security Group**
+============================
 La funzione rientra nel **servizio compute**. L'**Aggiunta del Security Group** è 
 attivabile dalla parte sinistra dello schermo, cliccando sulla label **VM**, sotto **Compute**
 
@@ -12,7 +12,7 @@ parte destra del video con l'**Elenco delle VM**.
 
 Per attribuire un nuovo *Security Group**, ad una di esse, procedere in questo modo:
 
-1. Individuare il sever dall’**Elenco VM**, mettendo una spunta a fianco del nome;
+1. Individuare il sever, dall’**Elenco VM**, mettendo una spunta a fianco del nome;
 
 .. image:: img/Ricerca_VM_a.png
 
@@ -35,7 +35,4 @@ Per attribuire un nuovo *Security Group**, ad una di esse, procedere in questo m
 6. Terminare, premendo il pulsante  **CONFERMA**:
 
 .. image:: img/VM_Conferma_SG.png
-
-
-
 
