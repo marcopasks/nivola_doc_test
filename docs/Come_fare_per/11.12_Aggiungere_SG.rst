@@ -1,14 +1,15 @@
-.. _Modificare_SG:
+.. _Aggiungere_SG:
 
-**Modificare Security Group**
+**Aggiungere Security Group**
 =============================
-La funzione rientra nel **servizio compute**. La **Modifica del Security Group** è 
+La funzione rientra nel **servizio compute**. L'**Aggiunta del Security Group** è 
 attivabile dalla parte sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
 .. image:: img/VM_innesco_crea.png
 
 A seguito di un clic su **V**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
+
 Per attribuire un nuovo *Security Group**, procedere in questo modo:
 
 1. Individuare il sever dall’**Elenco VM**, mettendo una spunta a fianco del nome;
