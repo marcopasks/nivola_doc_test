@@ -80,11 +80,11 @@ Per effettuare lo **start** della Virtual Machine, procedere come segue:
 
        .. image:: img/Pulsante_dettagli.png
 
-    3. Optare per tabstrip **"START/STOP/RIAVVIA"**;
+    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
     
       .. image:: img/VM_Pannello_dettagli.png
     
-    4. Concludere, utilizzando il pulsante **"START"**;
+    4. Concludere, l'operazione, utilizzando il pulsante **"START"**;
 
       .. image:: img/VM_start.png
 
