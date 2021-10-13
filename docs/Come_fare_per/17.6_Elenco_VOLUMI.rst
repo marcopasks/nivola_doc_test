@@ -20,6 +20,6 @@ Per consultare la lista dei **VOLUMI**, procedere in questo modo:
 
 .. image:: img/VM_Pannello_controllo.png
 
-3. Dal pannello di Gestione VM, selezionare la voce **VOLUMI**, per ottenere l'elenco desiderato:
+3. Selezionare la voce **VOLUMI**, per ottenere l'elenco desiderato:
 
-.. image:: img/VM_lista_vol.png.png
+.. image:: img/VM_lista_vol.png
