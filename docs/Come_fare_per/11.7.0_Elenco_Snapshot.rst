@@ -23,6 +23,6 @@ Per la vedere l'elenco degli **snapshot**, procedere in questo modo:
     
 .. image:: img/VM_Pannello_dettagli.png
 
-4. Il sistema metterà a disposizione l'elenco delle **"SNAPSHOT"** a disposizione;
+4. Il sistema metterà a disposizione l'elenco delle **"SNAPSHOT"** presenti;
 
 .. image:: img/VM_Elenco_snap.png
