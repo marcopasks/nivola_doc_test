@@ -9,9 +9,16 @@ sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
 A seguito di un clic su **VM**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
-Per la creazione dello **snapshot**, procedere in questo modo:
+Per la vedere l'elenco degli **snapshot**, procedere in questo modo:
 
-1. Selezionare la VM
+1. Individuare il sever dall’**Elenco VM**, mettendo una spunta a fianco del nome;
 
-.. image:: img/Snap_elenco_vm.png
+.. image:: img/Ricerca_VM_a.png
+    
+2. Usare il bottone **Pannello gestione VM**;
 
+.. image:: img/Pulsante_dettagli.png
+
+3. Optare per il tabstrip **"SNAPSHOT"**;
+    
+.. image:: img/VM_Pannello_dettagli.png
