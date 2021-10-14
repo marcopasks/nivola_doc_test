@@ -19,8 +19,8 @@ dei servizi acquistati e istanziati nell'account.
 .. image:: img/CostiConsumi_Grafici.png
 
 E' possibile scaricare il report dei consumi mensili nel formato  **Pdf** e **CSV**, cliccando l'icona relativa.
-Il **Pdf Sintesi e 	il File CSV Sintesi** riportano mensilmente i costi di ciascun servizio istanziato, riferito ad ogni singola sua componente.
-Nel **Pdf Dettaglio** il consumo dei servizi, per ogni suo elemento, è indicato giornalmente. 
+Il **Pdf Sintesi e 	il File CSV Sintesi** riportano mensilmente i costi di ciascun servizio istanziato, riferito alla singola componente.
+Nel **Pdf Dettaglio** invece, è indicato giornalmente, il consumo dei servizi,  per ogni suo elemento. 
 
 .. image:: img/Consumi_Report.png
 
