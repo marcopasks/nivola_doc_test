@@ -18,7 +18,7 @@ Per rimuovere *Security Group**, dall'istanza, procedere in questo modo:
 
 2. Fare clic sul pulsante:
 
-.. image:: img/VM_Pannello_controllo.png
+.. image:: img/Pulsante_dettagli.png
 
 3. Raggiungere la sezione **"Security Group"**;
     
