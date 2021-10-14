@@ -17,7 +17,7 @@ Per la creazione dello **snapshot**, procedere in questo modo:
 
 2. Fare clic sul pulsante:
 
-.. image:: img/VM_Pannello_controllo.png
+.. image:: img/Pulsante_dettaglio.png
 
 3. Dal pannello di Gestione VM, selezionare la voce **SNAPSHOT**:
 
