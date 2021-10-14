@@ -3,10 +3,10 @@
 **Consultare Quote allocate e utilizzate dai servizi**
 *******************************************************
 
-Le quote destinate ai servizi e la loro occupazione, sono consultabili cliccando la label **Quote servizi**
+Le quote destinate ai servizi e la loro occupazione, sono consultabili cliccando la label **Quote servizi**,
 sotto la label **Amministrazione**
 
-.. image:: img/Quote_Innesco.png
+.. image:: img/Quote_.png
 
 A seguito del clic su  **Quote servizi**, il sistema presenterà nella
 parte destra del video le quote allocate per ciascun servizio, dei limiti, del valore e della percentuale utilizzata al momento.
