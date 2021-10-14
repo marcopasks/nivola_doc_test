@@ -10,7 +10,7 @@ sotto la label **Amministrazione**
 
 A seguito del clic su  **Quote servizi**, il sistema presenterà nella
 parte destra del video le quote allocate per ciascun servizio, dei limiti, del valore e della percentuale utilizzata al momento.
-Il sistema consente di vedere, sfruttando la "Checkbox", il quadro riferito ad ogni singolo servizio.  
+Il sistema consente di vedere, sfruttando la "Checkbox", le quote nel contesto di ogni singolo servizio.  
 
 .. image:: img/Quote.png
 
