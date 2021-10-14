@@ -18,7 +18,7 @@ Per attribuire un nuovo *Security Group**, ad una di esse, procedere in questo m
 
 2. Fare clic sul pulsante:
 
-.. image:: img/VM_Pannello_controllo.png
+.. image:: img/Pulsante_dettagli.png
 
 3. Raggiungere la sezione **"Security Group"**;
     
