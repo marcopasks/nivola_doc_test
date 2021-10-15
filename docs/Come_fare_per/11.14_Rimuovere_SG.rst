@@ -1,7 +1,7 @@
 .. _Rimuovere_SG:
 
-**Rimuovere Security Group**
-============================
+**Rimozione SG da istanza VM**
+==============================
 La funzione rientra nel **servizio compute**. La **Rimozione del Security Group** è 
 attivabile dalla parte sinistra dello schermo, cliccando sulla label **VM**, sotto **Compute**
 
