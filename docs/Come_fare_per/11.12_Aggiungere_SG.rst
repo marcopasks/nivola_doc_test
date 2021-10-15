@@ -1,6 +1,6 @@
 .. _Aggiungere_SG:
 
-**Aggiungere Security Group**
+**Aggiunta SG a istanza VM**
 =============================
 La funzione rientra nel **servizio compute**. L'**Aggiunta del Security Group** è 
 attivabile dalla parte sinistra dello schermo, cliccando sulla label **VM**, sotto **Compute**
