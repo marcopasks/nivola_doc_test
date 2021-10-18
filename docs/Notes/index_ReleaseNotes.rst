@@ -35,7 +35,7 @@ Service Portal 2.5.0 (2021-10-12)
 
 *   `[NSP-813] <https://jira.csi.it/browse/NSP-813>`_ - Logout non più funzionante con SPID
 
-*   `[NSP-871] <https://jira.csi.it/browse/NSP-871>`_ - `[NSP-799] <https://jira.csi.it/browse/NSP-799>`_ - `[NSP-807] <https://jira.csi.it/browse/NSP-807>` _ - `[NSP-808] <https://jira.csi.it/browse/NSP-808>`_ - `[NSP-845] <https://jira.csi.it/browse/NSP-845>` _ - `[NSP-842] <https://jira.csi.it/browse/NSP-842>`
+*   `[NSP-871] <https://jira.csi.it/browse/NSP-871>`_ - `[NSP-799] <https://jira.csi.it/browse/NSP-799>`_ - `[NSP-807] <https://jira.csi.it/browse/NSP-807>`_ - `[NSP-808] <https://jira.csi.it/browse/NSP-808>`_ - `[NSP-845] <https://jira.csi.it/browse/NSP-845>`_ - `[NSP-842] <https://jira.csi.it/browse/NSP-842>`_
 
 
 ===================================
