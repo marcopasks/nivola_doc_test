@@ -3,6 +3,43 @@
 **Release Notes**
 ===================================
 
+.. _release-2.5.0:
+
+Service Portal 2.5.0 (2021-10-12)
+---------------------------------
+
+**New**
+
+
+*   `[NSP-753] <https://jira.csi.it/browse/NSP-753>`_ - Funzionalità di reboot VM
+	
+*   `[NSP-809] <https://jira.csi.it/browse/NSP-809>`_ - BackOffice: visualizzazione attributi WBS e Cliente Committente
+
+**Changed**
+
+*   `[NSP-273] <https://jira.csi.it/browse/NSP-273>`_ - Aggiunto ad "Account" attributo Cliente Pagante
+
+*   `[NSP-578] <https://jira.csi.it/browse/NSP-578>`_ - Modifica matriche per licenze sistema operativo
+
+*   `[NSP-842] <https://jira.csi.it/browse/NSP-842>`_ - Modifica csv risorse share/storage
+
+*   `[NSP-792] <https://jira.csi.it/browse/NSP-792>`_ - Integrazione Api DBAAAS V2.0
+
+**Fixed**    
+    
+*   `[NSP-839] <https://jira.csi.it/browse/NSP-839>`_ - Risoluzione bug creazione DBaaS Mysql
+
+*   `[NSP-840] <https://jira.csi.it/browse/NSP-839>`_ - Risoluzione bug creazione DBaaS SQLServer
+
+*   `[NSP-793] <https://jira.csi.it/browse/NSP-793>`_ - Risoluzione bug modifica flavour VM
+
+*   `[NSP-813] <https://jira.csi.it/browse/NSP-813>`_ - Logout non più funzionante con SPID
+
+*   `[NSP-871] <https://jira.csi.it/browse/NSP-871>`_ - `[NSP-799] <https://jira.csi.it/browse/NSP-799>`_ - `[NSP-807] <https://jira.csi.it/browse/NSP-807>` _ - `[NSP-808] <https://jira.csi.it/browse/NSP-808>`_ - `[NSP-845] <https://jira.csi.it/browse/NSP-845>` _ - `[NSP-842] <https://jira.csi.it/browse/NSP-842>`
+
+
+===================================
+
 .. _release-2.4.0:
 
 Service Portal 2.4.0 (2021-06-28)
