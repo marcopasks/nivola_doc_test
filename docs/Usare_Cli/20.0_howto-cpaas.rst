@@ -97,10 +97,10 @@ Per copiare un file dalla una Postazione di lavoro ad un server di Nivola, proce
 
     [73300@cmpto1-cons02 ~]$ beehive ssh nodes-files get <id_vm> <path_remoto_della_vm/nome_file> <path_locale_CLI/nome_file>
 
-Le seguenti informazioni, sono considerate imprescindibili dal sistema: 
+Le seguenti informazioni, sono considerate, necessarie dal sistema: 
 
 *<id_VM>* è l'id del nodo, ed è un parametro obbligatorio.
 
-<path_locale_CLI/nome_file> indirizzo e il nome dell'archivio sulla PdL di destinzione
+*<path_locale_CLI/nome_file>* indirizzo e il nome dell'archivio sulla PdL di destinzione
 
-*<path_remoto_della_vm/nome_file> indirizzo e il nome file da copiare.
+*<path_remoto_della_vm/nome_file>* locazione e nome file da copiare.
