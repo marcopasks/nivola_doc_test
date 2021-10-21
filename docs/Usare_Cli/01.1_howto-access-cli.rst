@@ -18,5 +18,5 @@ La seconda è per gli utenti esterni:
     ssh <login psnet>@cmpto2-cons02.site02.nivolapiemonte.it
 
 
-La "login psnet" fornita da Nivola  Support Center.
+La "login psnet" è fornita da Nivola  Support Center.
 

@@ -12,23 +12,47 @@ E' possibile utlizzare i servizi sfruttando dalla Command Line Interface le segu
 .. _Elenco:
 
 
-Ottenere l'elenco della Virtual Machine
+Ottenere l'elenco delle Virtual Machine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 **nodes get**:
 
-Per ottenere l'elenco delle Virtual Machine, il comando è da usare in questo modo:
+Per vedere l'elenco, delle Virtual Machine, il comando è da usare in questo modo:
 
 .. code-block:: bash
 
-    $ beehive ssh nodes get <-size 0>
+    [73300@cmpto1-cons02 ~]$  beehive ssh nodes get <-size 0>
 
-       la risposta al comando saà di questo tipo
+      La risposta al comando sarà di questo tipo
 
        uuid                                    name                                   desc             ip                 date
        ------------------------------------  --------------------------------  -----------------  -------------  ------------------------  
        930aa960-374a-427b-9a33-a7869251e14e  vm-demo.site02.nivolapiemonte.it  vm-demo-374ba65d   10.138.68.48   2021-10-21T12:55:03Z                                             0  ACTIVE    2019-02-20T08:49:15Z
 
-<-size 0> è un parametro opzionale che diventa obbligatorio se l'elenco avesse, più di 20 VM.
+*<-size 0>* è un parametro opzionale ma diventa obbligatorio, qualora l'elenco avesse, più di 20 VM.
+
+.. _Connettersi:
+
+
+Connettersi alla Virtual Machine
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+**nodes connect**:
+
+La connessione al server virtuale avviene, sfruttando il comando:
+
+.. code-block:: bash
+
+    [73300@cmpto1-cons02 ~]$ beehive ssh nodes connect <ip/FQDN>
+
+      La risposta del sistema, al comando, sarà di questo tipo:
+
+      Last login: Wed Oct 20 11:32:34 2021 from 10.138.154.102
+      [root@cl-wf1-appl-demo ~]#
+      [root@cl-wf1-appl-demo ~]#
+
+*<ip/FQDN>* è un parametro obbligatorio, dove è da indicare l'IP o l'FQDN della VM che si vuole raggiungere.
+
 
