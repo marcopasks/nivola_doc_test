@@ -1,8 +1,8 @@
 **Usare la Command Line Interface (CLI)**
 =========================================
 
-In questa sezione si trovano una serie di tutorial per iniziare rapidamente
-ad interagire con la piattaforma, attraverso la Command Line Interface.
+In questa sezione sono raccolte le istruzioni per interagire con la piattaforma, 
+attraverso la Command Line Interface.
 
 .. toctree::
    :maxdepth: 2
