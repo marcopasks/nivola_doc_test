@@ -1,21 +1,22 @@
 .. _howto-access-cli:
 
-Access to CLI
-=============
+Accedere alla CLI
+=================
 
-The ways to access on Command Line Interface (CLI) are two.
-The first is using by the provider's users only:
+Per accedere alla CLI le modalità sono le seguenti:
+
+la prima è quella per gli utenti autenticati su *domnt*:
 
 .. code-block:: bash
 
    ssh <login domnt>@cmpto1-cons02.site01.nivolapiemonte.it
 
-The second, used by business user is:
+La seconda è per gli utenti esterni:
 
 .. code-block:: bash
 
     ssh <login psnet>@cmpto2-cons02.site02.nivolapiemonte.it
 
 
-The "login psnet" is provided by Nivola  Support Center.
+La "login psnet" fornita da Nivola  Support Center.
 
