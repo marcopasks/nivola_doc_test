@@ -2,7 +2,7 @@
 
 Utilizzare i servizi dalla CLI
 ===============================
-E' possibile utlizzare i servizi sfruttando dalla Command Line Interface le seguenti funzioni:
+E' possibile sfruttare i servizi dalla Command Line Interface, attraverso le seguenti funzioni:
 
 -  :ref:`Elenco`
 -  :ref:`Connettersi`
