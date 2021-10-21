@@ -24,7 +24,9 @@ Per vedere l'elenco, delle Virtual Machine, il comando è da usare in questo mod
 
     [73300@cmpto1-cons02 ~]$  beehive ssh nodes get <-size 0>
 
-      La risposta al comando sarà di questo tipo
+La risposta, del sistema, al comando sarà di questo tipo:
+
+.. code-block:: bash
 
        uuid                                    name                                   desc             ip                 date
        ------------------------------------  --------------------------------  -----------------  -------------  ------------------------  
@@ -76,6 +78,29 @@ Per copiare un file dalla una Postazione di lavoro ad un server di Nivola, proce
 
 *<id_VM>* è l'id del nodo, ed è un parametro obbligatorio.
 
-*<path_locale/nome_file>* è l'indirizzo del file da copiare, parametro vincolante.
+*<path_locale/nome_file>* sono l'indirizzo e il nome del file da copiare, parametro vincolante.
 
-*<path_remoto/nome_file>* locazione del file sulla VM di destinazione. E' un indicazione necessaria al sistema.
+*<path_remoto/nome_file>* ovvero la locazione, seguito dal nome del file che avrà sulla VM di destinazione. Sono indicazioni necessarie al sistema.
+
+
+.. _Copiare_sulla_VM:
+
+Copiare un file da una Virtual Machine ad una PdL. 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+**nodes-files put**:
+
+Per copiare un file dalla una Postazione di lavoro ad un server di Nivola, procedere in questo modo:
+
+.. code-block:: bash
+
+    [73300@cmpto1-cons02 ~]$ beehive ssh nodes-files get <id_vm> <path_remoto_della_vm/nome_file> <path_locale_CLI/nome_file>
+
+Le seguenti informazioni, sono considerate imprescindibili dal sistema: 
+
+*<id_VM>* è l'id del nodo, ed è un parametro obbligatorio.
+
+<path_locale_CLI/nome_file> indirizzo e il nome dell'archivio sulla PdL di destinzione
+
+*<path_remoto_della_vm/nome_file> indirizzo e il nome file da copiare.
