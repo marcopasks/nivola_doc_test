@@ -1,10 +1,9 @@
-.. _howto-copy-file:
+.. _Creare_VM_linux:
 
-Copy file
-=========
+Creare Vm Linux.
+===============
 
-There are two ways to make a copy of a file. :ref:`GET<GET>` to copy from remote VM to Server where you are using the CLI
-on contrary you have to use :ref:`PUT<PUT>`.
+Creare una VM linux
 
 
 .. _GET:
