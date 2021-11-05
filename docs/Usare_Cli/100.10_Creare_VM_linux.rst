@@ -1,0 +1,92 @@
+.. _howto-copy-file:
+
+Copy file
+=========
+
+There are two ways to make a copy of a file. :ref:`GET<GET>` to copy from remote VM to Server where you are using the CLI
+on contrary you have to use :ref:`PUT<PUT>`.
+
+
+.. _GET:
+
+​How to copy file using get
+---------------------------
+
+.. code-block:: bash
+
+    $  beehive ssh nodes files get <node> <remote-file> <local-file> [nodeuser=..] [options ...]
+
+      Copy file from node
+
+        fields:
+              node                  node name or uuid
+              nodeuser              connection user [default=root]
+              local-file            full path of local file to copy to node
+              remote-file           full path of remote file
+
+        optional arguments:
+              -h, --help            show this help message and exit
+              --debug               toggle debug output
+              --quiet               suppress all output
+              -o {json}             output handler
+              -v, --version         show program's version number and exit
+              -k KEY, --key KEY     Secret key file to use for encryption/decryption
+              --vault VAULT         Ansible vault password to use for inventory decryption
+              -e ENV, --env ENV     Execution environment
+              -E ENVS, --envs ENVS  Comma separated execution environments
+              -f FRMT, --frmt FRMT  response format
+              --color COLOR         response colered. Can be true or false. [default=true]
+              --verbose VERBOSITY   ansible verbosity
+              --cmds                list available commands
+              --notruncate          disable long string truncation
+              --truncate TRUNCATE   set max length of long string
+              --curl                log curl request
+              --fields FIELDS       response fields
+              --afields AFIELDS     response additional fields
+              -y, --assumeyes       Assume that the answer to any question which would be
+                                    asked is yes.
+              -rt, --runtime        Enable command duration log.
+
+
+
+.. _PUT:
+
+​How to copy file using put
+---------------------------
+
+.. code-block:: bash
+
+    $  beehive ssh nodes files put <node> <remote-file> <local-file> [nodeuser=..] [options ...]
+
+      Copy file from node
+
+        fields:
+              node                  node name or uuid
+              nodeuser              connection user [default=root]
+              local-file            full path of local file to copy to node
+              remote-file           full path of remote file
+
+        optional arguments:
+              -h, --help            show this help message and exit
+              --debug               toggle debug output
+              --quiet               suppress all output
+              -o {json}             output handler
+              -v, --version         show program's version number and exit
+              -k KEY, --key KEY     Secret key file to use for encryption/decryption
+              --vault VAULT         Ansible vault password to use for inventory decryption
+              -e ENV, --env ENV     Execution environment
+              -E ENVS, --envs ENVS  Comma separated execution environments
+              -f FRMT, --frmt FRMT  response format
+              --color COLOR         response colered. Can be true or false. [default=true]
+              --verbose VERBOSITY   ansible verbosity
+              --cmds                list available commands
+              --notruncate          disable long string truncation
+              --truncate TRUNCATE   set max length of long string
+              --curl                log curl request
+              --fields FIELDS       response fields
+              --afields AFIELDS     response additional fields
+              -y, --assumeyes       Assume that the answer to any question which would be
+                                    asked is yes.
+              -rt, --runtime        Enable command duration log.
+
+
