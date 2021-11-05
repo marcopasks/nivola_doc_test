@@ -9,7 +9,7 @@ attraverso la Command Line Interface.
  
    01.1_howto-access-cli.rst
    20.0_howto-cpaas.rst
-   100.10_Creare-VM-linux.rst
+   30.10_Creare-VM-linux.rst
    100.20_Creare_VM_Windows.rst
    100.22_Spegnere_VM.rst
    100.24_Accendere_VM.rst
