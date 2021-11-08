@@ -1,5 +1,4 @@
-.. _creare-VM-linux:
-.. _howto-cpaas:
+.. _creare-vm-linux:
 
 Creare Vm Linux.
 ===============
