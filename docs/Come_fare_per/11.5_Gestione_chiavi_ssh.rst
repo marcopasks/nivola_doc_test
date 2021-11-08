@@ -22,7 +22,7 @@ ma per entrambi è necessario rispettare questi vincoli:
 .. image:: img/Add_VM.png
 
 
-.. [1]
+[1]
 **Creazione direttamente da Nivola**
 ====================================
 
