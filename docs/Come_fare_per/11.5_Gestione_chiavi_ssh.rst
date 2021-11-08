@@ -16,7 +16,7 @@ E' possibile creare **chiavi ssh** attraverso 2 metodi:
 
 ma per entrambi è necessario rispettare questi vincoli:
 
-- Il **nome della chiave ssh** deve essre **univoco** in tutto il sistema.
+- Il **nome della chiave ssh** deve essere **univoco** in tutto il sistema.
 
 - Il **nome della chiave ssh** non può superare i 40 caratteri
 
@@ -31,7 +31,7 @@ ma per entrambi è necessario rispettare questi vincoli:
 
 
 **Creazione direttamente da Nivola**
-====================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 Premere tasto **"+"**;
@@ -49,8 +49,7 @@ Premere tasto **"+"**;
 
 
 **Creazione attraverso l'import**
-=================================
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Premere il tasto **"+"**;
 
