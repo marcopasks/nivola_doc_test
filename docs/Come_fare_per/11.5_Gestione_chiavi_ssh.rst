@@ -23,6 +23,7 @@ ma per entrambi è necessario rispettare questi vincoli:
 
 
 .. [1]
+
 **Creazione direttamente da Nivola**
 ====================================
 
@@ -35,8 +36,8 @@ Premere tasto **"+"**;
 
 .. image:: img/Crea-keyssh-ex-novo.png
 
-
 .. [2]
+
 **Creazione attraverso l'import**
 =================================
 
