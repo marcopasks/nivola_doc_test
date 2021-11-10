@@ -8,7 +8,7 @@ La funzione è utilizzabile da **Reti e Sicurezza** cliccando sulla voce **Chiav
 .. image:: img/Menu_ssh.png
 
 
-E' possibile creare **chiavi ssh** attraverso 2 metodi; quello diretto_ o l'import_
+E' possibile creare **chiavi ssh** attraverso 2 metodi [1]_ [2]_
 ma per entrambi è necessario rispettare questi vincoli:
 
 - Il **nome della chiave ssh** deve essre **univoco** in tutto il sistema.
@@ -22,9 +22,7 @@ ma per entrambi è necessario rispettare questi vincoli:
 .. image:: img/Add_VM.png
 
 
-
-.. _diretto:
-
+.. [1]
 **Creazione direttamente da Nivola**
 ====================================
 
@@ -38,8 +36,7 @@ Premere tasto **"+"**;
 .. image:: img/Crea-keyssh-ex-novo.png
 
 
-.. _import:
-
+.. [2]
 **Creazione attraverso l'import**
 =================================
 
