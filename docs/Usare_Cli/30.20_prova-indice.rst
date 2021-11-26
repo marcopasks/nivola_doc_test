@@ -1,4 +1,4 @@
-.. _prova_indice:
+.. _prova-indice:
 
 Creare Vm Linux.
 ===============
