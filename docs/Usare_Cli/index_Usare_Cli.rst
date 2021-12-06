@@ -9,8 +9,8 @@ attraverso la Command Line Interface.
  
    01.1_howto-access-cli.rst
    20.0_howto-cpaas.rst
-   30.10_creare-vm-linux.rst
-   30.20_prova-indice.rst
+   30.10_creare-VM-linux.rst
+   30.20_creare-vm-windows.rst
    
    
    
