@@ -25,4 +25,6 @@ Per spegnere una Virtual Machine è necessario utilizzare il seguente comando:
       --notruncate          Disable truncate of output
       --curl                Print api requst as curl command in console log
       -schedule SCHEDULE    schedule definition. Pass as json file using crontab or
-                            timedelta syntax. Ex. {"type": "timedelta", "minutes"
+                            timedelta syntax. Ex. {"type": "timedelta", "minutes":
+                            1}
+

@@ -1,17 +1,17 @@
-.. _creare-vm-windows:
+.. _accendere-vm:
 
-Creare Virtual Machine Windows.
+Accendere Virtual Machine.
 ===============================
 
-Per creare una Virtual Machine Windows è necessario utilizzare il seguente comando:
+Per accendere una Virtual Machine, è necessario utilizzare il seguente comando:
 
 .. code-block:: bash
 
-    $ beehive bu cpaas vms add vm-windows1 <name> <account> <type> <subnet> <image> <sg>
+    $   beehive bu cpaas vms start <ID VM>
 
       Parametri Obbligatori:
 
-      name                  virtual machine name
+      ID VM                 virtual machine ID
       account               parent account id
       type                  virtual machine type
       subnet                virtual machine subnet id
@@ -29,23 +29,6 @@ Per creare una Virtual Machine Windows è necessario utilizzare il seguente coma
       --time                Print command execution time
       --notruncate          Disable truncate of output
       --curl                Print api requst as curl command in console log
-      -sshkey SSHKEY        virtual machine ssh key name
-      -pwd PWD              virtual machine admin/root password
-      -main-disk MAIN_DISK  optional main disk size configuration. Use <size> to
-                              set e default volume type.- Use <size>:<volume_type>
-                              to set a non default volume type. Ex. 5:vol.oracle-
-                              Use <volume_id>:<volume_type> to set a volume to clone
-      -other-disk OTHER_DISK
-                              list of additional disk sizes comma separated. Use
-                              <size> to set e default volume type.Use
-                              <size>:<volume_type> to set a non default volume type.
-                              Ex. 5,10 or 5:vol.oracle,10
-      -hypervisor HYPERVISOR
-                              virtual machine hypervisor. Can be: openstack or
-                              vsphere [default=openstack]
-      -host-group HOST_GROUP
-                              virtual machine host group. Ex. oracle
-      -multi-avz MULTI_AVZ  if set to False create vm to work only in the selected
-                              availability zone [default=True]. Use when subnet cidr
-                              is public
-      -meta META            virtual machine custom metadata
+      -schedule SCHEDULE    schedule definition. Pass as json file using crontab or
+                            timedelta syntax. Ex. {"type": "timedelta", "minutes":
+                            1}

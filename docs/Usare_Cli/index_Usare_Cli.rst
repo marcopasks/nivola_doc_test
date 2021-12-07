@@ -13,6 +13,7 @@ attraverso la Command Line Interface.
    30.15_creare-vm-windows.rst   
    30.20_spegnere-vm.rst
    30.25_accendere-vm.rst
+   30.30_lista-vm.rst
    
    
    
