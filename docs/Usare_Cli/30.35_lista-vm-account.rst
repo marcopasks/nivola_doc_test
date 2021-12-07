@@ -1,0 +1,41 @@
+.. 30.30_lista-vm:
+
+Elenco Virtual Machine.
+=======================
+
+Per ottenere l'elenco delle Virtual Machine, di un account, è necessario utilizzare il seguente comando:
+
+.. code-block:: bash
+
+    $    beehive bu cpaas vms list -size 0 -accounts <account name>
+     
+      Parametri Obbligatori:
+
+        -accounts name      nome dell'acount, se fossero più account, separarli da virgola.
+
+      Parametri Opzionali:
+
+      -h, --help            show this help message and exit
+      -y                    Force delete 
+      -e ENV, --env ENV     Execution environment
+      -f FORMAT             Output format
+      -k KEY, --key KEY     Secret key file to use for encryption/decryption
+      --vault VAULT         Ansible vault password to use for inventory decryption
+      --time                Print command execution time
+      --notruncate          Disable truncate of output
+      --curl                Print api requst as curl command in console log
+      -accounts ACCOUNTS    list of account id comma separated
+      -ids IDS              list of vm id comma separated
+      -name NAME            vm name
+      -names NAMES          vm name pattern
+      -types TYPES          list of type comma separated
+      -launch_time LAUNCH_TIME
+                            launch time interval. Ex. 2021-01-30T:2021-01-31T
+      -tags TAGS            list of tag comma separated
+      -states STATES        list of instance state comma separated
+      -sg SG                list of security group id comma separated. Ex.
+                            pending, running, error
+      -page PAGE            list page [default=0]
+      -size SIZE            list page size [default=20]
+      -services SERVICES    print instance service enabling. Ex. backup,
+                            monitoring
