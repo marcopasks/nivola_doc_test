@@ -1,9 +1,9 @@
-.. _prova-indice:
+.. _creare-vm-windows:
 
-Creare Vm Linux.
+Creare VM windows.
 ===============
 
-Creare una VM linux
+Creare uuna Virtual machine windows
 
 
 .. _GET:
