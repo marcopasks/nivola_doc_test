@@ -7,8 +7,6 @@ Per creare una Virtual Machine Windows è necessario utilizzare il seguente coma
 
 .. code-block:: bash
 
-    [73300@cmpto1-cons02 ~]$  beehive ssh nodes get <-size 0>
-
     $ beehive bu cpaas vms add vm-windows1 <name> <account> <type> <subnet> <image> <sg>
 
       Parametri Obbligatori:

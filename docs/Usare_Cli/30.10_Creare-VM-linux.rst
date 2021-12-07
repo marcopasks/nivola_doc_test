@@ -1,13 +1,11 @@
 .. _creare-vm-linux:
 
-Creare Vm Linux.
-================
+Creare Virtual Machine Linux.
+=============================
 
 Per creare una Virtual Machine Linux è necessario utilizzare il seguente comando:
 
 .. code-block:: bash
-
-    [73300@cmpto1-cons02 ~]$  beehive ssh nodes get <-size 0>
 
     $ beehive bu cpaas vms add vm-linux <name> <account> <Type> <subnet> <image> <sg>
 
