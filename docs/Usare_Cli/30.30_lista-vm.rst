@@ -3,6 +3,17 @@
 Elenco Virtual Machine.
 =======================
 
+Devvel Virtual machines possibile ottenere 2 diversi tipi di elenchi. Una lista riferita a tutti i serve e la'latra relativa ad un account.
+
+-  :ref:`Elenco_completo`
+-  :ref:`Elenco_account`
+
+
+.. _Elenco_completo:
+
+Ottenere l'elenco di tutte le  Virtual Machine.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Per ottenere l'elenco delle Virtual Machine è necessario utilizzare il seguente comando:
 
 .. code-block:: bash
@@ -36,3 +47,46 @@ Per ottenere l'elenco delle Virtual Machine è necessario utilizzare il seguente
       -size SIZE            list page size [default=20]
       -services SERVICES    print instance service enabling. Ex. backup,
                             monitoring
+
+.. _Elenco_account:
+
+Ottenere l'elenco delle Virtual Machines di un account.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per ottenere l'elenco delle Virtual Machine è necessario utilizzare il seguente comando:
+
+.. code-block:: bash
+
+    $   beehive bu cpaas vms list -size 0 -accounts <account>
+
+    
+      Parametri Obbligatori:
+
+      account              Nome dell'account o Id
+
+
+      Parametri Opzionali:
+
+      -h, --help            show this help message and exit
+      -y                    Force delete
+      -e ENV, --env ENV     Execution environment
+      -f FORMAT             Output format
+      -k KEY, --key KEY     Secret key file to use for encryption/decryption
+      --vault VAULT         Ansible vault password to use for inventory decryption
+      --time                Print command execution time
+      --notruncate          Disable truncate of output
+      --curl                Print api requst as curl command in console log
+      -types TYPES          list of type comma separated
+      -launch_time LAUNCH_TIME
+                            launch time interval. Ex. 2021-01-30T:2021-01-31T
+      -tags TAGS            list of tag comma separated
+      -states STATES        list of instance state comma separated
+      -sg SG                list of security group id comma separated. Ex.
+                            pending, running, error
+      -page PAGE            list page [default=0]
+      -size SIZE            list page size [default=20]
+      -services SERVICES    print instance service enabling. Ex. backup,
+                            monitoring
+
+
+    
