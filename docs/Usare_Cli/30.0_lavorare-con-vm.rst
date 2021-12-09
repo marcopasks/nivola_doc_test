@@ -1,4 +1,4 @@
-.. _Lavorare_con_VM:
+.. _lavorare-con-vm:
 
 **Lavorare con Virtual Machine**
 ################################
