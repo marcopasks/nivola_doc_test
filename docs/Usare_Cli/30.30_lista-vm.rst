@@ -3,7 +3,7 @@
 Elenco Virtual Machine.
 =======================
 
-E' possibile ottenere 2 diversi tipi di elenchi. Una lista riferita a tutti i server l'altra relativa ad un account.
+E' possibile ottenere 2 diversi tipi di elenchi. Una lista riferita a tutti i server e l'altra relativa ad un account.
 
 -  :ref:`Elenco_completo`
 -  :ref:`Elenco_account`
@@ -11,10 +11,10 @@ E' possibile ottenere 2 diversi tipi di elenchi. Una lista riferita a tutti i se
 
 .. _Elenco_completo:
 
-Ottenere l'elenco di tutte le  Virtual Machines.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ottenere l'elenco di tutte le Virtual Machine.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Per avere l'elenco delle Virtual Machine è necessario utilizzare il seguente comando:
+Per avere l'elenco delle Virtual Machines, presenti, è necessario utilizzare il seguente comando:
 
 .. code-block:: bash
 
@@ -50,10 +50,10 @@ Per avere l'elenco delle Virtual Machine è necessario utilizzare il seguente co
 
 .. _Elenco_account:
 
-Ottenere l'elenco delle Virtual Machines di un account.
+Ottenere l'elenco delle Virtual Machine di un account.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La lista delle Virtual Machine, di un solo account è esposta dal sistema usando il comando:
+La lista delle Virtual Machines, riferita ad un solo account, è esposta dal sistema usando il comando:
 
 .. code-block:: bash
 
