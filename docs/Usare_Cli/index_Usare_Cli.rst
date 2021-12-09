@@ -10,7 +10,7 @@ attraverso la Command Line Interface.
    01.1_howto-access-cli.rst
    20.0_howto-cpaas.rst
    30.00_lavorare-con-vm.rst
-      30.10_creare-VM-linux.rst
+      30.10_creare-vm-linux.rst
       30.15_creare-vm-windows.rst   
       30.20_spegnere-vm.rst
       30.25_accendere-vm.rst
