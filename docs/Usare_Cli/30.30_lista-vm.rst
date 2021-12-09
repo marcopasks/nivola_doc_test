@@ -3,7 +3,7 @@
 Elenco Virtual Machine.
 =======================
 
-Devvel Virtual machines possibile ottenere 2 diversi tipi di elenchi. Una lista riferita a tutti i serve e la'latra relativa ad un account.
+E' possibile ottenere 2 diversi tipi di elenchi. Una lista riferita a tutti i server l'altra relativa ad un account.
 
 -  :ref:`Elenco_completo`
 -  :ref:`Elenco_account`
@@ -11,10 +11,10 @@ Devvel Virtual machines possibile ottenere 2 diversi tipi di elenchi. Una lista 
 
 .. _Elenco_completo:
 
-Ottenere l'elenco di tutte le  Virtual Machine.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ottenere l'elenco di tutte le  Virtual Machines.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Per ottenere l'elenco delle Virtual Machine è necessario utilizzare il seguente comando:
+Per avere l'elenco delle Virtual Machine è necessario utilizzare il seguente comando:
 
 .. code-block:: bash
 
@@ -53,7 +53,7 @@ Per ottenere l'elenco delle Virtual Machine è necessario utilizzare il seguente
 Ottenere l'elenco delle Virtual Machines di un account.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Per ottenere l'elenco delle Virtual Machine è necessario utilizzare il seguente comando:
+La lista delle Virtual Machine, di un solo account è esposta dal sistema usando il comando:
 
 .. code-block:: bash
 
