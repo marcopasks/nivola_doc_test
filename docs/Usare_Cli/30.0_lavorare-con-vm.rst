@@ -1,14 +1,14 @@
 .. _lavorare-con-vm:
 
 **Lavorare con Virtual Machine**
-********************************
+################################
 
 Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
 
 .. toctree::
    :maxdepth: 2
 
-   30.10_creare-vm-linux.rst
+   30.10_Creare-vm-linux.rst
    30.15_creare-vm-windows.rst   
    30.20_spegnere-vm.rst
    30.25_accendere-vm.rst
