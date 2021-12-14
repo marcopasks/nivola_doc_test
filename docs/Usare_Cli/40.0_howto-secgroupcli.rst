@@ -1,55 +1,37 @@
 .. _howto-secgroupcli:
 
-Manage Security Group from CLI:
-===============================
+Lavorare con i Security Group dalla CLI:
+=========================================
 
-Security group acts as a firewall for Nivola instances,
-controlling both inbound and outbound traffic at the instance level.
-The life cycle of the security group includes the following steps.
+E' possibile gestire il ciclo di vita dei Security, dalla CLI, attraverso le funzioni. 
 
--  :ref:`Obtain`
+-  :ref:`Elenco`
 -  :ref:`Create`
 -  :ref:`Manage`
 -  :ref:`Delete`
+-  :ref:`Aggiungere`
+-  :ref:`Eliminare`
+-  :ref:`Add-rule`
+-  :ref:`Delete-rule`
+-  :ref:`Lista-template`
 
-For manage security groups we assume that you are familiar with **VPC**.
-VPC is an acronym for Virtual Private Cloud. VPC is a virtual network dedicated to the Nivola account.
-It is logically isolated from the other Nivola networks. It is possible to use the instance within your
-Vpc. It is possible to configure the Vpc by modifying the range of IP addresses,
-creating subnets, configuring route tables, network gateways and security settings.
-The VPC consists of one or more security group. For create a security group you need using a template.
+Gestione di un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. _Elenco:
 
-Life Cycle of Security Group
-----------------------------
+Ottenere Elenco dei Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: img/Lifecycle.png
-   :scale: 70 %
-   :alt: Context
-   :align: center
-
-
-Use case of Security Group
---------------------------
-
-
-.. _Obtain:
-
-Obtain information about Security Group and VPC
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-**list security groups**:
-
-The command list security group. The command list security group. The command is used to gather
-information on security groups that can be used by user.
+La lista dei SG, è fornita dal sistema, a seguito del comando:
 
 
 .. code-block:: bash
 
-    $ beehive bu cpaas securitygroups list [field=..] [options ...]
+    $ beehive3 bu netaas securitygroups list
 
-      List all security groups
+     
+      Parametri Opzionali:
 
       fields:
          accounts              list of account name or uuid comma separated [optional]
@@ -79,373 +61,34 @@ information on security groups that can be used by user.
         --curl                log curl request
         --fields FIELDS       response fields
 
-
-
-**list example**:
-
-.. code-block:: bash
-
-    $ beehive business cpaas securitygroups list
-
-       Security Group list obtained
-
-       id                                    name                   state      account    vpc            egress_rules    ingress_rules
-       ------------------------------------  ---------------------  ---------  ---------  -----------  --------------  ---------------
-       bcdf974a-53bb-42dc-8c29-ea7c97843ca4  SecurityGroupBE        available  acc-demo   VpcBE                     2                4
-       200775e3-9e08-4705-9b42-f417b7784788  SecurityGroupInternet  available  acc-demo1  VpcInternet               3                5
-       e12492a0-7e97-4cf8-aa6d-9adbc8dea5cb  SecurityGroupWEB       available  acc-demo   VpcWEB                    3                5
-       bf8cec43-9973-4cd1-a1e9-c2d31c9f6386  SecurityGroupInternet  available  acc-test   VpcInternet               3                5
-       74c12829-c1a6-4ba7-b103-2b7f187eefde  SecurityGroupWEB       available  acc-test1  VpcWEB                    3                6
-       86a1554e-2e7c-401f-83af-0e2623c24c61  SecurityGroupBE        available  acc-test2  VpcBE                     8                4
-
-
-
-**list security groups template**:
-
-The commands below show as obtain a list of template usable for creating of the security group.
-
-
-.. code-block:: bash
-
-    $ beehive bu cpaas securitygroups templates [template-id [options ...]
-
-      List security group templates
-
-      fields:
-         template-id           template id [optional]
-
-      optional arguments:     are the same described into first command explained in this chapter
-
-
-**list security groups template example**:
-
-.. code-block:: bash
-
-    $ beehive business cpaas securitygroups templates
-
-       Security Group template list obtained
-
-       Page: 0
-       Count: 3
-       Total: 3
-       Order: id DESC
-
-       id                                    instance_type          desc                            status    active    creation              is_default
-       ------------------------------------  ---------------------  ------------------------------  --------  --------  --------------------  ------------
-       d6c3c32b-8124-49c9-9e5d-598fec7f98b1  SecurityGroupSimple    SecurityGroup with basic rules  ACTIVE    True      2019-01-03T14:03:28Z  False
-       c59e58f2-14e0-493f-9851-35a840b708e7  SecurityGroupFrontEnd  SecurityGroupFrontEnd           ACTIVE    True      2018-06-15T20:03:15Z  False
-       e0fe7e7f-6fda-4931-bc9f-61d36503cex7  SecurityGroupBackEnd   SecurityGroupBackEnd            ACTIVE    True      2018-06-15T20:03:14Z  True
-
-
-It is necessary to know the VPC father
-
-**list VPC**:
-
-The commands below show as obtain a list of Virtual private Cloud usable for creating
-of the security group.
-
-
-.. code-block:: bash
-
-    $ beehive bu cpaas vpcs list [field=..] [options ...]
-
-      List all vpcs
-
-      fields:
-      accounts              list of account name or uuid comma separated [optional]
-      ids                   list of vpc ids comma separated [optional]
-      tags                  list of tags comma separated [optional]
-      page                  list page [default=0]
-      size                  list page size [default=10]
-
-
-      optional arguments:     are the same described into first command explained in this chapter
-
-
-**list vpcs example**:
-
-In the next example will be possible to see how to use the list vpcs command utilizable for the account-demo.
-
-.. code-block:: bash
-
-    $ beehive business cpaas vpcs list account=account-demo
-
-      The list of all vpcs utilizable from account-demo
-
-      Page: 0
-      Count: 9
-      Total: 9
-      Order: id asc
-
-      id                                    name         state      account        cidr
-      ------------------------------------  -----------  ---------  ---------      -------------------------------------------------
-      d810b85c-2214-4ca6-9c7f-2d33dac1dafe  VpcInternet  available  account-demo   84.240.190.0/24
-      1546f7a6-a789-4d74-8c65-2b30aaca9f2f  VpcWEB       available  account-demo   10.138.136.0/21, 10.138.168.0/21, 10.138.200.0/21
-      1b33e19a-fa1a-475e-be9c-3ec2fd1f99ad  VpcBE        available  account-demo   10.138.128.0/21, 10.138.160.0/21, 10.138.192.0/21
-      f71e9661-cde6-46b1-8c7d-8fefd13039c4  VpcInternet  available  clitest        84.240.190.0/24
-      a41e2be6-cc86-498b-b659-59ad56024eac  VpcWEB       available  clitest        10.138.136.0/21, 10.138.168.0/21, 10.138.200.0/21
-      69294068-e38b-4fc1-8e4b-b14bfbefcda9  VpcBE        available  clitest        10.138.128.0/21, 10.138.160.0/21, 10.138.192.0/21
-      d0801fdd-5686-4ff4-ad9d-bbf43236aad8  VpcInternet  available  test           84.240.190.0/24, 84.240.191.0/24
-      60766403-e50d-42d2-93bf-34e23183e389  VpcWEB       available  test           10.138.136.0/21, 10.138.168.0/21, 10.138.200.0/21
-      0fd1a70c-ef3a-4ba7-961c-15baee6962b5  VpcBE        available  test           10.138.128.0/21, 10.138.160.0/21, 10.138.192.0/21
-
-
 .. _Create:
 
-Create Security Group
-^^^^^^^^^^^^^^^^^^^^^^
+Creazione di un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To create the security group it will use add command like showed follow
-
-**Add security group**:
-
-.. code-block:: bash
-
-    $  beehive bu cpaas securitygroups add <name> <vpc> [template=..] [options ...]
-
-       Create a security group
-
-       fields:
-       name                  security group name
-       vpc                   parent vpc
-       template-id           template id [optional]
-
-      optional arguments:     are the same described into first command explained in this chapter
-
-
-
-**Add security group example**:
-
-In this example sec-group-demo is created using add command with a vpcBE and template
-The variables that Nivola need are indicated to Nivola using their id. When the creation process
-will end Nivola indicate the new security group into the list of them. Available will be the status of
-the new security group visible using command "securitygroup list"
-
-.. code-block:: bash
-
-    $  beehive business cpaas securitygroups add sec-group-demo 1b33e19a-fa1a-475e-be9c-3ec2fd1f99ad template=e0fe7e7f-6fda-4931-bc9f-61d36503ce67
-
-       The Nivola reply will be
-
-       msg
-       ------------------------------------------------------
-       Add securitygroup 0c35528a-6e43-45c3-8b41-d8265deeddf4
-
-Next step we are going to see the new list of security groups
-
-.. code-block:: bash
-
-     $ beehive business cpaas securitygroups list
-
-       The CLI response after the list command confirming the creation of the sec-group-demo and his state av
-
-       id                                    name                   state      account       vpc            egress_rules    ingress_rules
-       ------------------------------------  ---------------------  ---------  ---------     -----------  --------------  ---------------
-       0c35528a-6e43-45c3-8b41-d8265deeddf4  sec-group-demo         available  account-demo  VpcBE                     0                0
 
 
 .. _Manage:
 
-Manage rules of the security group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gestione di un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-**add-rule ingress/egress**:
-
-The commands below are used to change ingress or egress rules.
-
-.. code-block:: bash
-
-
-    $ beehive bu cpaas securitygroups add-rule <type> <securitygroup> <dest/source> [proto=..] [port:..] [options ...]
-
-      Add a security group rule.
-
-       Fields:
-       type                  egress or ingress. For egress group is the source and specify the destination.
-                             For ingress group is the destination and specify the source.
-       securitygroup         securitygroup id
-       proto                 can be tcp, udp, icmp or -1 for all. [default=-1]
-       port                  can be an integer between 0 and 65535 or a range with start and end in the same
-                             interval. Range format is <start>-<end>. Use -1 for all ports. [default=-1]
-       dest/source           rule destination. Syntax <type>:<value>. Source and destination type can be SG, CIDR.
-                             For SG value must be <sg_id>. For CIDR value should like 10.102.167.0/24.
-
-      optional arguments:     are the same described into first command explained in this chapter
-
-
-
-In the next example a ingress rule is added to security group sec-group-demo.
-
-**add-rule ingress**:
-
-For the new ingress rule the variables used are tcp as protocol, 53 as a port and CIDR as source.
-
-
-.. code-block:: bash
-
-     $ beehive business cpaas securitygroups add-rule ingress 0c35528a-6e43-45c3-8b41-d8265deeddf4 CIDR:0.0.0.0/0 proto=tcp port=53
-
-
-The nivola response after the command confirming the creation of ingress rule will be
-
-.. code-block:: bash
-
-     $ msg
-       ------------------------------
-       Create securitygroup rule True
-
-
-**security group get**:
-
-If it need more information about security group it could be use the command get
-
-
-.. code-block:: bash
-
-
-    $ beehive bu cpaas securitygroups get <securitygroup> [options ...]
-
-
-       Get security group with rules
-
-       fields:
-       securitygroup         securitygroup id
-
-
-        account               account name or uuid
-
-      optional arguments:     are the same described into add command
-
-
-Next example show how to use the command
-
-.. code-block:: bash
-
-     $ beehive business cpaas securitygroups get 0c35528a-6e43-45c3-8b41-d8265deeddf4
-
-
-The nivola response after the command showing the information that you need
-
-
-.. code-block:: bash
-
-     $ id                                    name              desc                role
-       ------------------------------------  ----------------  ------------------  ------
-       c63f04c9-bde0-4ac3-8479-57a637049cd2  736@domnt.csi.it  Davide Gialli       master
-       01ac26db-a213-4307-8dc9-d7ac45f2e3e3  187@domnt.csi.it  Gaetano Rossi       master
-
-       attrib               value
-       -------------------  ------------------------------------
-       sgOwnerAlias         account-demo
-       vpcId                1b33e19a-fa1a-475e-be9c-3ec2fd1f99ad
-       groupDescription     sec-group-demo
-       groupName            sec-group-demo
-       state                available
-       vpcName              VpcBE
-       ownerId              30
-       stateReason.message  None
-       stateReason.code     None
-       sgOwnerId            f6a6c1db-4a9f-4788-af9a-9bc92d4f487e
-       groupId              0c35528a-6e43-45c3-8b41-d8265deeddf4
-       Egress rules:
-       toSecuritygroup                                                toCidr     protocol    fromPort    toPort    reserved    state
-       -------------------------------------------------------------  ---------  ----------  ----------  --------  ----------  -------
-                                                               0.0.0.0/0  *           *           *         True        ACTIVE
-       gaetest:sec-group-demo [0c35528a-6e43-45c3-8b41-d8265deeddf4]             *           *           *         True        ACTIVE
-       Ingress rules:
-       fromSecuritygroup                                              fromCidr          protocol    fromPort    toPort    reserved    state
-       -------------------------------------------------------------  ----------------  ----------  ----------  --------  ----------  --------
-                                                                      0.0.0.0/0         tcp         53          53        False       BUILDING
-                                                                      10.102.184.0/24   *           *           *         True        ACTIVE
-                                                                      10.138.154.0/24   *           *           *         True        ACTIVE
-                                                                      158.102.160.0/24  *           *           *         True        ACTIVE
-       gaetest:sec-group-demo [0c35528a-6e43-45c3-8b41-d8265deeddf4]                    *           *           *         True        ACTIVE
-
-
-**del-rule ingress/egress**:
-
-The commands below are used to delete ingress or egress rules from SG.
-
-.. code-block:: bash
-
-
-    $ beehive bu cpaas securitygroups del-rule <type> <securitygroup> <dest/source> [proto=..] [port:..] [options ...]
-
-      Delete a security group rule.
-
-        fields:
-        type                      egress or ingress. For egress group is the source and sp                                                                                        ecify the destination.
-                                  For ingress group is the destination and specify the sou                                                                                        rce.
-        securitygroup             securitygroup id
-        proto                     can be tcp, udp, icmp or -1 for all. [default=-1]
-        port                      can be an integer between 0 and 65535 or a range with st                                                                                        art and end in the same
-                                  interval. Range format is <start>-<end>. Use -1 for all                                                                                         ports. [default=-1]
-        dest/source               rule destination. Syntax <type>:<value>. Source and dest                                                                                        ination type can be SG, CIDR.
-                                  for SG value must be <sg_id>. For CIDR value should like                                                                                         10.102.167.0/24.
-
-        optional arguments:
-            -h, --help            show this help message and exit
-            --debug               toggle debug output
-            --quiet               suppress all output
-            -o {json}             output handler
-            -v, --version         show program's version number and exit
-            -k KEY, --key KEY     Secret key file to use for encryption/decryption
-            --vault VAULT         Ansible vault password to use for inventory decryption
-            -e ENV, --env ENV     Execution environment
-            -E ENVS, --envs ENVS  Comma separated execution environments
-            -f FRMT, --frmt FRMT  response format
-            --color COLOR         response colered. Can be true or false. [default=true]
-            --verbose VERBOSITY   ansible verbosity
-            --cmds                list available commands
-            --notruncate          disable long string truncation
-            --truncate TRUNCATE   set max length of long string
-            --curl                log curl request
-            --fields FIELDS       response fields
-            --afields AFIELDS     response additional fields
-            -y, --assumeyes       Assume that the answer to any question which would be
-                                  asked is yes.
-            -rt, --runtime        Enable command duration log.
 
 
 .. _Delete:
 
-Delete security group
-^^^^^^^^^^^^^^^^^^^^^^^
+Gestione di un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the life of security group into Nivola finish it necessary erase it from the Nivola system using
-delete command.
+.. _Eliminare:
 
-
-**delete securitygroup**:
-
-The commands below is used to erase security group from Nivola.
-
-.. code-block:: bash
+Gestione di un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-    $ beehive bu cpaas securitygroups delete <securitygroup> [options ...]
+.. _Delete:
 
-      Delete a security group
-
-      fields:
-        securitygroup         securitygroup id
-
-      optional arguments:     are the same described into first command explained in this chapter
+Gestione di un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Next example show how to use the command
-
-.. code-block:: bash
-
-     $  beehive business cpaas securitygroups delete 0c35528a-6e43-45c3-8b41-d8265deeddf4
-
-
-
-The nivola response after the command confirming security group was erased
-
-.. code-block:: bash
-
-        msg
-        -------------------------
-        Delete securitygroup True
