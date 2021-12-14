@@ -8,7 +8,7 @@ Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
 .. toctree::
    :maxdepth: 2
 
-   30.10_Creare_vm_linux.rst
+   30.10_creare_vm_linux.rst
    30.15_creare_vm_windows.rst
    30.20_spegnere-vm.rst
    30.25_accendere_vm.rst
