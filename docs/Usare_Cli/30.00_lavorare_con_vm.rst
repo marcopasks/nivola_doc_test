@@ -14,4 +14,4 @@ Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
    30.25_accendere-vm.rst
    30.30_lista-vm.rst
    30.40_lista-dettagli-vm.rst
-   30.45_gestione-singola-vm.rst
+   30.45_ottenere-pwd.rst
