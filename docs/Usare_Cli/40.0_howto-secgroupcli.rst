@@ -15,9 +15,6 @@ E' possibile gestire il ciclo di vita dei Security, dalla CLI, attraverso le fun
 -  :ref:`Delete-rule`
 -  :ref:`Lista-template`
 
-Gestione di un Security Group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 .. _Elenco:
 
 Ottenere Elenco dei Security Group
@@ -61,3 +58,34 @@ La lista dei SG, è fornita dal sistema, a seguito del comando:
         --curl                log curl request
         --fields FIELDS       response fields
 
+
+.. _Create:
+
+Creare un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+La creazione di un Security Group, avviene attraverso la seguente istruzione:
+
+
+.. code-block:: bash
+
+    $ beehive bu netaas securitygroups add <SG name> <Vpc Id> <Template Id>
+
+     
+      Parametri Obbigatori:
+
+         SG name               Noem da attribuire all'oggetto.
+         Vpc Id                Id del Vpc.
+         Template Id           Id del template da utilizzare.
+
+      Parametri Opzionali:
+
+        -h, --help          show this help message and exit
+        -y                  Force delete
+        -e ENV, --env ENV   Execution environment
+        -f FORMAT           Output format
+        -k KEY, --key KEY   Secret key file to use for encryption/decryption
+        --vault VAULT       Ansible vault password to use for inventory decryption
+        --time              Print command execution time
+        --notruncate        Disable truncate of output
+        --curl              Print api requst as curl command in console log
