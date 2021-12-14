@@ -17,7 +17,7 @@ attraverso la Command Line Interface.
       30.30_lista_vm.rst
       30.40_lista-dettagli-vm.rst
       30.45_ottenere-pwd.rst
-   40.0_how-secgroupcli.rst
+   40.0_howto-secgroupcli.rst
    
    
    

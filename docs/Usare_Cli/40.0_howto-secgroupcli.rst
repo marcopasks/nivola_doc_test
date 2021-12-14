@@ -1,7 +1,7 @@
 .. _howto-secgroupcli:
 
-Manage Security Group from CLI
-==============================
+Manage Security Group from CLI:
+===============================
 
 Security group acts as a firewall for Nivola instances,
 controlling both inbound and outbound traffic at the instance level.
