@@ -1,7 +1,7 @@
 .. _lista-dettagli-vm:
 
-Elenco dettagli della singola Virtual Machine.
-==============================================
+Leggere i dettagli della singola Virtual Machine.
+=================================================
 
 Per vedere i dettagli di una singola macchina, utilizzare il comando:.
 

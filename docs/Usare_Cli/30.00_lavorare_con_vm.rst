@@ -1,7 +1,7 @@
 .. _lavorare_con_vm:
 
-**Lavorare con Virtual Machine**
-################################
+**Lavorare con le Virtual Machine**
+###################################
 
 Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
 

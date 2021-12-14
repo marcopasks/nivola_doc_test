@@ -1,11 +1,11 @@
 .. _ottenere-pwd:
 
 
-Ottenere Password per Virtual Machine.
-======================================
+Ottenere Password per una Virtual Machine.
+==========================================
 
 
-Per ottenere una passowrd da ussare su una Virtual Machines, è necessario utilizzare il seguente comando:
+Per ottenere una passowrd da ussare su una Virtual Machine, è necessario utilizzare il seguente comando:
 
 .. code-block:: bash
 
