@@ -11,7 +11,12 @@ attraverso la Command Line Interface.
    20.0_howto-cpaas.rst
    30.00_lavorare_con_vm.rst
       30.10_Creare_vm_linux.rst
-   
+      30.15_creare_vm_windows.rst
+      30.20_spegnere-vm.rst
+      30.25_accendere_vm.rst
+      30.30_lista_vm.rst
+      30.40_lista-dettagli-vm.rst
+      30.45_gestione-singola-vm.rst
    
    
    
