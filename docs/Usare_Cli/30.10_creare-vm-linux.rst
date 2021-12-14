@@ -1,4 +1,4 @@
-.. _creare_vm_linux:
+.. _creare-vm-linux:
 
 Creare Virtual Machine Linux.
 =============================

@@ -1,5 +1,4 @@
-.. 30.30_lista-vm:
-
+.. _lista-vm:
 Elenco Virtual Machine.
 =======================
 
