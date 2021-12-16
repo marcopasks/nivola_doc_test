@@ -1,6 +1,6 @@
 .. _howto-secgroupcli:
 
-Lavorare con i Security Group dalla CLI:
+Lavorare con i Security Group dalla CLI
 =========================================
 
 E' possibile gestire il ciclo di vita dei *Security Groups*, dalla CLI, attraverso le funzioni. 
@@ -215,7 +215,7 @@ Per associare un *SG* ad un Server, procedere con la seguente istruzione:
                             SG, CIDR. For SG value must be <sg_id>. For CIDR value
                             should like 10.102.167.0/24.
 
- .. _Delete-rule:
+.. _Delete-rule:
 
 Dissociare un Security Group da una VM
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -254,7 +254,7 @@ Disaccopiare una VM da un *SG*, è realizzabile con il comando:
                             SG, CIDR. For SG value must be <sg_id>. For CIDR value
                             should like 10.102.167.0/24.
 
- .. _Lista-template:
+.. _Lista-template:
 
 Elenco Template utilizzabili
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -279,7 +279,7 @@ La lista dei *template* a disposizione, nell'uso dei Security Group, è fornita 
         -id ID             template id
 
 
- .. _Detail:
+.. _Detail:
 
 Conoscere i dettagli di un Security Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
