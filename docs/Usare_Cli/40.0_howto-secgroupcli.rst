@@ -3,7 +3,7 @@
 Lavorare con i Security Group dalla CLI
 =========================================
 
-E' possibile gestire il ciclo di vita dei *Security Groups*, dalla CLI, attraverso le funzioni. 
+E' possibile gestire il ciclo di vita dei **Security Group**, dalla CLI, attraverso queste funzioni. 
 
 -  :ref:`Elenco`
 -  :ref:`Create`
