@@ -13,7 +13,7 @@ E' possibile gestire il ciclo di vita dei Security, dalla CLI, attraverso le fun
 -  :ref:`Add-rule`
 -  :ref:`Delete-rule`
 -  :ref:`Lista-template`
--  :ref:`Manage`
+-  :ref:`Detail`
 
 .. _Elenco:
 
@@ -60,7 +60,7 @@ La creazione di un Security Group, avviene attraverso la seguente istruzione:
     $ beehive bu netaas securitygroups add <SG name> <Vpc Id> <Template Id>
 
      
-      Parametri Obbigatori:
+      Parametri Obbligatori:
 
          SG name               Nome da attribuire all'oggetto.
          Vpc Id                Id del Vpc.
@@ -91,7 +91,7 @@ Per cancellare un Security Group, occorre usare il comando:
     $ beehive bu netaas securitygroups delete <SG Id>
 
     
-      Parametri Obbigatori:
+      Parametri Obbligatori:
 
          SG Id               Id del Security Group 
 
@@ -110,8 +110,8 @@ Per cancellare un Security Group, occorre usare il comando:
 
 .. _Aggiungere:
 
-Aggiungere regole ad un Security Group
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Aggiungere una regola ad un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Aggiungere regole di ingresso e di uscita ad un Security Group, è possibile utilizzando l'istruzione:
 
@@ -120,7 +120,7 @@ Aggiungere regole di ingresso e di uscita ad un Security Group, è possibile uti
     $ beehive bu netaas securitygroups add-rule  <Tipo ><SG Id>
 
     
-      Parametri Obbigatori:
+      Parametri Obbligatori:
 
          Tipo               Identifica se la regola eè di ingresso "ingress" o uscita "egress".
          Sg id              Id del Security Group 
@@ -149,7 +149,7 @@ Per cancellare una regola da un *SG*, serve il comando:
     $ beehive bu netaas securitygroups add-rule  <Tipo ><SG Id>
 
     
-      Parametri Obbigatori:
+      Parametri Obbligatori:
 
          Tipo               Identifica se la regola eè di ingresso "ingress" o uscita "egress".
          Sg id              Id del Security Group 
@@ -175,4 +175,134 @@ Per cancellare una regola da un *SG*, serve il comando:
         -source SOURCE      rule source. Syntax <type>:<value>. Source type can be
                             SG, CIDR. For SG value must be <sg_id>. For CIDR value
                             should like 10.102.167.0/24.
+
+.. _Add-rule:
+
+Assegnare un Security Group ad una VM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per associare un *SG* ad un Server, procedere con la seguente istruzione:
+
+.. code-block:: bash
+
+    $ beehive bu cpaas vms update <id_VM> -sg_add <SG Id>
+
+    
+      Parametri Obbligatori:
+
+         id_VM              Identificativo Vm a cui assegnare ilSG.
+         SG Id              Identificativo del Security Group.
+ 
+      Parametri Opzionali:
+
+        -h, --help          show this help message and exit
+        -y                  Force delete
+        -e ENV, --env ENV   Execution environment
+        -f FORMAT           Output format
+        -k KEY, --key KEY   Secret key file to use for encryption/decryption
+        --vault VAULT       Ansible vault password to use for inventory decryption
+        --time              Print command execution time
+        --notruncate        Disable truncate of output
+        --curl              Print api requst as curl command in console log
+        -proto PROTO        protocol. can be tcp, udp, icmp or -1 for all
+        -port PORT          can be an integer between 0 and 65535 or a range with
+                            start and end in the same interval. Range format is
+                            <start>-<end>. Use -1 for all ports
+        -dest DEST          rule destination. Syntax <type>:<value>. Destination type
+                            can be SG, CIDR. For SG value must be <sg_id>. For CIDR
+                            value should like 10.102.167.0/24.
+        -source SOURCE      rule source. Syntax <type>:<value>. Source type can be
+                            SG, CIDR. For SG value must be <sg_id>. For CIDR value
+                            should like 10.102.167.0/24.
+
+ .. _Delete-rule:
+
+Dissociare un Security Group ad una VM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Disaccopiare una VM da un *SG*, è realizzabile con il comando:
+
+.. code-block:: bash
+
+    $ beehive bu cpaas vms update <id_VM> -sg_del <SG Id>
+
+    
+      Parametri Obbligatori:
+
+         id_VM              Identificativo Vm a cui assegnare il SG.
+         SG Id              Identificativo del Security Group.
+ 
+      Parametri Opzionali:
+
+        -h, --help          show this help message and exit
+        -y                  Force delete
+        -e ENV, --env ENV   Execution environment
+        -f FORMAT           Output format
+        -k KEY, --key KEY   Secret key file to use for encryption/decryption
+        --vault VAULT       Ansible vault password to use for inventory decryption
+        --time              Print command execution time
+        --notruncate        Disable truncate of output
+        --curl              Print api requst as curl command in console log
+        -proto PROTO        protocol. can be tcp, udp, icmp or -1 for all
+        -port PORT          can be an integer between 0 and 65535 or a range with
+                            start and end in the same interval. Range format is
+                            <start>-<end>. Use -1 for all ports
+        -dest DEST          rule destination. Syntax <type>:<value>. Destination type
+                            can be SG, CIDR. For SG value must be <sg_id>. For CIDR
+                            value should like 10.102.167.0/24.
+        -source SOURCE      rule source. Syntax <type>:<value>. Source type can be
+                            SG, CIDR. For SG value must be <sg_id>. For CIDR value
+                            should like 10.102.167.0/24.
+
+ .. _Lista-template:
+
+Elenco Template utilizzabili
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+La lista dei *template* a disposizione, nell'uso dei Security Group, è fornita dal sistema dall'istruzione:
+
+.. code-block:: bash
+
+    $ beehive bu netaas securitygroups templates
+
+      Parametri Opzionali:
+              
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+        -id ID             template id
+
+
+ .. _Detail:
+
+Conoscere i dettagli di un Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Il comando con cui, ottenere il dettaglio, sulla costituzione di un *Security Group*, è il seguente:
+
+.. code-block:: bash
+
+    $ beehive bu netaas securitygroups get <SG Id>
+    
+      Parametri Obbligatori:
+
+         SG Id              Identificativo del Security Group.
+ 
+      Parametri Opzionali:
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
 
