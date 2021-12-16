@@ -26,14 +26,11 @@ La lista dei SG, è fornita dal sistema, a sfruttando il comando:
 .. code-block:: bash
 
     $ beehive bu netaas securitygroups list
-    
+
 
 Parametri Opzionali:
 
 .. code-block:: bash
-
-     
-      Parametri Opzionali:
 
         -h, --help          show this help message and exit
         -y                  Force delete
@@ -65,13 +62,17 @@ La creazione di un Security Group, avviene attraverso la seguente istruzione:
     $ beehive bu netaas securitygroups add <SG name> <Vpc Id> <Template Id>
 
      
-      Parametri Obbligatori:
+Parametri Obbligatori:
+
+.. code-block:: bash
 
          SG name               Nome da attribuire all'oggetto.
          Vpc Id                Id del Vpc.
          Template Id           Id del template da utilizzare.
 
-      Parametri Opzionali:
+Parametri Opzionali:
+
+.. code-block:: bash
 
         -h, --help          show this help message and exit
         -y                  Force delete
@@ -95,12 +96,17 @@ Per cancellare un Security Group, occorre usare il comando:
 
     $ beehive bu netaas securitygroups delete <SG Id>
 
-    
-      Parametri Obbligatori:
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
 
          SG Id               Id del Security Group 
 
-      Parametri Opzionali:
+Parametri Opzionali:
+
+.. code-block:: bash
+
 
         -h, --help          show this help message and exit
         -y                  Force delete
@@ -124,13 +130,17 @@ Aggiungere regole di ingresso e di uscita ad un Security Group, è possibile uti
 
     $ beehive bu netaas securitygroups add-rule  <Tipo ><SG Id>
 
-    
-      Parametri Obbligatori:
+
+Parametri Obbligatori:
+
+.. code-block:: bash
 
          Tipo               Identifica se la regola eè di ingresso "ingress" o uscita "egress".
          Sg id              Id del Security Group 
 
-      Parametri Opzionali:
+Parametri Opzionali:
+
+.. code-block:: bash
 
         -h, --help          show this help message and exit
         -y                  Force delete
@@ -154,12 +164,16 @@ Per cancellare una regola da un *SG*, serve il comando:
     $ beehive bu netaas securitygroups add-rule  <Tipo ><SG Id>
 
     
-      Parametri Obbligatori:
+Parametri Obbligatori:
+
+.. code-block:: bash
 
          Tipo               Identifica se la regola eè di ingresso "ingress" o uscita "egress".
          Sg id              Id del Security Group 
 
-      Parametri Opzionali:
+Parametri Opzionali:
+
+.. code-block:: bash
 
         -h, --help          show this help message and exit
         -y                  Force delete
@@ -193,12 +207,16 @@ Per associare un *SG* ad un Server, procedere con la seguente istruzione:
     $ beehive bu cpaas vms update <id_VM> -sg_add <SG Id>
 
     
-      Parametri Obbligatori:
+Parametri Obbligatori:
+
+.. code-block:: bash
 
          id_VM              Identificativo Vm a cui assegnare ilSG.
          SG Id              Identificativo del Security Group.
  
-      Parametri Opzionali:
+Parametri Opzionali:
+
+.. code-block:: bash
 
         -h, --help          show this help message and exit
         -y                  Force delete
@@ -232,12 +250,16 @@ Disaccopiare una VM da un *SG*, è realizzabile con il comando:
     $ beehive bu cpaas vms update <id_VM> -sg_del <SG Id>
 
     
-      Parametri Obbligatori:
+Parametri Obbligatori:
+
+.. code-block:: bash
 
          id_VM              Identificativo Vm a cui assegnare il SG.
          SG Id              Identificativo del Security Group.
  
-      Parametri Opzionali:
+Parametri Opzionali:
+
+.. code-block:: bash
 
         -h, --help          show this help message and exit
         -y                  Force delete
@@ -270,7 +292,9 @@ La lista dei *template* a disposizione, nell'uso dei Security Group, è fornita 
 
     $ beehive bu netaas securitygroups templates
 
-      Parametri Opzionali:
+Parametri Opzionali:
+
+.. code-block:: bash
               
         -h, --help         show this help message and exit
         -y                 Force delete
@@ -295,11 +319,15 @@ Il comando con cui, ottenere il dettaglio, sulla costituzione di un *Security Gr
 
     $ beehive bu netaas securitygroups get <SG Id>
     
-      Parametri Obbligatori:
+Parametri Obbligatori:
+
+.. code-block:: bash
 
          SG Id              Identificativo del Security Group.
  
-      Parametri Opzionali:
+Parametri Opzionali:
+    
+.. code-block:: bash
 
         -h, --help         show this help message and exit
         -y                 Force delete
