@@ -27,6 +27,9 @@ La lista dei SG, è fornita dal sistema, a sfruttando il comando:
 
     $ beehive bu netaas securitygroups list
 
+
+.. code-block:: bash
+
      
       Parametri Opzionali:
 
