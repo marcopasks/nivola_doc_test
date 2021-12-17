@@ -19,7 +19,7 @@ La gestione del ciclo di vita dei **Volumi**, avviene attraverso le seguenti fun
 Creare un Volume
 ^^^^^^^^^^^^^^^^^
 
-La creazione di un nuovo **Volume**, avviene attraverso la seguente istruzione:
+La creazione, di un nuovo **Volume**, avviene attraverso la seguente istruzione:
 
 .. code-block:: bash
 
@@ -55,6 +55,41 @@ Parametri Opzionali:
         -hypervisor HYPERVISOR  volume hypervisor. Can be: openstack or vsphere                                
                                 [default=openstack]
 
+
+
+.. _Agganciare:
+
+Assegnare un Volume
+^^^^^^^^^^^^^^^^^^^
+
+L'aggangio di un **Volume**, ad una VM, è realizzato con la seguente istriione:
+
+.. code-block:: bash
+
+
+    $ beehive bu cpaas volumes attach <Id volume> <id VM>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        Id Volume             Id del volume
+        Id VM                 Id della server
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help              show this help message and exit
+        -y                      Force delete
+        -e ENV, --env ENV       Execution environment
+        -f FORMAT               Output format
+        -k KEY, --key KEY       Secret key file to use for encryption/decryption
+        --vault VAULT           Ansible vault password to use for inventory decryption
+        --time                  Print command execution time
+        --notruncate            Disable truncate of output
+        --curl                  Print api requst as curl command in console log
 
 
 .. _Elenco:
