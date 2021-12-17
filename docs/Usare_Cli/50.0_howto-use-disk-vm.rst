@@ -1,0 +1,50 @@
+.. _howto-use-disk:
+
+Gestione dei Volumi
+===================
+
+
+La gestione del ciclo di vita dei **Volumi**, dalla CLI, avviene attraverso le seguenti funzioni. 
+
+-  :ref:`Crare`
+-  :ref:`Agganciare`
+-  :ref:`Sganciare`
+-  :ref:`Cancellare`
+-  :ref:`Elenco`
+-  :ref:`Detail`
+
+.. _Elenco:
+
+Ottenere Elenco dei Volumi
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+La lista dei Volumi, è fornita dal sistema, a sfruttando il comando:
+
+
+.. code-block:: bash
+
+    $ beehive bu cpaas volumes list
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help          show this help message and exit
+        -y                  Force delete
+        -e ENV, --env ENV   Execution environment
+        -f FORMAT           Output format
+        -k KEY, --key KEY   Secret key file to use for encryption/decryption
+        --vault VAULT       Ansible vault password to use for inventory decryption
+        --time              Print command execution time
+        --notruncate        Disable truncate of output
+        --curl              Print api requst as curl command in console log
+        -accounts ACCOUNTS  list of account id comma separated
+        -ids IDS            list of security group id comma separated
+        -vpcs VPCS          list of vpc id comma separated
+        -tags TAGS          list of tag comma separated
+        -page PAGE          list page [default=0]
+        -size SIZE          list page size [default=20]
+
+
+

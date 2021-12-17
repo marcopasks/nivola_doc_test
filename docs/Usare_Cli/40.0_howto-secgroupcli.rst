@@ -3,7 +3,7 @@
 Lavorare con i Security Group dalla CLI
 =========================================
 
-E' possibile gestire il ciclo di vita dei **Security Group**, dalla CLI, attraverso queste funzioni. 
+La gestione del ciclo di vita dei **Security Group**, dalla CLI, avviene attraverso le seguenti funzioni. 
 
 -  :ref:`Elenco`
 -  :ref:`Create`
@@ -128,7 +128,7 @@ Aggiungere regole di ingresso e di uscita ad un Security Group, è possibile uti
 
 .. code-block:: bash
 
-    $ beehive bu netaas securitygroups add-rule  <Tipo ><SG Id>
+    $ beehive bu netaas securitygroups add-rule  <Tipo > <SG Id>
 
 
 Parametri Obbligatori:
@@ -161,7 +161,7 @@ Per cancellare una regola da un *SG*, serve il comando:
 
 .. code-block:: bash
 
-    $ beehive bu netaas securitygroups add-rule  <Tipo ><SG Id>
+    $ beehive bu netaas securitygroups add-rule  <Tipo > <SG Id>
 
     
 Parametri Obbligatori:
@@ -197,10 +197,10 @@ Parametri Opzionali:
 
 .. _Add-rule:
 
-Assegnare un Security Group ad una VM
+Associare un Security Group ad una VM
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Per associare un *SG* ad un Server, procedere con la seguente istruzione:
+Per assegnare un *SG*, ad un Server, procedere con la seguente istruzione:
 
 .. code-block:: bash
 
