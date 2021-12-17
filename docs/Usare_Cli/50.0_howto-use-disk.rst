@@ -19,7 +19,7 @@ La gestione del ciclo di vita dei **Volumi**, avviene attraverso le seguenti fun
 Creare un Volume
 ^^^^^^^^^^^^^^^^^
 
-La creazione, di un nuovo **Volume**, avviene attraverso la seguente istruzione:
+La creazione, di un nuovo **Volume**, avviene utilizzando la seguente istruzione:
 
 .. code-block:: bash
 
@@ -62,7 +62,7 @@ Parametri Opzionali:
 Assegnare un Volume
 ^^^^^^^^^^^^^^^^^^^
 
-L'aggangio di un **Volume**, ad una VM, è realizzato con la seguente istriione:
+L'aggancio di un **Volume**, ad una VM, è realizzato dall'istruzione:
 
 .. code-block:: bash
 
@@ -75,7 +75,7 @@ Parametri Obbligatori:
 .. code-block:: bash
 
         Id Volume             Id del volume
-        Id VM                 Id della server
+        Id VM                 Id del server
 
 Parametri Opzionali:
 
@@ -90,6 +90,78 @@ Parametri Opzionali:
         --time                  Print command execution time
         --notruncate            Disable truncate of output
         --curl                  Print api requst as curl command in console log
+
+
+.. _Sganciare:
+
+Assegnare un Volume
+^^^^^^^^^^^^^^^^^^^
+
+Per scollegare un **Volume**, da un istanza, procedere con il comando:
+
+.. code-block:: bash
+
+
+    $ beehive bu cpaas volumes detach <Id volume> <id VM>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        Id Volume             Id del volume
+        Id VM                 Id del server
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help              show this help message and exit
+        -y                      Force delete
+        -e ENV, --env ENV       Execution environment
+        -f FORMAT               Output format
+        -k KEY, --key KEY       Secret key file to use for encryption/decryption
+        --vault VAULT           Ansible vault password to use for inventory decryption
+        --time                  Print command execution time
+        --notruncate            Disable truncate of output
+        --curl                  Print api requst as curl command in console log
+
+
+
+
+.. _Cancellare:
+
+Cancellare un Volume
+^^^^^^^^^^^^^^^^^^^^^
+
+Per eliminare un **Volume**, è sufficiente sfruttare il comando:
+
+.. code-block:: bash
+
+
+    $ beehive bu cpaas volumes delete <id volume>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id volume             Id del volume da cancellare
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help              show this help message and exit
+        -y                      Force delete
+        -e ENV, --env ENV       Execution environment
+        -f FORMAT               Output format
+        -k KEY, --key KEY       Secret key file to use for encryption/decryption
+        --vault VAULT           Ansible vault password to use for inventory decryption
+        --time                  Print command execution time
+        --notruncate            Disable truncate of output
+        --curl                  Print api requst as curl command in console log
+
 
 
 .. _Elenco:
