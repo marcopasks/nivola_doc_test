@@ -94,8 +94,8 @@ Parametri Opzionali:
 
 .. _Sganciare:
 
-Assegnare un Volume
-^^^^^^^^^^^^^^^^^^^
+Scollegare un Volume
+^^^^^^^^^^^^^^^^^^^^
 
 Per scollegare un **Volume**, da un istanza, procedere con il comando:
 
