@@ -4,21 +4,21 @@ Gestione dei Volumi
 ===================
 
 
-La gestione del ciclo di vita dei **Volumi**, dalla CLI, avviene attraverso le seguenti funzioni. 
+La gestione del ciclo di vita dei **Volumi**, avviene attraverso le seguenti funzioni. 
 
 -  :ref:`Crare`
 -  :ref:`Agganciare`
 -  :ref:`Sganciare`
 -  :ref:`Cancellare`
 -  :ref:`Elenco`
--  :ref:`Detail`
+-  :ref:`Dettaglio`
 
 .. _Elenco:
 
 Ottenere Elenco dei Volumi
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La lista dei Volumi, è fornita dal sistema, a sfruttando il comando:
+La lista dei Volumi, è fornita dal sistema, sfruttando il comando:
 
 
 .. code-block:: bash
@@ -29,7 +29,7 @@ La lista dei Volumi, è fornita dal sistema, a sfruttando il comando:
 Parametri Opzionali:
 
 .. code-block:: bash
-
+                
         -h, --help          show this help message and exit
         -y                  Force delete
         -e ENV, --env ENV   Execution environment
@@ -40,11 +40,41 @@ Parametri Opzionali:
         --notruncate        Disable truncate of output
         --curl              Print api requst as curl command in console log
         -accounts ACCOUNTS  list of account id comma separated
-        -ids IDS            list of security group id comma separated
-        -vpcs VPCS          list of vpc id comma separated
+        -volumes VOLUMES    list of volume id comma separated
         -tags TAGS          list of tag comma separated
         -page PAGE          list page [default=0]
         -size SIZE          list page size [default=20]
 
+
+.. _Dettaglio:
+
+Conoscere i dettagli di un Volume
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Il comando con cui, ottenere il dettaglio, sulla costituzione di un *Volume*, è il seguente:
+
+.. code-block:: bash
+
+    $ beehive bu netaas securitygroups get <Volume Id>
+    
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+         Volume Id              Identificativo del Volume.
+ 
+Parametri Opzionali:
+    
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
 
 
