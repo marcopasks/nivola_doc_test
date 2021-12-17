@@ -227,7 +227,7 @@ Parametri Opzionali:
 Elenco chiavi SSH
 ^^^^^^^^^^^^^^^^^^
 
-La lista delle **chiavi SSH**, è generata a seguito del comando:
+La lista delle **chiavi SSH**, presenti nel sistema, è generata a seguito del comando:
 
 .. code-block:: bash
 
@@ -252,3 +252,39 @@ Parametri Opzionali:
         -field FIELD       list sort field [default=id]
         -order ORDER       list sort order [default=DESC]
         -id ID             ssh key uuid
+
+.. _Crea-key-ass:
+
+Creazione chiave SSH associata ad un account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per creare una **chiave SSH**, associata ad un account è necessario utilizzare l'istruzione:
+
+.. code-block:: bash
+
+    $ beehive bu cpaas keypairs add <id account> <nome chiave>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id account               Id account
+        nome chiave              Id della chiave SSH
+
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+        -type TYPE         key type
