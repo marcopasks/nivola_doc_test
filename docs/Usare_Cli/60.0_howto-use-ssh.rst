@@ -92,13 +92,12 @@ Parametri Opzionali:
 
 .. _Vedere-gruppi:
 
-Elenco gruppia abilitati su chiave SSH
+Elenco gruppi abilitati alla chiave SSH
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Per vedere i gruppi associati ad una **chiave SSH**, utilizzare il comando:
 
 .. code-block:: bash
-
 
     $ beehive ssh keys-auth group-get <id SSH-key>
 
@@ -123,3 +122,35 @@ Parametri Opzionali:
         --notruncate       Disable truncate of output
         --curl             Print api requst as curl command in console log
 
+
+.. _Vedere-user:
+
+Elenco utenti abilitati alla chiave SSH
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per avere l'elenco degli user associati ad una **chiave SSH**, usare l'istruzione:
+
+.. code-block:: bash
+
+    $ beehive ssh keys-auth user-get <id SSH-key>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id SSH-key               Id della chiave SSH
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Pr
