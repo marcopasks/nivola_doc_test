@@ -300,7 +300,7 @@ Parametri Opzionali:
 Importare chiave SSH sul portale
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruione:
+Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruzione:
 
 .. code-block:: bash
 
