@@ -300,7 +300,7 @@ Parametri Opzionali:
 Importare chiave SSH sul portale
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Dovendo esportare la **chiave SSH** sul portale,  
+Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruione:
 
 .. code-block:: bash
 
@@ -311,7 +311,7 @@ Parametri Obbligatori:
 
 .. code-block:: bash
 
-        Nome account             Id Virtual Machine
+        Nome account             Nome dell'Account 
         Tipo plugin              Id Virtual Machine
         Container                Id Virtual Machine
         Resource                 Id Virtual Machine
