@@ -254,3 +254,83 @@ Parametri Opzionali:
         --notruncate       Disable truncate of output
         --curl             Print api requst as curl command in console log
         -type TYPE         key type
+
+
+.. _Visibilita-ssh:
+
+Consultare log attività svolta su una VM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Nel caso vi fosse la necessità di vedere le operazioni, condotte su un istanza, procedere con il comando:
+
+.. code-block:: bash
+
+    $ beehive ssh nodes-action get <Id Vm>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id Vm                    Id Virtual Machine
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+        -size SIZE         list page size [default=20]
+        -page PAGE         list page [default=0]
+        -field FIELD       list sort field [default=id]
+        -order ORDER       list sort order [default=DESC]
+        -date DATE         date to. Syntax YYYY.MM.DD
+
+
+
+.. _Import-ssh:
+
+Importare chiave SSH sul portale
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Dovendo esportare la **chiave SSH** sul portale,  
+
+.. code-block:: bash
+
+    $ beehive bu service-insts import-from-resource  <Nome account> <Tipo plugin> <Container> <Resource>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        Nome account             Id Virtual Machine
+        Tipo plugin              Id Virtual Machine
+        Container                Id Virtual Machine
+        Resource                 Id Virtual Machine
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help             show this help message and exit
+        -y                     Force delete
+        -e ENV, --env ENV      Execution environment
+        -f FORMAT              Output format
+        -k KEY, --key KEY      Secret key file to use for encryption/decryption
+        --vault VAULT          Ansible vault password to use for inventory decryption
+        --time                 Print command execution time
+        --notruncate           Disable truncate of output
+        --curl                 Print api requst as curl command in console log
+       -desc DESC [DESC ...]   service instance description                            
+       -service_definition_id  SERVICE_DEFINITION_ID service definition id
+       -parent PARENT          parent service instance id
+
