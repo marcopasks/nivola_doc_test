@@ -312,9 +312,9 @@ Parametri Obbligatori:
 .. code-block:: bash
 
         Nome account             Nome dell'Account 
-        Tipo plugin              Id Virtual Machine
-        Container                Id Virtual Machine
-        Resource                 Id Virtual Machine
+        Tipo plugin              ?
+        Container                ?
+        Resource                 ?
 
 
 Parametri Opzionali:
