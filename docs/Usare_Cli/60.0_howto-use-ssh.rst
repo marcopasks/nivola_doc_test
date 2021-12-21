@@ -14,7 +14,7 @@ Il ciclo di vita delle **CHIAVI SSH**, si sviluppa attraverso queste funzioni.
 -  :ref:`Visibilita-ssh`
 -  :ref:`Import-ssh`
 
-Oltre che sulla **CLI** le chiavi SSH sono gestibili dal portale, nella funzione: funzione :ref:`Gestione_chiavi_ssh`.
+Le chiavi SSH, inoltre, sono gestibili dal portale, nella funzione: :ref:`Gestione_chiavi_ssh`.
 
 .. _Creare-ssh:
 
