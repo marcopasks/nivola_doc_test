@@ -4,7 +4,7 @@ Gestione chiavi SSH
 ===================
 
 
-La gestione del ciclo di vita delle **CHIAVI SSH**, gestibili anche attravero il portale :ref:`_Gestione_chiavi_ssh`, nella **CLI**, si sviluppa attraverso le seguenti funzioni. 
+La gestione del ciclo di vita delle **CHIAVI SSH**, gestibili anche attraverso il portale :ref:`Gestione_chiavi_ssh`, nella **CLI**, si sviluppa attraverso le seguenti funzioni. 
 
 -  :ref:`Creare-ssh`
 -  :ref:`Esportare-ssh`
