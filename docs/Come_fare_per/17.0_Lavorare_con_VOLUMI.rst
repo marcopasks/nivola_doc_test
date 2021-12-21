@@ -1,4 +1,4 @@
-.. 17.0_Lavorare_con_VOLUMI:
+.. Lavorare_con_VOLUMI:
 
 **Lavorare con i Volumi**
 *************************
