@@ -3,6 +3,8 @@
 **Lavorare con le Virtual Machine**
 ###################################
 
+
+funzoni sul portale: :ref:`Lavorare_con_VM`
 Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
 
 .. toctree::
