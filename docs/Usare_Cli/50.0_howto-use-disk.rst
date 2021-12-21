@@ -169,7 +169,7 @@ Parametri Opzionali:
 Ottenere Elenco dei Volumi
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La lista dei Volumi disponibili, è fornita dal sistema, sfruttando il comando:
+La lista dei Volumi disponibili, è fornita dal sistema, usando l'istruzione:
 
 
 .. code-block:: bash

@@ -3,6 +3,8 @@
 Creare Virtual Machine Linux.
 =============================
 
+E' possibile usare il portale, nella funzione :ref:`Creare_VM`
+
 Per creare una Virtual Machine Linux è necessario utilizzare il seguente comando:
 
 .. code-block:: bash
