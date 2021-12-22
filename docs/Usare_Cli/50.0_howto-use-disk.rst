@@ -26,7 +26,7 @@ La creazione, di un nuovo **Volume**, avviene utilizzando la seguente istruzione
 .. code-block:: bash
 
 
-    $ beehive bu cpaas volumes add <nome> account> <zona> <tipo> <dimensione>
+    $ beehive bu cpaas volumes add <nome> <account> <zona> <tipo> <dimensione>
 
      
 Parametri Obbligatori:
