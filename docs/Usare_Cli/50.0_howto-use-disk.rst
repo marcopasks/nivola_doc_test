@@ -4,7 +4,7 @@ Gestione dei Volumi
 ===================
 
 
-La gestione del ciclo di vita dei **Volumi**, avviene attraverso le seguenti funzioni. 
+La gestione del ciclo di vita dei **Volumi**, si svolge attraverso questi passaggi. 
 
 -  :ref:`Creare`
 -  :ref:`Agganciare`
@@ -13,7 +13,7 @@ La gestione del ciclo di vita dei **Volumi**, avviene attraverso le seguenti fun
 -  :ref:`Elenco`
 -  :ref:`Dettaglio`
 
-Oltre che dalla **CLI**, la gestione dei volumi è possibile dal portale, alla funzione: :ref:`Lavorare_con_volumi`.
+Oltre che dalla **CLI**, la gestione dei volumi è possibile dal portale, con la funzione :ref:`Lavorare_con_volumi`.
 
 
 .. _Creare:
