@@ -3,8 +3,8 @@
 **Lavorare con le Virtual Machine**
 ###################################
 
- Dalla **Command Line Interface** sono utilizzabili tutte le funzioni per gestire il ciclo di vita delle Virtual Machine.
-
+Dalla **Command Line Interface,** sono utilizzabili tutte le funzioni per gestire il ciclo di vita delle Virtual Machine.
+Nel caso, fosse preferibile farlo dal portale, le istruzioni sono consultabili nel capitolo :ref:`Lavorare_con_VM`
 
 .. toctree::
    :maxdepth: 2
@@ -16,5 +16,3 @@
    30.30_lista-vm.rst
    30.40_lista-dettagli-vm.rst
    30.45_ottenere-pwd.rst
-
-   Nel caso, fosse preferibile farlo dal portale, le istruzioni sono consultabili nel capitolo :ref:`Lavorare_con_VM`,
