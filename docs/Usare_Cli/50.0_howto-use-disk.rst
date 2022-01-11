@@ -171,7 +171,7 @@ I comandi per scollegare, cancellare un *Volume*, sfruttare le seguenti indicazi
 .. _Sganciare:
 
 Scollegare un Volume
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Per scollegare un **Volume**, da un istanza, procedere con il comando:
 
@@ -207,7 +207,7 @@ Parametri Opzionali:
 .. _Cancellare:
 
 Cancellare un Volume
-^^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 Per eliminare un **Volume**, è sufficiente sfruttare il comando:
 
