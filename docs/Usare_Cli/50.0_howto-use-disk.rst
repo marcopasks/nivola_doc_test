@@ -234,7 +234,7 @@ Parametri Opzionali:
 Effettuare dei Change sul Volume
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-I comandi per scollegare e cancellare un *Volume*, sono:
+I comandi per scollegare, cancellare un *Volume*, sfruttare le seguenti indicazioni:
 
 
 -  :ref:`Sganciare`
