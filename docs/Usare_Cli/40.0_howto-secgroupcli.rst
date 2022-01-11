@@ -9,7 +9,6 @@ La gestione del ciclo di vita dei **Security Group**, dalla CLI, avviene attrave
 -  :ref:`Create`
 -  :ref:`Delete`
 -  :ref:`Aggiungere`
-
 -  :ref:`Lista-template`
 -  :ref:`Detail`
 -  :ref:`Change`
@@ -340,7 +339,7 @@ Parametri Opzionali:
 
 .. _Change:
 
-Comandi utilizzabili per modificare la struttur del SG
+Comandi utilizzabili per modificare la struttura del SG
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Il comandi per aggiungere regole, eliminarle e cancellare un **SG*, sono:
