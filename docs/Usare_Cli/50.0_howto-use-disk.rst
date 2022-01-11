@@ -8,10 +8,9 @@ La gestione, del ciclo di vita dei **Volumi**, si svolge attraverso questi passa
 
 -  :ref:`Creare`
 -  :ref:`Agganciare`
--  :ref:`Sganciare`
--  :ref:`Cancellare`
 -  :ref:`Elenco`
 -  :ref:`Dettaglio`
+-  :ref:`ChangeDisk` 
 
 Oltre che dalla **CLI**, la gestione dei volumi è possibile dal portale, con la funzione :ref:`Lavorare_con_volumi`.
 
@@ -229,5 +228,16 @@ Parametri Opzionali:
         --time             Print command execution time
         --notruncate       Disable truncate of output
         --curl             Print api requst as curl command in console log
+
+.. _ChangeDisk:
+
+Effettuare dei Change sul Volume
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+I comandi per scollegare e cancellare un *Volume*, sono:
+
+
+-  :ref:`Sganciare`
+-  :ref:`Cancellare`
 
 
