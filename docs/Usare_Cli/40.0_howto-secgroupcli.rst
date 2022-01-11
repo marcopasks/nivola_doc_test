@@ -342,7 +342,7 @@ Parametri Opzionali:
 Comandi utilizzabili per modificare la struttura del SG
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Il comandi per aggiungere regole, eliminarle e cancellare un **SG*, sono:
+Il comandi per aggiungere regole, eliminarle e cancellare un **SG**, sono:
 
 -  :ref:`Add-rule`
 -  :ref:`Delete-rule`
