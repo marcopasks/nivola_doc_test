@@ -13,6 +13,9 @@ La gestione del ciclo di vita dei **Security Group**, dalla CLI, avviene attrave
 -  :ref:`Detail`
 -  :ref:`Change`
 
+
+Nel caso, fosse preferibile utilizzare il portale, le istruzioni sono nel capitolo :ref:`Lavorare_con_i_servizi_di_rete`.
+
 .. _Elenco:
 
 Ottenere Elenco dei Security Group
