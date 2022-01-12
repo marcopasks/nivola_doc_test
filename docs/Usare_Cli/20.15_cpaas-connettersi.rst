@@ -3,9 +3,6 @@
 Connettersi alla Virtual Machine.
 ---------------------------------
 
-
-**nodes connect**:
-
 La connessione al server virtuale avviene, sfruttando il comando:
 
 .. code-block:: bash

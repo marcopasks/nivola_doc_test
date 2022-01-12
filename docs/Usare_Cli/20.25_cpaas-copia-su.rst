@@ -1,10 +1,7 @@
 .. _cpaas-copia-su:
 
 Copiare un file da una Virtual Machine ad una PdL. 
-##################################################
-
-
-**nodes-files put**:
+--------------------------------------------------
 
 Per copiare un file dalla una Postazione di lavoro ad un server di Nivola, procedere in questo modo:
 
