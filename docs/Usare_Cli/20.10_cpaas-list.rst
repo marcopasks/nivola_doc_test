@@ -1,0 +1,23 @@
+
+.. _cpaas-list:
+
+Ottenere l'elenco delle Virtual Machine.
+========================================
+
+Per ottenere l'elenco, delle Virtual Machine, il comando è da usare in questo modo:
+
+.. code-block:: bash
+
+    [73300@cmpto1-cons02 ~]$  beehive ssh nodes get <-size 0>
+
+La risposta, del sistema, al comando sarà di questo tipo:
+
+.. code-block:: bash
+
+       uuid                                    name                                   desc             ip                 date
+       ------------------------------------  --------------------------------  -----------------  -------------  ------------------------  
+       930aa960-374a-427b-9a33-a7869251e14e  vm-demo.site02.nivolapiemonte.it  vm-demo-374ba65d   10.138.68.48   2021-10-21T12:55:03Z                                             0  ACTIVE    2019-02-20T08:49:15Z
+
+*<-size 0>* è un parametro opzionale ma diventa obbligatorio, qualora l'elenco avesse, più di 20 VM.
+
+

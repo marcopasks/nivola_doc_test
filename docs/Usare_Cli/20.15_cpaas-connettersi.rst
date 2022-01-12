@@ -1,0 +1,23 @@
+.. _cpaas-connettersi:   
+
+Connettersi alla Virtual Machine.
+---------------------------------
+
+
+**nodes connect**:
+
+La connessione al server virtuale avviene, sfruttando il comando:
+
+.. code-block:: bash
+
+    [73300@cmpto1-cons02 ~]$ beehive ssh nodes connect <ip/FQDN>
+
+La risposta del sistema, al comando, sarà di questo tipo:
+
+.. code-block:: bash
+
+      Last login: Wed Oct 20 11:32:34 2021 from 10.138.154.102
+      [root@cl-wf1-appl-demo ~]#
+      [root@cl-wf1-appl-demo ~]#
+
+*<ip/FQDN>* è un parametro obbligatorio, dove è da indicare l'IP o l'FQDN della VM che si vuole raggiungere.

@@ -1,0 +1,22 @@
+.. _cpaas-copia-da:
+
+
+Copiare un file da una PdL ad una Virtual Machine. 
+##################################################
+
+
+**nodes-files put**:
+
+Per copiare un file dalla una Postazione di lavoro ad un server di Nivola, procedere in questo modo:
+
+.. code-block:: bash
+
+    [73300@cmpto1-cons02 ~]$ beehive ssh nodes-files put <id_vm> <path_locale/nome_file> <path_remoto/nome_file>
+
+
+*<id_VM>* è l'id del nodo, ed è un parametro obbligatorio.
+
+*<path_locale/nome_file>* sono l'indirizzo e il nome del file da copiare, parametro vincolante.
+
+*<path_remoto/nome_file>* ovvero la locazione, seguito dal nome del file che avrà sulla VM di destinazione. Sono indicazioni necessarie al sistema.
+

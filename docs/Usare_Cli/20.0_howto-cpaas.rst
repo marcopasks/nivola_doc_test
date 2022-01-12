@@ -2,105 +2,12 @@
 
 Utilizzare i servizi dalla CLI
 ===============================
-E' possibile sfruttare i servizi dalla Command Line Interface, attraverso le seguenti funzioni:
+E' possibile sfruttare i servizi dalla Command Line Interface, attraverso le seguenti istruzioni:
 
--  :ref:`Elenco`
--  :ref:`Connettersi`
--  :ref:`Copiare_dalla_VM`
--  :ref:`Copiare_sulla_VM`
+.. toctree::
+   :maxdepth: 2
 
-.. _Elenco:
-
-
-Ottenere l'elenco delle Virtual Machine.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-**nodes get**:
-
-Per vedere l'elenco, delle Virtual Machine, il comando è da usare in questo modo:
-
-.. code-block:: bash
-
-    [73300@cmpto1-cons02 ~]$  beehive ssh nodes get <-size 0>
-
-La risposta, del sistema, al comando sarà di questo tipo:
-
-.. code-block:: bash
-
-       uuid                                    name                                   desc             ip                 date
-       ------------------------------------  --------------------------------  -----------------  -------------  ------------------------  
-       930aa960-374a-427b-9a33-a7869251e14e  vm-demo.site02.nivolapiemonte.it  vm-demo-374ba65d   10.138.68.48   2021-10-21T12:55:03Z                                             0  ACTIVE    2019-02-20T08:49:15Z
-
-*<-size 0>* è un parametro opzionale ma diventa obbligatorio, qualora l'elenco avesse, più di 20 VM.
-
-.. _Connettersi:
-
-
-Connettersi alla Virtual Machine.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-**nodes connect**:
-
-La connessione al server virtuale avviene, sfruttando il comando:
-
-.. code-block:: bash
-
-    [73300@cmpto1-cons02 ~]$ beehive ssh nodes connect <ip/FQDN>
-
-La risposta del sistema, al comando, sarà di questo tipo:
-
-.. code-block:: bash
-
-      Last login: Wed Oct 20 11:32:34 2021 from 10.138.154.102
-      [root@cl-wf1-appl-demo ~]#
-      [root@cl-wf1-appl-demo ~]#
-
-*<ip/FQDN>* è un parametro obbligatorio, dove è da indicare l'IP o l'FQDN della VM che si vuole raggiungere.
-
-
-.. _Copiare_dalla_VM:
-
-
-Copiare un file da una PdL ad una Virtual Machine. 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-**nodes-files put**:
-
-Per copiare un file dalla una Postazione di lavoro ad un server di Nivola, procedere in questo modo:
-
-.. code-block:: bash
-
-    [73300@cmpto1-cons02 ~]$ beehive ssh nodes-files put <id_vm> <path_locale/nome_file> <path_remoto/nome_file>
-
-
-*<id_VM>* è l'id del nodo, ed è un parametro obbligatorio.
-
-*<path_locale/nome_file>* sono l'indirizzo e il nome del file da copiare, parametro vincolante.
-
-*<path_remoto/nome_file>* ovvero la locazione, seguito dal nome del file che avrà sulla VM di destinazione. Sono indicazioni necessarie al sistema.
-
-
-.. _Copiare_sulla_VM:
-
-Copiare un file da una Virtual Machine ad una PdL. 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-**nodes-files put**:
-
-Per copiare un file dalla una Postazione di lavoro ad un server di Nivola, procedere in questo modo:
-
-.. code-block:: bash
-
-    [73300@cmpto1-cons02 ~]$ beehive ssh nodes-files get <id_vm> <path_remoto_della_vm/nome_file> <path_locale_CLI/nome_file>
-
-Le seguenti informazioni, sono considerate, necessarie dal sistema: 
-
-*<id_VM>* è l'id del nodo, ed è un parametro obbligatorio.
-
-*<path_locale_CLI/nome_file>* indirizzo e il nome dell'archivio sulla PdL di destinzione
-
-*<path_remoto_della_vm/nome_file>* locazione e nome file da copiare.
+   20.10_cpaas-list.rst
+   20.15_cpaas-connettersi.rst
+   20.20_cpaas-copia-da.rst
+   20.25_cpaas-copia-su.rst
