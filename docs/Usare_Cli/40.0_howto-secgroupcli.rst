@@ -5,7 +5,7 @@ Lavorare con i Security Group dalla CLI
 
 La gestione del ciclo di vita dei **Security Group**, dalla CLI, avviene attraverso le seguenti funzioni. 
 
--  :ref:`Elenco`
+-  :ref:`Sg_Elenco`
 -  :ref:`Create`
 -  :ref:`Delete`
 -  :ref:`Aggiungere`
@@ -16,7 +16,7 @@ La gestione del ciclo di vita dei **Security Group**, dalla CLI, avviene attrave
 
 Nel caso, fosse preferibile utilizzare il portale, è possibile consultare il capitolo :ref:`Lavorare_con_i_servizi_di_rete`.
 
-.. _Elenco:
+.. _Sg_Elenco:
 
 Ottenere Elenco dei Security Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -214,8 +214,8 @@ Parametri Opzionali:
 
 .. _Change:
 
-Comandi utilizzabili per modificare la struttura del SG
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Comandi necessari per modificare la struttura del Security Group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Il comandi per aggiungere regole, eliminarle e cancellare un **SG**, sono:
 
