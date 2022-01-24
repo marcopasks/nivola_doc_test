@@ -14,9 +14,9 @@ il seguente comando:
 
       name                  virtual machine name
       account               parent account id
-      type                  per conoscere i type disponibili usare il comando  beehive3 bu cpaas images list seguito dall'Id Accont.
+      type                  per conoscere i type disponibili usare il comando  **beehive bu cpaas vms types -size 0**.
       subnet                virtual machine subnet id
-      image                 virtual machine image id
+      image                 per conoscere l'images disponibili usare il comando  **beehive bu cpaas images list seguito dall'Id Accont**.
       sg                    virtual machine security group id
 
       Parametri Opzionali:
