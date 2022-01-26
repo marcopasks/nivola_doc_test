@@ -19,7 +19,7 @@ il seguente comando:
       subnet                virtual machine subnet id
       image                 virtual machine image id. Per conoscere l'images disponibili usare il comando 
                             "beehive bu cpaas images list" seguito dall'Id Accont.
-      sg                    security group id della virtual machine 
+      sg                    security group id della virtual machine. Per conoscere l'Id, è possibile usare il comando :ref:`Sg_Elenco`
 
       Parametri Opzionali:
 
