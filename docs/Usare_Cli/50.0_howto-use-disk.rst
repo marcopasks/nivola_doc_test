@@ -4,7 +4,7 @@ Gestione dei Volumi
 ===================
 
 
-La gestione, del ciclo di vita dei **Volumi**, si svolge attraverso questi passaggi. 
+La gestione, del ciclo di vita dei **Volumi**, si traduce in queste operazioni: 
 
 -  :ref:`Creare`
 -  :ref:`Agganciare`
@@ -130,7 +130,7 @@ Parametri Opzionali:
 Conoscere i dettagli di un Volume
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Il comando con cui, ottenere il dettaglio, sulla costituzione di un *Volume*, è il seguente:
+Il comando con cui, poter ottenere il dettaglio circa la costituzione di un *Volume*, è:
 
 .. code-block:: bash
 
@@ -140,7 +140,7 @@ Parametri Obbligatori:
 
 .. code-block:: bash
 
-         Volume Id              Identificativo del Volume.
+         Volume Id         Identificativo del Volume.
  
 Parametri Opzionali:
     
@@ -161,7 +161,7 @@ Parametri Opzionali:
 Effettuare dei Change sul Volume
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-I comandi per scollegare, cancellare un *Volume*, sfruttare le seguenti indicazioni:
+Per scollegare e cancellare un *Volume*, servono queste istruzioni:
 
 
 -  :ref:`Sganciare`
