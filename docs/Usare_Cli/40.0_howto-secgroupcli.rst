@@ -21,7 +21,7 @@ Nel caso, fosse preferibile utilizzare il portale, è possibile consultare il ca
 Ottenere Elenco dei Security Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La lista dei SG, è fornita dal sistema, a sfruttando il comando:
+La lista dei SG, è fornita dal sistema, sfruttando il comando:
 
 
 .. code-block:: bash
@@ -55,7 +55,7 @@ Parametri Opzionali:
 Creare un Security Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La creazione di un Security Group, avviene attraverso la seguente istruzione:
+La creazione di un Security Group, avviene con l'istruzione:
 
 
 .. code-block:: bash
@@ -125,7 +125,7 @@ Parametri Opzionali:
 Aggiungere una regola ad un Security Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Aggiungere regole di ingresso e di uscita ad un Security Group, è possibile utilizzando l'istruzione:
+Per aggiungere regole di ingresso e di uscita ad un Security Group, il comando da sfruttare è il seguente:
 
 .. code-block:: bash
 
@@ -159,7 +159,7 @@ Parametri Opzionali:
 Elenco Template utilizzabili
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La lista dei *template* a disposizione, nell'uso dei Security Group, è fornita dal sistema dall'istruzione:
+La lista dei *template* a disposizione, nell'uso dei Security Group, è ottenuta tramite l'istruzione:
 
 .. code-block:: bash
 
@@ -186,7 +186,7 @@ Parametri Opzionali:
 Conoscere i dettagli di un Security Group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Il comando con cui, ottenere il dettaglio, sulla costituzione di un *Security Group*, è il seguente:
+Il comando con cui, ottenere il dettaglio circa la costituzione di un *Security Group*, è il seguente:
 
 .. code-block:: bash
 
@@ -315,7 +315,7 @@ Parametri Opzionali:
 Eliminare una regola da un Security Group
 -----------------------------------------
 
-Per cancellare una regola da un *SG*, serve il comando:
+La cancellazione di una regola da un *SG*, prevede l'uso del comando:
 
 .. code-block:: bash
 
