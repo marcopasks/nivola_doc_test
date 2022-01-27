@@ -12,11 +12,6 @@ Per accendere una Virtual Machine, è necessario utilizzare il seguente comando:
       Parametri Obbligatori:
 
       ID VM                 virtual machine ID
-      account               parent account id
-      type                  virtual machine type
-      subnet                virtual machine subnet id
-      image                 virtual machine image id
-      sg                    virtual machine security group id
 
       Parametri Opzionali:
 
