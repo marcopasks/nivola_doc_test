@@ -5,7 +5,7 @@ Ottenere Password per una Virtual Machine.
 ==========================================
 
 
-Per ottenere una passoword da usare su una Virtual Machine, serve utilizzare il seguente comando:
+Per ottenere una password, da usare su una Virtual Machine, serve utilizzare il seguente comando:
 
 .. code-block:: bash
 
