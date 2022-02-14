@@ -3,6 +3,29 @@
 **Release Notes**
 ===================================
 
+.. _release-2.5.4:
+
+Service Portal 2.5.4 (2022-02-11)
+---------------------------------
+
+**Changed**
+
+
+*   Adeguamento per rilascio CMP Nivola 1.10.0
+	
+*   `[NSP-127] <https://jira.csi.it/browse/NSP-127>`_ - Master/Viewer di Account: visualizzazione tariffe e listino applicato all'Account
+
+
+**Fixed**    
+    
+
+*   `[NSP-1050] <https://jira.csi.it/browse/NSP-1050>`_ - `[NSP-1094] <https://jira.csi.it/browse/NSP-1094>`_ 
+
+
+
+
+===================================
+
 .. _release-2.5.0:
 
 Service Portal 2.5.0 (2021-10-12)
