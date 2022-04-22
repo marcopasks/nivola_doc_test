@@ -1,0 +1,15 @@
+.. _Assistenza:
+
+**Assistenza**
+#####################
+
+Sono le funzioni per gestire il ciclo di vita degli utenti, nel Portale Nivola.
+
+.. toctree::
+   :maxdepth: 2
+
+   05.1_Creare_Utente.rst
+   05.2_Accreditare_Utente.rst
+   05.3_Verificare_Accrediti_Utente.rst
+   05.4_Autoregistrazione_Utente.rst
+   05.6_Revocare_Utente.rst
