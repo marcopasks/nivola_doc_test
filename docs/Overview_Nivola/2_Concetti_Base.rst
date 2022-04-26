@@ -22,7 +22,7 @@ in base a specifiche esigenze di distribuzione geografica mantenendo inalterata 
 ==============================
 
 All'interno di Nivola sarà possibile modellare una struttura organizzativa su tre livelli
-in modo da permettere di attritbuire responsabilità e gestione dei servizi
+in modo da permettere di attribuire responsabilità e gestione dei servizi
 secondo una gerarchia precisa. Nell'**Account** sarà istanziata l'infrastruttura
 in modo da soddisfare il fabbisogno tecnologico e di sicurezza necessario. Alla **Divisione**
 è demandato il compito di controllo del consumo delle risorse degli Account che potrà creare
