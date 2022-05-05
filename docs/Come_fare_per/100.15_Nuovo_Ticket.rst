@@ -1,6 +1,6 @@
 .. _Nuovo_Ticket:
 
-**Creare Virtual Machine**
+**Nuovo Ticket**
 ===========================
 La funzione rientra nel **servizio compute**. La **creazione Vm** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**

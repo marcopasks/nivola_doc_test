@@ -1,6 +1,6 @@
 .. _Bozze:
 
-**Creare Virtual Machine**
+**Bozze**
 ===========================
 La funzione rientra nel **servizio compute**. La **creazione Vm** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**

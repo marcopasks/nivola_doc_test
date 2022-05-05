@@ -1,6 +1,6 @@
 .. _Area_di_condivisione:
 
-**Creare Virtual Machine**
+**Area di condivisione**
 ===========================
 La funzione rientra nel **servizio compute**. La **creazione Vm** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
