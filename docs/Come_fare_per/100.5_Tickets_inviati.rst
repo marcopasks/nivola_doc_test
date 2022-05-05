@@ -2,8 +2,8 @@
 
 **Tickets inviati**
 ===========================
-La funzione rientra nel **servizio compute**. La **creazione Vm** è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
+La funzione rientra nel **servizio assistenza**. La lista **tickets inviati** è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assistenza**
 
 .. image:: img/VM_innesco_crea.png
 
