@@ -52,6 +52,11 @@ ad interagire con la piattaforma, attraverso il portale.
    70.0_Come_creare_servizi_in_alta_affidabilita.rst
    90.0_Attivare_il_supporto.rst
    100.0_Assistenza.rst
+       100.5_Tickets_inviati.rst
+       100.10_Bozze.rst
+       100.15_Nuovo_Ticket.rst
+       100.20_Area_di_condivisione.rst
+
    
 .. toctree::
     :hidden:
