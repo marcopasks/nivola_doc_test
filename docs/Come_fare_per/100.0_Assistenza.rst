@@ -8,8 +8,7 @@ Sono le funzioni per gestire il ciclo di vita degli utenti, nel Portale Nivola.
 .. toctree::
    :maxdepth: 2
 
-   100.1_Creare_Utente.rst
-   100.2_Accreditare_Utente.rst
-   100.3_Verificare_Accrediti_Utente.rst
-   100.4_Autoregistrazione_Utente.rst
-   100.6_Revocare_Utente.rst
+   100.5_Tickets_inviati.rst
+   100.10_Bozze.rst
+   100.15_Nuovo_Ticket.rst
+   100.20_Area_di_condivisione.rst
