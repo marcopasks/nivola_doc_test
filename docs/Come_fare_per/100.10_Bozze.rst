@@ -1,4 +1,4 @@
-.. _Creare_VM:
+.. _Bozze:
 
 **Creare Virtual Machine**
 ===========================

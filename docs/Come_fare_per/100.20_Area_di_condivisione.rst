@@ -1,4 +1,4 @@
-.. _Creare_VM:
+.. _Area_di_condivisione:
 
 **Creare Virtual Machine**
 ===========================
