@@ -7,7 +7,7 @@ sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assist
 
 Nella parte destra dello schermo è possibile visualizzare la lista degli eventuali tickets aperti precedentemente.
 
-.. image:: img/VM_innesco_crea.png
+.. image:: img/Assist_TickInviati.png
 
 A seguito di un clic su **VM**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
