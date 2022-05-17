@@ -5,7 +5,7 @@
 La funzione rientra nel **servizio compute**. La **creazione Vm** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
-.. image:: img/VM_innesco_crea.png
+.. image:: img/Assist_TickInviati.png
 
 A seguito di un clic su **VM**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.

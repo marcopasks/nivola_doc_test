@@ -5,6 +5,8 @@
 La funzione rientra nel **servizio assistenza**. La lista **tickets inviati** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assistenza**
 
+Nella parte destra dello schermo è possibile visualizzare la lista degli eventuali tickets aperti precedentemente.
+
 .. image:: img/VM_innesco_crea.png
 
 A seguito di un clic su **VM**, il sistema popolerà la
