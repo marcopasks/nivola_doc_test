@@ -7,10 +7,9 @@ sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assist
 
 .. image:: img/Assist_TicketInviati.png
 
-A seguito di un clic su **Tickets inviati**, il sistema popolerà la
-parte destra del video con l'**Tickets inviati**. 
-Nella parte destra dello schermo è possibile visualizzare la lista degli eventuali tickets aperti in precedenza. 
-In caso di primo utilizzo risulterà vuota, e in basso comparirà il messaggio "Non ci sono Richieste presenti"
+A seguito di un clic su **Tickets inviati**, il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**.
 
-.. image:: img/Assist_ElencoTicket.png
+In caso di primo utilizzo della funzionalità la lista risulterà vuota, e in basso comparirà il messaggio "Non ci sono Richieste presenti"
+
+.. image:: img/Assist_NoTicket.png
    
