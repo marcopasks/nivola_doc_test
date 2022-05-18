@@ -1,6 +1,6 @@
 .. _Tickets_inviati:
 
-**Tickets inviati**
+**Rispondere richieste integrazioni informative**
 ===========================
 La funzione rientra nel **servizio assistenza**. La lista dei **Tickets inviati** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assistenza**

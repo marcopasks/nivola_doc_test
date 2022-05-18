@@ -1,6 +1,6 @@
 .. _Tickets_inviati:
 
-**Tickets inviati**
+**Aggiungere workinfo ticket**
 ===========================
 La funzione rientra nel **servizio assistenza**. La lista dei **Tickets inviati** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assistenza**
