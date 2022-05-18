@@ -23,7 +23,7 @@ e al termine premere il tasto **REGISTRA UTENTE**.
   .. image:: img/Utente_form_crea.png
 
 Esiste la possibilità, esclusivamente per gli utenti del **dominio csi**, nella quale è
-possibile :ref:`l'utoregistrazione <Autoregistrazione_Utente>`.
+possibile :ref:`l'autoregistrazione <Autoregistrazione_Utente>`.
 
 
 L'utente, se i dati inseriti saranno corretti, verrà generato e quindi disponibile per
