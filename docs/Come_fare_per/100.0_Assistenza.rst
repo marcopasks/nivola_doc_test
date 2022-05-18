@@ -16,4 +16,4 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
    100.30_Visualizzare_bozza.rst
    100.35_Creare_nuovo_ticket.rst
    100.40_Aggiungere_workinfo_ticket.rst
-   100.45_Rispondere_richieste_integrazioni_informative.rst
+   100.45_Risposta_richiesta_integrazione_informativa.rst
