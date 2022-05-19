@@ -11,7 +11,7 @@ A seguito di un clic su **VM**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
 Per la vedere l'elenco degli **snapshot**, procedere in questo modo:
 
-1. Individuare il sever dall’**Elenco VM**, mettendo una spunta a fianco del nome;
+1. Individuare il server dall’**Elenco VM**, mettendo una spunta a fianco del nome;
 
 .. image:: img/Ricerca_VM_a.png
     
