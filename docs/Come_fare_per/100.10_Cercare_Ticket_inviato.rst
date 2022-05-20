@@ -14,27 +14,27 @@ Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviat
 
 All’interno di ciascun Account è possibile fare ricerche su tutti i ticket precedentemente inviati. 
 La ricerca è eseguita tramite una stringa inserita dall’operatore. 
-Nivola ricerca il set di caratteri nella colonna dove sono elencati nomi alfanumerici dei ticket. 
+Nivola ricerca il set di caratteri nella colonna "**numero Ticket**". 
 Per eseguire una ricerca è necessario procedere in questo modo:
 
-        1. Inserire la stringa da usare come chiave di ricerca, sotto la label «Ricerca» e premere invio;
+1. Inserire la stringa da usare come chiave di ricerca, sotto la label «Ricerca» e premere invio;
 
-        .. image:: img/100.5_RicercaStringaTicketDX.png
-        2. Il sistema popolerà lo schermo, con i ticket che soddisfano il criterio di selezione;;  
+.. image:: img/100.5_RicercaStringaTicketDX.png
+2. Il sistema popolerà lo schermo, con i ticket che soddisfano il criterio di selezione;;  
 
-1. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
+3. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
 
 .. image:: img/100.5_RicercaStringaTicketOkDX.png
     
-2. Usare il bottone **Visualizza dettagli Ticket**;
+4. Usare il bottone **Visualizza dettagli Ticket**;
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-3. Le informazioni del ticket sono presenti nel tab **RICHIESTA**;
+5. Le informazioni del ticket sono presenti nel tab **RICHIESTA**;
     
 .. image:: img/100.5_DettagliTicketTag1.png
 
-4. Eventuali informazioni ulteriori aggiunte al ticket dopo la sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
+6. Eventuali informazioni ulteriori aggiunte al ticket dopo la sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
 
 .. image:: img/100.5_DettagliTicketTag2.png
 
