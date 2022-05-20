@@ -20,7 +20,8 @@ Per eseguire una ricerca è necessario procedere in questo modo:
 1. Inserire la stringa da usare come chiave di ricerca, sotto la label «Ricerca» e premere invio;
 
 .. image:: img/100.5_RicercaStringaTicketDX.png
-2. Il sistema popolerà lo schermo, con i ticket che soddisfano il criterio di selezione;;  
+2. Il sistema popolerà lo schermo, con i ticket che soddisfano il criterio di selezione;
+
 
 3. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
 
