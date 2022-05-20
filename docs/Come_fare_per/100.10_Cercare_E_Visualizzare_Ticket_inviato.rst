@@ -1,6 +1,6 @@
 .. _Tickets_inviati:
 
-**Cercare Ticket inviato**
+**Cercare e visualizzare Ticket inviato**
 ===========================
 
 La funzione rientra nel **servizio assistenza**. Accedere alla lista dei **Tickets inviati** cliccando sulla label **Tickets inviati** sotto **Assistenza**

@@ -9,8 +9,7 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
    :maxdepth: 2
 
    100.5_Elenco_Ticket_inviati.rst
-   100.10_Cercare_Ticket_inviato.rst
-   100.15_Visualizzare_Ticket_inviato.rst
+   100.10_Cercare_E_Visualizzare_Ticket_inviato.rst
    100.20_Elenco_bozze.rst
    100.25_Cercare_bozze.rst
    100.30_Visualizzare_bozza.rst
