@@ -3,7 +3,8 @@
 **Cercare e visualizzare Ticket inviato**
 ===========================
 
-La funzione rientra nel **servizio assistenza**. Accedere alla lista dei **Tickets inviati** cliccando sulla label **Tickets inviati** sotto **Assistenza**
+La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
+sotto **Assistenza**
 
 .. image:: img/100.5_Elenco_Ticket_inviatiSX.png
 
