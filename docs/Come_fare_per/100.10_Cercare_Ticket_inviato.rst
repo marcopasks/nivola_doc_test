@@ -3,13 +3,12 @@
 **Cercare Ticket inviato**
 ===========================
 
-La funzione rientra nel **servizio assistenza**. La lista dei **Tickets inviati** è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assistenza**
+La funzione rientra nel **servizio assistenza**. Accedere alla lista dei **Tickets inviati** cliccando sulla label **Tickets inviati** sotto **Assistenza**
 
 .. image:: img/100.5_Elenco_Ticket_inviatiSX.png
 
 
-A seguito di un clic su **Tickets inviati**, il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**.
+Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**.
 
 .. image:: img/100.5_ElencoTicketDX.png
 
@@ -18,9 +17,10 @@ La ricerca è eseguita tramite una stringa inserita dall’operatore.
 Nivola ricerca il set di caratteri nella colonna dove sono elencati nomi alfanumerici dei ticket. 
 Per eseguire una ricerca è necessario procedere in questo modo:
 
-        Inserire la stringa da usare come chiave di ricerca, sotto la label «Ricerca» e premere invio;
+        1. Inserire la stringa da usare come chiave di ricerca, sotto la label «Ricerca» e premere invio;
 
         .. image:: img/100.5_RicercaStringaTicketDX.png
+        2. Il sistema popolerà lo schermo, con i ticket che soddisfano il criterio di selezione;;  
 
 1. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
 
