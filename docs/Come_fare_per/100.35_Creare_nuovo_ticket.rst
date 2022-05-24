@@ -35,5 +35,5 @@ E si verrà reindirizzati nel menù "**Bozze**" in cui è presente la bozza appe
 .. image:: img/100.35_Bozza_da_Nuovo_TicketDX.png
 
 
-da finire con scelta di creazione e invio ticket
+da finire con scelta di creazione e invio ticket (e mettere anche che arriva una mail in automatico)
 
