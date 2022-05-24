@@ -17,7 +17,7 @@ All’interno di ciascun Account è possibile fare ricerche su tutte le bozze pr
 La ricerca è eseguita tramite una stringa inserita dall’operatore. 
 Per eseguire una ricerca è necessario procedere in questo modo:
 
-1. Inserire la stringa da usare come chiave di ricerca sotto la label «Ricerca»: il sistema automaticamente popolerà lo schermo, 
+1. Inserire la stringa da usare come chiave di ricerca sotto la label «Ricerca»: il sistema automaticamente popolerà lo schermo 
 con le bozze che soddisfano il criterio di selezione;
 
 .. image:: img/100.25_RicercaStringaBozzeDX.png
@@ -30,16 +30,16 @@ con le bozze che soddisfano il criterio di selezione;
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-4. Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**;
+4. Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA**;
     
 .. image:: img/100.25_DettagliBozza.png
 
-5. E' possibile integrare e/o modificare l'oggetto e la descrizione;
+E' possibile integrare e/o modificare l'oggetto e la descrizione;
 
-6. Utilizzando il tasto "**SALVA BOZZA**" è possibile salvare le modifiche: comparirà il seguente messaggio di conferma
+Utilizzando il tasto "**SALVA BOZZA**" è possibile salvare le modifiche: comparirà il seguente messaggio di conferma
 
 .. image:: img/100.25_BozzaAggiornataDX.png
 
-da finire
+Utilizzando il tasto "**INVIA**" è possibile trasformare la bozza in un ticket: comparirà il seguente messaggio di conferma
 
-   
+.. image:: img/richiesta_assistenza_inviata_correttamente.png
