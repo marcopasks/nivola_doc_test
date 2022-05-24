@@ -20,4 +20,18 @@ Indipendentemente dalle scelte effettuate si arriva al form attraverso il quale 
 
 .. image:: img/100.35_Form_Nuovo_TicketDX.png
 
-    
+Inserire l'oggetto, la descrizione e l'eventuale allegato attraverso il tasto in basso a destra "**Scegli file**";
+
+.. image:: img/100.35_FormOK_Nuovo_TicketDX.png
+
+Premendo il tasto in basso a destra "**SALVA IN BOZZA**" 
+
+.. image:: img/richiesta_assistenza_salvata_correttamente_in_bozza.png
+
+E si verrà reindirizzati nel menù "**Bozze**" in cui è presente la bozza appena salvata;
+
+.. image:: img/100.35_Bozza_da_Nuovo_TicketDX.png
+
+
+da finire con scelta di creazione e invio ticket
+
