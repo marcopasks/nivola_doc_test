@@ -16,7 +16,8 @@ Riportiamo l'elenco completo di tale alberatura delle scelte:
 
 .. image:: img/100.35_Mappa_Scelte_Nuovo_TicketDX.png
 
-Indipendentemente dalle scelte effettuate si arriva al form attraverso il quale aprire ed inviare il ticket;
+Indipendentemente dalle scelte effettuate si arriva al form attraverso il quale aprire ed inviare il ticket
+La voce in alto "**Riepilogo delle scelte effettuate**" riporta il riassunto delle scelte effettuate in precedenza.
 
 .. image:: img/100.35_Form_Nuovo_TicketDX.png
 
@@ -24,7 +25,8 @@ Inserire l'oggetto, la descrizione e l'eventuale allegato attraverso il tasto in
 
 .. image:: img/100.35_FormOK_Nuovo_TicketDX.png
 
-Premendo il tasto in basso a destra "**SALVA IN BOZZA**" 
+Se si desidera salvare la richiesta come bozza, per inviarla in un secondo momento occorre 
+selezionare il tasto in basso a destra "**SALVA IN BOZZA**" 
 
 .. image:: img/richiesta_assistenza_salvata_correttamente_in_bozza.png
 
