@@ -10,32 +10,14 @@ sotto **Assistenza**
 
 
 Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti e livelli di urgenza.
+Selezionando attraverso un click ogni macro argomento, si aprono delle scelte successive che incanalano la scelta in maniera sempre
+più coerente e specifica in relazione al problema o richiesta da segnalare.
+Riportiamo l'elenco completo di tale alberatura delle scelte:
 
 .. image:: img/100.35_Mappa_Scelte_Nuovo_TicketDX.png
 
-All’interno di ciascun Account è possibile fare ricerche su tutti i ticket precedentemente inviati. 
-La ricerca è eseguita tramite una stringa inserita dall’operatore.
-Per eseguire una ricerca è necessario procedere in questo modo:
+Indipendentemente dalle scelte effettuate si arriva al form attraverso il quale aprire ed inviare il ticket;
 
-1. Inserire la stringa da usare come chiave di ricerca sotto la label «Ricerca»: il sistema automaticamente popolerà lo schermo, 
-con i ticket che soddisfano il criterio di selezione;
+.. image:: img/100.35_Form_Nuovo_TicketDX.png
 
-.. image:: img/100.5_RicercaStringaTicketDX.png
-
-2. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
-
-.. image:: img/100.5_RicercaStringaTicketOkDX.png
     
-3. Usare il bottone **Visualizza dettagli Ticket**;
-
-.. image:: img/100.5_iconaDettagliTicket.png
-
-4. Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**;
-    
-.. image:: img/100.5_DettagliTicketTag1.png
-
-5. Eventuali informazioni ulteriori aggiunte al ticket dopo la sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
-
-.. image:: img/100.5_DettagliTicketTag2.png
-
-   
