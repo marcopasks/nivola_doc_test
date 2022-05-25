@@ -16,7 +16,7 @@ Riportiamo l'elenco completo di tale alberatura delle scelte:
 
 .. image:: img/100.35_Mappa_Scelte_Nuovo_TicketDX.png
 
-Indipendentemente dalle scelte effettuate si arriva al form attraverso il quale aprire ed inviare il ticket
+Indipendentemente dalle scelte effettuate si arriva al form attraverso il quale aprire ed inviare il ticket.;
 La voce in alto "**Riepilogo delle scelte effettuate**" riporta il riassunto delle scelte effettuate in precedenza.
 
 .. image:: img/100.35_Form_Nuovo_TicketDX.png
