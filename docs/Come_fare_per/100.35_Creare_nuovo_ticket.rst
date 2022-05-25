@@ -41,7 +41,10 @@ Se invece si desidera aprire la segnalazione inviando subito il ticket occorre s
 
 .. image:: img/richiesta_assistenza_inviata_correttamente.png
 
-E si verrà reindirizzati nel menù "**Tickets inviati**" in cui sarà presente la bozza appena salvata;
+E si verrà reindirizzati nel menù "**Tickets inviati**" in cui sarà presente il ticket appena creato e inviato;
 
 .. image:: img/100.35_ListaTicket_da_Nuovo_TicketDX.png
 
+In automatico si riceverà sulla propria casella di posta elettronica una mail a conferma dell'avvenuta apertura del ticket;
+
+.. image:: img/100.35_Mail_da_Nuovo_Ticket.png
