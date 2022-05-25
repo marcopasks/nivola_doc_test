@@ -26,15 +26,22 @@ Inserire l'oggetto, la descrizione e l'eventuale allegato attraverso il tasto in
 
 .. image:: img/100.35_FormOK_Nuovo_TicketDX.png
 
-Se si desidera salvare la richiesta come bozza, per inviarla in un secondo momento occorre 
-selezionare il tasto in basso a destra "**SALVA IN BOZZA**" 
+Se si desidera salvare la richiesta come bozza ed inviarla in un secondo momento occorre selezionare il tasto in 
+basso a destra "**SALVA IN BOZZA**". Apparirà il seguente messaggio di conferma:
 
 .. image:: img/richiesta_assistenza_salvata_correttamente_in_bozza.png
 
-E si verrà reindirizzati nel menù "**Bozze**" in cui è presente la bozza appena salvata;
+E si verrà reindirizzati nel menù "**Bozze**" in cui sarà presente la bozza appena salvata;
 
-.. image:: img/100.35_Bozza_da_Nuovo_TicketDX.png
+.. image:: img/100.35_ListaBozze_da_Nuovo_TicketDX.png
 
 
-da finire con scelta di creazione e invio ticket (e mettere anche che arriva una mail in automatico)
+Se invece si desidera aprire la segnalazione inviando il ticket occorre selezionare il tasto in basso a destra
+ "**INVIA**. Apparirà il seguente messaggio di conferma:
+
+ .. image:: img/richiesta_assistenza_inviata_correttamente.png
+
+E si verrà reindirizzati nel menù "**Bozze**" in cui sarà presente la bozza appena salvata;
+
+.. image:: img/100.35_ListaTicket_da_Nuovo_TicketDX.png
 
