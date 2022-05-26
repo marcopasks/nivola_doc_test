@@ -32,7 +32,7 @@ che ci è pervenuta;
 Per rispondere a tale richiesta di integrazione informazioni, utilizzare il box "**Rispondi a richiesta integrazione informazioni**";
 
 .. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
-
+    
 Una volta inserite le informazioni richieste nel campo "**Testo risposta**", premere il tasto "**INVIA**"
 
 .. image:: img/100.40_TestoRisposta_in_NoteAggiuntive_Arrivate_in_Ticket.png
