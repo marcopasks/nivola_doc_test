@@ -32,5 +32,3 @@ che ci è pervenuta;
 Per rispondere a tale richiesta di integrazione informativa, utilizzare il box "**Rispondi a richiesta integrazione informazioni**";
 
 .. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
-    
-
