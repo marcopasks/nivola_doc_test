@@ -29,7 +29,7 @@ che ci è pervenuta;
 .. image:: img/100.40_NoteAggiuntive_Arrivate_in_Ticket.png
 
 
-Per rispondere a tale richiesta di integrazione informazioni, utilizzare il box "**Rispondi a richiesta integrazione informazioni**";
+Per rispondere a tale richiesta di integrazione, utilizzare il box "**Rispondi a richiesta integrazione informazioni**";
 
 .. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
     
