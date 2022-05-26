@@ -3,17 +3,17 @@
 **Rispondere a una richiesta di integrazione informazioni**
 ===========================
 
-A fronte della ricezione di una mail con oggetto **E' stata effettuata un'integrazione alla segnalazione INC00000xxxxxxx**: 
+A fronte della ricezione di una mail con oggetto "**E' stata effettuata un'integrazione alla segnalazione INC00000xxxxxxx**"": 
 
 .. image:: img/100.40_Mail_da_Richiesta_Integrazione.png
 
-Utilizzare il numero del ticket **INC00000xxxxxxx** come chiave di ricerca sotto la label «Ricerca»;
+Utilizzare il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto la label «Ricerca»;
 
-.. image:: img/100.5_RicercaStringaTicketDX.png
+.. image:: img/100.40_RicercaStringaTicketDX.png
 
 Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
 
-.. image:: img/100.5_RicercaStringaTicketOkDX.png
+.. image:: img/100.40_RicercaStringaTicketOkDX.png
     
 Usare il bottone **Visualizza dettagli Ticket**;
 
