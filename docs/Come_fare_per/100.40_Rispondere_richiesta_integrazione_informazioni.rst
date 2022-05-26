@@ -32,3 +32,16 @@ che ci è pervenuta;
 Per rispondere a tale richiesta di integrazione informativa, utilizzare il box "**Rispondi a richiesta integrazione informazioni**";
 
 .. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
+
+Una volta inserite le informazioni richieste nel campo "**Testo risposta**", premere il tasto "**INVIA**"
+
+.. image:: img/100.40_TestoRisposta_in_NoteAggiuntive_Arrivate_in_Ticket.png
+
+Comparirà il seguente messaggio di conferma:
+
+.. image:: img/100.40_Workinfo_correttamente_aggiunta.png
+
+Ad ulteriore conferma arriverà una mail:
+
+.. image:: img/100.40_Mail_da_Risposta_richiesta_integrazione.png
+
