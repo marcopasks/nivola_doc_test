@@ -3,39 +3,48 @@
 **Rispondere a una richiesta di integrazione informazioni**
 ===========================
 
-La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
-sotto **Assistenza**
+A fronte della ricezione di una mail con oggetto **E' stata effettuata un'integrazione alla segnalazione INC00000xxxxxxx**: 
 
-.. image:: img/100.5_Elenco_Ticket_inviatiSX.png
+.. image:: img/100.40_Mail_da_Richiesta_Integrazione.png
 
-
-Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**.
-
-.. image:: img/100.5_ElencoTicketDX.png
-
-All’interno di ciascun Account è possibile fare ricerche su tutti i ticket precedentemente inviati. 
-La ricerca è eseguita tramite una stringa inserita dall’operatore.
-Per eseguire una ricerca è necessario procedere in questo modo:
-
-1. Inserire la stringa da usare come chiave di ricerca sotto la label «Ricerca»: il sistema automaticamente popolerà lo schermo, 
-con i ticket che soddisfano il criterio di selezione;
+Utilizzare il numero del ticket **INC00000xxxxxxx** come chiave di ricerca sotto la label «Ricerca»;
 
 .. image:: img/100.5_RicercaStringaTicketDX.png
 
-2. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
+Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
 
 .. image:: img/100.5_RicercaStringaTicketOkDX.png
     
-3. Usare il bottone **Visualizza dettagli Ticket**;
+Usare il bottone **Visualizza dettagli Ticket**;
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-4. Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**;
+Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**;
     
 .. image:: img/100.5_DettagliTicketTag1.png
 
-5. Eventuali informazioni ulteriori aggiunte al ticket dopo la sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
+Quindi spostarsi nel tag **NOTE AGGIUNTIVE** dove sarà possibile visualizzare l'oggetto e il testo della richiesta di integrazione
+che ci è pervenuta;
 
-.. image:: img/100.5_DettagliTicketTag2.png
+.. image:: img/100.40_NoteAggiuntive_Arrivate_in_Ticket.png
+
+
+Per rispondere a tale richiesta di integrazione informazioni, utilizzare il box "**Rispondi a richiesta integrazione informazioni**";
+
+.. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
+
+Una volta inserite le informazioni richieste nel campo "**Testo risposta**", premere il tasto "**INVIA**"
+
+.. image:: img/100.40_TestoRisposta_in_NoteAggiuntive_Arrivate_in_Ticket.png
+
+Comparirà il seguente messaggio di conferma:
+
+.. image:: img/100.40_Workinfo_correttamente_aggiunta.png
+
+Ad ulteriore conferma arriverà una mail:
+
+.. image:: img/100.40_Mail_da_Risposta_richiesta_integrazione.png
+
+
 
    
