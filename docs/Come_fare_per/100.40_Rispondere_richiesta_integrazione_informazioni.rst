@@ -1,6 +1,6 @@
 .. _Tickets_inviati:
 
-**Aggiungere Note Aggiuntive in Ticket inviato**
+**Rispondere a una richiesta di integrazione informazioni**
 ===========================
 
 La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
