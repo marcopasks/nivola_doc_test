@@ -7,9 +7,9 @@ La ricezione di una mail, simile alla seguente, con oggetto "**E' stata effettua
 
 .. image:: img/100.40_Mail_da_Richiesta_Integrazione.png
 
-indica che il gruppo che ha in carico la richiesta ha ritenuto necessario chiederci ulteriori informaioni in merito.
+indica che il gruppo che ha in carico la richiesta ha ritenuto necessario chiederci ulteriori informazioni in merito.
 Occorre quindi cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
-la label «Ricerca»;
+la label «Ricerca» all'interno della lista dei **Tickets inviati**;
 
 .. image:: img/100.40_RicercaStringaTicketDX.png
 
