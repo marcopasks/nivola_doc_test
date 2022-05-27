@@ -3,11 +3,13 @@
 **Rispondere a una richiesta di integrazione informazioni**
 ===========================
 
-A fronte della ricezione di una mail, come la seguente, con oggetto "**E' stata effettuata un'integrazione alla segnalazione INC00000xxxxxxx**"": 
+La ricezione di una mail, simile alla seguente, con oggetto "**E' stata effettuata un'integrazione alla segnalazione INC00000xxxxxxx**"": 
 
 .. image:: img/100.40_Mail_da_Richiesta_Integrazione.png
 
-Cercare la richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto la label «Ricerca»;
+indica che il gruppo che ha in carico la richiesta ha ritenuto necessario chiederci ulteriori informaioni in merito.
+Occorre quindi cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
+la label «Ricerca»;
 
 .. image:: img/100.40_RicercaStringaTicketDX.png
 

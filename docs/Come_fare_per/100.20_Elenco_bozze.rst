@@ -13,7 +13,7 @@ A seguito di un clic su **Bozze**, il sistema popolerà la parte destra del vide
 .. image:: img/100.25_ElencoBozzeDX.png
 
 
-In caso di primo utilizzo della funzionalità la lista risulterà vuota, e in basso comparirà il messaggio "Non ci sono Richieste presenti"
+In caso di primo utilizzo della funzionalità la lista risulterà vuota, e in basso comparirà il messaggio "Non ci sono bozze salvate"
 
 .. image:: img/100.25_ElencoBozzeVuoteDX.png
    

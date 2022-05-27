@@ -22,7 +22,7 @@ con le bozze che soddisfano il criterio di selezione;
 
 .. image:: img/100.25_RicercaStringaBozzeDX.png
 
-2. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
+2. Individuare la bozza dalla lista, mettendo una spunta a fianco del nome;
 
 .. image:: img/100.25_RicercaStringaBozzeOkDX.png
     
@@ -30,7 +30,7 @@ con le bozze che soddisfano il criterio di selezione;
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-4. Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA**;
+4. Verranno visualizzate le informazioni della bozza, contenute nel tab **RICHIESTA**;
     
 .. image:: img/100.25_DettagliBozza.png
 
