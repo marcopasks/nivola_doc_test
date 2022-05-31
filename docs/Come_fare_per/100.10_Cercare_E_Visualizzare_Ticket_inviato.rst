@@ -34,7 +34,7 @@ con i ticket che soddisfano il criterio di selezione;
     
 .. image:: img/100.5_DettagliTicketTag1.png
 
-5. Eventuali informazioni ulteriori aggiunte al ticket dopo la sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
+5. Eventuali informazioni aggiunte al ticket successivamente alla sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
 
 .. image:: img/100.5_DettagliTicketTag2.png
 
