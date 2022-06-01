@@ -7,7 +7,7 @@ La ricezione di una mail, simile alla seguente, con oggetto "**La segnalazione I
 
 .. image:: img/100.45_Mail_ticket_risolto.png
 
-indica che il gruppo che ha in carico la richiesta ha risolto e chiuso il ticket.
+indica che il gruppo che aveva in carico il ticket ha risolto e chiuso la richiesta.
 Occorre quindi cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
 la label «Ricerca» all'interno della lista dei **Tickets inviati**:
 
@@ -23,3 +23,5 @@ Usare il bottone **Visualizza dettagli Ticket**:
 
 Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA**. Nel informazioni di chiusura del ticket sono presenti
 nel campo "**Risoluzione**", ed eventualmente nel campo "**Commento**".
+
+.. image:: img/100.45_DettagliTicketTag1.png
