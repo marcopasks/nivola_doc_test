@@ -36,11 +36,11 @@ con le bozze che soddisfano il criterio di selezione;
 
 E' possibile integrare e/o modificare l'oggetto e la descrizione;
 
-Utilizzando il tasto "**SALVA BOZZA**" è possibile salvare le modifiche: comparirà il seguente messaggio di conferma;
+Utilizzando il tasto "**SALVA IN BOZZA**" è possibile salvare le modifiche: comparirà il seguente messaggio di conferma;
 
 .. image:: img/100.25_BozzaAggiornataDX.png
 
-Utilizzando il tasto "**INVIA**" è possibile trasformare la bozza in un ticket ed effettuarne l'invio all'assistenza
+Utilizzando il tasto "**INVIA**" è possibile trasformare la bozza in un ticket ed effettuarne l'invio all'assistenza: 
 comparirà il seguente messaggio di conferma;
 
 .. image:: img/richiesta_assistenza_inviata_correttamente.png

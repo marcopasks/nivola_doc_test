@@ -14,3 +14,4 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
    100.25_Cercare_E_Visualizzare_bozze.rst
    100.35_Creare_nuovo_ticket.rst
    100.40_Rispondere_richiesta_integrazione_informazioni.rst
+   100.45_Chiusura_Ticket.rst

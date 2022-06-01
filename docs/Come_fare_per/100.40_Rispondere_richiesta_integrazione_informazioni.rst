@@ -7,7 +7,7 @@ La ricezione di una mail, simile alla seguente, con oggetto "**E' stata effettua
 
 .. image:: img/100.40_Mail_da_Richiesta_Integrazione.png
 
-indica che il gruppo che ha in carico la richiesta ha ritenuto necessario chiederci ulteriori informazioni in merito.
+indica che il gruppo che ha in carico la richiesta ha ritenuto necessario chiedere ulteriori informazioni in merito.
 Occorre quindi cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
 la label «Ricerca» all'interno della lista dei **Tickets inviati**:
 
@@ -21,7 +21,7 @@ Usare il bottone **Visualizza dettagli Ticket**:
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**:
+Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA**:
     
 .. image:: img/100.5_DettagliTicketTag1.png
 
@@ -31,7 +31,7 @@ che ci è pervenuta:
 .. image:: img/100.40_NoteAggiuntive_Arrivate_in_Ticket.png
 
 
-Per rispondere a tale richiesta di integrazione informativa, utilizzare il box "**Rispondi a richiesta integrazione informazioni**":
+Per rispondere a tale richiesta di integrazione informativa, utilizzare il box sottostante "**Rispondi a richiesta integrazione informazioni**":
 
 .. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
 
