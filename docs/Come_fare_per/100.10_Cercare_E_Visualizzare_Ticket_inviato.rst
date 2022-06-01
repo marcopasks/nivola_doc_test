@@ -4,12 +4,12 @@
 ===========================
 
 La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
-sotto **Assistenza**
+sotto **Assistenza**:
 
 .. image:: img/100.5_Elenco_Ticket_inviatiSX.png
 
 
-Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**.
+Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**:
 
 .. image:: img/100.5_ElencoTicketDX.png
 

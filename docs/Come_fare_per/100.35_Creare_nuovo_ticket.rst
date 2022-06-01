@@ -4,7 +4,7 @@
 ===========================
 
 La funzione rientra nel **servizio assistenza**. Accedere al menù di creazione di un nuovo ticket cliccando sulla label **Nuovo Ticket** 
-sotto **Assistenza**
+sotto **Assistenza**:
 
 .. image:: img/100.35_Nuovo_TicketSX.png
 
