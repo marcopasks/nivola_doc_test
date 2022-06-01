@@ -22,24 +22,25 @@ con le bozze che soddisfano il criterio di selezione;
 
 .. image:: img/100.25_RicercaStringaBozzeDX.png
 
-2. Individuare la bozza dalla lista, mettendo una spunta a fianco del nome;
+2. Individuare la bozza dalla lista, mettendo una spunta a fianco del nome:
 
 .. image:: img/100.25_RicercaStringaBozzeOkDX.png
     
-3. Usare il bottone **Visualizza dettagli Ticket**;
+3. Usare il bottone **Visualizza dettagli Ticket**:
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-4. Verranno visualizzate le informazioni della bozza, contenute nel tab **RICHIESTA**;
+4. Verranno visualizzate le informazioni della bozza, contenute nel tab **RICHIESTA**:
     
 .. image:: img/100.25_DettagliBozza.png
 
-E' possibile integrare e/o modificare l'oggetto e la descrizione;
+E' possibile integrare e/o modificare l'oggetto e la descrizione:
 
-Utilizzando il tasto "**SALVA BOZZA**" è possibile salvare le modifiche: comparirà il seguente messaggio di conferma
+Utilizzando il tasto "**SALVA BOZZA**" è possibile salvare le modifiche: comparirà il seguente messaggio di conferma:
 
 .. image:: img/100.25_BozzaAggiornataDX.png
 
-Utilizzando il tasto "**INVIA**" è possibile trasformare la bozza in un ticket: comparirà il seguente messaggio di conferma
+Utilizzando il tasto "**INVIA**" è possibile trasformare la bozza in un ticket ed effettuarne l'invio all'assistenza: 
+comparirà il seguente messaggio di conferma
 
 .. image:: img/richiesta_assistenza_inviata_correttamente.png

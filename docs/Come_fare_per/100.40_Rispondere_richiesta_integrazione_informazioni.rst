@@ -9,29 +9,29 @@ La ricezione di una mail, simile alla seguente, con oggetto "**E' stata effettua
 
 indica che il gruppo che ha in carico la richiesta ha ritenuto necessario chiederci ulteriori informazioni in merito.
 Occorre quindi cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
-la label «Ricerca» all'interno della lista dei **Tickets inviati**;
+la label «Ricerca» all'interno della lista dei **Tickets inviati**:
 
 .. image:: img/100.40_RicercaStringaTicketDX.png
 
-Mettere una spunta sulla Checkbox relativa;
+Mettere una spunta sulla Checkbox relativa:
 
 .. image:: img/100.40_RicercaStringaTicketOkDX.png
     
-Usare il bottone **Visualizza dettagli Ticket**;
+Usare il bottone **Visualizza dettagli Ticket**:
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**;
+Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**:
     
 .. image:: img/100.5_DettagliTicketTag1.png
 
 Quindi spostarsi nel tag **NOTE AGGIUNTIVE** dove sarà possibile visualizzare l'oggetto e il testo della richiesta di integrazione
-che ci è pervenuta;
+che ci è pervenuta:
 
 .. image:: img/100.40_NoteAggiuntive_Arrivate_in_Ticket.png
 
 
-Per rispondere a tale richiesta di integrazione informativa, utilizzare il box "**Rispondi a richiesta integrazione informazioni**";
+Per rispondere a tale richiesta di integrazione informativa, utilizzare il box "**Rispondi a richiesta integrazione informazioni**":
 
 .. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
 

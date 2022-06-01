@@ -18,11 +18,12 @@ Riportiamo l'elenco completo di tale alberatura delle scelte:
 
 Al termine del percorso di scelte guidato si arriva al form attraverso il quale aprire ed inviare il ticket.
 
-La voce in alto "**Riepilogo delle scelte effettuate**" riporta il riassunto delle scelte effettuate in precedenza.
+La voce in alto "**Riepilogo delle scelte effettuate**" riporta il riassunto delle scelte effettuate in precedenza:
 
 .. image:: img/100.35_Form_Nuovo_TicketDX.png
 
-Inserire l'oggetto, la descrizione e l'eventuale allegato attraverso il tasto in basso a destra "**Scegli file**";
+Inserire l'oggetto, la descrizione e l'eventuale allegato (ad esempio lo screenshot di un eventuale messaggio di errore) attraverso il tasto in basso a 
+destra "**Scegli file**":
 
 .. image:: img/100.35_FormOK_Nuovo_TicketDX.png
 
@@ -31,20 +32,20 @@ basso a destra "**SALVA IN BOZZA**". Apparirà il seguente messaggio di conferma
 
 .. image:: img/richiesta_assistenza_salvata_correttamente_in_bozza.png
 
-E si verrà reindirizzati nel menù "**Bozze**" in cui sarà presente la bozza appena salvata;
+E si verrà reindirizzati nel menù "**Bozze**" in cui sarà presente la bozza appena salvata:
 
 .. image:: img/100.35_ListaBozze_da_Nuovo_TicketDX.png
 
 
-Se invece si desidera aprire la segnalazione inviando subito il ticket occorre selezionare il tasto in basso a destra
+Se invece si desidera aprire la segnalazione ed inviare subito il ticket occorre selezionare il tasto in basso a destra
 "**INVIA**. Apparirà il seguente messaggio di conferma:
 
 .. image:: img/richiesta_assistenza_inviata_correttamente.png
 
-E si verrà reindirizzati nel menù "**Tickets inviati**" in cui sarà presente il ticket appena creato e inviato;
+E si verrà reindirizzati nel menù "**Tickets inviati**" in cui sarà presente il ticket appena creato e inviato:
 
 .. image:: img/100.35_ListaTicket_da_Nuovo_TicketDX.png
 
-In automatico si riceverà sulla propria casella di posta elettronica una mail a conferma dell'avvenuta apertura del ticket;
+In automatico si riceverà sulla propria casella di posta elettronica una mail a conferma dell'avvenuta apertura del ticket:
 
 .. image:: img/100.35_Mail_da_Nuovo_Ticket.png
