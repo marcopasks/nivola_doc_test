@@ -12,9 +12,12 @@ sotto **Assistenza**:
 Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti e livelli di urgenza.
 Selezionando attraverso un click ogni macro argomento, si aprono delle scelte successive che incanalano la scelta in maniera sempre
 più coerente e specifica in relazione al problema o richiesta da segnalare.
+
+```
 Riportiamo l'elenco completo di tale alberatura delle scelte:
 
 .. image:: img/100.35_Mappa_Scelte_Nuovo_TicketDX.png
+```
 
 Al termine del percorso di scelte guidato si arriva al form attraverso il quale aprire ed inviare il ticket.
 
