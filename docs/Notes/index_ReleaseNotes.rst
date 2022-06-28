@@ -1,6 +1,87 @@
 .. _news:
 
 **Release Notes**
+
+===================================
+
+.. _release-2.6.2:
+
+Service Portal 2.6.2 (2022-06-10)
+---------------------------------
+
+**Fixed**    
+    
+
+*   `[NSP-1440] <https://jira.csi.it/browse/NSP-1440>`_ - `[NSP-1044] <https://jira.csi.it/browse/NSP-1094>`_ 
+
+
+
+===================================
+
+.. _release-2.6.2:
+
+Service Portal 2.6.2(2022-06-20)
+---------------------------------
+
+
+**Changed**
+
+*   `[NSP-1451] <https://jira.csi.it/browse/NSP-1451>`_ - eliminazione pulsante creazione snapshot con ruolo "viewer di account"
+
+*   `[NSP-1163] <https://jira.csi.it/browse/NSP-1163>`_ - aggiunto filtro su funzionalità di visualizzazione listino
+
+*   `[NSP-1211] <https://jira.csi.it/browse/NSP-1211>`_ - Lista e dettaglio Volumi. Inserito il dettaglio del Volume Type
+
+
+**Fixed**    
+    
+
+*   `[NSP-1454] <https://jira.csi.it/browse/NSP-1454>`_ - `[NSP-1044] <https://jira.csi.it/browse/NSP-1094>`_ 
+
+*   `[NSP-1158] <https://jira.csi.it/browse/NSP-1158>`_ - Problema con Ruoli CMP Account rimossi (DELETED)
+
+*   `[NSP-1418] <https://jira.csi.it/browse/NSP-1418>`_ - Pagine integrazione troubleTicketing. Manca Link a documentazione
+
+===================================
+
+.. _release-2.6.0:
+
+Service Portal 2.6.0 (2022-06-01)
+---------------------------------
+
+**New**
+
+
+*   `[NSP-1110] <https://jira.csi.it/browse/NSP-1110>`_ - Aggiunta funzionalità "servizi" per l'inserimento regole Security Group
+	
+*   `[NSP-943] <https://jira.csi.it/browse/NSP-943>`_ - [NSP-1302] <https://jira.csi.it/browse/NSP-1302>`_ - `[NSP-946] <https://jira.csi.it/browse/NSP-946>`_ - `[NSP-945] <https://jira.csi.it/browse/NSP-945>`_ - `[NSP-947] <https://jira.csi.it/browse/NSP-947>`_ - Rilascio versione Beta integrazione strumeno di Trouble Ticketing. Visibilità sridotta a utenti Beta Tester
+
+**Changed**
+
+*   `[NSP-1220] <https://jira.csi.it/browse/NSP-1220>`_ - Revisione etichette scarico Csv
+
+*   `[NSP-545] <https://jira.csi.it/browse/NSP-545>`_ - Abilitazione authoring tramite Token Utente
+
+*   `[NSP-790] <https://jira.csi.it/browse/NSP-790>`_ - Integrazione SP con identity provider stranieri (Beta)
+
+
+**Fixed**    
+    
+*   `[NSP-1280] <https://jira.csi.it/browse/NSP-1280>`_ - Adegamento report costi WBS per Amministratore di BackOffice
+
+*   `[NSP-1420] <https://jira.csi.it/browse/NSP-1420>`_ - Aumentato il numero massimo di caratteri sul campo "Note aggiuntive"
+
+*   `[NSP-748] <https://jira.csi.it/browse/NSP-748>`_ - Correzione Bug detach volume disco di root
+
+*   `[NSP-1360] <https://jira.csi.it/browse/NSP-1360>`_ - Lista servizi VM (Amm Backoffice) : Visualizzare tooltip con FQDN VM
+
+*   `[NSP-1287] <https://jira.csi.it/browse/NSP-1287>`_ - `[NSP-1240] <https://jira.csi.it/browse/NSP-1240>`_ - `[NSP-1232] <https://jira.csi.it/browse/NSP-1232>`_ - `[NSP-1212] <https://jira.csi.it/browse/NSP-1212>`_ - `[NSP-942] <https://jira.csi.it/browse/NSP-942>`_ - `[NSP-778] <https://jira.csi.it/browse/NSP-778>`_
+
+
+
+
+
+**Release Notes**
 ===================================
 
 .. _release-2.5.4:
