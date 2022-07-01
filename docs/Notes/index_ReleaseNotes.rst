@@ -6,7 +6,7 @@
 
 .. _release-2.6.2:
 
-Service Portal 2.6.2 (2022-06-10)
+Service Portal 2.6.2 (2022-06-20)
 ---------------------------------
 
 **Fixed**    
@@ -18,9 +18,9 @@ Service Portal 2.6.2 (2022-06-10)
 
 ===================================
 
-.. _release-2.6.2:
+.. _release-2.6.1:
 
-Service Portal 2.6.2(2022-06-20)
+Service Portal 2.6.1(2022-06-10)
 ---------------------------------
 
 
@@ -41,6 +41,8 @@ Service Portal 2.6.2(2022-06-20)
 *   `[NSP-1158] <https://jira.csi.it/browse/NSP-1158>`_ - Problema con Ruoli CMP Account rimossi (DELETED)
 
 *   `[NSP-1418] <https://jira.csi.it/browse/NSP-1418>`_ - Pagine integrazione troubleTicketing. Manca Link a documentazione
+
+*   `[NSP-1390] <https://jira.csi.it/browse/NSP-1390>`_ 
 
 ===================================
 
