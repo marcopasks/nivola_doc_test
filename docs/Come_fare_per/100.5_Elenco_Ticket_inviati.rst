@@ -12,6 +12,8 @@ A seguito di un clic su **Tickets inviati**, il sistema popolerà la parte destr
 
 .. image:: img/100.5_ElencoTicketDX.png
 
+    DA QUI
+
 
 In caso di primo utilizzo della funzionalità la lista risulterà vuota, e in basso comparirà il messaggio "Non ci sono Richieste presenti":
 
