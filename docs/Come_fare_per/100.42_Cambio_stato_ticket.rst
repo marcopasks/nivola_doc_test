@@ -1,0 +1,26 @@
+.. _Tickets_inviati:
+
+**Chiusura del Ticket**
+===========================
+
+La ricezione di una mail, simile alla seguente, con oggetto "**La segnalazione INC00000xxxxxxx e' ora in stato (nuovo stato)**"":
+
+.. image:: img/100.45_Mail_ticket_nuovo_stato.png
+
+indica che il gruppo che aveva in carico il ticket ha modificat lo stato della richiesta.
+E' possibile cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
+la label «Ricerca» all'interno della lista dei **Tickets inviati**:
+
+.. image:: img/100.45_RicercaStringaTicketDX.png
+
+Mettere una spunta sulla Checkbox relativa:
+
+.. image:: img/100.45_RicercaStringaTicketOkDX.png
+    
+Usare il bottone **Visualizza dettagli Ticket**:
+
+.. image:: img/100.5_iconaDettagliTicket.png
+
+Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA** e **NOTE AGGIUNTIVE**.
+
+.. image:: img/100.45_DettagliTicketTag1.png
