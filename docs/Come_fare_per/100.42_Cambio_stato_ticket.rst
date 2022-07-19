@@ -7,7 +7,7 @@ La ricezione di una mail, simile alla seguente, con oggetto "**La segnalazione I
 
 .. image:: img/100.45_Mail_ticket_nuovo_stato.png
 
-indica che il gruppo che aveva in carico il ticket ha modificat lo stato della richiesta.
+indica che il gruppo che aveva in carico il ticket ha modificato lo stato della richiesta.
 E' possibile cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
 la label «Ricerca» all'interno della lista dei **Tickets inviati**:
 
