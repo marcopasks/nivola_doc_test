@@ -13,7 +13,7 @@ Gli stati previsti sono i seguenti:
 
 **ASSEGNATO**
 
-**IN_CORSO**
+**IN CORSO**
 
 **PENDENTE**
 
@@ -38,4 +38,4 @@ Usare il bottone **Visualizza dettagli Ticket**:
 
 Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA** e **NOTE AGGIUNTIVE**.
 
-.. image:: img/100.45_DettagliTicketTag1.png
+.. image:: img/100.42_DettagliTicketTag1.png
