@@ -36,6 +36,6 @@ Usare il bottone **Visualizza dettagli Ticket**:
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA** e **NOTE AGGIUNTIVE**.
+Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA** e se necessario **NOTE AGGIUNTIVE**.
 
 .. image:: img/100.42_DettagliTicketTag1.png
