@@ -1,0 +1,113 @@
+.. _Jobs di Backup:
+
+**Jobs di Backup**
+***************************
+
+La gestione delle **Virtual Machine** è attivabile dalla voce **servizio compute** posta,
+nella parte sinistra dello schermo. Cliccando sulla freccia
+a destra della voce, apparirà  **VM** e a seguito di un clic il sistema popolerà la
+parte centrale del video con l'**Elenco delle VM**.
+
+Per **gestione delle VM** si intendono tutte le operazioni che consentono l'uso
+sistemistico del server creato in precededenza :ref:`creato<Creare_VM>`.
+Appartengono a questo gruppo di operazioni:
+
+    1. :ref:`Cercare VM`
+    2. :ref:`Stoppare VM`
+    3. :ref:`Accendere VM`    
+    4. :ref:`Riavviare VM`
+
+
+
+
+.. _Cercare VM:
+
+**Cercare le Virtual Machine**
+==============================
+
+All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create.
+La ricerca è eseguita tramite una stringa inserita dall’operatore.
+Nivola ricerca il set di caratteri nelle colonne dove sono elencate
+le caratteristiche dei server.
+Per eseguire una ricerca è necessario procedere in questo modo:
+
+    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"** e premere invio;
+
+       .. image:: img/VM_Elenco.png
+
+    2. Il sistema popolerà lo schermo, con le VM che soddisfano il criterio di selezione;
+
+      .. image:: img/VM_Selezionate.png
+
+
+.. _Stoppare VM:
+
+**Stoppare le Virtual Machine**
+===============================
+Per fermare l'attività della Virtual Machine, seguire questi passaggi:
+
+    1. Selezionare la VM dall’**Elenco VM**, sfruttando il bottone **Pannello gestione VM**;
+
+       .. image:: img/Ricerca_VM_b.png
+    
+    2. Usare il bottone **Pannello gestione VM**;
+
+       .. image:: img/Pulsante_dettagli.png
+
+    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
+    
+      .. image:: img/VM_Pannello_dettagli.png
+    
+    4. Concludere, utilizzando il pulsante **"STOP"** e la VM verrà spenta;
+
+      .. image:: img/VM_stop.png
+
+
+.. _Accendere VM:
+
+
+**Startare le Virtual Machine**
+===============================
+
+Per effettuare lo **start** della Virtual Machine, procedere come segue:
+
+    1. Individuare il sever dall’**Elenco VM**, mettendo una spunta a fianco del nome;
+
+       .. image:: img/Ricerca_VM_a.png
+    
+    2. Usare il bottone **Pannello gestione VM**;
+
+       .. image:: img/Pulsante_dettagli.png
+
+    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
+    
+      .. image:: img/VM_Pannello_dettagli.png
+    
+    4. Concludere, l'operazione, utilizzando il pulsante **"START"**;
+
+      .. image:: img/VM_start.png
+
+.. _Riavviare VM:
+
+**Riavviare le Virtual Machine**
+================================
+Per **riavviare** la Virtual Machine, occorrono i seguenti passaggi:
+
+    1. Selezionare la VM dall’**Elenco VM**, facendo clic sul bottone **Pannello gestione VM**;
+
+       .. image:: img/Ricerca_VM_b.png
+    
+    2. Usare il bottone **Pannello gestione VM**;
+
+       .. image:: img/Pulsante_dettagli.png
+
+    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
+    
+      .. image:: img/VM_Pannello_dettagli.png
+    
+    4. Ottenere il riavvio, utilizzando il pulsante **"RIAVVIA"**;
+
+      .. image:: img/VM_stop.png
+
+
+
