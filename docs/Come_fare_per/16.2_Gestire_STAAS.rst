@@ -47,9 +47,9 @@ riportato di seguito:
 
        .. image:: img/STAAS_selezionato.png
 
-    2. Premere il tasto **Pannello gestione Volume**;
+    2. Premere il tasto **Pannello gestione Share**;
 
-      .. image:: img/VM_Pannello_controllo.png
+      .. image:: img/STAAS_Pannello_controllo.png
 
     3. Cliccare sul simbolo **modifica** a fianco alla dimensione;
 
