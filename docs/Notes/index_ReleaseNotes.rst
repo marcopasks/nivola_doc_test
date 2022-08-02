@@ -4,6 +4,36 @@
 
 ===================================
 
+.. _release-2.7.0:
+
+Service Portal 2.7.0 (2022-07-04)
+---------------------------------
+
+**New**
+
+
+*   `[NSP-1249] <https://jira.csi.it/browse/NSP-1249>`_ - Gestione attributo WBS accunt per Operatore di Backoffice
+	
+*   `[NSP-1448] <https://jira.csi.it/browse/NSP-1448>`_ - Evolutive integrazione sistema di troubleticketing - E' ora possibile visualizzare la priorità del ticket e l'assegnatario
+
+
+**Changed**
+
+*   `[NSP-1422] <https://jira.csi.it/browse/NSP-1422>`_ - Rimozione TAB gestione utenti per servizio DBAAS
+
+*   `[NSP-1448] <https://jira.csi.it/browse/NSP-1448>`_  - Miglioramento navigazione e layout sistema di troubleticketing
+
+*   `[NSP-1135] <https://jira.csi.it/browse/NSP-1135>`_ - integrazione gestione StaaS di tipologia Netapp
+
+
+**Fixed**    
+    
+*   `[NSP-846] <https://jira.csi.it/browse/NSP-846>`_
+
+
+
+===================================
+
 .. _release-2.6.2:
 
 Service Portal 2.6.2 (2022-06-20)
