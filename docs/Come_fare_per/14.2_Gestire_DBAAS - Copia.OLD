@@ -17,6 +17,8 @@ Appartengono a questo gruppo di operazioni:
 
     1. :ref:`Cercare un istanza DbaaS`
     2. :ref:`Connettersi ad un istanza DbaaS`
+    3. :ref:`Creazione utente`
+    4. :ref:`Cancellazione utente`
 
 .. _Cercare un istanza DbaaS:
 
@@ -65,3 +67,44 @@ nella maniera seguente:
 
       .. image:: img/DBAAS_connetti_php.png
 
+.. _Creazione utente:
+
+**Creazione utente**
+====================
+
+La funzione è fruibile attraverso il tasto **Pannello gestione Dbaas**:
+
+.. image:: img/VM_Pannello_controllo.png
+
+
+Dop aver attivato la funzione, procedere attraverso i questi passaggi:
+
+    1. Scegliere il tabstrip **UTENTI**;
+
+      .. image:: img/DBAAS_tabstrip_utenti.png
+
+    3. Indicare obbligatoriamente **nome utente**, **Tipologia** in via facoltativa
+       le **note*** e concludere con il tasto **CREA UTENTE** ;
+
+      .. image:: img/DBAAS_utenti_dati.png
+
+
+.. _Cancellazione utente:
+
+**Cancellazione utente**
+========================
+
+Per dismettere un utente è necessario utilizzare il tasto **Pannello gestione Dbaas**:
+
+.. image:: img/VM_Pannello_controllo.png
+
+
+La cancellazione dell'utente è effettuata seguendo il metodo di seguito descritto:
+
+    1. Scegliere il tabstrip **UTENTI**;
+
+      .. image:: img/DBAAS_tabstrip_utenti.png
+
+    2. Selezionare l'utente da eliminare e premere il tasto **DISMETTI UTENTE** ;
+
+      .. image:: img/DBAAS_utenti_dati.png
