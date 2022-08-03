@@ -1,5 +1,6 @@
-**Release Notes**
+.. _news:
 
+**Release Notes**
 ===================================
 
 .. _release-2.7.0:
@@ -30,8 +31,6 @@ Service Portal 2.7.0 (2022-07-04)
 
 
 
-===================================
-
 .. _release-2.6.2:
 
 Service Portal 2.6.2 (2022-06-20)
@@ -43,8 +42,6 @@ Service Portal 2.6.2 (2022-06-20)
 *   `[NSP-1440] <https://jira.csi.it/browse/NSP-1440>`_ - `[NSP-1044] <https://jira.csi.it/browse/NSP-1094>`_ 
 
 
-
-===================================
 
 .. _release-2.6.1:
 
@@ -72,7 +69,6 @@ Service Portal 2.6.1(2022-06-10)
 
 *   `[NSP-1390] <https://jira.csi.it/browse/NSP-1390>`_ 
 
-===================================
 
 .. _release-2.6.0:
 
@@ -109,11 +105,6 @@ Service Portal 2.6.0 (2022-06-01)
 
 
 
-
-
-**Release Notes**
-===================================
-
 .. _release-2.5.4:
 
 Service Portal 2.5.4 (2022-02-11)
@@ -133,9 +124,6 @@ Service Portal 2.5.4 (2022-02-11)
 *   `[NSP-1050] <https://jira.csi.it/browse/NSP-1050>`_ - `[NSP-1094] <https://jira.csi.it/browse/NSP-1094>`_ 
 
 
-
-
-===================================
 
 .. _release-2.5.0:
 
@@ -171,8 +159,6 @@ Service Portal 2.5.0 (2021-10-12)
 
 *   `[NSP-871] <https://jira.csi.it/browse/NSP-871>`_ - `[NSP-799] <https://jira.csi.it/browse/NSP-799>`_ - `[NSP-807] <https://jira.csi.it/browse/NSP-807>`_ - `[NSP-808] <https://jira.csi.it/browse/NSP-808>`_ - `[NSP-845] <https://jira.csi.it/browse/NSP-845>`_ - `[NSP-842] <https://jira.csi.it/browse/NSP-842>`_
 
-
-===================================
 
 .. _release-2.4.0:
 
@@ -241,10 +227,6 @@ Service Portal 2.4.0 (2021-06-28)
 
 
 
-
-
-===================================
-
 .. _release-2.3.0:
 
 Service Portal 2.3.0 (2021-04-09)
@@ -290,9 +272,6 @@ Service Portal 2.3.0 (2021-04-09)
 
 *   `[NSP-390] <https://jira.csi.it/browse/NSP-390>`_ - `[NSP-563] <https://jira.csi.it/browse/NSP-563>`_ - `[NSP-442] <https://jira.csi.it/browse/NSP-442>`_ - `[NSP-572] <https://jira.csi.it/browse/NSP-572>`_ - `[NSP-557] <https://jira.csi.it/browse/NSP-557>`_ - `[NSP-555] <https://jira.csi.it/browse/NSP-555>`_ - `[NSP-330] <https://jira.csi.it/browse/NSP-536>`_ - `[NSP-536] <https://jira.csi.it/browse/NSP-515>`_ 
 
-
-
-===================================
 
 .. _release-2.2.0:
 
