@@ -78,7 +78,7 @@ Dopo :ref:`l'autenticazione <Processo di Accredito>` all’utente viene presenta
 personalizzata. I contenuti visualizzati dipendono dal ruolo che riveste
 l’utente all’interno del Sistema.
 
-**E' necessario che l'autenticazione avvenga per un solo account per volta all'interno dello stesso browser.
+**E' necessario che l'autenticazione avvenga per un solo login per volta all'interno dello stesso browser.
 Nell'eventualità sia necessario autenticarsi contemporaneamente con due login differenti NON bisogna utilizzare due tab dello stesso browser, 
 ma è necessario utilizzare due browser differenti.**
 
