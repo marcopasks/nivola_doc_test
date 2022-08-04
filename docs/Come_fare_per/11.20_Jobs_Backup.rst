@@ -3,20 +3,19 @@
 **Jobs di Backup**
 ***************************
 
-La gestione delle **Jobs di Backup** è attivabile dalla voce **servizio compute** posta,
-nella parte sinistra dello schermo. Cliccando sulla freccia
-a destra della voce, apparirà  **VM** e a seguito di un clic il sistema popolerà la
-parte centrale del video con l'**Elenco delle VM**.
+La gestione dei **Jobs di Backup** è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Backup** sotto Compute.
 
-Per **Job di Backup** sono disponibili le informazioni di dettaglio seguenti:
+A seguito di un clic su **Backup**, il sistema popolerà la parte destra del video con l” **Elenco Jobs di Backup**.
+
+Per ogni **Job di Backup** sono disponibili le seguenti informazioni di dettaglio:
 
 - titolo del backup job
 - stato del backup job
 - retention policy del job
 - stato della schedule (abilitata / disabilitata)
-- created o updated (?)
+# - created o updated (?)
 
-L’elenco, ordinabile e paginabile, deve consentire di selezionare un job ed accedere ai seguenti CdU:
+#L’elenco, ordinabile e paginabile, deve consentire di selezionare un job ed accedere ai seguenti CdU:
 
 # 1. :ref:`Crea job`
  1. :ref:`Dettaglio job`
@@ -24,9 +23,9 @@ L’elenco, ordinabile e paginabile, deve consentire di selezionare un job ed ac
 #   4. :ref:`Accendere VM`    
 #   5. :ref:`Riavviare VM`
 
-Dal CdU deve essere possibile accedere al CdU Crea Backup job, riservato al ruolo di master di Account.
+#Dal CdU deve essere possibile accedere al CdU Crea Backup job, riservato al ruolo di master di Account.
 
-La modifica ai job (creazione o eliminazione) in uno dei CdU inclusi deve prevedere l’aggiornamento dell’elenco.
+#La modifica ai job (creazione o eliminazione) in uno dei CdU inclusi deve prevedere l’aggiornamento dell’elenco.
 
 
 #.. _Crea job:
@@ -50,24 +49,24 @@ La modifica ai job (creazione o eliminazione) in uno dei CdU inclusi deve preved
 
 
 
-.. _Dettaglio job:
+#.. _Dettaglio job:
 
-**Dettaglio job**
-==============================
+#**Dettaglio job**
+#==============================
 
-All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create.
-La ricerca è eseguita tramite una stringa inserita dall’operatore.
-Nivola ricerca il set di caratteri nelle colonne dove sono elencate
-le caratteristiche dei server.
-Per eseguire una ricerca è necessario procedere in questo modo:
+#All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create.
+#La ricerca è eseguita tramite una stringa inserita dall’operatore.
+#Nivola ricerca il set di caratteri nelle colonne dove sono elencate
+#le caratteristiche dei server.
+#Per eseguire una ricerca è necessario procedere in questo modo:
 
-    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"** e premere invio;
+#    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"** e premere invio;
 
-       .. image:: img/VM_Elenco.png
+#       .. image:: img/VM_Elenco.png
 
-    2. Il sistema popolerà lo schermo, con le VM che soddisfano il criterio di selezione;
+#    2. Il sistema popolerà lo schermo, con le VM che soddisfano il criterio di selezione;
 
-      .. image:: img/VM_Selezionate.png
+#      .. image:: img/VM_Selezionate.png
 
 
 #.. _Modifica job:

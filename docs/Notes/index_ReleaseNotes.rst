@@ -20,7 +20,7 @@ Service Portal 2.8.0 (2022-mm-gg)
 
 **Fixed**    
     
-*   `[NSP-846] <https://jira.csi.it/browse/NSP-nnnn>`_ - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+*   `[NSP-nnnn] <https://jira.csi.it/browse/NSP-nnnn>`_ - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 
