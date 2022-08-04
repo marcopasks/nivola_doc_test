@@ -4,6 +4,31 @@
 
 ===================================
 
+.. _release-2.8.0:
+
+Service Portal 2.8.0 (2022-mm-aa)
+---------------------------------
+
+**New**
+
+
+*   `[NSP-nnnn] <https://jira.csi.it/browse/NSP-nnnn>`_ - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+	
+*   `[NSP-nnnn] <https://jira.csi.it/browse/NSP-nnnn>`_ - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+**Changed**
+
+*   `[NSP-nnnn] <https://jira.csi.it/browse/NSP-nnnn>`_ - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+**Fixed**    
+    
+*   `[NSP-nnnn] <https://jira.csi.it/browse/NSP-nnnn>`_ - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+===================================
+
 .. _release-2.7.0:
 
 Service Portal 2.7.0 (2022-07-04)
