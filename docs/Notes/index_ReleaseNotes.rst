@@ -1,693 +1,247 @@
-.. _Glossario:
+.. _news:
 
-<<<<<<< HEAD
-**Termini ed Acronimi usati da Nivola**
-=======================================
-
-Nella tabella seguente, raggruppati in ordine alfabetico, si riportano i termini e gli acronimi frequentemente
-utilizzati su Nivola, allo scopo di far acquisire
-familiarità con la piattaforma.
-=======
 **Release Notes**
 ===================================
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
-    1.1 [A]_
+.. _release-2.7.0:
 
-    1.2 [B]_
+Service Portal 2.7.0 (2022-07-04)
+---------------------------------
 
-    1.3 [C]_
+**New**
 
-    1.4 [D]_
 
-    1.5 [E]_
+*   `[NSP-1249] <https://jira.csi.it/browse/NSP-1249>`_ - Gestione attributo WBS accunt per Operatore di Backoffice
+	
+*   `[NSP-1448] <https://jira.csi.it/browse/NSP-1448>`_ - Evolutive integrazione sistema di troubleticketing - E' ora possibile visualizzare la priorità del ticket e l'assegnatario
 
-    1.6 [F]_
 
-    1.7 [G]_
+**Changed**
 
-    1.8 [H]_
+*   `[NSP-1422] <https://jira.csi.it/browse/NSP-1422>`_ - Rimozione TAB gestione utenti per servizio DBAAS
 
-    1.9 [I]_
+*   `[NSP-1448] <https://jira.csi.it/browse/NSP-1448>`_  - Miglioramento navigazione e layout sistema di troubleticketing
 
-    1.10 [J]_
+*   `[NSP-1135] <https://jira.csi.it/browse/NSP-1135>`_ - integrazione gestione StaaS di tipologia Netapp
 
-    1.11 [K]_
 
-    1.12 [L]_
+**Fixed**    
+    
+*   `[NSP-846] <https://jira.csi.it/browse/NSP-846>`_
 
-    1.13 [M]_
 
-    1.14 [N]_
 
-<<<<<<< HEAD
-    1.15 [O]_
-
-    1.16 [P]_
-=======
 .. _release-2.6.2:
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
-    1.17 [Q]_
+Service Portal 2.6.2 (2022-06-20)
+---------------------------------
 
-    1.18 [R]_
+**Fixed**    
+    
 
-    1.19 [S]_
+*   `[NSP-1440] <https://jira.csi.it/browse/NSP-1440>`_ - `[NSP-1044] <https://jira.csi.it/browse/NSP-1094>`_ 
 
-    1.20 [T]_
 
-    1.21 [U]_
 
-<<<<<<< HEAD
-    1.22 [V]_
-
-    1.23 [W]_
-=======
 .. _release-2.6.1:
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
-    1.24 [X]_
-
-    1.25 [Y]_
-
-    1.26 [Z]_
-
---------
-
-.. [A]
-
-​1.1 A
---------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| ACCOUNT                              | Contenitore di istanze di servizio   |
-|                                      | Per gli Account dell'Organizzazione  |
-|                                      | CSI il nome con cui identificarlo è  |
-|                                      | il **codice prodotto**.              |
-|                                      | Per i prodotti del CSI è previsto un |
-|                                      | Account per l'ambiente di produzone  |
-|                                      | ed un altro per gli altri denominato |
-|                                      | **preprod**.                         |
-+--------------------------------------+--------------------------------------+
-| API                                  | Application Programming              |
-|                                      | Interface (in italiano traducibile   |
-|                                      | come Interfaccia di programmazione   |
-|                                      | di un'applicazione), le API sono     |
-|                                      | strumenti di programmazione messi a  |
-|                                      | disposizione degli sviluppatori per  |
-|                                      | facilitare il loro compito nella     |
-|                                      | realizzazione di applicazioni        |
-|                                      | integrate.                           |
-+--------------------------------------+--------------------------------------+
-|                                      |                                      |
-| APP Engine                           | Template preconfigurato composto da  |
-|                                      | risorse elaborative, database,       |
-|                                      | storage, reti e sicurezza che        |
-|                                      | implementa una particolare funzione  |
-+--------------------------------------+--------------------------------------+
-| Availability Zone (AZ)               | Aggregato di uno o più Site. L’AZ è  |
-|                                      | caratterizzata da una sua completa   |
-|                                      | autonomia infrastrutturale e         |
-|                                      | indipendenza                         |
-+--------------------------------------+--------------------------------------+
-
------------------------
-
-.. [B]
-​1.2​ B
---------------------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| BCKaaS                               | Il servizio di backup as a service è |
-|                                      | un’opzione attivabile dall’utente    |
-|                                      | per il backup delle macchine         |
-|                                      | virtuali attivate in Nivola. Il      |
-|                                      | Cliente può scegliere se attivare il |
-|                                      | backup sulle risorse selezionate e   |
-|                                      | scegliere i livelli di retention più |
-|                                      | appropriati per il proprio servizio. |
-|                                      |                                      |
-|                                      | Il servizio viene erogato attraverso |
-|                                      | piattaforme che permettono una       |
-|                                      | notevole affidabilità                |
-|                                      | infrastrutturale, e attraverso la    |
-|                                      | funzione di “deduplica dei dati”,    |
-|                                      | per  il raggiungimento di una        |
-|                                      | elevata efficienza. I backup sono    |
-|                                      | depositati su apparati storage       |
-|                                      | differenti da quelli che ospitano    |
-|                                      | dati e servizi .                     |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-
-------------------------------
+Service Portal 2.6.1(2022-06-10)
+---------------------------------
 
 
-.. [C]
+**Changed**
 
-​1.3​ C
----------------
+*   `[NSP-1451] <https://jira.csi.it/browse/NSP-1451>`_ - eliminazione pulsante creazione snapshot con ruolo "viewer di account"
 
+*   `[NSP-1163] <https://jira.csi.it/browse/NSP-1163>`_ - aggiunto filtro su funzionalità di visualizzazione listino
 
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Capability                           | Attributo essenziale dell'account per|
-|                                      | istanziare i servizi. E' assegnato   |
-|                                      | all'account in fase di creazione.    |
-|                                      | A fronte di un account è possibile   |
-|                                      | avere più capabilities.              |
-+--------------------------------------+--------------------------------------+
-| CLI                                  | Command Line Interface - nel         |
-|                                      | progetto Nivola trattasi di command  |
-|                                      | interface dedicata alla gestione di  |
-|                                      | tutte le risorse della CMP.          |
-|                                      | L’utilizzo è possibile anche per gli |
-|                                      | utenti accreditati e i propri        |
-|                                      | fornitori attraverso opportuna       |
-|                                      | profilazione.                        |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| CMP                                  | Cloud Management Platform -          |
-|                                      | piattaforma di integrazione ed       |
-|                                      | automazione che espone tutti i       |
-|                                      | servizi di business attraverso API   |
-|                                      | (Application programming Interface)  |
-|                                      | richiamabili dall’utente o           |
-|                                      | attraverso l’uso del Service Portal. |
-|                                      | Include i servizi di accounting,     |
-|                                      | profilazione, security.              |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| Compute Services                     | Insieme di funzioni utili a creare e |
-|                                      | gestire e le Virtual Machine         |
-|                                      | Categoria di servizi che permette di |
-|                                      | fruire di  risorse elaborative       |
-|                                      | (espresse in CPU, RAM e spazio       |
-|                                      | disco) in differenti flavour e       |
-|                                      | template, corredate da servizi di    |
-|                                      | networking e security.               |
-|                                      |                                      |
-|                                      | Sulla base del perimetro delle       |
-|                                      | risorse presenti, gli utilizzatori   |
-|                                      | saranno in grado di realizzare i     |
-|                                      | propri tenant, istanziare le         |
-|                                      | macchine virtuali selezionandole da  |
-|                                      | un ampio catalogo di template e di   |
-|                                      | gestirle in modo autonomo e          |
-|                                      | integrato con gli altri servizi      |
-|                                      | disponibili.                         |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| Consumer                             | User utilizzare della piattaforma    |
-|                                      | Nivola                               |
-+--------------------------------------+--------------------------------------+
-
--------
-
-.. [D]
-
-​
-​1.4​ D
-
--------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Divisione                            | E' il secondo livello organizzativo. |
-|                                      | Una organizzazione può avere più     |
-|                                      | divisioni. Ogni Divisione ha         |
-|                                      | ha associato un portafoglio chiamato |
-|                                      | Wallet che ne definisce il limite    |
-|                                      | di spesa. Per un Cliente esterno     |
-|                                      | può coincidere con il valore della   |
-|                                      | determina o con una pòarte di essa.  |
-|                                      | Non può esserci una Divisione senza  |
-|                                      | un Organizzazione da cui dipendere.  |
-|                                      | Nel caso l'organizzazione della      |
-|                                      | divisione sia CSI il suo nome        |
-|                                      | dovrà coincidere sempre l'ID della   |
-|                                      | Soluzione applicativa. Nel caso l'ID |
-|                                      | non sia stato attrubuito usare       |
-|                                      | "Staging" in attesa che venga        |
-|                                      | attribuito                           |
-+--------------------------------------+--------------------------------------+
-| DBaaS                                | “Data Base as a Service” sono        |
-|                                      | servizi gestiti  costituiti da       |
-|                                      | ambienti virtuali dedicati  in       |
-|                                      | differenti configurazioni e          |
-|                                      | tecnologie, con differenti livelli   |
-|                                      | di affidabilità e ridondanza in      |
-|                                      | funzione delle esigenze del Cliente. |
-|                                      | Sono inclusi i servizi di backup,    |
-|                                      | restore, monitoraggio, aggiornamento |
-|                                      | e patching.                          |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-1211] <https://jira.csi.it/browse/NSP-1211>`_ - Lista e dettaglio Volumi. Inserito il dettaglio del Volume Type
 
 
------------
+**Fixed**    
+    
 
-.. [E]
+*   `[NSP-1454] <https://jira.csi.it/browse/NSP-1454>`_ - `[NSP-1044] <https://jira.csi.it/browse/NSP-1094>`_ 
 
-​1.5​ E
-----------------------
+*   `[NSP-1158] <https://jira.csi.it/browse/NSP-1158>`_ - Problema con Ruoli CMP Account rimossi (DELETED)
 
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-1418] <https://jira.csi.it/browse/NSP-1418>`_ - Pagine integrazione troubleTicketing. Manca Link a documentazione
 
-
--------------
-
-.. [F]
+*   `[NSP-1390] <https://jira.csi.it/browse/NSP-1390>`_ 
 
 
-​1.6​ F
--------------------
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| FLAVOUR Alias TYPE                   | Identificano le differenti tipologie |
-|                                      | di VM le cui caratteristiche         |
-|                                      | differiscono per la quantità di      |
-|                                      | risorse CPU, RAM e DISCO. L’utente   |
-|                                      | può scegliere tra diversi flavour in |
-|                                      | base delle proprie esigenze.         |
-+--------------------------------------+--------------------------------------+
+.. _release-2.6.0:
+
+Service Portal 2.6.0 (2022-06-01)
+---------------------------------
+
+**New**
 
 
-<<<<<<< HEAD
-----------------------
-=======
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
+*   `[NSP-1110] <https://jira.csi.it/browse/NSP-1110>`_ - Aggiunta funzionalità "servizi" per l'inserimento regole Security Group
+	
+*   `[NSP-943] <https://jira.csi.it/browse/NSP-943>`_ - [NSP-1302] <https://jira.csi.it/browse/NSP-1302>`_ - `[NSP-946] <https://jira.csi.it/browse/NSP-946>`_ - `[NSP-945] <https://jira.csi.it/browse/NSP-945>`_ - `[NSP-947] <https://jira.csi.it/browse/NSP-947>`_ - Rilascio versione Beta integrazione strumeno di Trouble Ticketing. Visibilità sridotta a utenti Beta Tester
+
+**Changed**
+
+*   `[NSP-1220] <https://jira.csi.it/browse/NSP-1220>`_ - Revisione etichette scarico Csv
+
+*   `[NSP-545] <https://jira.csi.it/browse/NSP-545>`_ - Abilitazione authoring tramite Token Utente
+
+*   `[NSP-790] <https://jira.csi.it/browse/NSP-790>`_ - Integrazione SP con identity provider stranieri (Beta)
 
 
-.. [G]
+**Fixed**    
+    
+*   `[NSP-1280] <https://jira.csi.it/browse/NSP-1280>`_ - Adegamento report costi WBS per Amministratore di BackOffice
 
-​1.7​ G
-----------------------
+*   `[NSP-1420] <https://jira.csi.it/browse/NSP-1420>`_ - Aumentato il numero massimo di caratteri sul campo "Note aggiuntive"
 
+*   `[NSP-748] <https://jira.csi.it/browse/NSP-748>`_ - Correzione Bug detach volume disco di root
 
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-1360] <https://jira.csi.it/browse/NSP-1360>`_ - Lista servizi VM (Amm Backoffice) : Visualizzare tooltip con FQDN VM
 
------------------
-
-.. [H]
+*   `[NSP-1287] <https://jira.csi.it/browse/NSP-1287>`_ - `[NSP-1240] <https://jira.csi.it/browse/NSP-1240>`_ - `[NSP-1232] <https://jira.csi.it/browse/NSP-1232>`_ - `[NSP-1212] <https://jira.csi.it/browse/NSP-1212>`_ - `[NSP-942] <https://jira.csi.it/browse/NSP-942>`_ - `[NSP-778] <https://jira.csi.it/browse/NSP-778>`_
 
 
-​1.8​ H
-------------------
 
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-
------------------
-
-.. [I]
-
-
-​1.9​ I
---------------------------
-
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Immagine                             | Parametro che determina l'OS della VM|
-|                                      | da istanziare eventualmente          |
-|                                      | arricchito del software per          |
-|                                      | l'automazione come p.e. ansible o    |
-|                                      | heat                                 |
-+--------------------------------------+--------------------------------------+
-
-<<<<<<< HEAD
------------------
-
-
-.. [J]
-
-=======
 .. _release-2.5.4:
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
-​1.10​ J
-------------------
+Service Portal 2.5.4 (2022-02-11)
+---------------------------------
 
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-
------------------
-
-.. [K]
+**Changed**
 
 
-
-​1.11 K
---------------
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| KEY                                  | Chiave ssh usata al momento della    |
-|                                      | creazione della VM abilitando la     |
-|                                      | connessione da remoto.               |
-+--------------------------------------+--------------------------------------+
+*   Adeguamento per rilascio CMP Nivola 1.10.0
+	
+*   `[NSP-127] <https://jira.csi.it/browse/NSP-127>`_ - Master/Viewer di Account: visualizzazione tariffe e listino applicato all'Account
 
 
-<<<<<<< HEAD
--------------------------
+**Fixed**    
+    
 
-.. [L]
+*   `[NSP-1050] <https://jira.csi.it/browse/NSP-1050>`_ - `[NSP-1094] <https://jira.csi.it/browse/NSP-1094>`_ 
 
-=======
+
+
 .. _release-2.5.0:
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
-​1.12 L
---------
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
+Service Portal 2.5.0 (2021-10-12)
+---------------------------------
 
------------------
-
-.. [M]
+**New**
 
 
-​1.1​3 M
---------------------
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-753] <https://jira.csi.it/browse/NSP-753>`_ - Funzionalità di reboot VM
+	
+*   `[NSP-809] <https://jira.csi.it/browse/NSP-809>`_ - BackOffice: visualizzazione attributi WBS e Cliente Committente
 
--------------------------
+**Changed**
 
+*   `[NSP-273] <https://jira.csi.it/browse/NSP-273>`_ - Aggiunto ad "Account" attributo Cliente Pagante
 
-.. [N]
+*   `[NSP-578] <https://jira.csi.it/browse/NSP-578>`_ - Modifica matriche per licenze sistema operativo
 
+*   `[NSP-842] <https://jira.csi.it/browse/NSP-842>`_ - Modifica csv risorse share/storage
 
-​1.14 N
-----------------
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Nivola                               | Ci si riferisce al complesso di      |
-|                                      | tutte le componenti della            |
-|                                      | piattaforma: Service Portal, CMP,    |
-|                                      | back-end .                           |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| NMSF                                 | Nuovo Modello Server Farm            |
-+--------------------------------------+--------------------------------------+
-| NSC                                  | Nivola Support Center - Single Point |
-|                                      | of Contact per tutti i servizi cloud |
-|                                      | (Nivola, NMSF, POSC)                 |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-792] <https://jira.csi.it/browse/NSP-792>`_ - Integrazione Api DBAAAS V2.0
 
--------------------------
+**Fixed**    
+    
+*   `[NSP-839] <https://jira.csi.it/browse/NSP-839>`_ - Risoluzione bug creazione DBaaS Mysql
 
-.. [O]
+*   `[NSP-840] <https://jira.csi.it/browse/NSP-839>`_ - Risoluzione bug creazione DBaaS SQLServer
+
+*   `[NSP-793] <https://jira.csi.it/browse/NSP-793>`_ - Risoluzione bug modifica flavour VM
+
+*   `[NSP-813] <https://jira.csi.it/browse/NSP-813>`_ - Logout non più funzionante con SPID
+
+*   `[NSP-871] <https://jira.csi.it/browse/NSP-871>`_ - `[NSP-799] <https://jira.csi.it/browse/NSP-799>`_ - `[NSP-807] <https://jira.csi.it/browse/NSP-807>`_ - `[NSP-808] <https://jira.csi.it/browse/NSP-808>`_ - `[NSP-845] <https://jira.csi.it/browse/NSP-845>`_ - `[NSP-842] <https://jira.csi.it/browse/NSP-842>`_
 
 
-​1.1​5 O
-------------------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Organizzazione                       | E’ gerarchicamente il massimo livello|
-|                                      | organizzativo. Dall'Organizzazione   |
-|                                      | possono dipendere 1 o più Divisioni. |
-|                                      | Ad un organizzazione può coincidere  |
-|                                      | un Ente.  Il nome sarà sempre CSI    |
-|                                      | per tutto ciò che dovrà ospitare     |
-|                                      | prodotti del CSI.                    |
-+--------------------------------------+--------------------------------------+
-
-<<<<<<< HEAD
--------------------------
-
-.. [P]
-=======
 .. _release-2.4.0:
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
+Service Portal 2.4.0 (2021-06-28)
+---------------------------------
 
-​1.1​6 P
---------
+**New**
 
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Provider                             | CSI Piemonte, nella sua veste di     |
-|                                      | Cloud provider                       |
-+--------------------------------------+--------------------------------------+
-| POD                                  | Point Of Delivery - aggregato di     |
-|                                      | infrastrutture elaborative, storage, |
-|                                      | rete e sicurezza autoconsistenti     |
-+--------------------------------------+--------------------------------------+
+*   Gestione completa Volume Service (Beta). La funzionalità comprende:
 
--------------------------
+    *   `[NSP-360] <https://jira.csi.it/browse/NSP-360>`_ - Creazione nuovo volume
+	
+    *   `[NSP-396] <https://jira.csi.it/browse/NSP-396>`_ - Elenco Volumi associati a VM
+	
+    *   `[NSP-361] <https://jira.csi.it/browse/NSP-361>`_ - Attach volume a VM
+	
+    *   `[NSP-395] <https://jira.csi.it/browse/NSP-395>`_ - Detach volume a VM
+	
+    *   `[NSP-589] <https://jira.csi.it/browse/NSP-589>`_ - Delete volume
 
+*   `[NSP-655] <https://jira.csi.it/browse/NSP-655>`_ - Rimozione SG da istanza VM
+    
+*   `[NSP-658] <https://jira.csi.it/browse/NSP-658>`_ - Aggiunta SG a istanza VM
 
-.. [Q]
+*   `[NSP-425] <https://jira.csi.it/browse/NSP-425>`_ - Funzionaità di BackOffice. Possibilità di allegare documenti di offerta e provisioning all'account
 
+*   `[NSP-193] <https://jira.csi.it/browse/NSP-193>`_ - Elenco Shares - Visualizzazione colonna Tags
 
+*   `[NSP-301] <https://jira.csi.it/browse/NSP-301>`_ - Disponibilità Report Csv con le risorse associate all'Account
+    
+**Changed**
 
-​1.17​ Q
-----------------
+*   `[NSP-289] <https://jira.csi.it/browse/NSP-289>`_ - Nuova gestione e icone per lo stato risorse
 
+*   `[NSP-637] <https://jira.csi.it/browse/NSP-637>`_ - Ordinamento cronologia attività
 
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-550] <https://jira.csi.it/browse/NSP-550>`_ - Refactoring per visualizzazione 1366x768
 
------------------
+*   `[NSP-707] <https://jira.csi.it/browse/NSP-707>`_ - Lista VM Account - tooltips su nome VM
 
+*   `[NSP-638] <https://jira.csi.it/browse/NSP-638>`_ - Adeguamento interfaccia con aggiunta "Drill-Down" button su menu di navigazione
 
-.. [R]
+**Fixed**    
+    
+*   `[NSP-703] <https://jira.csi.it/browse/NSP-703>`_ - Elenco rendiconti account: mancata internazionalizzazione del mese
 
+*   `[NSP-691] <https://jira.csi.it/browse/NSP-691>`_ - bug visualizzazione dettaglio account
 
-1.18 R
---------
+*   `[NSP-517] <https://jira.csi.it/browse/NSP-517>`_ - problema visualizzazione Service Portal
 
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Region                               | Aggregato di una o più Availability  |
-|                                      | Zone                                 |
-+--------------------------------------+--------------------------------------+
-| Rupar                                | Rupar Piemonte è la Rete Unitaria    |
-|                                      | della Pubblica Amministrazione a cui |
-|                                      | possono aderire tutti gli Enti       |
-|                                      | locali piemontesi                    |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-610] <https://jira.csi.it/browse/NSP-610>`_ - Lista snapshot "Creation Date" : aggiungere ora e minuti
 
--------------------------
+*   `[NSP-639] <https://jira.csi.it/browse/NSP-639>`_ - Bug Quote STAAS/SNAPSHOT
 
+*   `[NSP-641] <https://jira.csi.it/browse/NSP-641>`_ - Viusalizzazione report mese in corso (Master Account)
 
-.. [S]
+*   `[NSP-642] <https://jira.csi.it/browse/NSP-642>`_ - presentazione Costi (Euro) nei report PDF
 
+*   `[NSP-643] <https://jira.csi.it/browse/NSP-643>`_ - allineamento colonne report dettaglio pdf
 
-1.19 S
---------
+*   `[NSP-648] <https://jira.csi.it/browse/NSP-648>`_ - Elenco ruoli compare solo voce (ruoli_elenco.Ospite)
 
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| SG Security Group                    | E' il firewall della istanze di      |
-|                                      | Nivola.                              |
-|                                      | Configurabile dall'utente per        |
-|                                      | controllare il traffico in entrata   |
-|                                      | e in uscita da e verso le istanze.   |
-|                                      | Il SG protegge ogni singola istanza  |
-|                                      | al suo interno. Per far colloquiare  |
-|                                      | istanze del medesimo SG tra loro     |
-|                                      | si dovrà agire sulle regole          |
-|                                      | di ingresso e di uscita.             |
-+--------------------------------------+--------------------------------------+
-| Service Portal                       | È il portale di servizio a cui       |
-|                                      | consumer e provider accedono per il  |
-|                                      | governo dei servizi esposti da       |
-|                                      | Nivola. L’interfaccia è in grado     |
-|                                      | cooperare con le API di business     |
-|                                      | esposte dalla CMP.                   |
-|                                      |                                      |
-|                                      | Il Service Portal espone inoltre     |
-|                                      | funzioni proprie come l’accesso alla |
-|                                      | documentazione, ai video tutorial,   |
-|                                      | alla chat e al Servizio di           |
-|                                      | assistenza tramite il Team di        |
-|                                      | Supporto Nivola per supportare       |
-|                                      | l’utente in caso di problemi,        |
-|                                      | malfunzionamenti o semplici          |
-|                                      | how-to-use.                          |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| Site                                 | Aggregato di uno o più POD           |
-+--------------------------------------+--------------------------------------+
-| Storage as Service   STAAS           | Il servizio prevede la fornitura di  |
-|                                      | spazio disco prestazionale           |
-|                                      | raggiungibile via rete con           |
-|                                      | protocolli NFS e CIFS esclusivamente |
-|                                      | dalle macchine virtuali Nivola. La   |
-|                                      | messa a disposizione dei servizi di  |
-|                                      | storage avviene su infrastrutture    |
-|                                      | ridondate e configurate in alta      |
-|                                      | affidabilità.                        |
-|                                      |                                      |
-+--------------------------------------+--------------------------------------+
-| SUBNET                               | E’ un range di IP utilizzabile       |
-|                                      | all’interno del VpC. E’ possibile    |
-|                                      | usare delle risorse di Nivola        |
-|                                      | all’interno di una specifica subnet. |
-|                                      | E’ possibile usare una subnet per    |
-|                                      | risorse che devono connettersi ad    |
-|                                      | Internet ed una privata, per risorse |
-|                                      | che invece non hanno necessità di    |
-|                                      | connettersi ad Internet.             |
-|                                      | Per proteggere le risorse di Nivola  |
-|                                      | in ciascuna sottorete, è possibile   |
-|                                      | utilizzare più security groups.      |
-+--------------------------------------+--------------------------------------+
+*   `[NSP-649] <https://jira.csi.it/browse/NSP-649>`_ - bug tootip menu sinistro
 
--------------------------
-
-.. [T]
-
-
-1.20 T
------------------
-
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Tagli                                | Definiscono le dimensioni            |
-|                                      | massime complessive delle risorse    |
-|                                      | della Virtual Machine.               |
-+--------------------------------------+--------------------------------------+
-| Tags                                 | Attraverso i TAGS la piattaforma     |
-|                                      | mette a disposizione                 |
-|                                      | la possibilità di etichettare le     |
-|                                      | proprie risorse in modo da facilitare|
-|                                      | di individuarle e ricercarle con     |
-|                                      | chiavi personalizzabili.             |
-+--------------------------------------+--------------------------------------+
-| Template                             | Sono le tipologie e le versioni del  |
-|                                      | OS utilizzati per la creazione della |
-|                                      | Virtual Machine.                     |
-+--------------------------------------+--------------------------------------+
-
-----------
-
-.. [U]
-​
-
-1.21 U
-----------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| Utente/User                          | Persona fisica accreditata           |
-|                                      | all’accesso ai servizi Nivola        |
-+--------------------------------------+--------------------------------------+
-
----------------
-
-
-.. [V]
+*   `[NSP-336] <https://jira.csi.it/browse/NSP-636>`_ - `[NSP-644] <https://jira.csi.it/browse/NSP-644>`_ - `[NSP-645] <https://jira.csi.it/browse/NSP-645>`_ - `[NSP-650] <https://jira.csi.it/browse/NSP-650>`_ - `[NSP-667] <https://jira.csi.it/browse/NSP-667>`_
 
 
 
-1.22 V
-----------
-
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-| VM: Virtual Machine                  | Server in grado di ospitare servizi. |
-+--------------------------------------+--------------------------------------+
-| VPC: Virtual Private Cloud           | E' una rete virtuale dedicata        |
-|                                      | all’account Nivola, logicamente      |
-|                                      | isolata dalle altre reti di Nivola.  |
-|                                      | L’istanza è utilizzabie all’interno  |
-|                                      | del proprio Vpc. Il Vpc è            |
-|                                      | configurabile modificando il range   |
-|                                      | degli indirizzi IP. Possibile creare |
-|                                      | sottoreti, indicando route tables,   |
-|                                      | network gateways e security settings.|
-+--------------------------------------+--------------------------------------+
-
-------------
-
-.. [W]
-
-
-
-1.23 W
-----------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-
--------------
-
-
-.. [X]
-
-
-1.24 X
-----------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-
--------------------
-
-
-<<<<<<< HEAD
-.. [Y]
-
-
-1.25 Y
-----------
-
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-=======
 .. _release-2.3.0:
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
--------------------------
+Service Portal 2.3.0 (2021-04-09)
+---------------------------------
 
-.. [Z]
+**New**
 
+*   Gestione completa delle snapshot VM. La funzionalità comprende:
 
-1.26 Z
-----------
+    *   `[NSP-188] <https://jira.csi.it/browse/NSP-188>`_ - Creazione nuova snapshot per VM
+	
+    *   `[NSP-189] <https://jira.csi.it/browse/NSP-189>`_ - Revert snapshot su VM
+	
+    *   `[NSP-359] <https://jira.csi.it/browse/NSP-359>`_ - Cancellazione snapshot VM
 
-<<<<<<< HEAD
-+--------------------------------------+--------------------------------------+
-|            Acronimo/Termine          |            Significato               |
-+--------------------------------------+--------------------------------------+
-=======
 *   `[NSP-113] <https://jira.csi.it/browse/NSP-113>`_ - Compute Service - Visualizzazione lista Volumi associati all'Account
     
 *   `[NSP-168] <https://jira.csi.it/browse/NSP-168>`_ - Visualizzazione e gestione Notizie con layout grafico
@@ -940,8 +494,5 @@ Service Portal 1.8.0 (2020-04-10)
 *   Adeguati i tagli delle dimensioni degli Share e dei dischi aggiuntivi di VM e DBAAS.
 
 *   Bux fixing su alcune informazioni contenute nella home page dell'uente Master di Account (#779)
->>>>>>> 40a2c27168b1249889ed4699b1e60aae87cf7e47
 
--------------------------
 
-================================
