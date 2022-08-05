@@ -3,140 +3,22 @@
 **Jobs di Backup**
 ***************************
 
-La gestione dei **Jobs di Backup** è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Backup** sotto Compute.
+La gestione dei **Jobs di Backup** rende disponibile funzionalità di visualizzazione dei backup dall'account per mezzo del
+Service Portal.
 
-A seguito di un clic su **Backup**, il sistema popolerà la parte destra del video con l” **Elenco Jobs di Backup**.
+La funzione è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Backup** sotto Compute.
+
+A seguito di un clic su **Backup**, il sistema popolerà la parte destra del video con l' **Elenco Jobs di Backup**.
 
 Per ogni **Job di Backup** sono disponibili le seguenti informazioni di dettaglio:
 
-- titolo del backup job
-- stato del backup job
-- retention policy del job
-- stato della schedule (abilitata / disabilitata)
-# - created o updated (?)
-
-#L’elenco, ordinabile e paginabile, deve consentire di selezionare un job ed accedere ai seguenti CdU:
-
-# 1. :ref:`Crea job`
- 1. :ref:`Dettaglio job`
-#   3. :ref:`Modifica job`
-#   4. :ref:`Accendere VM`    
-#   5. :ref:`Riavviare VM`
-
-#Dal CdU deve essere possibile accedere al CdU Crea Backup job, riservato al ruolo di master di Account.
-
-#La modifica ai job (creazione o eliminazione) in uno dei CdU inclusi deve prevedere l’aggiornamento dell’elenco.
-
-
-#.. _Crea job:
-
-#**Crea job**
-#==============================
-#
-#All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create.
-#La ricerca è eseguita tramite una stringa inserita dall’operatore.
-#Nivola ricerca il set di caratteri nelle colonne dove sono elencate
-#le caratteristiche dei server.
-#Per eseguire una ricerca è necessario procedere in questo modo:
-#
-#    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"** e premere invio;
-#
-#       .. image:: img/VM_Elenco.png
-#
-#    2. Il sistema popolerà lo schermo, con le VM che soddisfano il criterio di selezione;
-#
-#      .. image:: img/VM_Selezionate.png
-
-
-
-#.. _Dettaglio job:
-
-#**Dettaglio job**
-#==============================
-
-#All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create.
-#La ricerca è eseguita tramite una stringa inserita dall’operatore.
-#Nivola ricerca il set di caratteri nelle colonne dove sono elencate
-#le caratteristiche dei server.
-#Per eseguire una ricerca è necessario procedere in questo modo:
-
-#    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"** e premere invio;
-
-#       .. image:: img/VM_Elenco.png
-
-#    2. Il sistema popolerà lo schermo, con le VM che soddisfano il criterio di selezione;
-
-#      .. image:: img/VM_Selezionate.png
-
-
-#.. _Modifica job:
-#
-#**Modifica job**
-#===============================
-#Per fermare l'attività della Virtual Machine, seguire questi passaggi:
-#
-#    1. Selezionare la VM dall’**Elenco VM**, sfruttando il bottone **Pannello gestione VM**;
-#
-#       .. image:: img/Ricerca_VM_b.png
-#    
-#    2. Usare il bottone **Pannello gestione VM**;
-#
-#       .. image:: img/Pulsante_dettagli.png
-#
-#    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
-#    
-#      .. image:: img/VM_Pannello_dettagli.png
-#    
-#    4. Concludere, utilizzando il pulsante **"STOP"** e la VM verrà spenta;
-#
-#      .. image:: img/VM_stop.png
-
-
-#.. _Elimina job:
-#
-#**Elimina job**
-#===============================
-#
-#Per effettuare lo **start** della Virtual Machine, procedere come segue:
-#
-#    1. Individuare il sever dall’**Elenco VM**, mettendo una spunta a fianco del nome;
-#
-#       .. image:: img/Ricerca_VM_a.png
-#    
-#    2. Usare il bottone **Pannello gestione VM**;
-#
-#       .. image:: img/Pulsante_dettagli.png
-#
-#    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
-#    
-#      .. image:: img/VM_Pannello_dettagli.png
-#    
-#    4. Concludere, l'operazione, utilizzando il pulsante **"START"**;
-#
-#      .. image:: img/VM_start.png
-
-
-#.. _Backup recovery point:
-#
-#**Backup recovery point**
-#================================
-#Per **riavviare** la Virtual Machine, occorrono i seguenti passaggi:
-#
-#    1. Selezionare la VM dall’**Elenco VM**, facendo clic sul bottone **Pannello gestione VM**;
-#
-#       .. image:: img/Ricerca_VM_b.png
-#    
-#    2. Usare il bottone **Pannello gestione VM**;
-#
-#       .. image:: img/Pulsante_dettagli.png
-#
-#    3. Optare per il tabstrip **"START/STOP/RIAVVIA"**;
-#    
-#      .. image:: img/VM_Pannello_dettagli.png
-#    
-#    4. Ottenere il riavvio, utilizzando il pulsante **"RIAVVIA"**;
-#
-#      .. image:: img/VM_stop.png
-
-
-
+- Stato	
+- Region - A.Z.	
+- Hypervisor	
+- Numero VM	
+- Created	
+- Updated	
+- start_time	
+- interval	
+- Retention policy	
+- Esito
