@@ -21,9 +21,9 @@ Service Portal 2.8.0 (2022-07-30)
 
 **Changed**
 
-*   `[NSP-1541] https://jira.csi.it/browse/NSP-1541>`_ - Aggiunta flag "Accedi Sistema Ticketing" su Autoregistrazione
+*   `[NSP-1541] <https://jira.csi.it/browse/NSP-1541>`_ - Aggiunta flag "Accedi Sistema Ticketing" su Autoregistrazione
 
-*   `[NSP-1517] https://jira.csi.it/browse/NSP-1517>`_ - Inserita in mail apertura ticket le informazioni "oggetto" e "testo"
+*   `[NSP-1517] <https://jira.csi.it/browse/NSP-1517>`_ - Inserita in mail apertura ticket le informazioni "oggetto" e "testo"
 
 
 **Fixed**    
