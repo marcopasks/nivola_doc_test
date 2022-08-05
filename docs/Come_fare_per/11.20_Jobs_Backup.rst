@@ -3,12 +3,13 @@
 **Jobs di Backup**
 ***************************
 
-La gestione dei **Jobs di Backup** rende disponibile funzionalità di visualizzazione dei backup dall'account per mezzo del
+La gestione dei **Jobs di Backup** rende disponibile la funzionalità di visualizzazione dei backup dall'account per mezzo del
 Service Portal.
 
 La funzione è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Backup** sotto Compute.
 
 .. image:: img/11.20_Elenco_BackupSX.png
+
 
 A seguito di un clic su **Backup**, il sistema popolerà la parte destra del video con l' **Elenco Jobs di Backup**. 
 
