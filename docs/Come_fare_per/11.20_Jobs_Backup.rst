@@ -8,7 +8,11 @@ Service Portal.
 
 La funzione è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Backup** sotto Compute.
 
-A seguito di un clic su **Backup**, il sistema popolerà la parte destra del video con l' **Elenco Jobs di Backup**.
+.. image:: img/11.20_Elenco_BackupSX.png
+
+A seguito di un clic su **Backup**, il sistema popolerà la parte destra del video con l' **Elenco Jobs di Backup**. 
+
+.. image:: img/11.20_Elenco_BackupDX.png
 
 Per ogni **Job di Backup** sono disponibili le seguenti informazioni di dettaglio:
 
