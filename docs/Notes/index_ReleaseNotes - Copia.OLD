@@ -3,6 +3,39 @@
 **Release Notes**
 ===================================
 
+.. _release-2.8.0:
+
+Service Portal 2.8.0 (2022-07-30)
+---------------------------------
+
+**New**
+
+*   `[NSP-598] <https://jira.csi.it/browse/NSP-598>`_ - Elenco Jobs di Backup delle VM per gli account abilitati
+
+*   `[NSP-1511] <https://jira.csi.it/browse/NSP-1511>`_ - Inserimento nuova associazione WBS - Account
+
+*   `[NSP-1542 - NSP-1475] <https://jira.csi.it/browse/NSP-1542 - https://jira.csi.it/browse/NSP-1475>`_ - Memo orari presa in carico / Pop-up disclaimer all'apertura di un nuovo ticket con riferimento numero telefonico per richieste urgenti
+
+*   `[NSP-1485] <https://jira.csi.it/browse/NSP-1485>`_ - Avviso visivo utente quando l'operazione richiede di attendere
+
+
+**Changed**
+
+*   `[NSP-1541] <https://jira.csi.it/browse/NSP-1541>`_ - Aggiunta flag "Accedi Sistema Ticketing" su Autoregistrazione
+
+*   `[NSP-1517] <https://jira.csi.it/browse/NSP-1517>`_ - Inserita in mail apertura ticket le informazioni "oggetto" e "testo"
+
+
+**Fixed**    
+    
+*   `[NSP-1507] <https://jira.csi.it/browse/NSP-1507>`_ - Salvataggio allegati nelle bozze
+
+*   `[NSP-1519] <https://jira.csi.it/browse/NSP-1519>`_ - Revoca Associazione WBS
+
+*   `[NSP-1500] <https://jira.csi.it/browse/NSP-1500>`_ - DBAAS visualizzaione informazioni "Subnet", "security Security Group" e "IP address
+
+
+
 .. _release-2.7.0:
 
 Service Portal 2.7.0 (2022-07-04)
@@ -27,7 +60,7 @@ Service Portal 2.7.0 (2022-07-04)
 
 **Fixed**    
     
-*   `[NSP-846] <https://jira.csi.it/browse/NSP-846>`_
+*   `[NSP-846] <https://jira.csi.it/browse/NSP-846>`_ Download csv Lista Attività / Cronologia
 
 
 
@@ -38,8 +71,9 @@ Service Portal 2.6.2 (2022-06-20)
 
 **Fixed**    
     
+*   `[NSP-1440] <https://jira.csi.it/browse/NSP-1440>`_ Verifica tipologia rules inserite in Security Group
 
-*   `[NSP-1440] <https://jira.csi.it/browse/NSP-1440>`_ - `[NSP-1044] <https://jira.csi.it/browse/NSP-1094>`_ 
+*   `[NSP-1094] <https://jira.csi.it/browse/NSP-1094>`_ Risolto bug download report csv risorse DBAAS
 
 
 

@@ -3,6 +3,76 @@
 **Release Notes**
 ===================================
 
+.. _release-3.0.0:
+
+Service Portal 3.0.0 (2022-11-04)
+---------------------------------
+
+**New**
+
+*   `[NSP-1716] <https://jira.csi.it/browse/NSP-1716>`_ - Modifica Anagrafica Account - Associazione Account con Listino (specifico)
+
+*   `[NSP-1246] <https://jira.csi.it/browse/NSP-1246>`_ - Gestione attributo "Listino Associato all'Account"
+
+*   `[NSP-1609] <https://jira.csi.it/browse/NSP-1609>`_ - Evidenziare/segnalare quando un utente chiede di aprire un ticket su un account non correttamente configurato
+
+*   `[NSP-1686] <https://jira.csi.it/browse/NSP-1686>`_ - Caricamento pannello VM : mettere animazione di attesa
+
+*   `[NSP-1735] <https://jira.csi.it/browse/NSP-1735>`_ - Caricamento pannello DBAAS : mettere animazione di attesa
+
+*   `[NSP-1581] <https://jira.csi.it/browse/NSP-1581>`_ - Dettaglio VM : Elenco Restore Points disponibili per la VM
+
+*   `[NSP-1614] <https://jira.csi.it/browse/NSP-1614>`_ - inserire interfaccia standard frontend per "attesa utente" per "Scarica report csv per servizio vm" e report simili
+
+
+**Changed**
+
+*   `[NSP-1664] <https://jira.csi.it/browse/NSP-1664>`_ - Crea nuova VM : Composizione FQDN VM Windows : non usare acronimo
+
+*   `[NSP-1631] <https://jira.csi.it/browse/NSP-1631>`_ - Revisione pannello "Edit Account" - Progettazione
+
+*   `[NSP-1562] <https://jira.csi.it/browse/NSP-1562>`_ - non più presente stato provvisorio"BUILDING" dal portale in caso di riavvi e/o operazioni su una VM (PROD e STAGE)
+
+
+**Fixed**    
+    
+*   `[NSP-1679] <https://jira.csi.it/browse/NSP-1679>`_ - Conteggio risorse nella pagina di Dettaglio su Portale tutti valori a 0
+
+*   `[NSP-1447] <https://jira.csi.it/browse/NSP-1447>`_ - Visualizzazione regole SG : Usare il JSON servizi anche per visualizzare la regola
+
+*   `[NSP-1551] <https://jira.csi.it/browse/NSP-1551>`_ - Costi account non rendicontati : Correzione date
+
+*   `[NSP-1571] <https://jira.csi.it/browse/NSP-1571>`_ - (Amm. Backoffice) Dopo Edit Account se clicco su Accounts limita la ricerca alla Divisione dell'ultimo Account
+
+*   `[NSP-1613] <https://jira.csi.it/browse/NSP-1613>`_ - errore nel ricalcolo costi account specifico
+
+*   `[NSP-1563] <https://jira.csi.it/browse/NSP-1563>`_ - correzione label in caso di detach di un volume
+
+*   `[NSP-1566] <https://jira.csi.it/browse/NSP-1566>`_ - report Amministrazione -> Report -> Report / Tipo di report "Per WBS"
+
+
+
+
+.. _release-2.8.1:
+
+Service Portal 2.8.1 (2022-09-12)
+---------------------------------
+
+**New**
+
+*   `[NSP-1537] <https://jira.csi.it/browse/NSP-1537>`_ - Adeguamento evolutivo procedura calcolo costi
+
+*   `[NSP-628] <https://jira.csi.it/browse/NSP-628>`_ - Adeguamento attributi Accounts (billing)
+
+*   `[NSP-1246] <https://jira.csi.it/browse/NSP-1246>`_ - Gestione attributo "Listino Associato all'Account"
+
+*   `[NSP-846] <https://jira.csi.it/browse/NSP-846>`_ - Gestione attributo "Listino Associato all'Account"
+
+*   `[NSP-1250] <https://jira.csi.it/browse/NSP-1250>`_ - CDU GESTIONE WBS – ACCOUNT
+
+
+
+
 .. _release-2.8.0:
 
 Service Portal 2.8.0 (2022-07-30)
