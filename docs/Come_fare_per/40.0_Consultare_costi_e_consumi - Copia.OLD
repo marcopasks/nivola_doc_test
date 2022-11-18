@@ -5,9 +5,9 @@
 
 I **Costi e Consumi** sono visibili attraverso il menu posto alla
 sinistra dello schermo. Cliccando sulla label **Costi Consumi**
-sotto la label **Gestione account**
+sotto la label **Amministrazione**
 
-.. image:: img/CostiConsumi_innesco2.png
+.. image:: img/CostiConsumi_innesco.png
 
 A seguito del clic su **Costi e Consumi**, il sistema presenterà nella
 parte destra del video i **Costi non rendicontati**
@@ -24,14 +24,4 @@ Nel **Pdf Dettaglio** invece, è indicato giornalmente, il consumo dei servizi, 
 
 .. image:: img/Consumi_Report.png
 
-
-Il **Listino** è visibile attraverso il menu posto alla
-sinistra dello schermo. Cliccando sulla label **Listino**
-sotto la label **Gestione account**
-
-.. image:: img/Listino_innesco2.png
-
-Il sistema presenterà nella parte destra del video il **Listino applicato all'Account**:
-
-.. image:: img/40.0_ListinoDx.png
  

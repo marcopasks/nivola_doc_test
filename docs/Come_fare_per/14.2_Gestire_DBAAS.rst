@@ -1,6 +1,6 @@
 .. _Gestire_DBAAS:
 
-**Gestire le istanze e utenti di un DBaaS**
+**Gestire le istanze di un DBaaS**
 ***************************************************
 
 

@@ -1,6 +1,6 @@
 .. _Associazione_Listino_Account:
 
-**Associazione di un listino a un account**
+**Associazione di un listino ad un account**
 ******************************
 
 La gestione dei **LISTINI E COSTI** è attivabile dalla voce servizio **Accounts** posto nella parte sinistra dello schermo, sotto la label **Struttura organizzativa**. 
@@ -24,11 +24,11 @@ Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito 
 
 .. image:: img/Add_VM.png
 
-5. Decidere se utilizzare il **listino corrente** oppure un **listino specifico** 
-Sfruttando le combo box proposte, inserire: data di inizio associazione, data termine dell'associazione, prezzario da applicare;
+5. Decidere se utilizzare il **listino corrente** oppure un **listino specifico**.
+Sfruttando le combo box proposte inserire: data di inizio associazione, data termine dell'associazione, prezzario da applicare;
 
 **Data inizio contabilizzazione costi**: 
-E’ la data a partire dalla quale i consumi rilevati per l’Account devono essere conabilizzati, ovvero devono essere calcolati i costi. Può non essere valorizzata
+E’ la data a partire dalla quale i consumi rilevati per l’Account devono essere contabilizzati, ovvero devono essere calcolati i costi. Può non essere valorizzata
 (in questo caso tutti i consumi verranno contabilizzati), anche se è raccomandabile che lo sia. Può essere nel passato o nel futuro. 
 Può essere modificata e/o rimessa a null.
 
