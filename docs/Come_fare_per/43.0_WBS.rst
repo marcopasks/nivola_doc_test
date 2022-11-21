@@ -23,13 +23,15 @@ Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito 
 1. **Selezionare** l'account:
 
 .. image:: img/42.0_Account_selezionato.png
+ 
 
 2. Usare il bottone **Visualizza Dettaglio**:
 
 .. image:: img/Pulsante_visualizza_dettagli.png
+ 
 
 3. Rimanere nella voce **DETTAGLIO**
-" "
+ 
 
 4. Premere il tasto "+" sotto **WBS**:
 
@@ -38,11 +40,13 @@ Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito 
 5. Selezionare una delle **WBS** censite a sistema:
 
 .. image:: img/43.0_Elenco_WBS.png
+ 
 
 6. Sfruttando le combo box proposte inserire: data inizio, data fine, percentuale:
 
 .. image:: img/43.0_Date_Perc_WBS.png
-
+ 
+ 
 7. Controllare i dati inseriti e salvarli premendo sul pulsante **CONFERMA**:
 
 .. image:: img/43.0_Conferma.png
