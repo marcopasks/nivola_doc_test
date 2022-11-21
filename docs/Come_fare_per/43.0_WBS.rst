@@ -4,13 +4,17 @@
 ******************************
 
 L'associazione di un codice WBS (Work breakdown Structure) ad un Account ha lo scopo di facilitare l’attività di avanzamento dei costi, 
-contabilizzati mensilmente in Nivola (nella procedura Repository forniture)
+contabilizzati mensilmente in Nivola (nella procedura Repository forniture).
 
 E' necessario valorizzare i seguenti attributi:
+
 - codice WBS con categoria tipologia e categoria sottotipologia
-- data inizio / fine validità, si tratta dell’intervallo di date entro il quale avviene l’associazione,
-- WBS percentuale è la percentuale del costo calcolato per il corrispondente consumo (metrica, account, giorno,...) che deve essere 
+
+- data inizio / fine validità: si tratta dell’intervallo di date entro il quale avviene l’associazione
+
+- WBS percentuale: è la percentuale del costo calcolato per il corrispondente consumo (metrica, account, giorno,...) che deve essere 
 attribuita alla WBS. Default : 1 (100%).
+
 
 La gestione del **WBS** è attivabile dalla voce servizio **Accounts** posto nella parte sinistra dello schermo, sotto la label **Struttura organizzativa**. 
 Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito di un clic il sistema popolerà la parte centrale del video con l”Elenco degli accounts.
