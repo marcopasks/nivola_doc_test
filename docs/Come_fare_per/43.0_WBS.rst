@@ -12,8 +12,7 @@ E' necessario valorizzare i seguenti attributi:
 
 - data inizio / fine validità: si tratta dell’intervallo di date entro il quale avviene l’associazione
 
-- WBS percentuale: è la percentuale del costo calcolato per il corrispondente consumo (metrica, account, giorno,...) che deve essere 
-attribuita alla WBS. Default : 1 (100%).
+- WBS percentuale: è la percentuale del costo calcolato per il corrispondente consumo (metrica, account, giorno,...) che deve essere attribuita alla WBS. Default : 1 (100%).
 
 
 La gestione del **WBS** è attivabile dalla voce servizio **Accounts** posto nella parte sinistra dello schermo, sotto la label **Struttura organizzativa**. 
@@ -29,7 +28,8 @@ Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito 
 
 .. image:: img/Pulsante_visualizza_dettagli.png
 
-3. Rimanere nella voce **DETTAGLIO**:
+3. Rimanere nella voce **DETTAGLIO**
+
 
 4. Premere il tasto "+" sotto **WBS**:
 
@@ -41,7 +41,7 @@ Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito 
 
 6. Sfruttando le combo box proposte inserire: data inizio, data fine, percentuale:
 
-.. image:: img/43.0_Date_Perc_WBS.bmp
+.. image:: img/43.0_Date_Perc_WBS.png
 
 7. Controllare i dati inseriti e salvarli premendo sul pulsante **CONFERMA**:
 
