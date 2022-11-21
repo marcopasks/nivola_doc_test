@@ -47,6 +47,6 @@ con uno o più importi a seconda della “tipologia prezzo” da applicare allo 
 
 .. image:: img/42.0_Listini_e_Prezzi.png
 
-6. Controllare i dati inseriti e salvarli premendo sul pulsante **SALVA RENDICONTAZIONE****
+6. Controllare i dati inseriti e salvarli premendo sul pulsante **SALVA RENDICONTAZIONE**
 
 .. image:: img/42.0_Salva_Rendicontazione.png
