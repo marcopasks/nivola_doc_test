@@ -8,7 +8,7 @@
 Dalla schermata principale del servizio APM, è possibile selezionare il servizio relativo all'applicazione in Services
 
 .. image:: img/30.5_Services.png
-
+' '
 
 
 **TRANSACTIONS**
@@ -16,7 +16,7 @@ Dalla schermata principale del servizio APM, è possibile selezionare il servizi
 In Transactions si hanno informazioni e statistiche riguardanti tutte le transazioni effettuate dal servizio
 
 .. image:: img/30.5_Transactions.png
-
+' '
 
 
 **TRACE SAMPLE**
@@ -24,7 +24,7 @@ In Transactions si hanno informazioni e statistiche riguardanti tutte le transaz
 In Trace Sample è possibile osservare le operazioni che vengono eseguite in una singola transazione con i relativi tempi
 
 .. image:: img/30.5_Trace_sample.png
-
+' '
 
 
 **STACK TRACE**
@@ -32,7 +32,7 @@ In Trace Sample è possibile osservare le operazioni che vengono eseguite in una
 Nello Stack Trace è possibile vedere lo stack applicativo coinvolto nell'esecuzione della singola operazione
 
 .. image:: img/30.5_Stack_trace.png
-
+' '
 
 
 **DEPENDENCIES**
@@ -40,7 +40,7 @@ Nello Stack Trace è possibile vedere lo stack applicativo coinvolto nell'esecuz
 In Dependencies è possibile osservare gli elementi esterni coinvolti durante le operazioni eseguite dall'applicativo (ad esempio db)
 
 .. image:: img/30.5_Dependencies.png
-
+' '
 
 
 **ERRORS**
@@ -48,7 +48,7 @@ In Dependencies è possibile osservare gli elementi esterni coinvolti durante le
 In Errors vengono mostrati gli errori più recenti dell'applicativo con il numero di occorrenze e l'ultima occorrenza
 
 .. image:: img/30.5_Errors.png
-
+' '
 
 
 **METRICS**
@@ -56,7 +56,7 @@ In Errors vengono mostrati gli errori più recenti dell'applicativo con il numer
 In Metrics vengono mostrate le metriche delle macchine su cui gira l'applicativo
 
 .. image:: img/30.5_Metrics.png
-
+' '
 
 
 **SERVICE MAP**
