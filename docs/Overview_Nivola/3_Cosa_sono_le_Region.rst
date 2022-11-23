@@ -1,9 +1,9 @@
 .. _3_Cosa_sono_le_Region:
 
-**COSA SONO LE REGION**
+**Cosa sono le Region**
 ***********************
 
-**MODELLO MULTI-REGION**
+**Modello Multi-Region**
 =========================
 
-attendo risposta mail a gianni/davide
+da fare / attesa info
