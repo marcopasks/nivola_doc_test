@@ -1,8 +1,8 @@
 .. _65.0_Gestione_log:
 
-Gestione chiavi SSH
+Gestione logging
 ===================
-Il ciclo di vita delle **CHIAVI SSH**, si sviluppa attraverso queste funzioni. 
+Le funzioni previste sono le seguenti: 
 
 -  :ref:`Abilitazione_servizio`
 -  :ref:`Verifica_servizio_attivo`

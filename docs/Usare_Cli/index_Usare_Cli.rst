@@ -20,6 +20,7 @@ attraverso la Command Line Interface.
    40.0_howto-secgroupcli.rst
    50.0_howto-use-disk.rst
    60.0_howto-use-ssh.rst
+   65.0_Gestione_log.rst
    
    
    
