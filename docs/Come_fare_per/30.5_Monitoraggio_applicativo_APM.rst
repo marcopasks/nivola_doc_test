@@ -3,12 +3,12 @@
 **Monitoraggio Applicativo APM**
 ********************************
 
-**SERVICES**
+**SERVICES**.
 Dalla schermata principale del servizio APM, è possibile selezionare il servizio relativo all'applicazione in Services
 
 .. image:: img/30.5_Services.png
 
-**TRANSACTIONS**
+**TRANSACTIONS**.
 In Transactions si hanno informazioni e statistiche riguardanti tutte le transazioni effettuate dal servizio
 
 .. image:: img/30.5_Transactions.png
