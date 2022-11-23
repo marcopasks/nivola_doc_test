@@ -1,0 +1,415 @@
+.. _65.0_Gestione_log:
+
+Gestione chiavi SSH
+===================
+Il ciclo di vita delle **CHIAVI SSH**, si sviluppa attraverso queste funzioni. 
+
+-  :ref:`Abilitazione_servizio`
+-  :ref:`Verifica_servizio_attivo`
+-  :ref:`Elenco_logging_instance`
+-  :ref:`Dettaglio_logging_instance`
+-  :ref:`Creazione_logging_instance`
+-  :ref:`Cancellazione_logging_instance`
+-  :ref:`Elenco_space`
+-  :ref:`Creazione_space`
+-  :ref:`Dettaglio_space`
+-  :ref:`Cancellazione`
+-  :ref:`Sincronizzazione_account_space`
+
+
+
+
+.. _Abilitazione_servizio:
+
+Creare una chiave SSH
+^^^^^^^^^^^^^^^^^
+
+Popolamento catalogo servizi dell’account:
+
+.. code-block:: bash
+
+
+    $ beehive bu accounts-capabilities add <id account> <id capability catalogo>
+
+     
+<id capability catalogo> può essere:
+•	CsiCloud-Service-Catalog
+•	EnteCloud-Service-Catalog
+•	PrivateCloud-Service-Catalog
+
+Aggiunta del core service:
+
+.. code-block:: bash
+
+
+    $ beehive bu accounts-capabilities add <id account> <id capability servizi> 
+
+     
+<id capability servizi> può essere:
+•	CsiCloud-LoggingService-base
+•	EnteCloud-AllService-base
+•	PrivateCloud-AllService-base
+
+
+
+
+
+.. _Verifica_servizio_attivo:
+
+Esportare una chiave SSH
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per esportare una **chiave SSH**, occorre sfruttare il comando:
+
+.. code-block:: bash
+
+
+    $ beehive ssh keys export <id SSH-key>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id SSH-key        Id della chiave SSH
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+
+
+.. _Elenco_logging_instance:
+
+Elenco gruppi abilitati alla chiave SSH
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per vedere i gruppi associati, ad una **chiave SSH**, utilizzare il comando:
+
+.. code-block:: bash
+
+    $ beehive ssh keys-auth group-get <id SSH-key>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id SSH-key               Id della chiave SSH
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+
+
+.. _Dettaglio_logging_instance:
+
+Elenco utenti abilitati alla chiave SSH
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per avere l'elenco degli user associati, ad una **chiave SSH**, usare l'istruzione:
+
+.. code-block:: bash
+
+    $ beehive ssh keys-auth user-get <id SSH-key>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id SSH-key               Id della chiave SSH
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+
+.. _Creazione_logging_instance:
+
+Cancellare chiave SSH
+^^^^^^^^^^^^^^^^^^^^^
+
+Per eliminare dal sistema una **chiave SSH**, procedere in questo modo:
+
+.. code-block:: bash
+
+    $ beehive ssh keys delete <id SSH-key>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id SSH-key               Id della chiave SSH
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+
+
+.. _Cancellazione_logging_instance:
+
+Elenco chiavi SSH
+^^^^^^^^^^^^^^^^^^
+
+La lista delle **chiavi SSH**, presenti nel sistema, è generata a seguito del comando:
+
+.. code-block:: bash
+
+    $ beehive ssh keys get -size 0
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+        -size SIZE         list page size [default=20]
+        -page PAGE         list page [default=0]
+        -field FIELD       list sort field [default=id]
+        -order ORDER       list sort order [default=DESC]
+        -id ID             ssh key uuid
+
+.. _Elenco_space:
+
+Creazione chiave SSH associata ad un account
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Per creare una **chiave SSH**, associata ad un account è necessario utilizzare l'istruzione:
+
+.. code-block:: bash
+
+    $ beehive bu cpaas keypairs add <id account> <nome chiave>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id account               Id account
+        nome chiave              Id della chiave SSH
+
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+        -type TYPE         key type
+
+
+.. _Creazione_space:
+
+Consultare log attività svolta su una VM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Nel caso vi fosse la necessità di vedere le operazioni, condotte su un istanza, procedere con il comando:
+
+.. code-block:: bash
+
+    $ beehive ssh nodes-action get <Id Vm>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        id Vm                    Id Virtual Machine
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help         show this help message and exit
+        -y                 Force delete
+        -e ENV, --env ENV  Execution environment
+        -f FORMAT          Output format
+        -k KEY, --key KEY  Secret key file to use for encryption/decryption
+        --vault VAULT      Ansible vault password to use for inventory decryption
+        --time             Print command execution time
+        --notruncate       Disable truncate of output
+        --curl             Print api requst as curl command in console log
+        -size SIZE         list page size [default=20]
+        -page PAGE         list page [default=0]
+        -field FIELD       list sort field [default=id]
+        -order ORDER       list sort order [default=DESC]
+        -date DATE         date to. Syntax YYYY.MM.DD
+
+
+
+.. _Dettaglio space:
+
+Importare chiave SSH sul portale
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruzione:
+
+.. code-block:: bash
+
+    $ beehive bu service-insts import-from-resource  <Nome account> <Tipo plugin> <Container> <Resource>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        Nome account             Nome dell'Account 
+        Tipo plugin              ?
+        Container                ?
+        Resource                 ?
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help             show this help message and exit
+        -y                     Force delete
+        -e ENV, --env ENV      Execution environment
+        -f FORMAT              Output format
+        -k KEY, --key KEY      Secret key file to use for encryption/decryption
+        --vault VAULT          Ansible vault password to use for inventory decryption
+        --time                 Print command execution time
+        --notruncate           Disable truncate of output
+        --curl                 Print api requst as curl command in console log
+       -desc DESC [DESC ...]   service instance description                            
+       -service_definition_id  SERVICE_DEFINITION_ID service definition id
+       -parent PARENT          parent service instance id
+
+
+
+.. _Cancellazione:
+
+Importare chiave SSH sul portale
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruzione:
+
+.. code-block:: bash
+
+    $ beehive bu service-insts import-from-resource  <Nome account> <Tipo plugin> <Container> <Resource>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        Nome account             Nome dell'Account 
+        Tipo plugin              ?
+        Container                ?
+        Resource                 ?
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help             show this help message and exit
+        -y                     Force delete
+        -e ENV, --env ENV      Execution environment
+        -f FORMAT              Output format
+        -k KEY, --key KEY      Secret key file to use for encryption/decryption
+        --vault VAULT          Ansible vault password to use for inventory decryption
+        --time                 Print command execution time
+        --notruncate           Disable truncate of output
+        --curl                 Print api requst as curl command in console log
+       -desc DESC [DESC ...]   service instance description                            
+       -service_definition_id  SERVICE_DEFINITION_ID service definition id
+       -parent PARENT          parent service instance id
+
+
+
+.. _Sincronizzazione_account_space:
+
+Importare chiave SSH sul portale
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruzione:
+
+.. code-block:: bash
+
+    $ beehive bu service-insts import-from-resource  <Nome account> <Tipo plugin> <Container> <Resource>
+
+     
+Parametri Obbligatori:
+
+.. code-block:: bash
+
+        Nome account             Nome dell'Account 
+        Tipo plugin              ?
+        Container                ?
+        Resource                 ?
+
+
+Parametri Opzionali:
+
+.. code-block:: bash
+
+        -h, --help             show this help message and exit
+        -y                     Force delete
+        -e ENV, --env ENV      Execution environment
+        -f FORMAT              Output format
+        -k KEY, --key KEY      Secret key file to use for encryption/decryption
+        --vault VAULT          Ansible vault password to use for inventory decryption
+        --time                 Print command execution time
+        --notruncate           Disable truncate of output
+        --curl                 Print api requst as curl command in console log
+       -desc DESC [DESC ...]   service instance description                            
+       -service_definition_id  SERVICE_DEFINITION_ID service definition id
+       -parent PARENT          parent service instance id
