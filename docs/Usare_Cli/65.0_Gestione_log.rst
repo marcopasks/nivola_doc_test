@@ -1,4 +1,4 @@
-.. _65.0_Gestione_log:
+.. _Gestione_log:
 
 Gestione logging
 ===================
