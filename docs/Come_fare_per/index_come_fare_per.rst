@@ -45,7 +45,7 @@ ad interagire con la piattaforma, attraverso il portale.
    20.0_Gestione_password_esterni.rst
    30.0_Strumenti.rst
       30.1_Monitoraggio.rst
-      30.2_Log.rst
+      30.5_Monitoraggio_applicativo_APM.rst
    40.0_Consultare_costi_e_consumi.rst
    42.0_Associazione_Listino_Account.rst
    43.0_WBS.rst
