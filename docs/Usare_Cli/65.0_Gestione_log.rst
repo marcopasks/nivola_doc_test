@@ -18,11 +18,10 @@ Le funzioni previste sono le seguenti:
 
 
 
-
 .. _Abilitazione_servizio:
 
-Creare una chiave SSH
-^^^^^^^^^^^^^^^^^
+Abilitazione servizio
+^^^^^^^^^^^^^^^^^^^^^
 
 Popolamento catalogo servizi dell’account:
 
@@ -52,144 +51,127 @@ Aggiunta del core service:
 
 
 
-
-
 .. _Verifica_servizio_attivo:
 
-Esportare una chiave SSH
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Per esportare una **chiave SSH**, occorre sfruttare il comando:
+Verifica servizio attivo
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
 
-    $ beehive ssh keys export <id SSH-key>
+    $ beehive bu logaas info <id account>
 
-     
-Parametri Obbligatori:
-
-.. code-block:: bash
-
-        id SSH-key        Id della chiave SSH
-
-Parametri Opzionali:
-
-.. code-block:: bash
-
-        -h, --help         show this help message and exit
-        -y                 Force delete
-        -e ENV, --env ENV  Execution environment
-        -f FORMAT          Output format
-        -k KEY, --key KEY  Secret key file to use for encryption/decryption
-        --vault VAULT      Ansible vault password to use for inventory decryption
-        --time             Print command execution time
-        --notruncate       Disable truncate of output
-        --curl             Print api requst as curl command in console log
 
 
 .. _Elenco_logging_instance:
 
-Elenco gruppi abilitati alla chiave SSH
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Elenco logging instance
+^^^^^^^^^^^^^^^^^^^^^^^
 
-Per vedere i gruppi associati, ad una **chiave SSH**, utilizzare il comando:
-
-.. code-block:: bash
-
-    $ beehive ssh keys-auth group-get <id SSH-key>
-
-     
-Parametri Obbligatori:
+Elenco base
 
 .. code-block:: bash
 
-        id SSH-key               Id della chiave SSH
+    $ beehive bu logaas instances list
 
-Parametri Opzionali:
+
+Elenco filtrato per account
 
 .. code-block:: bash
 
-        -h, --help         show this help message and exit
-        -y                 Force delete
-        -e ENV, --env ENV  Execution environment
-        -f FORMAT          Output format
-        -k KEY, --key KEY  Secret key file to use for encryption/decryption
-        --vault VAULT      Ansible vault password to use for inventory decryption
-        --time             Print command execution time
-        --notruncate       Disable truncate of output
-        --curl             Print api requst as curl command in console log
+    $ beehive bu logaas instances list -accounts <id account>
+
+
+Esempio
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances list -accounts c31b70a7-0204-400c-b902-7d369d7b0ff6
+
 
 
 .. _Dettaglio_logging_instance:
 
-Elenco utenti abilitati alla chiave SSH
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Per avere l'elenco degli user associati, ad una **chiave SSH**, usare l'istruzione:
+Dettaglio logging instance
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    $ beehive ssh keys-auth user-get <id SSH-key>
+    $ beehive bu logaas instances get <id logging instance>
 
-     
-Parametri Obbligatori:
-
-.. code-block:: bash
-
-        id SSH-key               Id della chiave SSH
-
-Parametri Opzionali:
+Esempio
 
 .. code-block:: bash
 
-        -h, --help         show this help message and exit
-        -y                 Force delete
-        -e ENV, --env ENV  Execution environment
-        -f FORMAT          Output format
-        -k KEY, --key KEY  Secret key file to use for encryption/decryption
-        --vault VAULT      Ansible vault password to use for inventory decryption
-        --time             Print command execution time
-        --notruncate       Disable truncate of output
-        --curl             Print api requst as curl command in console log
+    $ beehive bu logaas instances get LoggingInstance-filippo-elk-02
+
+      
 
 .. _Creazione_logging_instance:
 
-Cancellare chiave SSH
-^^^^^^^^^^^^^^^^^^^^^
-
-Per eliminare dal sistema una **chiave SSH**, procedere in questo modo:
+Creazione logging instance
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    $ beehive ssh keys delete <id SSH-key>
+    $ beehive bu logaas instances add <id account> <compute instance>
 
-     
-Parametri Obbligatori:
 
-.. code-block:: bash
-
-        id SSH-key               Id della chiave SSH
-
-Parametri Opzionali:
+La <compute instance> è l’id della vm che si ottiene con il comando 
 
 .. code-block:: bash
 
-        -h, --help         show this help message and exit
-        -y                 Force delete
-        -e ENV, --env ENV  Execution environment
-        -f FORMAT          Output format
-        -k KEY, --key KEY  Secret key file to use for encryption/decryption
-        --vault VAULT      Ansible vault password to use for inventory decryption
-        --time             Print command execution time
-        --notruncate       Disable truncate of output
-        --curl             Print api requst as curl command in console log
+    $ beehive bu cpaas vms list
+
+Esempio
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances add c31b70a7-0204-400c-b902-7d369d7b0ff6 filippo-elk-02
+
+Elenco configurazioni moduli
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances configs <id account>
+
+Esempio
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances configs c31b70a7-0204-400c-b902-7d369d7b0ff6
+
+Configurazione modulo su logging instance
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances enable-module <id logging instance> <conf>
+
+Esempio
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances enable-module c31b70a7-0204-400c-b902-7d369d7b0ff6 mysql
+
+
+Eliminazione configurazione modulo su logging instance
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances disable-module <id logging instance> <conf>
+
+Esempio
+
+.. code-block:: bash
+
+    $ beehive bu logaas instances disable-module c31b70a7-0204-400c-b902-7d369d7b0ff6 mysql
+
 
 
 .. _Cancellazione_logging_instance:
 
-Elenco chiavi SSH
-^^^^^^^^^^^^^^^^^^
+Cancellazione logging instance
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 La lista delle **chiavi SSH**, presenti nel sistema, è generata a seguito del comando:
 
@@ -216,6 +198,8 @@ Parametri Opzionali:
         -field FIELD       list sort field [default=id]
         -order ORDER       list sort order [default=DESC]
         -id ID             ssh key uuid
+
+
 
 .. _Elenco_space:
 
