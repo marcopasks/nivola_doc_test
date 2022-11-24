@@ -32,9 +32,9 @@ Popolamento catalogo servizi dell’account:
 
      
 <id capability catalogo> può essere:
-•	CsiCloud-Service-Catalog
-•	EnteCloud-Service-Catalog
-•	PrivateCloud-Service-Catalog
+- CsiCloud-Service-Catalog
+- EnteCloud-Service-Catalog
+- PrivateCloud-Service-Catalog
 
 Aggiunta del core service:
 
@@ -45,9 +45,9 @@ Aggiunta del core service:
 
      
 <id capability servizi> può essere:
-•	CsiCloud-LoggingService-base
-•	EnteCloud-AllService-base
-•	PrivateCloud-AllService-base
+- CsiCloud-LoggingService-base
+- EnteCloud-AllService-base
+- PrivateCloud-AllService-base
 
 
 
@@ -72,6 +72,7 @@ Elenco base
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances list
 
 
@@ -86,6 +87,7 @@ Esempio
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances list -accounts c31b70a7-0204-400c-b902-7d369d7b0ff6
 
 
@@ -96,6 +98,7 @@ Dettaglio logging instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
+
 
     $ beehive bu logaas instances get <id logging instance>
 
@@ -114,6 +117,7 @@ Creazione logging instance
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances add <id account> <compute instance>
 
 
@@ -127,11 +131,13 @@ Esempio
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances add c31b70a7-0204-400c-b902-7d369d7b0ff6 filippo-elk-02
 
 Elenco configurazioni moduli
 
 .. code-block:: bash
+
 
     $ beehive bu logaas instances configs <id account>
 
@@ -139,17 +145,20 @@ Esempio
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances configs c31b70a7-0204-400c-b902-7d369d7b0ff6
 
 Configurazione modulo su logging instance
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances enable-module <id logging instance> <conf>
 
 Esempio
 
 .. code-block:: bash
+
 
     $ beehive bu logaas instances enable-module c31b70a7-0204-400c-b902-7d369d7b0ff6 mysql
 
@@ -158,13 +167,16 @@ Eliminazione configurazione modulo su logging instance
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances disable-module <id logging instance> <conf>
 
 Esempio
 
 .. code-block:: bash
 
+
     $ beehive bu logaas instances disable-module c31b70a7-0204-400c-b902-7d369d7b0ff6 mysql
+
 
 
 
@@ -173,31 +185,11 @@ Esempio
 Cancellazione logging instance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-La lista delle **chiavi SSH**, presenti nel sistema, è generata a seguito del comando:
-
 .. code-block:: bash
 
-    $ beehive ssh keys get -size 0
 
+    $ beehive bu logaas instances delete <id logging instance>
 
-Parametri Opzionali:
-
-.. code-block:: bash
-
-        -h, --help         show this help message and exit
-        -y                 Force delete
-        -e ENV, --env ENV  Execution environment
-        -f FORMAT          Output format
-        -k KEY, --key KEY  Secret key file to use for encryption/decryption
-        --vault VAULT      Ansible vault password to use for inventory decryption
-        --time             Print command execution time
-        --notruncate       Disable truncate of output
-        --curl             Print api requst as curl command in console log
-        -size SIZE         list page size [default=20]
-        -page PAGE         list page [default=0]
-        -field FIELD       list sort field [default=id]
-        -order ORDER       list sort order [default=DESC]
-        -id ID             ssh key uuid
 
 
 
@@ -206,36 +198,12 @@ Parametri Opzionali:
 Creazione chiave SSH associata ad un account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Per creare una **chiave SSH**, associata ad un account è necessario utilizzare l'istruzione:
-
 .. code-block:: bash
 
-    $ beehive bu cpaas keypairs add <id account> <nome chiave>
 
-     
-Parametri Obbligatori:
+    $ beehive bu logaas spaces list
 
-.. code-block:: bash
-
-        id account               Id account
-        nome chiave              Id della chiave SSH
-
-
-
-Parametri Opzionali:
-
-.. code-block:: bash
-
-        -h, --help         show this help message and exit
-        -y                 Force delete
-        -e ENV, --env ENV  Execution environment
-        -f FORMAT          Output format
-        -k KEY, --key KEY  Secret key file to use for encryption/decryption
-        --vault VAULT      Ansible vault password to use for inventory decryption
-        --time             Print command execution time
-        --notruncate       Disable truncate of output
-        --curl             Print api requst as curl command in console log
-        -type TYPE         key type
+    
 
 
 .. _Creazione_space:
@@ -243,157 +211,45 @@ Parametri Opzionali:
 Consultare log attività svolta su una VM
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Nel caso vi fosse la necessità di vedere le operazioni, condotte su un istanza, procedere con il comando:
-
 .. code-block:: bash
 
-    $ beehive ssh nodes-action get <Id Vm>
+
+    $ beehive bu logaas spaces add <id account>
 
      
-Parametri Obbligatori:
-
-.. code-block:: bash
-
-        id Vm                    Id Virtual Machine
-
-Parametri Opzionali:
-
-.. code-block:: bash
-
-        -h, --help         show this help message and exit
-        -y                 Force delete
-        -e ENV, --env ENV  Execution environment
-        -f FORMAT          Output format
-        -k KEY, --key KEY  Secret key file to use for encryption/decryption
-        --vault VAULT      Ansible vault password to use for inventory decryption
-        --time             Print command execution time
-        --notruncate       Disable truncate of output
-        --curl             Print api requst as curl command in console log
-        -size SIZE         list page size [default=20]
-        -page PAGE         list page [default=0]
-        -field FIELD       list sort field [default=id]
-        -order ORDER       list sort order [default=DESC]
-        -date DATE         date to. Syntax YYYY.MM.DD
-
 
 
 .. _Dettaglio space:
 
-Importare chiave SSH sul portale
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruzione:
+Dettaglio space
+^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    $ beehive bu service-insts import-from-resource  <Nome account> <Tipo plugin> <Container> <Resource>
+
+    $ beehive bu logaas spaces get <id space>
 
      
-Parametri Obbligatori:
-
-.. code-block:: bash
-
-        Nome account             Nome dell'Account 
-        Tipo plugin              ?
-        Container                ?
-        Resource                 ?
-
-
-Parametri Opzionali:
-
-.. code-block:: bash
-
-        -h, --help             show this help message and exit
-        -y                     Force delete
-        -e ENV, --env ENV      Execution environment
-        -f FORMAT              Output format
-        -k KEY, --key KEY      Secret key file to use for encryption/decryption
-        --vault VAULT          Ansible vault password to use for inventory decryption
-        --time                 Print command execution time
-        --notruncate           Disable truncate of output
-        --curl                 Print api requst as curl command in console log
-       -desc DESC [DESC ...]   service instance description                            
-       -service_definition_id  SERVICE_DEFINITION_ID service definition id
-       -parent PARENT          parent service instance id
-
 
 
 .. _Cancellazione:
 
-Importare chiave SSH sul portale
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruzione:
+Cancellazione
+^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    $ beehive bu service-insts import-from-resource  <Nome account> <Tipo plugin> <Container> <Resource>
 
-     
-Parametri Obbligatori:
-
-.. code-block:: bash
-
-        Nome account             Nome dell'Account 
-        Tipo plugin              ?
-        Container                ?
-        Resource                 ?
-
-
-Parametri Opzionali:
-
-.. code-block:: bash
-
-        -h, --help             show this help message and exit
-        -y                     Force delete
-        -e ENV, --env ENV      Execution environment
-        -f FORMAT              Output format
-        -k KEY, --key KEY      Secret key file to use for encryption/decryption
-        --vault VAULT          Ansible vault password to use for inventory decryption
-        --time                 Print command execution time
-        --notruncate           Disable truncate of output
-        --curl                 Print api requst as curl command in console log
-       -desc DESC [DESC ...]   service instance description                            
-       -service_definition_id  SERVICE_DEFINITION_ID service definition id
-       -parent PARENT          parent service instance id
+    $ beehive bu logaas spaces delete <id space>
 
 
 
 .. _Sincronizzazione_account_space:
 
-Importare chiave SSH sul portale
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Dovendo esportare la **chiave SSH** sul portale, sfruttare l'istruzione:
+Sincronizzazione utenti account con space
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
-    $ beehive bu service-insts import-from-resource  <Nome account> <Tipo plugin> <Container> <Resource>
 
-     
-Parametri Obbligatori:
-
-.. code-block:: bash
-
-        Nome account             Nome dell'Account 
-        Tipo plugin              ?
-        Container                ?
-        Resource                 ?
-
-
-Parametri Opzionali:
-
-.. code-block:: bash
-
-        -h, --help             show this help message and exit
-        -y                     Force delete
-        -e ENV, --env ENV      Execution environment
-        -f FORMAT              Output format
-        -k KEY, --key KEY      Secret key file to use for encryption/decryption
-        --vault VAULT          Ansible vault password to use for inventory decryption
-        --time                 Print command execution time
-        --notruncate           Disable truncate of output
-        --curl                 Print api requst as curl command in console log
-       -desc DESC [DESC ...]   service instance description                            
-       -service_definition_id  SERVICE_DEFINITION_ID service definition id
-       -parent PARENT          parent service instance id
+    $ beehive bu logaas spaces sync-users <id space>>
