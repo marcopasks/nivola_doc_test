@@ -32,9 +32,10 @@ Popolamento catalogo servizi dell’account:
 
      
 <id capability catalogo> può essere:
-- CsiCloud-Service-Catalog
-- EnteCloud-Service-Catalog
-- PrivateCloud-Service-Catalog
+
+-  CsiCloud-Service-Catalog
+-  EnteCloud-Service-Catalog
+-  PrivateCloud-Service-Catalog
 
 Aggiunta del core service:
 
@@ -45,9 +46,10 @@ Aggiunta del core service:
 
      
 <id capability servizi> può essere:
-- CsiCloud-LoggingService-base
-- EnteCloud-AllService-base
-- PrivateCloud-AllService-base
+
+-  CsiCloud-LoggingService-base
+-  EnteCloud-AllService-base
+-  PrivateCloud-AllService-base
 
 
 
