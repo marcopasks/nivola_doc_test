@@ -18,7 +18,7 @@ Region e Availability Zones:
 
 
 **Available Regions**
-Le regioni a disposizione sono determinate dall'account in uso.
+Le Region a disposizione sono determinate dall'account in uso.
 La tabella seguente elenca le Region fornite da un account. Non è possibile accedere a Region esterne all'account in uso:
 
 .. image:: img/Code_Name.jpg

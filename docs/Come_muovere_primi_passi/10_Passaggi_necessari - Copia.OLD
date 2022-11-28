@@ -13,7 +13,6 @@ Per inizare a utilizzare la piattaforma **Nivola**
     4. :ref:`Verificare i VPC`
     5. :ref:`Verificare Security Group`
     6. :ref:`Creare i Servizi`
-    7. :ref:`Strumenti di ausilio alla migrazione`
 
 
 .. image:: img/Primi_Passi.png
@@ -114,24 +113,4 @@ dei servizi tramite l'apposito menù del Service Portal. Il processo di creazion
 sempre essere interrotto prima della conferma finale ed è possibile
 accedere direttamente alla presente guida per maggiori informazioni.
 
-
-
-.. _Strumenti di ausilio alla migrazione:
-
-**Strumenti di ausilio alla migrazione**
-========================================
-Dopo aver concluso i passaggi precedenti sarà possibile iniziare la creazione
-dei servizi tramite l'apposito menù del Service Portal. Il processo di creazione
-è sempre guidato attraverso un apposito wizard di creazione. Il processo può
-sempre essere interrotto prima della conferma finale ed è possibile
-accedere direttamente alla presente guida per maggiori informazioni.
-
-**Migrazione VM**
-
-dfdsfdsfds
-
-
-**Migrazione DBAAS**
-
-dsfdsfds
 
