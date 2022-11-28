@@ -126,7 +126,9 @@ dei servizi tramite l'apposito menù del Service Portal. Il processo di creazion
 sempre essere interrotto prima della conferma finale ed è possibile
 accedere direttamente alla presente guida per maggiori informazioni.
 
+
 **Migrazione VM**
+=================
 
 Import
 ^^^^^^
@@ -154,7 +156,7 @@ Creazione del servizo utente nell’account:
 .. code-block:: bash
 
 
-beehive bu service-insts import-from-resource tst-wf1-emood2-bck emood2-preprod ComputeInstance ComputeService e19f0137-bf0d-4e0a-8be3-c0f9e35fbc54 -service_definition_id a9d1b6c0-bf72-4d6a-b780-feb5f3f6f7f5
+    $ beehive bu service-insts import-from-resource tst-wf1-emood2-bck emood2-preprod ComputeInstance ComputeService e19f0137-bf0d-4e0a-8be3-c0f9e35fbc54 -service_definition_id a9d1b6c0-bf72-4d6a-b780-feb5f3f6f7f5
 
 
 **Lista sistemi operativi supportati per Import da server vsphere per rehosting:**
@@ -164,8 +166,8 @@ windows2012, windows2016, oracle12-test, Centos7.2-Oracle
 
 
 
-
 **Migrazione DBAAS**
+====================
 
 Import
 ^^^^^^
