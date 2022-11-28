@@ -46,6 +46,10 @@ ad interagire con la piattaforma, attraverso il portale.
    30.0_Strumenti.rst
       30.1_Monitoraggio.rst
       30.5_Monitoraggio_applicativo_APM.rst
+   31.0_Richiedere_vulnerability_assessment.rst
+   32.0_Attivare_servizio_broker_applicativo_Desktop_aaS.rst
+   33.0_Attivare_cifratura_dati.rst
+   34.0_Procedure_ausilio_migrazione.rst
    40.0_Consultare_costi_e_consumi.rst
    42.0_Associazione_Listino_Account.rst
    43.0_WBS.rst

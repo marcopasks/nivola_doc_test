@@ -1,31 +1,6 @@
-.. _Cronologia:
+.. _attivare la cifratura dei dati:
 
-**Cronologia Attività**
-*************************
+**Attivare la cifratura dei dati**
+**********************************
 
-E' possibile vedere l'elenco delle operazioni compiute sull'account
-negli ultimi 30 giorni, utilizzando la funzione *Attività*.
-Per attivarla sfruttare il pulsante sulla sinistra dello schermo:
-
-.. image:: img/Strumenti_attivita.png
-
-La piattaforma esporrà, al centro dello schermo, l'elenco delle attività svolte
-sull'account
-
-.. image:: img/Strumenti_elenco_attivita.png
-
-Per ogni attività dell'elenco è riportata:
-
-#. Data e Ora.
-#. Utente che ha svolto l'operazione.
-#. Oggetto cioè l'argomento della funzione (Database, Compute, Chiave, etc..)
-#. Descrizione
-#. Parametri usati
-#. IP da quale macchina è stata svolta l'attività.
-#. User-role il ruolo ricoperto dall'utente.
-
-Ciascuna delle informazioni può essere oggetto di ricerca all'interno della lista.
-
-
-
-
+work in progress

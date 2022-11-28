@@ -1,0 +1,6 @@
+.. _Attivare servizio di Broker Applicativo e Desktop As a Service:
+
+**Attivare servizio di Broker Apllicativo e Desktop As a Service**
+******************************************************************
+
+work in progress
