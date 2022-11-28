@@ -12,8 +12,8 @@ accedere direttamente alla presente guida per maggiori informazioni.
 **Migrazione VM**
 =================
 
-Import
-^^^^^^
+**Import**
+^^^^^^^^^^
 
 **Import da server openstack**
 
@@ -51,8 +51,8 @@ windows2012, windows2016, oracle12-test, Centos7.2-Oracle
 **Migrazione DBAAS**
 ====================
 
-Import
-^^^^^^
+**Import**
+^^^^^^^^^^
 
 **Import da server openstack**
 
