@@ -13,7 +13,6 @@ Per inizare a utilizzare la piattaforma **Nivola**
     4. :ref:`Verificare i VPC`
     5. :ref:`Verificare Security Group`
     6. :ref:`Creare i Servizi`
-    7. :ref:`Strumenti di ausilio alla migrazione`
 
 
 .. image:: img/Primi_Passi.png
@@ -114,102 +113,4 @@ dei servizi tramite l'apposito menù del Service Portal. Il processo di creazion
 sempre essere interrotto prima della conferma finale ed è possibile
 accedere direttamente alla presente guida per maggiori informazioni.
 
-
-
-.. _Strumenti di ausilio alla migrazione:
-
-**Strumenti di ausilio alla migrazione**
-========================================
-Dopo aver concluso i passaggi precedenti sarà possibile iniziare la creazione
-dei servizi tramite l'apposito menù del Service Portal. Il processo di creazione
-è sempre guidato attraverso un apposito wizard di creazione. Il processo può
-sempre essere interrotto prima della conferma finale ed è possibile
-accedere direttamente alla presente guida per maggiori informazioni.
-
-
-**Migrazione VM**
-=================
-
-Import
-^^^^^^
-
-**Import da server openstack**
-
-Creazione provider instance:
-
-.. code-block:: bash
-
-
-    $ beehive res-provider instance-import tst-wf1-emood2-bck 720825e5-5472-44d5-970f-fd7702527386 passw0rd 46ea8662-94a1-496a-9a64-73342d4e2c06 primachiave-key-emood2-preprod
-
-
-Registrazione provider instance nel modulo ssh per abilitare la connessione utente via ssh:
-
-.. code-block:: bash
-
-
-    $ beehive res-provider instance-manage e19f0137-bf0d-4e0a-8be3-c0f9e35fbc54 primachiave-key-emood2-preprod
-
-
-Creazione del servizo utente nell’account:
-
-.. code-block:: bash
-
-
-    $ beehive bu service-insts import-from-resource tst-wf1-emood2-bck emood2-preprod ComputeInstance ComputeService e19f0137-bf0d-4e0a-8be3-c0f9e35fbc54 -service_definition_id a9d1b6c0-bf72-4d6a-b780-feb5f3f6f7f5
-
-
-**Lista sistemi operativi supportati per Import da server vsphere per rehosting:**
-
-RedhatLinux7, GisMasterWin2016, Oracle11EE, NuvolaWebWin2016, Oracle19EE, Oracle12EE, Oracle12, Oracle11, mssql2017, windows2019, 
-windows2012, windows2016, oracle12-test, Centos7.2-Oracle
-
-
-
-**Migrazione DBAAS**
-====================
-
-Import
-^^^^^^
-
-**Import da server openstack**
-
-Creazione provider instance:
-
-.. code-block:: bash
-
-
-    $ beehive res-provider instance-import dbs-emood2-tst-bck-001m-server01 0ef13cc2-1d47-45ee-ae9d-2d06ccb7839a passw0rd 46ea8662-94a1-496a-9a64-73342d4e2c06 opstkcsi-podto2
-
-
-Registrazione provider instance nel modulo ssh per abilitare la connessione utente via ssh:
-
-.. code-block:: bash
-
-
-    $ beehive res-provider instance-manage 864f8b9d-522a-4328-8e4b-564873418018 opstkcsi-podto2
-
-
-Disabilitazione calcolo quote e metriche della provider instance:
-
-.. code-block:: bash
-
-
-    $ beehive res entities disable-quotas 864f8b9d-522a-4328-8e4b-564873418018
-
-
-Creazione provider sql stack v2:
-
-.. code-block:: bash
-
-
-    $ beehive res-provider stack-sql-import dbs-emood2-tst-bck-001m dbs-emood2-tst-bck-001m-server01 mysql 5.7.23 '<pwd dbms>'
-
-
-Creazione del servizio utente nell’account:
-
-.. code-block:: bash
-
-
-    $ beehive bu service-insts import-from-resource dbs-emood2-tst-bck-001m emood2-preprod DatabaseInstance DatabaseService 04f4e790-9529-4e9c-899a-4036113744b5
 
