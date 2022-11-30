@@ -1,0 +1,13 @@
+.. _TS PLUS:
+
+**TS PLUS**
+===========
+
+TS Plus è un servizio che è possibile richiedere attraverso una remedy, al Nivola Support Center.
+
+L'attività che il Supporto di Nivola, svolgerà, per soddisfare la richiesta prevede questi passaggi:
+
+1.	Creazione Server dedicato.
+2.	Installazione TS Plus.
+3.	Attivazione Chiavi.
+4.	Avvisare Richiedente
