@@ -59,8 +59,7 @@ Comando per aggiungere altre region
 
     $ beehive res-provider region-add -h
     add region
-
-    file                    data file
+   file                    data file
 
 
 Il comando di creazione legge la configurazione da file.
