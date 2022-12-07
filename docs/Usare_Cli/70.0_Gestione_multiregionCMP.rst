@@ -100,7 +100,7 @@ configs:
 
             zone: site02.nivolapiemonte.it
 
-        -   container: ResourceProvider01
+         -  container: ResourceProvider01
 
             region: RegionPiemonte01
 
