@@ -59,7 +59,7 @@ Comando per aggiungere altre region
 
     $ beehive res-provider region-add -h
 add region
-file                     data file
+file                data file
 
 
 Il comando di creazione legge la configurazione da file.
@@ -68,26 +68,26 @@ configs:
   resource:
      provider:
         regions:
-          - container: ResourceProvider01
+         -  container: ResourceProvider01
             name: RegionPiemonte01
             desc: RegionPiemonte01
             geo_area: Piemonte
             coords: "100,100"
         sites:
-          - container: ResourceProvider01
+         -  container: ResourceProvider01
             region: RegionPiemonte01
             name: SiteTorino01
             ...
             zone: site01.nivolapiemonte.it
-          - container: ResourceProvider01
+         -  container: ResourceProvider01
             region: RegionPiemonte01
             name: SiteTorino02
             ...
             zone: site02.nivolapiemonte.it
-          - container: ResourceProvider01
+        -   container: ResourceProvider01
             region: RegionPiemonte01
             name: SiteVercelli01
-            ...
+             ...
             zone: site03.nivolapiemonte.it
 
 Viene creata la region e poi i site al suoi interno.
