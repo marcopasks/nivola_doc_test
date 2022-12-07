@@ -1,7 +1,7 @@
-.. _Gestione_log:
+.. _Gestione_multiregionCMP:
 
-Gestione logging
-===================
+Gestione Multi-Region
+=====================
 Le funzioni previste sono le seguenti: 
 
 -  :ref:`CRUD_region`
