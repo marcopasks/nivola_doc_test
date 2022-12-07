@@ -64,6 +64,7 @@ Comando per aggiungere altre region
 
 Il comando di creazione legge la configurazione da file.
 Il data file per RegionPiemonte01 è beehive-mgmt/post-install/prod/resource/provider/site.yml
+
 configs:
   resource:
      provider:
