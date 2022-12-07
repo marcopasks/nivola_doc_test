@@ -58,8 +58,9 @@ Comando per aggiungere altre region
 
 
     $ beehive res-provider region-add -h
-add region
-file                                                                                data file
+    add region
+
+    file                    data file
 
 
 Il comando di creazione legge la configurazione da file.
@@ -105,8 +106,8 @@ configs:
 
             name: SiteVercelli01
 
-             ...
-             
+            ...
+
             zone: site03.nivolapiemonte.it
 
 Viene creata la region e poi i site al suoi interno.
