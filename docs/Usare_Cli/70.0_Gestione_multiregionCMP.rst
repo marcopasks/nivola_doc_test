@@ -37,12 +37,12 @@ Comando per verificare le region presenti (al momento è presente un'unica regio
 
 
     $ beehive res-provider region-get -e podto1
-Page: 0
-Count: 1
-Total: 1
-Order: id DESC
-  id  uuid                                  name              parent    state    creation              modified
- 705  afe8539e-bb2a-4b2c-852e-6c58fb2a3238  RegionPiemonte01  -         ACTIVE   2018-06-15T19:59:34Z  2018-06-15T19:59:35Z
+    Page: 0
+    Count: 1
+    Total: 1
+    Order: id DESC
+      id  uuid                                  name              parent    state    creation              modified
+    705  afe8539e-bb2a-4b2c-852e-6c58fb2a3238  RegionPiemonte01  -         ACTIVE   2018-06-15T19:59:34Z  2018-06-15T19:59:35Z
 
 
 
@@ -59,8 +59,7 @@ Comando per aggiungere altre region
 
     $ beehive res-provider region-add -h
 add region
-
-  file               data file
+file                     data file
 
 
 Il comando di creazione legge la configurazione da file.
@@ -91,4 +90,4 @@ configs:
             ...
             zone: site03.nivolapiemonte.it
 
-Viene creata la region e poi i site al suoi interno
+Viene creata la region e poi i site al suoi interno.
