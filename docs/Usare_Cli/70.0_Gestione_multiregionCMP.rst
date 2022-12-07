@@ -20,7 +20,8 @@ Comando che permette di fare il CRUD di una region:
 .. code-block:: bash
 
 
-    $ beehive res-provider region-region-add     region-del     region-get     region-update
+    $ beehive res-provider region-
+    region-add     region-del     region-get     region-update
 
 
 
