@@ -3,6 +3,104 @@
 **Release Notes**
 ===================================
 
+.. _release-3.0.5:
+
+Service Portal 3.0.5 (2022-11-06)
+---------------------------------
+
+**Fixed**    
+    
+*   `[NSP-1864] <https://jira.csi.it/browse/NSP-1864>`_ - Bug di regressione - Utenti non riescono ad aprire ticket
+
+
+
+
+.. _release-3.0.4:
+
+Service Portal 3.0.4 (2022-11-05)
+---------------------------------
+
+**Changed**
+
+*   `[NSP-1692] <https://jira.csi.it/browse/NSP-1692>`_ - Modifica Anagrafica Account - Gestione WBS
+
+*   `[NSP-1850] <https://jira.csi.it/browse/NSP-1850>`_ - Algoritmo assegnazione nomi a DBAAS SQLServer
+
+*   `[NSP-1769] <https://jira.csi.it/browse/NSP-1769>`_ - Adeguamento backend per miglioramento performance "Servizi Attivi"
+
+*   `[NSP-1783] <https://jira.csi.it/browse/NSP-1783>`_ - Backoffice - Visualizza Dettaglio Account : Visualizzare ripartizione WBS
+
+*   `[NSP-1789] <https://jira.csi.it/browse/NSP-1789>`_ - Offuscare/Inibire funzionalità snapshot sul Service Portal
+
+*   `[NSP-1812] <https://jira.csi.it/browse/NSP-1812>`_ - Modifica utente: il campo cmp username diventa null@domnt.csi.it
+
+
+**Fixed**    
+    
+*   `[NSP-1818] <https://jira.csi.it/browse/NSP-1818>`_ - Problemi su Stampa Consumi per Wbs
+
+*   `[NSP-1846] <https://jira.csi.it/browse/NSP-1846>`_ - Inserimento associazione account - Listino : data inizio associazione può essere nel passato!
+
+*   `[NSP-1759] <https://jira.csi.it/browse/NSP-1759>`_ - segnalazione bug su Elenco Division - Account
+
+*   `[NSP-1849] <https://jira.csi.it/browse/NSP-1849>`_ - Messaggio di configurazione ticket da correggere
+
+
+
+
+.. _release-3.0.3:
+
+Service Portal 3.0.3 (2022-11-24)
+---------------------------------
+
+**Changed**
+
+*   `[NSP-1806] <https://jira.csi.it/browse/NSP-1806>`_ - Creazione report CSV utenti con ruolo CMP
+
+*   `[NSP-1767] <https://jira.csi.it/browse/NSP-1767>`_ - Censimento (automatico) account sconosciuti al service portal
+
+
+
+
+.. _release-3.0.2:
+
+Service Portal 3.0.2 (2022-11-08)
+---------------------------------
+
+**Changed**
+
+*   `[NSP-1760] <https://jira.csi.it/browse/NSP-1760>`_ - Nome della risorsa VM : verifica che sia composto solo da caratteri alfanumerici e '-'
+
+
+**Fixed**    
+    
+*   `[NSP-1751] <https://jira.csi.it/browse/NSP-1751>`_ - Verificare errore al caricamento del front.end ($sce)
+
+*   `[NSP-1754] <https://jira.csi.it/browse/NSP-1754>`_ - Logout con SPID non termina la sessione SPID
+
+*   `[NSP-1756] <https://jira.csi.it/browse/NSP-1756>`_ - REMEDY: errore mancata configurazione account
+
+*   `[NSP-1758] <https://jira.csi.it/browse/NSP-1758>`_ - Tabella Elenco VM - frecce di navigazione non abilitate
+
+*   `[NSP-1755] <https://jira.csi.it/browse/NSP-1755>`_ - verifica funzionalità Ricalcolo Costi Account
+
+
+
+
+.. _release-3.0.1:
+
+Service Portal 3.0.1 (2022-11-06)
+---------------------------------
+
+**Fixed**    
+    
+*   `[NSP-1778] <https://jira.csi.it/browse/NSP-1778>`_ - Lista VM vuota (produzione)
+
+*   `[NSP-1746] <https://jira.csi.it/browse/NSP-1746>`_ - da lista VM il tasto "pannello di controllo VM" non funzionante (PRODUZIONE)
+
+
+
+
 .. _release-3.0.0:
 
 Service Portal 3.0.0 (2022-11-04)
