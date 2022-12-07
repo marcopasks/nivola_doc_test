@@ -5,7 +5,7 @@
 
 .. _release-3.0.5:
 
-Service Portal 3.0.5 (2022-11-06)
+Service Portal 3.0.5 (2022-12-06)
 ---------------------------------
 
 **Fixed**    
@@ -17,7 +17,7 @@ Service Portal 3.0.5 (2022-11-06)
 
 .. _release-3.0.4:
 
-Service Portal 3.0.4 (2022-11-05)
+Service Portal 3.0.4 (2022-12-05)
 ---------------------------------
 
 **Changed**
