@@ -25,12 +25,12 @@ Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito 
 .. image:: img/42.0_Account_selezionato.png
  
 
-2. Usare il bottone **Visualizza Dettaglio**:
+2. Usare il bottone **Modifica Elemento**:
 
-.. image:: img/Pulsante_visualizza_dettagli.png
+.. image:: img/Pulsante_modifica.png
  
 
-3. Rimanere nella voce **DETTAGLIO**
+3. Spostarsi nel tag **WBS**
  
 
 4. Premere il tasto "+" sotto **WBS**:
