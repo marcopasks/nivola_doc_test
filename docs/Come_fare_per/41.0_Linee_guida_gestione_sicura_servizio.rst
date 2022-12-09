@@ -1,8 +1,7 @@
 .. _Linee_guida_gestione_sicura_servizio:
-   _Linee_guida_gestione_sicura_servizio
 
-Linee guida per una gestione sicura del servizio - QU.SE-4
-==========================================================
+**Linee guida per una gestione sicura del servizio - QU.SE-4**
+**************************************************************
 
 -  :ref:`Istruzioni_configurazione_sicura`
 -  :ref:`Informazione_vulnerabilita_aggiornamenti`
