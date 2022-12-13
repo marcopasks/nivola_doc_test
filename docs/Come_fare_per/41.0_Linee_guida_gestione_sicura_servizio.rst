@@ -24,8 +24,8 @@
 
 .. _Informazione_vulnerabilita_aggiornamenti:
 
-Informazione su vulnerabilità note e meccanismi di aggiornamento
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Informazione su vulnerabilità note e meccanismi di aggiornamento**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -33,8 +33,8 @@ Informazione su vulnerabilità note e meccanismi di aggiornamento
 
 .. _Gestione_errori_e_logging:
 
-Gestione degli errori e meccanismi di logging
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Gestione degli errori e meccanismi di logging**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -42,8 +42,8 @@ Gestione degli errori e meccanismi di logging
 
 .. _Meccanismi_autenticazione:
 
-Meccanismi di autenticazione
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Meccanismi di autenticazione**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -51,9 +51,8 @@ Meccanismi di autenticazione
 
 .. _Ruoli_diritti:
 
-Ruoli e diritti, comprese le combinazioni che risultano in un rischio elevato
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+**Ruoli e diritti, comprese le combinazioni che risultano in un rischio elevato**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -61,8 +60,8 @@ Ruoli e diritti, comprese le combinazioni che risultano in un rischio elevato
 
 .. _Servizi_amministrazione_servizio_utenti_privilegiati:
 
-Servizi e funzioni per l'amministrazione del servizio da parte di utenti privilegiati
-^^^^^^^^^^^^
+**Servizi e funzioni per l'amministrazione del servizio da parte di utenti privilegiati**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -71,7 +70,7 @@ Servizi e funzioni per l'amministrazione del servizio da parte di utenti privile
 
 .. _Linee_guida_IP_GR:
 
-Le linee guida vengono fornite e mantenute nelle modalità e tempistiche di cui alla misura IP.GR-
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Le linee guida vengono fornite e mantenute nelle modalità e tempistiche di cui alla misura IP.GR-**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     
