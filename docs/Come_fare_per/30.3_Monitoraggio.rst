@@ -10,7 +10,7 @@ la funzione **Nuovo Ticket** sotto **Assistenza**.
 
 Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti e livelli di urgenza.
 
-Selezionare **NUOVI SERVIZI E INFORMAZIONI** , quindi selezionare **NUOVI SERVIZI**, quindi selezionare **Monitoraggio?*
+Selezionare **NUOVI SERVIZI E INFORMAZIONI** , quindi selezionare **NUOVI SERVIZI**, quindi selezionare **Monitoraggio?**
 
 Al termine del percorso di scelte guidato si arriva al form attraverso il quale aprire ed inviare il ticket.
 
