@@ -1,7 +1,7 @@
 .. _3_Cosa_sono_le_Region:
 
 **Cosa sono le Region?**
-***********************
+************************
 
 **Modello Multi-Region**
 =========================
@@ -25,6 +25,8 @@ La tabella seguente elenca le Region fornite da un account. Non è possibile acc
 
 
 **Regioni and Endpoint**
+========================
+
 Quando si lavora con un'istanza utilizzando l'interfaccia della riga di comando o tramite API, occorre specificare il relativo Regional Endpoint.
 L'Endpoint del Piemonte è https://api.nivolapiemonte.it/
 

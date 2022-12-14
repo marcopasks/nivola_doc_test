@@ -4,49 +4,33 @@
 ************************
 
 E' possibile attivare il servizio di monitoraggio sull'infrastruttura istanziata utilizzando
-la funzione **Richiesta supporto**.
+la funzione **Nuovo Ticket** sotto **Assistenza**.
 
-.. image:: img/Richiesta_Assistenza.png
+.. image:: img/100.35_Nuovo_TicketSX.png
 
-Dall'elenco richieste
+Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti e livelli di urgenza.
 
-.. image:: img/Elenco_Richieste.png
+Selezionare **NUOVI SERVIZI E INFORMAZIONI** , quindi selezionare **NUOVI SERVIZI**, quindi selezionare **Monitoraggio?*
 
-Premere il pulsante **"+"**
+Al termine del percorso di scelte guidato si arriva al form attraverso il quale aprire ed inviare il ticket.
 
-.. image:: img/Add_VM.png
+La voce in alto "**Riepilogo delle scelte effettuate**" riporta il riassunto delle scelte effettuate in precedenza:
+
+.. image:: img/100.35_Form_Nuovo_TicketDX.png
 
 Compilare il pannello, specificando: **Account**, **VM** e **Cartella** nel messaggio
 e premere invia.
 
-.. image:: img/Richiesta_email.png
+.. image:: img/100.35_FormOK_Nuovo_TicketDX.png
 
-Sulla base delle indicazioni ricevute, il supporto,
-attiverà il **Monitoraggio** e avviserà il richiedente attraverso l'e-mail indicata.
-Il servizio sarà fruibile dal portale, attraverso la label **Monitoraggio**
-oppure utilizzando l'url: https://syswatch.nivolapiemonte.it/?orgId=1
+Selezionare il tasto in basso a destra "**INVIA**. Apparirà il seguente messaggio di conferma:
 
-.. image:: img/Monitoraggio_Innesco.png
+.. image:: img/richiesta_assistenza_inviata_correttamente.png
 
-A seguito di un click sul pulsante, il sistema, metterà a disposizione la **Dashboard**
-per la governance delle componenti, sulle quali è stato richiesto il **monitoraggio**.
+E si verrà reindirizzati nel menù "**Tickets inviati**" in cui sarà presente il ticket appena creato e inviato:
 
-.. image:: img/Monitoraggio_Dashboard.png
+.. image:: img/100.35_ListaTicket_da_Nuovo_TicketDX.png
 
-A titolo di esempio è possibile raggiungere, la risorsa monitorata, cliccando su **Dashboard**
-e scegliendo **Manage** tra le voci esposte dal sistema
+In automatico si riceverà sulla propria casella di posta elettronica una mail a conferma dell'avvenuta apertura del ticket:
 
-.. image:: img/Monitoraggio_Manage.png
-
-Optare per **Resource** tra le varie opzioni
-
-.. image:: img/Monitoraggio_Resource.png
-
-Specificare il Sito e l'host monitorato per vedere i dettagli del controllo in corso.
-
-.. image:: img/Monitoraggio_VM.png
-
-
-
-
-
+.. image:: img/100.35_Mail_da_Nuovo_Ticket.png
