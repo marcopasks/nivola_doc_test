@@ -6,13 +6,18 @@
 **TS PLUS**
 ===========
 
-TS Plus è un servizio che è possibile richiedere attraverso una remedy, al Nivola Support Center.
+TS Plus è un servizio che è possibile richiedere attraverso una remedy al Nivola Support Center.
 
-L'attività che il Supporto di Nivola, svolgerà, per soddisfare la richiesta prevede questi passaggi:
+Il servizio "PaaS Remotizzazione - Unmanaged"  prevede la messa a disposizione di piattaforme sw e/o ambienti remoti (Solution Stack) utilizzati per ospitare 
+ed erogare servizi applicativi basati su architetture a due livelli (Client/server). Le PaaS di virtualizzazione prevedono architetture scalabili, il cui 
+dimensionamento dipende dal numero di utenti contemporanei. L'architettura del servizio, al crescere degli utenti, può implementare servizi clustering e di 
+load balancing, al fine di garantire un ottimale erogazione dei servizi applicativi ospitati.
+
+Per maggiori informazioni si rimanda all'allegato tecnico di Nivola, mentre per attivare il servizio è necessario inoltrare la richiesta al Supporto attraverso 
+i canali previsti. Il Nivola Support Center prenderà in carico la richiesta e provvederà a soddisfare questi passaggi:
 
 1.	Creazione Server dedicato.
 2.	Installazione TS Plus.
 3.	Attivazione Chiavi.
 4.	Avvisare Richiedente
 
-work in progress
