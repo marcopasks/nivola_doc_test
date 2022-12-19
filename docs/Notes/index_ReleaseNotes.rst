@@ -3,6 +3,43 @@
 **Release Notes**
 ===================================
 
+.. _release-3.1.0:
+
+Service Portal 3.1.0 (2022-12-20)
+---------------------------------
+
+**Fixed**    
+    
+*   `[NSP-1871] <https://jira.csi.it/browse/NSP-1871>`_ - Errore "Servizio outer API non disponibile" tentando di aprire una segnalazione su Troubleticketing
+
+*   `[NSP-1886] <https://jira.csi.it/browse/NSP-1886>`_ - Errore in prospetto costi stimati
+
+**Changed**
+
+*   `[NSP-1813] <https://jira.csi.it/browse/NSP-1813>`_ - Network Vulnerability Assesment
+
+*   `[NSP-1861] <https://jira.csi.it/browse/NSP-1861>`_ - Modifica Account (backoffic) : Reintegrare data inizio valorizzazione consumi
+
+*   `[NSP-1828] <https://jira.csi.it/browse/NSP-1828>`_ - Richiesta per Sistemi di cifratura (DBAAS)
+
+
+
+
+
+.. _release-3.0.6:
+
+Service Portal 3.0.6 (2022-12-10)
+---------------------------------
+
+**Fixed**    
+    
+*   `[NSP-1867] <https://jira.csi.it/browse/NSP-1867>`_ - Problema di Failover su cluster Galera MariaDB
+
+*   `[NSP-1869] <https://jira.csi.it/browse/NSP-1869>`_ - problema paginazione lista VM
+
+
+
+
 .. _release-3.0.5:
 
 Service Portal 3.0.5 (2022-12-06)
@@ -11,6 +48,14 @@ Service Portal 3.0.5 (2022-12-06)
 **Fixed**    
     
 *   `[NSP-1864] <https://jira.csi.it/browse/NSP-1864>`_ - Bug di regressione - Utenti non riescono ad aprire ticket
+
+**Changed**
+
+*   `[NSP-1374] <https://jira.csi.it/browse/NSP-1374>`_ - Sospendere rendicontazione account
+
+*   `[NSP-1837] <https://jira.csi.it/browse/NSP-1837>`_ - Revisione report CSV costi/consumi (ordine colonne come Listino)
+
+*   `[NSP-1838] <https://jira.csi.it/browse/NSP-1838>`_ - Report (CSV) Accounts con Referente e dati anagrafici
 
 
 
@@ -58,6 +103,8 @@ Service Portal 3.0.3 (2022-11-24)
 *   `[NSP-1806] <https://jira.csi.it/browse/NSP-1806>`_ - Creazione report CSV utenti con ruolo CMP
 
 *   `[NSP-1767] <https://jira.csi.it/browse/NSP-1767>`_ - Censimento (automatico) account sconosciuti al service portal
+
+*   `[NSP-1695] <https://jira.csi.it/browse/NSP-1695>`_ - Modifica Anagrafica Account - Gestione Person_id (integrazione sistema Ticketing)
 
 
 
