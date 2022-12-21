@@ -27,6 +27,8 @@ windows2012, windows2016, oracle12-test, Centos7.2-Oracle
 
 
 
+
+
 **Migrazione DBAAS**
 ====================
 
