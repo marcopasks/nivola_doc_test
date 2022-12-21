@@ -11,5 +11,5 @@ accedere direttamente alla presente guida per maggiori informazioni.
 .. toctree::
    :maxdepth: 2
 
-   ../Usare_Cli/34.1_Migrazione_VM.rst
-   34.5_Migrazione_DBAAS.rst
+   ../Usare_Cli/75.1_Migrazione_VM.rst
+   ../Usare_Cli/75.5_Migrazione_DBAAS.rst
