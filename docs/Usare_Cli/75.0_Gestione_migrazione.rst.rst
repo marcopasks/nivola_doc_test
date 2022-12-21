@@ -8,11 +8,6 @@ dei servizi tramite l'apposito menù del Service Portal. Il processo di creazion
 sempre essere interrotto prima della conferma finale ed è possibile
 accedere direttamente alla presente guida per maggiori informazioni.
 
-
-**La piattaforma offre alcune funzionalità automatiche di import delle risorse VM e Dbaas**
-
-Talio funzionalità sono disponibili da linea di comando:
-
 .. toctree::
    :maxdepth: 2
 
