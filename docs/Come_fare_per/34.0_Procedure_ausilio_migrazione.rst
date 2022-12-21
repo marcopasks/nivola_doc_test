@@ -9,26 +9,31 @@ sempre essere interrotto prima della conferma finale ed è possibile
 accedere direttamente alla presente guida per maggiori informazioni.
 
 
-.. toctree::
-   :maxdepth: 2
-
 **Migrazione VM**
 =================
 
 La piattaforma offre alcune funzionalità automatiche di import delle risorse VM. Le funzionalità sono disponibili da linea di comando
 
+.. toctree::
+   :maxdepth: 2
+
    ../Usare_Cli/75.1_Migrazione_VM.rst
+   
+
+**Lista sistemi operativi supportati per Import da server vsphere per rehosting:**
+
+RedhatLinux7, GisMasterWin2016, Oracle11EE, NuvolaWebWin2016, Oracle19EE, Oracle12EE, Oracle12, Oracle11, mssql2017, windows2019, 
+windows2012, windows2016, oracle12-test, Centos7.2-Oracle
+
+
 
 **Migrazione DBAAS**
 ====================
 
 La piattaforma offre alcune funzionalità automatiche di import delle risorse DBAAS. Le funzionalità sono disponibili da linea di comando
 
+.. toctree::
+   :maxdepth: 2
+
    ../Usare_Cli/75.5_Migrazione_DBAAS.rst
 
-
-
-**Lista sistemi operativi supportati per Import da server vsphere per rehosting:**
-
-RedhatLinux7, GisMasterWin2016, Oracle11EE, NuvolaWebWin2016, Oracle19EE, Oracle12EE, Oracle12, Oracle11, mssql2017, windows2019, 
-windows2012, windows2016, oracle12-test, Centos7.2-Oracle
