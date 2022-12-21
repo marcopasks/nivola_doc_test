@@ -1,6 +1,4 @@
-.. _Migrazine VM:
-
-
+.. _Migrazione VM:
 
 **Import**
 ^^^^^^^^^^
