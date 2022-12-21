@@ -1,7 +1,6 @@
 .. _Migrazione DBAAS:
 
-**Migrazione DBAAS**
-====================
+
 
 **Best Practice**
 ^^^^^^^^^^^^^^^^^
