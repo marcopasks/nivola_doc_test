@@ -24,13 +24,6 @@ La tabella seguente elenca le Region fornite da un account. Non è possibile acc
 .. image:: img/Code_Name.jpg
 
 
-**Regioni and Endpoint**
-========================
-
-Quando si lavora con un'istanza utilizzando l'interfaccia della riga di comando o tramite API, occorre specificare il relativo Regional Endpoint.
-L'Endpoint del Piemonte è https://api.nivolapiemonte.it/
-
-
 
 
 **Aree geografiche e zone**

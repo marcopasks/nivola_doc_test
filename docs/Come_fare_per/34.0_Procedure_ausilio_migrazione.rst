@@ -12,7 +12,7 @@ accedere direttamente alla presente guida per maggiori informazioni.
 **Migrazione VM**
 =================
 
-La piattaforma offre alcune funzionalità automatiche di import delle risorse VM. Le funzionalità sono disponibili da linea di comando
+La piattaforma offre alcune funzionalità automatiche di import delle risorse VM. Le funzionalità sono disponibili da linea di comando:
 
 .. toctree::
    :maxdepth: 2
@@ -55,7 +55,7 @@ Elenchiamo i passi necessari per effettuare la migrazione di un DBOLD, su Farm d
 
 
 
-La piattaforma offre alcune funzionalità automatiche di import delle risorse DBAAS. Le funzionalità sono disponibili da linea di comando
+La piattaforma offre alcune funzionalità automatiche di import delle risorse DBAAS. Le funzionalità sono disponibili da linea di comando:
 
 .. toctree::
    :maxdepth: 2

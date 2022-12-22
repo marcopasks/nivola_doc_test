@@ -14,6 +14,8 @@ Service Portal 3.1.0 (2022-12-20)
 
 *   `[NSP-1886] <https://jira.csi.it/browse/NSP-1886>`_ - Errore in prospetto costi stimati
 
+*   `[NSP-1674] <https://jira.csi.it/browse/NSP-1674>`_ - Ticket chiuso : inibire modifica dell'assegnatario
+
 **Changed**
 
 *   `[NSP-1813] <https://jira.csi.it/browse/NSP-1813>`_ - Network Vulnerability Assesment
