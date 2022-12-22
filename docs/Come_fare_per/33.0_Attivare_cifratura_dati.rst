@@ -1,4 +1,4 @@
-.. _attivare la cifratura dei dati:
+.. _attivare_cifratura_dati:
 
 **Attivare la cifratura dei dati**
 **********************************
@@ -10,9 +10,5 @@ All'interno della creazione dei Dbaas
 
    14.1_Creare_DBAAS.rst
 
-
-è implementata la possibilità di attivare la crittografia
-
-.. image:: img/DBAAS_scegli_tipologia2.png
 
 
