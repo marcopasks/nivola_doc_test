@@ -26,27 +26,15 @@ La tabella seguente elenca le Region fornite da un account. Non è possibile acc
 
 
 
-**Aree geografiche e zone**
-
-Le aree geografiche sono aree geografiche indipendenti composte da zone. Le zone e le aree geografiche sono astrazioni logiche delle risorse fisiche sottostanti 
-fornite in uno o più data center fisici. 
-Una **zona** è un'area di deployment per le risorse all'interno di un'area geografica.
-Le **Region** sono insiemi di zone. Le zone hanno connessioni di rete a bassa latenza e a larghezza di banda elevata con altre zone della stessa regione. 
-Per eseguire il deployment di applicazioni a tolleranza di errore ad alta disponibilità, è consigliato di eseguire il deployment di applicazioni in più 
-zone e in più aree geografiche. Ciò aiuta a proteggere dai guasti imprevisti dei componenti, fino a una zona o area geografica inclusa.
-Le risorse Compute Engine sono ospitate in diverse località in tutto il mondo. Queste località sono composte di aree geografiche e zone. Una regione è 
-una località geografica specifica in cui puoi ospitare le risorse. 
-Le risorse che risiedono in una zona, come istanze di macchine virtuali o dischi a livello di zona, sono definite risorse di zona. Altre risorse, come 
+Le **Region** sono insiemi di **Availability Zones**. Le Availability Zones hanno connessioni di rete a bassa latenza e a larghezza di banda elevata con altre  
+Availability Zones della stessa Region. 
+Le risorse che risiedono in una Availability Zones, come istanze di macchine virtuali o dischi a livello di zona, sono definite risorse di zona. Altre risorse, come 
 indirizzi IP esterni statici, sono a livello di area geografica. Le risorse a livello di area geografica possono essere utilizzate da qualsiasi risorsa di 
 quell'area, indipendentemente dalla zona, mentre le risorse di zona possono essere utilizzate solo da altre risorse della stessa zona.
 Ad esempio, per collegare un disco permanente a livello di zona a un'istanza, entrambe le risorse devono trovarsi nella stessa zona. Analogamente, se si 
 vuole assegnare un indirizzo IP statico a un'istanza, questa deve trovarsi nella stessa regione dell'indirizzo IP statico.
 Collocando le risorse in zone diverse di un'area geografica si riduce il rischio di un'interruzione dell'infrastruttura che interessa contemporaneamente 
-tutte le risorse. Collocando le risorse in diverse regioni si ottiene un livello ancora più elevato di indipendenza dagli errori. Questo consente di 
-progettare sistemi robusti con risorse distribuite su diversi domini di errore.
-Le risorse sono ospitate in più regioni. Ogni area geografica è composta da più zone. Le zone sono gruppi logici di risorse, progettati per evitare errori 
-correlati. Collocare le risorse in più zone all'interno di un'area geografica riduce il rischio di errori correlati all'infrastruttura fisica e software 
-che interessano le applicazioni. Collocando le risorse in aree geografiche diverse offre un livello ancora più elevato di indipendenza dagli errori.
+tutte le risorse. Collocando le risorse in diverse regioni si ottiene un livello ancora più elevato di indipendenza dagli errori.
 
 
 
@@ -57,10 +45,9 @@ La scelta di un'area geografica e di una zona è importante per diversi motivi:
 
 **Gestione degli errori**
 
-Distribuire le tue risorse su più zone e aree geografiche serve a tollerare le interruzioni. Le zone sono progettate per ridurre al minimo il rischio di errori 
+Distribuire le risorse su più zone e aree geografiche serve a tollerare le interruzioni. Le zone sono progettate per ridurre al minimo il rischio di errori 
 correlati causati da interruzioni dell'infrastruttura fisica, ad esempio alimentazione, raffreddamento o rete. Pertanto, se una zona non è più disponibile, 
-è possibile trasferire il traffico in un'altra zona della stessa area geografica per mantenere i servizi in esecuzione. Allo stesso modo, è possibile mitigare 
-l'impatto di un'interruzione della regione sulla tua applicazione eseguendo i servizi di backup in una regione diversa. 
+è possibile trasferire il traffico in un'altra zona della stessa area geografica per mantenere i servizi in esecuzione. 
 
 
 **Latenza di rete ridotta**
