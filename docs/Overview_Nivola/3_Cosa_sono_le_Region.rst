@@ -39,6 +39,7 @@ tutte le risorse. Collocando le risorse in diverse regioni si ottiene un livello
 
 
 **Scelta di una region e di una zona**
+======================================
 
 La scelta di un'area geografica e di una zona è importante per diversi motivi:
 
@@ -51,6 +52,7 @@ correlati causati da interruzioni dell'infrastruttura fisica, ad esempio aliment
 
 
 **Latenza di rete ridotta**
+
 Per ridurre la latenza di rete, è possibile scegliere un'area geografica o una zona vicina al proprio punto di servizio. 
 
 
