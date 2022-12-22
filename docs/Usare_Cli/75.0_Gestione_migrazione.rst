@@ -1,7 +1,10 @@
 .. _Gestione_migrazione:
 
+**Gestione migrazione**
+=======================
+
+
 **Migrazione VM**
-=================
 
 .. toctree::
    :maxdepth: 2
@@ -11,7 +14,6 @@
 
 
 **Migrazione Dbaas**
-====================
 
 .. toctree::
    :maxdepth: 2
