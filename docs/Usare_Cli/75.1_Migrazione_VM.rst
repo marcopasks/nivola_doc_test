@@ -1,7 +1,7 @@
 .. _Migrazione VM:
 
-**Import**
-^^^^^^^^^^
+**Import VM**
+^^^^^^^^^^^^^
 
 **Import da server openstack**
 
