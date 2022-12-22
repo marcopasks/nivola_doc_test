@@ -8,10 +8,11 @@ All'interno della creazione dei Dbaas
 .. toctree::
    :maxdepth: 2
 
-    14.1_Creare_DBAAS.rst
+   14.1_Creare_DBAAS.rst
 
 
 è implementata la possibilità di attivare la crittografia
 
 .. image:: img/DBAAS_scegli_tipologia2.png
+
 
