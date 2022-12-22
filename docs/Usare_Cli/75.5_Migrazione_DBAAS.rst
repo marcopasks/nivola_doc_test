@@ -1,6 +1,6 @@
 .. _Migrazione DBAAS:
 
-**Import Dbaas**
+**Import DbaaS**
 ^^^^^^^^^^^^^^^^
 
 **Import da server openstack**
