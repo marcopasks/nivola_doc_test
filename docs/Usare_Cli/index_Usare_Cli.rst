@@ -21,6 +21,8 @@ attraverso la Command Line Interface.
    50.0_howto-use-disk.rst
    60.0_howto-use-ssh.rst
    65.0_Gestione_log.rst
+   70.0_Gestione_multiregionCMP.rst
+   75.0_Gestione_migrazione.rst
    
    
    
