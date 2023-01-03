@@ -1,7 +1,7 @@
 .. _Strumenti:
 
-**30.7_Servizio_di_Log_Management**
-***********************************
+**Monitoraggio e Log**
+**********************
 
 .. toctree::
    :maxdepth: 2
