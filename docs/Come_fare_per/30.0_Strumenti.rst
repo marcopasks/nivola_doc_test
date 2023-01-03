@@ -1,7 +1,7 @@
 .. _Strumenti:
 
-**Monitoraggio e Log**
-********************************
+**30.7_Servizio_di_Log_Management**
+***********************************
 
 .. toctree::
    :maxdepth: 2
@@ -9,3 +9,4 @@
    30.1_Cronologia.rst
    30.3_Monitoraggio.rst
    30.5_Monitoraggio_applicativo_APM.rst
+   30.7_Servizio_di_Log_Management.rst
