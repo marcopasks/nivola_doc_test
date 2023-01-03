@@ -43,8 +43,8 @@ sinistra dello schermo, cliccando sulla label **Log Management** sotto **Strumen
 
 .. image:: img/30.7_LogMsx.png
 
-A seguito di un clic su **Log Management**, il sistema aprirà in una nuova finestra
-l'accesso alla pagina di **Elastic**:
+A seguito di un clic su **Log Management**, il sistema aprirà una nuova finestra
+con l'accesso alla pagina di **Elastic**:
 
 .. image:: img/30.7_ElasticDx.png
 
