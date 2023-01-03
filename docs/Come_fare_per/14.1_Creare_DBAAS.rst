@@ -47,7 +47,7 @@ e premere **"VAI A DETTAGLI DBAAS"**
 
 E utilizzare il flag sotto **Crittografia** nel caso occorra abilitare la crittografia del Dbaas
 (nella mail che viene inviata automaticamente al Supporto Nivola è presente l'informazione relativa all'eventuale richiesta 
-di crittografia)
+di crittografia, in quanto tale configurazione verrà effettuata in un secondo momento)
 
 .. image:: img/DBAAS_scegli_tipologia2.png
 
