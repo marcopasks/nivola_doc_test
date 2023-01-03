@@ -38,9 +38,18 @@ Rientrano in queste competenze:
 **Modalità di accesso**
 =======================
 
-work in progress - cambiare immagine
+La funzione rientra nel menù **Strumenti**. L'accesso è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Log Management** sotto **Strumenti**
 
-.. image:: img/30.5_Transactions.png
+.. image:: img/30.7_LogMsx.png
+
+A seguito di un clic su **Log Management**, il sistema aprirà in una nuova finestra
+l'accesso alla pagina di **Elastic**:
+
+.. image:: img/30.7_ElasticDx.png
+
+
+work in progress - mancano schermate post accesso
 
 
 
