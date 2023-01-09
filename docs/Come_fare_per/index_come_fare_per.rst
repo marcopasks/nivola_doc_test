@@ -51,7 +51,7 @@ ad interagire con la piattaforma, attraverso il portale.
    33.0_Attivare_cifratura_dati.rst
    34.0_Procedure_ausilio_migrazione.rst
    40.0_Consultare_costi_e_consumi.rst
-   41.0_Linee_guida_gestione_sicura_servizio.rst
+   41.0_Linee_guida_gestione_sicura_servizio.DA_RINOMINARE
    42.0_Associazione_Listino_Account.rst
    43.0_WBS.rst
    45.0_Scaricare_Elenchi.rst
