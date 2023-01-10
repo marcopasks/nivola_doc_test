@@ -49,7 +49,21 @@ con l'accesso alla pagina di **Elastic**:
 .. image:: img/30.7_ElasticDx.png
 
 
-work in progress - mancano schermate post accesso
+Selezionare quindi l'area di lavoro, detta anche space
+
+.. image:: img/30.7_Space.png
+
+
+Una volta scelto lo space si viene indirizzati sulla pagina di discover, dove sono presenti tutti i log ed 
+è possibile selezionare i campi di interesse, filtrare e fare query
+
+.. image:: img/30.7_discover.jpg
+
+
+Nella pagina dashboard invece sono presenti delle schermate riassuntive che permettono di avere una vista d'insieme
+
+.. image:: img/30.7_dashboard.jpg
+
 
 
 
