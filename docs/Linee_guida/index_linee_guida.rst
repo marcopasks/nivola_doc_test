@@ -9,3 +9,4 @@
    2_Modelli_di_sicurezza.rst
    4_Modello_architetturale_3_livelli_esposto_internet.rst
    6_Modello_architetturale_3_livelli_no_internet.rst
+   9_Linee_guida_raccomandazioni_uso_sicuro_soluzioni_cloud.rst
