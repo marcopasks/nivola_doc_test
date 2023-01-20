@@ -34,7 +34,8 @@ Per attivare il servizio occorre contattare il supporto attraverso i consueti ca
 **Gestione degli errori e meccanismi di logging**
 *************************************************
 
-../Come_fare_per/30.7_Servizio_di_Log_Management.rst
+.. toctree::
+    ../Come_fare_per/30.7_Servizio_di_Log_Management.rst
 
 
 
