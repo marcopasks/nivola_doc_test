@@ -12,6 +12,7 @@
 
 
 **Load balancer**
+-----------------
 
 L’obiettivo è di separare la componente di erogazione del servizio dall’esposizione:  
 
