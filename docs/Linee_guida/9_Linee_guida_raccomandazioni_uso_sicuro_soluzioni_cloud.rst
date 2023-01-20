@@ -11,8 +11,8 @@
     ../Come_fare_per/15.3_Template_Sicurezza.rst
 
 
-**Load balancer**
------------------
+Load balancer
+-------------
 
 L’obiettivo è di separare la componente di erogazione del servizio dall’esposizione:  
 
@@ -43,12 +43,31 @@ Per attivare il servizio occorre contattare il supporto attraverso i consueti ca
 **Meccanismi  di autenticazione**
 *********************************
 
-da qui
+.. toctree::
+    ../Usare_Cli/index_Usare_Cli.html
+
+(manca ssh gateway: vedere parte ezio (pomeriggio))
 
 
 
 
-**Informazioni su vulnerabilità note e meccanismi di aggiornamento**
-********************************************************************
 
-work in progress
+**Servizi e funzioni per l'amministrazione del servizio da parte di utenti privilegiati / Ruoli e diritti, comprese le combinazioni che risultano in un rischio elevato**
+*************************************************************************************************************************************************************************
+
+.. toctree::
+    ../Overview_Nivola/2_Concetti_Base.html#utenti-ruoli-ed-account
+
+(parte del rischio: luca dice a ezio di aiutarmi)
+
+(Luca dice “chiedere a gargano andrea” - verificare)
+
+
+
+**Funzionalità per l'import e l'export dei dati**
+=================================================
+
+La funzionalità utilizzata per fare l’import di dati è quella relativa all'SFTP SERVER.
+Per attivare tale funzionalità occorre contattare il supporto attraverso i consueti canali.
+
+(in attesa di info da luigi favero (chiedergli solo quello, come funziona))
