@@ -26,9 +26,7 @@ Vi è un rapporto di 1:1 tra IP pubblico e VM, al contrario con il bilanciatore 
 
 .. image:: img/Load-BalancerLS.drawio.png
 
-Per attivare il servizio occorre contattare il supporto attraverso i consueti canali.
-
-( eventualmente chiedere a Giua Adriano se volessi infarcire il testo )
+Per attivare il servizio occorre contattare il Supporto attraverso i consueti canali.
 
 
 
@@ -46,8 +44,20 @@ Per attivare il servizio occorre contattare il supporto attraverso i consueti ca
 .. toctree::
     ../Usare_Cli/index_Usare_Cli.html
 
-(manca ssh gateway: vedere parte ezio (pomeriggio))
+SSH Gateway
+-----------
 
+L'SSH Gateway risponde a URL differenti (a seconda della tipologia di cliente). Attraverso un client SSH si apre una sessione SSH utilizzando 
+una user e una password (associati a LDAP). Dall'SSH Gateway si configura un tunnel sulla VM, poi attraverso lo stesso client SSH in modalità terminal 
+emulator ci si collega alla porta configurata ed infine ci si collega sulla macchina. L'attività viene quindi effettuata in due passaggi.
+
+.. image:: img/SSH_Gateway1.jpg
+
+.. image:: img/SSH_Gateway2.jpg
+
+.. image:: img/SSH_Gateway3.jpg
+
+.. image:: img/SSH_Gateway4.jpg
 
 
 
@@ -64,10 +74,26 @@ Per attivare il servizio occorre contattare il supporto attraverso i consueti ca
 
 
 
+
+
 **Funzionalità per l'import e l'export dei dati**
 =================================================
 
 La funzionalità utilizzata per fare l’import di dati è quella relativa all'SFTP SERVER.
 Per attivare tale funzionalità occorre contattare il supporto attraverso i consueti canali.
 
-(in attesa di info da luigi favero (chiedergli solo quello, come funziona))
+(in attesa di info da luigi favero su SFTP (chiedergli solo quello, come funziona))
+
+
+
+
+
+**Interoperabilità e portabilità dei dati **
+============================================
+
+(in attesa di info da luigi favero su SFTP) + modalità camioncino ?
+
+nota Eugenio: questo punto (più tecnico ma descrivere anche la funzionalità) e quello sopra ("Funzionalità per l'import e l'export dei dati", più procedurale) 
+potrebbero essere trattati insieme, oppure come due paragrafi collegati
+
+(le funzionalità sono disponibili e sono automatizzate. Per attivare il servizio occorre contattare il Supporto attraverso i consueti canali.
