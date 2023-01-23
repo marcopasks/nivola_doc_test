@@ -75,9 +75,8 @@ delle chiavi private)
 
 .. image:: img/Connessione-DB-con-DBeaver-Mysql2.png
 
-•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, 
-inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore ,su User Name mettere la propria matricola CSI nel relativo campo 
-oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
+•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore.
+Su User Name mettere la propria matricola CSI nel relativo campo oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
 
 .. image:: img/Connessione-DB-con-DBeaver-Mysql3.png
 
@@ -113,9 +112,7 @@ oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
 
 .. image:: img/Connessione-DB-con-DBeaver2.png
 
-•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, 
-inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore ,su User Name mettere la propria matricola CSI nel relativo campo oppure 
-l’utenza nome.cognome@fornitori.nivola e la relativa password.
+•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore ,su User Name mettere la propria matricola CSI nel relativo campo oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
 
 .. image:: img/Connessione-DB-con-DBeaver3.png
 
@@ -193,8 +190,7 @@ Creare il tunnel SSH
 
 .. image:: img/Connessione-diretta-VM7.png
 
-•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto 
-Connection  SSH  Tunnels
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
 
 
 Creare le connessioni
@@ -204,11 +200,11 @@ Creare le connessioni
 
 .. image:: img/Connessione-diretta-VM8.png
 
-•	Nella sezione Connection  Data in Auto-login username, impostare: root 
+•	Nella sezione Connection -> Data in Auto-login username, impostare: root 
 
 .. image:: img/Connessione-diretta-VM9.png
 
-Nella sezione Connection  SSH  Auth click su Browse… ed impostare la chiave SSH assegnata 
+Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiave SSH assegnata 
 
 .. image:: img/Connessione-diretta-VM10.png
 
@@ -216,8 +212,7 @@ Nella sezione Connection  SSH  Auth click su Browse… ed impostare la chi
 
 .. image:: img/Connessione-diretta-VM11.png
 
-•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta il numero della 
-porta configurato precedentemente
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta il numero della porta configurato precedentemente
 
 
 Connessione SSH
@@ -251,8 +246,7 @@ Trasferimenti SFTP
 
 .. image:: img/Connessione-diretta-VM16.png
 
-•	A questo punto dopo aver aperto la sessione a cmpto2-gw01.site02.nivolapiemonte.it da putty, cliccate Accedi sulla sessione relativa WinSCP e 
-avrete la connessione SFTP con la VM 
+•	A questo punto dopo aver aperto la sessione a cmpto2-gw01.site02.nivolapiemonte.it da putty, cliccate Accedi sulla sessione relativa WinSCP e avrete la connessione SFTP con la VM 
 
 .. image:: img/Connessione-diretta-VM17.png
 
@@ -434,33 +428,6 @@ Riassumendo:
    utenti a qualsiasi livello della struttura gerarchica.
 
 
-
 (parte del rischio: luca dice a ezio di aiutarmi)
 
 (Luca dice “chiedere a gargano andrea” - verificare)
-
-
-
-
-
-**Funzionalità per l'import e l'export dei dati**
-=================================================
-
-La funzionalità utilizzata per fare l’import di dati è quella relativa all'SFTP SERVER.
-Per attivare tale funzionalità occorre contattare il supporto attraverso i consueti canali.
-
-(in attesa di info da luigi favero su SFTP (chiedergli solo quello, come funziona))
-
-
-
-
-
-**Interoperabilità e portabilità dei dati**
-===========================================
-
-(in attesa di info da luigi favero su SFTP) + modalità camioncino ?
-
-nota Eugenio: questo punto (più tecnico ma descrivere anche la funzionalità) e quello sopra ("Funzionalità per l'import e l'export dei dati", più procedurale) 
-potrebbero essere trattati insieme, oppure come due paragrafi collegati
-
-(le funzionalità sono disponibili e sono automatizzate. Per attivare il servizio occorre contattare il Supporto attraverso i consueti canali.
