@@ -259,6 +259,87 @@ avrete la connessione SFTP con la VM
 •	A fine sessione ricordarsi di chiudere anche la connessione putty
 
 
+**Connessione con tunnel ssh**
+
+Creare il tunnel SSH
+--------------------
+
+•	Aprire Putty
+
+.. image:: img/Connessione-tunnel-ssh-domnt1.png
+
+•	Impostare come host name cmpto2-gw02.site02.nivolapiemonte.it oppure IP 10.138.154.14 
+
+.. image:: img/Connessione-tunnel-ssh-domnt2.png
+
+•	Nella sezione Connection  Data in Auto-login username, impostare matricola DOMNT
+
+.. image:: img/Connessione-tunnel-ssh-domnt3.png
+
+•	Nella sezione Connection  SSH cliccare su + per espandere 
+
+.. image:: img/Connessione-tunnel-ssh-domnt4.png
+
+•	Nella sezione Connection  SSH  Tunnels impostare Source port ad esempio 2222 e come destination l’IP della macchina da raggiungere desiderata e 
+la relativa porta e cliccare su Add
+
+.. image:: img/Connessione-tunnel-ssh-domnt5.png
+
+•	Tornare alla sezione Session su Saved Sessions dare un nome significativo e cliccare Save 
+
+.. image:: img/Connessione-tunnel-ssh-domnt6.png
+
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection  SSH  Tunnels
+Apertura connessione
+•	Doppio click da putty sulla sezione configurata in precedenza
+•	Aprire il client DB o browser e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
+
+
+**Connessione con tunnel ssh**
+
+Creare il tunnel SSH
+--------------------
+
+•	Aprire Putty
+
+.. image:: img/Connessione-con-tunnel-ssh1.png
+
+•	Per gli utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio devono procedere con questa impostazione: host name 
+cmpto2-gw01.site02.nivolapiemonte.it oppure IP 10.138.154.13 ; 
+
+.. image:: img/Connessione-con-tunnel-ssh2.png
+
+•	Nella sezione Connection  Data in Auto-login username, impostare 
+o	Nella sezione Connection  Data in Auto-login username, impostare nel caso di utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio, 
+le credenziali nome.cognome@fonitori.nivola e relativa password
+
+.. image:: img/Connessione-con-tunnel-ssh3.png
+
+•	Nella sezione Connection  SSH cliccare su + per espandere 
+
+.. image:: img/Connessione-con-tunnel-ssh4.png
+
+•	Nella sezione Connection  SSH  Tunnels impostare Source port ad esempio 2222  e come destination l’IP della macchina da raggiungere desiderata e la 
+relativa porta e cliccare su Add
+
+.. image:: img/Connessione-con-tunnel-ssh5.png
+
+•	Tornare alla sezione Session su Saved Sessions dare un nome significativo e cliccare Save 
+
+.. image:: img/Connessione-con-tunnel-ssh6.png
+
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection  SSH  Tunnels
+Apertura connessione
+•	Doppio click da putty sulla sezione configurata in precedenza e lasciare la sessione aperta con NO SHELL
+•	Aprire una seconda sessione e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
+
+
+**SSH tunnel on Toad**
+
+.. image:: img/SSH-tunnel-on-Toad1.png
+
+
+
 
 **Servizi e funzioni per l'amministrazione del servizio da parte di utenti privilegiati / Ruoli e diritti, comprese le combinazioni che risultano in un rischio elevato**
 *************************************************************************************************************************************************************************
