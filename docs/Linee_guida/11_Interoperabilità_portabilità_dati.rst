@@ -3,4 +3,4 @@
 **Interoperabilità e portabilità dei dati**
 ===========================================
 
-nota interna: valutare se unire col punto precedente (il 10)
+nota interna: valutare se unire col punto precedente ("10 Funzionalità per l’import e l’export dei dati")
