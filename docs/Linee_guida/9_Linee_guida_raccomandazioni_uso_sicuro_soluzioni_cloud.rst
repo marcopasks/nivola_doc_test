@@ -51,8 +51,8 @@ L'SSH Gateway risponde a URL differenti (a seconda della tipologia di cliente). 
 una user e una password (associati a LDAP). Dall'SSH Gateway si configura un tunnel sulla VM, poi attraverso lo stesso client SSH in modalità terminal 
 emulator ci si collega alla porta configurata ed infine ci si collega sulla macchina. L'attività viene quindi effettuata in due passaggi.
 
-Tale modalità di accesso è duplicata anche per l’accesso ai db instance, facendo ricorso ai tool di database management (facendo ricorso all'utilizzo 
-delle chiavi private)
+Tale modalità di accesso è duplicata anche per l’accesso ai db instance, facendo ricorso ai tool di database management e all'utilizzo 
+delle chiavi private
 
 .. image:: img/SSH_Gateway1.jpg
 
@@ -75,12 +75,15 @@ delle chiavi private)
 
 .. image:: img/Connessione-DB-con-DBeaver-Mysql2.png
 
-•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore.
-Su User Name mettere la propria matricola CSI nel relativo campo oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
+•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore. Su User Name mettere la propria matricola CSI nel relativo campo oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
 
 .. image:: img/Connessione-DB-con-DBeaver-Mysql3.png
 
 •	Cliccare Fine, ora la configurazione sarà presente nella pagina principale e ci si potrà collegare cliccandoci
+
+
+
+
 
 
 **Connessione DB con DBeaver Oracle**
@@ -99,6 +102,10 @@ Su User Name mettere la propria matricola CSI nel relativo campo oppure l’uten
 .. image:: img/Connessione-DB-con-DBeaver-Oracle3.png
 
 •	Cliccare Fine, ora la configurazione sarà presente nella pagina principale e ci si potrà collegare cliccandoci
+
+
+
+
 
 
 **Connessione DB con DBeaver**
