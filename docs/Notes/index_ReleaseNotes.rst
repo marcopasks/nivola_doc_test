@@ -15,7 +15,8 @@ Service Portal 3.2.0 (2023-02-23)
 •  Migliorata la gestione della sessione utente
 •  Migliorata la diagnostica errori all’utente
 •  Fixing ed evolutive minori
-Per il dettaglio delle issues relative si può fare riferimento ai contenuti della release SP-3.2.0 `<https://jira.csi.it/projects/NSP/versions/13939>`
+Per il dettaglio delle issues relative si può fare riferimento ai contenuti della release SP-3.2.0
+`[Version SP-3.2.0] <https://jira.csi.it/projects/NSP/versions/13939>`
 
 
 
