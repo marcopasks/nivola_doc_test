@@ -14,7 +14,7 @@ Principali novità introdotte:
 
 - possibilità di accedere e verificare i log di sistema delle Virtual Machine sulla piattaforma Grafana attraverso il motore di ricerca Elasticsearch
 
-- possibilità di verificare lo stato e il contenuto dei backup
+- possibilità di verificare lo stato e il contenuto dei backup delle Virtual Machine
 
 
 **New**
