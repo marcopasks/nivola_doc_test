@@ -8,7 +8,7 @@
 Service Portal 3.2.0 (2023-02-23)
 ---------------------------------
 
-Le principali novità introdotte:
+Principali novità introdotte:
 
 - possibilità di monitorare le Virtual Machine grazie all'utilizo di uno specifico strumento software per il monitoraggio di risorse IT
 
