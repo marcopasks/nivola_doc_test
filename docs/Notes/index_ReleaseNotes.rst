@@ -60,7 +60,7 @@ Principali novità introdotte:
 *   `[NSP-1985] <https://jira.csi.it/browse/NSP-1985>`_ - STAGE: schermata bianca in Quote servizi -> Monitoraggio
 *   `[NSP-1986] <https://jira.csi.it/browse/NSP-1986>`_ - STAGE: correzione titolo in Strumenti -> VM
 *   `[NSP-1987] <https://jira.csi.it/browse/NSP-1987>`_ - STAGE: in quote servizi, eliminare messaggio errato durante attesa utente
-*   `[NSP-1988] <https://jira.csi.it/browse/NSP-1988>`_ - STAGE: correzione label "Nessuna dato Ã¨ stato trovato per l'Account." in quote servizi
+*   `[NSP-1988] <https://jira.csi.it/browse/NSP-1988>`_ - STAGE: correzione label "Nessun dato è stato trovato per l'Account." in quote servizi
 
 
 
