@@ -97,7 +97,7 @@ delle chiavi private
 
 .. image:: img/Connessione-DB-con-DBeaver-Oracle2.png
 
-•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw01.site02.nivolapiemonte.it,su User Name mettere la propria matricola CSI e Password nel relativo campo
+•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw01.site02.nivolapiemonte.it, su User Name mettere la propria matricola CSI e Password nel relativo campo
 
 .. image:: img/Connessione-DB-con-DBeaver-Oracle3.png
 
@@ -108,7 +108,7 @@ delle chiavi private
 
 
 
-**Connessione DB con DBeaver**
+**Connessione DB con DBeaver Postgres**
 
 •	Aprire DBeaver
 •	Cliccare sull’icona della spina col + e selezionando il DB desiderato
@@ -164,6 +164,7 @@ oppure Nome Utente (nome .cognome@fornitori.nivola) e password in caso di Enti
 .. image:: img/Connessione-diretta-SSH-VM-cloud4.png
 
 
+
 **Connessione diretta VM**
 
 Creare il tunnel SSH
@@ -177,19 +178,19 @@ Creare il tunnel SSH
 
 .. image:: img/Connessione-diretta-VM2.png
 
-•	Nella sezione Connection  Data in Auto-login username, impostare: nome.cognome@fornitori.nivola 
+•	Nella sezione Connection -> Data in Auto-login username, impostare: nome.cognome@fornitori.nivola 
 
 .. image:: img/Connessione-diretta-VM3.png
 
-•	Nella sezione Connection  SSH cliccare su + per espandere 
+•	Nella sezione Connection -> SSH cliccare su + per espandere 
 
 .. image:: img/Connessione-diretta-VM4.png
 
-•	Nella sezione Connection  SSH  Auth click su Browse… ed impostare la chiave SSH assegnata 
+•	Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiave SSH assegnata 
 
 .. image:: img/Connessione-diretta-VM5.png
 
-•	Nella sezione Connection  SSH  Tunnels impostare Source port 2222 e come destination l’IP della macchina da raggiungere desiderata :22 e cliccare su Add
+•	Nella sezione Connection -> SSH -> Tunnels impostare Source port 2222 e come destination l’IP della macchina da raggiungere desiderata :22 e cliccare su Add
 
 .. image:: img/Connessione-diretta-VM6.png
 

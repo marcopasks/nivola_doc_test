@@ -3,6 +3,68 @@
 **Release Notes**
 ===================================
 
+.. _release-3.2.0:
+
+Service Portal 3.2.0 (2023-02-23)
+---------------------------------
+
+Le principali novità introdotte:
+
+- possibilità di monitorare le Virtual Machine grazie all'utilizo di uno specifico strumento software per il monitoraggio di risorse IT
+
+- possibilità di accedere e verificare i log di sistema delle Virtual Machine sulla piattaforma Grafana attraverso il motore di ricerca Elasticsearch
+
+- possibilità di verificare lo stato e il contenuto dei backup
+
+
+**New**
+
+*   `[NSP-1878] <https://jira.csi.it/browse/NSP-1878>`_ - Form per richiesta servizio remotizzazione TSplus
+*   `[NSP-1907] <https://jira.csi.it/browse/NSP-1907>`_ - Visualizzare Quote Servizio logging
+*   `[NSP-1914] <https://jira.csi.it/browse/NSP-1914>`_ - CDU 05 (FE) - dettagliare la sezione di Log Management
+*   `[NSP-1918] <https://jira.csi.it/browse/NSP-1918>`_ - Monitoring: elenco istanze monitoraggio
+*   `[NSP-1922] <https://jira.csi.it/browse/NSP-1922>`_ - Monitoring - Attivazione su VM (Linux)
+*   `[NSP-1923] <https://jira.csi.it/browse/NSP-1923>`_ - Backend attivazione monitoraggio su VM
+*   `[NSP-1930] <https://jira.csi.it/browse/NSP-1930>`_ - Elenco folders Monitoring Account
+*   `[NSP-1933] <https://jira.csi.it/browse/NSP-1933>`_ - Sincronizza utenti Account con Utenti accreditati sul Folder Monitoring corrispondente
+*   `[NSP-1940] <https://jira.csi.it/browse/NSP-1940>`_ - Il B.O. visualizza la Lista delle VM con Logging attivo
+*   `[NSP-1942] <https://jira.csi.it/browse/NSP-1942>`_ - Il Master/Viewer visualizza la Lista delle VM con Logging attivo
+*   `[NSP-1943] <https://jira.csi.it/browse/NSP-1943>`_ - Visualizzazione quote Logging per Master/Viewer e Backoffice
+*   `[NSP-1945] <https://jira.csi.it/browse/NSP-1945>`_ - Lista Spaces Elastic per Account
+*   `[NSP-1947] <https://jira.csi.it/browse/NSP-1947>`_ - Sincronizzazione utenti Account con Sistema Logging
+*   `[NSP-1949] <https://jira.csi.it/browse/NSP-1949>`_ - Attivazione Logging per una VM
+*   `[NSP-1952] <https://jira.csi.it/browse/NSP-1952>`_ - Disattivazione Logging da una VM
+*   `[NSP-1957] <https://jira.csi.it/browse/NSP-1957>`_ - Disattivazione Monitoring da VM (destrumentazione)
+*   `[NSP-1960] <https://jira.csi.it/browse/NSP-1960>`_ - Connessione dashboard (Grafana) per il folder selezionato
+*   `[NSP-1961] <https://jira.csi.it/browse/NSP-1961>`_ - Sincronizzazione utenti Account con utenti Grafana (Monitoraggio)
+*   `[NSP-2070] <https://jira.csi.it/browse/NSP-2070>`_ - Ripristina visualizzazione Backup Openstack (Trilio)
+
+**Changed**
+
+*   `[NSP-1998] <https://jira.csi.it/browse/NSP-1998>`_ - Volumi su SP : Gestione della tecnologia
+*   `[NSP-1454] <https://jira.csi.it/browse/NSP-1454>`_ - Ruolo Amm. Backoffice : gestire data di cancellazione
+*   `[NSP-1691] <https://jira.csi.it/browse/NSP-1691>`_ - Frontend: inibire l'apertura di di tab sull'applicazione.
+*   `[NSP-1981] <https://jira.csi.it/browse/NSP-1981>`_ - Renderizzazine dati Dettaglio VM
+*   `[NSP-1994] <https://jira.csi.it/browse/NSP-1994>`_ - Segnalazione anomalia report costi per WBS
+*   `[NSP-2033] <https://jira.csi.it/browse/NSP-2033>`_ - Box "Costi" Homepage primo giorno del mese
+*   `[NSP-1874] <https://jira.csi.it/browse/NSP-1874>`_ - Verifica su criteri determinazione tecnologia DBAAS
+*   `[NSP-1929] <https://jira.csi.it/browse/NSP-1929>`_ - eliminare voce di menu AppEngine dal left menu per il ruolo Account admin
+*   `[NSP-1983] <https://jira.csi.it/browse/NSP-1983>`_ - STAGE: modifica messaggio FE logging service se servizio non attivo
+*   `[NSP-2034] <https://jira.csi.it/browse/NSP-2034>`_ - DBAAS : Aggiungere il termine "stimati" per il dato spazio disco
+*   `[NSP-2039] <https://jira.csi.it/browse/NSP-2039>`_ - elenco spaces (in Strumenti -> Log management)
+
+**Fixed**    
+
+*   `[NSP-2051] <https://jira.csi.it/browse/NSP-2051>`_ - rivedere messaggio e gestione creazione VM in caso di "Quotas compute.cores have been exceeded"
+*   `[NSP-1984] <https://jira.csi.it/browse/NSP-1984>`_ - STAGE: errore Richiesta TSPLus
+*   `[NSP-1985] <https://jira.csi.it/browse/NSP-1985>`_ - STAGE: schermata bianca in Quote servizi -> Monitoraggio
+*   `[NSP-1986] <https://jira.csi.it/browse/NSP-1986>`_ - STAGE: correzione titolo in Strumenti -> VM
+*   `[NSP-1987] <https://jira.csi.it/browse/NSP-1987>`_ - STAGE: in quote servizi, eliminare messaggio errato durante attesa utente
+*   `[NSP-1988] <https://jira.csi.it/browse/NSP-1988>`_ - STAGE: correzione label "Nessuna dato Ã¨ stato trovato per l'Account." in quote servizi
+
+
+
+
 .. _release-3.1.0:
 
 Service Portal 3.1.0 (2022-12-20)
