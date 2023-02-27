@@ -1,0 +1,298 @@
+.. _Meccanismi_di_autenticazione:
+
+**Meccanismi  di autenticazione**
+*********************************
+
+.. toctree::
+    ../Usare_Cli/01.1_howto-access-cli.rst
+
+SSH Gateway
+-----------
+
+L'SSH Gateway risponde a URL differenti (a seconda della tipologia di cliente). Attraverso un client SSH si apre una sessione SSH utilizzando 
+una user e una password (associati a LDAP). Dall'SSH Gateway si configura un tunnel sulla VM, poi attraverso lo stesso client SSH in modalità terminal 
+emulator ci si collega alla porta configurata ed infine ci si collega sulla macchina. L'attività viene quindi effettuata in due passaggi.
+
+Tale modalità di accesso è duplicata anche per l’accesso ai db instance, facendo ricorso ai tool di database management e all'utilizzo 
+delle chiavi private
+
+.. image:: img/SSH_Gateway1.jpg
+
+.. image:: img/SSH_Gateway2.jpg
+
+.. image:: img/SSH_Gateway3.jpg
+
+.. image:: img/SSH_Gateway4.jpg
+
+
+**Connessione DB con DBeaver Mysql**
+
+•	Aprire DBeaver
+•	Cliccare sull’icona della spina col + e selezionando il DB desiderato
+
+.. image:: img/Connessione-DB-con-DBeaver-Mysql1.png
+
+•	Inserire IP, porta, utente e password del DB
+
+
+.. image:: img/Connessione-DB-con-DBeaver-Mysql2.png
+
+•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore. Su User Name mettere la propria matricola CSI nel relativo campo oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
+
+.. image:: img/Connessione-DB-con-DBeaver-Mysql3.png
+
+•	Cliccare Fine, ora la configurazione sarà presente nella pagina principale e ci si potrà collegare cliccandoci
+
+
+
+
+
+
+**Connessione DB con DBeaver Oracle**
+
+•	Aprire DBeaver
+•	Cliccare sull’icona della spina col + e selezionando il DB desiderato
+
+.. image:: img/Connessione-DB-con-DBeaver-Oracle1.png
+
+•	Inserire IP, porta, utente e password del DB
+
+.. image:: img/Connessione-DB-con-DBeaver-Oracle2.png
+
+•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw01.site02.nivolapiemonte.it, su User Name mettere la propria matricola CSI e Password nel relativo campo
+
+.. image:: img/Connessione-DB-con-DBeaver-Oracle3.png
+
+•	Cliccare Fine, ora la configurazione sarà presente nella pagina principale e ci si potrà collegare cliccandoci
+
+
+
+
+
+
+**Connessione DB con DBeaver Postgres**
+
+•	Aprire DBeaver
+•	Cliccare sull’icona della spina col + e selezionando il DB desiderato
+
+.. image:: img/Connessione-DB-con-DBeaver1.png
+
+•	Inserire IP, porta, utente e password del DB
+
+.. image:: img/Connessione-DB-con-DBeaver2.png
+
+•	Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire cmpto2-gw02.site02.nivolapiemonte.it se l’utente è un utente interno CSI, inserire cmpto2-gw01.site02.nivolapiemonte.it se l’utente è un utente Fonitore ,su User Name mettere la propria matricola CSI nel relativo campo oppure l’utenza nome.cognome@fornitori.nivola e la relativa password.
+
+.. image:: img/Connessione-DB-con-DBeaver3.png
+
+•	Cliccare Fine, ora la configurazione sarà presente nella pagina principale e ci si potrà collegare cliccandoci
+
+
+**Configurazione WinScp**
+
+•	Aprire WinScp -> Nuovo sito
+
+.. image:: img/Configurazione_WinScp1.png
+
+•	Inserire IP vm destinazione, utente e password
+
+.. image:: img/Configurazione_WinScp2.png
+
+•	Avanzate… -> Connessione -> tunnel 
+Inserire flag Connetti usando tunnel SSH, Nome host cmpto2-gw01.site02.nivolapiemonte.it, Nome Utente (matricola) e password 
+oppure Nome Utente (nome .cognome@fornitori.nivola) e password in caso di Enti
+
+.. image:: img/Configurazione_WinScp3.png
+
+•	Cliccare OK
+
+
+**Connessione diretta SSH VM cloud**
+
+•	Session
+
+.. image:: img/Connessione-diretta-SSH-VM-cloud1.png
+
+•	SSH
+
+.. image:: img/Connessione-diretta-SSH-VM-cloud2.png
+
+•	IP server di destinazione e utente root
+
+.. image:: img/Connessione-diretta-SSH-VM-cloud3.png
+
+•	Network settings (settare cmpto2-gw02.site02.nivolapiemonte.it, vostra matricola csi)
+
+.. image:: img/Connessione-diretta-SSH-VM-cloud4.png
+
+
+
+**Connessione diretta VM**
+
+**Creare il tunnel SSH**
+
+•	Aprire Putty
+
+.. image:: img/Connessione-diretta-VM1.png
+
+•	Impostare come host name cmpto2-gw01.site02.nivolapiemonte.it oppure IP 10.138.154.13 
+
+.. image:: img/Connessione-diretta-VM2.png
+
+•	Nella sezione Connection -> Data in Auto-login username, impostare: nome.cognome@fornitori.nivola 
+
+.. image:: img/Connessione-diretta-VM3.png
+
+•	Nella sezione Connection -> SSH cliccare su + per espandere 
+
+.. image:: img/Connessione-diretta-VM4.png
+
+•	Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiave SSH assegnata 
+
+.. image:: img/Connessione-diretta-VM5.png
+
+•	Nella sezione Connection -> SSH -> Tunnels impostare Source port 2222 e come destination l’IP della macchina da raggiungere desiderata :22 e cliccare su Add
+
+.. image:: img/Connessione-diretta-VM6.png
+
+•	Tornare alla sezione Session su Saved Sessions dare un nome significativo e cliccare Save 
+
+.. image:: img/Connessione-diretta-VM7.png
+
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
+
+
+Creare le connessioni
+---------------------
+
+•	Selezionare Default Settings e cliccare Load, compilare il campo Host Name con 127.0.01 e Port 2222 
+
+.. image:: img/Connessione-diretta-VM8.png
+
+•	Nella sezione Connection -> Data in Auto-login username, impostare: root 
+
+.. image:: img/Connessione-diretta-VM9.png
+
+Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiave SSH assegnata 
+
+.. image:: img/Connessione-diretta-VM10.png
+
+•	Tornare alla sezione Session su Saved Sessions dare un nome significativo relativo alla VM da raggiungere e cliccare Save 
+
+.. image:: img/Connessione-diretta-VM11.png
+
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta il numero della porta configurato precedentemente
+
+
+Connessione SSH
+---------------
+
+•	Effettuati questi passaggi rimane solamente la fase di connessione, dalla pagina Sessions di putty fate doppio click sulla sessione creata ad inizio della guida 
+
+.. image:: img/Connessione-diretta-VM12.png
+
+•	Si aprirà una shell simile a questa, lasciatela aperta
+
+.. image:: img/Connessione-diretta-VM13.png
+
+•	Infine aprire un nuovo putty, doppio click sulla connessione creata nella seconda parte di guida e vi collegherete all VM desiderata
+
+.. image:: img/Connessione-diretta-VM14.png
+
+•	Ogniqualvolta vorrete collegarvi a questa macchina dovrete effettuare solamente la parte Connessione SSH di questo manuale
+•	A fine sessione ricordarsi di chiudere anche la connessione putty creata precedentemente    
+
+
+Trasferimenti SFTP
+------------------
+
+•	Scaricate ed installate WinSCP, durante l’installazione vi chiederà se importare le sessioni da putty, se invece lo avete già installato seguite i seguenti passi:
+•	Strumenti --> Importa siti
+
+.. image:: img/Connessione-diretta-VM15.png
+
+•	Selezionare le sessioni create precedentemente che puntano alla macchina locale [127.0.0.1] e fate click su OK
+
+.. image:: img/Connessione-diretta-VM16.png
+
+•	A questo punto dopo aver aperto la sessione a cmpto2-gw01.site02.nivolapiemonte.it da putty, cliccate Accedi sulla sessione relativa WinSCP e avrete la connessione SFTP con la VM 
+
+.. image:: img/Connessione-diretta-VM17.png
+
+•	A fine sessione ricordarsi di chiudere anche la connessione putty
+
+
+**Connessione con tunnel ssh**
+
+**Creare il tunnel SSH**
+
+•	Aprire Putty
+
+.. image:: img/Connessione-tunnel-ssh-domnt1.png
+
+•	Impostare come host name cmpto2-gw02.site02.nivolapiemonte.it oppure IP 10.138.154.14 
+
+.. image:: img/Connessione-tunnel-ssh-domnt2.png
+
+•	Nella sezione Connection -> Data in Auto-login username, impostare matricola DOMNT
+
+.. image:: img/Connessione-tunnel-ssh-domnt3.png
+
+•	Nella sezione Connection -> SSH cliccare su + per espandere 
+
+.. image:: img/Connessione-tunnel-ssh-domnt4.png
+
+•	Nella sezione Connection -> SSH -> Tunnels impostare Source port ad esempio 2222 e come destination l’IP della macchina da raggiungere desiderata e la relativa porta e cliccare su Add
+
+.. image:: img/Connessione-tunnel-ssh-domnt5.png
+
+•	Tornare alla sezione Session su Saved Sessions dare un nome significativo e cliccare Save 
+
+.. image:: img/Connessione-tunnel-ssh-domnt6.png
+
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
+Apertura connessione
+
+•	Doppio click da putty sulla sezione configurata in precedenza
+
+•	Aprire il client DB o browser e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
+
+
+**Connessione con tunnel ssh**
+
+**Creare il tunnel SSH**
+
+•	Aprire Putty
+
+.. image:: img/Connessione-con-tunnel-ssh1.png
+
+•	Per gli utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio devono procedere con questa impostazione: host name cmpto2-gw01.site02.nivolapiemonte.it oppure IP 10.138.154.13 ; 
+
+.. image:: img/Connessione-con-tunnel-ssh2.png
+
+•	Nella sezione Connection -> Data in Auto-login username, impostare o	Nella sezione Connection -> Data in Auto-login username, impostare nel caso di utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio, 
+le credenziali nome.cognome@fonitori.nivola e relativa password
+
+.. image:: img/Connessione-con-tunnel-ssh3.png
+
+•	Nella sezione Connection -> SSH cliccare su + per espandere 
+
+.. image:: img/Connessione-con-tunnel-ssh4.png
+
+•	Nella sezione Connection -> SSH -> Tunnels impostare Source port ad esempio 2222  e come destination l’IP della macchina da raggiungere desiderata e la relativa porta e cliccare su Add
+
+.. image:: img/Connessione-con-tunnel-ssh5.png
+
+•	Tornare alla sezione Session su Saved Sessions dare un nome significativo e cliccare Save 
+
+.. image:: img/Connessione-con-tunnel-ssh6.png
+
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
+Apertura connessione
+•	Doppio click da putty sulla sezione configurata in precedenza e lasciare la sessione aperta con NO SHELL
+•	Aprire una seconda sessione e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
+
+
+**SSH tunnel on Toad**
+
+.. image:: img/SSH-tunnel-on-Toad1.png
