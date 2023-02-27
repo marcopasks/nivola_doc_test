@@ -42,7 +42,7 @@ Per attivare il servizio occorre contattare il Supporto attraverso i consueti ca
 *********************************
 
 .. toctree::
-    ../Usare_Cli/index_Usare_Cli.html
+    ../Usare_Cli/index_Usare_Cli.rst
 
 SSH Gateway
 -----------
@@ -167,8 +167,7 @@ oppure Nome Utente (nome .cognome@fornitori.nivola) e password in caso di Enti
 
 **Connessione diretta VM**
 
-Creare il tunnel SSH
---------------------
+**Creare il tunnel SSH**
 
 •	Aprire Putty
 
@@ -263,8 +262,7 @@ Trasferimenti SFTP
 
 **Connessione con tunnel ssh**
 
-Creare il tunnel SSH
---------------------
+**Creare il tunnel SSH**
 
 •	Aprire Putty
 
@@ -274,15 +272,15 @@ Creare il tunnel SSH
 
 .. image:: img/Connessione-tunnel-ssh-domnt2.png
 
-•	Nella sezione Connection  Data in Auto-login username, impostare matricola DOMNT
+•	Nella sezione Connection -> Data in Auto-login username, impostare matricola DOMNT
 
 .. image:: img/Connessione-tunnel-ssh-domnt3.png
 
-•	Nella sezione Connection  SSH cliccare su + per espandere 
+•	Nella sezione Connection -> SSH cliccare su + per espandere 
 
 .. image:: img/Connessione-tunnel-ssh-domnt4.png
 
-•	Nella sezione Connection  SSH  Tunnels impostare Source port ad esempio 2222 e come destination l’IP della macchina da raggiungere desiderata e 
+•	Nella sezione Connection -> SSH -> Tunnels impostare Source port ad esempio 2222 e come destination l’IP della macchina da raggiungere desiderata e 
 la relativa porta e cliccare su Add
 
 .. image:: img/Connessione-tunnel-ssh-domnt5.png
@@ -291,7 +289,7 @@ la relativa porta e cliccare su Add
 
 .. image:: img/Connessione-tunnel-ssh-domnt6.png
 
-•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection  SSH  Tunnels
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
 Apertura connessione
 •	Doppio click da putty sulla sezione configurata in precedenza
 •	Aprire il client DB o browser e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
@@ -299,30 +297,27 @@ Apertura connessione
 
 **Connessione con tunnel ssh**
 
-Creare il tunnel SSH
---------------------
+**Creare il tunnel SSH**
 
 •	Aprire Putty
 
 .. image:: img/Connessione-con-tunnel-ssh1.png
 
-•	Per gli utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio devono procedere con questa impostazione: host name 
-cmpto2-gw01.site02.nivolapiemonte.it oppure IP 10.138.154.13 ; 
+•	Per gli utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio devono procedere con questa impostazione: host name cmpto2-gw01.site02.nivolapiemonte.it oppure IP 10.138.154.13 ; 
 
 .. image:: img/Connessione-con-tunnel-ssh2.png
 
-•	Nella sezione Connection  Data in Auto-login username, impostare 
-o	Nella sezione Connection  Data in Auto-login username, impostare nel caso di utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio, 
+•	Nella sezione Connection -> Data in Auto-login username, impostare 
+o	Nella sezione Connection -> Data in Auto-login username, impostare nel caso di utenti esterni al CSI Piemonte e che non dispongono di credenziali di dominio, 
 le credenziali nome.cognome@fonitori.nivola e relativa password
 
 .. image:: img/Connessione-con-tunnel-ssh3.png
 
-•	Nella sezione Connection  SSH cliccare su + per espandere 
+•	Nella sezione Connection -> SSH cliccare su + per espandere 
 
 .. image:: img/Connessione-con-tunnel-ssh4.png
 
-•	Nella sezione Connection  SSH  Tunnels impostare Source port ad esempio 2222  e come destination l’IP della macchina da raggiungere desiderata e la 
-relativa porta e cliccare su Add
+•	Nella sezione Connection -> SSH -> Tunnels impostare Source port ad esempio 2222  e come destination l’IP della macchina da raggiungere desiderata e la relativa porta e cliccare su Add
 
 .. image:: img/Connessione-con-tunnel-ssh5.png
 
@@ -330,7 +325,7 @@ relativa porta e cliccare su Add
 
 .. image:: img/Connessione-con-tunnel-ssh6.png
 
-•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection  SSH  Tunnels
+•	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
 Apertura connessione
 •	Doppio click da putty sulla sezione configurata in precedenza e lasciare la sessione aperta con NO SHELL
 •	Aprire una seconda sessione e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
@@ -435,7 +430,3 @@ Riassumendo:
 -  L’Amministratore di Backoffice può :ref:`accreditare o revocare ruoli <Creare_Accreditare_Utente>` agli
    utenti a qualsiasi livello della struttura gerarchica.
 
-
-(parte del rischio: luca dice a ezio di aiutarmi)
-
-(Luca dice “chiedere a gargano andrea” - verificare)
