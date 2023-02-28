@@ -162,8 +162,8 @@ oppure Nome Utente (nome .cognome@fornitori.nivola) e password in caso di Enti
 •	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
 
 
-Creare le connessioni
----------------------
+**Creare le connessioni**
+
 
 •	Selezionare Default Settings e cliccare Load, compilare il campo Host Name con 127.0.01 e Port 2222 
 
@@ -184,8 +184,8 @@ Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiav
 •	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta il numero della porta configurato precedentemente
 
 
-Connessione SSH
----------------
+**Connessione SSH**
+
 
 •	Effettuati questi passaggi rimane solamente la fase di connessione, dalla pagina Sessions di putty fate doppio click sulla sessione creata ad inizio della guida 
 
@@ -203,8 +203,7 @@ Connessione SSH
 •	A fine sessione ricordarsi di chiudere anche la connessione putty creata precedentemente    
 
 
-Trasferimenti SFTP
-------------------
+**Trasferimenti SFTP**
 
 •	Scaricate ed installate WinSCP, durante l’installazione vi chiederà se importare le sessioni da putty, se invece lo avete già installato seguite i seguenti passi:
 •	Strumenti --> Importa siti
