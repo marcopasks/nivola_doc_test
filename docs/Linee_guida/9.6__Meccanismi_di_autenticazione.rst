@@ -88,6 +88,9 @@ delle chiavi private
 •	Cliccare Fine, ora la configurazione sarà presente nella pagina principale e ci si potrà collegare cliccandoci
 
 
+
+
+
 **Configurazione WinScp**
 
 •	Aprire WinScp -> Nuovo sito
@@ -105,6 +108,9 @@ oppure Nome Utente (nome .cognome@fornitori.nivola) e password in caso di Enti
 .. image:: img/Configurazione_WinScp3.png
 
 •	Cliccare OK
+
+
+
 
 
 **Connessione diretta SSH VM cloud**
@@ -127,9 +133,9 @@ oppure Nome Utente (nome .cognome@fornitori.nivola) e password in caso di Enti
 
 
 
-**Connessione diretta VM**
 
-**Creare il tunnel SSH**
+
+**Connessione diretta VM - Creare il tunnel SSH**
 
 •	Aprire Putty
 
@@ -162,8 +168,9 @@ oppure Nome Utente (nome .cognome@fornitori.nivola) e password in caso di Enti
 •	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta la Source port sotto Connection -> SSH -> Tunnels
 
 
-**Creare le connessioni**
 
+
+**Creare le connessioni**
 
 •	Selezionare Default Settings e cliccare Load, compilare il campo Host Name con 127.0.01 e Port 2222 
 
@@ -184,8 +191,9 @@ Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiav
 •	Ripetere i passaggi precedenti per aggiungere ulteriori VM che volete raggiungere, ricordandosi di incrementare ogni volta il numero della porta configurato precedentemente
 
 
-**Connessione SSH**
 
+
+**Connessione SSH**
 
 •	Effettuati questi passaggi rimane solamente la fase di connessione, dalla pagina Sessions di putty fate doppio click sulla sessione creata ad inizio della guida 
 
@@ -201,6 +209,9 @@ Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiav
 
 •	Ogniqualvolta vorrete collegarvi a questa macchina dovrete effettuare solamente la parte Connessione SSH di questo manuale
 •	A fine sessione ricordarsi di chiudere anche la connessione putty creata precedentemente    
+
+
+
 
 
 **Trasferimenti SFTP**
@@ -221,9 +232,10 @@ Nella sezione Connection -> SSH -> Auth click su Browse… ed impostare la chiav
 •	A fine sessione ricordarsi di chiudere anche la connessione putty
 
 
-**Connessione con tunnel ssh**
 
-**Creare il tunnel SSH**
+
+
+**Connessione con tunnel ssh - Creare il tunnel SSH**
 
 •	Aprire Putty
 
@@ -257,9 +269,10 @@ Apertura connessione
 •	Aprire il client DB o browser e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
 
 
-**Connessione con tunnel ssh**
 
-**Creare il tunnel SSH**
+
+
+**Connessione con tunnel ssh - Creare il tunnel SSH**
 
 •	Aprire Putty
 
@@ -290,6 +303,8 @@ le credenziali nome.cognome@fonitori.nivola e relativa password
 Apertura connessione
 •	Doppio click da putty sulla sezione configurata in precedenza e lasciare la sessione aperta con NO SHELL
 •	Aprire una seconda sessione e puntare all’ip porta locali configurati ad esempio 127.0.0.1:2222
+
+
 
 
 **SSH tunnel on Toad**
