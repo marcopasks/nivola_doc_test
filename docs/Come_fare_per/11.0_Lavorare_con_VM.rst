@@ -22,5 +22,5 @@ Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
    11.12_Aggiungere_SG.rst
    11.14_Rimuovere_SG.rst
    11.20_Jobs_Backup.rst
-
-
+   11.25_Monitoraggio.rst
+   11.30_Log_Management.rst

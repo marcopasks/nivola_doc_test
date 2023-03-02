@@ -1,0 +1,33 @@
+.. _Monitoraggio:
+
+**Monitoraggio**
+****************
+
+La gestione del **Monitoraggio** rende disponibile la funzionalità di monitoraggio delle Virtual Machine per mezzo del
+Service Portal.
+
+La funzione è attivabile dalla parte sinistra dello schermo dal menù **Strumenti**, cliccando sulla label **VM** sotto **Monitoraggio**.
+
+.. image:: img/11.25_Elenco_vmSX.png
+
+
+A seguito di un clic su **VM**, il sistema popolerà la parte destra del video con la **Lista VM monitorate**.
+
+.. image:: img/11.25_Elenco_vmDX.png
+
+**Abilitare il Monitoraggio**
+===============================
+
+
+
+**Disabilitare il Monitoraggio**
+===============================
+
+Per disabiliare il **monitoraggio** della Virtual Machine, procedere come segue:
+
+    1. Individuare la VM dalla **Lista VM monitorate**, mettendo una spunta a fianco del nome;
+
+       .. image:: img/11.25_Disattiva_selezVMdx.png
+    
+da qui
+
