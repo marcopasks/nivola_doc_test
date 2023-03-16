@@ -22,7 +22,7 @@ Service Portal 3.3.0 (2023-03-16)
 Service Portal 3.2.0 (2023-02-23)
 ---------------------------------
 
-•  PROVA Servizio di Logging con possibilità di abilitare/disabilitare le singole istanze VM e accesso alle dashboard relative
+•  Servizio di Logging con possibilità di abilitare/disabilitare le singole istanze VM e accesso alle dashboard relative
 •  Servizio di Monitoring As A Service con possibilità di abilitare/disabilitare le singole istanze VM e accesso alle dashboard relative
 •  Migliorata la gestione dei Volumi Windows
 •  Form per la richiesta di un servizio remotizzazione TSPlus
