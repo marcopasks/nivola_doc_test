@@ -17,7 +17,6 @@ Service Portal 3.3.0 (2023-03-16)
 
 
 
-
 .. _release-3.2.0:
 
 Service Portal 3.2.0 (2023-02-23)
