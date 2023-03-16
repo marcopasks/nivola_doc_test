@@ -18,6 +18,20 @@ A seguito di un clic su **VM**, il sistema popolerà la parte destra del video c
 **Abilitare il Monitoraggio**
 ===============================
 
+La funzione rientra nel servizio **Strumenti**. L'abilitazione del Monitoraggio è attivabile dalla parte sinistra dello schermo, 
+cliccando sulla label **VM** sotto **Monitoraggio**
+
+    A seguito di un clic su **VM**, il sistema popolerà la parte destra del video con la **Lista VM monitorate** (se già presenti).
+
+       .. image:: img/11.25_ListaVM_MonintorDX.png
+
+Per efettuare l'abilitazione procedere in questo modo:
+
+        1.Fare clic sul pulsante "+"":
+
+        .. image:: img/Add_VM.png
+
+        
 
 
 **Disabilitare il Monitoraggio**

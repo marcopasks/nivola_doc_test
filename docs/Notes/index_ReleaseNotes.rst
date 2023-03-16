@@ -3,6 +3,21 @@
 **Release Notes**
 ===================================
 
+.. _release-3.3.0:
+
+Service Portal 3.3.0 (2023-03-16)
+---------------------------------
+
+- Integrazione Service Portal con funzionalità di Budget e Alerting (BETA)
+- Miglioramento performance lista Volumi
+- Attivazione/disattivazione Logging VM Windows
+- Attivazione/disattivazione Monitoring (as a Service) VM Windows
+- ripristino VM da Restore Point;
+- risoluzione bug minori
+
+
+
+
 .. _release-3.2.0:
 
 Service Portal 3.2.0 (2023-02-23)
