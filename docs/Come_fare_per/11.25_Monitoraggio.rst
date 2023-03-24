@@ -43,5 +43,5 @@ Per disabiliare il **monitoraggio** della Virtual Machine, procedere come segue:
 
        .. image:: img/11.25_Disattiva_selezVMdx.png
     
-continuare da qui (aggiunta del 24/03/23 ore 12:29)
+
 
