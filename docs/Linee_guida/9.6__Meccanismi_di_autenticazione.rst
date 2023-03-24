@@ -23,11 +23,3 @@ delle chiavi private
 .. image:: img/SSH_Gateway3.jpg
 
 .. image:: img/SSH_Gateway4.jpg
-
-
-..
-
-    .. toctree::
-        ../Linee_guida/9.6B__Meccanismi_di_autenticazioneDB.rst
-
-..
