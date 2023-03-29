@@ -11,18 +11,16 @@ di assistenza.
 L’attività di assistenza all’interno del Team di Supporto Nivola è
 articolata su uno schema di supporto basato su tre livelli:
 
-#. Developer: chat, compilazione form su SP
+1. Developer: compilazione form su SP
 
-#. Standard: chat, compilazione form su SP, invio e-mail, contatto
-   telefonico
+2. Standard: compilazione form su SP, contatto telefonico
 
-#. Premium: chat, compilazione form su SP invio e-mail, contatto
-   telefonico
+3. Premium: compilazione form su SP, contatto telefonico
 
 Per quanto riguarda la copertura oraria e Livelli di Servizio fare
 riferimento all’\ `Allegato tecnico del Catalogo Servizi Nivola. <http://intranet.csi.it/monitoraggio/dwd/2019/Catalogo-e-Listino-CSI-2019-04-Allegato-tecnico-Servizi-Nivola.pdf>`__
 
-Tutti i canali, ad eccezione della chat, sono presidiati dal **Centro
+Tutti i canali sono presidiati dal **Centro
 Unico di Contatto (CUC)** nella fascia lavorativa dal lunedì al venerdì
 dalle 8 alle 18. Per le restanti fasce orarie è possibile avere un
 riscontro immediato solo attraverso il canale telefonico garantito dal
@@ -55,8 +53,6 @@ trovasse la risposta alla sua problematica ha a disposizione alcuni
 strumenti interattivi che gli permettono di comunicare direttamente con
 il Team di Supporto Nivola:
 
--  chat attivabile dal Service Portal
-
 -  compilazione form su Service Portal
 
 .. image:: img/Attivare_supporto.png
@@ -78,38 +74,33 @@ l’istanza di produzione purchè appartenenti ad Account differenti.
 
 Il Supporto è attivabile dagli utenti esterni sui seguenti canali
 
-Service Portal: chat, compilazione form su Service Portal
-
-**E-mail** alla casella: hd_servizinivola@csi.it
+Service Portal: compilazione form su Service Portal
 
 **Telefono** Centro Unico di Contatto: +39 011 0824221
 
 
-Dal mese di Marzo, è stata attivata la nuova modalità per richiedere assistenza all'interno della sezione privata del Service Portal di Nivola:
+E' attiva la nuova modalità per richiedere assistenza all'interno della sezione privata del Service Portal di Nivola:
 
 https://www.nivolapiemonte.it/
+
+Al seguente link è possibile trovare la sezione per l'apertura dei ticket da Service Portal Nivola
+
+.. toctree::
+    ../Come_fare_per/100.35_Creare_nuovo_ticket.rst
 
 Ricordiamo che l'accesso avviene tramite Spid o con Carta d'Identità Elettronica.
 
 Nel caso non foste abilitati sui vostri account Nivola è necessario inviare la richiesta di creazione utenza ed associazione con i seguenti dati:
 
-⦁ Nome
-⦁ Cognome
-⦁ Codice Fiscale
-⦁ Indirizzo Email
-⦁ Account Nivola a cui richiedete l'accesso
-⦁ Referente dell'account nivola
-⦁ Ruoli da assegnare all'utente (Viewer account, Master Account)
+- Nome
+- Cognome
+- Codice Fiscale
+- Indirizzo Email
+- Account Nivola a cui richiedete l'accesso
+- Referente dell'account nivola
+- Ruoli da assegnare all'utente (Viewer account, Master Account)
 
 I dati devono essere inviati da un referente già abilitato su Service Portal, oppure in caso di nuovo account Nivola contattando il Call center CSI Piemonte al numero 0110824221 
 
-**La casella di posta hd_servizinivola@csi.it sarà definitivamente dismessa in data 30/05/2022**
-
 
 Solo per i dipendenti e consulenti CSI è possibile aprire il ticket anche attraverso il sistema aziendale di ticketing  Self Help READY2USE
-
-Nei paragrafi sottostanti è inoltre possibile trovare la sezione specifica relativa all'uso del sistema di ticketing da Service Portal Nivola
-
-.. toctree::
-    ../Come_fare_per/100.0_Assistenza.rst
-
