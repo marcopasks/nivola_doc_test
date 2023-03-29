@@ -103,12 +103,12 @@ Nel caso non foste abilitati sui vostri account Nivola è necessario inviare la 
 
 I dati devono essere inviati da un referente già abilitato su Service Portal, oppure in caso di nuovo account Nivola contattando il Call center CSI Piemonte al numero 0110824221 
 
-La casella di posta hd_servizinivola@csi.it sarà definitivamente dismessa in data 30/05/2022
-_____________________________________________________________________________________________________________________________________________________
+**La casella di posta hd_servizinivola@csi.it sarà definitivamente dismessa in data 30/05/2022**
+
 
 Solo per i dipendenti e consulenti CSI è possibile aprire il ticket anche attraverso il sistema aziendale di ticketing  Self Help READY2USE
 
-Al seguente link è inoltre possibile trovare la sezione specifica relativa all'uso del sistema di ticketing da Service Portal Nivola
+Nei paragrafi sottostanti è inoltre possibile trovare la sezione specifica relativa all'uso del sistema di ticketing da Service Portal Nivola
 
 .. toctree::
     ../Come_fare_per/100.0_Assistenza.rst
