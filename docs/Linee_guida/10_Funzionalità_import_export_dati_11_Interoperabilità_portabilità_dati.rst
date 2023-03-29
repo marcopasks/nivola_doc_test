@@ -1,7 +1,7 @@
-.. _10_Funzionalità_import_export_dati:
+.. _10_Funzionalità_import_export_dati_11_Interoperabilità_portabilità_dati:
 
-**Funzionalità per l'import e l'export dei dati**
-=================================================
+**Funzionalità per l'import e l'export dei dati e Interoperabilità e portabilità dei dati**
+===========================================================================================
 
 Nel servizio SFTP su Nivola vengono definite le utenze utilizzate per il trasferimento dei files da e verso l’ambiente Nivola.
 

@@ -31,6 +31,8 @@ Per efettuare l'abilitazione procedere in questo modo:
 
         .. image:: img/Add_VM.png
 
+        2. Individuare la VM dall’elenco **Associa un nuovo servizio di monitoraggio**, mettendo una spunta a fianco del nome; DA QUI
+
         
 
 

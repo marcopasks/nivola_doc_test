@@ -1,12 +1,22 @@
 .. _Meccanismi_di_autenticazioneDB:
 
-IMPORTANTE -> Per rendere visibile questo stesso file (attualmente nascosto) occorre aggiungere le seguenti righe:
+**IMPORTANTE**
+
+Per rendere visibile questo stesso file (attualmente nascosto) occorre 
+
+
+1) aggiungere le seguenti righe:
 
   .. toctree::
         ../Linee_guida/9.6B__Meccanismi_di_autenticazioneDB.rst
 
 
-al fondo del file 9.6__Meccanismi_di_autenticazione.rst
+al fondo del file **9.6__Meccanismi_di_autenticazione.rst**
+
+
+
+2) rinominare questo stesso file in 9.6B__Meccanismi_di_autenticazioneDB.rst
+
 
 
 
