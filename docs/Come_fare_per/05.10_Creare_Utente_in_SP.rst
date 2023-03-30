@@ -1,9 +1,9 @@
-.. _Creare_Utente:
+.. _Creare_Utente_in_SP:
 
-**Creare Utente**
-#################
+**Creare Utente all'interno del Service Portal**
+################################################
 
-La funzione **Creazione di un utente** è attivabile, principalmente,
+La funzione **Creazione di un utente** all'interno del Service Portal è attivabile, principalmente,
 attraverso queste due modalità:
 
 1. Dalla parte sinistra dello schermo, cliccando sulla label **Registra Nuovo Utente**
