@@ -11,19 +11,23 @@ richiedendo la creazione dell’account con i seguenti dati minimi obbligatori:
 - Indirizzo e-mail
 - Codice Fiscale
 
-L’utente, se i dati inseriti saranno corretti, verrà generato e quindi disponibile per l'Accreditamento
-Terminata la fase di accreditamento, per accedere al Nivola Service Portal è sufficiente collegarsi all’URL https://portal.nivolapiemonte.it/ con le proprie credenziali 
+L’utente, se i dati inseriti saranno corretti, verrà generato e quindi disponibile per l'Accreditamento.
+
+Terminata la fase di accreditamento, per accedere al Nivola Service Portal è sufficiente collegarsi all’URL **https://portal.nivolapiemonte.it/** con le proprie credenziali 
 scegliendo tra i seguenti sistemi di autenticazione:
+
 - SPID
 - CIE - Carte di Identità Elettronica
 - TS-CNS - Sistema Tessere Sanitaria
 - PSNet
 - Sistema Piemonte
 
-Indipendentemente dal sistema di autenticazione scelto dall’utente, il Nivola Service Portal procederà a
+Indipendentemente dal sistema di autenticazione scelto dall’utente, il Nivola Service Portal procederà a:
+
 - ridirigere l’utente verso l’Identity Provider corretto per la verifica delle credenziali
 - individuare il Codice Fiscale dell’utente
 - autorizzare l’accesso alla piattaforma Nivola in base al proprio profilo
+
 
 **Accreditamento utente su nuovo account**
 Se non richiesto all’atto della creazione dell’account Nivola per il primo accreditamento di un utente Master può essere richiesta per il referente del servizio 
