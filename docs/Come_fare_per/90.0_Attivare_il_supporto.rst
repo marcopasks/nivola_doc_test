@@ -3,19 +3,15 @@
 **Come attivare il Supporto**
 *****************************
 
-Le attività di assistenza relative al Service Portal Nivola e a tutti i
-servizi fruibili non possono prescindere dai livelli di servizio
-individuati nonché degli strumenti adottati per l’erogazione dei servizi
-di assistenza.
+Le attività di assistenza relative al Service Portal Nivola e a tutti i servizi fruibili non possono prescindere dai livelli di servizio individuati nonché 
+degli strumenti adottati per l’erogazione dei servizi di assistenza.
+L’attività di assistenza all’interno del Team di Supporto Nivola è articolata su uno schema di supporto basato su tre livelli:
 
-L’attività di assistenza all’interno del Team di Supporto Nivola è
-articolata su uno schema di supporto basato su tre livelli:
+1.	Developer: compilazione form su SP
 
-1. Developer: compilazione form su SP
+2.	Standard: compilazione form su SP, contatto telefonico
 
-2. Standard: compilazione form su SP, contatto telefonico
-
-3. Premium: compilazione form su SP, contatto telefonico
+3.	Premium: compilazione form su SP, contatto telefonico
 
 Per quanto riguarda la copertura oraria e Livelli di Servizio fare
 riferimento all’\ `Allegato tecnico del Catalogo Servizi Nivola. <http://intranet.csi.it/monitoraggio/dwd/2019/Catalogo-e-Listino-CSI-2019-04-Allegato-tecnico-Servizi-Nivola.pdf>`__
@@ -42,27 +38,18 @@ all’utilizzo della piattaforma.
 In particolare sono disponibili:
 
 -  manuali utente sull’utilizzo della piattaforma;
-
--  eventuali video esplicativi per la verifica e l’utilizzo di
-   funzionalità specifiche;
-
+-  eventuali video esplicativi per la verifica e l’utilizzo di funzionalità specifiche;
 -  FAQ per la risoluzione dei problemi più comuni.
 
-Qualora l’utente/cliente, attraverso l’utilizzo di questi strumenti non
-trovasse la risposta alla sua problematica ha a disposizione alcuni
-strumenti interattivi che gli permettono di comunicare direttamente con
-il Team di Supporto Nivola:
+.. image:: img/90.0_Attivare_supporto.png
 
--  compilazione form su Service Portal
-
-.. image:: img/Attivare_supporto.png
 
 L’accessibilità ai singoli strumenti di assistenza è diversa a seconda
 dei singoli livelli di servizio attivati dall’utente/cliente (cfr.
 tabella di seguito riportata):
 
 
-.. image:: img/certificazioni_gdpr.png
+.. image:: img/90.0_certificazioni_gdpr.png
 
 
 Le 3 tipologie di supporto sono collegate all’istanza di servizio. Ad
@@ -74,33 +61,6 @@ l’istanza di produzione purchè appartenenti ad Account differenti.
 
 Il Supporto è attivabile dagli utenti esterni sui seguenti canali
 
-Service Portal: compilazione form su Service Portal
+Service Portal: form su Service Portal
 
 **Telefono** Centro Unico di Contatto: +39 011 0824221
-
-
-E' attiva la nuova modalità per richiedere assistenza all'interno della sezione privata del Service Portal di Nivola:
-
-https://www.nivolapiemonte.it/
-
-Al seguente link è possibile trovare la sezione per l'apertura dei ticket da Service Portal Nivola
-
-.. toctree::
-    ../Come_fare_per/100.35_Creare_nuovo_ticket.rst
-
-Ricordiamo che l'accesso avviene tramite Spid o con Carta d'Identità Elettronica.
-
-Nel caso non foste abilitati sui vostri account Nivola è necessario inviare la richiesta di creazione utenza ed associazione con i seguenti dati:
-
-- Nome
-- Cognome
-- Codice Fiscale
-- Indirizzo Email
-- Account Nivola a cui richiedete l'accesso
-- Referente dell'account nivola
-- Ruoli da assegnare all'utente (Viewer account, Master Account)
-
-I dati devono essere inviati da un referente già abilitato su Service Portal, oppure in caso di nuovo account Nivola contattando il Call center CSI Piemonte al numero 0110824221 
-
-
-Solo per i dipendenti e consulenti CSI è possibile aprire il ticket anche attraverso il sistema aziendale di ticketing  Self Help READY2USE
