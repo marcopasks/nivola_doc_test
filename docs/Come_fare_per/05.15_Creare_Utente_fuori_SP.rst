@@ -11,10 +11,8 @@ richiedendo la creazione dell’account con i seguenti dati minimi obbligatori:
 - Indirizzo e-mail
 - Codice Fiscale
 
-L’utente, se i dati inseriti saranno corretti, verrà generato e quindi disponibile per l'**Accreditamento**
-
-.. toctree::
-    ../Come_fare_per/05.2_Accreditare_Utente.rst
+L’utente, se i dati inseriti saranno corretti, verrà generato e quindi disponibile per l'**Accreditamento** 
+.. toctree:: ../Come_fare_per/05.2_Accreditare_Utente.rst
 
 
 Terminata la fase di accreditamento, per accedere al Nivola Service Portal è sufficiente collegarsi all’URL **https://portal.nivolapiemonte.it/** con le proprie 
