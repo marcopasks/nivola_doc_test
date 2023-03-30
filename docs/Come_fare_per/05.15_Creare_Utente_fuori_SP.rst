@@ -1,7 +1,7 @@
 .. _Creare_Utente_fuori_SP:
 
-**Creare Utente esterna al Service Portal**
-###########################################
+**Creare Utente esternamente al Service Portal**
+################################################
 
 Nel caso non sia possibile la creazione di un account all’interno del Service Portal è necessario contattare il servizio di assistenza secondo i canali a disposizione 
 richiedendo la creazione dell’account con i seguenti dati minimi obbligatori:
