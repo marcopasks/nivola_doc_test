@@ -7,11 +7,11 @@ Le attività di assistenza relative al Service Portal Nivola e a tutti i servizi
 degli strumenti adottati per l’erogazione dei servizi di assistenza.
 L’attività di assistenza all’interno del Team di Supporto Nivola è articolata su uno schema di supporto basato su tre livelli:
 
-1.	Developer: compilazione form su SP
+1.	Developer: compilazione Ticket su SP
 
-2.	Standard: compilazione form su SP, contatto telefonico
+2.	Standard: compilazione Ticket su SP, contatto telefonico
 
-3.	Premium: compilazione form su SP, contatto telefonico
+3.	Premium: compilazione Ticket su SP, contatto telefonico
 
 Per quanto riguarda la copertura oraria e Livelli di Servizio fare
 riferimento all’\ `Allegato tecnico del Catalogo Servizi Nivola. <http://intranet.csi.it/monitoraggio/dwd/2019/Catalogo-e-Listino-CSI-2019-04-Allegato-tecnico-Servizi-Nivola.pdf>`__
@@ -61,6 +61,6 @@ l’istanza di produzione purchè appartenenti ad Account differenti.
 
 Il Supporto è attivabile dagli utenti esterni sui seguenti canali
 
-Service Portal: form su Service Portal
+Service Portal: Sezione Assistenza su Service Portal
 
-**Telefono** Centro Unico di Contatto: +39 011 0824221
+**Telefono** Centro Unico di Contatto: +39 011 082422

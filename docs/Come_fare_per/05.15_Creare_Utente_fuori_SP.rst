@@ -34,8 +34,10 @@ Indipendentemente dal sistema di autenticazione scelto dall’utente, il Nivola 
 
 **Accreditamento utente su nuovo account**
 
-Se non richiesto all’atto della creazione dell’account Nivola per il primo accreditamento di un utente Master può essere richiesta per il referente del servizio 
-secondo i canali a disposizione, indicando il nome utente precedentemente richiesto e **Organizzazione, Divisione, Account**  a cui i richiede l’accreditamento.
+Se eventualmente non esiste alcun account Master associato all'account Nivola, in quanto eventualmente non indicato al momento della richiesta di creazione, 
+per il primo accreditamento di un utente Master è necessario contattare il servizio di assistenza secondo i canali a disposizione richiedendone a creazione 
+a cura del referente di progetto,  indicando il nome e cognome utente  e Codice Fiscale usato in fase di registrazione e **Organizzazione, Divisione, Account** 
+a cui si richiede l’accreditamento.
 
 
 I successivi accreditamenti possono essere effettuati in autonomia L’utente sarà accreditato nel livello organizzativo e nel ruolo indicati.
