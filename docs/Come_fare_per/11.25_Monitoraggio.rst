@@ -39,7 +39,7 @@ Per effettuare l'abilitazione procedere in questo modo:
 
 
 
-        3. Cliccare su pulsante **RICHIEDI L'ASSOCIAZIONE DEL SERVIZIO**
+        3. Cliccare su pulsante **RICHIEDI L'ASSOCIAZIONE DEL SERVIZIO**;
 
 
 
@@ -59,7 +59,7 @@ Per effettuare l'abilitazione procedere in questo modo:
         
 
         
-        6. Cliccare sul tasto **CHIUDI**
+        6. Cliccare sul tasto **CHIUDI**;
 
 
 
