@@ -30,25 +30,25 @@ Per effettuare l'abilitazione procedere in questo modo:
         1.Fare clic sul pulsante "+""
 
         .. image:: img/Add_VM.png
-|
+.
         2. Individuare la VM dall’elenco **Associa un nuovo servizio di monitoraggio**, mettendo una spunta a fianco del nome
 
         .. image:: img/11.25_Associa_Monitor.png
-|
+.
         3. Cliccare su pulsante **RICHIEDI L'ASSOCIAZIONE DEL SERVIZIO**
-|
+.
         4. All'interno della finestra **Conferma attivazione servizio** cliccare sul pulsante **CONFERMA**
 
         .. image:: img/11.25_Conferma_Servizio.png
-|
+.
         5. Appariranno i seguenti messaggii di conferma rispettivamente in alto a destra e in centro allo schermo
 
         .. image:: img/11.25_DX_MonitoringOk.png
-|
+.
         .. image:: img/11.25_DX_MonitoringCentro.png
-|
+.
         6. Cliccare sul tasto **CHIUDI**
-|
+.
         7. la VM comparirà in elenco con stato **ATTIVA**
 
         .. image:: img/11.25_MonitoringOK.png
