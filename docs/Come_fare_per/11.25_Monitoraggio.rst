@@ -62,6 +62,7 @@ Per effettuare l'abilitazione procedere in questo modo:
         6. Cliccare sul tasto **CHIUDI**
 
 
+
         7. la VM comparirà in elenco con stato **ATTIVA**
 
         .. image:: img/11.25_MonitoringOK.png
