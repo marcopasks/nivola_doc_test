@@ -1,9 +1,9 @@
 .. _Verificare_Accredi_Utente:
 
-**Verificare Accrediti dell' Utente**
-#####################################
+**Verificare Accrediti dell'Utente**
+####################################
 
-La funzione per la **Verificare Accrediti dell' Utente**
+La funzione per la **Verificare Accrediti dell'Utente**
 è attivabile dal pulsante **Elenco utenti registrati**
 
 

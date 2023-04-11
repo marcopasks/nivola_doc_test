@@ -62,7 +62,7 @@ La funzione inizia premendo il tasto **"+"**
 
 .. image:: img/Add_VM.png
 
-Nella casella di testo, **inserire nome della nuova chiave**
+Nella casella di testo, **inserire il nome della nuova chiave**
 dando modo al sistema di dare un nome alla chiave
 aggiungendo il suffisso "key", il nome dell'account al termine della stringa
 digitata. Terminare premendo **CREA CHIAVE**
@@ -75,7 +75,7 @@ dopo di che distinguerla nella lista e premere **VAI A RIEPILOGO**;
 
 **IMPORTANDO LA CHIAVE SSH**
 
-Premere il tasto per l' "importazione"
+Premere il tasto per l'importazione
 
 .. image:: img/Crea-ssh-da-lista.png
 
@@ -90,14 +90,14 @@ selezionarla dalla lista e premere **VAI A RIEPILOGO**;
 
 .. image:: img/key-ssh-selezionata-da-lista.png
 
-8. Controllare gli attributi del server da creare
+7. Controllare gli attributi del server da creare
 e validarli premendo sul pulsante **CONFERMA E CREA LA VIRTUAL MACHINE**.
 Il portale procederà alla creazione della **VM** utilizzando i parametri
 inseriti dall'operatore;
 
 .. image:: img/Riepilogo_VM.png
 
-9. Attendere qualche secondo e il server, comparirà nell’**ELENCO VM**.
+8. Attendere qualche secondo e il server, comparirà nell’**ELENCO VM**.
 Lo stato iniziale della nuova **Virtual Machine** sarà **acceso** e
 quindi disponibile.
 

@@ -30,7 +30,7 @@ Premere tasto **"+"**;
 
 .. image:: img/Add_VM.png
 
-**Inserire nome della nuova chiave** e attendere la produzione. Una volta
+**Inserire il nome della nuova chiave** e attendere la produzione. Una volta
  generata, selezionarla, premere **CREA CHIAVE** e attendere la risposta del sistema.
 
 .. image:: img/Crea-keyssh-ex-novo.png
