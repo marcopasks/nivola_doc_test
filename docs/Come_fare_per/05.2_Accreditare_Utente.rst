@@ -7,7 +7,7 @@ La funzione **Accreditamento di utente** è attivabile da un utente **MASTER** d
 
 
 Prerequisito per accreditare un nuovo utente al proprio account è l’esistenza dello stesso. Nel caso l’utente debba essere creato su Nivola consultare  i capitoli relativi alla creazione degli utenti
-#######################################################################################################################################################################################################
+*******************************************************************************************************************************************************************************************************
 
 
 Se L’utente esiste (eventualmente richiedere di effettuare un primo accesso al Service Portal), dall’elenco **Utenti Registrati**
