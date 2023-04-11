@@ -6,10 +6,7 @@
 La funzione **Accreditamento di utente** è attivabile da un utente **MASTER** dell’account in maniera self-service.
 
 
-Prerequisito per accreditare un nuovo utente al proprio account è l’esistenza dello stesso. Nel caso l’utente debba 
--------------------------------------------------------------------------------------------------------------------
-essere creato su nivola consultare  i capitoli relativi alla creazione degli utenti
------------------------------------------------------------------------------------
+:underline:`Prerequisito per accreditare un nuovo utente al proprio account è l’esistenza dello stesso. Nel caso l’utente debba essere creato su nivola consultare  i capitoli relativi alla creazione degli utenti`
 
 
 Se L’utente esiste (eventualmente richiedere di effettuare un primo accesso al Service Portal), dall’elenco **Utenti Registrati**
@@ -18,7 +15,7 @@ Se L’utente esiste (eventualmente richiedere di effettuare un primo accesso al
 
 
 
-Verifico gli utenti attualmente registrati sull’account, ed i loro ruoli all’interno dello stesso.
+Verificare gli utenti attualmente registrati sull’account, ed i loro ruoli all’interno dello stesso.
 
 
 Per aggiungere un nuovo account, selezionare il tasto di aggiunta utenti:
@@ -41,7 +38,7 @@ cliccando sul Box “> **VAI A ACCREDITAMENTO**”
   .. image:: img/05.2_vaiAccreditamento.png
 
 
-Nel form per l’accreditamento semplicemente selezionare il ruolo da assegnare all’account.
+Nel form per l’accreditamento semplicemente selezionare il ruolo da assegnare all’account:
 
   .. image:: img/05.2_ruoloDaAssegnare.png
 
