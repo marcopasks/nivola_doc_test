@@ -7,7 +7,7 @@ La funzione **Accreditamento di utente** è attivabile attraverso due modalità,
 oppure il ruolo **Master di account**
 
 
-Tramite il ruolo il ruolo **Amministratore di Backoffice** dall'elenco **Lista utenti Registrati** 
+1. tramite il ruolo il ruolo **Amministratore di Backoffice** accedere all'elenco **Lista utenti Registrati** 
 (all'interno dei menù  **Amministrazione -> Utenti**)
 
    .. image:: img/Utente_innesco_accredito.png
@@ -31,7 +31,7 @@ L'utente sarà accreditato nel livello organizzativo e nel ruolo indicati.
 
 
 
-Tramite il ruolo il ruolo **Master di account** dall'elenco **Lista utenti accreditati**
+2. tramite il ruolo il ruolo **Master di account** accedere all'elenco **Lista utenti accreditati**
 (all'interno dei menù  **Gestione account -> Utenti**)
 
 .. image:: img/05.2_MAutente_innesco_accredito.png
