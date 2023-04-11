@@ -3,61 +3,21 @@
 **Accreditare Utente**
 ######################
 
-La funzione **Accreditamento di utente** è attivabile da un utente **MASTER** dell’account in maniera self-service.
-
-
-<<Prerequisito per accreditare un nuovo utente al proprio account è l’esistenza dello stesso. Nel caso l’utente debba essere creato su Nivola consultare  i capitoli relativi alla creazione degli utenti>>
-
-
-Se L’utente esiste (eventualmente richiedere di effettuare un primo accesso al Service Portal), dall’elenco **Utenti Registrati**
+La funzione **Accreditamento di utente** è attivabile dall'elenco **Utenti Registrati**
 
    .. image:: img/Utente_innesco_accredito.png
 
+Dall'elenco selezionare l'utente da accreditare mettendo una spunta sulla Checkbox relativa
 
+  .. image:: img/Utente_elenco.png
 
-Verificare gli utenti attualmente registrati sull’account, ed i loro ruoli all’interno dello stesso.
-
-
-Per aggiungere un nuovo account, selezionare il tasto di aggiunta utenti:
+Premere sul pulsante **Accredita utente**
 
   .. image:: img/Utente_pulsante_accredito.png
 
+Nella nuova form, sfruttando le Combo Box, indicare **Ruolo**, **Organizzazione**,
+**Divisione**, **Account** e premere il tasto **Accredita**
 
-Viene presentata una form per inserire i dati dell’utente da inserire nell’account.
+  .. image:: img/Utente_form_accredito.png
 
-
-Inserire il Codice Fiscale per identificare in modo univoco l’utente, nel caso non esista la registrazione dell’utente viene 
-presentato un messaggio di errore:
-
-  .. image:: img/05.2_inserireCF.png
-
-
-Se invece l’utente è già presente nel Database di Nivola viene segnalato ed è possibile proseguire nella fase di accreditamento, 
-cliccando sul Box “> **VAI A ACCREDITAMENTO**”
-
-  .. image:: img/05.2_vaiAccreditamento.png
-
-
-Nel form per l’accreditamento semplicemente selezionare il ruolo da assegnare all’account:
-
-  .. image:: img/05.2_ruoloDaAssegnare.png
-
-
-Selezionare **Viewer di account** oppure **Master di account**:
-
-  .. image:: img/05.2_viewerOmaster.png
-
-
-Successivamente selezionare l’account:
-
-  .. image:: img/05.2_selezionareAccount.png
-
-
-Premere sul pulsante **Accredita**:
-
-  .. image:: img/05.2_Accredita.png
-
-
-A questo punto l’utente è correttamente accreditato con il ruolo scelto.  
-
-
+L'utente sarà accreditato nel livello organizzativo e nel ruolo indicati.
