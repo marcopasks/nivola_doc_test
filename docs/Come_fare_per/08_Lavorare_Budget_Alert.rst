@@ -3,24 +3,16 @@
 **Lavorare con Budget e Alert**
 ###############################
 
-Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
+Tutte le funzioni per gestire il ciclo di vita dei Budget e Alert sui costi di un account
 
 .. toctree::
    :maxdepth: 2
  
-   11.1_Creare_VM.rst
-   11.2_Accedere_VM.rst
-   11.3_Gestire_VM.rst
-   11.4_Cancellare_VM.rst
-   11.5_Gestione_chiavi_ssh.rst
-   11.6_Modificare_tipo_VM.rst
-   11.7_Creare_Snapshot.rst
-   11.7.0_Elenco_Snapshot.rst
-   11.8_Ripristinare_Snapshot.rst
-   11.9_Cancellare_Snapshot.rst
-   11.10_Modificare_SG.rst
-   11.12_Aggiungere_SG.rst
-   11.14_Rimuovere_SG.rst
-   11.20_Jobs_Backup.rst
-   11.25_Monitoraggio.rst
-   11.30_Log_Management.rst
+   8.1_Creare_Budget.rst
+   8.3_Cercare_Budget.rst
+   8.5_Cancellare_Budget.rst
+   8.7_Modificare_Budget.rst
+   8.9_Visualizzare_Avvisi.rst
+   8.11_Creare_Alert.rst
+   8.13_Cancellare_Alert.rst
+   8.15_Modificare_Alert.rst
