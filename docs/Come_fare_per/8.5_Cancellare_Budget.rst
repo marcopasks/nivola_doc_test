@@ -1,16 +1,16 @@
 .. _Cancellare_Budget:
 
-**Cancellare uno o più Budget**
+**Cancellazione Budget**
 ===============================
 
 Per **cancellare** uno o più Budget procedere con le seguenti operazioni:
 
-1. Selezionare dal checkbox laterale sinistro i budget da cancellare
+1. Selezionare dal checkbox laterale sinistro i budget da cancellare, oppure effettuare una ricerca tramite Nome oppure Descrizione
 
 .. image:: img/8.5_SelezionaXCancBudget.png
 
 
-2. Il sistema popolerà lo schermo, con i budget che soddisfano il criterio di selezione
+2. Il sistema popolerà lo schermo, con il budget selezionato o che soddisfa il criterio di selezione
 
 .. image:: img/8.3_BudgetTrovatoDX.png
 
