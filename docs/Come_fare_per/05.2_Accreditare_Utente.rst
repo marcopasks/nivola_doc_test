@@ -52,7 +52,7 @@ cliccando sul pulsante **VAI A ACCREDITAMENTO**
 .. image:: img/05.2_vaiAaccreditamento.png
 
 
-Nel form per l’accreditamento selezionare semplicemente il ruolo da assegnare all’utente:
+Nella form per l’accreditamento selezionare semplicemente il ruolo da assegnare all’utente:
 
 .. image:: img/05.2_ruoloDaAssegnare.png
 
@@ -61,12 +61,12 @@ Selezionare **Viewer di account** oppure **Master di account**
 .. image:: img/05.2_viewerOmaster.png
 
 
-Successivamente selezionare l’account:
+Successivamente selezionare l’ **Account**:
 
 .. image:: img/05.2_selezionareAccount.png
 
 
-Premere sul pulsante Accredita:
+Premere sul pulsante **Accredita**:
 
 .. image:: img/05.2_Accredita.png
 
