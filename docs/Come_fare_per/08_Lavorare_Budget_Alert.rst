@@ -1,0 +1,26 @@
+.. _08_Lavorare_Budget_Alert:
+
+**Lavorare con Budget e Alert**
+###############################
+
+Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
+
+.. toctree::
+   :maxdepth: 2
+ 
+   11.1_Creare_VM.rst
+   11.2_Accedere_VM.rst
+   11.3_Gestire_VM.rst
+   11.4_Cancellare_VM.rst
+   11.5_Gestione_chiavi_ssh.rst
+   11.6_Modificare_tipo_VM.rst
+   11.7_Creare_Snapshot.rst
+   11.7.0_Elenco_Snapshot.rst
+   11.8_Ripristinare_Snapshot.rst
+   11.9_Cancellare_Snapshot.rst
+   11.10_Modificare_SG.rst
+   11.12_Aggiungere_SG.rst
+   11.14_Rimuovere_SG.rst
+   11.20_Jobs_Backup.rst
+   11.25_Monitoraggio.rst
+   11.30_Log_Management.rst
