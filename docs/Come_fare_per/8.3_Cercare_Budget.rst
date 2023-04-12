@@ -1,7 +1,8 @@
 .. _Cercare_Budge:
 
 **Cercare Budget**
-=================
+==================
+
 All’interno di ciascun Account è possibile fare **ricerche** su tutti i budget creati. La ricerca è eseguita tramite una stringa inserita dall’operatore.
 Nivola ricerca il set di caratteri nelle colonne **Nome** e **Descrizione**.
 Per eseguire una ricerca è necessario procedere in questo modo:
