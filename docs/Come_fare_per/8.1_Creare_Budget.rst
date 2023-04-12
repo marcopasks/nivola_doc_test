@@ -30,8 +30,7 @@ Verrà aperta la pagina **Crea nuovo Budget**
 2. Il Tipo del budget (attulamente solo Mensile)
 3. L’Importo del budget, la cifra numerica che rappresenta il limite economico da non superare
 4. La Data di inizio e fine Applicazione del budget, in mesi e anni (MM/YYYY)
-5. Spuntare la casella Attiva avvisi predefiniti, se si desidera ricevere degli avvisi via mail al 
-raggiungimento del 70, 85 e 100% dell’importo indicato in precedenza
+5. Spuntare la casella Attiva avvisi predefiniti, se si desidera ricevere degli avvisi via mail al raggiungimento del 70, 85 e 100% dell’importo indicato in precedenza
 6. Inserire da 1 a 3 indirizzi mail, per ricevere nella propria casella di posta le notifiche di raggiungimento della soglia
 
 .. image:: img/8.1_AvvisiBudget.png
