@@ -3,28 +3,28 @@
 **Modificare Budget**
 =====================
 
-Il sistema consente la **modifica** di un budget alla volta, procedendo in questo modo:
+Il sistema consente la **modifica** di un budget alla volta, procedendo in questo modo
 
-1. Selezionare un budget dal checkbox a sinistra del **Nome** nell’apposita lista
+1. Selezionare un budget dal checkbox a sinistra del nome:
 
 .. image:: img/8.7_ModifBudget.png
 
 
-2. Premere il bottone **Modifica** in alto a destra 
+2. Premere il bottone **Modifica** in alto a destra:
 
 .. image:: img/8.7_PulsanteModif.png
 
 
-3. Modificare i campi desiderati, tenendo sempre conto della formalità applicata
+3. Modificare i campi desiderati:
 
 .. image:: img/8.7_ModifBudget2.png
 
 
-4. Premere il bottone **AGGIORNA BUDGET** per salvare e rendere effettivi i dati appena modificati
+4. Premere il bottone **AGGIORNA BUDGET** per salvare e rendere effettivi i dati appena modificati:
 
 .. image:: img/8.7_AggiornaBudget.png
 
 
-5. I dati sono stati aggiornati nell’elenco budget e nel grafico Costi e Consumi
+5. I dati sono stati aggiornati nell’elenco budget e nel grafico Costi e Consumi:
 
 .. image:: img/8.7_DatiAggiornati.png
