@@ -1,6 +1,6 @@
 .. _Cancellare_Budget:
 
-**Cancellazione Budget**
+**Cancellare Budget**
 ===============================
 
 Per **cancellare** uno o più Budget procedere con le seguenti operazioni:
