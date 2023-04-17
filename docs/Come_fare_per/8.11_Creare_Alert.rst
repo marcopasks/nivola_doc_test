@@ -1,0 +1,63 @@
+.. _Creare_Alert:
+
+**Creare Alert**
+================
+
+Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
+
+- Il primo metodo può essere applicato direttamente durante la creazione di un budget, attraverso la creazione di tre Avvisi automatici che si attivano al raggiungimento del 70%, dell'85% e del 100% della cifra di budget totale
+
+- Il secondo metodo, post creazione Budget, permette di gestire in totale libertà gli avvisi collegati al budget selezionato
+
+
+**Creazione Avviso durante creazione di un budget**
+
+1. Iniziare il processo di creazione del budget, inserendo tutti i dati richiesti
+2. Selezionare il checkbox **Attiva avvisi predefiniti**
+
+.. image:: img/8.9_Visualizza_Budget.png
+
+3. Verranno visualizzate le seguenti informazioni
+
+.. image:: img/8.11_info_percentuale.png
+
+4. Inserire da 1 a 3 indirizzi email sui quali ricevere gli avvisi, scrivendo l’indirizzo nella casella “Inserisci indirizzo…” e premendo su “AGGIUNGI INDIRIZZO” a fine inserimento
+
+.. image:: img/8.11_Aggiunta_Mail1.png
+
+5. Gli indirizzi email appena salvati saranno riportati a destra, con possibilità di eliminazione nel caso di errori
+
+.. image:: img/8.11_Aggiunta_Mail2.png
+
+6. Una volta salvate tutte le email corrette, premere sul bottone **CREA NUOVO BUDGET**
+
+.. image:: img/8.11_Pulsante_Crea.png
+
+
+**Creazione Avviso post creazione Budget**
+
+1. Accedere alla pagina **Gestione avvisi del Budget**
+
+.. image:: img/8.11_Avviso_da_GestioneBudget.png
+
+2. Premere sul bottone **+** vicino all’importo del budget
+
+.. image:: img/8.11_TastoPiu_GestioneBdget.png
+
+3. Si aprirà la pagina **   Crea nuovo Avviso**, con i seguenti campi da popolare
+
+.. image:: img/8.11_Crea_Nuovo_Avviso.png
+
+4. Completato l’inserimento di dati ed email (come nella precedente modalità di creazione), premere il pulsante **ASSOCIA NUOVO AVVISO*
+
+.. image:: img/8.11_Pulsante_Associa_Avviso.png
+
+5. Il nuovo avviso sarà ora attivo e visualizzabile nell’elenco degli Alert associati al budget
+
+.. image:: img/8.11_Gestione_Avvisi_da_CreazionePost.png
+
+
+
+
+
+
