@@ -13,7 +13,7 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 **Creazione Avviso durante creazione di un budget**
 
 1. Iniziare il processo di creazione del budget, inserendo tutti i dati richiesti
-
+.
 2. Selezionare il checkbox **Attiva avvisi predefiniti**
 
 .. image:: img/8.11_Attiva_Avvisi_Predefiniti.png
