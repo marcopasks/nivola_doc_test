@@ -13,7 +13,6 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 **Creazione Avviso durante creazione di un budget**
 
 1. Iniziare il processo di creazione del budget, inserendo tutti i dati richiesti
-. 
 2. Selezionare il checkbox **Attiva avvisi predefiniti**
 
 .. image:: img/8.11_Attiva_Avvisi_Predefiniti.png
@@ -42,7 +41,7 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
 .. image:: img/8.11_Avviso_da_GestioneBudget.png
 
-2. Premere sul bottone **+** vicino all’importo del budget
+2. Premere sul bottone **+ ("crea nuovo avviso*)**" vicino all’importo del budget
 
 .. image:: img/8.11_TastoPiu_GestioneBdget.png
 
@@ -50,7 +49,14 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
 .. image:: img/8.11_Crea_Nuovo_Avviso.png
 
-4. Completato l’inserimento di dati ed email (come nella precedente modalità di creazione), premere il pulsante **ASSOCIA NUOVO AVVISO**
+4.
+Inserire il **Nome** e la **Descrizione**
+Inserire il **Tipo di avviso**, scegliendo fra "Alert su valori effettivi dei costi" e "Alert sui valori previsti (forecat) dei costi"
+Inserire la **Percentuale di controllo**
+L’Importo del budget, la cifra numerica che rappresenta il limite economico da non superare
+Inserire da 1 a 3 indirizzi mail, per ricevere nella propria casella di posta le notifiche di raggiungimento della soglia
+
+Premere il pulsante **ASSOCIA NUOVO AVVISO**
 
 .. image:: img/8.11_Pulsante_Associa_Avviso.png
 
