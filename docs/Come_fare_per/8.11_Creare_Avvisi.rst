@@ -11,7 +11,6 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
 
 **Creazione Avviso durante creazione di un budget**
-===================================================
 
 1. Iniziare il processo di creazione del budget, inserendo tutti i dati richiesti
 . 
@@ -38,7 +37,6 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 . 
 
 **Creazione Avviso post creazione Budget**
-==========================================
 
 1. Accedere alla pagina **Gestione avvisi del Budget**
 
