@@ -11,9 +11,12 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
 
 **Creazione Avviso durante creazione di un budget**
+***************************************************
 
 1. Iniziare il processo di creazione del budget, inserendo tutti i dati richiesti
+
 .
+
 2. Selezionare il checkbox **Attiva avvisi predefiniti**
 
 .. image:: img/8.11_Attiva_Avvisi_Predefiniti.png
@@ -22,7 +25,7 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
 .. image:: img/8.11_info_percentuale.png
 
-4. Inserire da 1 a 3 indirizzi email sui quali ricevere gli avvisi, scrivendo l’indirizzo nella casella “Inserisci indirizzo…” e premendo su “AGGIUNGI INDIRIZZO” a fine inserimento
+4. Inserire da 1 a 3 indirizzi email sui quali ricevere gli avvisi, scrivendo l’indirizzo nella casella “Inserisci indirizzo…” e premendo su **AGGIUNGI INDIRIZZO** a fine inserimento
 
 .. image:: img/8.11_Aggiunta_Mail1.png
 
@@ -36,6 +39,7 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
 
 **Creazione Avviso post creazione Budget**
+******************************************
 
 1. Accedere alla pagina **Gestione avvisi del Budget**
 
