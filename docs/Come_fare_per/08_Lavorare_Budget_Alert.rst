@@ -13,6 +13,6 @@ Tutte le funzioni per gestire il ciclo di vita dei Budget e Alert sui costi di u
    8.5_Cancellare_Budget.rst
    8.7_Modificare_Budget.rst
    8.9_Visualizzare_Avvisi.rst
-   8.11_Creare_Alert.rst
+   8.11_Creare_Avvisi.rst
    8.13_Cancellare_Alert.rst
    8.15_Modificare_Alert.rst

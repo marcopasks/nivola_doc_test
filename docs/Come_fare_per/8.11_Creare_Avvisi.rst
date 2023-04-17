@@ -1,7 +1,7 @@
-.. _Creare_Alert:
+.. _Creare_Avvisi:
 
-**Creare Alert**
-================
+**Creare Avvisi**
+=================
 
 Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
@@ -13,9 +13,10 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 **Creazione Avviso durante creazione di un budget**
 
 1. Iniziare il processo di creazione del budget, inserendo tutti i dati richiesti
+
 2. Selezionare il checkbox **Attiva avvisi predefiniti**
 
-.. image:: img/8.9_Visualizza_Budget.png
+.. image:: img/8.11_Attiva_Avvisi_Predefiniti.png
 
 3. Verranno visualizzate le seguenti informazioni
 
@@ -52,7 +53,7 @@ Esistono due modalità per **Creare gli Avvisi** associati ad un budget:
 
 .. image:: img/8.11_Pulsante_Associa_Avviso.png
 
-5. Il nuovo avviso sarà ora attivo e visualizzabile nell’elenco degli Alert associati al budget
+5. Il nuovo avviso sarà ora attivo e visualizzabile nell’elenco degli **Avvisi associati al budget**
 
 .. image:: img/8.11_Gestione_Avvisi_da_CreazionePost.png
 
