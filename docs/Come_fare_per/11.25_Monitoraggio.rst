@@ -66,13 +66,13 @@ Per disabiliare il **monitoraggio** della Virtual Machine, procedere come segue:
     1. Individuare la VM dalla **Lista VM monitorate**, mettendo una spunta a fianco del nome;
 
        .. image:: img/11.25_Disattiva_selezVMdx.png
-    
-    2. Cliccare su pulsante **DISATTIVA IL MONITORAGGIO**
 .
+    2. Cliccare su pulsante **DISATTIVA IL MONITORAGGIO**
+
         .. image:: img/Pulsante_cancella.png
 .
     3. All'interno della finestra **Conferma disattivazione servizio** cliccare sul pulsante **CONFERMA**
-.
+
         .. image:: img/11.25_Disattiva_Servizio.png
 .
     4. Appariranno i seguenti messaggi di conferma rispettivamente in alto a destra e in centro allo schermo
