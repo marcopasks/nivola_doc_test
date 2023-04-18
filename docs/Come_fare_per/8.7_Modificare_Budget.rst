@@ -3,14 +3,14 @@
 **Modificare Budget**
 =====================
 
-Il sistema consente la **modifica** di un budget alla volta, procedendo in questo modo
+Per **Modficare un Budget** accedere alla pagina relativa alla Lista di budget:
 
-1. Selezionare un budget dal checkbox a sinistra del nome:
+1. Selezionare un budget selezionando il relativo checkbox alla sinistra del nome:
 
 .. image:: img/8.7_ModifBudget.png
 
 
-2. Premere il bottone **Modifica** in alto a destra:
+2. Cliccare sul pulsante **Modifica** in alto a destra:
 
 .. image:: img/8.7_PulsanteModif.png
 

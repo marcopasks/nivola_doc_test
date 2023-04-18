@@ -10,7 +10,7 @@ La funzione rientra nella sezione **Gestione Account**. La **creazione di un Bud
 
 
 A seguito di un click su **Budget e Avvisi**, il sistema popolerà la parte destra della pagina 
-web con l’**elenco dei budget**, se presenti.
+web con la **Lista di budget**, se presenti.
 In alternativa verrà visualizza la scritta “Non sono presenti budget per questo account”.
 
 .. image:: img/8.1_ListaBudgetDX.png
