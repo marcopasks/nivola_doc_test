@@ -5,7 +5,7 @@
 
 Per **Cancellare un Avviso** procedere con le seguenti operazioni:
 
-1. Partire dall’elenco degli Avvisi associati ad un budget
+1. Accedere alla pagina **Gestione avvisi del Budget**
 
 .. image:: img/8.13_ListaAvvisi_Pre_Delete.png
 
