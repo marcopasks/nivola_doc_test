@@ -5,7 +5,7 @@
 
 Per **Modificare un Avviso** procedere con le seguenti operazioni:
 
-1. Partire dall’elenco degli **Avvisi associati ad un Budget**
+1. Accedere alla pagina **Gestione avvisi del Budget**
 
 .. image:: img/8.15_ListaAvvisi_Pre_Modifica.png
 

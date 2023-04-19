@@ -9,7 +9,7 @@ Per **Cancellare un Avviso** procedere con le seguenti operazioni:
 
 .. image:: img/8.13_ListaAvvisi_Pre_Delete.png
 
-2. Individuare l'Avviso da cancellare, quindi cliccare sul simbolo della *“X** rossa sulla destra all'interno della corrispondente riga
+2. Individuare l'Avviso da cancellare, quindi cliccare sul simbolo della **X** rossa sulla destra all'interno della corrispondente riga
 
 .. image:: img/8.13_ListaAvvisi_SelezionoDelete.png
 
