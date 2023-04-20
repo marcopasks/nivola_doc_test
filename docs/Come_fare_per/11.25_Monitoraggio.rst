@@ -11,9 +11,10 @@ La funzione è attivabile dalla parte sinistra dello schermo dal menù **Strumen
 .. image:: img/11.25_Elenco_vmSX.png
 
 
-A seguito di un clic su **VM**, il sistema popolerà la parte destra del video con la **Lista VM monitorate**.
+A seguito di un clic su **VM**, il sistema popolerà la parte destra del video con la **Lista VM monitorate** (se già presenti).
 
 .. image:: img/11.25_Elenco_vmDX.png
+
 
 
 **Abilitare il Monitoraggio**
@@ -25,7 +26,7 @@ A seguito di un clic su **VM** (sotto **Strumenti -> Monitoraggio**), il sistema
 
 Per effettuare l'abilitazione procedere in questo modo:
 
-        1.Fare clic sul pulsante "+""
+        1.Fare clic sul pulsante **+**
 
         .. image:: img/Add_VM.png
 .
@@ -65,7 +66,7 @@ Per disabiliare il **monitoraggio** della Virtual Machine, procedere come segue:
 
        .. image:: img/11.25_Disattiva_selezVMdx.png
 .
-    2. Cliccare su pulsante **DISATTIVA IL MONITORAGGIO**
+    2. Cliccare su pulsante in alto a destra **DISATTIVA IL MONITORAGGIO**
 
         .. image:: img/Pulsante_cancella.png
 .

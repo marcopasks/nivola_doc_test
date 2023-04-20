@@ -11,7 +11,7 @@ La funzione è attivabile dalla parte sinistra dello schermo dal menù **Strumen
 .. image:: img/11.30_Elenco_vmSX.png
 
 
-A seguito di un clic su **VM**, il sistema popolerà la parte destra del video con la **Lista VM abilitate al servizio di log**.
+A seguito di un clic su **VM**, il sistema popolerà la parte destra del video con la **Lista VM abilitate al servizio di log** (se già presenti).
 
 .. image:: img/11.30_Elenco_vmDX.png
 
@@ -20,7 +20,7 @@ A seguito di un clic su **VM**, il sistema popolerà la parte destra del video c
 ========================
 
 A seguito di un clic su **VM** (sotto **Strumenti -> Log Management**), il sistema popolerà la parte destra del video con la **Lista VM abilitate al servizio di log** 
-(se già presenti)..
+(se già presenti).
 
        .. image:: img/11.30_ListaVM_LoggingDX.png
 
@@ -57,31 +57,31 @@ Per effettuare l'abilitazione procedere in questo modo:
         
 
 
-**Disabilitare il **
-===============================
+**Disabilitare il Logging**
+===========================
 
-Per disabiliare il **monitoraggio** della Virtual Machine, procedere come segue:
+Per disabiliare il **logging** della Virtual Machine, procedere come segue:
 
-    1. Individuare la VM dalla **Lista VM monitorate**, mettendo una spunta a fianco del nome;
+    1. Individuare la VM dalla **Lista VM abilitate al servizio di log**, mettendo una spunta a fianco del nome;
 
-       .. image:: img/11.25_Disattiva_selezVMdx.png
+       .. image:: img/11.30_Disattiva_selezVMdx.png
 .
-    2. Cliccare su pulsante **DISATTIVA IL MONITORAGGIO**
+    2. Cliccare su pulsante in alto a destra **CANCELLA ISTANZA DI LOGGING**
 
         .. image:: img/Pulsante_cancella.png
 .
     3. All'interno della finestra **Conferma disattivazione servizio** cliccare sul pulsante **CONFERMA**
 
-        .. image:: img/11.25_Disattiva_Servizio.png
+        .. image:: img/11.30_Disattiva_Servizio.png
 .
     4. Appariranno i seguenti messaggi di conferma rispettivamente in alto a destra e in centro allo schermo
 
-        .. image:: img/11.25_DX_MonitoringNO.png
+        .. image:: img/11.30_DX_LoggingNO.png
 .
-        .. image:: img/11.25_DX_MonitoringCentroNO.png
+        .. image:: img/11.30_DX_LoggingCentroNO.png
 .
     5. Cliccare sul tasto **CHIUDI**
 .
     6. la VM comparirà in elenco con stato **INATTIVA**
 
-        .. image:: img/11.25_MonitoringNO.png
+        .. image:: img/11.30_LoggingNO.png
