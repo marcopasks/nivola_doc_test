@@ -8,12 +8,10 @@
 Service Portal 3.4.0 (2023-04-27)
 ---------------------------------
 
-•  
-•  
-•  
-•  
-•  
-•  
+•  Completamento funzionalità di Budget e Alerting comprensiva di notifiche superamento soglie di spesa
+•  Opzione scelta tecnologia in creazione VM
+•  Miglioramento funzione per Servizi gestione abilitati
+•  Risoluzione bug minori
 
 
 

@@ -19,24 +19,25 @@ Per la creazione del server, dalla lista, procedere in questo modo:
 .. image:: img/Add_VM.png
 
 2. Inserire il **Nome della virtual machine** nella textbox e scegliere il **TEMPLATE**
-   da cui generare la virtual machine. Per farlo baste un clic su uno degli OS proposti
-   e in ultimo sul pulsante **VAI TIPO VM**;
+   da cui generare la virtual machine. Per farlo è necessario selezionare su uno degli OS proposti.
+   Per alcuni template è necessario sceglere anche il tipo di tecnologia (hypervisor), selezionabile
+   dall'ultima combo box in basso. In ultimo cliccare sul pulsante **AVANTI**;
 
 .. image:: img/Template_VM.png
 
 3. Specificare il type, la CPU, la RAM e il Disco sfruttando il **CheckBox** in testa ad ogni riga esposta
-dal portale e cliccare sul pulsante **VAI A DISCO**;
+dal portale e cliccare sul pulsante **AVANTI**;
 
 .. image:: img/CpuRamDisco_VM.png
 
 4. Indicare dimensione del disco ed eventualmente, aggiungere altri dischi,
 sfruttando il pulsante **AGGIUNGI DISCO AGGIUNTIVO**. Al termine,
-proseguire cliccando su **VAI A NETWORK E SECURITY**;
+proseguire cliccando su **AVANTI**;
 
 .. image:: img/Disco_VM.png
 
 5. Sfruttando le combo box proposte, inserire: **Region, Availability Zone,
-Subnet e Gruppo di sicurezza**.  Al termine cliccare su **VAI A TAGS**;
+Subnet e Gruppo di sicurezza**.  Al termine cliccare su **AVANTI**;
 
 .. image:: img/Network_Security_VM.png
 
@@ -48,7 +49,7 @@ virtual machine, per farlo, Nivola mette a disposizione 3 metodi distinti.
 
 Con questa soluzione il sistema propone una serie di **chiavi ssh** da cui scegliere.
 L'operatore potrà individuare la chiave sfruttando la checkbox
-e successivamente, concludere premendo **VAI A RIEPILOGO**;
+e successivamente, concludere premendo **AVANTI**;
 
 .. image:: img/key-ssh-selezionata-da-lista.png
 
@@ -69,7 +70,7 @@ digitata. Terminare premendo **CREA CHIAVE**
 
 .. image:: img/Keyssh-ex-novo.png
 
-dopo di che distinguerla nella lista e premere **VAI A RIEPILOGO**;
+dopo di che distinguerla nella lista e premere **AVANTI**;
 
 .. image:: img/key-ssh-selezionata-da-lista.png
 
@@ -86,12 +87,12 @@ premere **IMPORTA**;
 .. image:: img/Importa-key-ssh.png
 
 Conclusa la generazione della **chiave ssh**, utilizzare la checkbox per
-selezionarla dalla lista e premere **VAI A RIEPILOGO**;
+selezionarla dalla lista e premere **AVANTI**;
 
 .. image:: img/key-ssh-selezionata-da-lista.png
 
 7. Controllare gli attributi del server da creare
-e validarli premendo sul pulsante **CONFERMA E CREA LA VIRTUAL MACHINE**.
+e validarli premendo sul pulsante **AVANTI** sulla destra.
 Il portale procederà alla creazione della **VM** utilizzando i parametri
 inseriti dall'operatore;
 
