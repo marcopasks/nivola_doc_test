@@ -24,8 +24,7 @@ Al termine premere il tasto **REGISTRA UTENTE**
 
    .. image:: img/05.10_Registra_Utente.png
 
-
-
+|
 | **MASTER DI ACCOUNT**
 
 Dal menù a sinistra selezionare Gestione Account → Utenti -> Lista Utenti Accreditati
