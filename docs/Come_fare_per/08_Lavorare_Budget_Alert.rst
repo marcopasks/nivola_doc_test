@@ -30,4 +30,4 @@ all'utente di prendere decisioni informate in tempo reale e di mantenere un adeg
    8.11_Creare_Avvisi.rst
    8.13_Cancellare_Avvisi.rst
    8.15_Modificare_Avvisi.rst
-   8.99_test_syntax.rst
+

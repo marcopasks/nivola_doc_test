@@ -3,28 +3,30 @@
 **Creare Utente all’interno del Service Portal**
 ################################################
 
-La funzione **Creazione di un utente** all’interno del Service Portal è attivabile unicamente dal backoffice, 
-principalmente, attraverso queste due modalità:
+La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice, sia dal ruolo Master di Account.
 
-1. Dalla parte sinistra dello schermo, cliccando sulla label **Registra Nuovo Utente**
-   nel gruppo **Amministrazione**
+**BACKOFFICE**
+**************
 
-   .. image:: img/Utente_innesco_damenu.png
+Con il ruolo Admin di Backoffice ci sono due modalità per creare un utente:
+1.	Dal menù a sinistra selezionare Amministrazione → Struttura Organizzativa → Registra Nuovo Utente → si aprirà la pagina di creazione utente
 
-2. Dall'elenco **Utenti Registrati**, premendo il tasto
+   .. image:: img/05.10_utenteABOsx.png
 
-   .. image:: img/Utente_pulsante_add.png
+2. Dal menù a sinistra selezionare Amministrazione → Struttura Organizzativa → Lista Utenti Registrati → “+” in alto a destra
+
+   .. image:: img/05.10_utenteABOdx.png
+
+In entrambi i casi, dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
+**Codice Fiscale, Nome, Cognome, Email e il tipo di accesso** 
+
+Al termine premere il tasto **REGISTRA UTENTE**
+
+   .. image:: img/05.10_Registra_Utente.png
 
 
-In entrambe i casi, dopo aver attivato la funzione, compilare la form
-presentata dal sistema indicando: *Codice Fiscale*, *Nome*, *Cognome* e il *tipo di accesso*
-e al termine premere il tasto **REGISTRA UTENTE**.
+**MASTER DI ACCOUNT**
 
-  .. image:: img/Utente_form_crea.png
-
-Esiste la possibilità, esclusivamente per gli utenti del **dominio csi**, nella quale è
-possibile :ref:`l'autoregistrazione <Autoregistrazione_Utente>`.
+dsfsdfdsfds
 
 
-L'utente, se i dati inseriti saranno corretti, verrà generato e quindi disponibile per
-l' :ref:`Accreditamento <Accreditare_Utente>`
