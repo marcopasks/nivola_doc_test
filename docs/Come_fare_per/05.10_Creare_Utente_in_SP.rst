@@ -8,6 +8,7 @@ La funzione **Creazione di un utente** all’interno del Service Portal è attiv
 **BACKOFFICE**
 
 Con il ruolo Admin di Backoffice ci sono due modalità per creare un utente:
+|
 1.	Dal menù a sinistra selezionare Amministrazione → Struttura Organizzativa → Registra Nuovo Utente → si aprirà la pagina di creazione utente
 
    .. image:: img/05.10_utenteABOsx.png
@@ -42,8 +43,6 @@ Dopo aver attivato la funzione, compilare la form presentata dal sistema indican
 
 
 Premere il bottone **VAI A ACCREDITAMENTO** per proseguire con la configurazione dell’utente appena creato, assegnandogli uno o più ruoli.
-
-https://nivola-userguide.readthedocs.io/it/latest/docs/Come_fare_per/05.2_Accreditare_Utente.html#accreditare-utente
 
 .. toctree::
     ../Come_fare_per/05.2_Accreditare_Utente.rst
