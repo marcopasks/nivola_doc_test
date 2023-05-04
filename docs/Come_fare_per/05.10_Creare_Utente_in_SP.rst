@@ -25,8 +25,29 @@ Al termine premere il tasto **REGISTRA UTENTE**
    .. image:: img/05.10_Registra_Utente.png
 
 
+
 **MASTER DI ACCOUNT**
 
-dsfsdfdsfds
+Dal menù a sinistra selezionare Gestione Account → Utenti -> Lista Utenti Accreditati
+
+   .. image:: img/05.10_utenteMAsx.png
+
+Cliccare sul "+" in alto a destra
+
+   .. image:: img/05.10_utenteMAdx.png
+
+Dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
+**Codice Fiscale, Nome, Cognome, Email e il tipo di accesso**. Al termine premere il tasto **REGISTRA UTENTE**.
+
+   .. image:: img/05.10_Nuovo_Utente.png
+
+
+Premere il bottone **VAI A ACCREDITAMENTO** per proseguire con la configurazione dell’utente appena creato, assegnandogli uno o più ruoli.
+
+https://nivola-userguide.readthedocs.io/it/latest/docs/Come_fare_per/05.2_Accreditare_Utente.html#accreditare-utente
+
+.. toctree::
+    ../Come_fare_per/05.2_Accreditare_Utente.rst
+
 
 
