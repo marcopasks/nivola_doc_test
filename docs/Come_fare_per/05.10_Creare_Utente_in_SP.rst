@@ -10,16 +10,19 @@ La funzione **Creazione di un utente** all’interno del Service Portal è attiv
 Con il ruolo Admin di Backoffice ci sono due modalità per creare un utente:
 
 |
+
 1.	Dal menù a sinistra selezionare Amministrazione → Struttura Organizzativa → Registra Nuovo Utente → si aprirà la pagina di creazione utente
 
    .. image:: img/05.10_utenteABOsx.png
 
 |
+
 2. Dal menù a sinistra selezionare Amministrazione → Struttura Organizzativa → Lista Utenti Registrati → “+” in alto a destra
 
    .. image:: img/05.10_utenteABOdx.png
 
 |
+
 In entrambi i casi, dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
 **Codice Fiscale, Nome, Cognome, Email e il tipo di accesso** 
 
@@ -28,6 +31,7 @@ Al termine premere il tasto **REGISTRA UTENTE**
    .. image:: img/05.10_Registra_Utente.png
 
 |
+
  **MASTER DI ACCOUNT**
 
 Dal menù a sinistra selezionare Gestione Account → Utenti -> Lista Utenti Accreditati
@@ -39,6 +43,7 @@ Cliccare sul "+" in alto a destra
    .. image:: img/05.10_utenteMAdx.png
 
 |
+
 Dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
 **Codice Fiscale, Nome, Cognome, Email e il tipo di accesso**. Al termine premere il tasto **REGISTRA UTENTE**.
 
