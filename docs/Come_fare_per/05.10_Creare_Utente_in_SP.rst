@@ -5,6 +5,8 @@
 
 La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice, sia dal ruolo Master di Account.
 
+|
+
 **BACKOFFICE**
 ##############
 
@@ -14,11 +16,13 @@ Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare u
 
    .. image:: img/05.10_utenteABOsx.png
 
+|
 
 2. Dal menù a sinistra selezionare **Amministrazione → Struttura Organizzativa → Lista Utenti Registrati → “+”** in alto a destra
 
    .. image:: img/05.10_utenteABOdx.png
 
+|
 
 In entrambi i casi, dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
 **Codice Fiscale, Nome, Cognome, Email e il tipo di accesso** 
@@ -42,15 +46,16 @@ Cliccare sul "+" in alto a destra
 
    .. image:: img/05.10_utenteMAdx.png
 
+|
 
 Dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
 **Codice Fiscale, Nome, Cognome, Email e il tipo di accesso**. Al termine premere il tasto **REGISTRA UTENTE**.
 
    .. image:: img/05.10_Nuovo_Utente.png
 
+|
 
 Premere il bottone **VAI A ACCREDITAMENTO** per proseguire con la configurazione dell’utente appena creato, assegnandogli uno o più ruoli.
 
 .. toctree::
     ../Come_fare_per/05.2_Accreditare_Utente.rst
-
