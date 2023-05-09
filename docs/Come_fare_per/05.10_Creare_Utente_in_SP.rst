@@ -10,7 +10,7 @@ La funzione **Creazione di un utente** all’interno del Service Portal è attiv
 
 Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare un utente:
 
-1.	Dal menù a sinistra selezionare Amministrazione → Struttura Organizzativa → Registra Nuovo Utente → si aprirà la pagina di creazione utente
+1.	Dal menù a sinistra selezionare **Amministrazione → Struttura Organizzativa → Registra Nuovo Utente** → si aprirà la pagina di creazione utente
 
    .. image:: img/05.10_utenteABOsx.png
 
