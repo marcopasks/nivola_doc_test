@@ -42,6 +42,8 @@ Dal menù a sinistra selezionare **Gestione Account → Utenti -> Lista Utenti A
 
    .. image:: img/05.10_utenteMAsx.png
 
+|
+
 Cliccare sul "+" in alto a destra
 
    .. image:: img/05.10_utenteMAdx.png
