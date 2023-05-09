@@ -28,6 +28,8 @@ Al termine premere il tasto **REGISTRA UTENTE**
    .. image:: img/05.10_Registra_Utente.png
 
 
+|
+|
 
 **MASTER DI ACCOUNT**
 #####################
