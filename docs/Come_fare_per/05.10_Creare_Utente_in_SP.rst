@@ -3,7 +3,7 @@
 **Creare Utente all’interno del Service Portal**
 ################################################
 
-PROVA La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice, sia dal ruolo Master di Account.
+PROVA4 La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice, sia dal ruolo Master di Account.
 
 **BACKOFFICE**
 
