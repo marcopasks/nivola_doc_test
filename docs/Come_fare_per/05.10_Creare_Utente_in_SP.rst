@@ -3,7 +3,7 @@
 **Creare Utente all’interno del Service Portal**
 ################################################
 
-PROVA4 La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice, sia dal ruolo Master di Account.
+La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice, sia dal ruolo Master di Account.
 
 **BACKOFFICE**
 
@@ -27,6 +27,7 @@ Al termine premere il tasto **REGISTRA UTENTE**
    .. image:: img/05.10_Registra_Utente.png
 
 
+
  **MASTER DI ACCOUNT**
 
 Dal menù a sinistra selezionare Gestione Account → Utenti -> Lista Utenti Accreditati
@@ -48,6 +49,3 @@ Premere il bottone **VAI A ACCREDITAMENTO** per proseguire con la configurazione
 
 .. toctree::
     ../Come_fare_per/05.2_Accreditare_Utente.rst
-
-
-
