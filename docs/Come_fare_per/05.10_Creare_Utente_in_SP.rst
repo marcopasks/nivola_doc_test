@@ -16,6 +16,7 @@ Con il ruolo Admin di Backoffice ci sono due modalità per creare un utente:
    .. image:: img/05.10_utenteABOsx.png
 
 |
+
 |
 
 2. Dal menù a sinistra selezionare Amministrazione → Struttura Organizzativa → Lista Utenti Registrati → “+” in alto a destra
