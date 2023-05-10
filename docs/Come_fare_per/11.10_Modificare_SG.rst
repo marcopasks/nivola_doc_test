@@ -1,39 +1,48 @@
 .. _Modificare_SG:
 
-**Modificare Security Group**
-=============================
-La funzione rientra nel **servizio compute**. La **Modifica del Security Group** è 
+**Modificare Security Group di una Virtual Machine**
+====================================================
+
+La funzione rientra nel menù **Servizi**. La **Modifica del Security Group** è 
 attivabile dalla parte sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
 .. image:: img/VM_innesco_crea.png
 
-A seguito di un clic su **V**, il sistema popolerà la
-parte destra del video con l'**Elenco delle VM**.
-Per attribuire un nuovo *Security Group**, ad una VM, procedere in questo modo:
+|
+
+Il sistema popolerà la parte destra del video con l'**Elenco delle VM**.
+Per attribuire un nuovo **Security Group** ad una VM, procedere in questo modo
 
 1. Selezionare la VM
 
 .. image:: img/Snap_elenco_vm.png
 
-2. Fare clic sul pulsante:
+|
+
+2. Fare clic sul pulsante **Pannello di gestione VM** per visualizzare la sezione i dettagli della VM selezionata
 
 .. image:: img/VM_Pannello_controllo.png
 
-3. Dal pannello di Gestione VM, selezionare la voce **DETTAGLI**:
+|   
+
+3. Dal **Pannello di Gestione VM**, verificare di essere posizionati sul tag **DETTAGLI**
 
 .. image:: img/Snap_gestione.png
 
-4. Attivare la combo a fianco della label **Modifica Security Group**:
+|
+
+4. Premendo il bottone **“+”** a destra della scritta **Security Group** si apre una maschera per aggiungere un Security Group 
+esistente alla VM.
+Dopo averlo selezionato e premuto il bottone **CONFERMA** si creerà l’associazione.
 
 .. image:: img/VM_Modifica_SG_A.png
 
-5. Indicare il nuovo security Group, tra le diverse opzioni:
+|
+
+5. Per eliminare un **Security Group** assegnato alla VM, premere la **“X”** rossa a sinistra del gruppo già associato.
 
 .. image:: img/VM_Modifica_SG_B.png
 
-6. Terminare, premendo il pulsante  **CONFERMA**:
-
-.. image:: img/VM_Modifica_SG_C.png 
 
 
 

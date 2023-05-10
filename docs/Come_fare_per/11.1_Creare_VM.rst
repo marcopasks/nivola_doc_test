@@ -16,7 +16,7 @@ parte destra del video con l'**Elenco delle VM**.
 
 |
 
-Per la creazione del server, dalla lista, procedere in questo modo:
+Per la creazione del server, dalla lista, procedere in questo modo
 
 1. Fare clic sul pulsante **"+"**:
 
@@ -26,14 +26,14 @@ Per la creazione del server, dalla lista, procedere in questo modo:
 
 2. Scegliere il **TEMPLATE** da cui generare la virtual machine, selezionando uno degli OS proposti nell’elenco. 
 Inserire il **Nome della VM** nel primo textbox e scegliere, per alcuni Template, anche il tipo di tecnologia (**hypervisor**), 
-selezionabile dall’ultima combo box in basso. Per proseguire con la creazione cliccare sul pulsante **AVANTI*;
+selezionabile dall’ultima combo box in basso. Per proseguire con la creazione cliccare sul pulsante **AVANTI*
 
 .. image:: img/11.1_VM_template.png
 
 |
 
 3. Specificare il **Type** della VM, che comprende **CPU, RAM e Disco**. Sfruttare il CheckBox a sinistra di ogni riga esposta sul 
-portale e cliccare sul pulsante **AVANTI**;
+portale e cliccare sul pulsante **AVANTI**
 
 .. image:: img/CpuRamDisco_VM.png
 
@@ -41,14 +41,14 @@ portale e cliccare sul pulsante **AVANTI**;
 
 4. Indicare dimensione del disco ed eventualmente, aggiungere altri dischi,
 sfruttando il pulsante **AGGIUNGI DISCO AGGIUNTIVO**. Al termine,
-proseguire cliccando su **AVANTI**;
+proseguire cliccando su **AVANTI**
 
 .. image:: img/Disco_VM.png
 
 |
 
 5. Sfruttando le combo box proposte, inserire: **Region, Availability Zone,
-Subnet e Gruppo di sicurezza**.  Al termine cliccare su **AVANTI**;
+Subnet e Gruppo di sicurezza**.  Al termine cliccare su **AVANTI**
 
 .. image:: img/Network_Security_VM.png
 
@@ -56,14 +56,14 @@ Subnet e Gruppo di sicurezza**.  Al termine cliccare su **AVANTI**;
 
 6. In questa fase è obbligatorio **scegliere** o **generare** una **CHIAVE SSH** da associare alla 
 Virtual Machine. Una volta scelta una chiave già presente o generata (creazione o importazione), 
-premere il bottone **AVANTI**;
+premere il bottone **AVANTI**
 
 .. image:: img/key-ssh-selezionata-da-lista.png
 
 |
 
 7. Controllare che gli attributi del server da creare siano corretti e confermare premendo sul 
-pulsante **AVANTI** sulla destra. Il portale procederà alla creazione della **VM** utilizzando i parametri inseriti;
+pulsante **AVANTI** sulla destra. Il portale procederà alla creazione della **VM** utilizzando i parametri inseriti
 
 .. image:: img/Riepilogo_VM.png
 
