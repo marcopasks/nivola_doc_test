@@ -11,7 +11,7 @@ attivabile dalla parte sinistra dello schermo, cliccando sulla label **VM** sott
 |
 
 Il sistema popolerà la parte destra del video con l'**Elenco delle VM**.
-Per attribuire un nuovo **Security Group** ad una VM, procedere in questo modo
+Per attribuire un nuovo **Security Group** ad una VM, procedere in questo modo:
 
 1. Selezionare la VM
 
@@ -19,7 +19,7 @@ Per attribuire un nuovo **Security Group** ad una VM, procedere in questo modo
 
 |
 
-2. Fare clic sul pulsante **Pannello di gestione VM** per visualizzare la sezione i dettagli della VM selezionata
+2. Fare clic sul pulsante **Pannello di gestione VM**
 
 .. image:: img/VM_Pannello_controllo.png
 
@@ -31,7 +31,7 @@ Per attribuire un nuovo **Security Group** ad una VM, procedere in questo modo
 
 |
 
-4. Premendo il bottone **“+”** a destra della scritta **Security Group** si apre una maschera per aggiungere un Security Group 
+4. Premendo il bottone **“+”** a destra della label **Security Group** si apre una maschera per aggiungere un Security Group 
 esistente alla VM.
 Dopo averlo selezionato e premuto il bottone **CONFERMA** si creerà l’associazione.
 
