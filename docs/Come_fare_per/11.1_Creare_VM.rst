@@ -2,7 +2,7 @@
 
 **Creare Virtual Machine**
 ===========================
-La funzione rientra nel **servizio compute**. La **creazione Vm** è attivabile dalla parte
+La funzione rientra nel menù **Servizi**. La **creazione VM** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
 .. image:: img/VM_innesco_crea.png
