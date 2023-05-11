@@ -45,9 +45,13 @@ nel dettaglio attraverso questi passaggi:
 
        .. image:: img/SG_ricerca.png
 
+|
+
     2. Selezionare la regola e premere il pulsante **Visualizza Regole**;
 
        .. image:: img/VM_Pannello_controllo.png
+
+|
 
     3. Attendere che il sistema esponga l'elenco delle regole d'ingresso e di uscita del Security Group;
 
@@ -67,6 +71,8 @@ effettuare le seguenti operazioni:
 
        .. image:: img/Pulsante_modifica.png
 
+|
+
     2. Inserire i parametri necessari al sistema per definire la nuova regola:
 
         •	**Tipo di regola** scegliendo uno dei valori presenti nella comboox
@@ -75,7 +81,8 @@ effettuare le seguenti operazioni:
         •	**Protocollo/Servizio** indicandolo tra le opzioni possibili
         •	Definire l'intervallo delle porte nei campi **Da Porta** **A Porta**
 
+|
+
     3. Al termine, per salvare la regola inserita, premere il pulsante **SALVA REGOLA**
 
         .. image:: img/SG_Salva_regola.png
-            
