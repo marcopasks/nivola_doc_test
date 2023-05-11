@@ -1,81 +1,70 @@
 .. _Creare_DBAAS:
 
-**Creare istanze del Database as a Service**
-******************************************
+**Creare istanze Database as a Service**
+****************************************
 
-La funzione rientra nel **Database as Service**. La **creazione DBaaS** è utilizzabile dalla parte
-sinistra dello schermo, cliccando sulla pulsante **Istanze DBAAS**
-sotto la label **Database**
+La funzione rientra nel menù **Servizi**. La **creazione di Istanze DBAAS** è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Istanze DBAAS** sotto **Database**
 
 .. image:: img/DBAAS_innesco.png
 
-A seguito di un clic su **Istanze DBaaS**, il sistema, popolerà la
-parte destra del video con l'**Elenco Dbaas**.
+|
+
+A seguito di un clic su **Istanze DBaaS** il sistema popolerà la
+parte destra del video con l'**Elenco Dbaas**
 
 .. image:: img/DBAAS_Elenco.png
 
-Per istanziare un DBAAS, procedere seguendo i passaggi elencati:
+Per creare una **Istanza DBaaS** procedere seguendo i passaggi elencati:
 
 1. Fare clic sul pulsante **"+""**:
 
 .. image:: img/Add_VM.png
 
-2. Specificare l'engine, selezionandolo tra le opzioni proposte dal portale
-e un codice progressivo di tre cifre nel formato. Nivola  compilerà il campo
-nome dell'istanza in modo da evitare duplicati.
-Al termine premere **"VAI AL TIPO DI ISTANZA"**;
+2. Selezionare l’engine tra le opzioni proposte dal portale e un codice progressivo di tre cifre nel formato 
+“001, 002, …”. Il portale compilerà in automatico il campo dedicato al **nome dell’istanza** in modo da evitare duplicati. 
+Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_engine.png
 
 3. Scegliere la dimensione delle risorse da assegnare all'istanza di DBaaS
-mettendo un flag nella *check box* utile ed infine
-cliccare sul pulsante **VAI A SPAZIO DI ARCHIVIAZIONE**
+mettendo un flag nella *check box* relativa ed infine
+cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_tipo_istanza.png
 
 4. Nella sezione **SPAZIO DI ARCHIVIAZIONE**,
 indicare la **dimensione** selezionandolo da uno dei valori proposti
-nella **combo box**
+nella combo box
 
 .. image:: img/DBAAS_scegli_dimensione.png
 
-5. Nella stessa sezione, attraverso la **combo box**,
+5. Nella stessa sezione, attraverso la combo box,
 precisare la **tipologia** dello spazio di archviazione
-e premere **"VAI A DETTAGLI DBAAS"**
+e cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_tipologia.png
 
-E utilizzare il flag sotto **Crittografia** nel caso occorra abilitare la crittografia del Dbaas
+6. utilizzare il flag sotto la label **Crittografia** nel caso occorra abilitare la crittografia del Dbaas
 (nella mail che viene inviata automaticamente al Supporto Nivola è presente l'informazione relativa all'eventuale richiesta 
-di crittografia, in quanto tale configurazione verrà effettuata in un secondo momento)
+di crittografia, in quanto tale configurazione verrà effettuata in un secondo momento).
+Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_tipologia2.png
 
 
-6. Assegnare al sistema la **porta di ascolto** convalidando il valore di default
-oppure sosituendolo con un valore nella casella di testo. Proseguire
-facendo un clic su **"VAI A INFORMAZIONI"**
+7. Assegnare al sistema la **porta di ascolto** convalidando il valore di default. 
+Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_porta.png
 
-7. Attraverso le combo box, presenti nella pagina, specificare:
-**Region, Availability Zone,
-Subnet e Gruppo di sicurezza**.  Al termine cliccare su **VAI A TAGS**.
+8. Attraverso le combo box, presenti nella pagina, specificare:
+**Region, Availability Zone, Subnet e Gruppo di sicurezza**.
+Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_info_finali.png
 
-8. Qualora servisse, assegnare dei tag all'istanza,
-scrivendo la stringa seguita da invio.
-Quanto inserito è possibile cancellarlo, utilizzando la **"X"**
-a fianco dei tags. Premere **VAI A RIEPILOGO** per proseguire.
+9. Nella schermata del Riepilogo, dopo aver controllato i parametri inseriti nel processo 
+di creazione, cliccare su **CONFERMA E CREA L’ISTANZA** per materializzare virtualmente la nuova istanza.
 
-.. image:: img/DBAAS_vai_tags.png
-
-9. Nel **riepilogo**, dopo aver controllato i parametri inseriti
-nel processo di creazione, cliccare su **"CONFERMA E CREA L'ISTANZA"**
-per materializzare la nuova istanza.
-
-.. image:: img/DBAAS_conferma_crea.png
-
-
-
+.. image:: img/DBAAS_finale.png
