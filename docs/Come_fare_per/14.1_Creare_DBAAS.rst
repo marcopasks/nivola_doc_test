@@ -15,11 +15,15 @@ parte destra del video con l'**Elenco Dbaas**
 
 .. image:: img/DBAAS_Elenco.png
 
+|
+
 Per creare una **Istanza DBaaS** procedere seguendo i passaggi elencati:
 
 1. Fare clic sul pulsante **"+""**:
 
 .. image:: img/Add_VM.png
+
+|
 
 2. Selezionare l’engine tra le opzioni proposte dal portale e un codice progressivo di tre cifre nel formato 
 “001, 002, …”. Il portale compilerà in automatico il campo dedicato al **nome dell’istanza** in modo da evitare duplicati. 
@@ -27,11 +31,15 @@ Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_engine.png
 
+|
+
 3. Scegliere la dimensione delle risorse da assegnare all'istanza di DBaaS
 mettendo un flag nella *check box* relativa ed infine
 cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_tipo_istanza.png
+
+|
 
 4. Nella sezione **SPAZIO DI ARCHIVIAZIONE**,
 indicare la **dimensione** selezionandolo da uno dei valori proposti
@@ -39,11 +47,15 @@ nella combo box
 
 .. image:: img/DBAAS_scegli_dimensione.png
 
+|
+
 5. Nella stessa sezione, attraverso la combo box,
 precisare la **tipologia** dello spazio di archviazione
 e cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_tipologia.png
+
+|
 
 6. utilizzare il flag sotto la label **Crittografia** nel caso occorra abilitare la crittografia del Dbaas
 (nella mail che viene inviata automaticamente al Supporto Nivola è presente l'informazione relativa all'eventuale richiesta 
@@ -52,17 +64,22 @@ Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_tipologia2.png
 
+|
 
 7. Assegnare al sistema la **porta di ascolto** convalidando il valore di default. 
 Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_porta.png
 
+|
+
 8. Attraverso le combo box, presenti nella pagina, specificare:
 **Region, Availability Zone, Subnet e Gruppo di sicurezza**.
 Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_info_finali.png
+
+|
 
 9. Nella schermata del Riepilogo, dopo aver controllato i parametri inseriti nel processo 
 di creazione, cliccare su **CONFERMA E CREA L’ISTANZA** per materializzare virtualmente la nuova istanza.
