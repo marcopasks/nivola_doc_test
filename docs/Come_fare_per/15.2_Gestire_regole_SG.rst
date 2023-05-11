@@ -3,10 +3,9 @@
 **Gestire regole del Security Group**
 *************************************
 
-La funzione rientra in **Reti e Sicurezza**.  :ref:`La creazione del Security Group <Creare_Security_Group>`
-è utilizzabile dalla parte sinistra dello schermo,
-cliccando la freccia a fianco di **Reti e Sicurezza**
-e successivamente, su **Security Group** nel sottomenù.
+Le funzioni rientrano nel menù **Servizi**. La **Gestione dei Security Group** 
+sono attivabili  dalla parte sinistra dello schermo, 
+cliccando sulla label **Security Group** sotto **Reti e Sicurezza**
 
 .. image:: img/SG_innesco.png
 
@@ -16,22 +15,23 @@ Costituiscono questo gruppo di operazioni:
     2. :ref:`Visualizzare regole del Security Group`
     3. :ref:`Aggiungere regole al Security Group`
 
+|
 
 .. _Cercare un Security Group:
 
 **Cercare un Security Group**
 =============================
 
-All'interno di ogni Account è possibile fare ricerche su tutte le sue istanze.
-La ricerca è eseguita tramite una stringa inserita dall’operatore.
+La **Ricerca dei Security Group** è eseguita tramite una stringa inserita dall’operatore.
 Nivola ricerca il set di caratteri nelle colonne dove sono elencate
-le caratteristiche dei SG. Per effettuare la ricerca è necessario procedere
+le caratteristiche dei Security Group. Per effettuare la ricerca è necessario procedere
 in questo modo:
 
     1. Inserire stringa di ricerca sotto la label **"Ricerca"** e premere invio;
 
        .. image:: img/SG_ricerca.png
 
+|
 
 .. _Visualizzare regole del Security Group:
 
@@ -53,15 +53,15 @@ nel dettaglio attraverso questi passaggi:
 
        .. image:: img/SG_regole.png
 
+|
 
 .. _Aggiungere regole al Security Group:
 
 **Aggiungere regole al Security Group**
 =======================================
 
-Per aggiungere una regola ad un **Security Group** si dovranno
+Per aggiungere una regola ad un **Security Group** occorre
 effettuare le seguenti operazioni:
-
 
     1. Dopo aver individuato il SG, selezionarlo e premere pulsante **Modifica Security Group**;
 
@@ -69,13 +69,13 @@ effettuare le seguenti operazioni:
 
     2. Inserire i parametri necessari al sistema per definire la nuova regola:
 
-        •	**Tipo di regola** scegliendo uno dei valori presenti nella comboox;
-        •	**Dominio** indicandolo tra quelli proposti;
-        •	Il range degli IP scrivendolo sotto la label **Classless Inter-Domain Routing**;
-        •	**Protocollo** indicandolo tra le opzioni possibili;
-        •	Definire l'intervallo delle porte nei campi **Da Porta** **A Porta**;
-        •	La **Descrizione** della regola è da inserire, scrivendola, nel textbox;
+        •	**Tipo di regola** scegliendo uno dei valori presenti nella comboox
+        •	**Dominio** indicandolo tra quelli proposti
+        •	Il range degli IP scrivendolo sotto la label **Classless Inter-Domain Routing**
+        •	**Protocollo/Servizio** indicandolo tra le opzioni possibili
+        •	Definire l'intervallo delle porte nei campi **Da Porta** **A Porta**
 
-    3. Al termine, per salvare la regola inserita, premere il pulsante **SALVA REGOLA**;
+    3. Al termine, per salvare la regola inserita, premere il pulsante **SALVA REGOLA**
 
         .. image:: img/SG_Salva_regola.png
+            
