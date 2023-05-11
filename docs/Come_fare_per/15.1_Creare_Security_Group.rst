@@ -3,10 +3,9 @@
 **Creare un Security Group**
 ****************************
 
-La funzione rientra in **Reti e Sicurezza**. La **creazione SG**
-è utilizzabile dalla parte sinistra dello schermo,
-cliccando la freccia a fianco di **Reti e Sicurezza**
-e successivamente su **Security Group** nel sottomenù.
+La funzione rientra nel menù **Servizi**. La **Creazione di un Security Group** 
+è attivabile dalla parte sinistra dello schermo, 
+cliccando sulla label **Security Group** sotto **Reti e Sicurezza**
 
 .. image:: img/SG_innesco.png
 
@@ -16,23 +15,27 @@ dello schermo.
 
 .. image:: img/SG_elenco.png
 
-Per istanziare un Security Group, procedere seguendo i passaggi successivi:
+|
+
+Per creare un nuovo Security Group, procedere seguendo i seguenti passaggi:
 
 1. Fare clic sul pulsante **"+"**:
 
 .. image:: img/Add_VM.png
 
+|
+
 2. Specificare i parametri necessari al sistema:
 
-•	Inserire **Nome del Security Group** nella textbox, rispettando la regola che non deve contenere spazi e non superare i 10 caratteri;
-•	Scrivere la **Descrizione** nella casella di testo;
-•	Optare per un :ref:`Template di Sicurezza<Template_Sicurezza>` selezionandolo tra quelli proposti;
-•	Indicare il **VPC di riferimento** evidenziandolo dalla checkbox;
-
+•	inserire **Nome del Security Group** nella textbox, rispettando la regola per la quale il nome non deve contenere spazi, 
+numeri e caratteri speciali (**“-”** escluso) e deve essere superiore ai 4 caratteri
+•	optare per un :ref:`Template di Sicurezza<Template_Sicurezza>` selezionandolo tra quelli proposti
+•	indicare il **VPC di riferimento** evidenziandolo dalla checkbox
 
 .. image:: img/SG_parametri.png
 
-3. Terminare premendo su **CREA SECURITY GROUP**,
+|
+
+3. Terminare premendo su **CREA SECURITY GROUP**
 
 .. image:: img/SG_pulsante_crea.png
-
