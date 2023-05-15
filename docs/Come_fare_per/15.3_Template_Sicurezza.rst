@@ -116,21 +116,3 @@ L'ingresso è consentito esclusivamente ai server delle reti di Management e di 
 
 
 .. image:: img/SG_Template_rule_isolated.png
-
-
-
-
-.. _Security Group Simple Private:
-
-**Security Group Simple Private**
-=================================
-
-.. image:: img/Template-simpleprivate.png
-
-Isola completamente il Security group che nasce assumendolo come
-template, quindi nessuno degli host è raggiungibile
-sia per ricevere e per comunicare.
-La comunicazione, tra gli host all'interno dello stesso SG, è
-priva di ogni restrizione in entrata ed in uscita.
-
-.. image:: img/SG_Template_rule_simpleprivate.png
