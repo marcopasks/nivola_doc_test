@@ -12,7 +12,8 @@ sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 A seguito di un clic su **VM**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
 
-:red:`Attenzione si ricorda che la creazione di una nuova VM non attiva automaticamente i servizi di backup, monitoraggio e logging`
+**Attenzione si ricorda che la creazione di una nuova VM non attiva automaticamente i servizi di backup, monitoraggio e logging**
+*********************************************************************************************************************************
 
 .. image:: img/VM_Elenco.png
 
