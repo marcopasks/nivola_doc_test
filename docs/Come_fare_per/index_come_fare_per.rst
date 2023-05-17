@@ -8,6 +8,8 @@ ad interagire con la piattaforma, attraverso il portale.
    :maxdepth: 2
  
    02_Come_muovere_primi_passi.rst
+   03_Master_di_Organizzazione.rst
+   04_Master_di_Division.rst
    05.0_Creare_Accreditare_Utente.rst
       05.1_Creare_Utente.rst
       05.2_Accreditare_Utente.rst
