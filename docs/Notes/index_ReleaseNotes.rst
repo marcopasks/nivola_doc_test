@@ -5,7 +5,7 @@
 
 .. _release-3.4.2:
 
-Service Portal 3.4.0 (2023-05-18)
+Service Portal 3.4.2 (2023-05-18)
 ---------------------------------
 
 •  Risoluzione bug fix minori
@@ -14,7 +14,7 @@ Service Portal 3.4.0 (2023-05-18)
 
 .. _release-3.4.1:
 
-Service Portal 3.4.0 (2023-05-04)
+Service Portal 3.4.1 (2023-05-04)
 ---------------------------------
 
 •  Risoluzione bug fix minori
