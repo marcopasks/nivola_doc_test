@@ -3,6 +3,24 @@
 **Release Notes**
 =================
 
+.. _release-3.4.2:
+
+Service Portal 3.4.0 (2023-05-18)
+---------------------------------
+
+•  Risoluzione bug fix minori
+
+
+
+.. _release-3.4.1:
+
+Service Portal 3.4.0 (2023-05-04)
+---------------------------------
+
+•  Risoluzione bug fix minori
+
+
+
 .. _release-3.4.0:
 
 Service Portal 3.4.0 (2023-04-27)
