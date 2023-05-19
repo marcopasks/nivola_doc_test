@@ -3,34 +3,40 @@
 **Creare lo Storage as Service**
 ********************************
 
-Per la creazione di share, procedere come segue:
+Per la creazione di share, procedere come segue
 
 1. Fare clic sul pulsante **"+""**:
 
 .. image:: img/Add_VM.png
 
-2. Inserire il **Nome dello share** nella textbox e cliccare il pulsante **VAI A SPAZIO DI ARCHIVIAZIONE**;
+|
+
+2. Inserire il Nome dello share nella textbox, selezionare il protocollo corretto e cliccare il pulsante **AVANTI**
 
 .. image:: img/STAAS_crea_generali.png
 
-3. Premere **Dimensione dello share**;
+|
+
+3. Specificare **dimensione** dello Share indicando uno dei valori presenti nella combo box, attivare facoltativamente 
+la **crittografia** sullo share che si sta creando e proseguire premendo il pulsante **AVANTI**
 
 .. image:: img/STAAS_crea_dimensioni.png
 
-4. Specificare dimensione dello Share indicando uno dei valori presenti nella **combo box** e proseguire
-premendo il pulsante **VAI A NETWORK**;
+|
 
-.. image:: img/STAAS_crea_dimensioni_combo.png
-
-6. Sfruttando le combo box, proposte, inserire: **Region, Availability Zone,
+4. Sfruttando le combo box, proposte, inserire: **Region, Availability Zone,
 Subnet**.  Al termine cliccare su **VAI A RIEPILOGO**;
 
 .. image:: img/STAAS_crea_vai_riepilogo.png
 
-7. Controllare i parametri inseriti e premere, **CONFERMA E CREA SHARE**;
+|
+
+5. Controllare i parametri inseriti e premere, **CONFERMA E CREA SHARE**;
 
 .. image:: img/STAAS_crea_conferma.png
 
-8. Lo storage creato comparire nell'elenco;
+|
+
+6. Lo storage creato comparire nell'elenco;
 
 .. image:: img/STAAS_crea_termina.png
