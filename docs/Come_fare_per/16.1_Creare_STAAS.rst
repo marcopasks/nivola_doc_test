@@ -31,7 +31,7 @@ Subnet**.  Al termine cliccare su **AVANTI**;
 
 |
 
-5. Controllare i parametri inseriti e premere, **CONFERMA E CREA SHARE**;
+5. Controllare i parametri inseriti e cliccare su **AVANTI**;
 
 .. image:: img/STAAS_crea_conferma.png
 
