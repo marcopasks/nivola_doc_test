@@ -25,7 +25,7 @@ la **crittografia** sullo share che si sta creando e proseguire premendo il puls
 |
 
 4. Sfruttando le combo box, proposte, inserire: **Region, Availability Zone,
-Subnet**.  Al termine cliccare su **VAI A RIEPILOGO**;
+Subnet**.  Al termine cliccare su **AVANTI**;
 
 .. image:: img/STAAS_crea_vai_riepilogo.png
 
