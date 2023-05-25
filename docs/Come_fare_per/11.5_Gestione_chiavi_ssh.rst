@@ -2,17 +2,16 @@
 
 **Creare o Cancellare chiavi SSH**
 **********************************
-La funzione è La funzione è raggiungibile da **Servizi** → **Compute** → **Chiavi SSH**
+La funzione è raggiungibile da **Servizi** → **Compute** → **Chiavi SSH**
 
 
 .. image:: img/Menu_ssh.png
 
-|
 
 E' possibile creare **Chiavi SSH** attraverso 2 metodi [1]_ [2]_
 ma per entrambi è necessario rispettare questi vincoli:
 
-- Il **nome della chiave ssh** deve essre **univoco** in tutto il sistema.
+- Il **nome della chiave ssh** deve essre **univoco** in tutto il sistema
 
 - Il **nome della chiave ssh** non può superare i 40 caratteri
 
@@ -30,11 +29,11 @@ Dalla schermata **Elenco Chiavi SSH**, premere tasto **+** in alto a destra
 .. image:: img/Add_VM.png
 
 Si apre una maschera di **Creazione nuova Chiave SSH** in cui inserire il **Nome** della nuova chiave e si visualizza 
-il **nome completo** che il sistema assegna alla chiave.
+il **nome completo** che il sistema assegna alla chiave
 
 .. image:: img/Crea-keyssh-ex-novo.png
 
-Premere sul bottone “CREA CHIAVE” per confermarne la creazione. Verrà scaricato in automatico il file .pem della 
+Premere sul bottone **CREA CHIAVE** per confermarne la creazione. Verrà scaricato in automatico **il file .pem** della 
 chiave e si visualizzerà nell’elenco delle chiavi SSH.
 
 .. image:: img/Crea-keyssh-ex-novo.png
