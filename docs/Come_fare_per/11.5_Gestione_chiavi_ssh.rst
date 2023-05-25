@@ -2,13 +2,14 @@
 
 **Creare o Cancellare chiavi SSH**
 **********************************
-La funzione è utilizzabile da **Reti e Sicurezza** cliccando sulla voce **Chiavi SSH**
+La funzione è La funzione è raggiungibile da **Servizi** → **Compute** → **Chiavi SSH**
 
 
 .. image:: img/Menu_ssh.png
 
+|
 
-E' possibile creare **chiavi ssh** attraverso 2 metodi [1]_ [2]_
+E' possibile creare **Chiavi SSH** attraverso 2 metodi [1]_ [2]_
 ma per entrambi è necessario rispettare questi vincoli:
 
 - Il **nome della chiave ssh** deve essre **univoco** in tutto il sistema.
@@ -18,49 +19,58 @@ ma per entrambi è necessario rispettare questi vincoli:
 - Nel **nome della chiave ssh** oltre le lettere e i numeri
   gli unici caratteri particolari ammessi sono **"_"** e **"-"**
 
-
-.. image:: img/Add_VM.png
-
+|
 
 .. [1]
 **Creazione direttamente da Nivola**
 ====================================
 
-Premere tasto **"+"**;
+Dalla schermata **Elenco Chiavi SSH**, premere tasto **+** in alto a destra
 
 .. image:: img/Add_VM.png
 
-**Inserire il nome della nuova chiave** e attendere la produzione. Una volta
- generata, selezionarla, premere **CREA CHIAVE** e attendere la risposta del sistema.
+Si apre una maschera di **Creazione nuova Chiave SSH** in cui inserire il **Nome** della nuova chiave e si visualizza 
+il **nome completo** che il sistema assegna alla chiave.
 
 .. image:: img/Crea-keyssh-ex-novo.png
 
+Premere sul bottone “CREA CHIAVE” per confermarne la creazione. Verrà scaricato in automatico il file .pem della 
+chiave e si visualizzerà nell’elenco delle chiavi SSH.
+
+.. image:: img/Crea-keyssh-ex-novo.png
+
+|
 
 .. [2]
 **Creazione attraverso l'import**
 =================================
 
+Per **importare** una **chiave SSH** nel proprio account, seguire i seguenti passi:
 
-Premere il tasto **"+"**;
+Premere il pulsante in alto a destra
 
 .. image:: img/Crea-ssh-da-lista.png
 
-**Inserire il nome chiave**, digitare la chiave precedentemente
-generata nella casella **Inserire la chiave**
-premere **IMPORTA**.
+Inserire il **Nome della chiave** da importare e visualizzare il **Nome completo assegnato dal sistema**
+Inserire la **parte pubblica** della chiave RSA seguendo le indicazioni fornite dal portale
+Premere il bottone **IMPORTA** per concludere l’operazione
 
 .. image:: img/Importa-key-ssh.png
 
+|
 
 **Cancellare Chiave SSH**
 =========================
 
-Selezionare la **chiave ssh** da cancellare e premere il tasto arancione con il simbolo del cestino.
+Per **cancellare** una **Chiave SSH**, procedere seguendo i passi:
+
+Selezionarla dal checkbox laterale sinistro al campo **Nome chiave**
+Premere il **cestino in alto a destra** che si visualizza post selezione chiave
 
 .. image:: img/Keyssh-da-cancellare.png
 
-Il sistema chiederà conferma dell'operazione:
+Il sistema chiederà **conferma** della **cancellazione**
 
 .. image:: img/Keyssh-conferma-cancellazione.png
 
-Confermare, cliccando su **"SI"** e la chiave verrà eliminata, scomparendo dall'elenco.
+Premendo su **SI**, la chiave verrà **eliminata definitivamente** dal sistema
