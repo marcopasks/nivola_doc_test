@@ -31,12 +31,12 @@ Dalla schermata **Elenco Chiavi SSH**, premere tasto **+** in alto a destra
 Si apre una maschera di **Creazione nuova Chiave SSH** in cui inserire il **Nome** della nuova chiave e si visualizza 
 il **nome completo** che il sistema assegna alla chiave
 
-.. image:: img/Crea-keyssh-ex-novo.png
+.. image:: img/Crea-keyssh-ex-1.png
 
 Premere sul bottone **CREA CHIAVE** per confermarne la creazione. Verrà scaricato in automatico **il file .pem** della 
 chiave e si visualizzerà nell’elenco delle chiavi SSH.
 
-.. image:: img/Crea-keyssh-ex-novo.png
+.. image:: img/Crea-keyssh-ex-novo2.png
 
 |
 
