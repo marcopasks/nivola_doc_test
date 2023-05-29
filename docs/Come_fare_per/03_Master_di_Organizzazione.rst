@@ -4,10 +4,14 @@
 ############################
 
 Per visualizzare i **dettagli** delle **Divisioni** sotto un’ **Organizzazione** procedere nel seguente modo:
+
 ●	Accedere al **Service Portal** come Master di Organizzazione
+
 ●	Premere sulla scheda **Gestione Organizzazione → Struttura Organizzativa → Divisioni**
 
 .. image:: img/03_Org1sx.png
+
+|
 
 ●	Una volta premuto su Divisioni, il portale restituisce un elenco delle divisioni appartenenti all’organizzazione gestita dall’utente
 
@@ -16,9 +20,13 @@ Per visualizzare i **dettagli** delle **Divisioni** sotto un’ **Organizzazione
 |
 
 In questa pagina si possono vedere le **specifiche generali** delle divisioni:
+
 ●	Nome dell’organizzazione di origine
+
 ●	Nome delle divisione appartenente all’organizzazione
+
 ●	Descrizione della divisione
+
 ●	Stato della divisione
 
 |
@@ -32,8 +40,6 @@ Le funzionalità disponibili in questa pagina sono:
 ●	Refresh dell’elenco Divisioni
 
 .. image:: img/03_refresh.png
-
-|
 
 Premendo sul checkbox a sinistra del Nome Organizzazione (uno solo alla volta) si abilitano delle funzioni 
 specifiche per la divisione scelta:
@@ -65,12 +71,19 @@ Premendo il bottone **Dettaglio Divisione**, l’utente visualizza la pagina di 
 |
 
 La scheda DETTAGLIO fornisce all’utente informazioni dettagliate sulla divisione, quali:
+
 ●	Stato 
+
 ●	Denominazione 
+
 ●	Descrizione
+
 ●	Indirizzo geografico
+
 ●	Indirizzo Email
+
 ●	Referente 
+
 ●	Data Creazione
 
 |
@@ -98,8 +111,15 @@ Nell’ultima scheda CONSUMI si ritrova un elenco dei costi e consumi specifici 
 
 .. image:: img/03_Consumi.png
 
+|
+
 Il bottone arancione  serve a refreshare il grafico dell’Andamento dei Costi:
 
 .. image:: img/03_refresh2.png
 
-INSERIRE LINK CHE RIMANDA ALLA GUIDA PER CONSULTARE SEZIONE COSTI E CONSUMI
+|
+
+.. toctree::
+   :maxdepth: 2
+
+   40.0_Consultare_costi_e_consumi.rst
