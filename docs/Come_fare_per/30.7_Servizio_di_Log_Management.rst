@@ -39,36 +39,37 @@ Rientrano in queste competenze:
 =======================
 
 La funzione rientra nel menù **Strumenti**. L'accesso è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **Spaces**, sotto **Log Management** all'interno del menù **Strumenti**
+sinistra dello schermo, cliccando sulla label **Spaces**, sotto **Log Management**
 
 .. image:: img/30.7_LogMsx.png
+
+|
 
 Dalla pagina **Elenco spaces**, cliccare sul link presente sotto il titolo "Collegamenti"
 
 .. image:: img/30.7_ElencoSpacesDx.png
 
-Il sistema aprirà una nuova finestra
-con l'accesso alla pagina di **Elastic**:
+|
+
+Il sistema aprirà una nuova finestra con l'accesso alla pagina di **Elastic**:
 
 .. image:: img/30.7_ElasticDx.png
 
+|
 
 Selezionare quindi l'area di lavoro, detta anche space
 
 .. image:: img/30.7_Space.png
 
+|
 
 Una volta scelto lo space si viene indirizzati sulla pagina di discover, dove sono presenti tutti i log ed 
 è possibile selezionare i campi di interesse, filtrare e fare query
 
 .. image:: img/30.7_discover.jpg
 
+|
 
 Nella pagina dashboard invece sono presenti delle schermate riassuntive che permettono di avere una vista d'insieme
 
 .. image:: img/30.7_dashboard.jpg
-
-
-
-
-
