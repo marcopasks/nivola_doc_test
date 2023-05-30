@@ -39,11 +39,15 @@ Rientrano in queste competenze:
 =======================
 
 La funzione rientra nel menù **Strumenti**. L'accesso è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **Log Management** sotto **Strumenti**
+sinistra dello schermo, cliccando sulla label **Spaces**, sotto **Log Management** all'interno del menù **Strumenti**
 
 .. image:: img/30.7_LogMsx.png
 
-A seguito di un clic su **Log Management**, il sistema aprirà una nuova finestra
+Dalla pagina **Elenco spaces**, cliccare sul link presente sotto il titolo "Collegamenti"
+
+.. image:: img/30.7_ElencoSpacesDx.png
+
+Il sistema aprirà una nuova finestra
 con l'accesso alla pagina di **Elastic**:
 
 .. image:: img/30.7_ElasticDx.png
