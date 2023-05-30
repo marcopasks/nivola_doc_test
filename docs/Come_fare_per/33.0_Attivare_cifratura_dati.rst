@@ -10,20 +10,19 @@ All'interno della creazione dei Dbaas
 
    14.1_Creare_DBAAS.rst
 
-
-
-
-
-
-
-
-
 è implementata la possibilità di attivare la crittografia
 
 .. image:: img/DBAAS_scegli_tipologia2.png
 
+|
 
+All'interno della creazione degli 
 
+.. toctree::
+   :maxdepth: 2
 
+   16.1_Creare_STAAS.rst
 
+è implementata la possibilità di attivare la crittografia
 
+.. image:: img/STAAS_crea_dimensioni.png
