@@ -13,7 +13,7 @@ Per visualizzare i **dettagli** delle **Divisioni** sotto un’ **Organizzazione
 
 |
 
-●	Una volta premuto su Divisioni, il portale restituisce un elenco delle divisioni appartenenti all’organizzazione gestita dall’utente
+●	Cliccando su **Divisioni**, il portale restituisce un elenco delle divisioni appartenenti all’organizzazione gestita dall’utente
 
 .. image:: img/03_Org2dx.png
 
@@ -40,6 +40,8 @@ Le funzionalità disponibili in questa pagina sono:
 ●	Refresh dell’elenco Divisioni
 
 .. image:: img/03_refresh.png
+
+|
 
 Premendo sul checkbox a sinistra del Nome Organizzazione (uno solo alla volta) si abilitano delle funzioni 
 specifiche per la divisione scelta:
@@ -70,7 +72,7 @@ Premendo il bottone **Dettaglio Divisione**, l’utente visualizza la pagina di 
 
 |
 
-La scheda DETTAGLIO fornisce all’utente informazioni dettagliate sulla divisione, quali:
+La scheda **DETTAGLIO** fornisce all’utente informazioni dettagliate sulla divisione, quali:
 
 ●	Stato 
 
