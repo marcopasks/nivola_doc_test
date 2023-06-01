@@ -41,6 +41,8 @@ Le funzionalità disponibili in questa pagina sono:
 
 .. image:: img/03_refresh.png
 
+|
+
 Premendo sul checkbox a sinistra del Nome Organizzazione (uno solo alla volta) si abilitano delle funzioni 
 specifiche per la divisione scelta:
 
