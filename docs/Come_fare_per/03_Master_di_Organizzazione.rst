@@ -41,8 +41,6 @@ Le funzionalità disponibili in questa pagina sono:
 
 .. image:: img/03_refresh.png
 
-|
-
 Premendo sul checkbox a sinistra del Nome Organizzazione (uno solo alla volta) si abilitano delle funzioni 
 specifiche per la divisione scelta:
 
@@ -67,6 +65,8 @@ specifiche per la divisione scelta:
 Premendo il bottone **Dettaglio Divisione**, l’utente visualizza la pagina di Dettaglio della Divisione scelta:
 
 .. image:: img/03_dettaglio_divisione.png
+
+|
 
 .. image:: img/03_dettaglio_divisioneDX.png
 
