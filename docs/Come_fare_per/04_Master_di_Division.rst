@@ -4,7 +4,9 @@
 ######################
 
 Per visualizzare i **dettagli** degli **Account** sotto una **Divisione** procedere nel seguente modo:
+
 ●	Accedere al Service Portal come Master di Divisione
+
 ●	Premere sulla scheda **Gestione Organizzazione → Struttura Organizzativa → Accounts**
 
 .. image:: img/04_GestDivSx.png
@@ -18,11 +20,17 @@ Premendo su Accounts, il portale restituisce un elenco degli account appartenent
 |
 
 In questa pagina si possono vedere le specifiche generali degli account:
+
 ●	Nome dell’organizzazione
-●	Nome delle divisione 
+
+●	Nome delle divisione
+
 ●	Nome dell’account
+
 ●	Descrizione dell’account
+
 ●	Gestione dell’account (SI/NO)
+
 ●	Stato dell’account 
 
 |
