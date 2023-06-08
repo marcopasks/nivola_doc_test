@@ -3,6 +3,17 @@
 **Release Notes**
 =================
 
+.. _release-3.5.0:
+
+Service Portal 3.5.0 (2023-06-08)
+---------------------------------
+
+•  Integrazione Service Portal con funzionalità di Forecasting all'interno del budget
+
+•  Risoluzione bug fix minori
+
+
+
 .. _release-3.4.2:
 
 Service Portal 3.4.2 (2023-05-18)
