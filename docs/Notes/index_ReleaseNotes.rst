@@ -10,6 +10,8 @@ Service Portal 3.5.0 (2023-06-08)
 
 •  Integrazione Service Portal con funzionalità di Forecasting all'interno del budget
 
+•  Possibilità di allegati multipli in apertura ticket supporto
+
 •  Risoluzione bug fix minori
 
 

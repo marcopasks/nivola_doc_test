@@ -4,7 +4,7 @@
 =================
 
 La funzione rientra nella sezione **Gestione Account**. La **creazione di un Budget** 
-è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Budget e Avvisi**
+è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Gestione Budget**, sotto **Forecast e Avvisi**.
 
 .. image:: img/8.1_BudgetAvvisiSX.png
 
