@@ -30,6 +30,7 @@ web con il **Riepilogo** relativo a:
 Sotto al riepilogo è possibile scegliere il campione, precedente alla data attuale, sul quale verrà basata la previsione:
 
 ●	10 giorni
+
 ●	30 giorni
 
 |
@@ -37,12 +38,15 @@ Sotto al riepilogo è possibile scegliere il campione, precedente alla data attu
 L’altro parametro di selezione sarà il tipo di previsione:
 
 ●	Valore medio dei costi nell’arco di tempo specificato
+
 ●	Andamento dei costi nel tempo specificato (delta di crescita)
 
 |
 
 **Previsione legata a Valore medio dei costi nell’arco di tempo specificato**
 
-Cliccare nella combo box indicata dalla freccia per poter selezionare i valori **10 giorni** oppure **30 giorni**:
+Cliccare nella combo box indicata dalla freccia per poter selezionare i valori **10 giorni** oppure **30 giorni**.
+
+Tale valore rappresenta il dato di partenza sul quale verrà basata la previsione del calcolo dei mesi successivi fino a fine anno:
 
 .. image:: img/9_RiepilogoDx30gg.png
