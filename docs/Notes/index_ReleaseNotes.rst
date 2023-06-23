@@ -8,6 +8,8 @@
 Service Portal 3.5.3 (2023-06-22)
 ---------------------------------
 
+•  Correzione errata visualizzazione grafico costi su Account
+
 •  Risoluzione bug fix minori
 
 
