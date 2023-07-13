@@ -3,6 +3,19 @@
 **Release Notes**
 =================
 
+.. _release-3.5.4:
+
+Service Portal 3.5.4 (2023-07-05)
+---------------------------------
+
+•  Miglioramenti visualizzazione/ricerca ticket
+
+•  Monitoraggio VM windows
+
+•  Risoluzione bug fix minori
+
+
+
 .. _release-3.5.3:
 
 Service Portal 3.5.3 (2023-06-22)
