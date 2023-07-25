@@ -1,5 +1,6 @@
-**Creare Account**
-##################
+**Creare un Account**
+#####################
 
-**TO DO**
+La funzione è attivabile attraverso il ruolo **Amministratore di backoffice**. La **creazione VM** è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
