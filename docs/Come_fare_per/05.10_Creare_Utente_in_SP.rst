@@ -8,7 +8,6 @@ La funzione **Creazione di un utente** all’interno del Service Portal è attiv
 |
 
 **BACKOFFICE**
-**************
 
 Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare un utente:
 
@@ -36,7 +35,6 @@ Al termine premere il tasto **REGISTRA UTENTE**
 |
 
 **MASTER DI ACCOUNT**
-*********************
 
 Dal menù a sinistra selezionare **Gestione Account → Utenti -> Lista Utenti Accreditati**
 
