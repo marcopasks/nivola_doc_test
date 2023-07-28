@@ -14,10 +14,8 @@ La risposta, del sistema, al comando sarà di questo tipo:
 
 .. code-block:: bash
 
-       uuid                                    name                                   desc             ip                 date
-       ------------------------------------  --------------------------------  -----------------  -------------  ------------------------  
-       930aa960-374a-427b-9a33-a7869251e14e  vm-demo.site02.nivolapiemonte.it  vm-demo-374ba65d   10.138.68.48   2021-10-21T12:55:03Z                                             0  ACTIVE    2019-02-20T08:49:15Z
-
-*<-size 0>* è un parametro opzionale ma diventa obbligatorio, qualora l'elenco avesse, più di 20 VM.
-
-
+       id                                    name               account    type           state    availabilityZone    privateIp       image         subnet                  sg                                    hypervisor    launchTime   
+       
+       042cf995-fdff-4ea0-aba5-a6804d08a868  PROVAwin2022c      test       vm.s1.large    running  SiteTorino01        10.138.134.173  Windows2022   SubnetBE-torino01       e73b3317-d4f2-4b57-9215-b2b8f90e51cb  vsphere       2023-07-03T15:51:02Z  
+        .
+    
