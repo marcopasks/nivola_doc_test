@@ -7,7 +7,7 @@ E' possibile sfruttare i servizi dalla Command Line Interface, attraverso le seg
 .. toctree::
    :maxdepth: 2
 
-   20.10_cpaas-list.rst
-   20.15_cpaas-connettersi.rst
-   20.20_cpaas-copia-da.rst
-   20.25_cpaas-copia-su.rst
+   02.10_cpaas-list.rst
+   02.15_cpaas-connettersi.rst
+   02.20_cpaas-copia-da.rst
+   02.25_cpaas-copia-su.rst
