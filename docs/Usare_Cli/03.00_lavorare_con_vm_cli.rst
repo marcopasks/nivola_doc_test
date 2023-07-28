@@ -9,10 +9,10 @@ Nel caso, fosse preferibile farlo dal portale, le istruzioni sono consultabili n
 .. toctree::
    :maxdepth: 2
 
-   30.10_creare-vm-linux.rst
-   30.15_creare-vm-windows.rst
-   30.20_spegnere-vm.rst
-   30.25_accendere-vm.rst
-   30.30_lista-vm.rst
-   30.40_lista-dettagli-vm.rst
-   30.45_ottenere-pwd.rst
+   03.10_creare-vm-linux.rst
+   03.15_creare-vm-windows.rst
+   03.20_spegnere-vm.rst
+   03.25_accendere-vm.rst
+   03.30_lista-vm.rst
+   03.40_lista-dettagli-vm.rst
+   03.45_ottenere-pwd.rst
