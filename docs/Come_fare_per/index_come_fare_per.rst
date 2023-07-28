@@ -55,7 +55,7 @@ ad interagire con la piattaforma, attraverso il portale.
    32.0_Attivare_servizio_broker_applicativo_Desktop_aaS.rst
    33.0_Attivare_cifratura_dati.rst
    34.0_Procedure_ausilio_migrazione.rst
-   40.0_Consultare_costi_e_consumi.rst
+   40.1_Consultare_costi_e_consumi.rst
    40.5_Servizi_di_Gestione.rst
    41.0_Linee_guida_gestione_sicura_servizio.DA_RINOMINARE
    42.0_Associazione_Listino_Account.rst
