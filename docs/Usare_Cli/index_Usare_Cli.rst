@@ -1,3 +1,4 @@
+
 **Usare la Command Line Interface (CLI)**
 =========================================
 
@@ -8,7 +9,7 @@ attraverso la Command Line Interface.
    :maxdepth: 2
  
    01.1_howto-access-cli.rst
-   20.0_howto-cpaas.rst
+   02.0_howto-cpaas.rst
    30.00_lavorare_con_vm_cli.rst
       30.10_Creare-vm-linux.rst
       30.15_creare-vm-windows.rst
