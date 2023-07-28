@@ -13,9 +13,9 @@ ad interagire con la piattaforma, attraverso il portale.
    05.0_Creare_Accreditare_Utente.rst
       05.1_Creare_Utente.rst
       05.2_Accreditare_Utente.rst
-   08_Lavorare_Budget_Alert.rst
-   09_Forecasting.rst
-   09.5_Creare_Account.rst
+   07.0_Creare_Account.rst
+   08.0_Lavorare_Budget_Alert.rst
+   09.0_Forecasting.rst
    11.0_Lavorare_con_VM.rst
       11.1_Creare_VM.rst
       11.2_Gestire_VM.rst
