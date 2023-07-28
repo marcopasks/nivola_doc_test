@@ -8,7 +8,7 @@ Per ottenere l'elenco, delle Virtual Machine, il comando è da usare in questo m
 
 .. code-block:: bash
 
-    [73300@cmpto1-cons02 ~]$  beehive ssh nodes get <-size 0>
+    [73300@cmpto1-cons02 ~]$  beehive bu cpaas vms list-all
 
 La risposta, del sistema, al comando sarà di questo tipo:
 
