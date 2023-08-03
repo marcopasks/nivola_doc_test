@@ -8,8 +8,8 @@
     ../Come_fare_per/15.3_Template_Sicurezza.rst
 
 
-Load balancer
--------------
+**Load balancer**
+-----------------
 
 L’obiettivo è di separare la componente di erogazione del servizio dall’esposizione:  
 
