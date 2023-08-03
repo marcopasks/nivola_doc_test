@@ -1,7 +1,7 @@
 .. _howto-access-cli:
 
-Accedere alla CLI
-=================
+**Accedere alla CLI**
+=====================
 
 Per accedere alla CLI le modalità sono le seguenti:
 

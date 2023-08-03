@@ -6,8 +6,8 @@
 .. toctree::
     ../Usare_Cli/01.1_howto-access-cli.rst
 
-SSH Gateway
------------
+**SSH Gateway**
+---------------
 
 L'SSH Gateway risponde a URL differenti (a seconda della tipologia di cliente). Attraverso un client SSH si apre una sessione SSH utilizzando 
 una user e una password (associati a LDAP). Dall'SSH Gateway si configura un tunnel sulla VM, poi attraverso lo stesso client SSH in modalità terminal 
