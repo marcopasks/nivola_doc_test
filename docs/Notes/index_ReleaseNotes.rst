@@ -3,6 +3,15 @@
 **Release Notes**
 =================
 
+.. _release-3.5.5:
+
+Service Portal 3.5.5 (2023-xx-xx)
+---------------------------------
+
+•  Risoluzione bug fix minori
+
+
+
 .. _release-3.5.4:
 
 Service Portal 3.5.4 (2023-07-05)
