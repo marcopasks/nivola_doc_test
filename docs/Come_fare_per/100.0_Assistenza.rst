@@ -1,18 +1,21 @@
 .. _Assistenza:
 
 **Assistenza**
-#####################
+##############
 
 Attraverso questo menù è possibile aprire delle segnalazione relative ad anomalie o malfunzionamenti attraverso un sistema di ticketing.
 
 .. toctree::
    :maxdepth: 2
 
-   100.5_Elenco_Ticket_inviati.rst
-   100.10_Cercare_E_Visualizzare_Ticket_inviato.rst
-   100.20_Elenco_bozze.rst
-   100.25_Cercare_E_Visualizzare_bozze.rst
-   100.35_Creare_nuovo_ticket.rst
-   100.40_Rispondere_richiesta_integrazione_informazioni.rst
-   100.42_Cambio_stato_ticket.rst
-   100.45_Chiusura_Ticket.rst
+**Master di account**
+#####################
+
+   100.01_Assistenza_Master.rst
+
+
+
+**Amministrazione di backoffice**
+#################################
+
+   100.02_Assistenza_ammBO.rst

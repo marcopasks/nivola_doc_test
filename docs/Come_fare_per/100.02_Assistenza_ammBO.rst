@@ -1,0 +1,14 @@
+.. _Assistenza:
+
+**Assistenza (amministratore di backoffice)**
+#############################################
+
+Attraverso questo menù è possibile aprire delle segnalazione relative ad anomalie o malfunzionamenti attraverso un sistema di ticketing.
+
+.. toctree::
+   :maxdepth: 2
+
+   .rst
+   .rst
+   .rst
+   .rst
