@@ -1,7 +1,7 @@
 .. _Assistenza:
 
-**Assistenza**
-#####################
+**Assistenza (Master di account)**
+##################################
 
 Attraverso questo menù è possibile aprire delle segnalazione relative ad anomalie o malfunzionamenti attraverso un sistema di ticketing.
 
