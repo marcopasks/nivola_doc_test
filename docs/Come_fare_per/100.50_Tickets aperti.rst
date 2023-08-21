@@ -1,0 +1,14 @@
+.. _Tickets_aperti:
+
+**Tickets aperti**
+==================
+La funzione rientra nel **servizio assistenza**. La lista dei **Tickets aperti** è attivabile dalla parte
+sinistra dello schermo, sotto **Assistenza**:
+
+.. image:: img/100.50_Elenco_Tickets_apertiSX.png
+
+
+A seguito di un clic su **Tickets aperti**, il sistema popolerà la parte destra del video con l'elenco dei **Tickets aperti**:
+
+.. image:: img/100.50_Elenco_Tickets_apertiDX.png
+   
