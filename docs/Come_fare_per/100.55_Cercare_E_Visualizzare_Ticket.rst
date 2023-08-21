@@ -1,19 +1,20 @@
-.. _Tickets_inviati:
+.. _Cercare_E_Visualizzare_Ticket:
 
-**Cercare e visualizzare Ticket inviato**
-=========================================
+**Cercare e visualizzare Ticket**
+=================================
 
-La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
-sotto **Assistenza**:
+La funzione rientra nel **servizio assistenza**. La lista dei **Tickets aperti** è attivabile dalla parte
+sinistra dello schermo, sotto **Assistenza**:
 
-.. image:: img/100.5_Elenco_Ticket_inviatiSX.png
+.. image:: img/100.50_Elenco_Tickets_apertiSX.png
 
 
-Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**:
+A seguito di un clic su **Tickets aperti**, il sistema popolerà la parte destra del video con l'elenco dei **Tickets aperti**:
 
-.. image:: img/100.5_ElencoTicketDX.png
+.. image:: img/100.50_Elenco_Tickets_apertiDX.png
 
-All’interno di ciascun Account è possibile fare ricerche su tutti i ticket precedentemente inviati. 
+
+E' possibile fare ricerche su tutti i ticket precedentemente aperti da qualsiasi account. 
 La ricerca è eseguita tramite una stringa inserita dall’operatore.
 Per eseguire una ricerca è necessario procedere in questo modo:
 
@@ -37,5 +38,3 @@ con i ticket che soddisfano il criterio di selezione;
 5. Eventuali informazioni aggiunte al ticket successivamente alla sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
 
 .. image:: img/100.5_DettagliTicketTag2.png
-
-   
