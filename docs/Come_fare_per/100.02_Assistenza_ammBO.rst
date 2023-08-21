@@ -8,7 +8,4 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
 .. toctree::
    :maxdepth: 2
 
-   .rst
-   .rst
-   .rst
-   .rst
+   100.50_Tickets aperti.rst
