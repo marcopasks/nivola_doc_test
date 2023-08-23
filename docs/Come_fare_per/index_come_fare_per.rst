@@ -7,7 +7,6 @@ ad interagire con la piattaforma, attraverso il portale.
 .. toctree::
    :maxdepth: 2
  
-   02_Come_muovere_primi_passi.rst
    02.5_Configuratore.rst
    03_Master_di_Organizzazione.rst
    04_Master_di_Division.rst
