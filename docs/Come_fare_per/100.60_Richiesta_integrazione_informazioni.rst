@@ -1,49 +1,21 @@
-.. _Tickets_inviati:
+.. _Richiesta_integrazione_informazioni:
 
-**Rispondere a una richiesta di integrazione informazioni**
-===========================
+**Inserire una richiesta di integrazione informazioni**
+=======================================================
 
-La ricezione di una mail, simile alla seguente, con oggetto "**E' stata effettuata un'integrazione alla segnalazione INC00000xxxxxxx**"": 
+E' possibile inserire una richiesta di integrazione informazioni (workinfo).
+
+Cercare il ticket, visualizzarlo, quindi spostarsi nel tab **NOTE AGGIUNTIVE**
+
+.. image:: img/100.60_NoteAggiuntive1.png
+
+Popolare i campi, inserire eventuali allegati, e quindi cliccare su **INVIA**
+
+.. image:: img/100.60_NoteAggiuntive2.png
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione.
+
+Verrà automaticamente inviata una mail, simile alla seguente, con oggetto "**E' stata effettuata un'integrazione alla segnalazione INC00000xxxxxxx**""
+all'indirizzo di posta elettronica associato all'account che ha aperto il ticket: 
 
 .. image:: img/100.40_Mail_da_Richiesta_Integrazione.png
-
-indica che il gruppo che ha in carico la richiesta ha ritenuto necessario chiedere ulteriori informazioni in merito.
-Occorre quindi cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
-la label «Ricerca» all'interno della lista dei **Tickets inviati**:
-
-.. image:: img/100.40_RicercaStringaTicketDX.png
-
-Mettere una spunta sulla Checkbox relativa:
-
-.. image:: img/100.40_RicercaStringaTicketOkDX.png
-    
-Usare il bottone **Visualizza dettagli Ticket**:
-
-.. image:: img/100.5_iconaDettagliTicket.png
-
-Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA**:
-    
-.. image:: img/100.5_DettagliTicketTag1.png
-
-Quindi spostarsi nel tag **NOTE AGGIUNTIVE** dove sarà possibile visualizzare l'oggetto e il testo della richiesta di integrazione
-che ci è pervenuta:
-
-.. image:: img/100.40_NoteAggiuntive_Arrivate_in_Ticket.png
-
-
-Per rispondere a tale richiesta di integrazione informativa, utilizzare il box sottostante "**Rispondi a richiesta integrazione informazioni**":
-
-.. image:: img/100.40_Rispondi_Richiesta_Integrazione_Informazioni.png
-
-Una volta inserite le informazioni richieste nel campo "**Testo risposta**", premere il tasto "**INVIA**"
-
-.. image:: img/100.40_TestoRisposta_in_NoteAggiuntive_Arrivate_in_Ticket.png
-
-Comparirà il seguente messaggio di conferma:
-
-.. image:: img/100.40_Workinfo_correttamente_aggiunta.png
-
-Ad ulteriore conferma arriverà una mail:
-
-.. image:: img/100.40_Mail_da_Risposta_richiesta_integrazione.png
-
