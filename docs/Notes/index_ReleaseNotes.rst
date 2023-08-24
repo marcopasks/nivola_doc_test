@@ -3,6 +3,17 @@
 **Release Notes**
 =================
 
+.. _release-3.6.0:
+
+Service Portal 3.6.0 (2023-08-24)
+---------------------------------
+
+•  Console VM (Linux)
+
+•  Risoluzione bug fix minori
+
+
+
 .. _release-3.5.5:
 
 Service Portal 3.5.5 (2023-08-09)
