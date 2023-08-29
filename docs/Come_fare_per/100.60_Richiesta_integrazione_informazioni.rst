@@ -1,6 +1,6 @@
 .. _Richiesta_integrazione_informazioni:
 
-**Inserire una richiesta di integrazione informazioni**
+**PROVA *Inserire una richiesta di integrazione informazioni**
 =======================================================
 
 E' possibile inserire una richiesta di integrazione informazioni (workinfo).
