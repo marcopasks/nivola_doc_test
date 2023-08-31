@@ -3,8 +3,6 @@
 **Inserire una richiesta di integrazione informazioni**
 =======================================================
 
-**PROVA2 DA CANCELLARE 29/08/23 ore 17:25**
-
 E' possibile inserire una richiesta di integrazione informazioni (workinfo).
 
 Cercare il ticket, visualizzarlo, quindi spostarsi nel tab **NOTE AGGIUNTIVE**

@@ -1,7 +1,7 @@
 .. _Log_Management:
 
-**Logging**
-***********
+**Logging (master di account)**
+*******************************
 
 La gestione del **Logging** rende disponibile la funzionalità di gestione dei log delle Virtual Machine per mezzo del
 Service Portal.
