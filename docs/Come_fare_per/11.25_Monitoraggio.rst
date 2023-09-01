@@ -18,7 +18,6 @@ A seguito di un clic su **VM**, il sistema popolerà la parte destra del video c
 
 
 **Abilitare il Monitoraggio**
-===============================
 
 A seguito di un clic su **VM** (sotto **Strumenti -> Monitoraggio**), il sistema popolerà la parte destra del video con la **Lista VM monitorate** (se già presenti).
 
@@ -53,12 +52,9 @@ Per effettuare l'abilitazione procedere in questo modo:
         .. image:: img/11.25_MonitoringOK.png
 
         
-
         
 
-
 **Disabilitare il Monitoraggio**
-===============================
 
 Per disabiliare il **monitoraggio** della Virtual Machine, procedere come segue:
 

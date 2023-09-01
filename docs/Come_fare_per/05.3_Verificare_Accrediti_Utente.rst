@@ -1,7 +1,7 @@
 .. _Verificare_Accredi_Utente:
 
-**Verificare Accrediti dell'Utente**
-####################################
+**Verificare Accrediti dell'Utente (amministratore di backoffice)**
+###################################################################
 
 La funzione per la **Verificare Accrediti dell'Utente**
 è attivabile dal pulsante **Elenco utenti registrati**
