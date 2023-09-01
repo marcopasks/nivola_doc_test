@@ -72,7 +72,7 @@ ad interagire con la piattaforma, attraverso il portale.
 
    
 .. toctree::
-    :hidden:
+   :maxdepth: 2
      60.0_Servizi_Trasversali_Microsoft.rst
      60.1_Servizio_kms.rst
      60.2_Servizio_wsus.rst

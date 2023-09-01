@@ -14,7 +14,7 @@
     docs/Notes/index_ReleaseNotes.rst
 
 .. toctree::
-    :hidden:
+    :maxdepth: 2
     docs/Notes/working.rst
 
 
