@@ -9,7 +9,6 @@ La funzione **Creazione di un utente** all’interno del Service Portal è attiv
 
 
 **BACKOFFICE**
-==============
 
 Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare un utente:
 
