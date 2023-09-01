@@ -56,7 +56,7 @@ Per effettuare l'abilitazione procedere in questo modo:
         
 
 **Disabilitare il Monitoraggio**
-################################
+********************************
 
 Per disabiliare il **monitoraggio** della Virtual Machine, procedere come segue:
 

@@ -31,6 +31,7 @@ Indipendentemente dal sistema di autenticazione scelto dall’utente, il Nivola 
 
 
 **Accreditamento utente su nuovo account**
+******************************************
 
 Se eventualmente non esiste alcun account Master associato all'account Nivola, in quanto eventualmente non indicato al momento della richiesta di creazione, 
 per il primo accreditamento di un utente Master è necessario contattare il servizio di assistenza secondo i canali a disposizione richiedendone a creazione 

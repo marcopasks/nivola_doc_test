@@ -1,7 +1,7 @@
 .. _Revocare_Utente:
 
-**Revocare Utente 05.6_Revocare_Utente**
-########################################
+**Revocare Utente (amministratore di backoffice)**
+##################################################
 
 La funzione è attivabile dall'elenco **Utenti Registrati**
 
