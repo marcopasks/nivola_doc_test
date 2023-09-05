@@ -1,4 +1,3 @@
-.. _news:
 
 **Release Notes**
 =================
@@ -135,7 +134,7 @@ Service Portal 3.2.0 (2023-02-23)
 •  Migliorata la diagnostica errori all’utente
 •  Fixing ed evolutive minori
 •  Ripristino visualizzazione job di backup (openstack), punti di ripristino della VM (openstack)
-Per il dettaglio delle issues relative si può fare riferimento ai contenuti della release SP-3.2.0
+•  Per il dettaglio delle issues relative si può fare riferimento ai contenuti della release SP-3.2.0
 
 *   `[Version SP-3.2.0] <https://jira.csi.it/projects/NSP/versions/13939>`_ - Version SP-3.2.0
 
@@ -650,7 +649,6 @@ Service Portal 2.3.0 (2021-04-09)
 
 *   `[NSP-530] <https://jira.csi.it/browse/NSP-530>`_ - Refactoring SP per adeguamento e miglioramento gestione "ruolo Utente"
 
-*   `[NSP-477] <https://jira.csi.it/browse/NSP-530>`_ - Miglioramento presentazione dati report PDF di dettaglio
 
 **Fixed**    
     
@@ -711,7 +709,7 @@ Service Portal 2.2.0 (2021-02-17)
 
 *   `[NSP-225] <https://jira.csi.it/browse/NSP-225>`_ - Bug paginazione visualizzazione servizi account
 
-*   `[NSP-153] <https://jira.csi.it/browse/NSP-153>`_ - `[NSP-184] <https://jira.csi.it/browse/NSP-184>`_ - `[NSP-186] <https://jira.csi.it/browse/NSP-186>`_ - `[NSP-249] <https://jira.csi.it/browse/NSP-249>`_ - `[NSP-266] <https://jira.csi.it/browse/NSP-266>`_ - `[NSP-321] <https://jira.csi.it/browse/NSP-321>`_ - `[NSP-330] <https://jira.csi.it/browse/NSP-330>`_ - `[NSP-319] <https://jira.csi.it/browse/NSP-319>`_ - `[NSP-342] <https://jira.csi.it/browse/NSP-342>`_
+*   `[NSP-153] <https://jira.csi.it/browse/NSP-153>`_ - `[NSP-184] <https://jira.csi.it/browse/NSP-184>`_ - `[NSP-186] <https://jira.csi.it/browse/NSP-186>`_ - `[NSP-249] <https://jira.csi.it/browse/NSP-249>`_ - `[NSP-266] <https://jira.csi.it/browse/NSP-266>`_ - `[NSP-321] <https://jira.csi.it/browse/NSP-321>`_ - `[NSP-319] <https://jira.csi.it/browse/NSP-319>`_ - `[NSP-342] <https://jira.csi.it/browse/NSP-342>`_
 
 
 

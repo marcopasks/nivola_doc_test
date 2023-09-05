@@ -1,7 +1,6 @@
-.. _Tickets_inviati:
 
 **Elenco bozze**
-===========================
+================
 La funzione rientra nel **servizio assistenza**. La lista delle **Bozze** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **Bozze** sotto **Assistenza**:
 

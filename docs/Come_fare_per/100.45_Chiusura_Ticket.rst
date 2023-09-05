@@ -1,7 +1,6 @@
-.. _Tickets_inviati:
 
 **Chiusura del Ticket**
-===========================
+=======================
 
 La ricezione di una mail, simile alla seguente, con oggetto "**La segnalazione INC00000xxxxxxx e' ora in stato RISOLTO**"":
 

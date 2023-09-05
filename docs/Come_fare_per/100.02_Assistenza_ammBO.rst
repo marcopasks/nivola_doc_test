@@ -1,4 +1,3 @@
-.. _Assistenza:
 
 **Assistenza (amministratore di backoffice)**
 #############################################

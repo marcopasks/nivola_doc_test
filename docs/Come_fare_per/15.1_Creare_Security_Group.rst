@@ -27,8 +27,7 @@ Per creare un nuovo Security Group, procedere seguendo i seguenti passaggi:
 
 2. Specificare i parametri necessari al sistema:
 
-•	inserire **Nome del Security Group** nella textbox, rispettando la regola per la quale il nome non deve contenere spazi, 
-numeri e caratteri speciali (**“-”** escluso) e deve essere superiore ai 4 caratteri
+•	inserire **Nome del Security Group** nella textbox, rispettando la regola per la quale il nome non deve contenere spazi, numeri e caratteri speciali (**“-”** escluso) e deve essere superiore ai 4 caratteri
 •	optare per un :ref:`Template di Sicurezza<Template_Sicurezza>` selezionandolo tra quelli proposti
 •	indicare il **VPC di riferimento** evidenziandolo dalla checkbox
 

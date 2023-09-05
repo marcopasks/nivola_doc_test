@@ -1,4 +1,3 @@
-.. _Abilitare_vpn:
 
 **Come abilitare la VPN**
 *************************
@@ -24,4 +23,4 @@ all’indirizzo https://comunica.csi.it/cambia-password/index.html.
 Nel caso in cui il richiedente esterno disponesse già di un accesso
 VPN con il CSI Piemonte, gli sarà associato anche il profilo di Nivola e gli
 saranno conferite, come descritto sopra,
-le credenziali per :ref:`accedere alla CLI <howto-access-cli>`.
+le credenziali.

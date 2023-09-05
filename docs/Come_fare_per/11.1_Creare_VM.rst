@@ -28,9 +28,9 @@ Per la creazione del server, dalla lista, procedere in questo modo
 
 |
 
-2. Scegliere il **TEMPLATE** da cui generare la virtual machine, selezionando uno degli OS proposti nell’elenco. 
+2. Scegliere il **TEMPLATE** da cui generare la virtual machine, selezionando uno degli OS proposti nell’ elenco. 
 Inserire il **Nome della VM** nel primo textbox e scegliere, per alcuni Template, anche il tipo di tecnologia (**hypervisor**), 
-selezionabile dall’ultima combo box in basso. Per proseguire con la creazione cliccare sul pulsante **AVANTI*
+selezionabile dall’ultima combo box in basso. Per proseguire con la creazione cliccare sul pulsante **AVANTI**
 
 .. image:: img/11.1_VM_template.png
 

@@ -1,4 +1,3 @@
-.. _Gestione_chiavi_ssh:
 
 **Creare o Cancellare chiavi SSH**
 **********************************
@@ -8,7 +7,7 @@ La funzione è raggiungibile da **Servizi** → **Compute** → **Chiavi SSH**
 .. image:: img/Menu_ssh.png
 
 
-E' possibile creare **Chiavi SSH** attraverso 2 metodi [1]_ [2]_
+E' possibile creare **Chiavi SSH** attraverso 2 metodi
 ma per entrambi è necessario rispettare questi vincoli:
 
 - Il **nome della chiave ssh** deve essre **univoco** in tutto il sistema
@@ -20,7 +19,6 @@ ma per entrambi è necessario rispettare questi vincoli:
 
 |
 
-.. [1]
 **Creazione direttamente da Nivola**
 ====================================
 
@@ -40,7 +38,6 @@ chiave e si visualizzerà nell’elenco delle chiavi SSH.
 
 |
 
-.. [2]
 **Creazione attraverso l'import**
 =================================
 

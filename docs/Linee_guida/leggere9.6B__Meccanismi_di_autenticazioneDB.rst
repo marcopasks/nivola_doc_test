@@ -1,4 +1,3 @@
-.. _Meccanismi_di_autenticazioneDB:
 
 **IMPORTANTE**
 
