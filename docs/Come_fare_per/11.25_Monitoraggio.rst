@@ -1,4 +1,3 @@
-.. _Monitoraggio:
 
 **Monitoraggio (master di account)**
 ************************************

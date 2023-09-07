@@ -1,7 +1,6 @@
-.. _Tickets_inviati:
 
 **Creazione di un nuovo ticket**
-===========================
+================================
 
 La funzione rientra nel **servizio assistenza**. Accedere al menù di creazione di un nuovo ticket cliccando sulla label **Nuovo Ticket** 
 sotto **Assistenza**:
