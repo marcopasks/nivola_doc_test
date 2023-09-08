@@ -46,7 +46,7 @@ I modelli utilizzabili, in alternativa tra loro, sono:
     2. :ref:`Security Group FrontEnd`
     3. :ref:`Security Group Simple`
     4. :ref:`Security Group Isolated`
-    5. :ref:`Security Group Simple Private`
+    
 
 
 .. _Security Group BackEnd:

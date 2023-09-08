@@ -12,9 +12,3 @@
     docs/Usare_Cli/index_Usare_Cli.rst
     docs/Glossario/index_Glossario.rst
     docs/Notes/index_ReleaseNotes.rst
-
-.. toctree::
-    :maxdepth: 2
-    docs/Notes/working.rst
-
-

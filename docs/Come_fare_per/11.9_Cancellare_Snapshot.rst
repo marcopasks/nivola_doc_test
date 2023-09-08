@@ -1,7 +1,7 @@
-.. _Cancellare_Snapshot:
 
 **Cancellare Snapshot**
-===================
+=======================
+
 La funzione rientra nel **servizio compute**. La **Cancellazione Snapshot** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
 
@@ -30,6 +30,3 @@ Per la cancellazione dello **snapshot**, procedere in questo modo:
 5. L'eliminazione avverrà, premendo il tasto **CONFERMA**:
 
 .. image:: img/Snap_cancella_conferma.png 
-
-
-

@@ -1,6 +1,0 @@
-.. _30.8_Platform_as_a_Service:
-
-**Paas - Platform as a Service**
-********************************
-
-work in progress

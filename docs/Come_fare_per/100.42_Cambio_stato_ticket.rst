@@ -1,9 +1,8 @@
-.. _Tickets_inviati:
 
 **Cambio di stato del ticket**
-===========================
+==============================
 
-La ricezione di una mail, simile alla seguente, con oggetto "**La segnalazione INC00000xxxxxxx e' ora in stato (nuovo stato)**"":
+La ricezione di una mail, simile alla seguente, con oggetto "**La segnalazione INC00000xxxxxxx e' ora in stato (nuovo stato)**"
 
 .. image:: img/100.45_Mail_ticket_nuovo_stato.png
 

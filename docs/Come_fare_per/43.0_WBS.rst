@@ -1,4 +1,3 @@
-.. _Associazione_Listino_Account:
 
 **WBS**
 ******************************

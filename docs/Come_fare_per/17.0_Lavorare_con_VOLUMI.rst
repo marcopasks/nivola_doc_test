@@ -1,4 +1,3 @@
-.. _Lavorare_con_volumi:
 
 **Lavorare con i Volumi**
 *************************

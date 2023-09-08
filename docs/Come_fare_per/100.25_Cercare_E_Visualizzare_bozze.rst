@@ -1,7 +1,6 @@
-.. _Tickets_inviati:
 
 **Cercare, visualizzare e inviare bozza**
-===========================
+=========================================
 
 La funzione rientra nel **servizio assistenza**. Accedere alla lista delle bozze cliccando sulla label **Bozze** 
 sotto **Assistenza**:

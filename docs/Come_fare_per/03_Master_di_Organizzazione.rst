@@ -120,10 +120,3 @@ Nell’ultima scheda CONSUMI si ritrova un elenco dei costi e consumi specifici 
 Il bottone arancione  serve a refreshare il grafico dell’Andamento dei Costi:
 
 .. image:: img/03_refresh2.png
-
-|
-
-.. toctree::
-   :maxdepth: 2
-
-   40.0_Consultare_costi_e_consumi.rst
