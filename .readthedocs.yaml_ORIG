@@ -1,9 +1,0 @@
-version: 2
-
-formats:
-  - epub
-  - pdf
-
-python:
-  install:
-  - requirements: requirements.txt
