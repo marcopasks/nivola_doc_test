@@ -2,15 +2,12 @@
 **Come comunicare con internet**
 ********************************
 
-I server non possono essere allocati direttamente sulla rete internet ed avere un IP pubblico, per esigenze di sicurezza la
- comunicazione con strumenti e servizi esterni viene mediato. In particolare per comunicare verso l’esterno si deve utilizzare
-il proxy del pod in cui si trovano i propri server:
+I server non possono essere allocati direttamente sulla rete internet ed avere un IP pubblico, per esigenze di sicurezza la comunicazione con strumenti e servizi esterni viene mediato. In particolare per comunicare verso l’esterno si deve utilizzare il proxy del pod in cui si trovano i propri server:
 
 1) http://podto1-proxy.site01.nivolapiemonte.it:3128/ per i server in pod1
 2) http://podto2-proxy.site02.nivolapiemonte.it:3128/ per i server in pod2
 3) http://podto3-proxy.site03.nivolapiemonte.it:3128/ per i server in pod3
 
-invece, per essere contattati dall’esterno si deve utilizzare o un NAT dell’IP privato o il bilanciamento di carico in caso
-i server che erogano il servizio siano molteplici
+invece, per essere contattati dall’esterno si deve utilizzare o un NAT dell’IP privato o il bilanciamento di carico in caso i server che erogano il servizio siano molteplici
 
 .. image:: img/Comunicare-con-internet.png

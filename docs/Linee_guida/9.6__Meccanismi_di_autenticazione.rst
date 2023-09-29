@@ -3,8 +3,8 @@
 **Meccanismi  di autenticazione**
 *********************************
 
-.. toctree::
-    ../Usare_Cli/01.1_howto-access-cli.rst
+.. .. toctree::
+..    ../Usare_Cli/01.1_howto-access-cli.rst
 
 **SSH Gateway**
 ---------------

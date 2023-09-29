@@ -1,15 +1,14 @@
-**Indice Nivola Doc**
-#####################
+*******************
+**Nivola Platform**
+*******************
 
 
 .. toctree::
-   :maxdepth: 2
-
-   10_0_Overview_Nivola.rst
-   20.0_Come_muovere_primi_passi.rst
-   30.0_Service_Portal.rst
-   40.0_Come_fare_per.rst
-   50.0_Linee_guida.rst
-   60.0_Usare_Cli.rst
-   70.0_Glossario.rst
-   80.0_ReleaseNotes.rst
+    Overview_Nivola/index_Overview_Nivola.rst
+    Come_muovere_primi_passi/index_Come_muovere_primi_passi.rst
+    Service_Portal/index_Service_Portal.rst
+    Come_fare_per/index_come_fare_per.rst
+    Linee_guida/index_linee_guida.rst
+    Usare_Cli/index_Usare_Cli.rst
+    Glossario/index_Glossario.rst
+    Notes/index_ReleaseNotes.rst
