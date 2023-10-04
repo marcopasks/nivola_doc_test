@@ -1,6 +1,6 @@
 
-**WBS (amministratore di backoffice) **
-***************************************
+** WBS (amministratore di backoffice) **
+****************************************
 
 L'associazione di un codice WBS (Work breakdown Structure) ad un Account ha lo scopo di facilitare l’attività di avanzamento dei costi, 
 contabilizzati mensilmente in Nivola (nella procedura Repository forniture).
