@@ -1,6 +1,6 @@
 
-**Associazione di un listino ad un account**
-********************************************
+**Associazione di un listino ad un account (amministratore di backoffice) **
+****************************************************************************
 
 La gestione dei **LISTINI E COSTI** è attivabile dalla voce servizio **Accounts** posto nella parte sinistra dello schermo, sotto la label **Struttura organizzativa**. 
 Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito di un clic il sistema popolerà la parte centrale del video con l”Elenco degli accounts.

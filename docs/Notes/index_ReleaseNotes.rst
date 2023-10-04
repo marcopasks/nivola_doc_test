@@ -2,9 +2,9 @@
 **Release Notes**
 =================
 
-.. _release-3.6.1:
+.. _release-4.0.0:
 
-Service Portal 3.6.1 (2023-10-04)
+Service Portal 4.0.0 (2023-10-04)
 ---------------------------------
 
 •  Miglioramenti di sicurezza
