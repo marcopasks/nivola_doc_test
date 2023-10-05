@@ -106,11 +106,11 @@ html_favicon = 'favicon.ico'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-def setup(app):
+#def setup(app):
     # app.add_stylesheet("css/custom.css")
-#    app.add_stylesheet("css/nivola.css") commentato da paolo 05/10/23, oltre ad aver modificato due righe sotto aggiungendo "static", poi commentate
-#    add_css_file("_static/css/nivola.css")
-#    app.add_javascript('_static/js/nivola.js')
+#    app.add_stylesheet("/home/paolo/GIT/NPS/LOCAL5_nivola_doc_test/nivola_doc_test/_static/css/nivola.css") commentato da paolo 05/10/23, oltre ad aver modificato due righe sotto aggiungendo "static"
+#    add_css_file("/home/paolo/GIT/NPS/LOCAL5_nivola_doc_test/nivola_doc_test/_static/css/nivola.css")
+#    app.add_javascript('/home/paolo/GIT/NPS/LOCAL5_nivola_doc_test/nivola_doc_test/_static/js/nivola.js')
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
