@@ -108,9 +108,9 @@ html_favicon = 'favicon.ico'
 html_static_path = ['_static']
 def setup(app):
     # app.add_stylesheet("css/custom.css")
-#    app.add_stylesheet("css/nivola.css") commentato da paolo 05/10/23
-    add_css_file("css/nivola.css")
-    app.add_javascript('js/nivola.js')
+#    app.add_stylesheet("css/nivola.css") commentato da paolo 05/10/23, oltre ad aver modificato due righe sotto aggiungendo "static"
+    add_css_file("_static/css/nivola.css")
+    app.add_javascript('_static/js/nivola.js')
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
