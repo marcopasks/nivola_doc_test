@@ -29,7 +29,7 @@ version = '1.0'
 release = '1.0.0'
 
 
-# -- General configuration ---------------------------------------------------
+# -- General configuration --------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
