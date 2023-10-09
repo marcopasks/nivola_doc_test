@@ -83,7 +83,7 @@ html_theme = "sphinx_rtd_theme"
 #html_theme_path = ["/home/paolo/GIT/NPS/LOCAL5_nivola_doc_test/nivola_doc_test/docs/_themes"]
 html_theme_path = ["."]
 
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
