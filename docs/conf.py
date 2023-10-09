@@ -80,7 +80,8 @@ extensions = [ 'sphinx_rtd_theme' ]
 
 html_theme = "sphinx_rtd_theme"
 #html_theme_path = ["/home/paolo/.local/lib/python3.10/site-packages/sphinx_rtd_theme/"]
-html_theme_path = ["/home/paolo/GIT/NPS/LOCAL5_nivola_doc_test/nivola_doc_test/docs/_themes"]
+#html_theme_path = ["/home/paolo/GIT/NPS/LOCAL5_nivola_doc_test/nivola_doc_test/docs/_themes"]
+html_theme_path = ["."]
 
 html_static_path = ['_static']
 
