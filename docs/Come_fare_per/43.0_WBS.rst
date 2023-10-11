@@ -16,6 +16,8 @@ E' necessario valorizzare i seguenti attributi:
 
 La gestione del **WBS** è attivabile dalla voce servizio **Accounts** posto nella parte sinistra dello schermo, sotto la label **Struttura organizzativa**. 
 Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito di un clic il sistema popolerà la parte centrale del video con l'Elenco degli accounts.
+Per ogni anno possono essere associate più di una WBS: la somma delle percentuali delle WBS di un determinato anno deve essere uguale a 100.
+In caso di valore inferiore oppure superiore, l'errore verrà visualizzato sullo schermo.
 
 .. image:: img/42.0_Elenco_Accounts.png
 
