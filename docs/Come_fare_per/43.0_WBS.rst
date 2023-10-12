@@ -2,7 +2,7 @@
 **WBS (amministratore di backoffice)**
 **************************************
 
-L'associazione di un codice WBS (Work breakdown Structure) ad un Account ha lo scopo di facilitare l’attività di avanzamento dei costi, 
+L'associazione di un codice WBS (Work breakdown Structure) ad un **Account** ha lo scopo di facilitare l’attività di avanzamento dei costi, 
 contabilizzati mensilmente in Nivola (nella procedura Repository forniture).
 
 E' necessario valorizzare i seguenti attributi:
@@ -38,16 +38,28 @@ In caso di valore inferiore oppure superiore, l'errore verrà visualizzato sullo
 
 .. image:: img/Add_VM.png
 
-5. Selezionare una delle **WBS** censite a sistema:
+5. selezionare l'anno di riferimento
+
+.. image:: img/43.0_Anno1.png
+
+.. image:: img/43.0_Anno2.png
+
+
+6. cliccare su **INSERISCI NUOVA WBS**
+
+.. image:: img/43.0_inserisciWBS.png
+
+
+7. Selezionare una delle **WBS** censite a sistema:
 
 .. image:: img/43.0_Elenco_WBS.png
  
 
-6. Sfruttando le combo box proposte inserire: data inizio, data fine, percentuale:
+8. Sfruttando le combo box proposte inserire: data inizio, data fine, percentuale:
 
 .. image:: img/43.0_Date_Perc_WBS.png
  
- 
-7. Controllare i dati inseriti e salvarli premendo sul pulsante **CONFERMA**:
+
+9. Controllare i dati inseriti e salvarli premendo sul pulsante **CONFERMA**:
 
 .. image:: img/43.0_Conferma.png
