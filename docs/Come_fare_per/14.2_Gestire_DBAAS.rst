@@ -10,14 +10,7 @@ un clic su quest'ultima opzione, il sistema popolerà la
 parte destra del video con l'**Elenco DBAAS** e i pulsanti da cui
 attivare le operazioni.
 
-Per **gestione del DBAAS** si intendono tutte le funzioni per l'utilizzo
-dell'istanza DB in precedenza :ref:`creata <Creare_DBAAS>`
-Appartengono a questo gruppo di operazioni:
 
-    1. :ref:`Cercare un istanza DbaaS`
-    2. :ref:`Connettersi ad un istanza DbaaS`
-
-.. _Cercare un istanza DbaaS:
 
 **Cercare una istanza istanze Database as a Service**
 =====================================================
