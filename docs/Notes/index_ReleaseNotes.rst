@@ -2,6 +2,15 @@
 **Release Notes**
 =================
 
+.. _release-4.1.0:
+
+Service Portal 4.1.0 (2023-10-23)
+-------------------------------
+
+•  Risoluzione bug fix minori
+
+
+
 .. _release-4.0.0:
 
 Service Portal 4.0.0 (2023-10-04)
