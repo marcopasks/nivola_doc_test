@@ -34,3 +34,32 @@ le caratteristiche dei server. Per eseguire una ricerca è necessario procedere 
     2. Attendere che il sistema popoli, con il risultato, la parte destra del video;
 
       .. image:: img/DBAAS_Ricerca_fatta.png
+
+
+
+
+.. _Connettersi ad un istanza DbaaS:
+
+**Connettersi ad una istanza Database as a Service**
+====================================================
+
+Per raggiungere un istanza del Database è necessario procedere
+nella maniera seguente:
+
+    1. Selezionare l'istanza;
+
+       .. image:: img/DBAAS_scegli_php.png
+
+    2. Premere **pulsante connetti** ;
+
+       .. image:: img/Pulsante_connetti.png
+
+    3. Attendere che il sistema esponga l'**url** del pannello di controllo;
+
+      .. image:: img/DBAAS_connetti_link.png
+
+    4. Dopo il clic sull'indirizzo, Nivola, metterà a disposizione dell'operatore il tool
+       per l'amministrazione dell'istanza. Per completare il percorso, sarà necessario indicare **nome utente**
+       e **Password**;
+
+      .. image:: img/DBAAS_connetti_php.png
