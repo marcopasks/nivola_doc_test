@@ -77,8 +77,6 @@ Utilizzare le frecce per far comparire le liste delle **Division** e degli **Acc
 
 .. image:: img/100.15_Filtro1selezAccount2MO.png
 
-.. image:: img/100.15_Filtro1selezAccount3MO.png
-
 Quindi selezionare la division e l'account desiderati e cliccare su **CONFERMA**
 
 .. image:: img/100.15_Filtro1selezAccount4MO.png
