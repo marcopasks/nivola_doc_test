@@ -1,7 +1,7 @@
 .. _Assistenza:
 
-**Assistenza (master di account)**
-##################################
+**Assistenza (master di account/division/organization)**
+########################################################
 
 Attraverso questo menù è possibile aprire delle segnalazione relative ad anomalie o malfunzionamenti attraverso un sistema di ticketing.
 
@@ -10,6 +10,7 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
 
    100.5_Elenco_Ticket_inviati.rst
    100.10_Cercare_E_Visualizzare_Ticket_inviato.rst
+   100.15_Uso_filtri.rst
    100.20_Elenco_bozze.rst
    100.25_Cercare_E_Visualizzare_bozze.rst
    100.35_Creare_nuovo_ticket.rst

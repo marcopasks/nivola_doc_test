@@ -1,0 +1,32 @@
+
+**Uso dei filtri**
+==================
+
+La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
+sotto **Assistenza**:
+
+.. image:: img/100.5_Elenco_Ticket_inviatiSX.png
+
+
+Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**:
+
+.. image:: img/100.5_ElencoTicketDX.png
+
+Cliccare sul simbolo in alto a destra la cui descrizione passandoci sopra col mouse è "Mostra filtri"
+
+.. image:: img/100.1_FiltroDX.png
+
+Comparirà la seguente schermata
+
+.. image:: img/100.15_Filtro1.png
+
+Alla primo caricamento dei ticket, gli stati filtrati sono quelli descritti nella voce "**Stato**"
+
+.. image:: img/100.15_Filtro1rosso.png
+
+Per modificare tali valori cliccare sulla freccia a destra in corrispondenza della voce **Stato** e selezionare gli stati desiderati
+
+.. image:: img/100.15_Filtro1freccia.png
+
+.. image:: img/100.15_Filtro1lista.png
+
