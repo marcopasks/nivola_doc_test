@@ -2,6 +2,9 @@
 **Uso dei filtri**
 ==================
 
+**Master di Account**
+*********************
+
 La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
 sotto **Assistenza**:
 
@@ -12,7 +15,7 @@ Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviat
 
 .. image:: img/100.5_ElencoTicketDX.png
 
-Cliccare sul simbolo in alto a destra la cui descrizione passandoci sopra col mouse è "Mostra filtri"
+Cliccare sul simbolo in alto a destra la cui descrizione passandoci sopra col mouse è **Mostra filtri**
 
 .. image:: img/100.1_FiltroDX.png
 
@@ -30,3 +33,52 @@ Per modificare tali valori cliccare sulla freccia a destra in corrispondenza del
 
 .. image:: img/100.15_Filtro1lista.png
 
+E' possibile effettuare una ricerca per **cognome** dell'utente che ha aperto il ticket attraverso la prima voce **Inviata da..(cerca per cognome)**
+
+.. image:: img/100.15_Filtro1cognome.png
+
+Quindi premere il pulsante **APPLICA FILTRI**
+
+.. image:: img/100.15_Filtro1cognomeApplica.png
+
+
+
+**Master di Division**
+**********************
+
+I filtri per **stato** e **cognome** sono comuni a quelli descritti sopra per i **Master di Account**
+
+La ricerca per **account** è attivabile cliccando sul pulsante **SELEZIONA L'ACCOUNT**
+
+.. image:: img/100.15_Filtro1selezAccount.png
+
+Utilizzare la freccia per far comparire la lista degli **Account**
+
+.. image:: img/100.15_Filtro1selezAccount2.png
+
+.. image:: img/100.15_Filtro1selezAccount3.png
+
+Quindi selezionare l'account desiderato e cliccare su **CONFERMA**
+
+.. image:: img/100.15_Filtro1selezAccount4.png
+
+
+
+**Master di Organization**
+**************************
+
+I filtri per **stato** e **cognome** sono comuni a quelli descritti sopra per i **Master di Account**
+
+La ricerca per **account** è attivabile cliccando sul pulsante **SELEZIONA L'ACCOUNT**
+
+.. image:: img/100.15_Filtro1selezAccount.png
+
+Utilizzare le frecce per far comparire le liste delle **Division** e degli **Account**
+
+.. image:: img/100.15_Filtro1selezAccount2MO.png
+
+.. image:: img/100.15_Filtro1selezAccount3MO.png
+
+Quindi selezionare la division e l'account desiderati e cliccare su **CONFERMA**
+
+.. image:: img/100.15_Filtro1selezAccount4MO.png

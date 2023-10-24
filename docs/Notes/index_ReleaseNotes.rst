@@ -5,7 +5,7 @@
 .. _release-4.1.0:
 
 Service Portal 4.1.0 (2023-10-23)
---------------------------------
+---------------------------------
 
 •  Miglioramenti liste ticketing
 
@@ -16,7 +16,7 @@ Service Portal 4.1.0 (2023-10-23)
 .. _release-4.0.0:
 
 Service Portal 4.0.0 (2023-10-04)
---------------------------------
+---------------------------------
 
 •  Miglioramenti di sicurezza
 
