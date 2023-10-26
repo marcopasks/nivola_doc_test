@@ -12,6 +12,6 @@ Utilizzare le frecce per far comparire le liste delle **Organization**, **Divisi
 
 .. image:: img/100.15_Filtro1selezAccount2AB.png
 
-Quindi selezionare l'organization, la division e l'account desiderati e cliccare su **CONFERMA**
+Quindi selezionare l'Organization, la Division e l'Account desiderati e cliccare su **CONFERMA**
 
 .. image:: img/100.15_Filtro1selezAccount4AB.png
