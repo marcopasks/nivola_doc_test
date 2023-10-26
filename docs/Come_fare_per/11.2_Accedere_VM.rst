@@ -32,4 +32,4 @@ Utilizzare il comando:
 **beehive ssh nodes connect FQDN_VM oppure IP**
 
 Esempio FQDN:
-hostname-acronimoAccount.site0N.nivolapiemonte.it
+hostname-acronimoAccount.site01.nivolapiemonte.it
