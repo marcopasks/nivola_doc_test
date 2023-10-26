@@ -80,8 +80,7 @@ extensions = [ 'sphinx_rtd_theme' ]
 
 html_theme = 'sphinx_rtd_theme'
 
-#html_theme_path = ["."]
-html_static_path = ['_static']
+html_theme_path = ["."]
 
 #html_static_path = ['_static']  commentato
 
