@@ -115,6 +115,11 @@ def setup(app):
     app.add_css_file("_static/css/nivola.css")
     #app.add_javascript('js/nivola.js')
 
+#ultima riga aggiunta 26-10-2023
+html_css_files = [
+            '_static/css/nivola.css',
+            ]
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
