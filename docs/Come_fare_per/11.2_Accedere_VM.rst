@@ -26,6 +26,9 @@ Per **accedere** una Virtual Machine procedere con le seguenti operazioni:
 
 
 **ACCESSO TRAMITE CLI**
-***********************
 
-inserire link gitlab dei CDA
+Utilizzare il comando:
+
+**beehive ssh nodes connect nome_vm.site0X.nivolapiemonte.it**
+
+(indicare il site corretto, es, site01/site02)
