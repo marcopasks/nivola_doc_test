@@ -29,6 +29,7 @@ Per **accedere** una Virtual Machine procedere con le seguenti operazioni:
 
 Utilizzare il comando:
 
-**beehive ssh nodes connect nome_vm.site0X.nivolapiemonte.it**
+**beehive ssh nodes connect FQDN_VM oppure IP**
 
-(indicare il site corretto, es, site01/site02)
+Esempio FQDN:
+hostname-acronimoAccount.site0N.nivolapiemonte.it
