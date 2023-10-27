@@ -112,12 +112,12 @@ html_theme_options = {
 def setup(app):
     # app.add_stylesheet("css/custom.css")
     # app.add_stylesheet("css/nivola.css")
-    app.add_css_file("css/custom.css")
+    app.add_css_file("_static/css/custom.css")
     #app.add_javascript('js/nivola.js')
 
 #ultima riga aggiunta 26-10-2023
 html_css_files = [
-            'css/custom.css',
+            '_static/css/custom.css',
             ]
 
 # Custom sidebar templates, must be a dictionary that maps document names
