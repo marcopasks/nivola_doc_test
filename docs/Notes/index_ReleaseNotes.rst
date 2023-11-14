@@ -2,6 +2,28 @@
 **Release Notes**
 =================
 
+.. _release-4.2.0:
+
+Service Portal 4.2.0 (2023-11-13)
+---------------------------------
+
+•  Implementazione SaaS
+
+•  Risoluzione bug fix minori
+
+
+
+
+.. _release-4.1.1:
+
+Service Portal 4.1.1 (2023-10-30)
+---------------------------------
+
+•  Risoluzione bug fix minori
+
+
+
+
 .. _release-4.1.0:
 
 Service Portal 4.1.0 (2023-10-23)

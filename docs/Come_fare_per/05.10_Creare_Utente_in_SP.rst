@@ -1,40 +1,49 @@
-.. _Creare_Utente_in_SP:
 
 **Creare Utente all’interno del Service Portal**
 ################################################
 
 La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice sia dal ruolo Master di Account.
-|
-|
 
-**AMMINISTRATORE DI BACKOFFICE**
+:AMMINISTRATORE DI BACKOFFICE:
 
 Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare un utente:
 
-1.	Dal menù a sinistra selezionare **Amministrazione → Struttura Organizzativa → Registra Nuovo Utente** → si aprirà la pagina di creazione utente
+1.	Dal menù a sinistra selezionare **Amministrazione → Utenti -> Registra Nuovo Utente** → si aprirà la pagina di creazione utente
 
    .. image:: img/05.10_utenteABOsx.png
 
 |
 
-2. Dal menù a sinistra selezionare **Amministrazione → Struttura Organizzativa → Lista Utenti Registrati → “+”** in alto a destra
+2. Dal menù a sinistra selezionare **Amministrazione → Utenti -> Lista Utenti Registrati**
+Quindi dalla pagina di destra, selezionare il simbolo **“+”** in alto a destra
 
    .. image:: img/05.10_utenteABOdx.png
 
 
-In entrambi i casi, dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
-**Codice Fiscale, Nome, Cognome, Email e il tipo di accesso** 
+|
 
-Al termine premere il tasto **REGISTRA UTENTE**
+In entrambi i casi, dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
+**Codice Fiscale, Nome, Cognome, Email e il tipo di accesso**
+
+Se la mail inserita appartiente a un dominio **CSI** automaticamente verrà flaggato il campo **Accesso a sistema di ticketing** per permettere all'utente in creazione
+di poter disporre della funzionalità di apertura, visualizzazione e consultazione dei **ticket**
+
+  .. image:: img/05.10_ticketingdx.png
+
+
+Al termine premere il pulsante **REGISTRA UTENTE**
 
    .. image:: img/05.10_Registra_Utente.png
+|
+
+**Accreditamento (da amministratore di backoffice)**
 
 La funzione **Accreditamento di utente** (da amministratore di backoffice) è attivabile accedendo all'elenco **Lista utenti Registrati** 
 (all'interno dei menù  **Amministrazione -> Utenti**)
 
    .. image:: img/Utente_innesco_accredito.png
 
-Dall'elenco selezionare l'utente da accreditare mettendo una spunta sulla Checkbox relativa
+Dall'elenco cercare e selezionare l'utente da accreditare mettendo una spunta sulla Checkbox relativa
 
   .. image:: img/Utente_elenco.png
 
@@ -48,11 +57,10 @@ Nella nuova form, sfruttando le Combo Box, indicare **Ruolo**, **Organizzazione*
   .. image:: img/Utente_form_accredito.png
 
 L'utente sarà accreditato nel livello organizzativo e nel ruolo indicati.
-|
-|
+
 |
 
-**MASTER DI ACCOUNT**
+:MASTER DI ACCOUNT:
 
 Dal menù a sinistra selezionare **Gestione Account → Utenti -> Lista Utenti Accreditati**
 
@@ -71,9 +79,11 @@ Dopo aver attivato la funzione, compilare la form presentata dal sistema indican
 
    .. image:: img/05.10_Nuovo_Utente.png
 
+Premere il bottone **VAI A ACCREDITAMENTO** per proseguire con la configurazione dell’utente appena creato, assegnandogli uno o più ruoli.
+
 |
 
-Premere il bottone **VAI A ACCREDITAMENTO** per proseguire con la configurazione dell’utente appena creato, assegnandogli uno o più ruoli.
+**Accreditamento (da master di account)**
 
 La funzione **Accreditamento di utente** (da master di account) è attivabile dall'elenco **Lista utenti accreditati**
 (all'interno dei menù  **Gestione account -> Utenti**)

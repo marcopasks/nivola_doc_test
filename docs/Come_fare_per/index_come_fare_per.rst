@@ -20,6 +20,8 @@ ad interagire con la piattaforma, attraverso il portale.
    15.0_Lavorare_con_i_servizi_di_rete.rst
    16.0_Lavorare_con_STAAS.rst
    17.0_Lavorare_con_VOLUMI.rst
+   17.8_SAAS.rst
+   17.8.1_Ticket_SAAS.rst
    18.1_Comunicare_con_internet.rst
    18.2_Abilitare_vpn.rst
    20.0_Gestione_password_esterni.rst

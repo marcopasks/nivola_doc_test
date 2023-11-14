@@ -7,13 +7,13 @@ Per visualizzare i **dettagli** degli **Account** sotto una **Divisione** proced
 
 ●	Accedere al Service Portal come Master di Divisione
 
-●	Premere sulla scheda **Gestione Organizzazione → Struttura Organizzativa → Accounts**
+●	Premere sulla scheda **Gestione Divisione → Struttura Organizzativa → Accounts**
 
 .. image:: img/04_GestDivSx.png
 
 |
 
-Premendo su Accounts, il portale restituisce un elenco degli account appartenenti alla divisione
+Premendo su **Accounts**, il portale restituisce l'elenco degli account appartenenti alla divisione
 
 .. image:: img/04_ElencoDx.png
 
@@ -43,17 +43,17 @@ Le funzionalità disponibili in questa pagina sono le seguenti:
 
 |
 
-Premendo sul checkbox a sinistra del Nome Organizzazione (uno solo alla volta) si abilitano delle funzioni specifiche per la divisione scelta:
+Selezionado un **Account** e selezionando il checkbox alla sua sinistra si abilitano le seguenti funzioni:
 
 ●	Elenco Attività dell’account
 
 .. image:: img/04_attivita.png
 
+|
+
 ●	Visualizzazione dettaglio account
 
 .. image:: img/04_dettaglio.png
-
-|
 
 .. image:: img/04_dettaglioDx.png
 
@@ -65,14 +65,6 @@ Premendo il bottone **Dettaglio Account**, l’utente visualizza la pagina di De
 
 |
 
-In questa sezione l’utente visualizza diverse pagine con diverse funzionalità:
-Le funzionalità generali per tutte le finestre sono:
-
-●	Refresh dei dati
-
-.. image:: img/04_refresh.png
-
-|
 
 Ci sono diverse schede nel dettaglio account:
 
@@ -96,6 +88,6 @@ Ci sono diverse schede nel dettaglio account:
 
 |
 
-Scendendo sotto la prima parte di dettaglio si trovano i servizi di Compute, DataBase e Storage dell’account scelto:
+Accedendo al tab **Servizi** si trovano i servizi di Compute, DataBase, Storage, Security Group,  VPC, Volumi, Logging, Monitoraggi dell’account scelto:
 
 .. image:: img/04_ComDataStor.png

@@ -1,10 +1,9 @@
-.. _Attivare servizio di Broker Applicativo e Desktop As a Service:
 
-** Attivare servizio di Broker Applicativo e Desktop As a Service**
-*******************************************************************
+**Attivare servizio di Broker Applicativo e Desktop As a Service**
+******************************************************************
 
-** TS PLUS (master di account) **
-=================================
+**TS PLUS (master di account)**
+===============================
 
 TS Plus è un servizio che è possibile richiedere attraverso una remedy al Nivola Support Center.
 

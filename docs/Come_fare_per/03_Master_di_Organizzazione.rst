@@ -5,7 +5,7 @@
 
 Per visualizzare i **dettagli** delle **Divisioni** sotto un’ **Organizzazione** procedere nel seguente modo:
 
-●	Accedere al **Service Portal** come Master di Organizzazione
+●	Accedere al Service Portal come **Master di Organizzazione**
 
 ●	Premere sulla scheda **Gestione Organizzazione → Struttura Organizzativa → Divisioni**
 
@@ -43,8 +43,7 @@ Le funzionalità disponibili in questa pagina sono:
 
 |
 
-Premendo sul checkbox a sinistra del Nome Organizzazione (uno solo alla volta) si abilitano delle funzioni 
-specifiche per la divisione scelta:
+Selezionado una **Divisione** e selezionando il checkbox alla sua sinistra si abilitano le seguenti funzioni:
 
 ●	Reindirizzamento agli account legati alla divisione
 
@@ -64,7 +63,10 @@ specifiche per la divisione scelta:
 
 |
 
-Premendo il bottone **Dettaglio Divisione**, l’utente visualizza la pagina di Dettaglio della Divisione scelta:
+
+:Dettaglio Divisione:
+
+l’utente visualizza la pagina di Dettaglio della Divisione scelta:
 
 .. image:: img/03_dettaglio_divisione.png
 
@@ -74,7 +76,7 @@ Premendo il bottone **Dettaglio Divisione**, l’utente visualizza la pagina di 
 
 |
 
-La scheda **DETTAGLIO** fornisce all’utente informazioni dettagliate sulla divisione, quali:
+Il tab **DETTAGLIO** fornisce all’utente informazioni dettagliate sulla divisione, quali:
 
 ●	Stato 
 
@@ -92,7 +94,9 @@ La scheda **DETTAGLIO** fornisce all’utente informazioni dettagliate sulla div
 
 |
 
-●	Account Collegati → il bottone   reindirizza l’utente all’elenco Account collegati alla divisione scelta
+:Account Collegati:
+
+il bottone reindirizza l’utente all’elenco Account collegati alla divisione scelta
 
 .. image:: img/03_reindirizza.png
 
@@ -111,12 +115,12 @@ con la possibilità di registrarne uno nuovo:
 
 |
 
-Nell’ultima scheda CONSUMI si ritrova un elenco dei costi e consumi specifici per la divisione scelta:
+Nell’ultimo tab **CONSUMI** si ritrova un elenco dei costi e consumi specifici per la divisione scelta:
 
 .. image:: img/03_Consumi.png
 
 |
 
-Il bottone arancione  serve a refreshare il grafico dell’Andamento dei Costi:
+Il bottone arancione serve a refreshare il grafico dell’Andamento dei Costi:
 
 .. image:: img/03_refresh2.png

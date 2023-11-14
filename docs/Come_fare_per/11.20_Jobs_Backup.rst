@@ -15,15 +15,22 @@ A seguito di un clic su **Backup**, il sistema popolerà la parte destra del vid
 
 .. image:: img/11.20_Elenco_BackupDX.png
 
-Per ogni **Job di Backup** sono disponibili le seguenti informazioni di dettaglio:
+Selezionando un **Job di Backup** e cliccando sull'icona del dettaglio in alto a destra
 
-- Stato	
-- Region - A.Z.	
-- Hypervisor	
-- Numero VM	
-- Created	
-- Updated	
-- start_time	
-- interval	
-- Retention policy	
-- Esito
+.. image:: img/03_dettaglio.png
+
+è possibile visionare la pagina relativa al **Pannello di Gestione Job di Backup**
+
+.. image:: img/11.20_PannelloGestioneDX.png
+
+Spostandosi nel tab **PUNTI DI RIPRISTINO** è possibile visionare l'elenco dei **jobscheduler**
+
+.. image:: img/11.20_PuntiRipristinoDX.png
+
+In corrispondenza di ogni **jobscheduler** cliccando sul simbolo delle informazioni sulla destra
+
+.. image:: img/11.20_infoDX.png
+
+Si accede al **Dettaglio punto di ripristino**
+
+.. image:: img/11.20_dettaglioPuntoRiprDX.png
