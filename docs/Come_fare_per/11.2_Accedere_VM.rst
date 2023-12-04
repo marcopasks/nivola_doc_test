@@ -6,6 +6,8 @@
 I requisiti necessari sono avere una  **login** e una **password** forniti dal **Nivola Support Center**.
 Acclarata questa condizione, procedere come segue:
 
+|
+
 **ACCESSO TRAMITE PORTALE**
 
 Per **accedere** una Virtual Machine procedere con le seguenti operazioni:
@@ -22,8 +24,7 @@ Per **accedere** una Virtual Machine procedere con le seguenti operazioni:
 
       .. image:: img/11.2_ConsoleSshBrowser.png
 
-
-
+|
 
 **ACCESSO TRAMITE CLI**
 
