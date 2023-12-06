@@ -4,13 +4,10 @@
 
 I servizi disponibili col Saas sono:
 
-**Servizio Moon** : soluzione open source che costruisce moduli on line
+**Servizio Moon**
+*****************
 
-**Servizio Whistleblowing** : soluzione per la segnalazione spontanea e anonima di fatti o condotte ritenute illecite in ambito lavorativo.
-
-|
-
-:Servizio Moon:
+Soluzione open source che costruisce moduli on line
 
 **MOOn** è un servizio di modulistica cloud Open Source che consente di costruire moduli on line per digitalizzare le richieste presentate da cittadini e 
 imprese alle pubbliche amministrazioni.
@@ -20,13 +17,19 @@ tematiche trattate dagli enti pubblici (demografia, tributi, edilizia, servizi p
 
 |
 
-:Servizio Whistleblowing:
+**Servizio Whistleblowing**
+***************************
+
+Soluzione per la segnalazione spontanea e anonima di fatti o condotte ritenute illecite in ambito lavorativo.
 
 **WhistleBlowing SaaS** è un servizio che permette di segnalare illeciti, irregolarità e misure ritorsive via web in conformità alle normative vigenti.
 
 E’ disponibile in due opzioni, una per i comuni con meno di 15.000 dipendenti e una seconda per comune con più di 15.000 dipendenti.
 
 |
+
+**Attivazione**
+***************
 
 Le tre funzioni (Saas MOOn, WhistleBlowing SaaS oltre i 15000 dipendemti e WhistleBlowing SaaS fino a 15000 dipendenti) sono attivabili attraverso 
 il ruolo **Amministratore di backoffice**. 
