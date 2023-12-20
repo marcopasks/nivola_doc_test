@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nivola'
-copyright = '2023, CSI Piemonte'
+copyright = '2020, CSI Piemonte'
 author = 'CSI Piemonte'
 
 # The short X.Y version
@@ -29,7 +29,7 @@ version = '1.0'
 release = '1.0.0'
 
 
-# -- General configuration ---------------------------------------------------
+# -- General configuration --------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
@@ -75,11 +75,14 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'alabaster'
+
+extensions = [ 'sphinx_rtd_theme' ]
+
 html_theme = 'sphinx_rtd_theme'
-# html_theme_path = ["_themes", ]
-#html_static_path = ['_static']
-#html_theme_path = ["docs/_themes", ]
+
+html_theme_path = ["."]
+
+#html_static_path = ['_static']  commentato
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -101,15 +104,21 @@ html_theme_options = {
     'includehidden': False,
     'titles_only': False
 }
-html_favicon = 'favicon.ico'
+#html_favicon = 'favicon.ico'  commentato
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 def setup(app):
     # app.add_stylesheet("css/custom.css")
-    app.add_stylesheet("css/nivola.css")
-    app.add_javascript('js/nivola.js')
+    # app.add_stylesheet("css/nivola.css")
+    app.add_css_file("css/nivola.css")
+    #app.add_javascript('js/nivola.js')
+
+#ultima riga aggiunta 26-10-2023
+html_css_files = [
+            'css/nivola.css',
+            ]
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
