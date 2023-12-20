@@ -1,0 +1,77 @@
+
+**Web Application Firewall (WAF)**
+**********************************
+
+I Web Application Firewall (WAF) consentono di proteggere le applicazioni Web da attacchi dannosi e traffico Internet indesiderato, 
+inclusi bot, injection e denial of service (DoS) a livello di applicazione. WAF consentirà di definire e gestire le regole per evitare 
+minacce e le vulnerabilità definite da OWASP. Il firewall dell'applicazione Web viene distribuito per proteggere le applicazioni e aiuta 
+a proteggere le applicazioni distribuite nel cloud pubblico. Le WAF possono identificare e bloccare il traffico bot dannoso con un set 
+avanzato di metodi di verifica.
+
+
+**WAF - Richiesta inserimento Certificato e Chiave privata**
+************************************************************
+
+La funzione è attivabile attraverso il ruolo **Master di account**.
+Occorre andare nella funzionalità **Certificati su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
+contenuto all'interno del menù **Reti e Sicurezza**
+
+.. image:: img/15.5_certificatiSX.png
+
+Dalla schermata **Richiesta inserimento Certificato e Chiave privata** che appare, compilare i dati richiesti:
+
+.. image:: img/15.5_certificatiTicketVuotoDX.png
+
+Una volta compilati i campi richiesti, cliccare su **INVIA**
+
+.. image:: img/15.5_ticketWAFcertDX.png
+
+Comparirà il seguente messaggio a conferma della corretta apertura del ticket
+
+.. image:: img/15.5_ticketWAFcertDxOK.png
+
+|
+
+**WAF - Richiesta verifica falsi positivi**
+*******************************************
+
+La funzione è attivabile attraverso il ruolo **Master di account**.
+Occorre andare nella funzionalità **Verifiche su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
+contenuto all'interno del menù **Reti e Sicurezza**
+
+.. image:: img/15.5_falsiSX.png
+
+Dalla schermata **Richiesta verifica falsi positivi** che appare, compilare i dati richiesti:
+
+.. image:: img/15.5_falsiTicketVuotoDX.png
+
+Una volta compilati i campi richiesti, cliccare su **INVIA**
+
+.. image:: img/15.5_ticketWAfalsitDX.png
+
+Comparirà il seguente messaggio a conferma della corretta apertura del ticket
+
+.. image:: img/15.5_ticketWAfalsiDxOK.png
+
+|
+
+**WAF - Richiesta dismissione server**
+**************************************
+
+La funzione è attivabile attraverso il ruolo **Master di account**.
+Occorre andare nella funzionalità **Dismissione server su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
+contenuto all'interno del menù **Reti e Sicurezza**
+
+.. image:: img/15.5_dismissioneSX.png
+
+Dalla schermata **Richiesta dismissione server** che appare, compilare i dati richiesti:
+
+.. image:: img/15.5_dismissioneTicketVuotoDX.png
+
+Una volta compilati i campi richiesti, cliccare su **INVIA**
+
+.. image:: img/15.5_ticketWAFdismissDX.png
+
+Comparirà il seguente messaggio a conferma della corretta apertura del ticket relativo al WAF
+
+.. image:: img/15.5_ticketWAFdismissDxOK.png

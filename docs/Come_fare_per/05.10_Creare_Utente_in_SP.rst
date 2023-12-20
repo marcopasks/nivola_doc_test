@@ -34,6 +34,7 @@ di poter disporre della funzionalità di apertura, visualizzazione e consultazio
 Al termine premere il pulsante **REGISTRA UTENTE**
 
    .. image:: img/05.10_Registra_Utente.png
+      
 |
 
 **Accreditamento (da amministratore di backoffice)**

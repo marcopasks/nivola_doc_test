@@ -8,5 +8,4 @@ attraverso la Command Line Interface.
 .. toctree::
    :maxdepth: 2
  
-inserire lik gitlab da CDA
-   
+   NIVOLALGManualeBeehiveCLI.rst
