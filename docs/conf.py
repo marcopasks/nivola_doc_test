@@ -139,10 +139,6 @@ def setup(app):
 
                 # One entry per manual page. List of tuples
                 # (source start file, name, description, authors, manual section).
-                man_pages = [
-                            (master_doc, 'nivola', 'Nivola Documentation',
-                                     [author], 1)
-                            ]
 
 
                 # -- Options for Texinfo output ----------------------------------------------
