@@ -165,4 +165,3 @@ def setup(app):
 
 
                 # -- Extension configuration -------------------------------------------------
-                extensions = ['sphinx.ext.intersphinx']
