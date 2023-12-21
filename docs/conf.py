@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nivola'
-copyright = '2023, CSI Piemonte'
+copyright = '2020, CSI Piemonte'
 author = 'CSI Piemonte'
 
 # The short X.Y version
@@ -29,7 +29,7 @@ version = '1.0'
 release = '1.0.0'
 
 
-# -- General configuration ---------------------------------------------------
+# -- General configuration --------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
@@ -39,8 +39,8 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-            'sphinx.ext.ifconfig',
-            ]
+    'sphinx.ext.ifconfig',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -75,11 +75,14 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'alabaster'
+
+extensions = [ 'sphinx_rtd_theme' ]
+
 html_theme = 'sphinx_rtd_theme'
-# html_theme_path = ["_themes", ]
-#html_static_path = ['_static']
-#html_theme_path = ["docs/_themes", ]
+
+html_theme_path = ["."]
+
+#html_static_path = ['_static']  commentato
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -87,81 +90,121 @@ html_theme = 'sphinx_rtd_theme'
 #
 # html_theme_options = {}
 html_theme_options = {
-            'canonical_url': '',
-               # 'analytics_id': 'UA-93560252-3',  #  Provided by Google in your dashboard
-                   'logo_only': False,
-                       'display_version': True,
-                           'prev_next_buttons_location': 'bottom',
-                               'style_external_links': True,
-                                   'vcs_pageview_mode': '',
-                                       # Toc options
-                                           'collapse_navigation': True,
-                                               'sticky_navigation': True,
-                                                   'navigation_depth': 4,
-                                                       'includehidden': False,
-                                                           'titles_only': False
-                                                           }
-html_favicon = 'favicon.ico'
+    'canonical_url': '',
+   # 'analytics_id': 'UA-93560252-3',  #  Provided by Google in your dashboard
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    'vcs_pageview_mode': '',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': False,
+    'titles_only': False
+}
+#html_favicon = 'favicon.ico'  commentato
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+#html_static_path = ['_static']
 def setup(app):
-        # app.add_stylesheet("css/custom.css")
-            app.add_stylesheet("css/nivola.css")
-                ###app.add_javascript('js/nivola.js')
+    # app.add_stylesheet("css/custom.css")
+    # app.add_stylesheet("css/nivola.css")
+    app.add_css_file("css/nivola.css")
+    #app.add_javascript('js/nivola.js')
 
-                # Custom sidebar templates, must be a dictionary that maps document names
-                # to template names.
-                #
-                # The default sidebars (for documents that don't match any pattern) are
-                # defined by theme itself.  Builtin themes are using these templates by
-                # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
-                # 'searchbox.html']``.
-                #
-                # html_sidebars = {}
+#ultima riga aggiunta 26-10-2023
+html_css_files = [
+            'css/nivola.css',
+            ]
 
-
-                # -- Options for HTMLHelp output ---------------------------------------------
-
-                # Output file base name for HTML help builder.
-
-
-                # -- Options for LaTeX output ------------------------------------------------
+# Custom sidebar templates, must be a dictionary that maps document names
+# to template names.
+#
+# The default sidebars (for documents that don't match any pattern) are
+# defined by theme itself.  Builtin themes are using these templates by
+# default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
+# 'searchbox.html']``.
+#
+# html_sidebars = {}
 
 
-                # Grouping the document tree into LaTeX files. List of tuples
-                # (source start file, target name, title,
-                #  author, documentclass [howto, manual, or own class]).
+# -- Options for HTMLHelp output ---------------------------------------------
+
+# Output file base name for HTML help builder.
+htmlhelp_basename = 'Nivoladoc'
 
 
-                # -- Options for manual page output ------------------------------------------
+# -- Options for LaTeX output ------------------------------------------------
 
-                # One entry per manual page. List of tuples
-                # (source start file, name, description, authors, manual section).
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    #
+    # 'papersize': 'letterpaper',
+
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    # 'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    #
+    # 'preamble': '',
+
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
+}
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+latex_documents = [
+    (master_doc, 'Nivola.tex', 'Nivola Documentation',
+     'CSI Piemonte', 'manual'),
+]
 
 
-                # -- Options for Texinfo output ----------------------------------------------
+# -- Options for manual page output ------------------------------------------
 
-                # Grouping the document tree into Texinfo files. List of tuples
-                # (source start file, target name, title, author,
-                #  dir menu entry, description, category)
-
-
-                # -- Options for Epub output -------------------------------------------------
-
-                # Bibliographic Dublin Core info.
-
-                # The unique identifier of the text. This can be a ISBN number
-                # or the project homepage.
-                #
-                # epub_identifier = ''
-
-                # A unique identification for the text.
-                #
-                # epub_uid = ''
-
-                # A list of files that should not be packed into the epub file.
+# One entry per manual page. List of tuples
+# (source start file, name, description, authors, manual section).
+man_pages = [
+    (master_doc, 'nivola', 'Nivola Documentation',
+     [author], 1)
+]
 
 
-                # -- Extension configuration -------------------------------------------------
+# -- Options for Texinfo output ----------------------------------------------
+
+# Grouping the document tree into Texinfo files. List of tuples
+# (source start file, target name, title, author,
+#  dir menu entry, description, category)
+texinfo_documents = [
+    (master_doc, 'Nivola', 'Nivola Documentation',
+     author, 'Nivola', 'One line description of project.',
+     'Miscellaneous'),
+]
+
+
+# -- Options for Epub output -------------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = project
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#
+# epub_identifier = ''
+
+# A unique identification for the text.
+#
+# epub_uid = ''
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
+
+
+# -- Extension configuration -------------------------------------------------
+extensions = ['sphinx.ext.intersphinx']
