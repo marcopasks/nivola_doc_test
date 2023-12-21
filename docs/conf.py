@@ -109,7 +109,7 @@ html_static_path = ['_static']
 def setup(app):
         # app.add_stylesheet("css/custom.css")
             app.add_stylesheet("css/nivola.css")
-                app.add_javascript('js/nivola.js')
+                ###app.add_javascript('js/nivola.js')
 
                 # Custom sidebar templates, must be a dictionary that maps document names
                 # to template names.
