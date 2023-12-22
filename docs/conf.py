@@ -31,7 +31,7 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.ifconfig',
+    # 'sphinx.ext.ifconfig',
     'sphinxcontrib.jquery',
 ]
 
@@ -218,4 +218,4 @@ epub_exclude_files = ['search.html']
 
 
 # -- Extension configuration -------------------------------------------------
-extensions = ['sphinx.ext.intersphinx']
+# extensions = ['sphinx.ext.intersphinx']
