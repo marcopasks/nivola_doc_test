@@ -53,7 +53,7 @@ def setup(app):
     # Since Sphinx 6, jquery isn't bundled anymore and we need to ensure that
     # the sphinxcontrib-jquery extension is enabled.
     # See: https://dev.readthedocs.io/en/latest/design/sphinx-jquery.html
-    if sphinx_version >= (6, 0, 0):
+    # if sphinx_version >= (6, 0, 0):
         # Documentation of Sphinx guarantees that an extension is added and
         # enabled at most once.
         # See: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.setup_extension
