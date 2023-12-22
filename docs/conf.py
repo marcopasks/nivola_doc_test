@@ -33,7 +33,7 @@ release = '1.0.0'
 extensions = [
     'sphinx.ext.ifconfig',
      'sphinx.ext.intersphinx',
-    #'sphinxcontrib.jquery',
+    'sphinxcontrib.jquery',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
