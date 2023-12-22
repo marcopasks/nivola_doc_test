@@ -43,7 +43,9 @@ exclude_patterns = []
 
 
 # -- Options for HTML output -------------------------------------------------
-
+html_css_files = [
+            './css/nivola.css',
+            ]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
@@ -53,12 +55,10 @@ html_theme = "sphinx_rtd_theme"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_css_files = [
-            './css/nivola.css',
-            ]
+
 
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
-    app.add_css_file("css/nivola.css")
+    app.add_css_file("nivola.css",200)
 
 #html_logo = '_static/img/logonivola.png' se attivo visualizza doppio logo
