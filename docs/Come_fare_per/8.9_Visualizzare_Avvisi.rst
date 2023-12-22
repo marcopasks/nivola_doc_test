@@ -10,6 +10,7 @@ Per visualizzare gli **Avvisi collegati a un Budget** accedere alla pagina relat
 
 1. Selezionare un budget dall’elenco
 
+
 .. image:: img/8.9_Seleziona_Budget.png
 
 

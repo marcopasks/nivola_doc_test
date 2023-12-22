@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
-#
 # Configuration file for the Sphinx documentation builder.
 #
-# This file does only contain a selection of the most common options. For a
-# full list see the documentation:
-# http://www.sphinx-doc.org/en/master/config
+# This file only contains a selection of the most common options. For a full
+# list see the documentation:
+# https://www.sphinx-doc.org/en/master/usage/configuration.html
 
 # -- Path setup --------------------------------------------------------------
 
@@ -20,26 +18,21 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Nivola'
-copyright = '2020, CSI Piemonte'
+copyright = '2023, CSI Piemonte'
 author = 'CSI Piemonte'
 
-# The short X.Y version
-version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
 
 
-# -- General configuration --------------------------------------------------
-
-# If your documentation needs a minimal Sphinx version, state it here.
-#
-# needs_sphinx = '1.0'
+# -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
     'sphinx.ext.ifconfig',
+    'sphinxcontrib.jquery',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -75,11 +68,8 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-
 extensions = [ 'sphinx_rtd_theme' ]
-
-html_theme = 'sphinx_rtd_theme'
-
+html_theme = "sphinx_rtd_theme"
 html_theme_path = ["."]
 
 #html_static_path = ['_static']  commentato
@@ -104,21 +94,42 @@ html_theme_options = {
     'includehidden': False,
     'titles_only': False
 }
-#html_favicon = 'favicon.ico'  commentato
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
-def setup(app):
-    # app.add_stylesheet("css/custom.css")
-    # app.add_stylesheet("css/nivola.css")
-    app.add_css_file("css/nivola.css")
-    #app.add_javascript('js/nivola.js')
-
-#ultima riga aggiunta 26-10-2023
 html_css_files = [
             'css/nivola.css',
             ]
+
+def setup(app):
+    #app.add_stylesheet("css/nivola.css")
+    app.add_css_file("css/nivola.css")
+
+def setup_jquery(app, exception):
+    """
+    Inject jQuery if Sphinx>=6.x
+
+    Staring on Sphinx 6.0, jQuery is not included with it anymore.
+    As this extension depends on jQuery, we are including it when Sphinx>=6.x
+    """
+
+    if sphinx.version_info >= (6, 0, 0):
+        # https://jquery.com/download/#using-jquery-with-a-cdn
+        jquery_cdn_url = "https://code.jquery.com/jquery-3.6.0.min.js"
+        html_js_files = getattr(app.config, "html_js_files", [])
+        html_js_files.append((
+            jquery_cdn_url,
+            {
+                'integrity': 'sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=',
+                'crossorigin': 'anonymous'
+            }
+        ))
+        app.config.html_js_files = html_js_files
+
+def setup(app):
+    app.connect('config-inited', setup_jquery)
+#html_logo = '_static/img/logonivola.png' se attivo visualizza doppio logo
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
