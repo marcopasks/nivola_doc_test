@@ -107,7 +107,7 @@ html_css_files = [
 #             'js/sphinxcontrib/jquery/jquery.js',
 #             ]
 
-html_extra_path = [ '' ]
+html_extra_path = [ 'extra' ]
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
