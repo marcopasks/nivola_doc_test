@@ -82,6 +82,10 @@ html_theme = 'sphinx_rtd_theme'
 
 html_theme_path = ["."]
 
+#ultima riga aggiunta 26-10-2023
+html_css_files = [
+            'css/nivola.css',
+            ]
 #html_static_path = ['_static']  commentato
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -112,13 +116,9 @@ html_theme_options = {
 def setup(app):
     # app.add_stylesheet("css/custom.css")
     # app.add_stylesheet("css/nivola.css")
-    app.add_css_file("css/nivola.css")
+    app.add_css_file("css/nivola.css",200)
     #app.add_javascript('js/nivola.js')
 
-#ultima riga aggiunta 26-10-2023
-html_css_files = [
-            'css/nivola.css',
-            ]
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
