@@ -32,6 +32,7 @@ release = '1.0.0'
 # ones.
 extensions = [
     # 'sphinx.ext.ifconfig',
+    # 'sphinx.ext.intersphinx',
     'sphinxcontrib.jquery',
 ]
 
@@ -196,4 +197,4 @@ epub_exclude_files = ['search.html']
 
 
 # -- Extension configuration -------------------------------------------------
-# extensions = ['sphinx.ext.intersphinx']
+# extensions = ['']
