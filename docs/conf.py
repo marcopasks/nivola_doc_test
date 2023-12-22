@@ -33,7 +33,7 @@ release = '1.0.0'
 extensions = [
     'sphinx.ext.ifconfig',
      'sphinx.ext.intersphinx',
-     'sphinxcontrib.jquery',
+    #  'sphinxcontrib.jquery',
       'sphinx_rtd_theme' 
 ]
 
