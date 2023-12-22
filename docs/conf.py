@@ -103,10 +103,15 @@ html_css_files = [
             'css/nivola.css',
             ]
 
+html_css_files = [
+            'js/sphinxcontrib/jquery/jquery.js',
+            ]
+
+
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
-    app.ad
+    app.add_css_file("js/sphinxcontrib/jquery/jquery.js")
 
 
 #html_logo = '_static/img/logonivola.png' se attivo visualizza doppio logo
