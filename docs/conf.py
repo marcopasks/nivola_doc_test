@@ -33,7 +33,7 @@ release = '1.0.0'
 extensions = [
     'sphinx.ext.ifconfig',
      'sphinx.ext.intersphinx',
-    # 'sphinxcontrib.jquery',
+     'sphinxcontrib.jquery',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -111,6 +111,7 @@ html_css_files = [
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
+    app.setup_extension("sphinxcontrib.jquery")
     # app.add_css_file("js/sphinxcontrib/jquery/jquery.js")
 
 
