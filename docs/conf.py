@@ -32,7 +32,7 @@ release = '1.0.0'
 # ones.
 extensions = [
     'sphinx.ext.ifconfig',
-    'sphinx.ext.intersphinx',
+    # 'sphinx.ext.intersphinx',
     'sphinxcontrib.jquery',
 ]
 
