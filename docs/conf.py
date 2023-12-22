@@ -106,29 +106,7 @@ def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
 
-def setup_jquery(app, exception):
-    """
-    Inject jQuery if Sphinx>=6.x
 
-    Staring on Sphinx 6.0, jQuery is not included with it anymore.
-    As this extension depends on jQuery, we are including it when Sphinx>=6.x
-    """
-
-    if sphinx.version_info >= (6, 0, 0):
-        # https://jquery.com/download/#using-jquery-with-a-cdn
-        jquery_cdn_url = "https://code.jquery.com/jquery-3.6.0.min.js"
-        html_js_files = getattr(app.config, "html_js_files", [])
-        html_js_files.append((
-            jquery_cdn_url,
-            {
-                'integrity': 'sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=',
-                'crossorigin': 'anonymous'
-            }
-        ))
-        app.config.html_js_files = html_js_files
-
-def setup(app):
-    app.connect('config-inited', setup_jquery)
 #html_logo = '_static/img/logonivola.png' se attivo visualizza doppio logo
 
 # Custom sidebar templates, must be a dictionary that maps document names
