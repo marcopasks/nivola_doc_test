@@ -115,7 +115,7 @@ def setup(app):
     # app.add_css_file("js/sphinxcontrib/jquery/jquery.js")
 
 
-html_logo = './img/logonivola.png' #se attivo visualizza doppio logo
+html_logo = 'sphinx_rtd_theme/static/img/logonivola.png' #se attivo visualizza doppio logo
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
