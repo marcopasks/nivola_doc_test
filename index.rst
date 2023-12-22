@@ -1,7 +1,8 @@
 *******************
 **Nivola Platform**
 *******************
-
+..styles::
+   static/css/nivola.css 
 
 .. toctree::
     docs/Overview_Nivola/index_Overview_Nivola.rst
