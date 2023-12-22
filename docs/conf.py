@@ -107,7 +107,7 @@ html_css_files = [
 #             'js/sphinxcontrib/jquery/jquery.js',
 #             ]
 
-html_extra_path = ['extra']
+html_extra_path = [ '' ]
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
@@ -115,7 +115,7 @@ def setup(app):
     # app.add_css_file("js/sphinxcontrib/jquery/jquery.js")
 
 
-#html_logo = '_static/img/logonivola.png' se attivo visualizza doppio logo
+html_logo = '_static/img/logonivola.png' #se attivo visualizza doppio logo
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
