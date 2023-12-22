@@ -1,0 +1,131 @@
+.wy-body-for-nav{background: #fff url(../img/bg.jpg) repeat!important;}
+/*.wy-body-for-nav{background: #fff url(../img/Sfondo-vert.png) no-repeat}*/
+.wy-side-nav-search{background-color: #ecf1ed;}
+.wy-side-nav-search>a{color: #212529;}
+.wy-side-nav-search>div.version {margin:0; display: inline-block;font-size: .9em;color: #999b9d;}
+.wy-nav-side{background-color: #fff; box-shadow: 7px 0px 12px 1px #dee2e6; color:#999b9d; }
+.wy-menu-vertical a{color:#212529; }
+.wy-menu-vertical a:hover {background-color: #4e4a4a;color:#fff;}
+
+
+.wy-nav-content-wrap{background-color: transparent;}
+.wy-nav-content{ box-shadow: 7px 0px 12px 1px #dee2e6;background-color: #fff; padding: 0; max-width: 900px;}
+.wy-nav-content .rst-content{padding: 1.618em 3.236em;}
+
+
+
+
+.nivola-logo{background: transparent url(../img/logonivola.png) no-repeat center;min-width: 190px;height: 130px; display: block; margin-bottom: 2em;}
+#nivola-header{text-align: right; padding: 1.618em 3.236em;}
+#nivola-header a{color: #212529; font-size: 1.2em; font-weight: bold;}
+#nivola-header #username{margin-left: 2.2em}
+
+#nivola-footer{margin-top: 1.618em; padding: 1.618em 3.236em;background-color: #ecf1ed;}
+#nivola-footer .footer-info{display: flex;}
+#nivola-footer .footer-banner{flex-grow: 1;}
+#nivola-footer .footer-intro {flex-grow: 1;background-position: top left 15px; padding-top: 45px; padding-left: 0px; }
+
+/*
+#nivola-footer .footer-banner .logo-rp {background-image: url(../img/logo_regionepiemonte_footer.png); }
+#nivola-footer .footer-banner .logo-csi {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%;}
+#nivola-footer .footer-banner .logo-rp, #nivola-footer .footer-banner .logo-csi{display: block;width: auto;height: 51px;background-position: center center;background-repeat: no-repeat;background-color: black;}
+
+#nivola-footer .footer-banner .logo-csi{display: block;width: auto;height: 51px;background-position: center center;background-repeat: no-repeat;background-color: transparent;}
+*/
+/*
+#nivola-footer .footer-banner .logo-rp, 
+#nivola-footer .footer-banner .logo-csi{display: block;width: auto;height: 51px;background-position: center center;background-repeat: no-repeat;background-color: transparent;}
+*/
+#nivola-footer .footer-menu {border-top: 1px solid #646a6a;}
+#nivola-footer .footer-menu  ul {padding-left: 0;}
+#nivola-footer .footer-menu  ul li {display: inline-flex; text-align: center; padding-top: 10px;}
+#nivola-footer .footer-menu  ul li+ li::before  { content: "|"; padding: 0 .5em; }
+#nivola-footer .footer-menu  ul li a:link, 
+#nivola-footer .footer-menu  ul li a:active, 
+#nivola-footer .footer-menu  ul li a:visited {text-decoration:none;}
+
+.container-footer{
+color: #ffffff;
+background-color: #3d424f;
+}
+
+.link-footer{
+color: #ffffff;
+text-decoration-line: none;
+}
+
+hr.divider-footer-row{
+border-top: 1px solid #fff
+}
+
+.font-weight-bold {
+font-weight: 700!important;
+}
+
+.col-md-8 {
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+-ms-flex: 0 0 66.666667%;
+flex: 0 0 66.666667%;
+max-width: 66.666667%;
+}
+
+.col-md-4 {
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+-ms-flex: 0 0 33.333333%;
+flex: 0 0 33.333333%;
+max-width: 33.333333%
+}
+
+.col-12 {
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 100%;
+}
+
+
+footer {
+display: block;
+}
+
+.pr-5,
+.px-5 {
+padding-right: 3rem!important;
+}
+
+.pt-3,
+.py-5 {
+padding-top: 2.3rem!important;
+}
+
+.pr-5,
+.px-5 {
+padding-right: 3rem!important;
+}
+
+.pb-5,
+.py-5 {
+padding-bottom: 3rem!important;
+}
+
+.pl-5,
+.px-5 {
+padding-left: 3rem!important;
+}
+
+.text-muted {
+color: #6c757d!important;
+}
+
+.text-right {
+text-align: right!important;
+}
