@@ -33,7 +33,7 @@ release = '1.0.0'
 extensions = [
     'sphinx.ext.ifconfig',
      'sphinx.ext.intersphinx',
-    'sphinxcontrib.jquery',
+    # 'sphinxcontrib.jquery',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -103,15 +103,15 @@ html_css_files = [
             'css/nivola.css',
             ]
 
-html_css_files = [
-            'js/sphinxcontrib/jquery/jquery.js',
-            ]
+# html_css_files = [
+#             'js/sphinxcontrib/jquery/jquery.js',
+#             ]
 
 
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
-    app.add_css_file("js/sphinxcontrib/jquery/jquery.js")
+    # app.add_css_file("js/sphinxcontrib/jquery/jquery.js")
 
 
 #html_logo = '_static/img/logonivola.png' se attivo visualizza doppio logo
