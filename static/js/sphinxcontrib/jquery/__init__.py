@@ -42,7 +42,7 @@ def add_js_files(app, config):
 def setup(app):
     # Configuration value for enabling `subresource integrity`__ (SRI) checks
     # __ https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
-    app.add_config_value("jquery_use_sri", default=False, rebuild="html", types=(bool,))
+    app.add_config_value("jquery_use_sri", default=True, rebuild="html", types=(bool,))
 
     app.connect('config-inited', add_js_files)
 
