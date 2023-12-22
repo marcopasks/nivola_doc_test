@@ -117,7 +117,7 @@ def setup(app):
 
 #ultima riga aggiunta 26-10-2023
 html_css_files = [
-            'css/nivola.css',
+            './css/nivola.css',
             ]
 
 # Custom sidebar templates, must be a dictionary that maps document names
