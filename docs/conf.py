@@ -32,8 +32,8 @@ release = '1.0.0'
 # ones.
 extensions = [
     'sphinx.ext.ifconfig',
-    # 'sphinx.ext.intersphinx',
-    'sphinxcontrib.jquery',
+     'sphinx.ext.intersphinx',
+    #'sphinxcontrib.jquery',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
