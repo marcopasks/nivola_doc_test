@@ -106,6 +106,7 @@ html_css_files = [
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
+    app.ad
 
 
 #html_logo = '_static/img/logonivola.png' se attivo visualizza doppio logo
