@@ -1,0 +1,111 @@
+
+**Volumi dinamici**
+===================
+
+**Ampliamento disco**
+
+Il metodo di ampliamento di un disco differisce a seconda che si tratti un'istanza cpaas (virtual machine) o un'istanza dbaas (database instance).
+
+|
+
+**CPAAS**
+
+I passi sono i seguenti:
+
+1.	creare un nuovo volume con la dimensione voluta
+
+beehive bu cpaas volumes add name account availability_zone type size
+dove:
+
+•	name = nome del volume da creare
+
+•	account = account al quale assegnare il volume
+
+•	availability_zone = ...
+
+•	type = vol.standard ( il type vol.oracle serve per le istanze dbaas oracle)
+
+•	size = dimensione in GB
+
+ad es.
+beehive bu cpaas volumes add tomcat1-11a7d02a-volume-2 jira SiteTorino01 vol.standard 80
+
+2.	agganciare il disco
+
+beehive bu cpaas volumes attach <id_volume> <id_instance>
+
+3.	collegarsi via ssh alla istanza e ampliare il disco
+
+•	cercare l'istanza: beehive ssh nodes get -size -1 | grep dbs-sirva 
+
+•	collegarsi alla istanza: beehive ssh nodes connect dbs-sirva-prd-001-sirva.site01.nivolapiemonte.it 
+
+•	ampliare il disco
+ 
+Per le vm Windows la procedura prevede l'utilizzo dei "Dynamic Disk"   che consentono  ai volumi di avere extent non contigue su uno o più dischi 
+fisici (durante la prima estensione si convertirà il disco da "Disco di Base" a "Dinamico
+
+|
+
+**DBAAS**
+
+Per aumentare la dimensione del disco dei dbaas bisogna innanzi tutto capire se è un dbaas di versione 1 o 2.
+Provare i seguenti comandi per individuare la versione indicando il nome del dbaas:
+
+$ beehive res-provider oldstack-sql-get -e podto1 -name dbs-afc-prd-001p
+--> dbaas v1
+
+$ beehive res-provider stack-sql-get -e podto1 -name dbs-sysinfo-prd-002m
+--> dbaas v2
+
+Il comando che risponde con 1 record individua la versione.
+Nel caso di dbaas v1 di tipo oracle o mssql nessuno dei due comandi restituirà record
+
+|
+
+**POSTGRESQL/MySQL versione 1**
+
+In questo caso si deve aggiungere il disco utilizzando direttamente la dashboard di openstack dopo aver individuato la vm.
+Eseguire poi il passo 3 descritto sopra.
+
+|
+
+**ORACLE/MsSQL versione 1**
+
+In questo caso il dbaas oracle e mssql è una semplice vm visibile con il comando
+
+$ beehive bu cpaas list -accounts <account>
+Per aggiungere un disco basta usare i comandi utente per le vm descritti sopra
+
+|
+
+**POSTGRESQL/MySQL/ORACLE/MsSQL versione 2**
+
+In questo caso si può operare completamente da cli
+
+1.	Individuare la vm del dbaas
+
+$ beehive res-provider instance-get -name dbs-sysinfo-prd-002m
+id  name                             parent  av_zone       type       state    runstate    os          vpc                  security_group               vcpus    memory    disk-tot    disk-num  ip
+511181  dbs-sysinfo-prd-002m-server01     93275  SiteTorino02  openstack  ACTIVE   poweredOn   centos 7.5  VpcRUPAR06-3e4bfb3e  SG-MySql57finpis-cace9ae3        4      8192         140           2  10.138.233.21
+
+2.	Creare il nuovo disco
+
+$ vi <volume-file>.yml
+volume: 
+  container: ResourceProvider01 
+  name: <nome volume> 
+  desc: <desc volume> 
+  compute_zone: <parent della vm> 
+  availability_zone: <av_zone della vm> 
+  size: <size> 
+  type: openstack 
+  flavor: vol.default
+
+$ beehive res-provider volume-add <volume-file>.yml
+
+3.	Agganciare il disco alla vm
+
+$ beehive res-provider instance-volume-add <id vm> <id volume>
+
+4.	Eseguire il passo 3 descritto sopra
