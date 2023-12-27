@@ -3,4 +3,9 @@
 =========================================
 
 In questa sezione, sono raccolte le istruzioni per interagire con la piattaforma, 
-attraverso ’\ `Command Line Interface. file:///C:/Users/paolo.perra/Documents/CSI/GIT/sphinx_local/source/docs/Usare_Cli/NIVOLA-LG-Manuale-Beehive-CLI.pdf>`__
+attraverso la Command Line Interface.
+
+.. toctree::
+   :maxdepth: 2
+ 
+   231212_NIVOLALGManualeBeehiveCLI.rst

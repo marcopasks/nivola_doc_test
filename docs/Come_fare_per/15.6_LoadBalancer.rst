@@ -2,7 +2,7 @@
 **Load Balancer**
 *****************
 
-Il load  balancing è una tecnologia concepita per distribuire il carico di lavoro tra diversi server o applicazioni. 
+Il load balancing è una tecnologia concepita per distribuire il carico di lavoro tra diversi server o applicazioni. 
 L’obiettivo è ottimizzare le prestazioni globali, il rendimento e la capacità dell’infrastruttura.
 
 Il modello di Servizio di Load Balancing è il seguente
