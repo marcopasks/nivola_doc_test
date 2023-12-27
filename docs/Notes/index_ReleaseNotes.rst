@@ -2,6 +2,20 @@
 **Release Notes**
 =================
 
+.. _release-4.4.0:
+
+Service Portal 4.4.0 (2023-12-21)
+---------------------------------
+
+•  Funzionalità di icerca accrediti utente
+
+•  Listini
+
+•  Risoluzione bug fix minori
+
+
+
+
 .. _release-4.3.0:
 
 Service Portal 4.3.0 (2023-11-29)
