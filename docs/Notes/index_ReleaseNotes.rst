@@ -2,6 +2,36 @@
 **Release Notes**
 =================
 
+.. _release-4.3.0:
+
+Service Portal 4.3.0 (2023-11-29)
+---------------------------------
+
+•  Web Application Firewall (WAF)
+
+•  Load Balancer
+
+•  Registrazione FQDN su Server DNS
+
+•  Virtual Private Network (VPN)
+
+•  Risoluzione bug fix minori
+
+
+
+
+.. _release-4.2.1:
+
+Service Portal 4.2.1 (2023-11-22)
+---------------------------------
+
+•  Aggiunta ulteriori destinatari mail in creazione ticket
+
+•  Risoluzione bug fix minori
+
+
+
+
 .. _release-4.2.0:
 
 Service Portal 4.2.0 (2023-11-13)
