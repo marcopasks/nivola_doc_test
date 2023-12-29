@@ -13,7 +13,7 @@ avanzato di metodi di verifica.
 ************************************************************
 
 La funzione è attivabile attraverso il ruolo **Master di account**.
-Occorre andare nella funzionalità **Certificati su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
+Occorre accedere alla funzionalità **Certificati su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
 contenuto all'interno del menù **Reti e Sicurezza**
 
 .. image:: img/15.5_certificatiSX.png
@@ -36,7 +36,7 @@ Comparirà il seguente messaggio a conferma della corretta apertura del ticket
 *******************************************
 
 La funzione è attivabile attraverso il ruolo **Master di account**.
-Occorre andare nella funzionalità **Verifiche su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
+Occorre accedere alla funzionalità **Verifiche su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
 contenuto all'interno del menù **Reti e Sicurezza**
 
 .. image:: img/15.5_falsiSX.png
@@ -59,7 +59,7 @@ Comparirà il seguente messaggio a conferma della corretta apertura del ticket
 **************************************
 
 La funzione è attivabile attraverso il ruolo **Master di account**.
-Occorre andare nella funzionalità **Dismissione server su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
+Occorre accedere alla funzionalità **Dismissione server su WAF**, attivabile dalla parte sinistra dello schermo, all'interno del menù **WAF**, a sua volta 
 contenuto all'interno del menù **Reti e Sicurezza**
 
 .. image:: img/15.5_dismissioneSX.png

@@ -33,7 +33,7 @@ E’ disponibile in due opzioni, una per i comuni con meno di 15.000 dipendenti 
 
 Le tre funzioni (Saas MOOn, WhistleBlowing SaaS oltre i 15000 dipendemti e WhistleBlowing SaaS fino a 15000 dipendenti) sono attivabili attraverso 
 il ruolo **Amministratore di backoffice**. 
-Occorre andare nella funzionalità di **Modifica di un account**, attivabile dalla parte sinistra dello schermo, cliccando sulla label **Accounts** 
+Occorre accedere alla funzionalità di **Modifica di un account**, attivabile dalla parte sinistra dello schermo, cliccando sulla label **Accounts** 
 sotto **Struttura organizzativa**.
 
 .. image:: img/07.0_menuAccountsSX.png

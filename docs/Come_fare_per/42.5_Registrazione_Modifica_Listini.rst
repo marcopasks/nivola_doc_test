@@ -1,0 +1,84 @@
+
+**Registrazione e Modifica Listini (amministratore di backoffice)**
+*******************************************************************
+
+La registrazione di nuovi listini e la modifica dei listini esistenti è attivabile attraverso il ruolo **Amministratore di Backoffice**.
+
+Occorre accedere alla funzionalità **Elenco listini** attivabile dalla parte  sinistra dello schermo, sotto la label **Listini**
+
+.. image:: img/42.5_ElencoListiniSX.png
+
+Dalla schermata **Elenco Listini** è possibile visionare la lista dei listini attualmente esistenti:
+
+.. image:: img/42.5_ElencoListiniDX.png
+
+|
+
+**Creazione nuovo listino**
+***************************
+
+Cliccare sul tasto in altro a destra "**+1**", la cui descrizione passandoci sopra col mouse è **Registra nuovo listino**
+
+.. image:: img/42.5_NuovoListinoPulsanteDX.png
+
+Dalla finestra  **Nuovo listino** che appare, compilare i dati richiesti:
+
+.. image:: img/42.5_nuovoListinoDX.png
+
+Una volta compilati i campi richiesti, cliccare su **SALVA LISTINO**
+
+.. image:: img/42.5_nuovoListinoDXok.png
+
+Comparirà il seguente messaggio a conferma della corretta creazione del listino
+
+.. image:: img/42.5_ListinoCreatoDXok.png
+
+|
+
+**Modifica listino**
+********************
+
+Selezionare un listino e cliccare sul tasto blu in altro a destra, la cui descrizione passandoci sopra col mouse è **Azioni sul listino**
+
+.. image:: img/42.5_azioniListinoDX.png
+
+Compariranno i relativi sotto-pulsanti che permettono di effettuare le operazioni riportate nelle relative descrizioni sottostanti
+
+.. image:: img/42.5_azioniListinoEspansoDX.png
+
+**Archivia listino** -> cambia lo stato corrente di un listino in "ARCHIVIATO"
+
+**Pubblica listino** -> cambia lo stato corrente di un listino in "PUBBLICATO"
+
+**Duplica listino** -> permette di duplicare il listino selezionato, nell'ottica di modificarlo per crearne uno nuovo
+
+**Modifica anagrafica listino** -> permette di modificare i dati del listino selezionato
+
+**Visualizza dettagli listino** -> permette di visualizare i dati del listino selezionato
+
+|
+
+**Modifica attributo listino**
+******************************
+
+Selezionare un listino e cliccare sul tasto blu in altro a destra, la cui descrizione passandoci sopra col mouse è **Azioni sugli attributi del listino**
+
+.. image:: img/42.5_azioniAttrListinoDX.png
+
+Compariranno i relativi sotto-pulsanti che permettono di effettuare le operazioni riportate nelle relative descrizioni sottostanti
+
+.. image:: img/42.5_azioniListinoAttrEspansoDX.png
+
+|
+
+**Visualizza gli attributi del listino**
+
+Permette di visualizzare le metriche associate al listino, le quali appaiono in diversi tab e suddivise per tipologia
+
+.. image:: img/42.5_azioniListinoAttrVisualizza.png
+
+**Modifica attributi listino**
+
+Permette di modificare le metriche associate al listino, suddivise per tipologia
+
+.. image:: img/42.5_azioniListinoAttrModifica.png

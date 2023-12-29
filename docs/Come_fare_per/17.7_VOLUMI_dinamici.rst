@@ -93,6 +93,7 @@ id  name                             parent  av_zone       type       state    r
 
 $ vi <volume-file>.yml
 volume: 
+
   container: ResourceProvider01 
   name: <nome volume> 
   desc: <desc volume> 

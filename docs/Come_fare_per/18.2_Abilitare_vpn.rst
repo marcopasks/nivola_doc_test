@@ -6,7 +6,7 @@ Gli ambienti creati su Nivola possono essere amministrati raggiungendo le VM tra
 utilizzando l’apposito processo previsto
 
 La funzione è attivabile attraverso il ruolo **Master di account**.
-Occorre andare nella funzionalità **VPN**, attivabile dalla parte sinistra dello schermo, all'interno del menù **Reti e Sicurezza**
+Occorre accedere alla funzionalità **VPN**, attivabile dalla parte sinistra dello schermo, all'interno del menù **Reti e Sicurezza**
 
 .. image:: img/18.2_VPNSX.png
 

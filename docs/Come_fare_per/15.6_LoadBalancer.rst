@@ -12,7 +12,7 @@ Il modello di Servizio di Load Balancing è il seguente
 |
 
 La funzione è attivabile attraverso il ruolo **Master di account**.
-Occorre andare nella funzionalità **Load Balancer**, attivabile dalla parte sinistra dello schermo, all'interno del menù **Reti e Sicurezza**
+Occorre accedere alla funzionalità **Load Balancer**, attivabile dalla parte sinistra dello schermo, all'interno del menù **Reti e Sicurezza**
 
 .. image:: img/15.6_LBSX.png
 

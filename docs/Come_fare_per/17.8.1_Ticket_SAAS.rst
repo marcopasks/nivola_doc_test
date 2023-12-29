@@ -3,7 +3,7 @@
 ========================
 
 La funzione è attivabile attraverso il ruolo **Master di account**.
-Occorre andare nella funzionalità **SAAS**, attivabile dalla parte sinistra dello schermo, all'interno del menù **Servizi** 
+Occorre accedere alla funzionalità **SAAS**, attivabile dalla parte sinistra dello schermo, all'interno del menù **Servizi** 
 
 .. image:: img/17.8.1_menuSX.png
 

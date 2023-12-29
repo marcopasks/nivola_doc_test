@@ -31,8 +31,8 @@ ad interagire con la piattaforma, attraverso il portale.
    33.0_Attivare_cifratura_dati.rst
    34.0_Procedure_ausilio_migrazione.rst
    40.1_Consultare_costi_e_consumi.rst
-   40.5_Servizi_di_Gestione.rst
    42.0_Associazione_Listino_Account.rst
+   42.5_Registrazione_Modifica_Listini.rst
    43.0_WBS.rst
    45.0_Scaricare_Elenchi.rst
    50.0_Consultare_Quote.rst
