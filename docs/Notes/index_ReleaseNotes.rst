@@ -7,7 +7,7 @@
 Service Portal 4.4.0 (2023-12-21)
 ---------------------------------
 
-•  Funzionalità di icerca accrediti utente
+•  Funzionalità di ricerca su Ruoli utente
 
 •  Listini
 
