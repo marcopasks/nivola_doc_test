@@ -7,6 +7,8 @@
 Service Portal 4.4.0 (2023-12-21)
 ---------------------------------
 
+•  Master di Division - visualizzazione e scarico costi mensili per Division con dettaglio per singolo Account della Division
+
 •  Funzionalità di ricerca su Ruoli utente
 
 •  Listini
