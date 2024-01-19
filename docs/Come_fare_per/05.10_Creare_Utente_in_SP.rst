@@ -15,6 +15,7 @@ Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare u
 |
 
 2. Dal menù a sinistra selezionare **Amministrazione → Utenti -> Lista Utenti Registrati**
+
 Quindi dalla pagina di destra, selezionare il simbolo **“+”** in alto a destra
 
    .. image:: img/05.10_utenteABOdx.png

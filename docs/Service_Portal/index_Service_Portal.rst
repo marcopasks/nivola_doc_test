@@ -101,9 +101,7 @@ modificare il proprio profilo.
 
 |image5|
 
-|image6| Permette all’utente di contattare l’assistenza via chat.
-
-Premere invece |image7| per accedere alla documentazione on line di
+Premere |image7| per accedere alla documentazione on line di
 Nivola.
 
 Per uscire dal sistema e chiudere la sessione di lavoro premere il

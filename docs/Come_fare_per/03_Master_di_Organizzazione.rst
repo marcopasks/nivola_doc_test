@@ -23,7 +23,7 @@ In questa pagina si possono vedere le **specifiche generali** delle divisioni:
 
 ●	Nome dell’organizzazione di origine
 
-●	Nome delle divisione appartenente all’organizzazione
+●	Nome delle divisioni appartenenti all’organizzazione
 
 ●	Descrizione della divisione
 
@@ -43,7 +43,7 @@ Le funzionalità disponibili in questa pagina sono:
 
 |
 
-Selezionado una **Divisione** e selezionando il checkbox alla sua sinistra si abilitano le seguenti funzioni:
+Selezionando una **Divisione** e selezionando il checkbox alla sua sinistra si abilitano le seguenti funzioni:
 
 ●	Reindirizzamento agli account legati alla divisione
 

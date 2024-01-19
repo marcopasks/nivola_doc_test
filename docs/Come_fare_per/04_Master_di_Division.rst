@@ -43,7 +43,7 @@ Le funzionalità disponibili in questa pagina sono le seguenti:
 
 |
 
-Selezionado un **Account** e selezionando il checkbox alla sua sinistra si abilitano le seguenti funzioni:
+Selezionando un **Account** e selezionando il checkbox alla sua sinistra si abilitano le seguenti funzioni:
 
 ●	Elenco Attività dell’account
 
