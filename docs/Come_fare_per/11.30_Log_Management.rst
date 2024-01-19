@@ -1,7 +1,7 @@
 .. _Log_Management:
 
-**Logging (master di account)**
-*******************************
+**Logging VM (master di account)**
+**********************************
 
 La gestione del **Logging** rende disponibile la funzionalità di gestione dei log delle Virtual Machine per mezzo del
 Service Portal.
@@ -16,8 +16,8 @@ A seguito di un clic su **VM**, il sistema popolerà la parte destra del video c
 .. image:: img/11.30_Elenco_vmDX.png
 
 
-**Abilitare il Logging**
-************************
+**Abilitare il Logging VM**
+***************************
 
 A seguito di un clic su **VM** (sotto **Strumenti -> Log Management**), il sistema popolerà la parte destra del video con la **Lista VM abilitate al servizio di log** 
 (se già presenti).
@@ -54,8 +54,8 @@ Per effettuare l'abilitazione procedere in questo modo:
 
 
 
-**Disabilitare il Logging**
-***************************
+**Disabilitare il Logging VM**
+******************************
 
 Per disabiliare il **logging** della Virtual Machine, procedere come segue:
 

@@ -52,14 +52,14 @@ Compariranno i relativi sotto-pulsanti che permettono di effettuare le operazion
 
 **Duplica listino** -> permette di duplicare il listino selezionato, nell'ottica di modificarlo per crearne uno nuovo
 
-**Modifica anagrafica listino** -> permette di modificare i dati del listino selezionato
+**Modifica anagrafica listino** -> permette di modificare i dati anagrafici del listino selezionato
 
-**Visualizza dettagli listino** -> permette di visualizare i dati del listino selezionato
+**Visualizza dettagli listino** -> permette di visualizare i dati anagrafici del listino selezionato
 
 |
 
-**Modifica attributo listino**
-******************************
+**Attributi listino**
+*********************
 
 Selezionare un listino e cliccare sul tasto blu in altro a destra, la cui descrizione passandoci sopra col mouse è **Azioni sugli attributi del listino**
 

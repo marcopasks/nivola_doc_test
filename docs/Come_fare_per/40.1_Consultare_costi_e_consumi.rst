@@ -2,6 +2,10 @@
 **Consultare costi e consumi (master di account e master di division)**
 ***********************************************************************
 
+|
+
+**Master di Account**
+
 I **Costi e Consumi** sono visibili attraverso il menu posto alla
 sinistra dello schermo. Cliccando sulla label **Costi Consumi**
 sotto la label **Gestione account**
@@ -14,8 +18,8 @@ e l'**Andamento dei Costi**.
 Il grafico e la tabella, fanno riferimento al **Consumo** e al **Costo**
 dei servizi acquistati e istanziati nell'account.
 
-
 .. image:: img/CostiConsumi_Grafici.png
+
 
 E' possibile scaricare il report dei consumi mensili nel formato  **Pdf** e **CSV**, cliccando l'icona relativa.
 Il **Pdf Sintesi e 	il File CSV Sintesi** riportano mensilmente i costi di ciascun servizio istanziato, riferito alla singola componente.
@@ -34,3 +38,26 @@ Il sistema presenterà nella parte destra del video il **Listino applicato all'A
 
 .. image:: img/40.0_ListinoDx.png
  
+|
+
+**Master di Division**
+
+I **Costi e Consumi** sono visibili attraverso il menu posto alla
+sinistra dello schermo. Cliccando sulla label **Costi Consumi**
+sotto la label **Gestione Divisione**
+
+.. image:: img/CostiConsumi_innesco2div.png
+
+A seguito del clic su **Costi e Consumi**, il sistema presenterà nella
+parte destra del video i **Costi non rendicontati**
+e l'**Andamento dei Costi**.
+Il grafico e la tabella, fanno riferimento al **Consumo** e al **Costo**
+dei servizi acquistati e istanziati nell'account.
+
+.. image:: img/CostiConsumi_Grafici.png
+
+
+E' possibile scaricare il report dei consumi mensili nel formato  **Pdf** cliccando l'icona relativa.
+Il **Pdf Sintesi** riporta mensilmente i costi di ciascun servizio istanziato, riferito alla singola componente. 
+
+.. image:: img/Consumi_ReportDiv.png
