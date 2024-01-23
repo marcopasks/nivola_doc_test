@@ -2,6 +2,20 @@
 **Release Notes**
 =================
 
+.. _release-4.4.1:
+
+Service Portal 4.4.1 (2024-01-22)
+---------------------------------
+
+•  risolto bug valore fine data in Servizi di Gestione abilitati
+
+•  risolto bug doppia visualizzazione report Costi per Division
+
+•  risolti bug listini gestione attributi multipli, stato post duplicazione e modifica data
+
+
+
+
 .. _release-4.4.0:
 
 Service Portal 4.4.0 (2023-12-21)
