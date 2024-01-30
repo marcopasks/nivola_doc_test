@@ -1,7 +1,7 @@
 .. _Accreditare_Utente:
 
-**Accreditare Utente**
-######################
+**Accreditare Utente (master di account e amministratore di backoffice**
+########################################################################
 
 La funzione **Accreditamento di utente** è attivabile attraverso due modalità, a seconda se si utilizza il ruolo **Amministratore di Backoffice** 
 oppure il ruolo **Master di account**
@@ -40,12 +40,12 @@ Il Master di account può accreditare un utente se già presente a sistema, in c
 con la richiesta di relativa apertura ticket.
 
 
-Premere sul pulsante **Nuovo utente**
+Premere sul pulsante **Accreditamento utente**
 
-.. image:: img/Utente_pulsante_add.png
+.. image:: img/05.2_accred_utente.png
 
 
-Inserire il Codice Fiscale per identificare in modo univoco l’utente.
+Inserire il Codice Fiscale per identificare in modo univoco l’utente, quindi cliccare sull'icona blu in fondo a destra della riga.
 Se l’utente è già presente nel Database di Nivola appare un messaggio di conferma ed è possibile proseguire nella fase di accreditamento
 cliccando sul pulsante **VAI A ACCREDITAMENTO**
 
@@ -61,14 +61,9 @@ Selezionare **Viewer di account** oppure **Master di account**
 .. image:: img/05.2_viewerOmaster.png
 
 
-Successivamente selezionare l’ **Account**:
-
-.. image:: img/05.2_selezionareAccount.png
-
-
 Premere sul pulsante **Accredita**:
 
 .. image:: img/05.2_Accredita.png
 
 
-L’utente è correttamente accreditato con il ruolo scelto.
+L’utente è correttamente accreditato con l'account corrente e il relativo ruolo.
