@@ -27,6 +27,7 @@ ad interagire con la piattaforma, attraverso il portale.
    20.0_Gestione_password_esterni.rst
    30.0_Strumenti.rst
    31.0_Richiedere_vulnerability_assessment.rst
+   31.5_Listino_applicato_Account.rst
    32.0_Attivare_servizio_broker_applicativo_Desktop_aaS.rst
    33.0_Attivare_cifratura_dati.rst
    34.0_Procedure_ausilio_migrazione.rst
