@@ -2,16 +2,51 @@
 **Release Notes**
 =================
 
+.. _release-4.5.0:
+
+Service Portal 4.5.0 (2024-02-15)
+---------------------------------
+
+•  introdotto nuovo ruolo di Portale "Operatore di Account"
+
+•  introdotta consultazione dati relativi ai Backup DBAAS
+
+•  migliorata funzionalità visualizzazione costi e lista utenti per Master di division
+
+•  migliorata attivazione/disattivazione della modalità di Manutenzione del portale
+
+•  verifiche link documentali sul portale
+
+•  risoluzione bug fix minori
+
+
+
+
+
+.. _release-4.4.2:
+
+Service Portal 4.4.2 (2024-01-23)
+---------------------------------
+
+•  migliorata funzionalità impostazione metrica in Servizi di gestione
+
+•  migliorata funzionalità visualizzazione backup per vm su Veeam
+
+•  ottimizzazione funzionalità all'interno di creazione utente
+
+
+
+
 .. _release-4.4.1:
 
 Service Portal 4.4.1 (2024-01-22)
 ---------------------------------
 
-•  risolto bug valore fine data in Servizi di Gestione abilitati
+•  migliorata funzionalità legata al valore fine data in Servizi di Gestione Abilitati
 
-•  risolto bug doppia visualizzazione report Costi per Division
+•  migliorata funzionalità visualizzazione report Costi per Division
 
-•  risolti bug listini gestione attributi multipli, stato post duplicazione e modifica data
+•  migliorate funzionalità dei Listini: gestione attributi multipli, stato post duplicazione, modifica data
 
 
 
@@ -21,13 +56,13 @@ Service Portal 4.4.1 (2024-01-22)
 Service Portal 4.4.0 (2023-12-21)
 ---------------------------------
 
-•  Master di Division - visualizzazione e scarico costi mensili per Division con dettaglio per singolo Account della Division
+•  introdotta funzionalità visualizzazione e scarico costi mensili per Master di Division con dettaglio per singolo Account della Division
 
 •  Funzionalità di ricerca su Ruoli utente
 
-•  Listini
+•  introdotte funzionalità Listini: registrazione nuovi listini, modifica listini esistenti, modifica stato listino, aggiunta/modifica attributi listino
 
-•  Risoluzione bug fix minori
+•  risoluzione bug fix minori
 
 
 
@@ -37,15 +72,15 @@ Service Portal 4.4.0 (2023-12-21)
 Service Portal 4.3.0 (2023-11-29)
 ---------------------------------
 
-•  Web Application Firewall (WAF)
+•  introdotta funzionalità Web Application Firewall (WAF - protezione applicazioni Web da attacchi dannosi e traffico Internet indesiderato)
 
-•  Load Balancer
+•  introdotta funzionalità Load Balancer (tecnologia  per distribuire il carico di lavoro tra diversi server e applicazioni per ottimizzare le prestazioni globali)
 
-•  Registrazione FQDN su Server DNS
+•  introdotta funzionalità di registrazione FQDN su Server DNS
 
-•  Virtual Private Network (VPN)
+•  introdotta funzionalità Virtual Private Network (VPN)
 
-•  Risoluzione bug fix minori
+•  risoluzione bug fix minori
 
 
 
@@ -55,9 +90,9 @@ Service Portal 4.3.0 (2023-11-29)
 Service Portal 4.2.1 (2023-11-22)
 ---------------------------------
 
-•  Aggiunta ulteriori destinatari mail in creazione ticket
+•  introdotta funzionalità  per aggiungere ulteriori destinatari mail in creazione ticket
 
-•  Risoluzione bug fix minori
+•  risoluzione bug fix minori
 
 
 
@@ -67,9 +102,15 @@ Service Portal 4.2.1 (2023-11-22)
 Service Portal 4.2.0 (2023-11-13)
 ---------------------------------
 
-•  Implementazione SaaS
+•  introdotte funzionalità SaaS (servizio di modulistica MOOn e servizio Whistleblowing)
 
-•  Risoluzione bug fix minori
+•  migliorata funzionalità selezione protocolli in creazione Security Group
+
+•  migliorata funzionalità raccolta log portale
+
+•  migliorata funzionalità report costi mensili (dettaglio costo orario, schermata creazione VPC, )
+
+•  Risoluzione bug fix minori (catalogazione ticket, dati tab Servizi, tab Monitoraggio)
 
 
 
@@ -79,7 +120,7 @@ Service Portal 4.2.0 (2023-11-13)
 Service Portal 4.1.1 (2023-10-30)
 ---------------------------------
 
-•  Risoluzione bug fix minori
+•  Risoluzione bug fix minori (dati dettaglio account, dati tab WBS, scarico pdf consumi)
 
 
 
@@ -89,9 +130,15 @@ Service Portal 4.1.1 (2023-10-30)
 Service Portal 4.1.0 (2023-10-23)
 ---------------------------------
 
-•  Miglioramenti liste ticketing
+•  introdotta funzionalità liste ticketing da master di division e organization
 
-•  Risoluzione bug fix minori
+•  migliorata funzionalità accreditamento account
+
+•  correzione form creazione nuovo utente
+
+•  migliorata funzionalità Jobs di Backup
+
+•  risoluzione bug fix minori
 
 
 
@@ -100,16 +147,32 @@ Service Portal 4.1.0 (2023-10-23)
 Service Portal 4.0.0 (2023-10-04)
 ---------------------------------
 
-•  Miglioramenti di sicurezza
+•  definizione architettura per la cifratura delle chiavi di accesso e dati da proteggere
+
+•  cifratura dei parametri di ambiente macchine
+
+•  cifratura applicativa lato DB
+
+•  configurazione della sicurezza lato batch
+
+•  servizio per generazone file di ambiente cifrato
+
+•  servizio per registrazione parametro su DB (cifrato / non cifrato)
+
+•  ristrutturazione logging applicativo
 
 
 
 .. _release-3.6.0:
 
-Service Portal 3.6.0 (2023-08-24)
+Service Portal 3.6.0 (2023-08-24) 
 ---------------------------------
 
-•  Console VM (Linux)
+•  introdotta funzionalità Console VM (Linux): generazione URL connessione console VM e accessp ssh direttamente da browser
+
+•  migliorata funzionalità verifica CF in creazione utente
+
+•  migliorata funzionalità upload multiplo allegati
 
 •  Risoluzione bug fix minori
 
@@ -117,7 +180,7 @@ Service Portal 3.6.0 (2023-08-24)
 
 .. _release-3.5.5:
 
-Service Portal 3.5.5 (2023-08-09)
+Service Portal 3.5.5 (2023-08-09) DA QUI
 ---------------------------------
 
 •  Risoluzione bug fix minori
