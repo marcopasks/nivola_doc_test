@@ -1,0 +1,13 @@
+
+**Visualizzare Backup di un Database as a Service**
+===================================================
+
+Selezionare l'istanza DBAAS dalla pagina **Elenco Dbaas** e cliccare su **Pannello gestione Dbaas**
+
+   .. image:: img/14.4_selezDbaas.png
+
+|
+
+Nella parte inferiore della schermata è possibile visionare i dati dei backup presenti
+
+   .. image:: img/14.4_BackupDbaas.png
