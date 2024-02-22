@@ -7,11 +7,11 @@
 Service Portal 4.5.0 (2024-02-21)
 ---------------------------------
 
-•  Scarico del listino in formato CSV per l'Account
+•  introdotta funzionalità scarico del listino in formato CSV per l'Account
 
-•  Sistema Ticketing - raggruppamento e razionalizzazione richieste Info, How to use, Proposte di miglioramento
+•  migliorata funzionalità Sistema Ticketing: raggruppamento e razionalizzazione richieste Info, How to use, Proposte di miglioramento
 
-•  Sistema Ticketing - il gruppo "Nuovi Servizi" diventa "Gestione Servizi": per permettere di effettuare richieste di modifica/cancellazione di servizi già esistenti che venivano richieste con la voce "ALTRO" (Monitoraggio)
+•  migliorata funzionalità Sistema Ticketing: modifica "Nuovi Servizi" in "Gestione Servizi" con conseguente possibilità di effettuare richieste di modifica/cancellazione di servizi già esistenti che venivano richieste con la voce "ALTRO" (Monitoraggio)
 
 •  introdotto nuovo ruolo di Portale "Operatore di Account"
 
