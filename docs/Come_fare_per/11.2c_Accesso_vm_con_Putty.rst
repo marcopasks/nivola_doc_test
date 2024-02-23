@@ -1,0 +1,85 @@
+
+**Accesso alle VM Linux e Windows utilizzando il software Putty**
+=================================================================
+
+Questo documento  spiega i passi da seguire per potersi collegare (dalla vostra pdl) sui server del vostro tenant/account 
+sulle porte ssh/rdp/web/DB/applicative/ecc..  utilizzando  un tunnel SSH, cioè una connessione ssh verso un “gateway server” 
+che vi permette  poi di collegarvi sulla porta desiderata del server del vostro account/tenant.
+
+|
+
+:Creazione tunnel ssh:
+
+Prima di tutto creiamo il tunnel SSH, come accennato in precedenza, utilizzeremo  PuTTY per questo scopo. 
+
+Quindi, lanciare PuTTY e selezionare Session
+
+Nel campo Host Name (or IP address) scrivere: **cmpto2‐gw01.site02.nivolapiemonte.it**  oppure IP **10.138.154.13**.
+
+  .. image:: img/11.2a_15.png
+
+Nella figura sopra riportata vediamo che abbiamo indicato il nome Host, abbiamo dato un nome alla Sessione (**Tunnel‐VM‐Nivola**) e 
+clicchiamo su **Save** per salvare quanto fatto fino ad ora.
+
+A questo punto cliccare su Session  → Connection  →   Data  e scrivere la propria username (nome.cognome@fornitori.nivola) nel campo **Auto‐login username**
+
+  .. image:: img/11.2a_16.png
+
+Fatto ciò, andare su Session → Connection → SSH → Tunnel in modo da definire i server a cui collegarsi e le relative porte.
+
+  .. image:: img/11.2a_17.png
+
+Come si può vedere nella figura sopra, abbiamo configurato una connessione ssh (porta  22) verso il server con ip
+10.10.10.10 (A TITOLO D’ESEMPIO) e per poter appunto eseguire questo tipo di collegamento useremo la porta locale 1022 della nostra pdl (127.0.0.1). 
+Per rendere effettive le modifiche bisogna cliccare su **Add**.
+
+  .. image:: img/11.2a_18.png
+
+Potremo definire più collegamenti sempre all’interno  dello stesso Tunnel SSH come fatto nell’immagine  riportata di
+seguito
+
+  .. image:: img/11.2a_19.png
+
+E potremo anche collegarci su più porte dello stesso server (porta ssh, apache, tomcat, RDP, ecc..).
+
+A questo punto abbiamo terminato la configurazione del Tunnel SSH ma dobbiamo  salvare tutto tornando a Session e cliccando su Save
+
+  .. image:: img/11.2a_20.png
+
+Siamo pronti per testare se le connessioni richieste sono funzionanti,  quindi doppio click (oppure Open) sul nome della Sessione salvata (nel nostro caso su Tunnel‐VM‐Nivola).
+
+Fatto doppio click, potrebbe proporvi una finestra di questo tipo (solitamente solo al primo  lancio)
+
+  .. image:: img/11.2a_21.png
+
+È sufficiente cliccare su Sì
+
+In seguito verrà aperta una finestra in cui vi verrà chiesto di inserire la password della login precedentemente inserita  nella configurazione del Tunnel 
+e una volta inserita non vi verrà dato un prompt  ma rice verete un output di questo tipo
+
+  .. image:: img/11.2a_22.png
+
+Questa finestra dovrà essere iconizzata per tutto il tempo che vi occorrerà per lavorare tramite “tunnel SSH” sui vostri server perchè avete aperto 
+una connessione ssh verso il server Gateway e grazie a questo canale fra voi e il server, **tutto il traffico** passerà da questo canale e vi permetterà
+appunto di collegarvi alle varie porte dei vostri server.
+
+Senza l’apertura di questa connessione SSH, quindi senza l’apertura di questo canale, le connessioni verso i vostri
+server non funzioneranno,  quindi si ricorda di iconizzare la finestra sopra riportata.
+
+Con il termine **“tutto il traffico”** detto in precedenza,  intendiamo  solo il traffico verso le porte che avete definito in precedenza  durante la 
+configurazione del client PuTTY
+
+Quindi se avevate definito di volervi collegare al server 10.10.10.10 su porta 22  utilizzando  la porta locale 1022 (come nell’esempio  di questo manuale), 
+sarà sufficiente lanciare un altro client PuTTY (WinSPC o altro software) e collegarsi alla porta locale 1022, come riportato nella figura di seguito
+
+  .. image:: img/11.2a_23.png
+
+Oppure  se avete configurato di volervi collegare ad un server Microsoft con ip 10.10.10.10 su porta rdp (porta 3389)
+utilizzando  la porta locale 13389, sarà sufficiente lanciare un client RDP e scrivere
+
+  .. image:: img/11.2a_24.png
+
+In questa maniera vi collegherete via rdp al server 10.10.10.10 utilizzando  il canale aperto col server gateway.
+
+Stessa cosa può essere fatto con le connessione verso porte DB, tomcat, ecc… semplicemente  lanciando  un browser o un client sql o altro 
+(a seconda di dove vi dovete collegare) e impostando  sempre l’ip locale della vostra pdl (127.0.0.1) e la porta configurata su PuTTY.

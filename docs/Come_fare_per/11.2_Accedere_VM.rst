@@ -1,36 +1,13 @@
-.. _Accedere_VM:
 
-**Accedere alla Virtual Machine**
-=================================
+**Accedere alle VM**
+####################
 
-I requisiti necessari sono avere una  **login** e una **password** forniti dal **Nivola Support Center**.
-Acclarata questa condizione, procedere come segue:
+Esistono varie metodologie con cui potersi collegare alle VM
 
-|
-
-**ACCESSO TRAMITE PORTALE**
-
-Per **accedere** una Virtual Machine procedere con le seguenti operazioni:
-
-    1. Cercare e Selezionare, dall’**Elenco VM**, l'host a cui accedere;
-
-       .. image:: img/Ricerca_VM.png
-
-    2. Cliccare su tasto **"Connetti"**;
-
-      .. image:: img/11.2_ConnettiIcona.png
-    
-    3. Comparirà la schermata di accesso in cui autenticarsi
-
-      .. image:: img/11.2_ConsoleSshBrowser.png
-
-|
-
-**ACCESSO TRAMITE CLI**
-
-Utilizzare il comando:
-
-**beehive ssh nodes connect FQDN_VM oppure IP**
-
-Esempio FQDN:
-hostname-acronimoAccount.site01.nivolapiemonte.it
+.. toctree::
+   :maxdepth: 2
+ 
+   11.2a_Accesso_vmLinux_con_MOBAxTERM.rst
+   11.2b_Accesso_vmWindows_con_MOBAxTERM.rst
+   11.2c_Accesso_vm_con_Putty.rst
+   11.2d_Accesso_da_portale.rst

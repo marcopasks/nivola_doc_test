@@ -1,0 +1,50 @@
+
+**Accesso alle VM Windows utilizzando il software MOBAxTERM**
+=============================================================
+
+Per accedere alle VM Windows è necessario realizzare una sessione RDP; i passi da seguire sono i seguenti
+
+•	Aprire la sessione verso la CLI raggiungibile inserendo “cmpto2-cons02.site02.nivolapiemonte.it” in questa maniera:
+
+
+  .. image:: img/11.2a_8.png
+
+  .. image:: img/11.2a_9.png
+
+  .. image:: img/11.2a_10.png
+
+Inserire in remote host ip della VM windows da raggiungere
+
+specificare lo username = administrator (amministratore locale alla VM windows)
+
+sulla **porta 3389**
+
+A questo punto è necessario settare il Network settings per il tunnel SSH utilizzando un gateway d’accesso nella seguente immagine vengono mostrati i campi da valorizzare:
+
+  .. image:: img/11.2a_11.png
+
+Gateway SSH server = gw01.site02.nivolapiemonte.it
+
+Port = 22
+
+User = nome.cognome@fornitori.nivola
+
+Dopo aver inserito i Basic RDP settings selezionare il pulsante “OK” (in basso in verde)
+
+Successivamente Inserire la password dell’utenza nome.cognome@fornitori.nivola e confermarla con OK
+
+  .. image:: img/11.2a_12.png
+
+la password dell’utenza nome.cognome@fornitori.nivola da voi scelta (vedi reset e scelta password)
+ 
+|
+
+Successivamente è necessario inserire la password di amministratore locale della VM windows
+
+  .. image:: img/11.2a_13.png
+
+|
+
+Successivamente si “atterra” in RDP sulla VM windows
+
+  .. image:: img/11.2a_14.png

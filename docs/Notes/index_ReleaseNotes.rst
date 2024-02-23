@@ -186,7 +186,7 @@ Service Portal 3.6.0 (2023-08-24)
 
 .. _release-3.5.5:
 
-Service Portal 3.5.5 (2023-08-09) DA QUI
+Service Portal 3.5.5 (2023-08-09)
 ---------------------------------
 
 •  Risoluzione bug fix minori

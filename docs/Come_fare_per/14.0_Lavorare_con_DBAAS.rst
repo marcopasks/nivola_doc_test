@@ -18,3 +18,4 @@ Gli engine previsti sono **Mysql**, **Postgres**, **Sqlserver** e **Oracle**
    14.2_Gestire_DBAAS.rst
    14.3_Cancellare_DBAAS.rst
    14.4_Visualizzare_Backup_DBAAS.rst
+   14.5_Accedere_DBAAS.rst

@@ -1,0 +1,22 @@
+
+**Connessione DB con DBeaver**
+==============================
+
+• Aprire DBeaver
+• Cliccare sull’icona della spina col + e selezionando il DB desiderato
+
+  .. image:: img/14.5a.png
+
+|
+
+• Inserire IP, porta, utente e password del DB
+
+  .. image:: img/14.5b.png
+
+|
+
+• Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire **cmpto2-gw02.site02.nivolapiemonte.it**,su User Name inserire nome.cognome@fornitori.nivola e Password nel relativo campo
+
+  .. image:: img/14.5c.png
+
+• Cliccare Fine, ora la configurazione sarà presente nella pagina principale e ci si potrà collegare cliccandoci
