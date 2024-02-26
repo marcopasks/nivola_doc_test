@@ -2,7 +2,22 @@
 **Accedere alle VM**
 ####################
 
-Esistono varie metodologie con cui potersi collegare alle VM
+**PREMESSA**
+
+Vengono fornite 2 credenziali per il rispetto della normativa vigente; esse si differenziano per:
+
+• **Credenziale @vpn.csi** deve essere utilizzata per accedere alla rete del CSI Piemonte attraverso l’utilizzo di una VPN SSL personale. Questa credenziale non deve essere usata per accedere al “mondo” cloud
+• **Credenziale @fornitori.nivola** è la credenziale da utilizzare per accedere al “mondo” cloud dopo aver attivato il collegamento VPN
+
+|
+
+**Accesso alla VPN @vpn.csi**
+
+Vedi anche "Installazione Virtual Private Network (VPN)"
+
+|
+
+**Esistono varie metodologie con cui potersi collegare alle VM**
 
 .. toctree::
    :maxdepth: 2
