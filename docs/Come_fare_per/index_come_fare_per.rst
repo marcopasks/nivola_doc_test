@@ -23,7 +23,7 @@ ad interagire con la piattaforma, attraverso il portale.
    17.8_SAAS.rst
    17.8.1_Ticket_SAAS.rst
    18.1_Comunicare_con_internet.rst
-   18.2_Abilitare_vpn.rst
+   18.2_VPN.rst
    20.0_Gestione_password_esterni.rst
    30.0_Strumenti.rst
    31.0_Richiedere_vulnerability_assessment.rst

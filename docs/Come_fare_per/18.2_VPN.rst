@@ -1,0 +1,11 @@
+
+**Accedere alle VM**
+####################
+
+Esistono varie metodologie con cui potersi collegare alle VM
+
+.. toctree::
+   :maxdepth: 2
+ 
+   18.2a_Abilitare_vpn.rst
+   18.2b_Installare_vpn.rst

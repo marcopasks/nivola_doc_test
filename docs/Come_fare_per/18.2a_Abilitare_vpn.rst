@@ -1,0 +1,23 @@
+
+**Abilitazione Virtual Private Network (VPN)**
+**********************************************
+
+Gli ambienti creati su Nivola possono essere amministrati raggiungendo le VM tramite VPN, che possono essere abilitate dai referenti CSI 
+utilizzando l’apposito processo previsto
+
+La funzione è attivabile attraverso il ruolo **Master di account**.
+Occorre accedere alla funzionalità **VPN**, attivabile dalla parte sinistra dello schermo, all'interno del menù **Reti e Sicurezza**
+
+.. image:: img/18.2_VPNSX.png
+
+Dalla schermata **VPN** che appare, compilare i dati richiesti:
+
+.. image:: img/18.2_VPNDX.png
+
+Una volta compilati i campi richiesti, cliccare su **INVIA**
+
+.. image:: img/18.2_VPNDXok.png
+
+Comparirà il seguente messaggio a conferma della corretta apertura del ticket
+
+.. image:: img/18.2_ticketVPNOK.png
