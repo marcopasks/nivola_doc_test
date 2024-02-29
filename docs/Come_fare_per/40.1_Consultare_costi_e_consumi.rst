@@ -23,7 +23,7 @@ dei servizi acquistati e istanziati nell'account.
 
 E' possibile scaricare il report dei consumi mensili nel formato  **Pdf** e **CSV**, cliccando l'icona relativa.
 Il **Pdf Sintesi e 	il File CSV Sintesi** riportano mensilmente i costi di ciascun servizio istanziato, riferito alla singola componente.
-Nel **Pdf Dettaglio** invece, è indicato giornalmente, il consumo dei servizi,  per ogni suo elemento. 
+Nei file **Pdf Dettaglio** e **File CSV Dettaglio** invece, è indicato giornalmente, il consumo dei servizi,  per ogni suo elemento. 
 
 .. image:: img/Consumi_Report.png
 

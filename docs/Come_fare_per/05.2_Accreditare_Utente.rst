@@ -1,7 +1,7 @@
 .. _Accreditare_Utente:
 
-**Accreditare Utente (master di account e amministratore di backoffice**
-########################################################################
+**Accreditare Utente (master di account e amministratore di backoffice)**
+#########################################################################
 
 La funzione **Accreditamento di utente** è attivabile attraverso due modalità, a seconda se si utilizza il ruolo **Amministratore di Backoffice** 
 oppure il ruolo **Master di account**
@@ -27,9 +27,7 @@ Nella nuova form, sfruttando le Combo Box, indicare **Ruolo**, **Organizzazione*
 
 L'utente sarà accreditato nel livello organizzativo e nel ruolo indicati.
 
-
-
-
+|
 
 2. tramite il ruolo il ruolo **Master di account** accedere all'elenco **Lista utenti accreditati**
 (all'interno dei menù  **Gestione account -> Utenti**)
@@ -56,7 +54,7 @@ Nella form per l’accreditamento selezionare semplicemente il ruolo da assegnar
 
 .. image:: img/05.2_ruoloDaAssegnare.png
 
-Selezionare **Viewer di account** oppure **Master di account**
+Selezionare il ruolo richiesto fra quelli proposti in elenco:
 
 .. image:: img/05.2_viewerOmaster.png
 

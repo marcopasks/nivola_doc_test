@@ -41,7 +41,7 @@ Quindi premere il pulsante **APPLICA FILTRI**
 
 .. image:: img/100.15_Filtro1cognomeApplica.png
 
-
+|
 
 **Master di Division**
 **********************
@@ -62,7 +62,7 @@ Quindi selezionare l'account desiderato e cliccare su **CONFERMA**
 
 .. image:: img/100.15_Filtro1selezAccount4.png
 
-
+|
 
 **Master di Organization**
 **************************
