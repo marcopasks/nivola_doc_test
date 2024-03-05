@@ -19,8 +19,15 @@ La voce in alto "**Riepilogo delle scelte effettuate**" riporta il riassunto del
 
 .. image:: img/100.35_Form_Nuovo_TicketDX.png
 
-Inserire l'oggetto, la descrizione e l'eventuale allegato (ad esempio lo screenshot di un eventuale messaggio di errore) attraverso il tasto in basso a 
-destra "**Scegli file**":
+Inserire:
+
+●	l'oggetto
+
+●	la descrizione
+
+●	uno o più eventuali indirizzi di mail a cui inviare le notifiche relative a tale ticket
+
+●	l'eventuale allegato (ad esempio lo screenshot di un eventuale messaggio di errore) attraverso il tasto in basso a  destra "**Scegli file**":
 
 .. image:: img/100.35_FormOK_Nuovo_TicketDX.png
 

@@ -49,10 +49,8 @@ sotto la label **Gestione Divisione**
 .. image:: img/CostiConsumi_innesco2div.png
 
 A seguito del clic su **Costi e Consumi**, il sistema presenterà nella
-parte destra del video i **Costi non rendicontati**
-e l'**Andamento dei Costi**.
-Il grafico e la tabella, fanno riferimento al **Consumo** e al **Costo**
-dei servizi acquistati e istanziati nell'account.
+parte destra del video i **Costi non rendicontati**, l'**Andamento dei Costi** e i **Costi suddivisi per account**.
+Il grafico e la tabella, fanno riferimento al **Consumo** e al **Costo** dei servizi acquistati e istanziati nella division.
 
 .. image:: img/CostiConsumi_Grafici.png
 

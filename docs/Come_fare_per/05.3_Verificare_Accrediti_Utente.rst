@@ -1,7 +1,7 @@
 .. _Verificare_Accredi_Utente:
 
-**Verificare Accrediti dell'Utente (master di account e amministratore di backoffice)**
-#######################################################################################
+**Verificare ruoli Accrediti all'Utente (master di account e amministratore di backoffice)**
+############################################################################################
 
 La funzione **Accreditamento di utente** è attivabile attraverso due modalità, a seconda se si utilizza il ruolo **Amministratore di Backoffice** 
 oppure il ruolo **Master di account**

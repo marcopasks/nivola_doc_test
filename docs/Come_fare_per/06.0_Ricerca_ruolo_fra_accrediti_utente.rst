@@ -1,0 +1,27 @@
+
+**Ricerca ruolo fra gli accrediti utente (master di account e amministratore di backoffice)**
+#############################################################################################
+
+La funzione **Ricerca ruoli per testo** è attivabile dalla destra del ruolo attualmente utilizzato, individuando e cliccando sulla seguente icona "Ricerca ruoli per testo"
+
+  .. image:: img/06_Ricerca_ruoli1.png
+
+|
+
+Dalla finestra che compare
+
+  .. image:: img/06_Ricerca_ruoli2.png
+
+|
+
+Digitare il nome o parte del nome dell'account da ricercarsi fra quelli accreditati all'utenza di accesso al portale
+
+  .. image:: img/06_Ricerca_ruoli3.png
+
+|
+
+Cliccarci sopra per assumere tale ruolo
+
+  .. image:: img/06_Ricerca_ruoli4.png
+
+|

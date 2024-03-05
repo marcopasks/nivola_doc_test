@@ -1,7 +1,7 @@
 .. _Accreditare_Utente:
 
-**Accreditare Utente (master di account e amministratore di backoffice)**
-#########################################################################
+**Accreditare Utente con ruolo specifico (master di account e amministratore di backoffice)**
+#############################################################################################
 
 La funzione **Accreditamento di utente** è attivabile attraverso due modalità, a seconda se si utilizza il ruolo **Amministratore di Backoffice** 
 oppure il ruolo **Master di account**

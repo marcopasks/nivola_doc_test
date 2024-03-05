@@ -12,6 +12,7 @@ ad interagire con la piattaforma, attraverso il portale.
    04_Master_di_Division.rst
    05.0_Creare_Accreditare_Utente.rst
    05.2_Accreditare_Utente.rst
+   06.0_Ricerca_ruolo_fra_accrediti_utente.rst
    07.0_Creare_Account.rst
    08.0_Lavorare_Budget_Alert.rst
    09.0_Forecasting.rst
