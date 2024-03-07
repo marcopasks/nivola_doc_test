@@ -4,6 +4,8 @@
 
 La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice sia dal ruolo Master di Account.
 
+|
+
 :AMMINISTRATORE DI BACKOFFICE:
 
 Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare un utente:

@@ -33,7 +33,9 @@ le proprie credenziali scegliendo tra i seguenti sistemi di autenticazione:
 
 1.	SPID
 2.	CIE - Carte di Identità Elettronica
-3.	Sistema Piemonte
+3.	TS-CNS - Sistema Tessere Sanitaria
+4.	PSNet
+5.	Sistema Piemonte
 
 Indipendentemente dal sistema di autenticazione scelto dall'utente,
 il Nivola Service Portal procederà a

@@ -4,7 +4,7 @@
 ======================
 
 
-Per inizare a utilizzare la piattaforma **Nivola**
+Per iniziare a utilizzare la piattaforma **Nivola**
 è necessario procedere seguendo i seguenti passaggi.
 
     1. :ref:`Processo di Accredito`
