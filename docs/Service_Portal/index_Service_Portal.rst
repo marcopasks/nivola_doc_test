@@ -9,6 +9,8 @@
 
 -  **Interfaccia utente**
 
+|
+
 **Cosa è il SP**
 
 Il Nivola Service Portal (NSP) costituisce l'Area Riservata per i clienti ed
@@ -25,6 +27,8 @@ informazioni e i report sui costi e consumi, può creare nuovi servizi e
 mettersi con il *Nivola Support Center* utilizzando
 differenti canali di comunicazione.
 
+|
+
 **Accesso al Servizio**
 
 Terminata la fase di accreditamento, per accedere al Nivola Service Portal
@@ -32,8 +36,9 @@ Terminata la fase di accreditamento, per accedere al Nivola Service Portal
 le proprie credenziali scegliendo tra i seguenti sistemi di autenticazione:
 
 1.	SPID
-2.	CIE - Carte di Identità Elettronica
-3.	Sistema Piemonte
+2.	CIE - Carte di Identità Elettronica (LIVELLO 2)
+3.	PSNet
+
 
 Indipendentemente dal sistema di autenticazione scelto dall'utente,
 il Nivola Service Portal procederà a
@@ -70,6 +75,8 @@ In funzione della tipologia di Cliente, l'utente potrà scegliere tra
 
    |image2|
 
+|
+
 **Interfaccia utente**
 
 Dopo :ref:`l'autenticazione <Processo di Accredito>` all’utente viene presentata la propria Home Page
@@ -81,6 +88,8 @@ Nell'eventualità sia necessario autenticarsi contemporaneamente con due login d
 ma è necessario utilizzare due browser differenti.**
 
 La Home Page utente si distingue in 3 sezioni distinte.
+
+|
 
 **1 – Barra di stato**
 
@@ -104,6 +113,8 @@ Nivola.
 
 Per uscire dal sistema e chiudere la sessione di lavoro premere il
 simbolo |image8|
+
+|
 
 **2- Menu di navigazione**
 
@@ -144,6 +155,8 @@ dettagli della propria struttura organizzativa e accedere alle pagine di
 dettaglio dei costi e consumi del proprio Cloud.
 
 |image12|
+
+|
 
 **3 - Home Page**
 
@@ -198,11 +211,4 @@ effettiva la Home Page personalizzata è necessario premere
 .. |image14| image:: img/image14.png
 .. |image15| image:: img/image15.png
 .. |image16| image:: img/image16.png
-   
-   
-   
-   
-   
-   
-   
    

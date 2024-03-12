@@ -4,9 +4,10 @@
 ********************************************
 
 Sfruttando l’architettura multizone di Nivola è possibile creare servizi
-altamente affidabili in grado di sopperire alla caduta di una delle 3 AZ all’interno della Region.
+altamente affidabili in grado di sopperire alla caduta di una delle AZ all’interno della Region.
 E’ utile riprendere il modello logico dell’architettura del Cloud regionale che riproduce in modo schematico
-la presenza delle 3 AZ dislocate presso i datacenter di Torino e Vercelli, collegate tramite anello in fibra ottica
+la presenza delle AZ dislocate presso i datacenter di Torino e Vercelli (destinato a essere trasferito a Milano, 
+mentre a breve si aggiungerà un POD a Torino e un altro nuovo POD a Genova), collegate tramite anello in fibra ottica
 ad elevato throughput. L’utente può istanziare servizi in single-zone o in multi-zone. In questo secondo caso
 basterà installare tutte le componenti applicative avendo cura di implementare le seguenti linee guida.
 
@@ -21,7 +22,7 @@ applicativa con middleware specifico, database server relazionale e storage cond
 architetture applicative e quindi servizi altamente resilienti.
 
 #. **BACKUP**: Avere cura di attivare i servizi di backup sulle componenti IaaS (virtual machine) e sui servizi di DBaaS implementando le politiche di retention più idonee per il servizio. Generalmente il backup viene effettuato tramite l’effettuazione di una snapshot giornaliera (ogni 24 ore) nella fascia oraria 18-6 e mantenuta per un periodo minimo di 14 giorni. Per i servizi di DBaaS oltre alla snapshot è garantito il backup logico dei dati (export) con retention che possono arrivare fino a 10 anni. Su richiesta ed in base alla criticità del servizio è possibile pianificare snapshot delle VM applicative anche ogni ora.
-#. **STaaS**: il servizio di STaaS tipicamente utilizzato per la condivisione di volumi tra più virtual machine tramite protocolli nfs o cifs può essere allestito in modalità single-zone o in multi-zone. Per aumentare il livello di affidabilità è possibile richiedere il servizio STaaS in multi-zone con repliche fino ad ogni ora tra le zone di Torino e di Vercelli. In caso di failure di una delle zone sarà possibile montare i volumi dallo STaaS replicato.
+#. **STaaS**: il servizio di STaaS tipicamente utilizzato per la condivisione di volumi tra più virtual machine tramite protocolli nfs o cifs può essere allestito in modalità single-zone o in multi-zone. Per aumentare il livello di affidabilità è possibile richiedere il servizio STaaS in multi-zone con repliche fino ad ogni ora tra le zone di Torino, Vercelli (Milano) e Genova. In caso di failure di una delle zone sarà possibile montare i volumi dallo STaaS replicato.
 #. **DBaaS**: per tutte le tecnologie presenti a catalogo è possibile implementare il servizio multi-zone con replica asincrona con RPO near 0,cioè con perdita dati in caso di incidente su una zona, vicino allo zero. Per i database di tipo SQL è possibile implementare esclusivamente un’architettura MASTER-REPLICA in modalità ACTIVE-PASSIVE. E’ cioè necessario pilotare manualmente lo switch del servizio tra una zona geografica e l’altra.
 #. **COMPUTE**: le virtual machine sono disponibili nativamente nella sola modalità single-zone. Ciò significa che la realizzazione di un’architettura multi-zone per le componenti applicative di frontend e di back-end va realizzata manualmente dall’utente attraverso l’allestimento di virtual machine presso 2 differenti availability zone poste in data center differenti. Sarà poi necessario implementare strumenti che permettano di mantenere allineate tutte le istanze applicative in ciascuna delle zone. A questo scopo tornano utili strumenti di automazione del deploy, snapshot con copia remota o l’utilizzo di strumenti nativi di allineamento filesystem (es: rsync) pilotabili con procedure schedulate.
 #. **BILANCIATORI LOCALI**: l’utilizzo di bilanciatori locali permette di garantire all’interno di ciascuna AZ un alto livello di affidabilità applicativa in particolare per le componenti di front-end e di back-end tipicamente basati su protocollo http/https. In questo caso il servizio sarà raggiungibile dalle reti esterne tramite un VIP (Virtual IP) che si occuperà di indirizzare il traffico verso le istanze di frontend e di bac-end attive.

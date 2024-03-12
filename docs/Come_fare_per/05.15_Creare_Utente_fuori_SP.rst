@@ -18,10 +18,9 @@ Terminata la fase di accreditamento, per accedere al Nivola Service Portal è su
 credenziali scegliendo tra i seguenti sistemi di autenticazione:
 
 - SPID
-- CIE - Carte di Identità Elettronica
-- TS-CNS - Sistema Tessere Sanitaria
+- CIE - Carte di Identità Elettronica  (LIVELLO 2)
 - PSNet
-- Sistema Piemonte
+
 
 Indipendentemente dal sistema di autenticazione scelto dall’utente, il Nivola Service Portal procederà a:
 

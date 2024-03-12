@@ -38,10 +38,15 @@ Può essere modificata e/o rimessa al valore nullo.
 **Associazione Account/Listino**: 
 La valorizzazione dei consumi in costi richiede determinare quali tariffe debbano essere applicate ai consumi per ottenere il costo corrispondente. 
 Ogni Listino si contraddistingue per delle proprietà:
-Periodo di applicabilità (data inizio validità, data fine validità);
-Tipologia : CSI, Specifico;
-Voci di Listino : Ogni voce di Listino è associata ad un servizio CSI, oppure ad una metrica di un servizio, a dei servizi di gestione/assistenza o 
-altre tipologie di servizi presenti nel Listino Servizi Nivola che il CSI rinnova normalmente ogni anno solare. Ogni voce di Listino viene valorizzata 
+
+● Periodo di applicabilità (data inizio validità, data fine validità);
+
+● Tipologia : CSI, Specifico;
+
+● Voci di Listino : Ogni voce di Listino è associata ad un servizio CSI, oppure ad una metrica di un servizio, a dei servizi di gestione/assistenza o 
+altre tipologie di servizi presenti nel Listino Servizi Nivola che il CSI rinnova normalmente ogni anno solare. 
+
+Ogni voce di Listino viene valorizzata 
 con uno o più importi a seconda della “tipologia prezzo” da applicare allo specifico Account.
 
 .. image:: img/42.0_Listini_e_Prezzi.png

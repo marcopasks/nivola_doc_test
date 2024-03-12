@@ -22,7 +22,7 @@ organizzazione e soluzioni informatiche che rispondessero appieno
 alle normative italiane ed internazionali in particolare per i
 servizi di cloud computing e per i data center che ospitano le
 Availability Zones Nivola inclusa la connettività attestata presso i
-data center di Torino e Vercelli. Applicando questi vincoli abbiamo
+data center di Torino, Vercelli/Milano e Genova. Applicando questi vincoli abbiamo
 ottenuto le più importanti certificazioni in ambito Cloud che ci
 rendono conformi ai maggiori standard di sicurezza e affidabilità.
 

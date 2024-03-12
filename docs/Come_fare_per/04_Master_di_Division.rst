@@ -72,8 +72,6 @@ Ci sono diverse schede nel dettaglio account:
 
 ●	**UTENTI** fornisce l’elenco degli utenti con accesso all’account scelto con possibilità di maggiori dettagli selezionandoli dal checkbox e premendo il tasto “Dettagli” in alto a destra
 
-.. image:: img/04_Utente_Selez.png
-
 ●	**CONSUMI** per un dettaglio sulle spese dell’account
 
 ●	**SERVIZI** come elenco dei servizi aggiuntivi richiesti per l’account, che vanno da VM a DataBase, a Storage, ecc…

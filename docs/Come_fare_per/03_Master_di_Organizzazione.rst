@@ -37,6 +37,8 @@ Le funzionalità disponibili in questa pagina sono:
 
 .. image:: img/03_piu.png
 
+|
+
 ●	Refresh dell’elenco Divisioni
 
 .. image:: img/03_refresh.png
@@ -49,13 +51,19 @@ Selezionando una **Divisione** e selezionando il checkbox alla sua sinistra si a
 
 .. image:: img/03_reindirizza.png
 
+|
+
 ●	Dettaglio della divisione
 
 .. image:: img/03_dettaglio.png
 
+|    
+
 ●	Modifica della divisione 
 
 .. image:: img/03_modifica.png
+
+|    
 
 ●	Eliminazione della divisione
 
@@ -63,14 +71,11 @@ Selezionando una **Divisione** e selezionando il checkbox alla sua sinistra si a
 
 |
 
-
 :Dettaglio Divisione:
 
 l’utente visualizza la pagina di Dettaglio della Divisione scelta:
 
 .. image:: img/03_dettaglio_divisione.png
-
-|
 
 .. image:: img/03_dettaglio_divisioneDX.png
 
