@@ -2,6 +2,23 @@
 **Release Notes**
 =================
 
+.. _release-4.6.0:
+
+Service Portal 4.5.0 (2024-03-19)
+---------------------------------
+
+•  introdotta funzionalità report mensile dettaglio consumi/costi giornaliero per metrica
+
+•  migliorata funzionalità report CSV di Sintesi
+
+•  adeguamento funzionalità portale per account attestati sui nuovi POD
+
+•  migliorata funzionalità categorizzate ticket per specifica alberatura
+
+
+
+
+
 .. _release-4.5.0:
 
 Service Portal 4.5.0 (2024-02-21)

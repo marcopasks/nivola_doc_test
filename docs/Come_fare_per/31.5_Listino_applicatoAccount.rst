@@ -8,6 +8,8 @@ La funzione rientra nel menù **Gestione account**. L’accesso è attivabile da
 
 .. image:: img/31.5_ListinoSX.png
 
+|
+
 A seguito di un click su **Listino**, il sistema popolerà la parte destra della pagina 
 web con la **Listino applicato all'Account <nome_account>**
 

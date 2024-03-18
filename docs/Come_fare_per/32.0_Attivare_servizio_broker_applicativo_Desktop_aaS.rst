@@ -20,3 +20,24 @@ i canali previsti. Il Nivola Support Center prenderà in carico la richiesta e p
 3.	Attivazione Chiavi.
 4.	Avvisare Richiedente
 
+|
+
+:Attivazione:
+
+La funzione è attivabile attraverso il ruolo **Master di account**.
+Occorre accedere alla funzionalità **Remotizzazione TSPlus**, attivabile dalla parte sinistra dello schermo, all'interno del menù **PAAS**
+
+.. image:: img/32.0_TsPlusSX.png
+
+Dalla schermata **PAAS - TSPlus consente la remotizzazione di applicazioni Windows per l’allestimento di PAAS** che appare, compilare i dati richiesti:
+
+.. image:: img/32.0_TsPlusDX1.png
+
+Una volta compilati i campi richiesti, cliccare su **INVIA**
+
+.. image:: img/32.0_TsPlusDX2.png
+
+Comparirà il seguente messaggio a conferma della corretta apertura del ticket
+
+.. image:: img/32.0_TsPlusDXfine.png
+    
