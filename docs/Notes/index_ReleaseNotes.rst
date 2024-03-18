@@ -4,7 +4,7 @@
 
 .. _release-4.6.0:
 
-Service Portal 4.5.0 (2024-03-19)
+Service Portal 4.6.0 (2024-03-19)
 ---------------------------------
 
 •  introdotta funzionalità report mensile dettaglio consumi/costi giornaliero per metrica
