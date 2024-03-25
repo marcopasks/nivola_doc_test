@@ -1,11 +1,10 @@
-.. _Master_di_Division:
 
 **Master di Division**
 ######################
 
 Per visualizzare i **dettagli** degli **Account** sotto una **Divisione** procedere nel seguente modo:
 
-●	Accedere al Service Portal come Master di Divisione
+●	Accedere al Service Portal come Master di Division
 
 ●	Premere sulla scheda **Gestione Divisione → Struttura Organizzativa → Accounts**
 

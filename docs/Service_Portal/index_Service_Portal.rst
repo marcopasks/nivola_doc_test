@@ -99,7 +99,7 @@ E’ posizionata in alto nel sistema, ed indica quale è l’utente e il
 profilo con cui l’utente è loggato nel sistema.
 
 L’utente, se ha altri ruoli associati, può cambiare il profilo con cui
-agisce all’interno del sistema. Premendo su
+agisce all’interno del sistema. Premendo sull'icona indicata dalle frecce:
 
 |image4|
 
@@ -121,40 +121,57 @@ simbolo |image8|
 Il menù laterale di sinistra contiene l’elenco dei servizi che l’utente
 può consultare e utilizzare in base al proprio profilo.
 
-Il menù di navigazione è composto da più sezioni in base alla tipologia
+Accedendo col ruolo **Master di account** il menù di navigazione è composto da più sezioni in base alla tipologia
 dei servizi.
 
-La prima sezione
+La prima sezione contiene le voci:
+
+- “Documentazione” che permette di accedere a tutto il materiale informativo su Nivola
+
+- “Assistenza” che permette di aprire delle segnalazioni di implementazione/supporto
+
+- “Notizie” che permette di avere il dettaglio delle notizie e delle informazioni sulla piattaforma
+
 
 |image9|
 
-permette di accedere a tutto il materiale informativo su Nivola tramite
-la voce “Documentazione”, permette di contattare l’assistenza tramite la
-voce “Assistenza” e di avere il dettaglio delle notizie e delle
-informazioni sulla piattaforma tramite “Notizie”.
+|
 
-La sezione “Strumenti”
-
-|image10|
-
-Contiene le voci di menu per poter accedere agli strumenti offerti dalla
+La sezione **Strumenti** contiene le voci di menu per poter accedere agli strumenti offerti dalla
 piattaforma ai suoi utenti. Da qui si potrà accedere ad esempio alle
 console di monitoraggio oppure ai sistemi di visualizzazione dei log.
 
-La sezione “Servizi” è il menu dei Servizi offerti dalla piattaforma
+|image10|
+
+|
+
+La sezione **Gestione account** è il menu con il dettaglio degli Utenti accreditati, Costi, Quote, Servizi, 
+Avvisi e Cronologia Attività in relazione alle risorse della piattaforma Nivola facenti capo all'account 
+con cui si è autenticati.
+
+|image10.5|
+
+|
+
+La sezione **Servizi** è il menu dei Servizi offerti dalla piattaforma
 Nivola. In questa voce l’utente troverà l’elenco di tutti i servizi su
 cui può operare all’interno di Nivola per crearsi le proprie risorse
 Cloud.
 
 |image11|
 
-Nella Sezione “Amministrazione” vengono rese disponibili tutte quelle
-voci che permettono all’utente di gestire, in base al proprio profilo,
-la profilazione e l’accreditamento utente, oppure può visualizzare i
-dettagli della propria struttura organizzativa e accedere alle pagine di
-dettaglio dei costi e consumi del proprio Cloud.
+|
 
-|image12|
+Accedendo col ruolo **Amministratore di backoffice** il menù di navigazione è composto inoltre dalle sezioni:
+
+- **Struttura organizzativa**: permette di visualizzare/modificare tutte gli account, divisioni e organizzazioni
+
+- **Utenti**: permette di elencare/accreditare/registrare utenti
+
+- **Listini**: visualzza i Listini attualmente in vigore
+
+
+|image11.5|
 
 |
 
@@ -168,31 +185,6 @@ le ultime notizie pubblicate.
 
 |image13|
 
-La Home Page è personalizzabile dall’utente che può impostarne la
-visualizzazione e la disposizione delle dashboard in base alle sue
-preferenze o priorità.
-
-Per attivare la modalità di modifica della Home Page premere
-
-|image14|
-
-A questo punto sarà possibile:
-
--  Disabilitare la visualizzazione di una dashboard. Per fare questo
-   premere il simbolo evidenziato presente nella dashboard che vi vuole
-   non più visualizzare in quanto non di interesse
-
-|image15|
-
--  Spostare la dashboard all’interno del riquadro della HomePage. Per
-   far questo tenere premuto il mouse sulla barra blu della dashboard e
-   spostarla all’interno dell’area di lavoro. Rilasciare il mouse dopo
-   aver definito la nuova posizione.
-
-Per confermare le modifiche alla disposizione impostata è rendere
-effettiva la Home Page personalizzata è necessario premere
-
-|image16|
 
 .. |image0| image:: img/image0.png
 .. |image1| image:: img/image1.png
@@ -205,7 +197,9 @@ effettiva la Home Page personalizzata è necessario premere
 .. |image8| image:: img/image8.png
 .. |image9| image:: img/image9.png
 .. |image10| image:: img/image10.png
+.. |image10.5| image:: img/image10.5.png
 .. |image11| image:: img/image11.png
+.. |image11.5| image:: img/image11.5.png
 .. |image12| image:: img/image12.png
 .. |image13| image:: img/image13.png
 .. |image14| image:: img/image14.png
