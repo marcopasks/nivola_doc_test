@@ -1,4 +1,3 @@
-.. _Creare_Budget:
 
 **Creare Budget**
 =================
@@ -8,6 +7,7 @@ La funzione rientra nella sezione **Gestione Account**. La **creazione di un Bud
 
 .. image:: img/8.1_BudgetAvvisiSX.png
 
+|
 
 A seguito di un click su **Budget e Avvisi**, il sistema popolerà la parte destra della pagina 
 web con la **Lista di budget**, se presenti.
@@ -15,6 +15,7 @@ In alternativa verrà visualizza la scritta “Non sono presenti budget per ques
 
 .. image:: img/8.1_ListaBudgetDX.png
 
+|
 
 Per la **creazione di un budget**, procedere in questo modo:
 
@@ -36,6 +37,7 @@ Verrà aperta la pagina **Crea nuovo Budget**
 
 .. image:: img/8.1_AvvisiBudget.png
 
+|
 
 Infine confermare il budget appena creato, premendo sul bottone **CREA NUOVO BUDGET**, in basso a destra
 

@@ -1,13 +1,12 @@
-.. _Revocare_Utente:
 
-**Revocare Utente (amministratore di backoffice)**
-##################################################
+**Revocare accreditamente Ruolo a Utente (amministratore di backoffice)**
+#########################################################################
 
-La funzione è attivabile dall'elenco **Utenti Registrati**
+La funzione è attivabile dall'elenco **Lista utenti registrati** (sotto **Amministrazione -> Utenti**)
 
    .. image:: img/Utente_innesco_accredito.png
 
-Dall'elenco selezionare l'utente da accreditare mettendo una spunta sulla Checkbox relativa
+Dall'elenco selezionare l'utente a cui revocare il ruolo mettendo una spunta sulla Checkbox relativa
 
   .. image:: img/Utente_elenco.png
 
@@ -22,4 +21,3 @@ Dalla lista degli accreditamenti, individuare quello da revocare
 Per completare l'operazione, cliccare il tasto **Revoca accreditamento**
 
   .. image:: img/Utente_pulsante_Togliaccredito.png
-

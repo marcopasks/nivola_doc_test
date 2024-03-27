@@ -2,8 +2,8 @@
 **Cancellare Snapshot**
 =======================
 
-La funzione rientra nel **servizio compute**. La **Cancellazione Snapshot** è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **VM** sotto **Compute**
+La funzione rientra nel menù **Servizi**. La **Cancellazione Snapshot** è attivabile dalla parte 
+sinistra dello schermo, all'interno dei menù facenti parte di **VM** sotto **Compute**
 
 .. image:: img/VM_innesco_crea.png
 
@@ -11,21 +11,31 @@ A seguito di un clic su **VM**, il sistema popolerà la
 parte destra del video con l'**Elenco delle VM**.
 Per la cancellazione dello **snapshot**, procedere in questo modo:
 
+|
+
 1. Selezionare la VM
 
 .. image:: img/Snap_elenco_vm.png
+
+|
 
 2. Fare clic sul pulsante:
 
 .. image:: img/VM_Pannello_controllo.png
 
+|
+
 3. Dal pannello di Gestione VM, selezionare la voce **SNAPSHOT**:
 
 .. image:: img/Snap_gestione.png
 
+|
+
 4. Premere il tasto **Elimina snapshot**:
 
 .. image:: img/Snap_cancella.png
+
+|
 
 5. L'eliminazione avverrà, premendo il tasto **CONFERMA**:
 

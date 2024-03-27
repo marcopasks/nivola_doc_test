@@ -1,4 +1,3 @@
-.. _Creare_Avvisi:
 
 **Creare Avvisi**
 =================
@@ -13,27 +12,38 @@ Esistono due modalità per **Creare gli Avvisi associati ad un Budget**:
 **Creazione Avviso durante creazione di un budget**
 
 1. Iniziare il processo di creazione del budget, inserendo tutti i dati richiesti
+
+|
+
 2. Selezionare il checkbox **Attiva avvisi predefiniti**
 
 .. image:: img/8.11_Attiva_Avvisi_Predefiniti.png
+
+|
 
 3. Verranno visualizzate le seguenti informazioni
 
 .. image:: img/8.11_info_percentuale.png
 
+|
+
 4. Inserire da 1 a 3 indirizzi email sui quali ricevere gli avvisi, scrivendo l’indirizzo nella casella “Inserisci indirizzo…” e premendo su **AGGIUNGI INDIRIZZO** a fine inserimento
 
 .. image:: img/8.11_Aggiunta_Mail1.png
+
+|
 
 5. Gli indirizzi email appena salvati saranno riportati a destra, con possibilità di eliminazione nel caso di errori
 
 .. image:: img/8.11_Aggiunta_Mail2.png
 
+|
+
 6. Una volta salvate tutte le email corrette, premere sul bottone **CREA NUOVO BUDGET**
 
 .. image:: img/8.11_Pulsante_Crea.png
 
-. 
+|
 
 **Creazione Avviso post creazione Budget**
 
@@ -41,13 +51,19 @@ Esistono due modalità per **Creare gli Avvisi associati ad un Budget**:
 
 .. image:: img/8.11_Avviso_da_GestioneBudget.png
 
+|
+
 2. Premere sul bottone **+ ("crea nuovo avviso*)**" vicino all’importo del budget
 
 .. image:: img/8.11_TastoPiu_GestioneBdget.png
 
+|
+
 3. Si aprirà la pagina **Crea nuovo avviso**, con i seguenti campi da popolare
 
 .. image:: img/8.11_Crea_Nuovo_Avviso.png
+
+|
 
 4.
     1. Inserire il **Nome** e la **Descrizione**
@@ -60,12 +76,8 @@ Premere il pulsante **ASSOCIA NUOVO AVVISO**
 
 .. image:: img/8.11_Pulsante_Associa_Avviso.png
 
+|
+
 5. Il nuovo avviso sarà ora attivo e visualizzabile nell’elenco degli **Avvisi associati al Budget**
 
 .. image:: img/8.11_Gestione_Avvisi_da_CreazionePost.png
-
-
-
-
-
-

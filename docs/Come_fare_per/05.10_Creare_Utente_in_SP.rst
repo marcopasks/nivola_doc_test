@@ -1,15 +1,12 @@
 
-**Creare Utente all’interno del Service Portal**
-################################################
+**Creare Utente all’interno del Service Portal (amministratore di backoffice)**
+###############################################################################
 
-La funzione **Creazione di un utente** all’interno del Service Portal è attivabile sia dal ruolo di backoffice sia dal ruolo Master di Account.
+La funzione **Creazione di un utente** all’interno del Service Portal è attivabile dal ruolo **Amministratore di backoffice**
 
 |
 
-**AMMINISTRATORE DI BACKOFFICE**
-********************************
-
-Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare un utente:
+Attraverso il ruolo **Amministratore di Backoffice** ci sono due modalità per creare un utente:
 
 1.	Dal menù a sinistra selezionare **Amministrazione → Utenti -> Registra Nuovo Utente** → si aprirà la pagina di creazione utente
 
@@ -17,48 +14,49 @@ Con il ruolo **Amministratore di Backoffice** ci sono due modalità per creare u
 
 |
 
-2. Dal menù a sinistra selezionare **Amministrazione → Utenti -> Lista Utenti Registrati**
+2. Dal menù a sinistra selezionare **Amministrazione → Utenti -> Lista Utenti Registrati**. Quindi premere sul pulsante **Accredita nuovo utente**
 
-Quindi dalla pagina di destra, selezionare il simbolo **“+”** in alto a destra
-
-   .. image:: img/05.10_utenteABOdx.png
+   .. image:: img/05.2_accred_utente.png
 
 
 |
 
-In entrambi i casi, dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
-**Codice Fiscale, Nome, Cognome, Email e il tipo di accesso**
+In entrambi i casi compilare il form presentato dal sistema indicando:
 
-Se la mail inserita appartiente a un dominio **CSI** automaticamente verrà flaggato il campo **Accesso a sistema di ticketing** per permettere all'utente in creazione
-di poter disporre della funzionalità di apertura, visualizzazione e consultazione dei **ticket**
+**Codice Fiscale**
 
-  .. image:: img/05.10_ticketingdx.png
+**Nome**
 
+**Cognome**
+
+**Email**
+
+**tipo di accesso**
+
+|
+
+Come da esempio:
+
+  .. image:: img/05.10_nuovoUtente.png
+
+Di default risulteranno selezionate le due seguenti opzioni:
+
+  .. image:: img/05.10_Accessi.png
+
+per permettere l'accesso al Portale Nivola e per permettere di aprire delle segnalazioni (ticket) di implementazione/supporto.
+
+
+Se la mail inserita appartiene a un dominio **CSI** automaticamente comparirà anche il campo **Matricola CSI** per permettere all'utente di inserire la propria matricola.
+
+  .. image:: img/05.10_matricola.png
+
+|
 
 Al termine premere il pulsante **REGISTRA UTENTE**
 
-   .. image:: img/05.10_Registra_Utente.png
-      
-|
+   .. image:: img/05.10_Registra.png
 
-**MASTER DI ACCOUNT**
-*********************
 
-Dal menù a sinistra selezionare **Gestione Account → Utenti -> Lista Utenti Accreditati**
+Comparirà il seguente messaggio a conferma della corretta creazione dell'utente
 
-   .. image:: img/05.10_utenteMAsx.png
-
-|
-
-Cliccare sul "+" in alto a destra
-
-   .. image:: img/05.10_utenteMAdx.png
-
-|
-
-Dopo aver attivato la funzione, compilare la form presentata dal sistema indicando: 
-**Codice Fiscale, Nome, Cognome, Email e il tipo di accesso**. Al termine premere il tasto **REGISTRA UTENTE**.
-
-   .. image:: img/05.10_Nuovo_Utente.png
-
-Premere il bottone **VAI A ACCREDITAMENTO** per proseguire con la configurazione dell’utente appena creato, assegnandogli uno o più ruoli.
+   .. image:: img/05.10_UtenteOK.png

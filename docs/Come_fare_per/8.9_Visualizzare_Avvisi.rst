@@ -1,4 +1,3 @@
-.. _Visualizzare_Avvisi:
 
 **Visualizzare Avvisi collegati ad un Budget**
 ==============================================
@@ -7,16 +6,19 @@ Per visualizzare gli **Avvisi collegati a un Budget** accedere alla pagina relat
 
 .. image:: img/8.9_Visualizza_Budget.png
 
+|
 
 1. Selezionare un budget dall’elenco
 
 .. image:: img/8.9_Seleziona_Budget.png
 
+|
 
 2. Cliccare sul pulsante **Gestisci avvisi** in alto a destra
 
 .. image:: img/8.9_Avviso.png
 
+|
 
 3. Si accede alla pagina **Gestione avvisi del Budget**
 

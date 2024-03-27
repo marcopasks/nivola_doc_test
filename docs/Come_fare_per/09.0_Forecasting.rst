@@ -2,7 +2,7 @@
 **Forecasting**
 ===============
 
-La funzione rientra nella sezione **Gestione Account**. La **creazione di un Budget** 
+La funzione rientra nella sezione **Gestione Account**. Il **Forecasting** 
 è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Forecasting**, sotto **Forecast e Avvisi**.
 
 .. image:: img/9_ForecastSx.png

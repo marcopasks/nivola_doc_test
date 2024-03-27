@@ -1,5 +1,3 @@
-.. _Modificare_tipo_VM:
-
 
 **Modificare il tipo della Virtual Machine**
 ============================================
@@ -10,19 +8,28 @@ di creazione.
 
 Per **modificare il tipo VM** è necessario procedere in questo modo:
 
-    1. Selezionare il server dall’**Elenco VM** e fare clic sul bottone **Pannello gestione VM**;
+    1. Selezionare il server dall’**Elenco VM** e fare clic sul pulsante **Pannello gestione VM**;
 
        .. image:: img/Ricerca_VM.png
+
+|
 
     2. Cliccare sul simbolo della matita a fianco del **Tipo VM**;
 
       .. image:: img/VM_pannello_gest.png
 
-    3. Utilizzare il check box a fianco del **flavour** necessario e
-       premere il tasto **MODIFICA**;
+|
+
+    3. Utilizzare il check box a fianco del nuovo **flavour** da associare alla VM, e quindi premere il tasto **MODIFICA**;
 
       .. image:: img/VM_modifica_flavour.png
 
-    4. Nivola apporterà la variazione richiesta al server;
+|
 
+    4. Confermare la scelta alla successiva richiesta;
 
+      .. image:: img/11.6_Conferma.png
+
+|
+
+    5. Nivola apporterà la variazione richiesta al server;

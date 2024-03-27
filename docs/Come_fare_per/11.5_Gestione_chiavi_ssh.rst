@@ -47,7 +47,7 @@ Premere il pulsante in alto a destra
 
 .. image:: img/Crea-ssh-da-lista.png
 
-Inserire il **Nome della chiave** da importare e visualizzare il **Nome completo assegnato dal sistema**
+Inserire il **Nome della chiave** da importare
 
 Inserire la **parte pubblica** della chiave RSA seguendo le indicazioni fornite dal portale
 

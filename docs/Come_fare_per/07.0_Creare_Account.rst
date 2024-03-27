@@ -1,4 +1,3 @@
-.. _Creare_Account:
 
 **Creare un Account (amministratore di backoffice)**
 ####################################################
@@ -8,20 +7,22 @@ sinistra dello schermo, cliccando sulla label **Accounts** sotto **Struttura org
 
 .. image:: img/07.0_menuAccountsSX.png
 
+|
+
 Dalla pagina **Elenco Accounts**
 
 .. image:: img/07.0_ElencoAccountsDX.png
 
-Cliccare in alto a destra sul simbolo "**+**" (Crea un Nuovo Account) 
+Cliccare in alto a destra sul simbolo "**+**"" (Crea un Nuovo Account) 
 
 .. image:: img/03_piu.png
 
 Dalla pagina **Nuovo Account** inserire le informazioni richieste tramite le relative combo box:
 
-.. image:: img/07.0_NuovoAccountDX.png
-
 - Organizzazione
 - Divisione
 - Categoria
+
+.. image:: img/07.0_NuovoAccountDX.png
 
 Quindi cliccare sul pulsante **CREA ACCOUNT** in basso a destra
