@@ -16,6 +16,7 @@ ad interagire con la piattaforma, attraverso il portale.
    07.0_Creare_Account.rst
    08.0_Lavorare_Budget_Alert.rst
    09.0_Forecasting.rst
+   10.0_PTE.rst
    11.0_Lavorare_con_VM.rst
    14.0_Lavorare_con_DBAAS.rst
    15.0_Lavorare_con_i_servizi_di_rete.rst
