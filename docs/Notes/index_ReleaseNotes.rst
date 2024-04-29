@@ -2,6 +2,21 @@
 **Release Notes**
 =================
 
+.. _release-4.7.0:
+
+Service Portal 4.7.0 (2024-04-29)
+---------------------------------
+
+•  introdotta funzionalità PTE - Proposta Tecnico-Economica (inserimento e associazione account/division, visualizzazione, cancellazione)
+
+•  migliorata funzionalità verifica integrità campi in creazione account
+
+•  migliorata funzionalità creazione ticket e account, con possibilità inserimento numero di telefono
+
+
+
+
+
 .. _release-4.6.0:
 
 Service Portal 4.6.0 (2024-03-19)
