@@ -37,5 +37,5 @@ a cura del referente di progetto,  indicando il nome e cognome utente  e Codice 
 a cui si richiede l’accreditamento.
 
 
-I successivi accreditamenti possono essere effettuati in autonomia L’utente sarà accreditato nel livello organizzativo e nel ruolo indicati.
+I successivi accreditamenti possono essere effettuati in autonomia. L’utente sarà accreditato nel livello organizzativo e nel ruolo indicati.
 

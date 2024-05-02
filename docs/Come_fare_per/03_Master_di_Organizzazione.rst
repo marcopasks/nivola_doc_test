@@ -71,6 +71,8 @@ Selezionando una **Divisione** e selezionando il checkbox alla sua sinistra si a
 
 |
 
+|
+
 :Dettaglio Divisione:
 
 l’utente visualizza la pagina di Dettaglio della Divisione scelta:
@@ -96,6 +98,8 @@ Il tab **DETTAGLIO** fornisce all’utente informazioni dettagliate sulla divisi
 ●	Referente 
 
 ●	Data Creazione
+
+|
 
 |
 

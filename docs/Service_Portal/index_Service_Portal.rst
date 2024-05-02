@@ -170,6 +170,10 @@ Accedendo col ruolo **Amministratore di backoffice** il menù di navigazione è 
 
 - **Listini**: visualzza i Listini attualmente in vigore
 
+- **PTE**: visualizza l'elenco delle Proposte Tecnico-Economiche
+
+- **Report**: permette l'estrazione di report CSV relativo a somma costi per periodo
+
 
 |image11.5|
 
