@@ -14,8 +14,7 @@ Le operazioni previste sono le seguenti:
     3. :ref:`Accendere VM`    
     4. :ref:`Riavviare VM`
 
-
-
+|
 
 .. _Cercare VM:
 
@@ -28,11 +27,11 @@ Nivola ricerca il set di caratteri nelle colonne dove sono elencate
 le caratteristiche dei server.
 Per eseguire una ricerca è necessario procedere in questo modo:
 
-    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"** e premere invio;
+    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"**;
 
        .. image:: img/VM_Elenco.png
 
-    2. Il sistema popolerà lo schermo, con le VM che soddisfano il criterio di selezione;
+    2. Il sistema popolerà lo schermo con le VM che soddisfano il criterio di selezione;
 
       .. image:: img/VM_Selezionate.png
 
@@ -48,20 +47,14 @@ Per fermare l'attività della Virtual Machine, seguire questi passaggi:
 
        .. image:: img/Ricerca_VM_b.png
 
-   |
-    
     2. Cliccare sul pulsante **Pannello gestione VM**;
 
        .. image:: img/Pulsante_dettagli.png
-
-|
 
     3. Spostarsi nel tab **"START/STOP/RIAVVIA"**;
     
       .. image:: img/VM_Pannello_dettagli.png
     
-|
-
     4. Utilizzare il pulsante **"STOP"** per spegnere la VM;
 
       .. image:: img/VM_stop.png
@@ -78,20 +71,14 @@ Per effettuare lo **start** della Virtual Machine, procedere come segue:
     1. Selezionare la VM dall’**Elenco VM**;
 
        .. image:: img/Ricerca_VM_a.png
-    
-|
 
     2. Cliccare sul pulsante **Pannello gestione VM**;
 
        .. image:: img/Pulsante_dettagli.png
 
-|
-
     3. Spostarsi nel tab **"START/STOP/RIAVVIA"**;
     
       .. image:: img/VM_Pannello_dettagli.png
-    
-|
 
     4. Utilizzare il pulsante **"START"** per accendere la VM;
 
@@ -109,19 +96,13 @@ Per **riavviare** la Virtual Machine, occorrono i seguenti passaggi:
 
        .. image:: img/Ricerca_VM_b.png
     
-|
-
     2. Cliccare sul pulsante **Pannello gestione VM**;
 
        .. image:: img/Pulsante_dettagli.png
 
-|
-
     3. Spostarsi nel tab **"START/STOP/RIAVVIA"**;
     
       .. image:: img/VM_Pannello_dettagli.png
-
-|
 
     4. Utilizzare il pulsante **RIAVVIA** per riavviare la VM;
 

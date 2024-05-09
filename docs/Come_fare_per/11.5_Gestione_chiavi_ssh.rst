@@ -10,7 +10,7 @@ La funzione è raggiungibile da **Servizi** → **Compute** → **Chiavi SSH**
 E' possibile creare **Chiavi SSH** attraverso 2 metodi
 ma per entrambi è necessario rispettare questi vincoli:
 
-- Il **nome della chiave ssh** deve essre **univoco** in tutto il sistema
+- Il **nome della chiave ssh** deve essere **univoco** in tutto il sistema
 
 - Il **nome della chiave ssh** non può superare i 40 caratteri
 

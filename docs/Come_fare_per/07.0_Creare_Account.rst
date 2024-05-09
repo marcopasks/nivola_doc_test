@@ -25,4 +25,21 @@ Dalla pagina **Nuovo Account** inserire le informazioni richieste tramite le rel
 
 .. image:: img/07.0_NuovoAccountDX.png
 
-Quindi cliccare sul pulsante **CREA ACCOUNT** in basso a destra
+|
+
+Compariranno quindi le seguenti altre voci da compilare:
+
+- Denominazione
+- Descrizione
+- Note
+- Indirizzo Mail
+- Referente
+- Numero di telefono del Referente
+- impostazione account (Not managed / Managed)
+- Acronimo
+- Person ID
+- Modello di gestione
+
+.. image:: img/07.0_datiDX.png
+
+Al termine cliccare sul pulsante **CREA ACCOUNT** in basso a destra

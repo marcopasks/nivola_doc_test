@@ -1,4 +1,3 @@
-.. _Creare_VM:
 
 **Creare Virtual Machine**
 ===========================
@@ -20,7 +19,7 @@ parte destra del video con l'**Elenco delle VM**.
 
 |
 
-Per la creazione del server, dalla lista, procedere in questo modo
+Per la creazione della Virtual Machine procedere seguendo i seguenti passi:
 
 1. Fare clic sul pulsante **"+"**:
 
@@ -58,15 +57,20 @@ Subnet e Gruppo di sicurezza**.  Al termine cliccare su **AVANTI**
 
 |
 
-6. In questa fase è obbligatorio **scegliere** o **generare** una **CHIAVE SSH** da associare alla 
+6. In caso di Virtual Machine **LINUX** è obbligatorio **scegliere** o **generare** una **CHIAVE SSH** da associare alla 
 Virtual Machine. Una volta scelta una chiave già presente o generata (creazione o importazione), 
 premere il bottone **AVANTI**
 
 .. image:: img/key-ssh-selezionata-da-lista.png
 
+Invece in caso di Virtual Machine **WINDOWS** è obbligatorio impostare una password da associare all'utenza amministrativa. 
+Quindi premere il bottone **AVANTI**
+
+.. image:: img/11.1_WinPsw.png
+
 |
 
-7. Controllare che gli attributi del server da creare siano corretti e confermare premendo sul 
+7. Controllare le configurazioni della Virtual Machine da creare siano corretti e confermare premendo sul 
 pulsante **AVANTI** sulla destra. Il portale procederà alla creazione della **VM** utilizzando i parametri inseriti
 
 .. image:: img/Riepilogo_VM.png
