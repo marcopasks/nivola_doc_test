@@ -58,7 +58,7 @@ Selezionando un **Account** e selezionando il checkbox alla sua sinistra si abil
 
 |
 
-Premendo il bottone **Dettaglio Account**, l’utente visualizza la pagina di Dettaglio dell’Account selezionato:
+Premendo il pulsante **Dettaglio Account**, l’utente visualizza la pagina di Dettaglio dell’Account selezionato:
 
 .. image:: img/04_dettaglioDxOK.png
 

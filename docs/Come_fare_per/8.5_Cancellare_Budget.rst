@@ -1,4 +1,3 @@
-.. _Cancellare_Budget:
 
 **Cancellare Budget**
 ===============================
@@ -15,7 +14,7 @@ Per **Cancellare un Budget** procedere con le seguenti operazioni:
 .. image:: img/8.5_EliminaBudget.png
 
 
-3. Confermare l’eliminazione premendo sul bottone **PROCEDI**
+3. Confermare l’eliminazione premendo sul pulsante **PROCEDI**
 
 .. image:: img/8.5_ConfermaCancella.png
 

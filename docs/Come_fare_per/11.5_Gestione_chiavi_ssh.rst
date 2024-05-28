@@ -31,7 +31,7 @@ il **nome completo** che il sistema assegna alla chiave
 
 .. image:: img/Crea_key1.png
 
-Premere sul bottone **CREA CHIAVE** per confermarne la creazione. Verrà scaricato in automatico **il file .pem** della 
+Premere sul pulsante **CREA CHIAVE** per confermarne la creazione. Verrà scaricato in automatico **il file .pem** della 
 chiave e si visualizzerà nell’elenco delle chiavi SSH.
 
 .. image:: img/Crea-keyssh-ex-novo2.png
@@ -51,7 +51,7 @@ Inserire il **Nome della chiave** da importare
 
 Inserire la **parte pubblica** della chiave RSA seguendo le indicazioni fornite dal portale
 
-Premere il bottone **IMPORTA** per concludere l’operazione
+Premere il pulsante **IMPORTA** per concludere l’operazione
 
 .. image:: img/Importa-key-ssh.png
 

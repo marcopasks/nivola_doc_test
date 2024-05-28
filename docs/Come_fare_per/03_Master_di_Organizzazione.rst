@@ -1,4 +1,3 @@
-.. _Master_di_Organizzazione:
 
 **Master di Organizzazione**
 ############################
@@ -105,7 +104,7 @@ Il tab **DETTAGLIO** fornisce all’utente informazioni dettagliate sulla divisi
 
 :Account Collegati:
 
-il bottone reindirizza l’utente all’elenco Account collegati alla divisione scelta
+il pulsante reindirizza l’utente all’elenco Account collegati alla divisione scelta
 
 .. image:: img/03_reindirizza.png
 
@@ -130,6 +129,6 @@ Nell’ultimo tab **CONSUMI** si ritrova un elenco dei costi e consumi specifici
 
 |
 
-Il bottone arancione serve a refreshare il grafico dell’Andamento dei Costi:
+Il pulsante arancione serve a refreshare il grafico dell’Andamento dei Costi:
 
 .. image:: img/03_refresh2.png

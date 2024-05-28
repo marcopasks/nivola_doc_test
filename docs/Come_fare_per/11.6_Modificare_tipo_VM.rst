@@ -32,4 +32,4 @@ Per **modificare il tipo VM** è necessario procedere in questo modo:
 
 |
 
-    5. Nivola apporterà la variazione richiesta al server;
+    5. Nivola apporterà la variazione richiesta alla Virtual Machine.

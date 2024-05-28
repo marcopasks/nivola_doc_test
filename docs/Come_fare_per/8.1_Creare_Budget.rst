@@ -19,7 +19,7 @@ In alternativa verrà visualizza la scritta “Non sono presenti budget per ques
 
 Per la **creazione di un budget**, procedere in questo modo:
 
-Cliccare sul bottone **Aggiungi nuovo budget** in alto a destra
+Cliccare sul pulsante **Aggiungi nuovo budget** in alto a destra
 
 .. image:: img/8.1_AggiungiBudget.png
 
@@ -39,7 +39,7 @@ Verrà aperta la pagina **Crea nuovo Budget**
 
 |
 
-Infine confermare il budget appena creato, premendo sul bottone **CREA NUOVO BUDGET**, in basso a destra
+Infine confermare il budget appena creato, premendo sul pulsante **CREA NUOVO BUDGET**, in basso a destra
 
 .. image:: img/8.1_PulsanteCrea.png
 

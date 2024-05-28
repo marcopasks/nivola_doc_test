@@ -16,7 +16,7 @@ Per consultare la lista dei **VOLUMI**, procedere in questo modo:
 
 .. image:: img/Snap_elenco_vm.png
 
-2. Usare il bottone **Pannello gestione VM**;
+2. Usare il pulsante **Pannello gestione VM**;
 
 .. image:: img/Pulsante_dettagli.png
 

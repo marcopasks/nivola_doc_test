@@ -18,13 +18,13 @@ Per la vedere l'elenco degli **snapshot**, procedere in questo modo:
 
 |
 
-2. Usare il bottone **Pannello gestione VM**;
+2. Usare il pulsante **Pannello gestione VM**;
 
 .. image:: img/Pulsante_dettagli.png
 
 |
 
-3. Optare per il tabstrip **"SNAPSHOT"**;
+3. Selezionare il tab **"SNAPSHOT"**;
     
 .. image:: img/VM_Pannello_dettagli.png
 

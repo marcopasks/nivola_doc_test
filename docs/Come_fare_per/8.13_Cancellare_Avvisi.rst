@@ -13,6 +13,6 @@ Per **Cancellare un Avviso** procedere con le seguenti operazioni:
 
 .. image:: img/8.13_ListaAvvisi_SelezionoDelete.png
 
-3. Confermare l’eliminazione dal popup, premendo sul bottone **CANCELLA**
+3. Confermare l’eliminazione dal popup, premendo sul pulsante **CANCELLA**
 
 .. image:: img/8.13_Conferma_DeleteAvviso.png

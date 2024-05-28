@@ -5,7 +5,7 @@
 
 Per **cancellare** un **istanza DBAAS** seguire i seguenti passaggi:
 
-    1. Selezionare l'**istanza del dbaas** VM dall’Elenco dbaas e fare clic sul bottone **cancella**;
+    1. Selezionare l'**istanza del dbaas** VM dall’Elenco dbaas e fare clic sul pulsante **cancella**;
 
        .. image:: img/DBAAS_seleziona_istanza.png
 

@@ -59,12 +59,12 @@ Subnet e Gruppo di sicurezza**.  Al termine cliccare su **AVANTI**
 
 6. In caso di Virtual Machine **LINUX** è obbligatorio **scegliere** o **generare** una **CHIAVE SSH** da associare alla 
 Virtual Machine. Una volta scelta una chiave già presente o generata (creazione o importazione), 
-premere il bottone **AVANTI**
+premere il pulsante **AVANTI**
 
 .. image:: img/key-ssh-selezionata-da-lista.png
 
 Invece in caso di Virtual Machine **WINDOWS** è obbligatorio impostare una password da associare all'utenza amministrativa. 
-Quindi premere il bottone **AVANTI**
+Quindi premere il pulsante **AVANTI**
 
 .. image:: img/11.1_WinPsw.png
 

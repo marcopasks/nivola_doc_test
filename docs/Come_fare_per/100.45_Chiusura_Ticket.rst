@@ -16,7 +16,7 @@ Mettere una spunta sulla Checkbox relativa:
 
 .. image:: img/100.45_RicercaStringaTicketOkDX.png
     
-Usare il bottone **Visualizza dettagli Ticket**:
+Usare il pulsante **Visualizza dettagli Ticket**:
 
 .. image:: img/100.5_iconaDettagliTicket.png
 

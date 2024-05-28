@@ -17,7 +17,7 @@ Per **Modificare un Avviso** procedere con le seguenti operazioni:
 
 .. image:: img/8.15_Modifica_Avviso.png
 
-4. Una volta modificati i campi desiderati (indirizzi mail compresi), premere sul bottone **AGGIORNA AVVISO** per confermare i cambiamenti appena eseguiti
+4. Una volta modificati i campi desiderati (indirizzi mail compresi), premere sul pulsante **AGGIORNA AVVISO** per confermare i cambiamenti appena eseguiti
 
 .. image:: img/8.15_Aggiorna_Avviso.png
 

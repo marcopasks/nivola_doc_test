@@ -28,7 +28,7 @@ con i ticket che soddisfano il criterio di selezione;
 
 .. image:: img/100.55_RicercaStringaTicketOkDX.png
     
-3. Usare il bottone **Visualizza dettagli Ticket**;
+3. Usare il pulsante **Visualizza dettagli Ticket**;
 
 .. image:: img/100.5_iconaDettagliTicket.png
 

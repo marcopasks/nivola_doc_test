@@ -39,7 +39,7 @@ Esistono due modalità per **Creare gli Avvisi associati ad un Budget**:
 
 |
 
-6. Una volta salvate tutte le email corrette, premere sul bottone **CREA NUOVO BUDGET**
+6. Una volta salvate tutte le email corrette, premere sul pulsante **CREA NUOVO BUDGET**
 
 .. image:: img/8.11_Pulsante_Crea.png
 
@@ -53,7 +53,7 @@ Esistono due modalità per **Creare gli Avvisi associati ad un Budget**:
 
 |
 
-2. Premere sul bottone **+ ("crea nuovo avviso*)**" vicino all’importo del budget
+2. Premere sul pulsante **+ ("crea nuovo avviso*)**" vicino all’importo del budget
 
 .. image:: img/8.11_TastoPiu_GestioneBdget.png
 

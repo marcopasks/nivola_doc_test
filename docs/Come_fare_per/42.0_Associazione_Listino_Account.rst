@@ -11,7 +11,7 @@ Cliccando sulla freccia a destra della voce, apparirà **Accounts** e a seguito 
 
 .. image:: img/42.0_Account_selezionato.png
 
-2. Usare il bottone **Modifica Elemento**;
+2. Usare il pulsante **Modifica Elemento**;
 
 .. image:: img/Pulsante_modifica.png
 

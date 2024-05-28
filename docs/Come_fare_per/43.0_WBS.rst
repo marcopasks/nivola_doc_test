@@ -26,7 +26,7 @@ In caso di valore inferiore oppure superiore, l'errore verrà visualizzato sullo
 .. image:: img/42.0_Account_selezionato.png
  
 
-2. Usare il bottone **Modifica Elemento**:
+2. Usare il pulsante **Modifica Elemento**:
 
 .. image:: img/Pulsante_modifica.png
  

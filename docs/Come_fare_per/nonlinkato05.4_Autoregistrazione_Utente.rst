@@ -1,0 +1,28 @@
+.. _Autoregistrazione_Utente:
+
+**Autoregistrazione Utente**
+############################
+
+L'autoregistrazione è consentita esclusivamente alle persone riconosciute dal sistema come **"GUEST"**
+che hanno un indirizzo di posta elettronica nel **dominio Csi** ed un numero di matricola.
+
+Dopo aver superato il primo accreditamento di Shibboleth, procedere come segue:
+
+1. Attivare la funzione, cliccando sulla label **REGISTRATI** nel
+   riquadro di "Benvenuto sul Nivola Service Portal"
+
+   .. image:: img/Autoreg_Utente_innesco.png
+
+2. Inserire obbligatoriamente l'*indirizzo email* e il *numero di matricola* che dovrà essere univoco
+   nell'ambito del Portale. Il *motivo* per cui si chiede la registrazione è opzionale. E'
+   necessario mettere la spunta su *"Ho letto e compreso le informazioni sul trattamento dei dati personali rese dal
+   CSI Piemonte ai sensi dell'art. 13 del GDPR"*
+
+   .. image:: img/Autoreg_Utente_compila_campi.png
+
+
+3. Al termine, premere il pulsante *REGISTRA UTENTE*
+
+   .. image:: img/Autoreg_Utente_registra.png
+
+

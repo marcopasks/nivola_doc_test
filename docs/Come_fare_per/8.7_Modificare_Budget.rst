@@ -1,4 +1,4 @@
-.. _Modificare_Budget:
+
 
 **Modificare Budget**
 =====================
@@ -20,7 +20,7 @@ Per **Modficare un Budget** accedere alla pagina relativa alla Lista di budget:
 .. image:: img/8.7_ModifBudget2.png
 
 
-4. Premere il bottone **AGGIORNA BUDGET** per salvare e rendere effettivi i dati appena modificati:
+4. Premere il pulsante **AGGIORNA BUDGET** per salvare e rendere effettivi i dati appena modificati:
 
 .. image:: img/8.7_AggiornaBudget.png
 

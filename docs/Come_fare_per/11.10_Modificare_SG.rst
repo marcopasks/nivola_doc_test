@@ -1,4 +1,3 @@
-.. _Modificare_SG:
 
 **Modificare Security Group di una Virtual Machine**
 ====================================================
@@ -31,9 +30,9 @@ Per attribuire un nuovo **Security Group** ad una VM, procedere in questo modo:
 
 |
 
-4. Premendo il bottone **“+”** a destra della label **Security Group** si apre una maschera per aggiungere un Security Group 
+4. Premendo il pulsante **“+”** a destra della label **Security Group** si apre una maschera per aggiungere un Security Group 
 esistente alla VM.
-Dopo averlo selezionato e premuto il bottone **CONFERMA** si creerà l’associazione.
+Dopo averlo selezionato e premuto il pulsante **CONFERMA** si creerà l’associazione.
 
 .. image:: img/VM_Modifica_SG_A.png
 
