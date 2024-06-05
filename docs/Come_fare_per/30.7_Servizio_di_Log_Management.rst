@@ -1,4 +1,3 @@
-.. _30.7_Servizio_di_Log_Management:
 
 **Servizio di Log Management**
 ******************************
@@ -53,6 +52,10 @@ Dalla pagina **Elenco spaces**, cliccare sul link presente sotto il titolo "Coll
 Il sistema aprirà una nuova finestra con l'accesso alla pagina di **Elastic**:
 
 .. image:: img/30.7_ElasticDx.png
+
+- gli utenti CSI accedono con le utenze PSNET di Comunica
+
+- gli utenti esterni con l'utenza fornitori nivola
 
 |
 
