@@ -8,7 +8,7 @@ digitalizzare le richieste presentate da cittadini e imprese alle pubbliche ammi
 configurazione, pubblicazione e raccolta in formato digitale delle richieste, in modo trasversale rispetto alle tematiche trattate 
 dagli enti pubblici (demografia, tributi, edilizia, servizi per il personale...). 
 Viene fornito come soluzione pronta all’uso, con flussi e modelli standard, e possono essere configurati in autonomia modelli relativi 
-a nuovi servizi digitali
+a nuovi servizi digitale
 
 .. image:: img/02_Configuratore1.png
 
