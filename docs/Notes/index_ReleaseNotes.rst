@@ -2,6 +2,31 @@
 **Release Notes**
 =================
 
+.. _release-4.8.0:
+
+Service Portal 4.8.0 (2024-07-09)
+---------------------------------
+
+•  risoluzione bug fix minori
+
+•  miglioramento prestazioni all'accesso
+
+•  migliorata la profilazione utenti
+
+•  migliorata la gestione dell'anagrafica dell'account e dei ticket aperti
+
+•  gestione parametrica della modalità Manutenzione Service Portal
+
+•  miglioramento performance nella fase di accesso al Service Portal
+
+•  inserimento in Anagrafica del numero di telefono degli utenti
+
+•  ricerca delle macchine tra gli account per i Master di Division
+
+
+
+
+
 .. _release-4.7.0:
 
 Service Portal 4.7.0 (2024-04-29)
