@@ -9,15 +9,13 @@ Service Portal 4.8.0 (2024-07-09)
 
 •  risoluzione bug fix minori
 
-•  miglioramento prestazioni all'accesso
+•  miglioramento prestazioni nella fase di accesso al Service Portal
 
 •  migliorata la profilazione utenti
 
 •  migliorata la gestione dell'anagrafica dell'account e dei ticket aperti
 
 •  gestione parametrica della modalità Manutenzione Service Portal
-
-•  miglioramento performance nella fase di accesso al Service Portal
 
 •  inserimento in Anagrafica del numero di telefono degli utenti
 
