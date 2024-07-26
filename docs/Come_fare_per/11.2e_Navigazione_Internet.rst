@@ -1,0 +1,17 @@
+
+**Navigazione internet**
+========================
+
+I proxy per abilitare la navigazione internet sugli account in classe 10 sono i seguenti (suddivisi per POD):
+
+
+• podto1-proxy.site01.nivolapiemonte.it
+
+• podto2-proxy.site02.nivolapiemonte.it
+
+• podvc-proxy.site03.nivolapiemonte.it
+
+• podto5-proxy.site05.nivolapiemonte.it
+
+
+La porta da utilizzare è la 3128
