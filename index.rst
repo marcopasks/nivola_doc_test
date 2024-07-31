@@ -13,3 +13,4 @@
     docs/FAQ/index_FAQ.rst
     docs/Glossario/index_Glossario.rst
     docs/Notes/index_ReleaseNotes.rst
+    docs/Roadmap/index_Roadmap.rst
