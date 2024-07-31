@@ -2,7 +2,7 @@
 **Navigazione internet**
 ========================
 
-I proxy per abilitare la navigazione internet sugli account in classe 10 sono i seguenti (suddivisi per POD extra intranet):
+I proxy per abilitare la navigazione internet sugli account in classe 10 sono i seguenti (suddivisi per POD):
 
 
 • podto1-proxy.site01.nivolapiemonte.it
