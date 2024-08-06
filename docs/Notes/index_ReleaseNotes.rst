@@ -2,6 +2,23 @@
 **Release Notes**
 =================
 
+.. _release-4.9.0:
+
+Service Portal 4.9.0 (2024-08-06)
+---------------------------------
+
+•  introdotta funzionalità Clonazione Virtual Machine
+
+•  introdotto ulteriore livello customizzazione in fase di creazione DBAAS
+
+•  gestione Budget e Forecast da amministratore
+
+•  risoluzione bug fix minori
+
+
+
+
+
 .. _release-4.8.0:
 
 Service Portal 4.8.0 (2024-07-09)
