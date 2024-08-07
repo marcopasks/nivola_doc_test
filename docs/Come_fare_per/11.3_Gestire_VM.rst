@@ -198,4 +198,4 @@ Per effettuare la **clonazione** di una Virtual Machine la vm deve essere **acce
     
     20. Dalla schermata di riepilogo cliccare **AVANTI** per lanciare la creazione della VM
 
-|    .. image:: img/ClonaVM10.png
+      .. image:: img/ClonaVM10.png
