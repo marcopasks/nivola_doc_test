@@ -13,6 +13,7 @@ Le operazioni previste sono le seguenti:
     2. :ref:`Stoppare VM`
     3. :ref:`Accendere VM`    
     4. :ref:`Riavviare VM`
+    5. :ref:`Clonazione VM`
 
 |
 
@@ -107,3 +108,94 @@ Per **riavviare** la Virtual Machine, occorrono i seguenti passaggi:
     4. Utilizzare il pulsante **RIAVVIA** per riavviare la VM;
 
       .. image:: img/VM_stop.png
+
+
+
+.. _Clonazione VM:
+
+**Clonazione di una Virtual Machine**
+=====================================
+Per effettuare la **clonazione** di una Virtual Machine la vm deve essere **accesa**. Seguire i seguenti passaggi:
+
+    1. Selezionare la VM da clonare dall’**Elenco VM**;
+
+       .. image:: img/ClonaVM0.png
+
+|
+
+    2. Cliccare sul pulsante **Clona VM** (prima icona sulla sinistra delle quattro icone presenti);
+
+|
+
+    3. Si entra nella pagina **"Clona VM"**, e in cui occorre inserire il nome scelto per la VM clonata (obbligatoriamente differente dal nome della VM di partenza);
+    
+      .. image:: img/ClonaVM1.png
+
+|
+
+    4. Cliccare sul pulsante **AVANTI**
+
+|
+
+    5. Se si sceglie di mantenere la stessa configurazione di rete della VM di partenza anche nella VM clonata, lasciare selezionato il relativo flag (opzione di default)
+    In caso contrario vai al punto **15**; 
+
+      .. image:: img/ClonaVM2.png
+
+|
+
+    6. Cliccare sul pulsante **AVANTI**
+
+|
+
+    7. Selezionare una chiave di accesso in caso di VM Linux oppure la password in caso di VM Windows;
+
+      .. image:: img/ClonaVM3.png
+
+      .. image:: img/ClonaVM4.png
+
+|
+
+    8. Cliccare sul pulsante **AVANTI**
+
+|
+
+    9. Dalla schermata di riepilogo cliccare **AVANTI** per lanciare la creazione della VM
+
+      .. image:: img/ClonaVM10.png
+
+|
+
+|
+
+   15. Se si sceglie di cambiare la configurazione di rete della VM clonata, occorre deselezionare il relativo flag; 
+
+      .. image:: img/ClonaVM5.png
+
+|
+
+    16. Impostare la nuova configurazione di rete per la VM clonata:
+
+       .. image:: img/ClonaVM6.png 
+
+|
+
+    17. Cliccare sul pulsante **AVANTI**
+
+|
+
+    18. Selezionare una chiave di accesso in caso di VM Linux oppure la password in caso di VM Windows;
+
+      .. image:: img/ClonaVM3.png
+
+      .. image:: img/ClonaVM4.png
+
+|
+
+    19. Cliccare sul pulsante **AVANTI**
+
+|
+    
+    20. Dalla schermata di riepilogo cliccare **AVANTI** per lanciare la creazione della VM
+
+|    .. image:: img/ClonaVM10.png
