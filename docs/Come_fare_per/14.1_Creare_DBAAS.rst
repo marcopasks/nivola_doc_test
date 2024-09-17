@@ -33,7 +33,16 @@ Al termine cliccare sul pulsante **AVANTI**
 
 |
 
-3. Scegliere la dimensione delle risorse da assegnare all'istanza di DBaaS
+3. Nel caso che una distribuzione software sia disponibile su entrambi gli hypervisor (vsphere e openstack) compariranno due icone con lo stesso nome:
+passandoci sopra col mouse sarà possibile ottenere l'informazione relativa all'hypervisor
+
+.. image:: img/14.1_hypervDbaas1.png
+
+.. image:: img/14.1_hypervDbaas2.png
+
+|
+
+4. Scegliere la dimensione delle risorse da assegnare all'istanza di DBaaS
 mettendo un flag nella *check box* relativa ed infine
 cliccare sul pulsante **AVANTI**
 
@@ -41,7 +50,7 @@ cliccare sul pulsante **AVANTI**
 
 |
 
-4. Nella sezione **SPAZIO DI ARCHIVIAZIONE**,
+5. Nella sezione **SPAZIO DI ARCHIVIAZIONE**,
 indicare la **dimensione** selezionandolo da uno dei valori proposti
 nella combo box
 
@@ -49,7 +58,7 @@ nella combo box
 
 |
 
-5. Nella stessa sezione, attraverso la combo box,
+6. Nella stessa sezione, attraverso la combo box,
 precisare la **tipologia** dello spazio di archviazione
 e cliccare sul pulsante **AVANTI**
 
@@ -57,7 +66,7 @@ e cliccare sul pulsante **AVANTI**
 
 |
 
-6. utilizzare il flag sotto la label **Crittografia** nel caso occorra abilitare la crittografia del Dbaas
+7. utilizzare il flag sotto la label **Crittografia** nel caso occorra abilitare la crittografia del Dbaas
 (nella mail che viene inviata automaticamente al Supporto Nivola è presente l'informazione relativa all'eventuale richiesta 
 di crittografia, in quanto tale configurazione verrà effettuata in un secondo momento).
 Al termine cliccare sul pulsante **AVANTI**
@@ -66,14 +75,14 @@ Al termine cliccare sul pulsante **AVANTI**
 
 |
 
-7. Assegnare al sistema la **porta di ascolto** convalidando il valore di default. 
+8. Assegnare al sistema la **porta di ascolto** convalidando il valore di default. 
 Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_porta.png
 
 |
 
-8. Attraverso le combo box, presenti nella pagina, specificare:
+9. Attraverso le combo box, presenti nella pagina, specificare:
 **Region, Availability Zone, Subnet e Gruppo di sicurezza**.
 Al termine cliccare sul pulsante **AVANTI**
 
@@ -81,7 +90,7 @@ Al termine cliccare sul pulsante **AVANTI**
 
 |
 
-9. Nella schermata del Riepilogo, dopo aver controllato i parametri inseriti nel processo 
+10. Nella schermata del Riepilogo, dopo aver controllato i parametri inseriti nel processo 
 di creazione, cliccare su **CONFERMA E CREA L’ISTANZA** per materializzare virtualmente la nuova istanza.
 
 .. image:: img/DBAAS_finale.png

@@ -2,6 +2,33 @@
 **Release Notes**
 =================
 
+.. _release-4.10.0:
+
+Service Portal 4.10.0 (2024-09-17)
+---------------------------------
+
+•  calcolo degli SLA sui ticket
+
+•  report costi per VM e DBAAS
+
+•  risoluzione bug fix minori
+
+
+
+
+
+
+.. _release-4.9.1:
+
+Service Portal 4.9.1 (2024-08-30)
+---------------------------------
+
+•  risoluzione bug fix minori
+
+
+
+
+
 .. _release-4.9.0:
 
 Service Portal 4.9.0 (2024-08-06)
