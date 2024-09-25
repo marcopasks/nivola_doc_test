@@ -2,6 +2,17 @@
 **Release Notes**
 =================
 
+.. _release-4.10.1:
+
+Service Portal 4.10.1 (2024-09-24)
+---------------------------------
+
+•  Associazione/Rimozione tag associabili a Codice Prodotto per Account, VM, Volumi, DBAAS
+
+
+
+
+
 .. _release-4.10.0:
 
 Service Portal 4.10.0 (2024-09-17)
@@ -12,7 +23,6 @@ Service Portal 4.10.0 (2024-09-17)
 •  report costi per VM e DBAAS
 
 •  risoluzione bug fix minori
-
 
 
 
