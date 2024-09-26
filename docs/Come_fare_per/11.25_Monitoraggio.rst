@@ -23,7 +23,7 @@ A seguito di un clic su **VM** (sotto **Strumenti -> Monitoraggio**), il sistema
 
        .. image:: img/11.25_ListaVM_MonintorDX.png
 
-Per effettuare l'abilitazione procedere in questo modo:
+Per effettuare l'abilitazione procedere nel seguente modo:
 
         1.Fare clic sul pulsante **+**
 

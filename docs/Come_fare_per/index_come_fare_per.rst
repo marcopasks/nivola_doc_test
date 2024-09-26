@@ -19,6 +19,7 @@ ad interagire con la piattaforma, attraverso il portale.
    10.0_PTE.rst
    11.0_Lavorare_con_VM.rst
    14.0_Lavorare_con_DBAAS.rst
+   24.5_Lavorare_con_TAG.rst
    15.0_Lavorare_con_i_servizi_di_rete.rst
    16.0_Lavorare_con_STAAS.rst
    17.0_Lavorare_con_VOLUMI.rst
