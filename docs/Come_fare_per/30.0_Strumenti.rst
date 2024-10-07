@@ -6,5 +6,6 @@
    :maxdepth: 2
 
    30.1_Cronologia.rst
+   30.3_Monitoraggio_infrastrutturale_Grafana.rst
    30.5_Monitoraggio_applicativo_APM.rst
    30.7_Servizio_di_Log_Management.rst
