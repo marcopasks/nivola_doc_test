@@ -2,12 +2,42 @@
 **Release Notes**
 =================
 
-.. _release-4.10.1:
+.. _release-4.11.0:
 
-Service Portal 4.10.1 (2024-09-24)
+Service Portal 4.11.0 (2024-10-30)
 ---------------------------------
 
-•  Associazione/Rimozione tag associabili a Codice Prodotto per Account, VM, Volumi, DBAAS
+•  creazione servizi progetto GSC
+
+•  possibilità scelta opzioni (nome/schema(utente/password)/estensione) durante creazione dbaas postgres
+
+•  visibilità hypervisor dbaas da pannello di gestione
+
+•  risoluzione bug fix minore su clonazione vm
+
+
+
+
+
+.. _release-4.10.3:
+
+Service Portal 4.10.1 (2024-10-10)
+---------------------------------
+
+•  visibilità hypervisor dbaas in creazione
+
+•  risoluzione bug fix minore sul tickenting
+
+
+
+
+
+.. _release-4.10.2:
+
+Service Portal 4.10.2 (2024-09-30)
+---------------------------------
+
+•  risoluzione bug fix minore sul tickenting
 
 
 
