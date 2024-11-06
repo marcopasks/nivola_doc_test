@@ -43,6 +43,17 @@ Service Portal 4.10.2 (2024-09-30)
 
 
 
+.. _release-4.10.1:
+
+Service Portal 4.10.1 (2024-09-24)
+---------------------------------
+
+•  tags per codice prodotto (versione beta)
+
+
+
+
+
 .. _release-4.10.0:
 
 Service Portal 4.10.0 (2024-09-17)
