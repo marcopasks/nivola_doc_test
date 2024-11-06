@@ -21,7 +21,7 @@ Service Portal 4.11.0 (2024-10-30)
 
 .. _release-4.10.3:
 
-Service Portal 4.10.1 (2024-10-10)
+Service Portal 4.10.3 (2024-10-10)
 ---------------------------------
 
 •  visibilità hypervisor dbaas in creazione
