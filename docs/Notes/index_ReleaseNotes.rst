@@ -9,7 +9,7 @@ Service Portal 4.11.0 (2024-10-30)
 
 •  creazione servizi progetto GSC
 
-•  possibilità scelta opzioni (nome/schema(utente/password/estensione) durante creazione dbaas postgres
+•  possibilità scelta opzioni (nome/schema/utente/password/estensione) durante creazione dbaas postgres
 
 •  visibilità hypervisor dbaas da pannello di gestione
 
