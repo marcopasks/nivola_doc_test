@@ -33,6 +33,19 @@ selezionabile dall’ultima combo box in basso. Per proseguire con la creazione 
 
 .. image:: img/11.1_VM_template.png
 
+In caso di creazione di Virtual Machine con Sistema operativo Windows è sempre preferibile creare una Virtual Machine con nome specifico e associabile all'account.
+
+es. Account London: Vm01-London, Vm02-London
+
+la lunghezza massima della Virtual Machine Windows è 15 caratteri.
+
+Causa questa limitazione non viene usato l'acronimo nell'fqdn.
+L'acronimo è univoco per account, quindi anche l'fqdn è univoco.
+
+Senza acronimo nel nome, non si può garantire l'univocità dell'fqdn, e questo non può esistere perché il DNS non saprebbe come risolvere quel nome.
+
+Questa limitazione non è applicata alle macchine con sistema operativo Linux
+
 |
 
 3. Specificare il **Type** della VM, che comprende **CPU, RAM e Disco**. Sfruttare il CheckBox a sinistra di ogni riga esposta sul 
