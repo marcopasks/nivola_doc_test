@@ -2,6 +2,21 @@
 **Release Notes**
 =================
 
+.. _release-4.12.0:
+
+Service Portal 4.12.0 (2024-11-20)
+---------------------------------
+
+•  generazione report per TAG
+
+•  gestione account chiusi
+
+•  risoluzione bug fix minori
+
+
+
+
+
 .. _release-4.11.0:
 
 Service Portal 4.11.0 (2024-10-30)
