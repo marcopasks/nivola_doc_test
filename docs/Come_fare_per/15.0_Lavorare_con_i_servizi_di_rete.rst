@@ -26,3 +26,4 @@ da rete di backend verso il proprio account.
    15.4_DNS.rst
    15.5_WAF.rst
    15.6_LoadBalancer.rst
+   15.8_VPN.rst
