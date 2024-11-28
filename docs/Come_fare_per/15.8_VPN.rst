@@ -1,7 +1,7 @@
 **VPN**
 *******
 
-                                        **GLOSSARIO**
+        **GLOSSARIO**
 
 - **Richiedente**: Amministrazione sottoscrittrice dell’offerta cui il presente documento costituisce allegato/Azienda che fa specifica richiesta del servizio attraverso la sottoscrizione dell’apposito accordo commerciale, che necessita del servizio d’accesso alla rete aziendale denominato “VPN SSL del CSI Piemonte” e/o nell’ambito della fruizione di Nivola, facendone richiesta tramite il proprio Referente master;
 
@@ -117,8 +117,8 @@ Altrimenti premere **FINE**
 
 |
 
-**Guida all’inserimento del codice attivazione per la VPN (a cura dell’Utente del servizio VPN)**
-=================================================================================================
+**Guida all’inserimento del codice attivazione per la VPN** (*a cura dell’Utente del servizio VPN*)
+===================================================================================================
 
 Per confermare la propria identità è necessario accedere al Nivola Service Portal all’url https://portal.nivolapiemonte.it : verrà mostrata la seguente pagina
 
