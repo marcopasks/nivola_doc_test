@@ -17,6 +17,7 @@ ad interagire con la piattaforma, attraverso il portale.
    08.0_Lavorare_Budget_Alert.rst
    09.0_Forecasting.rst
    10.0_PTE.rst
+   10.5_Allegati.rst
    11.0_Lavorare_con_VM.rst
    14.0_Lavorare_con_DBAAS.rst
    14.7_Lavorare_con_TAG.rst

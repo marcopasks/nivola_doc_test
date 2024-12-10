@@ -75,8 +75,7 @@ provvedere all’inserimento manuale dei dati
 
 |
 
-Se l’utente non è stato trovato negli archivi compariranno anche le opzioni **Crea anche l’accesso al Service Portal** e **Crea l’accesso alla CLI**: 
-se selezionate verranno create le utenze presso i due sistemi
+**Crea anche l’accesso al Service Portal**
 
 .. image:: img/15.8_vpn9.png
 

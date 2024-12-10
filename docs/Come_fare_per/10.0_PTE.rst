@@ -5,10 +5,8 @@
 La PTE, Proposta Tecnico-Economica, è un documento che formalizza l’offerta di servizi Nivola che viene proposta al cliente e che specifica 
 anche l'approvvigionamento di risorse e di servizi da realizzare a cura del Supporto di Nivola. 
 
-La funzione rientra nella sezione **Gestione Account** o **Gestione Divisione** (a seconda se si utilizza il ruolo Master di account oppure
-Master di Division).
-
-La **PTE** è attivabile dalla parte sinistra dello schermo, cliccando sulla label **PTE**
+La funzione rientra nella sezione **Gestione Account**. La **PTE** 
+è attivabile dalla parte sinistra dello schermo, cliccando sulla label **PTE**, sotto **Allegati**.
 
 .. image:: img/10_PTEsx.png
 
