@@ -2,10 +2,27 @@
 **Release Notes**
 =================
 
+.. _release-4.13.0:
+
+Service Portal 4.13.0 (2024-12-10)
+----------------------------------
+
+•  visualizzazione dei documenti di provisioning dell'account da parte dell'utente Master di Account
+
+•  richiesta web di nuove utenze VPN "@fornitori.nivola" con automazione delle operazioni preparatorie
+
+•  start/stop virtual machine da amministratore di backoffice
+
+•  risoluzione bug fix minori
+
+
+
+
+
 .. _release-4.12.0:
 
 Service Portal 4.12.0 (2024-11-20)
----------------------------------
+----------------------------------
 
 •  generazione report per TAG
 
@@ -20,7 +37,7 @@ Service Portal 4.12.0 (2024-11-20)
 .. _release-4.11.0:
 
 Service Portal 4.11.0 (2024-10-30)
----------------------------------
+----------------------------------
 
 •  creazione servizi progetto GSC
 
@@ -37,7 +54,7 @@ Service Portal 4.11.0 (2024-10-30)
 .. _release-4.10.3:
 
 Service Portal 4.10.3 (2024-10-10)
----------------------------------
+----------------------------------
 
 •  visibilità hypervisor dbaas in creazione
 
@@ -50,7 +67,7 @@ Service Portal 4.10.3 (2024-10-10)
 .. _release-4.10.2:
 
 Service Portal 4.10.2 (2024-09-30)
----------------------------------
+----------------------------------
 
 •  risoluzione bug fix minore sul tickenting
 
@@ -61,7 +78,7 @@ Service Portal 4.10.2 (2024-09-30)
 .. _release-4.10.1:
 
 Service Portal 4.10.1 (2024-09-24)
----------------------------------
+----------------------------------
 
 •  tags per codice prodotto (versione beta)
 
@@ -72,7 +89,7 @@ Service Portal 4.10.1 (2024-09-24)
 .. _release-4.10.0:
 
 Service Portal 4.10.0 (2024-09-17)
----------------------------------
+----------------------------------
 
 •  calcolo degli SLA sui ticket
 
