@@ -34,7 +34,7 @@ extensions = [
       'sphinx_rtd_theme' ,
     'sphinx.ext.ifconfig',
      'sphinx.ext.intersphinx',
-      'sphinxcontrib.*',
+      'sphinxcontrib-jquery',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
