@@ -2,6 +2,9 @@
 **Release Notes**
 =================
 
+**Portale**
+***********
+
 .. _release-4.13.0:
 
 Service Portal 4.13.0 (2024-12-10)
@@ -1236,4 +1239,114 @@ Service Portal 1.8.0 (2020-04-10)
 
 *   Bux fixing su alcune informazioni contenute nella home page dell'uente Master di Account (#779)
 
+|
 
+|
+
+**Cloud Management Platform**
+*****************************
+
+.. _release-1.16.8:
+
+CMP Nivola 1.16.8 (2024-11-26)
+------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  configurazione nuovi AWX
+
+
+*Bug fixing*
+
+|
+
+.. _release-1.16.7:
+
+CMP Nivola 1.16.7 (2024-10-03)
+------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  nuovi parametri opzionali ricevuti i fase di creazione di dbaas postgresql
+
+•  aggiunto attributo hypervisor alle risorse stack_v2
+
+
+*Bug fixing*
+
+•  timeout chiamando beehive platform cmp customize run
+
+•  permessi verificati per lista backup job
+
+•  fix alert per triplette org.div.account troppo lunghe
+
+•  cancellazione dei tags prima della cancellazione degli account
+
+|
+
+.. _release-1.16.6:
+
+CMP Nivola 1.16.6 (2024-09-23)
+------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  dbaas: aggiunti campi
+
+•  stack_v2: aggiunti attributi
+
+•  refactoring gestione tag:
+
+        •  refactoring metodo di aggiunta tags
+
+        •  verifica case sensitive dei codici prodotto
+
+        •  verifica codici prodotti in inserimento
+
+        •  vincoli di univocità dei tags 
+
+•  creazione chiavi lunghe 4096 bit
+
+•  type hint
+
+•  validazione dei CIDR di network 
+
+
+*Bug fixing*
+
+•  verifiche delle service definition in creazione dbaas
+
+•  aggiornamento flavour in seguito a cambio flavour dbaas
+
+|
+
+.. _release-1.16.5:
+
+CMP Nivola 1.16.5 (2024-08-07)
+------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  log nel metodo delete rule
+
+•  refactoring delle regole dfw di vsphere
+
+•  verifiche su tipi boolean
+
+•  grafana: supporto a version 11: gestiti errori e warning
+
+•  rivisti alcuni alert relativi alla configurazione monitoraggio
+
+•  messaggio di errore quando l'immagine non esiste nella zona (pod) cercata
+
+
+*Bug fixing*
+
+•  rilascio Ip su vsphere: l'ip non era rilasciarto se l'ext_id del server Vsphere era None o inesistente
+
+•  verifica su tipi boolean
+
+•  flavor in pre-import per vms con più di una vcpu
+
+
+|
