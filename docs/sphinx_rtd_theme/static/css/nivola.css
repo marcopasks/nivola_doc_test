@@ -1,5 +1,6 @@
 @import url(./theme.css);
 .wy-body-for-nav{background: #fff url(../img/bg.jpg) repeat!important;}
+.logo-csi2 {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%;}
 /*.wy-body-for-nav{background: #fff url(../img/Sfondo-vert.png) no-repeat}*/
 .wy-side-nav-search{background-color: #ecf1ed;}
 .wy-side-nav-search>a{color: #212529;}
@@ -25,7 +26,7 @@
 #nivola-footer .footer-info{display: flex;}
 #nivola-footer .footer-banner{flex-grow: 1;}
 #nivola-footer .footer-intro {flex-grow: 1;background-position: top left 15px; padding-top: 45px; padding-left: 0px; }
-#nivola-footer .footer-banner .logo-csi {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%;}
+.logo-csi {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%;}
 
 /*
 #nivola-footer .footer-banner .logo-rp {background-image: url(../img/logo_regionepiemonte_footer.png); }
