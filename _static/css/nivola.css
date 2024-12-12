@@ -25,9 +25,9 @@
 #nivola-footer .footer-banner{flex-grow: 1;}
 #nivola-footer .footer-intro {flex-grow: 1;background-position: top left 15px; padding-top: 45px; padding-left: 0px; }
 
+#nivola-footer .footer-banner .logo-csi {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%;}
 /*
 #nivola-footer .footer-banner .logo-rp {background-image: url(../img/logo_regionepiemonte_footer.png); }
-#nivola-footer .footer-banner .logo-csi {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%;}
 #nivola-footer .footer-banner .logo-rp, #nivola-footer .footer-banner .logo-csi{display: block;width: auto;height: 51px;background-position: center center;background-repeat: no-repeat;background-color: black;}
 
 #nivola-footer .footer-banner .logo-csi{display: block;width: auto;height: 51px;background-position: center center;background-repeat: no-repeat;background-color: transparent;}
