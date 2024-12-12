@@ -53,15 +53,15 @@ def setup(app):
     # Since Sphinx 6, jquery isn't bundled anymore and we need to ensure that
     # the sphinxcontrib-jquery extension is enabled.
     # See: https://dev.readthedocs.io/en/latest/design/sphinx-jquery.html
-    if sphinx_version >= (6, 0, 0):
+    # if sphinx_version >= (6, 0, 0):
         # Documentation of Sphinx guarantees that an extension is added and
         # enabled at most once.
         # See: https://www.sphinx-doc.org/en/master/extdev/appapi.html#sphinx.application.Sphinx.setup_extension
-        app.setup_extension("sphinxcontrib.jquery")
+        # app.setup_extension("sphinxcontrib.jquery")
         # However, we need to call the extension's callback since setup_extension doesn't do it
         # See: https://github.com/sphinx-contrib/jquery/issues/23
-        from sphinxcontrib.jquery import add_js_files as jquery_add_js_files
-        jquery_add_js_files(app, app.config)
+        # from sphinxcontrib.jquery import add_js_files as jquery_add_js_files
+        # jquery_add_js_files(app, app.config)
 
     # Register the theme that can be referenced without adding a theme path
     app.add_html_theme('sphinx_rtd_theme', path.abspath(path.dirname(__file__)))
