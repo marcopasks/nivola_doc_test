@@ -13,12 +13,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-<<<<<<< HEAD
-=======
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join('..', '..', 'src')))
->>>>>>> parent of bd4791b (20241211 - MC: fix ricerca 16)
 
 # -- Project information -----------------------------------------------------
 
