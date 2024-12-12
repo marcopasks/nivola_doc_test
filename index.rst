@@ -16,4 +16,5 @@
     docs/Future/future_Release.rst
     docs/Roadmap/index_Roadmap.rst
 
-.. image::docs/sphinx_rtd_theme/static/img/Logo_CSI_negativo.png
+.. image::
+    docs/sphinx_rtd_theme/static/img/Logo_CSI_negativo.png
