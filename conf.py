@@ -78,8 +78,7 @@ pygments_style = None
 # a list of builtin themes.
 #
 
-extensions = [ 'sphinx_rtd_theme',
-      'sphinxcontrib.jquery', ]
+extensions = [ 'sphinx_rtd_theme' ]
 
 html_theme = 'sphinx_rtd_theme'
 
