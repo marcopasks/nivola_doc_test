@@ -1,6 +1,6 @@
 @import url(./theme.css);
 .wy-body-for-nav{background: #fff url(../img/bg.jpg) repeat!important;}
-.logo-csi2 {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%;}
+.logo-csi2 {background-image: url(../img/Logo_CSI_negativo.png); background-size: 70% 70%; display: none;}
 /*.wy-body-for-nav{background: #fff url(../img/Sfondo-vert.png) no-repeat}*/
 .wy-side-nav-search{background-color: #ecf1ed;}
 .wy-side-nav-search>a{color: #212529;}
