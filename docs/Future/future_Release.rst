@@ -14,6 +14,6 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione* 
+*Versione* probabile 1.17
 
-*Data prevista*: 
+*Data prevista*: gennaio 2025

@@ -1255,9 +1255,6 @@ CMP Nivola 1.16.8 (2024-11-26)
 
 •  configurazione nuovi AWX
 
-
-*Bug fixing*
-
 |
 
 .. _release-1.16.7:
@@ -1348,5 +1345,96 @@ CMP Nivola 1.16.5 (2024-08-07)
 
 •  flavor in pre-import per vms con più di una vcpu
 
+|
+
+.. _release-1.16.4:
+
+CMP Nivola 1.16.4 (2024-07-09)
+------------------------------
+
+*Bug fixing*
+
+•  l'endpoint PUT su podto1 ora restituisce correttamente l'uuid dell'account invece di null nel json di risposta.
 
 |
+
+.. _release-1.16.3:
+
+CMP Nivola 1.16.3 (2024-06-27)
+------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  metadati più descrittivi per i db engine
+
+•  DNS TTL da 30 secondi a 3600 secondi
+
+
+*Bug fixing*
+
+•  fix cambio flavor per dbaas
+
+|
+
+.. _release-1.16.2:
+
+CMP Nivola 1.16.2 (2024-06-13)
+------------------------------
+
+*Bug fixing*
+
+•  correzione problema in creazione bastione per il private cloud
+
+|
+
+.. _release-1.16.1:
+
+CMP Nivola 1.16.1 (2024-06-04)
+------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  attivazione monitoraggio su vm con IP pubblico
+
+•  possibilità di creare servizi con nomi di lunghezza fino a 45 caratteri (feature non applicabile a servizi Windows)
+
+•  gestione separata della assegnazione e dell’aggiornamento delle capability di un account
+
+•  nuovi campi dell’account (type, pods, modello gestione) e controllo capability se associabile ad account 
+
+•  CLI
+
+        •  exit code secondo standard unix
+
+        •  Estensione del comando “beehive3 mgmt database check” per openstack
+
+
+*Bug fixing*
+
+•  eliminato bug che permetteva di creare o modificare dbaas  indipendentemente dalla configurazione dell’account ( definizioni assegnate)
+
+|
+
+.. _release-1.16.0:
+
+CMP Nivola 1.16.0 (2024-03-26)
+------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  clonazione vm
+
+•  supporto a Debian 11
+
+•  utenti CMP con Codice Fiscale + bonifica (NSP-2966)
+
+•  private Cloud solo su vSphere (per pod 5, 6)
+
+
+*Bug fixing*
+
+•  corretti bug minori sul load balancer
+
+•  DBaaS: impostato vSphere come hypervisor di default
+
+•  corretto problema in creazione su OracleLinux85
