@@ -20,7 +20,8 @@ L’utente *Richiedente* dopo aver effettuato il login sul Service Portal deve s
 
 |
 
-2)	Andare nel menù laterale e seguire il percorso **Servizi -> Reti e Sicurezza -> Richiesta attivazione VPN**
+2)	Andare nel menù laterale e seguire il percorso **Servizi -> Reti e Sicurezza -> VPN SSL**
+
 Comparirà la seguente interfaccia:
 
 .. image:: img/15.8_vpn2.png
