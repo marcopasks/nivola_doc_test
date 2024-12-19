@@ -1246,6 +1246,17 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+.. _release-1.16.8.1:
+
+CMP Nivola 1.16.8.1 - patch (2024-12-19)
+----------------------------------------
+
+*Bug fixing*
+
+•  regressione nell'allestimento di servizi CPAAS e DBAAS la cui creazione si appoggia su automazioni ansible con risorse da reperire su repository interni
+
+|
+
 .. _release-1.16.8:
 
 CMP Nivola 1.16.8 (2024-11-26)
