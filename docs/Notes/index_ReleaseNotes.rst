@@ -1253,7 +1253,12 @@ CMP Nivola 1.16.8 (2024-11-26)
 
 *Nuove funzionalità/Improvement*
 
-•  configurazione nuovi AWX
+•  orchestrazione nuovi AWX
+
+
+*Bug fixing*
+
+•  fix impostazioni http_proxy su distribuzione RedhatLinux9
 
 |
 
@@ -1334,8 +1339,6 @@ CMP Nivola 1.16.5 (2024-08-07)
 
 •  rivisti alcuni alert relativi alla configurazione monitoraggio
 
-•  messaggio di errore quando l'immagine non esiste nella zona (pod) cercata
-
 
 *Bug fixing*
 
@@ -1344,6 +1347,8 @@ CMP Nivola 1.16.5 (2024-08-07)
 •  verifica su tipi boolean
 
 •  flavor in pre-import per vms con più di una vcpu
+
+•  messaggio di errore quando l'immagine non esiste nella zona (pod) cercata
 
 |
 
