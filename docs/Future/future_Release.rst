@@ -5,9 +5,9 @@
 **Portale**
 ***********
 
-*Versione 4.13.1
+*Versione 4.13.1*
 
-*Data prevista gennaio 2025
+*Data prevista gennaio 2025*
 
 *Nuove funzionalità/Improvement*
 
@@ -27,9 +27,9 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.16.9
+*Versione 1.16.9*
 
-*Data prevista 2025-01-09
+*Data prevista 2025-01-09*
 
 *Nuove funzionalità/Improvement*
 
