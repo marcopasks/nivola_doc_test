@@ -7,11 +7,11 @@
 
 *Versione 4.13.1*
 
-*Data prevista gennaio 2025*
+*Data prevista: gennaio 2025*
 
 *Nuove funzionalità/Improvement*
 
-•  automatismo che mette in Manutenzione il Servie Portal se i database e/o la CMP sono indisponibili
+•  automatismo che mette in manutenzione il Service Portal se i database e/o la CMP sono indisponibili
 
 
 *Bug fixing*
@@ -29,7 +29,7 @@
 
 *Versione 1.16.9*
 
-*Data prevista 2025-01-09*
+*Data prevista: 2025-01-09*
 
 *Nuove funzionalità/Improvement*
 
