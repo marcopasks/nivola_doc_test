@@ -5,19 +5,31 @@
 **Portale**
 ***********
 
-*Versione* 
+*Versione 4.13.1
 
-*Data prevista*: 
+*Data prevista*: gennaio 2025
+
+*Nuove funzionalità/Improvement*
+
+•  automatismo che mette in Manutenzione il Servie Portal se i database e/o la CMP sono indisponibili
+
+
+*Bug fixing*
+
+•  adeguamento messaggio conferma attivazione loggin VM
+
+•  controllo stato CHIUSO account in Ricalcolo Costi
+
+•  adeguamento Anagrafica Prodott
 
 |
 
 **Cloud Management Platform**
 *****************************
 
-.. _release-1.16.9:
+*Versione 1.16.9
 
-CMP Nivola 1.16.9 (2025-01-09)
-------------------------------
+*Data prevista*: (2025-01-09
 
 *Nuove funzionalità/Improvement*
 
