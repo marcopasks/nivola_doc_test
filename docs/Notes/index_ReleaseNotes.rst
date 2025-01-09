@@ -1258,7 +1258,7 @@ CMP Nivola 1.16.9 - patch (2025-01-09)
 
 *Bug fixing*
 
-•  adeguamento messaggio conferma attivazione loggin VM
+•  adeguamento messaggio conferma attivazione logging VM
 
 •  controllo stato CHIUSO account in Ricalcolo Costi
 
