@@ -1246,6 +1246,26 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+.. _release-1.16.9:
+
+CMP Nivola 1.16.9 - patch (2025-01-09)
+----------------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  automatismo che mette in manutenzione il Service Portal se i database e/o la CMP sono indisponibili
+
+
+*Bug fixing*
+
+•  adeguamento messaggio conferma attivazione loggin VM
+
+•  controllo stato CHIUSO account in Ricalcolo Costi
+
+•  adeguamento Anagrafica Prodotti
+
+|
+
 .. _release-1.16.8.1:
 
 CMP Nivola 1.16.8.1 - patch (2024-12-19)
