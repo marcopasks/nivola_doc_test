@@ -5,6 +5,25 @@
 **Portale**
 ***********
 
+.. _release-4.13.1:
+
+Service Portal 4.13.1 (2025-01-16)
+----------------------------------
+
+•  automatismo che mette in manutenzione il Service Portal se i database e/o la CMP sono indisponibili
+
+•  adeguamento messaggio conferma attivazione logging VM
+
+•  adeguamento Anagrafica Prodotti
+
+•  controllo stato CHIUSO account in Ricalcolo Costi
+
+•  bug fixing scarico CSV 
+
+
+
+
+
 .. _release-4.13.0:
 
 Service Portal 4.13.0 (2024-12-10)
