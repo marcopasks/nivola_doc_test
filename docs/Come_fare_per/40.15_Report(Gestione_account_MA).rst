@@ -12,6 +12,8 @@ sotto la label **Gestione account**
 
 .. image:: img/40.15_ReporSX.png
 
+|
+
 A seguito del clic su **Report**, il sistema presenterà nella
 parte destra del video il report dei consumi mensili nel formato **Pdf** e **CSV**, cliccando l'icona relativa
 
