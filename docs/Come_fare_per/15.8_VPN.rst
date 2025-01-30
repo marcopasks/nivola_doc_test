@@ -119,7 +119,7 @@ Altrimenti premere **FINE**
 
 **- avvisare l'utente che riceverà un codice via sms sul numero a lui registrato**
 
-**- fornire all'utente il link per l'attivazione**
+**- fornire all’utente il link per l’attivazione e quello della presente documentazionee**
 
 **Tale codice deve essere utilizzato per l'attivazione del servizio seguendo le indicazioni presenti nel link.**
 **Tale link è anche presente nella sezione sottostante (la parte che recita "Hai ricevuto un SMS e/o email contenente il codice di attivazione del servizio VPN: clicca QUI" in caratteri rossi su sfondo giallo).**
