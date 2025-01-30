@@ -1,0 +1,39 @@
+
+**Report**
+**********
+
+|
+
+**Master di Account**
+
+E' possibile scaricare il **report** dei consumi mensili nel formato  **Pdf** e **CSV**, cliccando l'icona relativa
+
+.. image:: img/Consumi_Report.png
+
+|
+
+Il file **Pdf Sintesi** e il file **CSV Sintesi** riportano mensilmente i costi di ciascun servizio istanziato, riferito alla singola componente
+
+.. image:: img/40.1PDFsintesi.png
+.. image:: img/40.1CSVsintesi.png
+
+|
+
+Nei file **Pdf Dettaglio** e **File CSV Dettaglio** invece è indicato giornalmente il consumo dei servizi per ogni suo elemento
+
+.. image:: img/40.1PDFdettaglio.png
+.. image:: img/40.1CSVdettaglio.png
+
+|
+
+Quando presente, la colonna **Rendiconto per servizio** riporta il report mensile dei costi e consumi per **ISTANZA di SERVIZIO** (cioè per singola VM e DBAAS)
+
+.. image:: img/40.1RendServizio1.png
+.. image:: img/40.1RendServizio2.png
+
+|
+
+Quando presente, il tab in alto in azzurro **In questa sezione è possibile generare i report per tag e per il mese indicati** 
+permette di filtrare i report, oltre che per periodo, anche per gli eventuali Tag che sono stati associati alle VM, Dbaas e Volumi
+
+.. image:: img/40.15ReportTag.png

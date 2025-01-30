@@ -22,44 +22,6 @@ dei servizi acquistati e istanziati nell'account.
 
 |
 
-E' possibile scaricare il report dei consumi mensili nel formato  **Pdf** e **CSV**, cliccando l'icona relativa
-
-.. image:: img/Consumi_Report.png
-
-|
-
-Il file **Pdf Sintesi** e il file **CSV Sintesi** riportano mensilmente i costi di ciascun servizio istanziato, riferito alla singola componente
-
-.. image:: img/40.1PDFsintesi.png
-.. image:: img/40.1CSVsintesi.png
-
-|
-
-Nei file **Pdf Dettaglio** e **File CSV Dettaglio** invece è indicato giornalmente il consumo dei servizi per ogni suo elemento
-
-.. image:: img/40.1PDFdettaglio.png
-.. image:: img/40.1CSVdettaglio.png
-
-|
-
-Quando presente, la colonna **Rendiconto per servizio** riporta il report mensile dei costi e consumi per **ISTANZA di SERVIZIO** (cioè per singola VM e DBAAS)
-
-.. image:: img/40.1RendServizio1.png
-.. image:: img/40.1RendServizio2.png
-
-|
-
-Il **Listino** è visibile attraverso il menu posto alla
-sinistra dello schermo. Cliccando sulla label **Listino**
-sotto la label **Gestione account**
-
-.. image:: img/Listino_innesco2.png
-
-Il sistema presenterà nella parte destra del video il **Listino applicato all'Account**:
-
-.. image:: img/40.0_ListinoDx.png
- 
-|
 
 **Master di Division**
 
