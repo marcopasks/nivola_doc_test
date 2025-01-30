@@ -6,7 +6,14 @@
 
 **Master di Account**
 
-E' possibile scaricare il **report** dei consumi mensili nel formato  **Pdf** e **CSV**, cliccando l'icona relativa
+I **Report** sono visibili attraverso il menu posto alla
+sinistra dello schermo. Cliccando sulla label **Report**
+sotto la label **Gestione account**
+
+.. image:: img/40.15_ReporSX.png
+
+A seguito del clic su **Report**, il sistema presenterà nella
+parte destra del video il report dei consumi mensili nel formato **Pdf** e **CSV**, cliccando l'icona relativa
 
 .. image:: img/Consumi_Report.png
 
