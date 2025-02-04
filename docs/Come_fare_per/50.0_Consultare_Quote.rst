@@ -1,17 +1,16 @@
-.. _Consultare_Quote:
 
 **Consultare Quote allocate e utilizzate dai servizi**
 *******************************************************
 
-Le quote destinate ai servizi e la loro occupazione, sono consultabili cliccando la label **Quote servizi**,
-sotto la label **Amministrazione**
+Le **Quote servizi** sono visibili attraverso il menu posto alla
+sinistra dello schermo, cliccando sulla label **Quote servizi** 
+sotto la label **Gestione account**
 
 .. image:: img/Quote_Innesco.png
 
 A seguito del clic su  **Quote servizi**, il sistema presenterà nella
-parte destra del video le quote allocate per ciascun servizio, dei limiti, del valore e della percentuale utilizzata al momento.
-Il sistema consente di vedere, sfruttando la "Checkbox", le quote nel contesto di ogni singolo servizio.  
+parte destra del video le quote allocate per ciascun servizio (limite/valore/utilizzo) 
+suddivise per tipologia (vm/dbaas/staas/logging/monitoring)
 
 .. image:: img/Quote.png
-
- 
+    

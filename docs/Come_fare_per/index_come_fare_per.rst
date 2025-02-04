@@ -18,20 +18,21 @@ ad interagire con la piattaforma, attraverso il portale.
    09.0_Forecasting.rst
    10.0_PTE.rst
    10.5_Allegati.rst
+   10.7_Anagrafica_Prodotti(Gestione_account_MA).rst
+   10.8_Servizi_Gestione_Abilitati.rst
    11.0_Lavorare_con_VM.rst
    14.0_Lavorare_con_DBAAS.rst
    14.7_Lavorare_con_TAG.rst
    15.0_Lavorare_con_i_servizi_di_rete.rst
    16.0_Lavorare_con_STAAS.rst
    17.0_Lavorare_con_VOLUMI.rst
-   17.8_SAAS.rst
    17.8.1_Ticket_SAAS.rst
    18.1_Comunicare_con_internet.rst
    18.2_VPN.rst
    20.0_Gestione_password_esterni.rst
    30.0_Strumenti.rst
    31.0_Richiedere_vulnerability_assessment.rst
-   31.5_Listino_applicatoAccount.rst
+   31.5_Listino_applicato_Account.rst
    32.0_Attivare_servizio_broker_applicativo_Desktop_aaS.rst
    33.0_Attivare_cifratura_dati.rst
    34.0_Procedure_ausilio_migrazione.rst

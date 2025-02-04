@@ -1,0 +1,14 @@
+
+**Anagrafica Prodotti (master di account)**
+===========================================
+
+L'**Anagrafica prodotto** è visibile attraverso il menu posto alla
+sinistra dello schermo. Cliccando sulla label **Anagrafica prodotto**
+sotto la label **Gestione account**
+
+.. image:: img/10.7_AnaProdSX.png
+
+A seguito del clic su **Anagrafica prodotto**, il sistema permetterà di verificare nella
+parte destra del video l'eventuale presenza di codice-prodotto (associati dall'Amministratore di Backoffice all'account) 
+
+.. image:: img/10.7_AnaProdDX.png

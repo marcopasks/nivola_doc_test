@@ -1,0 +1,18 @@
+
+**Servizi di gestione abilitati**
+=================================
+
+I **Servizi di gestione abilitati** sono visibili attraverso il menu posto alla
+sinistra dello schermo. Cliccando sulla label **Servizi di gestione**
+sotto la label **Gestione account**
+
+.. image:: img/10.8_ServiziGAsx.png
+
+|
+
+A seguito del clic su **Servizi di gestione**, il sistema presenterà nella
+parte destra i Servizi di gestione abilitati attualmente abilitati per l'account 
+(con relativa data di inizio e fine, e con i relativi valori)
+
+.. image:: img/10.8_ServiziGAdx.png
+    
