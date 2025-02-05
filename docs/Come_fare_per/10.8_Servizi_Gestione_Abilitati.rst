@@ -3,7 +3,7 @@
 =================================
 
 I **Servizi di gestione abilitati** sono visibili attraverso il menu posto alla
-sinistra dello schermo. Cliccando sulla label **Servizi di gestione**
+sinistra dello schermo, cliccando sulla label **Servizi di gestione**
 sotto la label **Gestione account**
 
 .. image:: img/10.8_ServiziGAsx.png

@@ -7,7 +7,7 @@
 **Master di Account**
 
 I **Costi e Consumi** sono visibili attraverso il menu posto alla
-sinistra dello schermo. Cliccando sulla label **Costi Consumi**
+sinistra dello schermo, cliccando sulla label **Costi Consumi**
 sotto la label **Gestione account**
 
 .. image:: img/CostiConsumi_innesco2.png
@@ -26,7 +26,7 @@ dei servizi acquistati e istanziati nell'account.
 **Master di Division**
 
 I **Costi e Consumi** sono visibili attraverso il menu posto alla
-sinistra dello schermo. Cliccando sulla label **Costi Consumi**
+sinistra dello schermo, cliccando sulla label **Costi Consumi**
 sotto la label **Gestione Divisione**
 
 .. image:: img/CostiConsumi_innesco2div.png

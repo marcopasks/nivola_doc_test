@@ -3,7 +3,7 @@
 ===========================================
 
 L'**Anagrafica prodotto** è visibile attraverso il menu posto alla
-sinistra dello schermo. Cliccando sulla label **Anagrafica prodotto**
+sinistra dello schermo, cliccando sulla label **Anagrafica prodotto**
 sotto la label **Gestione account**
 
 .. image:: img/10.7_AnaProdSX.png
