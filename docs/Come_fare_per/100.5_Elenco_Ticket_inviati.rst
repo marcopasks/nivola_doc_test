@@ -1,13 +1,13 @@
 
 **Elenco Ticket inviati**
 ==========================
-La funzione rientra nel **servizio assistenza**. La lista dei **Tickets inviati** è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **Tickets inviati** sotto **Assistenza**:
+La funzione rientra nel **servizio assistenza**. La lista delle **Richieste inviate** è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Richieste inviate** sotto **Assistenza**:
 
 .. image:: img/100.5_Elenco_Ticket_inviatiSX.png
 
 
-A seguito di un clic su **Tickets inviati**, il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**:
+A seguito di un clic su **Richieste inviate**, il sistema popolerà la parte destra del video con l'elenco dei **Lista Richieste inviate**:
 
 .. image:: img/100.5_ElencoTicketDX.png
 

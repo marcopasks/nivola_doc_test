@@ -5,6 +5,20 @@
 **Portale**
 ***********
 
+.. _release-4.14:
+
+Service Portal 4.14 (2025-02-24)
+---------------------------------
+
+•  nuovo sistema di ticketing
+
+•  chat per richiesta supporto
+
+•  bug fixing
+
+
+
+
 .. _release-4.13.1:
 
 Service Portal 4.13.1 (2025-01-16)

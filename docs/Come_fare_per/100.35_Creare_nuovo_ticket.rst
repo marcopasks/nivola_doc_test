@@ -2,51 +2,73 @@
 **Creazione di un nuovo ticket**
 ================================
 
-La funzione rientra nel **servizio assistenza**. Accedere al menù di creazione di un nuovo ticket cliccando sulla label **Nuovo Ticket** 
+La funzione rientra nel servizio **Assistenza**. Accedere al menù di creazione di un nuovo ticket cliccando sulla label **Nuova Richiesta** 
 sotto **Assistenza**:
 
 .. image:: img/100.35_Nuovo_TicketSX.png
 
 
-Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti e livelli di urgenza.
-Selezionando attraverso un click ogni macro argomento, si aprono delle scelte successive che incanalano la scelta in maniera sempre
-più coerente e specifica in relazione al problema o richiesta da segnalare.
+Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti.
+Selezionando attraverso un click una delle seguenti voci:
+
+- **Malfunzionamento**
+
+- **Rallentamento**
+
+- **Nuovo servizio**
+
+- **Modifica servizio**
+
+- **Dismissione servizio**
+
+- **Backup e ripristino**
+
+- **Informazioni**
+
+Verranno visualizzati tutti, oppure una sottoparte, dei seguenti bottoni: 
+(a seconda del macro argomenti selezionato inizialmente)
+
+.. image:: img/100.35_Nuovo_TicketBottoniDX.png
+
+Una volta selezionato il bottone relativo all'argomento interessato, si apre il vero e proprio form di compilazione del ticket:
+
+.. image:: img/100.35_Nuovo_TicketInsDatiiDX.png
+
+Di seguito il dettaglio dei dati di input richiesti:
+
+- Motivo della segnalazione -> oggetto della richiesta
 
 
-Al termine del percorso di scelte guidato si arriva al form attraverso il quale aprire ed inviare il ticket.
+- Descrizione della segnalazione -> descrizione della richiesta
 
-La voce in alto "**Riepilogo delle scelte effettuate**" riporta il riassunto delle scelte effettuate in precedenza:
 
-.. image:: img/100.35_Form_Nuovo_TicketDX.png
+- Urgenza -> il dato potrebbe essere fisso o modificabile. Fisso nel caso che le scelte del tipo di ticket prevedano un unico livello di urgenza. Quando invece modificabile, i valori potranno essere i seguenti (da selezionare attraverso le relativa combo box): BASSA, MEDIA, ALTA, CRITICA.
 
-Inserire:
+- Vuoi essere ricontattato telefonicamente? -> il default è "No". Selezionando "Sì" compariranno le seguenti ulteriori voci:
 
-●	l'oggetto
+        - In caso di contatto telefonico preferisco essere contattato di -> i valori potranno essere i seguenti (da selezionare attraverso le relativa combo box): Indifferente (valore di default), Mattina, Pomeriggio.
+        - Telefono -> inserire il numero di telefono in caso di ricontatto
 
-●	la descrizione
 
-●	uno o più eventuali indirizzi di mail a cui inviare le notifiche relative a tale ticket
+- Scegli file -> da utilizzarsi nel caso si necessario allegare un file alla richiesta (ad esempio screenshot dell'errore)
 
-●	l'eventuale allegato (ad esempio lo screenshot di un eventuale messaggio di errore) attraverso il tasto in basso a  destra "**Scegli file**":
-
-.. image:: img/100.35_FormOK_Nuovo_TicketDX.png
 
 Se si desidera salvare la richiesta come bozza (per poterla inviare in un secondo momento) occorre selezionare il tasto in 
 basso a destra "**SALVA IN BOZZA**". Apparirà il seguente messaggio di conferma:
 
 .. image:: img/richiesta_assistenza_salvata_correttamente_in_bozza.png
 
-E si verrà reindirizzati nel menù "**Bozze**" in cui sarà presente la bozza appena salvata:
+E si verrà reindirizzati nel menù "**Lista Richieste in Bozze** in cui sarà presente la bozza appena salvata:
 
 .. image:: img/100.35_ListaBozze_da_Nuovo_TicketDX.png
 
 
 Se invece si desidera aprire la segnalazione ed inviare subito il ticket occorre selezionare il tasto in basso a destra
-"**INVIA**. Apparirà il seguente messaggio di conferma:
+**INVIA**. Apparirà il seguente messaggio di conferma:
 
 .. image:: img/richiesta_assistenza_inviata_correttamente.png
 
-E si verrà reindirizzati nel menù "**Tickets inviati**" in cui sarà presente il ticket appena creato e inviato:
+E si verrà reindirizzati nel menù "**Richieste inviate**" in cui sarà presente il ticket appena creato e inviato:
 
 .. image:: img/100.35_ListaTicket_da_Nuovo_TicketDX.png
 
