@@ -5,10 +5,20 @@
 **Portale**
 ***********
 
-*Versione 4.14*
+*Versione 4.14.0*
 
-*Data prevista: febbraio 2025*
+*Data prevista: 24 febbraio 2025*
 
+*Nuove funzionalità/Improvement*
+
+•  nuovo sistema di ticketing
+
+•  chat per richiesta supporto
+
+
+*Bug fixing*
+
+•  bugfix e miglioramenti
 
 |
 
