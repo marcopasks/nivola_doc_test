@@ -20,7 +20,7 @@
 
 *Versione 1.17.0*
 
-*Data prevista: marzo 2025*
+*Data prevista: 27 febbraio 2025*
 
 *Nuove funzionalità/Improvement*
 
