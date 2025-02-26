@@ -1,14 +1,14 @@
 
-**Cercare, visualizzare e inviare bozza**
+**Cercare, visualizzare e inviare bozze**
 =========================================
 
-La funzione rientra nel **servizio assistenza**. Accedere alla lista delle bozze cliccando sulla label **Bozze** 
+La funzione rientra nel servizio **Assistenza**. Accedere alla lista delle bozze cliccando sulla label **Bozze** 
 sotto **Assistenza**:
 
 .. image:: img/100.25_Elenco_BozzeSX.png
 
 
-Il sistema popolerà la parte destra del video con l'elenco delle **Bozze**:
+Il sistema popolerà la parte destra del video con l'elenco la **Lista Richieste in Bozze**:
 
 .. image:: img/100.25_ElencoBozzeDX.png
 
@@ -21,19 +21,25 @@ con le bozze che soddisfano il criterio di selezione;
 
 .. image:: img/100.25_RicercaStringaBozzeDX.png
 
+|
+
 2. Individuare la bozza dalla lista, mettendo una spunta a fianco del nome;
 
 .. image:: img/100.25_RicercaStringaBozzeOkDX.png
+
+!
     
-3. Usare il pulsante **Visualizza dettagli Ticket**;
+3. Usare il pulsante **Aggiorna richiesta**;
 
-.. image:: img/100.5_iconaDettagliTicket.png
+.. image:: img/100.25_AggiornaRichiesta.png
 
-4. Verranno visualizzate le informazioni della bozza, contenute nel tab **RICHIESTA**;
+!
+
+4. Verranno visualizzate le informazioni della bozza;
     
-.. image:: img/100.25_DettagliBozza.png
+.. image:: img/100.5_DettagliTicketTag1.png
 
-E' possibile integrare e/o modificare l'oggetto e la descrizione;
+E' possibile integrare e/o modificare le informazioni presenti;
 
 Utilizzando il tasto "**SALVA IN BOZZA**" è possibile salvare le modifiche: comparirà il seguente messaggio di conferma;
 

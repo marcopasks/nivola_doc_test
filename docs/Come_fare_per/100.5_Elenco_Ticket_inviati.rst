@@ -1,16 +1,18 @@
 
-**Elenco Ticket inviati**
-==========================
-La funzione rientra nel **servizio assistenza**. La lista delle **Richieste inviate** è attivabile dalla parte
+**Lista Richieste inviate**
+===========================
+La funzione rientra nel servizio **Assistenza**. La lista delle **Richieste inviate** è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **Richieste inviate** sotto **Assistenza**:
 
 .. image:: img/100.5_Elenco_Ticket_inviatiSX.png
 
+|
 
-A seguito di un clic su **Richieste inviate**, il sistema popolerà la parte destra del video con l'elenco dei **Lista Richieste inviate**:
+A seguito di un clic su **Richieste inviate**, il sistema popolerà la parte destra del video con la **Lista Richieste inviate**:
 
 .. image:: img/100.5_ElencoTicketDX.png
 
+|
 
 In caso di primo utilizzo della funzionalità la lista risulterà vuota, e in basso comparirà il messaggio "Non ci sono Richieste presenti":
 

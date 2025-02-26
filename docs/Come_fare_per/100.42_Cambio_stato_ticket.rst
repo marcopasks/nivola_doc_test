@@ -1,12 +1,12 @@
 
-**Cambio di stato del ticket**
-==============================
+**Cambio di stato oppure Chiusura del ticket**
+==============================================
 
-La ricezione di una mail, simile alla seguente, con oggetto "**La segnalazione INC00000xxxxxxx e' ora in stato (nuovo stato)**"
+La ricezione di una mail, simile alla seguente, con oggetto "**Aggiornamento stato 2025-IM.... Account ....**"
 
 .. image:: img/100.45_Mail_ticket_nuovo_stato.png
 
-indica che il gruppo che aveva in carico il ticket ha modificato lo stato della richiesta.
+indica che il gruppo che aveva in carico il ticket ha modificato lo stato oppure ha chiuso la richiesta.
 
 Gli stati previsti sono i seguenti:
 
@@ -22,8 +22,10 @@ Gli stati previsti sono i seguenti:
 
 **ANNULLATO**
 
-E' possibile cercare tale richiesta utilizzando il numero del ticket **INC00000xxxxxxx** come chiave di ricerca da inserire sotto 
-la label «Ricerca» all'interno della lista dei **Tickets inviati**:
+|
+
+E' possibile cercare tale richiesta utilizzando il numero del ticket **2025xxxxxxx** come chiave di ricerca da inserire sotto 
+la label **Ricerca** all'interno della **Lista Richieste Inviate**:
 
 .. image:: img/100.45_RicercaStringaTicketDX.png
 
@@ -35,6 +37,8 @@ Usare il pulsante **Visualizza dettagli Ticket**:
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-Verranno visualizzate le informazioni del ticket, contenute nel tab **RICHIESTA** e se necessario **NOTE AGGIUNTIVE**.
+|
+
+Verranno visualizzate le informazioni del ticket:
 
 .. image:: img/100.42_DettagliTicketTag1.png

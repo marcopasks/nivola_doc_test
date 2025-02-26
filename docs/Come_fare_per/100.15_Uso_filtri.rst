@@ -5,15 +5,18 @@
 **Master di Account**
 *********************
 
-La funzione rientra nel **servizio assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Tickets inviati** 
+La funzione rientra nel servizio **Assistenza**. Accedere alla lista dei tickets inviati cliccando sulla label **Richieste inviate** 
 sotto **Assistenza**:
 
 .. image:: img/100.5_Elenco_Ticket_inviatiSX.png
 
+|
 
-Il sistema popolerà la parte destra del video con l'elenco dei **Tickets inviati**:
+Il sistema popolerà la parte destra del video con la **Lista Richieste Inviate**:
 
 .. image:: img/100.5_ElencoTicketDX.png
+
+|
 
 Cliccare sul simbolo in alto a destra la cui descrizione passandoci sopra col mouse è **Mostra filtri**
 
@@ -32,6 +35,8 @@ Per modificare tali valori cliccare sulla freccia a destra in corrispondenza del
 .. image:: img/100.15_Filtro1freccia.png
 
 .. image:: img/100.15_Filtro1lista.png
+
+|
 
 E' possibile effettuare una ricerca per **cognome** dell'utente che ha aperto il ticket attraverso la prima voce **Inviata da..(cerca per cognome)**
 

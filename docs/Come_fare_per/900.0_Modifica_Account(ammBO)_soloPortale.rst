@@ -40,7 +40,7 @@ Da questo tab è possibile visualizzare e modificare (attraverso i tasti "+" e d
 .. _Utenti:
 
 **Utenti**
-===========
+==========
 
 Da questo tab è possibile:
 
@@ -127,7 +127,7 @@ Da questo tab è possibile visualizzare l’eventuale presenza di codice-prodott
 .. _Forecast e Budget:
 
 **Forecast e Budget**
-============
+=====================
 
 La sezione del forecasting consente di simulare una previsione di andamento dei propri consumi in base 
 ai costi già registrati (funzionalità legata al ricalcolo dei costi).

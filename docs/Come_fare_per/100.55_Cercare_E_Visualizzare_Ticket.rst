@@ -8,6 +8,7 @@ sinistra dello schermo, sotto **Assistenza**:
 
 .. image:: img/100.50_Elenco_Tickets_apertiSX.png
 
+|
 
 A seguito di un clic su **Tickets aperti**, il sistema popolerà la parte destra del video con l'elenco dei **Tickets aperti**:
 
@@ -18,24 +19,21 @@ E' possibile fare ricerche su tutti i ticket precedentemente aperti da qualsiasi
 La ricerca è eseguita tramite una stringa inserita dall’operatore.
 Per eseguire una ricerca è necessario procedere in questo modo:
 
-1. Inserire la stringa da usare come chiave di ricerca sotto la label «Ricerca»: il sistema automaticamente popolerà lo schermo 
+1. Inserire la stringa da usare come chiave di ricerca sotto la label **Ricerca**: il sistema automaticamente popolerà lo schermo 
 con i ticket che soddisfano il criterio di selezione;
 
 .. image:: img/100.55_RicercaStringaTicketDX.png
-
 
 2. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
 
 .. image:: img/100.55_RicercaStringaTicketOkDX.png
     
-3. Usare il pulsante **Visualizza dettagli Ticket**;
+3. Usare il pulsante **Visualizza i dettagli della richiesta**;
 
 .. image:: img/100.5_iconaDettagliTicket.png
 
-4. Verranno visualizzati le informazioni del ticket, contenute nel tab **RICHIESTA**;
+|
+
+4. Verranno visualizzati le informazioni del ticket;
     
 .. image:: img/100.5_DettagliTicketTag1.png
-
-5. Eventuali informazioni aggiunte al ticket successivamente alla sua creazione sono presenti nel tag **NOTE AGGIUNTIVE**;
-
-.. image:: img/100.5_DettagliTicketTag2.png

@@ -10,4 +10,4 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
    100.50_Tickets aperti.rst
    100.55_Cercare_E_Visualizzare_Ticket.rst
    100.57_Uso_filtriAB.rst
-   100.60_Richiesta_integrazione_informazioni.rst
+   
