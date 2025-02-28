@@ -4,13 +4,13 @@
 
     1. :ref:`Anagrafica Account`
     2. :ref:`Listini e Costi`
-    3. :ref:`Utenti`    
+    3. :ref:`Utenti2`
     4. :ref:`Capabilities`
-    5. :ref:`Servizi di Gestione Abilitati`
-    6. :ref:`Allegati`
-    7. :ref:`WBS`
+    5. :ref:`Servizi di Gestione Abilitati2`
+    6. :ref:`Allegati2`
+    7. :ref:`WBS2`
     8. :ref:`Ricalcola Costi`
-    9. :ref:`Anagrafica Prodotti`
+    9. :ref:`Anagrafica Prodotti2`
     10. :ref:`Forecast e Budget`
 
 |
@@ -37,7 +37,7 @@ Da questo tab è possibile visualizzare e modificare (attraverso i tasti "+" e d
 
 |
 
-.. _Utenti:
+.. _Utenti2:
 
 **Utenti**
 ==========
@@ -67,7 +67,7 @@ Da questo tab è possibile abilitare le Capabilities dell'account, attraverso i 
 
 |
 
-.. _Servizi di Gestione Abilitati:
+.. _Servizi di Gestione Abilitati2:
 
 **Servizi di Gestione Abilitati**
 =================================
@@ -78,7 +78,7 @@ Da questo tab è possibile visualizzare e aggiungere (attraverso il tasto "+") t
 
 |
 
-.. _Allegati:
+.. _Allegati2:
 
 **Allegati**
 ============
@@ -89,7 +89,7 @@ Da questo tab è possibile visualizzare ed aggiungere allegati associati all’a
 
 |
 
-.. _WBS:
+.. _WBS2:
 
 **WBS**
 =======
@@ -113,7 +113,7 @@ Da questo tab è possibile ricalcolare i costi dell'account: è sufficiente impo
 
 |
 
-.. _Anagrafica Prodotti:
+.. _Anagrafica Prodotti2:
 
 **Anagrafica Prodotti**
 =======================

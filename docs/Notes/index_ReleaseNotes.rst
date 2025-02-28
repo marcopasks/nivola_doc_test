@@ -1279,6 +1279,70 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+.. _release-1.17.0:
+
+CMP Nivola 1.17.0 - patch (2025-02-27)
+----------------------------------------
+
+Nuove funzionalità/Improvement 
+
+- Nuova gestione STAAS basata sui nuovi AWX e Ansible Netapp Collection 
+
+- Aggiunta dettagli alle chiavi e ai nodi SSH nella gestione SSH 
+
+- Il componente Resource espone le API solo per chiamate interne o per utenti con privilegi amministrativi 
+
+- Le capability gestiscono la data in cui sono state applicate in modo che sia possibile verificare se la capability è cambiata dopo che è stata assegnata/applicata ad un account 
+
+- Modificate alcune tabelle per gestire attributi aggiuntivi 
+
+- Aggiunte funzionalità per abilitare in ambienti di sviluppo la profilazione dei processi Celery dei tasks asincroni, e dei processi uwsgi di esposizione API 
+
+- Riscritte le API interne di crittografia per limitare le dipendenze e facilitare le build 
+
+- Nuove logiche di gestione delle chiavi e key SSH e obbligatorietà delle chiavi su Linux 
+
+- Nuova configurazione di AWX e nuove logiche che permettono l'uso di AWX nuovi e vecchi per sito 
+
+- Ottimizzazioni di alcuni parametri per la creazione di DBAAS 
+
+
+Modifiche 
+
+- Riviste ampie sezioni di codice, aggiungendo commenti e type hints per miglior documentazione e maggior navigabilità 
+
+
+Bug fixing 
+
+- Alcuni comportamenti relativi a campi recentemente introdotti nella gestione degli utenti 
+
+- Revisione commenti e riferimenti per la pubblicazione del codice 
+
+- Comportamento della clonazione di macchine cross siti su Openstack 
+
+- Alcuni timeout non dovuti 
+
+- Invio di audit log da piattaforme di sviluppo 
+
+- Molti schema OpenApi che non corrispondevano alla effettiva risposta dei metodi 
+
+- Alcune caratteristiche della configurazione dei DBAAS 
+
+- Refactoring della configurazione dei server vSphere 
+
+- Molti piccoli difetti 
+
+
+Rimosse 
+
+- Rimosse diverse dipendenze da librerie crittografiche 
+
+- Dati non usati nelle configurazione dei servizi 
+
+- Codice obsoleto o non usato 
+
+|
+
 .. _release-1.16.9:
 
 CMP Nivola 1.16.9 - patch (2025-01-09)
