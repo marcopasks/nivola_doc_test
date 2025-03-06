@@ -1279,6 +1279,28 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+.. _release-1.17.1:
+
+CMP Nivola 1.17.1 - patch (2025-03-06)
+--------------------------------------
+
+*Nuove funzionalità/Improvement*
+
+- Gestione cifratura volumi nuovo servizio STAAS
+
+- Irrobustita la cancellazione delle regole dei security group su VMware NSX
+
+
+*Bug fixing*
+
+- Ripristino creazione vm con chiavi SSH di lunghezza 2048 bit
+
+- Corretto problema generazione swagger in view di business nuovo servizio STAAS
+
+- Fix minori
+
+|
+
 .. _release-1.17.0:
 
 CMP Nivola 1.17.0 - patch (2025-02-27)
