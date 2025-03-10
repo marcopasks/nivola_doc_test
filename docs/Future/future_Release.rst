@@ -5,9 +5,9 @@
 **Portale**
 ***********
 
-*Versione 4.15*
+*Versione 4.x*
 
-*Data prevista: marzo 2025*
+*Data prevista*
 
 |
 

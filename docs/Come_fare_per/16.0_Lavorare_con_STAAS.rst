@@ -1,16 +1,24 @@
 
-**Lavorare con lo Storage as Service**
-**************************************
+**Lavorare con lo Storage as a Service**
+****************************************
 
 Il servizio per la creazione e gestione di spazio disco è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **Shares** sotto la funzione **Storage**.
 
-
-.. image:: img/STAAS_collegarsi.png
-
-
-.. toctree::
-   :maxdepth: 2
-
-   16.1_Creare_STAAS.rst
-   16.2_Gestire_STAAS.rst
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_2.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_3.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_4.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_5.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_6.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_7.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_8.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_9.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_10.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_11.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_12.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_13.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_14.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_15.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_16.png
+ .. image:: img/tmp/1741630854205-9e6e9e37-d281-4021-8b52-1b1bbf48172f_17.png
+   
