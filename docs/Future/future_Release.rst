@@ -14,6 +14,12 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.x*
+*Versione 1.17.2*
 
-*Data prevista*
+*Data prevista: 13 marzo 2025*
+
+*Bug fixing*
+
+•  Correzione bug nuovo servizio STAAS
+
+•  Correzione bug DBAAS PostgreSQL
