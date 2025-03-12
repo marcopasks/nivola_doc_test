@@ -5,9 +5,9 @@
 **Portale**
 ***********
 
-.. _release-4.15:
+.. _release-4.15.0:
 
-Service Portal 4.15 (2025-03-10)
+Service Portal 4.15.0 (2025-03-10)
 ---------------------------------
 
 •  implementazione sul Portale della Nuova gestione STAAS (basata sui nuovi AWX e Ansible Netapp Collection e gestione cifratura volumi)
@@ -21,9 +21,9 @@ Service Portal 4.15 (2025-03-10)
 
 
 
-.. _release-4.14:
+.. _release-4.14.0:
 
-Service Portal 4.14 (2025-02-24)
+Service Portal 4.14.0 (2025-02-24)
 ---------------------------------
 
 •  nuovo sistema di ticketing
