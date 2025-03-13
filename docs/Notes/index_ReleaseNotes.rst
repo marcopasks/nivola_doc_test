@@ -1295,7 +1295,16 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
-.. _release-1.17.1:
+CMP Nivola 1.17.2 - patch (2025-03-13)
+--------------------------------------
+
+*Bug fixing*
+
+- Correzione bug nuovo servizio STAAS
+
+- Correzione bug DBAAS PostgreSQL
+
+|
 
 CMP Nivola 1.17.1 - patch (2025-03-06)
 --------------------------------------
