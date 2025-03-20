@@ -63,14 +63,19 @@ Per disabiliare il **logging** della Virtual Machine, procedere come segue:
     1. Individuare la VM dalla **Lista VM abilitate al servizio di log**, mettendo una spunta a fianco del nome;
 
        .. image:: img/11.30_Disattiva_selezVMdx.png
+    |
 
     2. Cliccare su pulsante in alto a destra **CANCELLA ISTANZA DI LOGGING**
 
         .. image:: img/Pulsante_cancella.png
 
+    |
+
     3. All'interno della finestra **Conferma disattivazione servizio** cliccare sul pulsante **CONFERMA**
 
         .. image:: img/11.30_Disattiva_Servizio.png
+
+    |
 
     4. Appariranno i seguenti messaggi di conferma rispettivamente in alto a destra e in centro allo schermo
 
@@ -78,7 +83,11 @@ Per disabiliare il **logging** della Virtual Machine, procedere come segue:
 
         .. image:: img/11.30_DX_LoggingCentroNO.png
 
+    |
+
     5. Cliccare sul tasto **CHIUDI**
+
+    |
 
     6. la VM non comparirà più in elenco
 
@@ -86,10 +95,10 @@ Per disabiliare il **logging** della Virtual Machine, procedere come segue:
 
 |
 
-**Elastic**
-***********
+**Spaces**
+**********
 
-**Elastic** rende disponibile un motore di ricerca utilizzato per l'analisi e ricerca dei dati di log.
+**LOGWATCH** rende disponibile un motore di ricerca utilizzato per l'analisi e ricerca dei dati di log.
 
 La funzione è attivabile dalla parte sinistra dello schermo dal menù **Strumenti**, cliccando sulla label **Spaces** sotto **Log Management**.
 
@@ -109,10 +118,8 @@ Selezionando uno space (utilizzando l'apposita casella alla sinistra del nome) �
 
 (apparirà un ulteriore messaggio per confermare l'operazione richiesta)
 
-Per accedere al portale **Elastic**, occorre cliccare sulla relativa voce in blu **DISCOVER HOME**
+Per accedere al portale **LOGWATCH**, occorre cliccare sulla relativa voce in blu **DISCOVER HOME**
 
 .. image:: img/11.30_SpacesDH.png
 
-si verrà automaticamente indirizzati a questa pagina, in cui è necessario autenticarsi per accedere
-
-.. image:: img/11.30_SpacesDH2.png
+si verrà automaticamente indirizzati a questa pagina di autenticazione
