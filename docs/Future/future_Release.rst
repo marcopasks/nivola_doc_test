@@ -5,22 +5,9 @@
 **Portale**
 ***********
 
-*Versione 4.15.1*
+*Versione 4.1x*
 
-*Data prevista: marzo 2025*
-
-*Nuove funzionalità/Improvement*
-
-•  miglioramenti gestione metriche Listini
-
-•  aggiornamento informazioni condizioni generali
-
-
-*Bug fixing*
-
-•  bug fixing scarico CSV 
-
-•  bug fixing minore, legato a share vecchio tipo
+*Data prevista*
 
 |
 
