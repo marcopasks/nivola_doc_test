@@ -134,4 +134,4 @@ Per accedere al portale **Grafana**, occorre cliccare sulla relativa voce in blu
 
 .. image:: img/11.25_DashboardGrafDX.png
 
-si verrà automaticamente indirizzati a questa pagina di autenticazione
+si verrà automaticamente indirizzati alla relativa pagina di autenticazione.
