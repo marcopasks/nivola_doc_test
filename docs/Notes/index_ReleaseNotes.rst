@@ -1310,6 +1310,25 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.3 - patch (2025-03-27)
+--------------------------------------
+
+*Bug fixing*
+
+- Bugfix creazione volumi Openstack in tenant admin
+
+- Read identity providers first from configuration table, if present, and then, from values in uwsgi.yaml file, if present
+
+- Bugfix ssh get_nodes_and_groups macchine con utente ubuntu ora sono incluse
+
+- Add common ssh connection params to inventory export
+
+- STAAS metrics don't raise exception even on error
+
+- STAAS: removed invalid RPO 15m
+
+|
+
 CMP Nivola 1.17.2 - patch (2025-03-13)
 --------------------------------------
 
