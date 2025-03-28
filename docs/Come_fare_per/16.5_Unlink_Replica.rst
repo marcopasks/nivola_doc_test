@@ -1,0 +1,21 @@
+.. _Unlink_Replica:
+
+**Unlink di una Replica**
+*************************
+
+Selezionando uno Share Replica viene reso disponibile il bottone **Scollega Istanza**.
+Questo Bottone permette di rendere indipendente la Replica dal suo Volume di origine.
+
+.. image:: img/16.5_Unlink_Replica1.png
+
+|
+
+Viene aperta una finestra dove viene chiesto un nuovo nome, che esattamente come nella creazione share, non può iniziare per **dr-**.
+
+.. image:: img/16.5_Unlink_Replica2.png
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuto scollegamento della replica e conseguente creazione di uno share indipendente
+
+.. image:: img/16.5_Unlink_Replica3.png

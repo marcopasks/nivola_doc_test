@@ -63,6 +63,7 @@ Per disabiliare il **logging** della Virtual Machine, procedere come segue:
     1. Individuare la VM dalla **Lista VM abilitate al servizio di log**, mettendo una spunta a fianco del nome;
 
        .. image:: img/11.30_Disattiva_selezVMdx.png
+    
     |
 
     2. Cliccare su pulsante in alto a destra **CANCELLA ISTANZA DI LOGGING**

@@ -1,0 +1,47 @@
+.. _Elenco_Share_Dettaglio:
+
+**Elenco Shares**
+*****************
+
+La funzione rientra nel servizio **Compute**. L'**Elenco Shares** è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Shares** sotto **Storage**
+
+.. image:: img/16.1_ElencoShareSX.png
+
+|
+
+A seguito di un clic su **Shares**, il sistema popolerà la
+parte destra del video con l'**Elenco Shares**.
+
+.. image:: img/16.1_ElencoShareDX.png
+
+|
+
+**Dettaglio Share**
+*******************
+
+Selezionando lo share desiderato e cliccando sul pulsante **Pannello gestione Share** sarà possibile consultare il dettaglio
+
+.. image:: img/16.1_ShareDettaglio1.png
+
+|
+
+Verrà visualizzata la seguente pagina
+
+.. image:: img/16.1_ShareDettaglio2.png
+
+Nella finestra di dettaglio sono stati aggiunti i parametri: **RPO**, **Crittografia** e **Site**.
+
+Rimane possibile modificare la dimensione del Volume e aggiungere/eliminare Tag.
+
+|
+
+Inoltre, nella tabella del **Mount Target** è stato aggiunto uno stato che potrà essere **Online**, **Offline** o **Not Available** nel caso in cui il Volume non abbia un Mount Target. 
+
+.. image:: img/16.1_ShareDettaglio3.png
+
+|
+
+Questo stato è modificabile tramite il bottone **Modifica lo Stato**
+
+.. image:: img/16.1_ShareDettaglio4.png

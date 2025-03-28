@@ -1,0 +1,22 @@
+.. _Replica_Share.rst:
+
+**Replica Share**
+*****************
+
+Selezionando lo share che si desidera replicare e cliccando sul bottone **Replica Istanza** si aprirà la finestra dedicata.
+
+.. image:: img/16.3_Replica_Share1.png
+
+|
+
+Occorrerà scegliere **RPO**, **Region** e **Availability Zone**. L’Availability Zone deve essere diversa da quella dello share di origine
+
+.. image:: img/16.3_Replica_Share2.png
+
+Lo share replica avrà lo stesso nome dello share di origine con l’aggiunta del prefisso dr- e del postfisso sigla dell’Availability Zone (es. **dr-<nome>-to2**)
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta creazione
+
+.. image:: img/16.3_Replica_Share3.png

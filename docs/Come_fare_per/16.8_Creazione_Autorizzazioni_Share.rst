@@ -1,0 +1,28 @@
+.. _Creazione_Autorizzazioni_Share:
+
+**Creazione Autorizzazioni Share**
+**********************************
+
+Se si desidera aggiungere un’autorizzazione occorre entrare nei **Dettagli** dello share, selezionarlo e cliccare sul bottone **Aggiungi autorizzazione**
+
+.. image:: img/16.8_Creazione_Autorizzazioni_Share1.png
+
+|
+
+Verrà aperta la finestra di creazione dove bisognerà inserire il livello di accesso, il tipo di accesso e se si vuole un accesso SuperUser.
+
+Il tipo di accesso può essere di tipo **id**, dove si dovrà selezionare una Virtual Machine che deve essere attestata sullo stesso site dello Share
+
+.. image:: img/16.8_Creazione_Autorizzazioni_Share2.png
+
+|
+
+Oppure potrà essere di tipo **CIDR**, dove occorrerà inserire l’indirizzo IP desiderato
+
+.. image:: img/16.8_Creazione_Autorizzazioni_Share3.png
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione
+
+.. image:: img/16.8_Creazione_Autorizzazioni_Share4.png

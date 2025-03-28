@@ -1,0 +1,63 @@
+.. _Creazione_nuovo_Share:
+
+**Creazione Nuovo Share**
+*************************
+
+Per la creazione di uno share, procedere come segue:
+
+Fare clic sul pulsante in alto a destra **Crea Nuovo Share**
+
+.. image:: img/16.2_Creazione_Nuovo_Share1.png
+
+|
+
+**Tab Generali**
+
+È stato aggiunto un controllo sul nome che non potrà iniziare per **dr-**, prefisso dedicato alle repliche.
+Come tipo di protocollo è possibile scegliere tra **NFS** o **CIFS**.
+
+.. image:: img/16.2_Creazione_Nuovo_Share2.png
+
+|
+
+**Tab Spazio di Archiviazione**
+
+Si dovrà selezionare la dimensione e scegliere se lo share sarà criptato o no
+
+.. image:: img/16.2_Creazione_Nuovo_Share3.png
+
+|
+
+**Tab Network**
+
+Si dovrà selezionare l’Availability Zone. È stata eliminata la selezione della Subnet
+
+.. image:: img/16.2_Creazione_Nuovo_Share4.png
+
+|
+
+**Tab Compliance**
+
+E' presente una checkbox preselezionata. Se l’utente andrà a deselezionarla verrà mostrato un warning con un messaggio e un pulsante di 
+conferma lettura che permetterà all’utente di proseguire la creazione senza accettare le norme della compliance
+
+.. image:: img/16.2_Creazione_Nuovo_Share6.png
+
+Se invece la checkbox rimane selezionata viene mostrata una drop-down list dove occorrerà scegliere l’RPO
+
+.. image:: img/16.2_Creazione_Nuovo_Share5.png
+
+|
+
+**Tab riepilogo**
+
+Controllare che le configurazioni dello share da creare siano corrette e confermare premendo sul 
+pulsante **AVANTI** sulla destra. Il portale procederà alla creazione dello share utilizzando i parametri inseriti
+
+.. image:: img/16.2_Creazione_Nuovo_Share7.png
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta creazione
+
+.. image:: img/16.2_Creazione_Nuovo_Share8.png

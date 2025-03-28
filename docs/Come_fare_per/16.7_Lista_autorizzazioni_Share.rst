@@ -1,0 +1,10 @@
+.. _Lista_autorizzazioni_Share:
+
+**Lista autorizzazioni Share**
+******************************
+
+Selezionare lo share e cliccare sul pulsante **Autorizzazioni**: sarà possibile visualizzare l’elenco delle autorizzazioni dello share selezionato
+
+.. image:: img/16.7_Lista_autorizzazioni_Share1.png
+
+.. image:: img/16.7_Lista_autorizzazioni_Share2.png

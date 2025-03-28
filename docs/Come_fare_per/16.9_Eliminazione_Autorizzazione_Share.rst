@@ -1,0 +1,14 @@
+.. _Eliminazione_Autorizzazione_Share:
+
+**Eliminazione Autorizzazione Share**
+*************************************
+
+Se si desidera eliminare un’autorizzazione occorre entrare nei **Dettagli** dello share, selezionarlo e cliccare sul bottone **Elimina Elemento**
+
+.. image:: img/16.9_Eliminazione_Autorizzazione_Share1.png
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione
+
+.. image:: img/16.9_Eliminazione_Autorizzazione_Share2.png
