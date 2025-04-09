@@ -7,7 +7,7 @@
 
 *Versione 4.16*
 
-*Data prevista: 9 aprile 2025*
+*Data prevista: lunedì 14 aprile 2025*
 
 *Nuove funzionalità/Improvement*
 
