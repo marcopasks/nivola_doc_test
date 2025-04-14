@@ -9,7 +9,7 @@ sotto **Assistenza**:
 
 
 Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti.
-Selezionando attraverso un click una delle seguenti voci:
+Selezionare una delle seguenti voci a seconda del tipo di problema/necessità:
 
 - **Malfunzionamento**
 
@@ -25,32 +25,75 @@ Selezionando attraverso un click una delle seguenti voci:
 
 - **Informazioni**
 
-Verranno visualizzati tutti, oppure una sottoparte, dei seguenti bottoni: 
-(a seconda del macro argomenti selezionato inizialmente)
+|
+
+Nel caso si selezionino le prime due voci, **Malfunzionamento** e **Rallentamento**, comparirà la seguente schermata di scelta:
+
+.. image:: img/100.35_Nuovo_Ticket2.png
+
+|
+
+Selezionando la prima opzione **CHATTA CON UNO SPECIALISTA** verrà aperta la chat
+
+.. image:: img/100.35_Chat1.png
+
+con cui sarà possibile interagire con l'operatore.
+
+|
+
+In caso l'apertura della chat avvenga fuori dagli orari di servizio, sarà possibile specificare di essere ricontattati indicando telefono e/o mail
+
+.. image:: img/100.35_Chat2.png
+
+.. image:: img/100.35_Chat3.png
+
+.. image:: img/100.35_Chat4.png
+
+Cliccando sui tre puntini in alto a sinistra è possibile scaricare la conversazione avvenuta, quindi cliccare su **Salva** in basso a destra
+
+.. image:: img/100.35_Chat5.png
+
+.. image:: img/100.35_Chat6.png
+
+Infine per chiudere la chat, cliccare sul pulsante in basso **Fine Chat**
+
+.. image:: img/100.35_Chat7.png
+
+L'icona relativa alla chat sarà comunque sempre presente sulla destra e la funzionalità richiamabile in qualsiasi momento cliccandoci sopra
+(ricordiamo solamente in relazione alle voci **Malfunzionamento** e **Rallentamento**)
+
+.. image:: img/100.35_Chat8.png
+
+|
+
+Selezionando invece la seconda opzione **CONTINUA CON LA COMPILAZIONE** oppure nel caso si sia selezonato inizialmente una delle altre voci 
+(Nuovo servizio, Modifica servizio, Dismissione servizio, Backup e ripristino, Informazioni) verranno visualizzati tutti, oppure una sottoparte, 
+dei seguenti bottoni:
 
 .. image:: img/100.35_Nuovo_TicketBottoniDX.png
+
+|
 
 Una volta selezionato il bottone relativo all'argomento interessato, si apre il vero e proprio form di compilazione del ticket:
 
 .. image:: img/100.35_Nuovo_TicketInsDatiiDX.png
 
+|
+
 Di seguito il dettaglio dei dati di input richiesti:
 
-- Motivo della segnalazione -> oggetto della richiesta
+•  Motivo della segnalazione -> *oggetto della richiesta*
+ 
+•  Descrizione della segnalazione -> *descrizione della richiesta*
+ 
+•  Urgenza -> *il dato potrebbe essere fisso o modificabile. Fisso nel caso che le scelte del tipo di ticket prevedano un unico livello di urgenza. Quando invece modificabile, i valori potranno essere i seguenti (da selezionare attraverso le relativa combo box): BASSA, MEDIA, ALTA, CRITICA.*
 
+•  Vuoi essere ricontattato telefonicamente? -> *il default è "No". Selezionando "Sì" compariranno le seguenti ulteriori voci:*
 
-- Descrizione della segnalazione -> descrizione della richiesta
-
-
-- Urgenza -> il dato potrebbe essere fisso o modificabile. Fisso nel caso che le scelte del tipo di ticket prevedano un unico livello di urgenza. Quando invece modificabile, i valori potranno essere i seguenti (da selezionare attraverso le relativa combo box): BASSA, MEDIA, ALTA, CRITICA.
-
-- Vuoi essere ricontattato telefonicamente? -> il default è "No". Selezionando "Sì" compariranno le seguenti ulteriori voci:
-
-        - In caso di contatto telefonico preferisco essere contattato di -> i valori potranno essere i seguenti (da selezionare attraverso le relativa combo box): Indifferente (valore di default), Mattina, Pomeriggio.
-        - Telefono -> inserire il numero di telefono in caso di ricontatto
-
-
-- Scegli file -> da utilizzarsi nel caso si necessario allegare un file alla richiesta (ad esempio screenshot dell'errore)
+        - *In caso di contatto telefonico preferisco essere contattato di -> i valori potranno essere i seguenti (da selezionare attraverso le relativa combo box): Indifferente (valore di default), Mattina, Pomeriggio.*
+        - *Telefono -> inserire il numero di telefono in caso di ricontatto*
+ 
+•  Scegli file -> *da utilizzarsi nel caso si necessario allegare un file alla richiesta (ad esempio screenshot dell'errore)*
 
 
 Se si desidera salvare la richiesta come bozza (per poterla inviare in un secondo momento) occorre selezionare il tasto in 
@@ -71,6 +114,8 @@ Se invece si desidera aprire la segnalazione ed inviare subito il ticket occorre
 E si verrà reindirizzati nel menù "**Richieste inviate**" in cui sarà presente il ticket appena creato e inviato:
 
 .. image:: img/100.35_ListaTicket_da_Nuovo_TicketDX.png
+
+|
 
 In automatico si riceverà sulla propria casella di posta elettronica una mail a conferma dell'avvenuta apertura del ticket:
 

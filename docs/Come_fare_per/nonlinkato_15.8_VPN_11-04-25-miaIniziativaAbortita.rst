@@ -167,67 +167,72 @@ Bisognerà aprire un ticket selezionando la voce “VPN” includendo i dati ric
 
 |
 
-**Modifica richiesta (novità per i master di account)**
-=======================================================
+**Modifica di una richiesta VPN precedentemente inserita**
+==========================================================
 
-A partire dall'elenco delle richieste effettuate su un account:
+Dopo aver effettuato il login sul Service Portal seguire i seguenti passaggi:
 
-.. image:: img/15.8_vpn37.png
+1)	Effettuare la selezione dal menù in alto del profilo di Master sull’account sul quale l’ *Utente* del servizio VPN SSL dovrà operare:
 
-é ora possibile modificare una richiesta premendo il pulsante:
+.. image:: img/15.8_vpn1.png
 
-.. image:: img/15.8_vpn30.png
+2)	Andare nel menù laterale e seguire il percorso **Servizi -> Reti e Sicurezza -> VPN SSL**
 
-.. image:: img/15.8_vpn38.png
+Comparirà la seguente interfaccia:
 
-|
+.. image:: img/15.8_vpn2.png
 
-**Reinvio codice (novità per i master di account)**
-===================================================
+Comparirà l'elenco delle richieste già effettuate con i relativi stati di avanzamento.
 
-Sempre a partire dall'elenco delle richieste effettuate su un account:
+Seleziona una richiesta in stato INVIATA oppure SCADUTA.
 
-.. image:: img/15.8_vpn37.png
+.. image:: img/15.8_vpn20.png
 
-é ora possibile reinviare il codice di attivazione via SMS premendo il pulsante:
+3) Premere il pulsante di modifica
 
-.. image:: img/15.8_vpn31.png
+.. image:: img/15.8_vpn21.png
 
-.. image:: img/15.8_vpn39.png
+4) Compariranno i dati inseriti in precedenza.
 
-**Per entrambe le opzioni IL REQUISITO E' CHE LA RICHIESTA SIA:**
+.. image:: img/15.8_vpn8.png
 
-- **IN STATO INVIATA: cioè sia stata compilata e salvata ma l'utente destinatario non abbia ancora inserito il codice**
+.. image:: img/15.8_vpn10.png
 
-- **IN STATO SCADUTA: cioè il codice di attivazione è scaduto**
-
-**ANCHE LA MODIFICA DI UNA RICHIESTA COMPORTA L'EMISSIONE DI UN NUOVO CODICE DI ATTIVAZIONE.**
-
-**Tutte le modifiche vengono registrate in uno storico.**
-
-.. image:: img/15.8_vpn32.png
+5) Una volta modificati tutti i dati premere "VERIFICA E PROSEGUI", e quindi alla successiva schermata riassuntiva premere "CONFERMA"
 
 |
 
-**Nuovo cruscotto per il monitoraggio delle richieste VPN destinato agli Amministratori di backoffice (con possibilità di rilanciare un task in errore e scaricare la scheda di provisioning in PDF)**
-======================================================================================================================================================================================================
+**Richiesta reinvio codice di attivazione senza entrare in modifica**
+=====================================================================
 
-Dalla voce di menù laterale Amministrazione compare la nuova voce **Gestione Richieste VPN**
+Dopo aver effettuato il login sul Service Portal seguire i seguenti passaggi:
 
-.. image:: img/15.8_vpn36.png
+1)	Effettuare la selezione dal menù in alto del profilo di Master sull’account sul quale l’ *Utente* del servizio VPN SSL dovrà operare:
 
-Si accede all'elenco delle richieste inizialmente filtrate per **ERRORE** e **SCADUTE** (il codice SMS è stato inviato oltre 7 giorni fa)
+.. image:: img/15.8_vpn1.png
 
-E' possibile selezionarne una in ERRORE e premere seguente pulsante per riavviare il processo di creazione:
+2)	Andare nel menù laterale e seguire il percorso **Servizi -> Reti e Sicurezza -> VPN SSL**
 
-.. image:: img/15.8_vpn33.png
+Comparirà la seguente interfaccia:
 
-|
+.. image:: img/15.8_vpn2.png
 
-Premendo il seguente pulsante è possibile scaricare la scheda di provisioning in PDF (per qualsiasi stato in cui si trovi la richiesta):
+Comparirà l'elenco delle richieste già effettuate con i relativi stati di avanzamento.
 
-.. image:: img/15.8_vpn34.png
+Seleziona una richiesta in stato INVIATA oppure SCADUTA.
 
-.. image:: img/15.8_vpn35.png
+.. image:: img/15.8_vpn20.png
 
-**Si ricorda che la detta procedura si occupa esclusivamente dell'automazione del profilo 2000_nivola_management: qualsiasi altro profilo va aggiunto come previsto dalle procedure manuali già in essere.**
+3) Premere il pulsante di modifica "Reinvia codice di attivazione"
+
+.. image:: img/15.8_vpn22.png
+
+4) Comparirà la seguente schermata
+
+.. image:: img/15.8_vpn23.png
+
+il nuovo codice SMS sostituisce il precedente
+
+
+RIPRENDERE DA TEST 04 – L’utente destinatario accede al service portal e vede la notifica di richiesta in sospeso. OK
+E GUARDRE MAIL ANDREA E FARE UN MISTO

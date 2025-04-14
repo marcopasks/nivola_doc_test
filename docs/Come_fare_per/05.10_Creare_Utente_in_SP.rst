@@ -43,7 +43,13 @@ Di default risulteranno selezionate le due seguenti opzioni:
 
   .. image:: img/05.10_Accessi.png
 
-per permettere l'accesso al Portale Nivola e per permettere di aprire delle segnalazioni (ticket) di implementazione/supporto.
+rispettivamente per permettere:
+
+-  l'accesso al Portale Nivola
+
+- l'apertura delle segnalazioni (ticket) di implementazione/supporto
+
+- la visualizzazione e l'accesso ai report dei costi e dei consumi relativamente al proprio account
 
 
 Se la mail inserita appartiene a un dominio **CSI** automaticamente comparirà anche il campo **Matricola CSI** per permettere all'utente di inserire la propria matricola.

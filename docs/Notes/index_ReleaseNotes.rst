@@ -5,6 +5,25 @@
 **Portale**
 ***********
 
+.. _release-4.16.0:
+
+Service Portal 4.16.0 (2025-04-14)
+----------------------------------
+
+•  introduzione Chat e aggiornamento vista nuovo ticketing
+
+•  introduzione nuovo attributo utente che permette o nega l’accesso alle informazioni di tipo amministrativo relativo all’account/division
+
+•  gestione attributo ultimo accesso utente
+
+•  report CSV consumi per istanza di servizio
+
+•  aggiornamento flusso creazione VPN
+
+•  aumentata coerenza tasti navigazione e uso colori
+
+|
+
 .. _release-4.15.1:
 
 Service Portal 4.15.1 (2025-03-20)
