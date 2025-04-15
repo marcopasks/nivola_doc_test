@@ -39,15 +39,9 @@ Selezionando la prima opzione **CHATTA CON UNO SPECIALISTA** verrà aperta la ch
 
 con cui sarà possibile interagire con l'operatore.
 
+**Ricordiamo che l'orario di servizo della chat è dalle 9 alle 18, dal lunedì a venerdì. Al di fuori di tali orari il servizio non è attivo, in conseguenza l'apertura della relativa finestra non avverrà.**
+
 |
-
-In caso l'apertura della chat avvenga fuori dagli orari di servizio, sarà possibile specificare di essere ricontattati indicando telefono e/o mail
-
-.. image:: img/100.35_Chat2.png
-
-.. image:: img/100.35_Chat3.png
-
-.. image:: img/100.35_Chat4.png
 
 Cliccando sui tre puntini in alto a sinistra è possibile scaricare la conversazione avvenuta, quindi cliccare su **Salva** in basso a destra
 
