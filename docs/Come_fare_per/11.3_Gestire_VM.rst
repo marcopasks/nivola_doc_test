@@ -9,18 +9,19 @@ cliccare su **VM** per popolare la parte destra del video con l'**Elenco delle V
 
 Le operazioni previste sono le seguenti:
 
-    1. :ref:`Cercare VM`
-    2. :ref:`Stoppare VM`
-    3. :ref:`Accendere VM`    
-    4. :ref:`Riavviare VM`
-    5. :ref:`Clonazione VM`
+    1. :ref:`Cercare VM (master di account)`
+    2. :ref:`Cercare VM (master di division)`
+    3. :ref:`Stoppare VM`
+    4. :ref:`Accendere VM`    
+    5. :ref:`Riavviare VM`
+    6. :ref:`Clonazione VM`
 
 |
 
-.. _Cercare VM:
+.. _Cercare VM (master di account):
 
-**Cercare le Virtual Machine**
-==============================
+**Cercare VM (master di account)**
+==================================
 
 All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create.
 La ricerca è eseguita tramite una stringa inserita dall’operatore.
@@ -28,7 +29,7 @@ Nivola ricerca il set di caratteri nelle colonne dove sono elencate
 le caratteristiche dei server.
 Per eseguire una ricerca è necessario procedere in questo modo:
 
-    1. Inserire la stringa da usare come chiave di ricerca, sotto la label **"Ricerca"**;
+    1. Inserire la stringa da usare come chiave di ricerca sotto la label **"Ricerca"**;
 
        .. image:: img/VM_Elenco.png
 
@@ -38,10 +39,33 @@ Per eseguire una ricerca è necessario procedere in questo modo:
 
 |
 
+.. _Cercare VM (master di division):
+
+**Cercare VM (master di division)**
+===================================
+
+La funzione è attivabile attraverso il ruolo **Master di division**, 
+dalla parte sinistra dello schermo, cliccando sulla label **Ricerca VM**, sotto **Gestione Divisione**.
+
+.. image:: img/11.3_Gestione_VM30.png
+
+Per eseguire una ricerca è necessario procedere in questo modo:
+
+    1. Inserire la stringa da usare come chiave di ricerca sotto la label "Ricerca", quindi cliccare su **CERCA PER NOME**;
+
+       .. image:: img/11.3_Gestione_VM31.png
+
+    2. Il sistema popolerà lo schermo con le VM che soddisfano il criterio di selezione;
+
+      .. image:: img/11.3_Gestione_VM32.png
+
+|
+
 .. _Stoppare VM:
 
 **Stoppare le Virtual Machine**
 ===============================
+
 Per fermare l'attività della Virtual Machine, seguire questi passaggi:
 
     1. Selezionare la VM dall’**Elenco VM**;

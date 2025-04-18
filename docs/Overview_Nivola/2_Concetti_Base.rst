@@ -126,11 +126,14 @@ gestione e supporto Csi Piemonte.
 **Master di Account**: utente che all’interno dell’Account può gestire
 tutte le risorse, sulle quali ha quindi il massimo dei privilegi. Il
 Master di Account può quindi creare/cancellare/modificare le risorse,
-può anche gestire le risorse create da altri utenti nell’account. Il
-Master di Account può visualizzare e accedere ai report dei costi e dei
-consumi relativamente al proprio account. Il master di account può
+può anche gestire le risorse create da altri utenti nell’account. 
+Il master di account può
 registrare nuovi utenti all’interno del proprio account e può
 profilare o revocare utenti già censiti ad accedervi.
+Il Master di Account può visualizzare e accedere ai report dei costi e dei
+consumi relativamente al proprio account (quest'ultima funzionalità 
+può essere abilitata o meno attraverso uno specifico attributo dell'
+utente, opzione aggiornabile in qualsiasi momento).
 
 **Viewer di Account**: utente che all’interno dell’Account può visualizzare
 tutte le risorse, sulle quali non ha però privilegi di modifica/cancellazione.

@@ -88,8 +88,8 @@ Comparirà il seguente messaggio di conferma finale
 
 |
 
-**Report per Tag**
-******************
+**Report per Tag (funzionalità attiva solo per gli account abilitati)**
+***********************************************************************
 
 In questa sezione della guida verrà spiegato come generare i report filtrandoli per Tag e per mese.
 

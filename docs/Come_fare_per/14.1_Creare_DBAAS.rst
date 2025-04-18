@@ -19,7 +19,7 @@ parte destra del video con l'**Elenco Dbaas**
 
 Per creare una **Istanza DBaaS** procedere seguendo i passaggi elencati:
 
-1. Fare clic sul pulsante **"+""**:
+1. Fare clic sul pulsante **+**:
 
 .. image:: img/Add_VM.png
 
@@ -90,7 +90,15 @@ Al termine cliccare sul pulsante **AVANTI**
 
 |
 
-10. Nella schermata del Riepilogo, dopo aver controllato i parametri inseriti nel processo 
+10. Nel caso in cui il database sia di tipo **Postgres** oppure **Oracle** comparirà il seguente tab aggiuntivo di configurazione da compilare:
+
+.. image:: img/14.1_creare_DBAAS21.png
+
+.. image:: img/14.1_creare_DBAAS22.png
+
+|
+
+11. Nella schermata del Riepilogo, dopo aver controllato i parametri inseriti nel processo 
 di creazione, cliccare su **CONFERMA E CREA L’ISTANZA** per materializzare virtualmente la nuova istanza.
 
 .. image:: img/DBAAS_finale.png

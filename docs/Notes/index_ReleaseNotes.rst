@@ -46,8 +46,6 @@ Service Portal 4.15.0 (2025-03-10)
 
 •  implementazione sul Portale della Nuova gestione STAAS (basata sui nuovi AWX e Ansible Netapp Collection e gestione cifratura volumi)
 
-•  implementazione chat all'interno del sistema di ticketing
-
 •  miglioramenti gestione metriche per Listini
 
 •  bug fixing
@@ -144,7 +142,7 @@ Service Portal 4.10.3 (2024-10-10)
 
 •  visibilità hypervisor dbaas in creazione
 
-•  risoluzione bug fix minore sul tickenting
+•  risoluzione bug fix minore sul ticketing
 
 
 
@@ -155,7 +153,7 @@ Service Portal 4.10.3 (2024-10-10)
 Service Portal 4.10.2 (2024-09-30)
 ----------------------------------
 
-•  risoluzione bug fix minore sul tickenting
+•  risoluzione bug fix minore sul ticketing
 
 
 
