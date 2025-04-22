@@ -5,7 +5,7 @@
 In questa sezione, sono raccolte le istruzioni per interagire con la piattaforma, 
 attraverso la **Command Line Interface**
  
- .. image:: img/1744964446969-65bd05d3-8c55-48ef-86cf-125e8b872579_1.png
+.. image:: img/1744964446969-65bd05d3-8c55-48ef-86cf-125e8b872579_1.png
 .. image:: img/1744964446969-65bd05d3-8c55-48ef-86cf-125e8b872579_2.png
 .. image:: img/1744964446969-65bd05d3-8c55-48ef-86cf-125e8b872579_3.png
 .. image:: img/1744964446969-65bd05d3-8c55-48ef-86cf-125e8b872579_4.png

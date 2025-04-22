@@ -4,20 +4,8 @@
 ========================================
 Dopo aver concluso i passaggi precedenti sarà possibile iniziare la creazione
 dei servizi tramite l'apposito menù del Service Portal. Il processo di creazione
-è sempre guidato attraverso un apposito wizard di creazione. Il processo può
-sempre essere interrotto prima della conferma finale ed è possibile
-accedere direttamente alla presente guida per maggiori informazioni.
-
-
-**Migrazione VM**
-
-
-La piattaforma offre alcune funzionalità automatiche di import delle risorse VM. Le funzionalità sono disponibili da linea di comando:
-
-.. toctree::
-   :maxdepth: 2
-
-   ../Usare_Cli/75.1_Migrazione_VM.rst
+è sempre guidato attraverso un apposito wizard di creazion, e può
+sempre essere interrotto prima della conferma finale
 
 
 **Lista sistemi operativi supportati per Import da server vsphere per rehosting:**
@@ -52,13 +40,3 @@ Elenchiamo i passi necessari per effettuare la migrazione di un DBOLD, su Farm d
 -  Nella data pianificata per l’intervento si disattiva in scrittura il DBOLD. Viene attivato in scrittura il DBNEW (che in questo momento avrà contenuti consistenti conl DBOLD) e possono essere apportate le modifiche di configurazione alla componente applicative che accedono al Db in modo da farla puntare a DBNEW.
 
 -  Se lo si desidera è ancora possibile configurare temporaneamente la replica active/passive tra DBNEW e DBOLD, Questo permette, in caso di rollback, di avere una situazione aggiornata e consistente su DBOLD
-
-
-
-La piattaforma offre alcune funzionalità automatiche di import delle risorse DBAAS. Le funzionalità sono disponibili da linea di comando:
-
-.. toctree::
-   :maxdepth: 2
-
-   ../Usare_Cli/75.5_Migrazione_DBAAS.rst
-

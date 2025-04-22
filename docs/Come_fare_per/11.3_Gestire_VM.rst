@@ -44,8 +44,8 @@ Per eseguire una ricerca è necessario procedere in questo modo:
 **Cercare VM (master di division)**
 ===================================
 
-La funzione è attivabile attraverso il ruolo **Master di division**, 
-dalla parte sinistra dello schermo, cliccando sulla label **Ricerca VM**, sotto **Gestione Divisione**.
+La funzione è attivabile attraverso il ruolo **Master di division**: 
+dalla parte sinistra dello schermo cliccando sulla label **Ricerca VM**, sotto **Gestione Divisione**.
 
 .. image:: img/11.3_Gestione_VM30.png
 
