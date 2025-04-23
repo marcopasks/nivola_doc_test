@@ -2,7 +2,7 @@
 **Creare Budget**
 =================
 
-La funzione rientra nella sezione **Gestione Account**. La **creazione di un Budget** 
+La funzione rientra nella sezione **Gestione Account**. La **creazione di un Budget** - PROVA
 è attivabile dalla parte sinistra dello schermo, cliccando sulla label **Gestione Budget**, sotto **Forecast e Avvisi**.
 
 .. image:: img/8.1_BudgetAvvisiSX.png
