@@ -380,7 +380,7 @@ Service Portal 4.2.0 (2023-11-13)
 
 •  migliorata funzionalità raccolta log portale
 
-•  migliorata funzionalità report costi mensili (dettaglio costo orario, schermata creazione VPC, )
+•  migliorata funzionalità report costi mensili (dettaglio costo orario, schermata creazione VPC)
 
 •  Risoluzione bug fix minori (catalogazione ticket, dati tab Servizi, tab Monitoraggio)
 
@@ -440,7 +440,7 @@ Service Portal 4.0.0 (2023-10-04)
 Service Portal 3.6.0 (2023-08-24) 
 ---------------------------------
 
-•  introdotta funzionalità Console VM (Linux): generazione URL connessione console VM e accessp ssh direttamente da browser
+•  introdotta funzionalità Console VM (Linux): generazione URL connessione console VM e accesso ssh direttamente da browser
 
 •  migliorata funzionalità verifica CF in creazione utente
 
