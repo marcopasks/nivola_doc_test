@@ -12,3 +12,29 @@ A seguito del clic su **Anagrafica prodotto**, il sistema permetterà di verific
 parte destra del video l'eventuale presenza di codice-prodotto (associati dall'Amministratore di Backoffice all'account) 
 
 .. image:: img/10.7_AnaProdDX.png
+
+|
+
+**E' possibile associare il codice prodotto afferente ad un account a tutte le risorse dell'account stesso (vm, dbaas)**
+
+Per effettuare tale operazione è necessario selezionare il codice prodotto, quindi cliccare sul pulsante in alto a destra "Associa i tag"
+
+.. image:: img/10.7_AnaProd3.png
+
+|
+
+Comparirà questa schermata intermedia, in cui è necessario cliccare sul tasto **CONFERMA**
+
+.. image:: img/10.7_AnaProd4.png
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione
+
+.. image:: img/10.7_AnaProd5.png
+
+|
+
+Nell'elenco delle Virtual Machine e dei Database verrà quindi popolata la relativa colonna "Tags(s)":
+
+.. image:: img/10.7_AnaProd6.png
