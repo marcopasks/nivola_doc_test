@@ -5,6 +5,23 @@
 **Portale**
 ***********
 
+.. _release-4.16.1:
+
+Service Portal 4.16.1 (2025-05-08)
+----------------------------------
+
+•  associazione codice prodotto afferente ad un account a tutte le risorse dell’account stesso (vm, dbaas)
+
+•  migliorato controllo lunghezza nome VM Windows
+
+•  bug fixing sottocampi bozza ticket
+
+•  bug fixing in specifica casistica listino corrente
+
+•  bug fixing minori
+
+|
+
 .. _release-4.16.0:
 
 Service Portal 4.16.0 (2025-04-14)
