@@ -26,23 +26,24 @@ Per iniziare a utilizzare la piattaforma **Nivola**
 Per poter utilizzare i servizi esposti dalla piattaforma Nivola è necessario accreditarsi secondo il seguente processo:
 
 
-1. Contattare il proprio account di riferimento o andare alla sezione Contatti
-       raggiungibile dal sito www.nivolapiemonte.it. Una volta attivato il
-       contratto o l'utilizzo del servizio in modalità "Demo",
-       il Team di Supporto Nivola provvederà a contattare il referente del
-       Cliente per procedere con la creazione delle prime credenziali di accesso.
-2. Dopo avere ricevuto l’offerta ufficiale protocollata, procedere
-       con l’emissione di un ordine al CSI-Piemonte.
-3. Approvare e impegnare con una determina l’importo presente nell’offerta.
-4. Inviare la documentazione tramite PEC all’indirizzo protocollo@cert.csi.it
-       indicando nell’oggetto dell’email:
+1. **Contattare il proprio account di riferimento o andare alla sezione Contatti**
+raggiungibile dal sito www.nivolapiemonte.it. Una volta attivato il
+contratto o l'utilizzo del servizio in modalità "Demo",
+il Team di Supporto Nivola provvederà a contattare il referente del
+Cliente per procedere con la creazione delle prime credenziali di accesso.
 
+2. **Dopo avere ricevuto l’offerta ufficiale protocollata, procedere con l’emissione di un ordine al CSI-Piemonte.**
+
+.
+3. **Approvare e impegnare con una determina l’importo presente nell’offerta.**
+
+4. **Inviare la documentazione tramite PEC all’indirizzo protocollo@cert.csi.it indicando nell’oggetto dell’email:**
 a) Attivazione Servizi Nivola.
 b) Numero di protocollo presente sull’offerta.
 c) Nome dell’Ente.
 
-5. Indicare un referente che sarà contattato dal nostro servizio di assistenza per i dettagli tecnici. Nel caso in cui  la persona cui rivolgersi, in caso di incident di sicurezza, sia diversa da quella indicata in precedenza, serve individuare un nominativo diverso, in ottemperanza alle norme di ultima introduzione in ambito di Data Breach.
-
+5. **Indicare un referente che sarà contattato dal nostro servizio di assistenza per i dettagli tecnici.**
+Nel caso in cui  la persona cui rivolgersi, in caso di incident di sicurezza, sia diversa da quella indicata in precedenza, serve individuare un nominativo diverso, in ottemperanza alle norme di ultima introduzione in ambito di Data Breach.
 
 
 Questi aspetti sono riportati nel manuale utente del servizio e nelle condizioni generali in cui è possibile trovare maggiori dettagli e informazioni anche inerenti la cessazione del servizio. Nel caso si presentasse questa evenienza il CSI si impegna a mettere a disposizione del Cliente i propri dati e successivamente di cancellarli.

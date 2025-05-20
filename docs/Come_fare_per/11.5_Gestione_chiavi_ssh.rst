@@ -19,8 +19,8 @@ ma per entrambi è necessario rispettare questi vincoli:
 
 |
 
-**Creazione direttamente da Nivola**
-====================================
+**Creare direttamente da Nivola**
+=================================
 
 Dalla schermata **Elenco Chiavi SSH**, premere tasto **+** in alto a destra
 
@@ -38,8 +38,8 @@ chiave e si visualizzerà nell’elenco delle chiavi SSH.
 
 |
 
-**Creazione attraverso l'import**
-=================================
+**Creare attraverso l'import**
+==============================
 
 Per **importare** una **chiave SSH** nel proprio account, seguire i seguenti passi:
 
