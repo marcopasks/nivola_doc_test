@@ -5,9 +5,9 @@
 **Portale**
 ***********
 
-*Versione 4.17.0*
+*Versione 4.16.2*
 
-*Data prevista*
+*Data prevista: maggio 2025*
 
 |
 
@@ -16,7 +16,7 @@
 
 *Versione 1.17.5*
 
-*Data prevista: giovedì 22 maggio*
+*Data prevista: giovedì 22 maggio 2025*
 
 ==Nuove funzionalità / Improvement ==
 
