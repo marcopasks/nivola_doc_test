@@ -5,13 +5,10 @@
 **Portale**
 ***********
 
-*Versione 4.16.2*
+*Versione 4.17.0*
 
-*Data prevista: 27 maggio 2025*
+*Data prevista*
 
-•  nuove implementazioni STaaS
-
-•  bug fixing minori
 
 |
 

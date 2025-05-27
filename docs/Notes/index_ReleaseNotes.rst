@@ -5,6 +5,17 @@
 **Portale**
 ***********
 
+.. _release-4.16.2:
+
+Service Portal 4.16.2 (2025-05-27)
+----------------------------------
+
+•  nuove implementazioni STaaS
+
+•  bug fixing minori
+
+|
+
 .. _release-4.16.1:
 
 Service Portal 4.16.1 (2025-05-08)
