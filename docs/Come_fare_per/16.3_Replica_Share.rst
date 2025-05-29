@@ -20,3 +20,32 @@ Lo share replica avrà lo stesso nome dello share di origine con l’aggiunta de
 Un messaggio in verde in alto a destra darà conferma dell'avvenuta creazione
 
 .. image:: img/16.3_Replica_Share3.png
+
+|
+
+**Modifica RPO Replica**
+************************
+
+Una volta creata la replica è possibile modificare se necessario il valore RPO impostato in creazione.
+
+Occorre selezionare una replica e cliccare su **Pannello gestione Share**
+
+.. image:: img/16.3_Replica_Share4.png
+
+|
+
+Quindi cliccare sul simbolo della matita a fianco di **RPO**
+
+.. image:: img/16.3_Replica_Share5.png
+
+|
+
+Scegliere uno dei valori proposti:
+
+.. image:: img/16.3_Replica_Share6.png
+
+|
+
+Quindi cliccare su **MODIFICA POLICY**
+
+.. image:: img/16.3_Replica_Share7.png

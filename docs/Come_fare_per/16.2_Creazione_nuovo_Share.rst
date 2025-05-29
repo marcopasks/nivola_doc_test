@@ -14,9 +14,15 @@ Fare clic sul pulsante in alto a destra **Crea Nuovo Share**
 **Tab Generali**
 
 È stato aggiunto un controllo sul nome che non potrà iniziare per **dr-**, prefisso dedicato alle repliche.
-Come tipo di protocollo è possibile scegliere tra **NFS** o **CIFS**.
+Come tipo di **protocollo** è possibile scegliere tra **NFS** o **CIFS**
 
 .. image:: img/16.2_Creazione_Nuovo_Share2.png
+
+Relativamente alle **Snapshot Policy** scegliere fra uno dei valori in elenco
+
+.. image:: img/16.2_Creazione_Nuovo_Share2b.png
+
+.. image:: img/16.2_Creazione_Nuovo_Share2c.png
 
 |
 
