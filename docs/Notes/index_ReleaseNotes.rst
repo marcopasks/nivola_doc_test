@@ -1753,3 +1753,24 @@ CMP Nivola 1.16.0 (2024-03-26)
 •  DBaaS: impostato vSphere come hypervisor di default
 
 •  corretto problema in creazione su OracleLinux85
+
+|
+
+**Servizi Compute e DBaaS**
+***************************
+
+.. _Postgres17:
+
+2025-06-05
+----------
+
+•  Nuovo motore DBaaS disponibile: **Postgres17**
+
+|
+
+.. _OracleLinux9:
+
+2025-05-15
+----------
+
+•  E' disponibile all'interno del servizio CPaaS il template **OracleLinux9**
