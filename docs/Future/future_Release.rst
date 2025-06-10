@@ -38,7 +38,7 @@
     
 - Corretta la gestione della cache per le risorse di tipo ComputeInstance che ora aggiornano la cache solo se sono state completamente inizializzate.
 
-
+|
 
 **Servizi Compute e DBaaS**
 ***************************
