@@ -1355,6 +1355,23 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.6 - patch (2025-06-12)
+--------------------------------------
+
+*Bug fixing*
+
+- Rimosso codice non usato (ServiceMetricConsume) deprecato 3 anni fa
+
+- L'attributo delle istanze di Dbaas "allocated storage" utilizza il valore presente in configurazione e aggiornato durante la manutenzione
+
+- Non è più esposto il valore calcolato dal componente resource in cui non sono presenti tutte le logiche di scorporamento delle risorse destinate ai dati da quelle per SO ed eventuali backup
+    
+- Corretta la gestione dello stato per le vm riportate da vcenter in stato "Crashed" 
+    
+- Corretta la gestione della cache per le risorse di tipo ComputeInstance che ora aggiornano la cache solo se sono state completamente inizializzate.
+
+|
+
 CMP Nivola 1.17.5 - patch (2025-05-22)
 --------------------------------------
 
