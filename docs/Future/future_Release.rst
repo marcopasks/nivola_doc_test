@@ -7,15 +7,19 @@
 
 *Versione 4.17.0*
 
-*Data prevista: giugno 2025*
+*Data prevista: 18 giugno 2025*
 
 *Nuove funzionalità/Improvement*
 
 - Rinnovo funzionalità forecasting
 
-- Monitoraggio e gestion degli incident da portale
+- Monitoraggio e gestione degli incident da portale
 
-- Costi sostenuti dall'account divisi per mese
+- Impostazione tag per risorse account
+
+- Bug fixing gestione monitoring e logging
+
+- Bug fixing minori
 
 |
 
