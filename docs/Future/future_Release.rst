@@ -7,7 +7,7 @@
 
 *Versione 4.17.0*
 
-*Data prevista: 18 giugno 2025*
+*Data prevista: 19 giugno 2025*
 
 *Nuove funzionalità/Improvement*
 
