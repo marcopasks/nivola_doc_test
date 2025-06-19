@@ -128,4 +128,8 @@ ad interagire con la piattaforma, attraverso il portale.
 .. toctree::
    90.0_Attivare_il_supporto.rst
    100.0_Assistenza.rst
-   
+
+.. rubric:: ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.. toctree::
+   110.0_Incident_dashboard.rst

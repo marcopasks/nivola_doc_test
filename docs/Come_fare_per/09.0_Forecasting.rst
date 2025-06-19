@@ -14,38 +14,18 @@ La sezione del forecasting consente di simulare una previsione di andamento dei 
 
 |
 
-A seguito di un click su **Forecasting**, il sistema popolerà la parte destra della pagina 
-web con il **Riepilogo** relativo a:
+A seguito di un click su **Forecasting**, il sistema popolerà la parte destra della pagina con il grafico 
+dell'andamento dei costi dell'anno corrente (composto dai costi rendicontati fino alla data di ieri e dalle stime fino a fine anno) e dei prossimi due anni (stima).
 
-• Costi rendicontati per il mese in corso
-• Costi previsti dal giorno corrente fino alla fine del mese in corso (considerando il costo medio giornaliero degli ultimi 30 giorni)
-• Costi rendicontati per l'anno in corso
-• Costi previsti dal giorno corrente fino alla fine dell'anno in corso (considerando il costo medio giornaliero degli ultimi 30 giorni)
 
-.. image:: img/9_RiepilogoDx.png
+La stima dei costi futuri viene composta in base alle selezioni sotto al grafico e le proiezioni possono essere di due tipi:
 
-|
+1) andamento medio;
 
-Sotto al riepilogo è possibile scegliere il campione, precedente alla data attuale, sul quale verrà basata la previsione:
+2) andamento percentuale o tendenza;
 
-●	10 giorni
+In entrambi i casi gli andamenti possono essere calcolati in base i 10 o 30 giorni antecedenti.
 
-●	30 giorni
+.. image:: img/09_Forecasting1.png
 
-|
-
-L’altro parametro di selezione sarà il tipo di previsione:
-
-●	Valore medio dei costi nell’arco di tempo specificato
-
-●	Andamento dei costi nel tempo specificato (delta di crescita)
-
-|
-
-**Previsione legata a Valore medio dei costi nell’arco di tempo specificato**
-
-Cliccare nella combo box indicata dalla freccia per poter selezionare i valori **10 giorni** oppure **30 giorni**.
-
-Tale valore rappresenta il dato di partenza sul quale verrà basata la previsione del calcolo dei mesi successivi fino a fine anno:
-
-.. image:: img/9_RiepilogoDx30gg.png
+.. image:: img/09_Forecasting2.png

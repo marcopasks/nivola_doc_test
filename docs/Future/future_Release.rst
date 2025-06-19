@@ -5,21 +5,9 @@
 **Portale**
 ***********
 
-*Versione 4.17.0*
+*Versione 4.17.x*
 
-*Data prevista: 19 giugno 2025*
-
-*Nuove funzionalità/Improvement*
-
-- Rinnovo funzionalità forecasting
-
-- Monitoraggio e gestione degli incident da portale
-
-- Impostazione tag per risorse account
-
-- Bug fixing gestione monitoring e logging
-
-- Bug fixing minori
+*Data prevista*
 
 |
 

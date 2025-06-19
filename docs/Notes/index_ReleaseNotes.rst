@@ -5,6 +5,25 @@
 **Portale**
 ***********
 
+.. _release-4.17.0:
+
+Service Portal 4.17.0 (2025-06-19)
+----------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  Rinnovo funzionalità forecasting
+
+•  Monitoraggio e gestione degli incident da portale
+
+•  Impostazione tag per risorse account
+
+•  Bug fixing gestione monitoring e logging
+
+•  Bug fixing minori
+
+|
+
 .. _release-4.16.2:
 
 Service Portal 4.16.2 (2025-05-27)

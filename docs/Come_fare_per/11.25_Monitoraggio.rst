@@ -31,6 +31,12 @@ Per effettuare l'abilitazione procedere nel seguente modo:
 
     |
 
+        Nel caso non risultasero presenti Dashboard Grafana attive nell'account sarà impossibile proseguire, e sarà quindi necessario seguire le istruzioni riportate nel messaggio
+
+        .. image:: img/11.25_Monitoraggio1.png
+
+    |
+
         2. Individuare la VM dall’elenco **Associa un nuovo servizio di monitoraggio**, mettendo una spunta a fianco del nome
 
         .. image:: img/11.25_Associa_Monitor.png

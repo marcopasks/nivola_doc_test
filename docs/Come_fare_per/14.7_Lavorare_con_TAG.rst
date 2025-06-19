@@ -70,6 +70,35 @@ A conferma dell'associazione del Tag alla risorsa, comparirà il seguente messag
 
 |
 
+**Associazione Tag ad tutte le risorse di un account**
+******************************************************
+
+Nel caso in cui si volesse associare un Tag a TUTTE le risorse di un account, occorre accedere al menù dell'**Anagrafica prodotto** 
+(presente all'interno di **Gestione account**)
+
+.. image:: img/14.7_Lavorare_con_TAG1.png
+
+|
+
+Selezionare l'Anagrafica prodotto, cliccando sulla casella alla sinistra del nome. Poi cliccare sul pulsante in alto a destra la cui descrizione, 
+passandoci sopra col mouse, è "Associa i tag"
+
+.. image:: img/14.7_Lavorare_con_TAG2.png
+
+|
+
+Comparirà la seguente schermata di conferma
+
+.. image:: img/14.7_Lavorare_con_TAG3.png
+
+|
+
+Una volta confermata, un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione
+
+.. image:: img/14.7_Lavorare_con_TAG4.png
+
+|
+
 |
 
 **Eliminare Tag da una Risorsa specifica**
