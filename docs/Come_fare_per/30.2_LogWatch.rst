@@ -1,0 +1,130 @@
+
+**LogWatch**
+************
+
+.. image:: img/30.2_LogWatch1.png
+
+.. image:: img/30.2_LogWatch2.png
+
+|
+
+Filebeat è l’agent utilizzato all'interno di Nivola.
+L'agent viene installato sulla VM del client, andando a definire il path e la tipologia (ad esempio log apache) 
+in modo che tali dati vengano inviati al Logstash. 
+Il Logstash ha diverse pipeline in ascolto, quella di default viene usata per la maggior parte dei casi. Le altre pipeline 
+sono create per esigenze specifiche (ad esempio Jboss e Wildfly, e relative dashboard).
+
+| 
+
+Riassumendo il flusso è il seguente: i Filebeat installati sui client mandano i dati a Logstash, il quale si occupa di 
+parsificarli, filtrarli, trasformarli. Successivamente vengono memorizzati su Elasticsearch, e grazie a Kibana è possibile visualizzarli.
+
+|
+
+.. image:: img/30.2_LogWatch3.png
+
+.. image:: img/30.2_LogWatch4.png
+
+|
+
+Lato Kibana per poter garantire la multitenancy degli utenti, vengono creati degli Space: dato un utente Nivola, su Kibana vedrà uno 
+Space per ogni account per cui è abilitato. E all'interno dello Space, poi vedrà i log relativi a quell'account. 
+Per vedere i log relativi agli altri account, occorre accedere sui relativi Space.
+
+|
+
+.. image:: img/30.2_LogWatch5.png
+
+|
+
+Viene creato un ruolo su LogWatch, e a questo ruolo vengono assegnati dei permessi, e al ruolo vengono associati degli utenti.
+
+|
+
+.. image:: img/30.2_LogWatch6.png
+
+|
+
+Nella gestione del Log Management si hanno le fasi di ingestion, di storage e di analisi.
+La fase di ingestion consiste nell'installare l'agent sul client tramite Automation (viene caricato il certificato generato con 
+un tool di Elastic).
+Automation si occupa anche di configurare il Logstash e la porta di output, e si ha un Logstash per ogni availability zone. 
+Terminata la parte di Automation, occorre settare manualmente ed abilitare il modulo corrispondente alla tecnologia (se presente), 
+oppure andare a scrivere all'interno del Filebeat yml a quali log fare riferimento. 
+Una volta che è finita questa operazione, viene riavviato l'agent per stabilire la connessione con Logstash.
+
+|
+
+Logstash è composta da diverse pipeline, ognuna delle quali è composta da:
+
+1. input: si occupa della connessione con Filebeat tramite la porta su cui ascolta la pipeline di Logstash. Vengono caricati i 
+certificati di Logstash che sono stati firmati dalla stessa CA con cui sono stati firmati i certificati in Filebeat, e si occupa di
+stabilire la connessione con i vari client e i vari Filebeat installati su client che mandano i dati verso i Logstash
+
+
+2. filtro: si occupa di andare a effettuare operazioni vere e proprie di parsificazione del log
+
+
+3. output: si occupa di indirizzare i dati verso Elastic Search dove vengono memorizzati
+
+|
+
+.. image:: img/30.2_LogWatch7.png
+
+|
+
+Una volta che i dati vengono memorizzati in Elastic Search, lo stesso nome sarà presente in Logstash (Filebeat versione, nome della 
+tecnologia, data e la tripletta): in questo modo in Kibana è possibile associare tutti gli indici di un ruolo ad un determinato account 
+e fare in modo che gli utenti associati a quell'account vedano solo gli indici di loro competenza.
+Una volta creati gli indici, e importati i dati in Elastic,è possibile fare delle query per estrarre delle informazioni di interesse, 
+e poi andare a creare delle dashboard che danno una lista insieme di tutto quello che succede
+
+|
+
+.. image:: img/30.2_LogWatch8.png
+
+.. image:: img/30.2_LogWatch9.png
+
+.. image:: img/30.2_LogWatch10.png
+
+.. image:: img/30.2_LogWatch11.png
+
+.. image:: img/30.2_LogWatch12.png
+
+.. image:: img/30.2_LogWatch13.png
+
+.. image:: img/30.2_LogWatch14.png
+
+.. image:: img/30.2_LogWatch15.png
+
+.. image:: img/30.2_LogWatch15b.png
+
+.. image:: img/30.2_LogWatch16.png
+
+.. image:: img/30.2_LogWatch17.png
+
+.. image:: img/30.2_LogWatch18.png
+
+.. image:: img/30.2_LogWatch19.png
+
+.. image:: img/30.2_LogWatch20.png
+
+.. image:: img/30.2_LogWatch21.png
+
+.. image:: img/30.2_LogWatch22.png
+
+.. image:: img/30.2_LogWatch23.png
+
+.. image:: img/30.2_LogWatch24.png
+
+.. image:: img/30.2_LogWatch25.png
+
+.. image:: img/30.2_LogWatch26.png
+
+.. image:: img/30.2_LogWatch27.png
+
+.. image:: img/30.2_LogWatch28.png
+
+.. image:: img/30.2_LogWatch29.png
+
+.. image:: img/30.2_LogWatch30.png
