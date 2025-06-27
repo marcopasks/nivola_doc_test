@@ -25,8 +25,6 @@
 
 *Compute service*
 
-- Immagine Debian12 (disponibile su richiesta al supporto) - Luglio 2055
-
 - Windows Server 2015 - Dicembre 2025
 
 

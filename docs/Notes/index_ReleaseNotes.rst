@@ -1795,6 +1795,15 @@ CMP Nivola 1.16.0 (2024-03-26)
 **Servizi Compute e DBaaS**
 ***************************
 
+.. _Debian12:
+
+2025-06-23
+----------
+
+•  Nuovo template CPaaS disponibile: **Debian12**
+
+|
+
 .. _Postgres17:
 
 2025-06-05
