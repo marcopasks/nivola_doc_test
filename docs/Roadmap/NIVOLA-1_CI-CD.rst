@@ -2,10 +2,10 @@
 **Piattaforma CI/CD**
 *********************
 
-- Prodotto: "NIVOLA-1 (CI/CD)"
+- **Prodotto**: "NIVOLA-1 (CI/CD)"
 
-- Descrizione estesa: "L’utente avrà a disposizione una piattaforma CI/CD per la gestione dei propri servizi applicativi"
+- **Descrizione estesa**: "L’utente avrà a disposizione una piattaforma CI/CD per la gestione dei propri servizi applicativi"
 
-- Disponibile dal 2025-Q3
+- **Disponibile** dal 2025-Q3
 
-- Modalità di fruizione: *questa sezione conterrà le modalità di utilizzo della funzionalità (Service Portal, CLI, Supporto)*
+- **Modalità di fruizione**: *questa sezione conterrà le modalità di utilizzo della funzionalità (Service Portal, CLI, Supporto)*
