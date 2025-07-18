@@ -1795,6 +1795,15 @@ CMP Nivola 1.16.0 (2024-03-26)
 **Servizi Compute e DBaaS**
 ***************************
 
+.. _Oracle 19.26:
+
+2025-07-15
+----------
+
+•  Il template DBaaS Oracle 19 + stato aggiornato alla versione **19.26**
+
+|
+
 .. _Debian12:
 
 2025-06-23
