@@ -5,9 +5,17 @@
 **Portale**
 ***********
 
-*Versione 4.17.x*
+*Versione 4.18.0*
 
-*Data prevista*
+*Data prevista: giovedì 24/07/2025*
+
+*Nuove funzionalità/Improvement*
+
+- Nuova gestione allegati per Account, Division e Organization
+
+- Gestione attributi budget per WBS-Account e modalità rendicontazione flat
+
+- Bugfix
 
 |
 
