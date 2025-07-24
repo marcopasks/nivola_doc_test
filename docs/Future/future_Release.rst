@@ -7,7 +7,7 @@
 
 *Versione 4.18.0*
 
-*Data prevista: giovedì 24/07/2025*
+*Data prevista: lunedì 28/07/2025*
 
 *Nuove funzionalità/Improvement*
 
