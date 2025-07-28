@@ -8,6 +8,7 @@
 .. _release-4.18.0:
 
 Service Portal 4.18.0 (2025-07-28)
+----------------------------------
 
 *Nuove funzionalità/Improvement*
 
