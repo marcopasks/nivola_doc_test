@@ -5,6 +5,20 @@
 **Portale**
 ***********
 
+.. _release-4.18.0:
+
+Service Portal 4.18.0 (2025-07-28)
+
+*Nuove funzionalità/Improvement*
+
+•  Nuova gestione allegati per Account, Division e Organization
+
+•  Gestione attributi budget per WBS-Account e modalità rendicontazione flat
+
+•  Bug fixing minori
+
+|
+
 .. _release-4.17.0:
 
 Service Portal 4.17.0 (2025-06-19)
