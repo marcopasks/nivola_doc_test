@@ -1,6 +1,6 @@
 
-**2025**
-========
+**2025-gennaio**
+================
 
 .. image:: img/2025_Diapositiva1.PNG
 .. image:: img/2025_Diapositiva2.PNG
