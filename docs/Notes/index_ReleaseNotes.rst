@@ -1389,6 +1389,21 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.7 - patch (2025-08-05)
+--------------------------------------
+
+*Nuove funzionalità/Improvement*
+
+- Ottimizzazione regole firewall distribuito di NSX e Openstack:
+
+- Regola applicata al security group invece che al distributed firewall (NSX)
+
+- Creazione della sola regola di ingress nel caso di regola per mettere in comunicazione due security group (NSX e Openstack)
+
+- Logging selettivo delle regole (NSX)
+
+|
+
 CMP Nivola 1.17.6 - patch (2025-06-12)
 --------------------------------------
 

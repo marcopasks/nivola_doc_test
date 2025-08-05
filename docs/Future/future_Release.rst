@@ -14,22 +14,6 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.7*
-
-*Data prevista: martedì 5 agosto 2025*
-
-*Nuove funzionalità/Improvement*
-
-- Ottimizzazione regole firewall distribuito di NSX e Openstack:
-
-- regola applicata al security group invece che al distributed firewall (NSX)
-
-- creazione della sola regola di ingress nel caso di regola per mettere in comunicazione due security group (NSX e Openstack)
-
-- logging selettivo delle regole (NSX)
-
-|
-
 *Versione 1.17.8*
 
 *Data prevista: lunedì 11 agosto 2025*
