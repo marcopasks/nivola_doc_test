@@ -9,4 +9,5 @@ Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
  
    2024_Roadmap.rst
    2025_Roadmap.rst
-
+   2025_TABELLA.rst
+   2025_TABELLAbis.rst
