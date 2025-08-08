@@ -1389,6 +1389,15 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.7.1 - patch (2025-08-08)
+----------------------------------------
+
+*Bug fixing*
+
+- coerenza dati input CMP/portale in creazione rules security group da portale
+
+|
+
 CMP Nivola 1.17.7 - patch (2025-08-05)
 --------------------------------------
 
