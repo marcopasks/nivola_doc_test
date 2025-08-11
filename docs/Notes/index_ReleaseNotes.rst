@@ -1389,6 +1389,21 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.8 - patch (2025-08-11)
+----------------------------------------
+
+*Nuove funzionalità/Improvement*
+
+- STAAS v2: import volumi v1.0
+
+- STAAS v2: compliance management: rimozione volume snaplock 
+
+- STAAS v2: logging dell'azione di abilitazione/disabilitazione della compliance
+
+- DBAAS: logica CMP + playbook ansible per gestione creazione/cancellazione volumi su DataDomain
+
+|
+
 CMP Nivola 1.17.7.1 - patch (2025-08-08)
 ----------------------------------------
 

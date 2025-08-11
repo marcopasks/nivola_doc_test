@@ -14,24 +14,9 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.8*
+*Versione 1.17.x*
 
-*Data prevista: lunedì 11 agosto 2025*
-
-*Nuove funzionalità/Improvement*
-
-- STAAS v2: import volumi v1.0
-
-- STAAS v2: compliance management: rimozione volume snaplock 
-
-- STAAS v2: logging dell'azione di abilitazione/disabilitazione della compliance
-
-- DBAAS: logica CMP + playbook ansible per gestione creazione/cancellazione volumi su DataDomain
-
-
-*Bug fixing*
-
-- STAAS v2: bugfix
+*Data prevista*
 
 |
 
