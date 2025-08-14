@@ -1,9 +1,14 @@
 
-**Support - How-To infrastrutturali**
-*************************************
+How-To infrastrutturali
+-----------------------
 
-- **Prodotto**: "CORE (SUPPORT)"
+**(progettazione e realizzazione procedure e automatismi per risoluzione rapida How-To infrastrutturali)**
+**********************************************************************************************************
 
-- **Descrizione estesa**: "L'utente potrà contattare il team di Support per la risoluzione rapida delle richieste How-To infrastrutturali"
+|
+
+- **Prodotto**: CORE (SUPPORT)
+
+- **Descrizione estesa**: Possibilità di contattare il team di Support per la risoluzione rapida delle richieste How-To infrastrutturali
 
 - **Disponibile** dal 2025-Q4

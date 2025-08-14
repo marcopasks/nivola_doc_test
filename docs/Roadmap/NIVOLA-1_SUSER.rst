@@ -1,9 +1,11 @@
 
-**Piattaforma Suse-Rancher**
-****************************
+Upgrade piattaforma
+-------------------
 
-- **Prodotto**: "NIVOLA-1 (SUSE-RANHCER)"
+|
 
-- **Descrizione estesa**: "L’utente avrà a disposizione la versione aggiornata della piattaforma Suse_Rancher per la gestione del servizio di contanerizzazione"
+- **Prodotto**: CORE (SUSE-RANHCER)
+
+- **Descrizione estesa**: Aggiornamento di versione della piattaforma Suse-Rancher per la gestione del servizio di containerizzazione
 
 - **Disponibile** dal 2025-Q1

@@ -1,9 +1,14 @@
 
-**Piattaforma DBAAS**
-*********************
+Gestione cifratura database
+---------------------------
 
-- **Prodotto**: "NIVOLA-1 (DBAAS)"
+**(template per gestione cifratura nuove tipologie di database)**
+*****************************************************************
 
-- **Descrizione estesa**: "L’utente avrà a disposizione un template per nuove tipologie di database (es. Oracle TDE, Oracle Standard, Mongo DB, Postgres TDE)"
+|
+
+- **Prodotto**: CORE (DBAAS)
+
+- **Descrizione estesa**: Disponibilità di un template per nuove tipologie di database (es. Oracle TDE, Oracle Standard, Mongo DB, Postgres TDE)
 
 - **Disponibile** dal 2025-Q4

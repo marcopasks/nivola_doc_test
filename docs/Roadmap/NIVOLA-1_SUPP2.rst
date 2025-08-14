@@ -1,97 +1,86 @@
 
-**Support - Change infrastrutturali**
-*************************************
+Change infrastrutturali
+-----------------------
 
-- **Prodotto**: "CORE (SUPPORT)"
+**(progettazione e realizzazione procedure e automatismi per risoluzione rapida Change infrastrutturali)**
+**********************************************************************************************************
 
-- **Descrizione estesa**: "L'utente potrà contattare il team di Support per la risoluzione rapida dei Change infrastrutturali"
+|
+
+- **Prodotto**: CORE (SUPPORT)
+
+- **Descrizione estesa**: Possibilità di contattare il team di Support per la risoluzione rapida dei Change infrastrutturali
 
 - **Disponibile** dal 2025-Q2
 
-- **Modalità di fruizione**: 
+- **Modalità di fruizione**: servizio di supporto integrato all’interno del Service Portal, dedicato alla richieste standard di modifica dei servizi infrastrutturali presenti su Nivola
 
-**Servizio di supporto integrato all’interno del Service Portal, dedicato alla richieste standard di modifica dei servizi infrastrutturali presenti su Nivola.**
- 
 |
 
-**Tempi di risoluzione rapidi per richieste di modifica del tipo:**
+**Principali caratteristiche:**
 
-- Creazione/Modifica/Dismissione/MDW - Nivola 
+  Tempi di risoluzione rapidi per richieste di modifica del tipo:
 
-- Variazione configurazione Apache - Nivola 
+                        *Creazione/Modifica/Dismissione/MDW - Nivola*
 
-- Modifica/attivazione Backup as a Service - Nivola 
+                        *Variazione configurazione Apache - Nivola*
 
-- Creazione/modifica/cancellazione ECAAS Cluster - Nivola 
+                        *Modifica/attivazione Backup as a Service - Nivola*
 
-- Creazione/modifica/cancellazione ECAAS Namespace - Nivola 
+                        *Creazione/modifica/cancellazione ECAAS Cluster - Nivola*
 
-- Creazione/Modifica/Dismissione/Request Jboss - Nivola 
+                        *Creazione/modifica/cancellazione ECAAS Namespace - Nivola*
 
-- Attivazione/Variazione/Disattivazione Log Management - APM - Nivola 
+                        *Creazione/Modifica/Dismissione/Request Jboss - Nivola*
 
-- Attivazione/Variazione/Disattivazione Log Management - SIEM - Nivola 
+                        *Attivazione/Variazione/Disattivazione Log Management - APM - Nivola*
 
-- Attivazione del servizio monitoraggio As a Service - Nivola 
+                        *Attivazione/Variazione/Disattivazione Log Management - SIEM - Nivola*
 
-- Attivazione/Modifica utenza Grafana - Nivola 
+                        *Attivazione del servizio monitoraggio As a Service - Nivola*
 
-- Disattivazione/Modifica utenza Grafana - Nivola 
+                        *Attivazione/Modifica/Disattivazione utenza Grafana - Nivola*
+                        
+                        *Attivazione /Modifica Alerting - Nivola*
 
-- Attivazione /Modifica Alerting - Nivola 
+                        *Attivazione del servizio monitoraggio Managed - Nivola*
 
-- Attivazione del servizio monitoraggio Managed - Nivola 
+                        *Creazione/Modifica/Dismissione share - Nivola*
 
-- Creazione/Modifica/Dismissione share - Nivola 
+                        *Creazione/Modifica/Dismissione/Request Object Storage - Nivola*
 
-- Creazione/Modifica/Dismissione/Request Object Storage - Nivola 
+                        *Creazione/Modifica/Dismissione utente - Nivola*
 
-- Creazione/Modifica/Dismissione utente - Nivola 
+                        *Variazione configurazione proxy - Nivola*
 
-- Variazione configurazione proxy - Nivola 
+                        *Creazione/Modifica/Dismissione VM - Nivola*
 
-- Creazione/Modifica/Dismissione VM - Nivola 
+                        *Dominio Active Directory- Nivola*
 
-- Dominio Active Directory- Nivola 
+                        *Gestione Certificati server - Nivola*
 
-- Gestione Certificati server - Nivola 
+                        *Gestione utenze CLI - Nivola*
 
-- Gestione utenze CLI - Nivola 
+                        *Gestione utenze su Service Portal - Nivola*
 
-- Gestione utenze su Service Portal - Nivola 
+                        *Gestione accesso in SSH - Nivola*
 
-- Gestione accesso in SSH - Nivola 
+                        *VPN - Nivola*
 
-- WSUS - Nivola 
+                        *Firewall - Nivola*
 
-- Share - Nivola 
+                        *WAF - Nivola*
 
-- Coda di stampa - Nivola 
+                        *Creazione/Modifica/Dismissione/ DNS - Nivola*
 
-- Antivirus - Nivola 
+                        *Creazione/Modifica/Dismissione/SSH Gateway - Nivola*
 
-- VPN - Nivola 
+                        *Creazione/Modifica/Dismissione/Virtual Load Balancer - Nivola*
 
-- Firewall - Nivola 
+                        *Creazione/modifica/cancellazione SG - Nivola*
 
-- WAF - Nivola 
+                        *Creazione/Modifica/Dismissione share (STaaS) - Nivola*
 
-- Creazione/Modifica/Dismissione/ DNS - Nivola 
-
-- Creazione/Modifica/Dismissione/SSH Gateway - Nivola 
-
-- Creazione/Modifica/Dismissione/Virtual Load Balancer - Nivola 
-
-- Creazione/modifica/cancellazione SG - Nivola 
-
-- S.O. Linux - Nivola 
-
-- S.O. Windows - Nivola 
-
-- Creazione/Modifica/Dismissione share (STaaS) - Nivola 
-
-- Variazione configurazione Tomcat - Nivola 
-
-- Escalation automatica verso specialisti di operation in caso di richieste non gestite 
+                        *Variazione configurazione Tomcat - Nivola*
  
-- Link al servizio: NIVOLA Service Portal
+Escalation automatica verso specialisti di operation in caso di richieste non gestite

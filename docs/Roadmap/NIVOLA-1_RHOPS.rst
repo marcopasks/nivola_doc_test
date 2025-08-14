@@ -1,10 +1,12 @@
 
-**Piattaforma Openshift**
-*************************
+Installazione impianto Openshit
+-------------------------------
 
-- **Prodotto**: "NIVOLA-2 (REDHAT-OPENSHIFT)"
+|
 
-- **Descrizione estesa**: "L’utente avrà a disposizione una piattaforma di primo impianto Openshit sulla nuova architettura di Nivola-2"
+- **Prodotto**: CORE (REDHAT-OPENSHIFT)
+
+- **Descrizione estesa**: Disponibilità di una piattaforma di primo impianto Openshift sulla nuova architettura di Nivola-2
 
 - **Disponibile** dal 2025-Q2
 
