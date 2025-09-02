@@ -5,6 +5,21 @@
 **Portale**
 ***********
 
+.. _release-4.19.0:
+
+Service Portal 4.19.0 (2025-09-02)
+----------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  Ottimizzazione del batch di acquisizione e calcolo costi
+
+•  Accorciati i termpi per il ricalcolo costi di un account
+
+•  Bugfix minori
+
+|
+
 .. _release-4.18.0:
 
 Service Portal 4.18.0 (2025-07-28)

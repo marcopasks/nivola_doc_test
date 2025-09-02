@@ -39,4 +39,4 @@ Incident dashboard su SP
 
 :doc:`110.0_Incident_dashboard` 
 
-    *Link iscrizione canale Telegram:*
+    *Link iscrizione canale Telegram:* https://t.me/+DdITpNgxb31mMGRk
