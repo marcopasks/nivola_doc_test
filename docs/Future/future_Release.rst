@@ -5,7 +5,7 @@
 **Portale**
 ***********
 
-*Versione 4.19.0*
+*Versione 4.x*
 
 *Data prevista*
 
