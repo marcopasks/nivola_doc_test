@@ -1404,8 +1404,17 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.9 - patch (2025-09-04)
+---------------------------------------
+
+*Bug fixing*
+
+- Rimosso bug che non permetteva la cancellazione di dbaas sqlserver
+
+|
+
 CMP Nivola 1.17.8 - patch (2025-08-11)
-----------------------------------------
+---------------------------------------
 
 *Nuove funzionalità/Improvement*
 
