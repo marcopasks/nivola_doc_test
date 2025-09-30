@@ -5,6 +5,15 @@
 **Portale**
 ***********
 
+.. _release-4.19.1:
+
+Service Portal 4.19.1 (2025-09-30)
+----------------------------------
+
+•  Bugfix minori
+
+|
+
 .. _release-4.19.0:
 
 Service Portal 4.19.0 (2025-09-02)
