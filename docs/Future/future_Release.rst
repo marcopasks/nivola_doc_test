@@ -14,9 +14,28 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.x*
+*Versione 1.17.10*
 
-*Data prevista*
+*Data prevista: giovedì 8 ottobre 2025*
+
+*Nuove funzionalità/Improvement*
+
+- Aggiunta funzionalità di creazione metriche ad hoc in base ad attributi dei dbaas
+
+- Modificata la gestione accessi staas v2
+
+- Porting delle automazioni mariadb
+
+- Eliminazione di mariadb versione 11.2 in favore della versione 11.4
+
+- Controlli per la disponibilità di ip liberi nel vpc
+
+- Definizione delle api per funzionalità CRUD dei namespace k8s
+
+
+*Bug fixing*
+
+- Fix di errori dovuti allo spegnimento di Manila
 
 |
 
