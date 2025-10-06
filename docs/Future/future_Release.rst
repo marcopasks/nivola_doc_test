@@ -16,26 +16,26 @@
 
 *Versione 1.17.10*
 
-*Data prevista: giovedì 8 ottobre 2025*
+*Data prevista: giovedì 9 ottobre 2025*
 
 *Nuove funzionalità/Improvement*
 
-- Aggiunta funzionalità di creazione metriche ad hoc in base ad attributi dei dbaas
+- Aggiunta funzionalità di creazione metriche ad-hoc in base agli attributi dei DBAAS
 
-- Modificata la gestione accessi staas v2
+- Porting delle automazioni MariaDB
 
-- Porting delle automazioni mariadb
+- Controlli per la disponibilità di IP liberi nel VPC
 
-- Eliminazione di mariadb versione 11.2 in favore della versione 11.4
-
-- Controlli per la disponibilità di ip liberi nel vpc
-
-- Definizione delle api per funzionalità CRUD dei namespace k8s
+- Definizione delle API per funzionalità CRUD dei namespace k8s (servizio ECAAS)
 
 
 *Bug fixing*
 
 - Fix di errori dovuti allo spegnimento di Manila
+
+- Aggiornata la gestione accessi STAAS v2
+
+- Eliminazione di MariaDB versione 11.2 in favore della versione 11.4
 
 |
 
