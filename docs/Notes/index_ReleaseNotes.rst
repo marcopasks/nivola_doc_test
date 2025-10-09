@@ -1400,7 +1400,7 @@ Service Portal 1.8.0 (2020-04-10)
 
 **Fixed**    
     
-*   Risolto bug #803 sulla creazione di Vm con immagine Oracle Linux.
+*   Risolto bug 803 sulla creazione di Vm con immagine Oracle Linux.
 
 *   Adeguati i tagli delle dimensioni degli Share e dei dischi aggiuntivi di VM e DBAAS.
 
@@ -1413,8 +1413,32 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
-CMP Nivola 1.17.9 - patch (2025-09-04)
+CMP Nivola 1.17.10 - patch (2025-10-09)
 ---------------------------------------
+
+*Nuove funzionalità/Improvement*
+
+- Aggiunta funzionalità di creazione metriche ad-hoc in base agli attributi dei DBAAS
+
+- Porting delle automazioni MariaDB
+
+- Controlli per la disponibilità di IP liberi nel VPC
+
+- Definizione delle API per funzionalità CRUD dei namespace k8s (servizio ECAAS)
+
+
+*Bug fixing*
+
+- Fix di errori dovuti allo spegnimento di Manila
+
+- Aggiornata la gestione accessi STAAS v2
+
+- Eliminazione di MariaDB versione 11.2 in favore della versione 11.4
+
+|
+
+CMP Nivola 1.17.9 - patch (2025-09-04)
+--------------------------------------
 
 *Bug fixing*
 
@@ -1423,7 +1447,7 @@ CMP Nivola 1.17.9 - patch (2025-09-04)
 |
 
 CMP Nivola 1.17.8 - patch (2025-08-11)
----------------------------------------
+--------------------------------------
 
 *Nuove funzionalità/Improvement*
 
@@ -1435,14 +1459,10 @@ CMP Nivola 1.17.8 - patch (2025-08-11)
 
 - DBAAS: logica CMP + playbook ansible per gestione creazione/cancellazione volumi su DataDomain
 
-|
-
-CMP Nivola 1.17.7.1 - patch (2025-08-08)
-----------------------------------------
 
 *Bug fixing*
 
-- coerenza dati input CMP/portale in creazione rules security group da portale
+- STAAS v2: bugfix
 
 |
 
@@ -1475,6 +1495,10 @@ CMP Nivola 1.17.6 - patch (2025-06-12)
 - Corretta la gestione dello stato per le vm riportate da vcenter in stato "Crashed" 
     
 - Corretta la gestione della cache per le risorse di tipo ComputeInstance che ora aggiornano la cache solo se sono state completamente inizializzate.
+
+- fix logging instance: increase timeout create resource 
+
+- fix dns in create record a, cname
 
 |
 
@@ -1587,7 +1611,7 @@ CMP Nivola 1.17.1 - patch (2025-03-06)
 .. _release-1.17.0:
 
 CMP Nivola 1.17.0 - patch (2025-02-27)
-----------------------------------------
+--------------------------------------
 
 Nuove funzionalità/Improvement 
 
@@ -1648,34 +1672,51 @@ Rimosse
 
 |
 
-.. _release-1.16.9:
+.. _release-1.16.9.2:
 
-CMP Nivola 1.16.9 - patch (2025-01-09)
+CMP Nivola 1.16.9.2 - patch (2025-01-09)
 ----------------------------------------
 
-*Nuove funzionalità/Improvement*
-
-•  automatismo che mette in manutenzione il Service Portal se i database e/o la CMP sono indisponibili
-
-
 *Bug fixing*
-
-•  adeguamento messaggio conferma attivazione logging VM
-
-•  controllo stato CHIUSO account in Ricalcolo Costi
-
-•  adeguamento Anagrafica Prodotti
 
 |
 
-.. _release-1.16.8.1:
+.. _release-1.16.9:
 
-CMP Nivola 1.16.8.1 - patch (2024-12-19)
-----------------------------------------
+CMP Nivola 1.16.9 - patch (2025-01-07)
+--------------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  parametri per starter pack Oracle al provisioning di dbaas; 
+
+•  uso di orchestrator_tag al lancio delle customization; 
+
+•  aggiunta configurazione mailx e mount dei file system NFS per backup durante il provisioning di dbaas Oracle; 
+
 
 *Bug fixing*
 
-•  regressione nell'allestimento di servizi CPAAS e DBAAS la cui creazione si appoggia su automazioni ansible con risorse da reperire su repository interni
+•  fix errore cancellazione volume se None (NSP-3617) 
+
+•  fix metodo UpdateServiceConfigParamRequestSchema; 
+
+•  fix orchestrator enable_log_module; 
+
+•  fix add tag on creation; 
+
+•  aggiunto tag di backup per i dischi destinati ai buckup fisici in fase di creazione di dbaas Oracle; 
+
+ 
+*Improvement*
+
+•  logging space ora aggiunge e cancella le dashboard 
+
+•  migrata cutomization os-utility2 su nuovi awx server; 
+
+•  gestione job_tags per awx nei module (logaas); 
+
+•  logging instance per dbaas 
 
 |
 
