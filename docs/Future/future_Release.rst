@@ -5,9 +5,73 @@
 **Portale**
 ***********
 
-*Versione 4.x*
+*Versione 4.20.0*
 
-*Data prevista*
+*Data prevista: giovedì 30 ottobre 2025*
+
+*Nuove funzionalità/Improvement*
+
+- introduzione dell'automazione VPN con MFA su Akamai
+
+- elenco ECAAS
+
+- controllo IP liberi subnet in creazione vm/dbaas
+
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
+*Versione 4.21.0*
+
+*Data prevista: dicembre 2025*
+
+*Nuove funzionalità/Improvement*
+
+- ChatBot
+
+- sistema di avvisi in evidenza
+
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
+*Versione 4.22.0*
+
+*Data prevista: febbraio 2026*
+
+*Nuove funzionalità/Improvement*
+
+- Symon Mercato
+
+- risposta da parte dell’utente ad un ticket su richiesta chiarimenti da Support / Operations
+
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
+*Versione 4.23.0*
+
+*Data prevista: marzo 2026*
+
+*Nuove funzionalità/Improvement*
+
+- IP Pubblici
+
+- profilo VPN custom su account, quando censito
+
+
+*Bug fixing*
+
+- risoluzione bug fix minori
 
 |
 
