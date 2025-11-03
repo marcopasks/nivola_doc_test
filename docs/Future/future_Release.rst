@@ -5,6 +5,24 @@
 **Portale**
 ***********
 
+*Versione 4.20.0*
+
+*Data prevista: novembre 2025*
+
+*Nuove funzionalità/Improvement*
+
+•  Introduzione dell'automazione VPN con MFA su Akamai
+
+•  Elenco ECAAS
+
+•  Controllo IP liberi subnet in creazione vm/dbaas
+
+•  Nuova tipologia report ticket
+
+•  Bug fixing minori
+
+|
+
 *Versione 4.21.0*
 
 *Data prevista: dicembre 2025*
@@ -59,9 +77,47 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.x*
+*Versione 1.17.11*
 
-*Data prevista*
+*Data prevista: giovedì 6 novembre 2025*
+
+==Nuove funzionalità e improvement==
+
+- hard poweroff when deleting vm or db
+
+- added 19EE3 as oracle 19c
+
+- stack helper commons
+
+- ECAAS:
+
+	- create/update namespace calling ns-provisioning-api
+
+ 	- namespace: check valid mandatory fields, complete delete
+
+ 	- namespace: minor: add check changes to namespace to avoid update task
+
+- Info: nuovi comandi CLI per ECAAS in Nivola Manuale Tecnico Gestione Servizi
+
+|
+
+==Bug fixing==
+
+- imports fix
+
+- Vulnerability Assestment fixes: added CSP header and removed remote-server http response header
+
+- ECAAS:
+
+	- namespace: fix allowed fields empty
+
+	-namespace: fix allowed... fields
+
+- STAAS v2: aggiunto attributo CreationToken in share_data di DR e volume unlinked
+
+- increase timeout creating openstack volume
+
+- fix ColoredFormatter
 
 |
 
