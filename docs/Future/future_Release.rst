@@ -5,25 +5,6 @@
 **Portale**
 ***********
 
-*Versione 4.20.0*
-
-*Data prevista: giovedì 30 ottobre 2025*
-
-*Nuove funzionalità/Improvement*
-
-- introduzione dell'automazione VPN con MFA su Akamai
-
-- elenco ECAAS
-
-- controllo IP liberi subnet in creazione vm/dbaas
-
-
-*Bug fixing*
-
-- risoluzione bug fix minori
-
-|
-
 *Versione 4.21.0*
 
 *Data prevista: dicembre 2025*

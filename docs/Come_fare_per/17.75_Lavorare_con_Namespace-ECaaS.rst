@@ -1,0 +1,17 @@
+
+**Lavorare con i Namespace (ECaaS)**
+************************************
+
+La funzione rientra nel menù **Servizi**. Il servizio per consultazione dei Namespace (ECaas) è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Elenco Namespace** sotto la label **ECAAS**.
+
+
+.. image:: img/17.75_ECaaS1.png
+
+
+.. toctree::
+   :maxdepth: 2
+
+   17.75.1_Elenco_Namespace.rst
+   17.75.2_Elenco_Namespace_Dettaglio.rst
+   

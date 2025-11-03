@@ -1,0 +1,15 @@
+
+**Elenco Namespace**
+********************
+
+La funzione rientra nel menù **Servizi**. Il servizio per consultazione dei Namespace (ECaas) è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Elenco Namespace** sotto la funzione **ECAAS**.
+
+.. image:: img/17.75_ECaaS1.png
+
+|
+
+A seguito di un clic su **Elenco Namespace**, il sistema popolerà la
+parte destra del video con il relativo elenco
+
+.. image:: img/17.75_ECaaS2.png

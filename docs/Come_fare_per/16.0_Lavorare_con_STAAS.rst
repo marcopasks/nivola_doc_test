@@ -3,7 +3,7 @@
 ****************************************
 
 Il servizio per la creazione e gestione di spazio disco è attivabile dalla parte
-sinistra dello schermo, cliccando sulla label **Shares** sotto la funzione **Storage**.
+sinistra dello schermo, cliccando sulla label **Shares** sotto la label **Storage**.
 
 
 .. image:: img/16.1_ElencoShareSX.png

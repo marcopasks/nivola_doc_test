@@ -1,0 +1,13 @@
+
+**Dettaglio Namespace**
+***********************
+
+Selezionando il Namespace desiderato e cliccando sul pulsante **Dettaglio Namespace** sarà possibile consultare il dettaglio
+
+.. image:: img/17.75_ECaaS3.png
+
+|
+
+Verrà visualizzata la seguente pagina
+
+.. image:: img/17.75_ECaaS4.png

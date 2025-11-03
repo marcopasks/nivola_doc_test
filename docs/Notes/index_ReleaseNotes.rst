@@ -5,6 +5,25 @@
 **Portale**
 ***********
 
+.. _release-4.20.0:
+
+Service Portal 4.20.0 (2025-11-03)
+----------------------------------
+
+*Nuove funzionalità/Improvement*
+
+•  Introduzione dell'automazione VPN con MFA su Akamai
+
+•  Elenco ECAAS
+
+•  Controllo IP liberi subnet in creazione vm/dbaas
+
+•  Nuova tipologia report ticket
+
+•  Bug fixing minori
+
+|
+
 .. _release-4.19.1:
 
 Service Portal 4.19.1 (2025-09-30)
