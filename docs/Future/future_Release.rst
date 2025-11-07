@@ -92,16 +92,14 @@
 
 Nuovi template in automazione
 
-- Mysql 8.4 - Settembre/Ottobre 2025
+- Mysql 8.4 - Dicembre 2025
 
-- Postgres16 - Agosto 2025
+- Oracle Enterprise 23c - Gennaio 2026
 
-- Oracle Enterprise 23c - Settembre/Ottobre 2025
+- Oracle Standard 23 - Gennaio 2026
 
-- Oracle Standard 23 - Settembre/Ottobre 2025
-
-- MariaDB 11.4 - Novembre/Dicembre 2025
+- MariaDB 11.4 - Novembre 2025
 
 Aggiornamento Template
 
-- Aggiornamento Oracle19 alla versione Oracle 19.26 - Giugno/Luglio 2025
+- Aggiornamento Oracle 19.26 su s.o. Oracle Linux 9- Novembre 2025
