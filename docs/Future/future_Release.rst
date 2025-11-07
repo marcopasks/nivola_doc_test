@@ -13,7 +13,7 @@
 
 - ChatBot
 
-- sistema di avvisi in evidenza
+- Monitoraggio applicativo utenti "mercato" - Symon
 
 
 *Bug fixing*
@@ -27,8 +27,6 @@
 *Data prevista: febbraio 2026*
 
 *Nuove funzionalità/Improvement*
-
-- Symon Mercato
 
 - risposta da parte dell’utente ad un ticket su richiesta chiarimenti da Support / Operations
 
@@ -59,9 +57,26 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.x*
+*Versione 1.17.12*
 
-*Data prevista*
+*Data prevista: novembre/dicembre 2025*
+
+*Nuove funzionalità/Improvement*
+
+- Refactoring DBaaS con automazioni dichiarate nelle definizioni  
+- Golden Copy STaaS
+- Cancellazione dell'associazione di definizione dagli account
+- Provisioning e deprovisoning LBaaS
+
+|
+
+*Versione 1.18.0*
+
+*Data prevista: dicembre 2025 /gennaio 2026*
+
+- Consolidamento con test di non regressione
+
+- Bug fixing
 
 |
 
