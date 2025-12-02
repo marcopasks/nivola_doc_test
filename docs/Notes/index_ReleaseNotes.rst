@@ -1441,6 +1441,43 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.12 - patch (2025-11-27)
+---------------------------------------
+
+*Nuove funzionalità e improvement*
+
+- STAAS v2: compliance management: aggiunta volume snaplock a volume non-compliant
+
+- DBAAS: refactoring: dati e parametri per la creazione dei dbaas sono stati spostati dal codice alle definizioni
+
+- ECAAS: gestione delle network Policy
+
+- Nuovo metodo per cancellare l'associazione delle definizioni all'account
+
+- Parametrizzazione delle metriche di consumo per ComputeInstance, ComputeVolume attraverso attributo metrics_prefix
+
+- Informazione relative al middleware installato sulle ApiComputeInstace
+
+- Supporto trasparente ad oggetti privi di cache
+
+- Liste di log in GrafanaFolder
+
+- vSphere NSX: aggiornamento sezione del DFW
+
+- Account Amco e Sirmet: introdotta validazione volume_types in creazione vm
+
+*Bug fixing*
+
+- Eliminato bug nel calcolo degli IP disponbili per i VPC private
+
+- Eliminato bug in abilitazione e disabilitazione della compliance su share v2
+
+- Type hints
+ 
+- Migliorie varie al codice
+
+|
+
 CMP Nivola 1.17.11 - patch (2025-11-06)
 ---------------------------------------
 
