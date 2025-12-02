@@ -5,6 +5,15 @@
 **Portale**
 ***********
 
+.. _release-4.20.1:
+
+Service Portal 4.20.1 (2025-11-20)
+----------------------------------
+
+•  Bugfix minori
+
+|
+
 .. _release-4.20.0:
 
 Service Portal 4.20.0 (2025-11-04)

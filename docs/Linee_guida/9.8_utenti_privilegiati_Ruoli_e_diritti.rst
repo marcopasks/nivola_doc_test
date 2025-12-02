@@ -72,6 +72,11 @@ dei costi e dei consumi aggregati dell'account. Il Viewer di account non può
 registrare nuovi utenti all’interno della piattaforma e non può
 profilare altri utenti ad accedervi.
 
+**Operatore di Account**: stessi privilegi del «Viewer di Account», con in più la 
+possibilità di abilitare monitoraggio e logging, di creare nuovo utente, apertura 
+di ticket per attivazione di alcune specifiche tipologie di servizi, connessione 
+vm, gestione chiavi ssh, autorizzazioni shares, modifica security group.
+
 La fase di introduzione di un nuovo utente si articola in questo modo:
 un master, nel limite dei privilegi del suo livello gerarchico, può
 accreditare un utente registrato sulla piattaforma assegnandogli un
