@@ -7,7 +7,7 @@
 
 *Versione 4.21.0*
 
-*Data prevista: dicembre 2025*
+*Data prevista: 10 dicembre 2025*
 
 *Nuove funzionalità/Improvement*
 
@@ -57,16 +57,15 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.12*
+*Versione 1.17.13*
 
-*Data prevista: novembre/dicembre 2025*
+*Data prevista: giovedì 11 dicembre 2025*
 
-*Nuove funzionalità/Improvement*
+*Bug fixing*
 
-- Refactoring DBaaS con automazioni dichiarate nelle definizioni  
-- Golden Copy STaaS
-- Cancellazione dell'associazione di definizione dagli account
-- Provisioning e deprovisoning LBaaS
+- STAAS v2: Corretto bug per cui il size di un volume nel comando di list poteva non essere visualizzato correttamente
+
+- ECAAS namespace: remove check_environment in update (namsepaces created with no rules)
 
 |
 
