@@ -31,9 +31,21 @@ Comparirà la seguente schermata di conferma, comprensiva del link di accesso al
 
 .. image:: img/14.5_MonBussTrans6.png
 
+|
+
+Cliccando sul link indicato https://symon-enti.nivolapiemonte.it/ si accederà alla seguente pagina:
+
+.. image:: img/14.5_MonBussTrans9.png
+
+Una volta effettuato l'accesso si atterra nella dashboard di SyMon:
+
+.. image:: img/14.5_MonBussTrans10.png
+
 |   
 
-Dopo aver cliccato sul tasto **OK** in basso a destra, comparirà il seguente messaggio di conferma:
+Tornando all'ultimo messaggio sul portale Nivola, dopo aver cliccato sul tasto **OK** in basso a destra, comparirà il seguente messaggio di conferma in verde:
+
+.. image:: img/14.5_MonBussTrans6.png
 
 .. image:: img/14.5_MonBussTrans7.png
 
