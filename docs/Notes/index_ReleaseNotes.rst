@@ -5,6 +5,20 @@
 **Portale**
 ***********
 
+.. _release-4.21.0:
+
+Service Portal 4.21.0 (2025-12-10)
+
+*Nuove funzionalità/Improvement*
+
+•  ChatBot
+
+•  Monitoraggio applicativo utenti "mercato" - Symon
+
+•  Bug fixing minori
+
+|
+
 .. _release-4.20.1:
 
 Service Portal 4.20.1 (2025-11-20)

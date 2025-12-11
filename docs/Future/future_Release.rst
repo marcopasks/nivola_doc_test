@@ -5,23 +5,6 @@
 **Portale**
 ***********
 
-*Versione 4.21.0*
-
-*Data prevista: 10 dicembre 2025*
-
-*Nuove funzionalità/Improvement*
-
-- ChatBot
-
-- Monitoraggio applicativo utenti "mercato" - Symon
-
-
-*Bug fixing*
-
-- risoluzione bug fix minori
-
-|
-
 *Versione 4.22.0*
 
 *Data prevista: febbraio 2026*
