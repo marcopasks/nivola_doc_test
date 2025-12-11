@@ -1,0 +1,15 @@
+
+**Elenco Monitoraggio di Business Transactions**
+************************************************
+
+La funzione rientra nel menù **Strumenti**. IL Monitoraggio di Business Transactions è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Servizi di Business** sotto la label **Monitoraggio**.
+
+.. image:: img/14.5_MonBussTrans1.png
+
+|
+
+A seguito di un clic su **Servizi di Business**, il sistema popolerà la
+parte destra del video con il relativo elenco:
+
+.. image:: img/14.5_MonBussTrans2.png

@@ -57,18 +57,6 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.17.13*
-
-*Data prevista: giovedì 11 dicembre 2025*
-
-*Bug fixing*
-
-- STAAS v2: Corretto bug per cui il size di un volume nel comando di list poteva non essere visualizzato correttamente
-
-- ECAAS namespace: remove check_environment in update (namsepaces created with no rules)
-
-|
-
 *Versione 1.18.0*
 
 *Data prevista: dicembre 2025 /gennaio 2026*

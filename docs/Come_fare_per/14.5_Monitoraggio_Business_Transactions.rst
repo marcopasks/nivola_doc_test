@@ -1,0 +1,23 @@
+
+**Monitoraggio di Business Transactions**
+*****************************************
+
+La funzione rientra nel menù **Strumenti**. IL Monitoraggio di Business Transactions è attivabile dalla parte
+sinistra dello schermo, cliccando sulla label **Servizi di Business** sotto la label **Monitoraggio**.
+
+.. image:: img/14.5_MonBussTrans1.png
+
+|
+
+**Caratteristiche del servizio**
+
+Il servizio permette il monitoraggio di business transactions relativamente ad applicazioni ospitate su infrastruttura cloud Nivola del cliente.
+Attraverso un’applicazione front-end Web è possibile visualizzare lo stato di disponibilità dell’applicazione nelle business transactions oggetto di monitoraggio.
+
+|
+
+.. toctree::
+   :maxdepth: 2
+
+   14.5.1_Lista_Monitoraggio_Business_Transactions.rst
+   14.5.2_Creazione_Monitoraggio_Business_Transactions.rst

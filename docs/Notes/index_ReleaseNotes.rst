@@ -1441,6 +1441,17 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.17.13 - patch (2025-12-11)
+---------------------------------------
+
+*Bug fixing*
+
+- STAAS v2: Corretto bug per cui il size di un volume nel comando di list poteva non essere visualizzato correttamente
+
+- ECAAS namespace: remove check_environment in update (namsepaces created with no rules)
+
+|
+
 CMP Nivola 1.17.12 - patch (2025-11-27)
 ---------------------------------------
 
