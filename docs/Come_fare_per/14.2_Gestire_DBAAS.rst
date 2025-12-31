@@ -1,28 +1,26 @@
-.. _Gestire_DBAAS:
 
-**Gestire le istanze Database as a Service**
-********************************************
+**Gestire Virtual Machine**
+***************************
 
-La gestione del **Data Base as Service** è attivabile da
-servizio **Database** nella parte sinistra dello schermo. Cliccando sulla freccia
-a destra della funzione, apparirà  **Istanze DBAAS** e a seguito di
-un clic su quest'ultima opzione, il sistema popolerà la
-parte destra del video con l'**Elenco DBAAS** e i pulsanti da cui
-attivare le operazioni.
-
+La gestione delle **Database as a Service** è attivabile dalla voce **Compute** posta
+nella parte sinistra dello schermo sotto la voce **Servizi**. Espandendo il relativo menù, 
+cliccare su **Istanze DBAAS** per popolare la parte destra del video con l'**Elenco Dbaas**.
 
 
 **Cercare una istanza istanze Database as a Service**
 =====================================================
 
-All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create
+All'interno di ciascun Account è possibile fare ricerche su tutte le istanze create.
 La ricerca è eseguita tramite una stringa inserita dall’operatore.
 Nivola ricerca il set di caratteri nelle colonne dove sono elencate
-le caratteristiche dei server. Per eseguire una ricerca è necessario procedere come segue:
+le caratteristiche dei server.
+Per eseguire una ricerca è necessario procedere in questo modo:
 
     1. Inserire stringa di ricerca sotto la label **"Ricerca"** e premere invio;
 
        .. image:: img/DBAAS_Ricerca_start.png
+
+   |
 
     2. Attendere che il sistema popoli, con il risultato, la parte destra del video;
 

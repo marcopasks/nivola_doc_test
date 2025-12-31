@@ -3,9 +3,9 @@
 **Cancellare un'istanza Database as a Service**
 ***********************************************
 
-Per **cancellare** un **istanza DBAAS** seguire i seguenti passaggi:
+Per **cancellare** una **istanza DBAAS** seguire i seguenti passaggi:
 
-    1. Selezionare l'**istanza del dbaas** VM dall’Elenco dbaas e fare clic sul pulsante **cancella**;
+    1. Selezionare l'**istanza del dbaas** dall’Elenco dbaas e fare clic sul pulsante **Elimina**;
 
        .. image:: img/DBAAS_seleziona_istanza.png
 
@@ -13,5 +13,8 @@ Per **cancellare** un **istanza DBAAS** seguire i seguenti passaggi:
 
       .. image:: img/Pulsante_cancella.png
 
-    3. Confermare con il tasto **"SI"** e l'istanza sarà cancellata;
+    3. Verrà chiesta prima conferma, e poi verrà chiesto di inserire nuovamente il nome dello share selezionato per ulteriore conferma
 
+      .. image:: img/14.3_Cancellare_DBAAS1.png
+
+      .. image:: img/14.3_Cancellare_DBAAS2.png

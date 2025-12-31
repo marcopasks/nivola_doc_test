@@ -90,8 +90,6 @@ Il tab **DETTAGLIO** fornisce all’utente informazioni dettagliate sulla divisi
 
 ●	Descrizione
 
-●	Indirizzo geografico
-
 ●	Indirizzo Email
 
 ●	Referente 
@@ -108,22 +106,11 @@ il pulsante reindirizza l’utente all’elenco Account collegati alla divisione
 
 .. image:: img/03_reindirizza.png
 
-|
-
-Sotto la prima parte di dettaglio si trovano i servizi di Compute, DataBase e Storage della divisione scelta
-
-.. image:: img/03_CompDataStore.png
+.. image:: img/03_dettaglio_divisioneDX2.png
 
 |
 
-Nella scheda **UTENTI** si ritrova un elenco degli utenti abbinati alla divisione selezionata, 
-con la possibilità di registrarne uno nuovo:
-
-.. image:: img/03_Utenti.png
-
-|
-
-Nell’ultimo tab **CONSUMI** si ritrova un elenco dei costi e consumi specifici per la divisione scelta:
+Nel tab **CONSUMI** si ritrova un elenco dei costi e consumi specifici per la divisione scelta:
 
 .. image:: img/03_Consumi.png
 

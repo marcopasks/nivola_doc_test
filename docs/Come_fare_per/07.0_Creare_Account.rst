@@ -37,6 +37,7 @@ Compariranno quindi le seguenti altre voci da compilare:
 - Numero di telefono del Referente
 - impostazione account (Not managed / Managed)
 - Acronimo
+- Abilita report costi per servizio
 - Person ID
 - Modello di gestione
 

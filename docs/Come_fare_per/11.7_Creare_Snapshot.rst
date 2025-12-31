@@ -27,7 +27,7 @@ Per la creazione dello **snapshot**, procedere in questo modo:
 
 |
 
-3. Dal pannello di Gestione VM, selezionare il tab **SNAPSHOT**:
+3. Dal **Pannello di Gestione VM**, selezionare il tab **SNAPSHOT**:
 
 .. image:: img/11.7_snapTab.png
 

@@ -73,18 +73,28 @@ Ci sono diverse schede nel dettaglio account:
 
 ●	**CONSUMI** per un dettaglio sulle spese dell’account
 
+●	**WBS** con le relative ripartizioni
+
 ●	**SERVIZI** come elenco dei servizi aggiuntivi richiesti per l’account, che vanno da VM a DataBase, a Storage, ecc…
 
 ●	**QUOTE** 
 
 ●	**SERVIZI DI GESTIONE ABILITATI** per un elenco dei servizi di gestione dell’account richiesti o attivabili
 
+●	**ANAGRAFICA PRODOTTI**
+
 ●	**ALLEGATI**
 
-●	**WBS**
+
 
 |
 
 Accedendo al tab **Servizi** si trovano i servizi di Compute, DataBase, Storage, Security Group,  VPC, Volumi, Logging, Monitoraggi dell’account scelto:
 
 .. image:: img/04_ComDataStor.png
+
+|
+
+Lo stesso percorso è raggiungibile selezionando l'account e cliccando su "Gestione Servizi" in alto a destra
+
+.. image:: img/04_Master_di_Division2.png

@@ -65,7 +65,7 @@ Per effettuare l'abilitazione procedere nel seguente modo:
 
     |
 
-        7. la VM comparirà in elenco con stato **ATTIVA**
+        7. dopo alcuni secondi di attesa la VM comparirà in elenco con stato **ATTIVA**
 
         .. image:: img/11.25_MonitoringOK.png
 
@@ -141,3 +141,5 @@ Per accedere al portale **Grafana**, occorre cliccare sulla relativa voce in blu
 .. image:: img/11.25_DashboardGrafDX.png
 
 si verrà automaticamente indirizzati alla relativa pagina di autenticazione.
+
+.. image:: img/11.25_DashboardGrafDX9.png

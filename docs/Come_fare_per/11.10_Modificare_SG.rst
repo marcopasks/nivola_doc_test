@@ -36,6 +36,9 @@ Dopo averlo selezionato e premuto il pulsante **CONFERMA** si creerà l’associ
 
 .. image:: img/VM_Modifica_SG_A.png
 
+L'operazione non è immediata: durante il processo, la VM assumerà uno stato temporaneo. Tornata in stato running,
+il Security Group appena aggiunto sarà visibile.
+
 |
 
 5. Per eliminare un **Security Group** assegnato alla VM, premere la **“X”** rossa a sinistra del gruppo già associato.

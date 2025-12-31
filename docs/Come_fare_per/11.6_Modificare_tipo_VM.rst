@@ -10,7 +10,7 @@ Per **modificare il tipo VM** è necessario procedere in questo modo:
 
     1. Selezionare il server dall’**Elenco VM** e fare clic sul pulsante **Pannello gestione VM**;
 
-       .. image:: img/Ricerca_VM.png
+       .. image:: img/Ricerca_VM-11.6.png
 
 |
 

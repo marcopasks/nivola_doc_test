@@ -3,8 +3,8 @@
 **Creare Utente esternamente al Service Portal**
 ################################################
 
-Nel caso non sia possibile la creazione di un account all’interno del Service Portal è necessario contattare il servizio di assistenza secondo i canali a disposizione 
-richiedendo la creazione dell’account con i seguenti dati minimi obbligatori:
+Nel caso non sia possibile la creazione di un utente all’interno del Service Portal è necessario contattare il servizio di assistenza secondo i canali a disposizione 
+richiedendo la creazione dell’utente con i seguenti dati minimi obbligatori:
 
 - Nome
 - Cognome
