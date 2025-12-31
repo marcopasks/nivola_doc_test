@@ -1,6 +1,6 @@
 
-**Gestire Virtual Machine**
-***************************
+**Gestire Database as a Service**
+*********************************
 
 La gestione delle **Database as a Service** è attivabile dalla voce **Compute** posta
 nella parte sinistra dello schermo sotto la voce **Servizi**. Espandendo il relativo menù, 
