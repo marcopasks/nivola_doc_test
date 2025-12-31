@@ -17,4 +17,6 @@ Per **cancellare** una **istanza DBAAS** seguire i seguenti passaggi:
 
       .. image:: img/14.3_Cancellare_DBAAS1.png
 
+    |
+
       .. image:: img/14.3_Cancellare_DBAAS2.png
