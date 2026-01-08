@@ -127,9 +127,13 @@ cliccando sulla label **Report**
 
 .. image:: img/24.5_tag100.png
 
+|
+
 A seguito di un click su **Report**, il sistema permetterà di accedere alle pagina **Lista Report**
 
 .. image:: img/24.5_tag101.png
+
+|
 
 All'interno della prima sezione occorre:
 
@@ -137,11 +141,17 @@ All'interno della prima sezione occorre:
 
 .. image:: img/24.5_tag102.png
 
+|
+
 - impostare il mese dal secondo campo denominato "Periodo report". Per far comparire la lista dei mesi cliccare sull'icona sulla sinistra a forma di calendario
 
 .. image:: img/24.5_tag103.png
 
+|
+
 - dall'ultimo campo, impostare **PDF** oppure **CSV**
+
+|
 
 - cliccare su **SCARICA IL REPORT** per effettuare il download in locale del report
 

@@ -9,11 +9,15 @@ Per **cancellare** una **istanza DBAAS** seguire i seguenti passaggi:
 
        .. image:: img/DBAAS_seleziona_istanza.png
 
+    |
+
     2. Cliccare su tasto **"Elimina"**;
 
       .. image:: img/Pulsante_cancella.png
 
-    3. Verrà chiesta prima conferma, e poi verrà chiesto di inserire nuovamente il nome dello share selezionato per ulteriore conferma
+    |
+
+    3. Verrà chiesta prima conferma, e nella schermata successiva verrà chiesto di inserire nuovamente il nome dello share selezionato per ulteriore conferma
 
       .. image:: img/14.3_Cancellare_DBAAS1.png
 

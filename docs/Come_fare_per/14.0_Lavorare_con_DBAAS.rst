@@ -2,7 +2,7 @@
 **Lavorare con il Database as a Service**
 *****************************************
 
-“Database as a Service” sono servizi gestiti, costituiti da ambienti virtuali
+I **Database as a Service** sono servizi gestiti, costituiti da ambienti virtuali
 dedicati  in differenti configurazioni e tecnologie, con differenti livelli di
 affidabilità e ridondanza in funzione delle esigenze del Cliente.
 
