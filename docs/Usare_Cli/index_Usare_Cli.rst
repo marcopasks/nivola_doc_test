@@ -10,6 +10,6 @@ nascondendo la complessità sottostante.
 
 
 In questa sezione, sono raccolte le istruzioni per interagire con la piattaforma, 
-attraverso la **Command Line Interface**:
+attraverso la suddetta **Command Line Interface**:
  
-:download:`Beehive CLI HTML completo <_static/BeehiveCLI.html>`
+`Beehive CLI HTML completo <../../_static/BeehiveCLI.html>`_
