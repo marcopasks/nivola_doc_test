@@ -12,4 +12,4 @@ nascondendo la complessità sottostante.
 In questa sezione, sono raccolte le istruzioni per interagire con la piattaforma, 
 attraverso la suddetta **Command Line Interface**:
  
-`Beehive CLI HTML completo </tree/master/_staticc/BeehiveCLI.html>`_
+`Beehive CLI HTML completo </tree/master/_static/BeehiveCLI.html>`_
