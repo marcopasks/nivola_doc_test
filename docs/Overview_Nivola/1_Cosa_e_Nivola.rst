@@ -45,7 +45,7 @@ amministrazione. Il Cliente ha a disposizione un ampio catalogo di servizi facil
 esposti attraverso le Application Program Interfaces (API), un insieme uniforme di funzionalità accessibili via software.
 
 Il progetto Nivola ha realizzato una moderna piattaforma cloud mettendo a disposizione infrastrutture “cloud ready”, servizi di automazione, 
-ervizi di orchestrazione, tools di controllo e governo ed un Service Portal rivolto all’utente in grado di governare l’intero ciclo di vita 
+servizi di orchestrazione, tools di controllo e governo ed un Service Portal rivolto all’utente in grado di governare l’intero ciclo di vita 
 dei servizi cloud. Il cuore della piattaforma è rappresentato dalla Cloud Management Platform (CMP) che è stata sviluppata in Python e che 
 dal punto di vista architetturale offre uno strato di API di business (Application Programming Interface) esposte tramite Web Services di 
 tipo REST (REpresentational State Transfer).
