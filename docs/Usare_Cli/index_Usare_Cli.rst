@@ -17,3 +17,11 @@ Visualizza il :file:https://github.com/marcopasks/nivola_doc_test/tree/master/_s
 .
 
 Visualizza il :file:_static/BeehiveCLI.html
+
+.
+
+Visualizza il :any:_static/BeehiveCLI.html
+
+.
+
+Visualizza il :download:_static/BeehiveCLI.html
