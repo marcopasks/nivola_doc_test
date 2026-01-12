@@ -12,8 +12,8 @@ nascondendo la complessità sottostante.
 In questa sezione, sono raccolte le istruzioni per interagire con la piattaforma, 
 attraverso la suddetta **Command Line Interface**:
  
-Visualizza il :download:`Report HTML completo <_static/BeehiveCLI.html>`
+Visualizza il :file:https://github.com/marcopasks/nivola_doc_test/tree/master/_static/BeehiveCLI.html
 
 .
 
-Visualizza il :file:`Report HTML completo <_static/BeehiveCLI.html>`
+Visualizza il :file:_static/BeehiveCLI.html
