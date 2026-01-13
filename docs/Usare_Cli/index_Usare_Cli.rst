@@ -16,28 +16,28 @@ Visualizza il :file:`https://github.com/marcopasks/nivola_doc_test/tree/master/_
 
 .
 
-Visualizza il :file:`_static/BeehiveCLI.html`
+Visualizza (file) il :file:`_sources/_static/BeehiveCLI.html`
 
 .
 
-Visualizza il :any:`_static/BeehiveCLI.html`
+Visualizza (any) il :any:`_sources/_static/BeehiveCLI.html`
 
 .
 
-Visualizza il :download:`_static/BeehiveCLI.html`
+Visualizza (download) il :download:`_sources/_static/BeehiveCLI.html`
 
 .
 
-Gemini1 - Visualizza la `Documentazione BeehiveCLI <_static/BeehiveCLI.html>`_
-
-.
-
-.. raw:: html
-
-   <a href="_static/BeehiveCLI.html" target="_blank">Gemini 2 - Visualizza BeehiveCLI in una nuova scheda</a>
+Gemini1 - Visualizza la `Documentazione BeehiveCLI <_sources/_static/BeehiveCLI.html>`_
 
 .
 
 .. raw:: html
 
-   <iframe src="_static/BeehiveCLI.html" width="100%" height="500px"></iframe>
+   <a href="_sources/_static/BeehiveCLI.html" target="_blank">Gemini 2 - Visualizza BeehiveCLI in una nuova scheda</a>
+
+.
+
+.. raw:: html
+
+   <iframe src="_sources/_static/BeehiveCLI.html" width="100%" height="500px"></iframe>
