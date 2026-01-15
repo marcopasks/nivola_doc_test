@@ -37,3 +37,23 @@ Visualizza OK5 il :file:`Report HTML completo <tree/master/_static/BeehiveCLI.ht
 .
 
 Visualizza OK6 il :file:`Report HTML completo <master/_static/BeehiveCLI.html>`
+
+.
+
+Visualizza OK11 il :file:`Report HTML completo <https://nivola-doc-test.readthedocs.io/it/latest/_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`
+
+.
+
+Visualizza OK12 il :file:`Report HTML completo <latest/_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`
+
+.
+
+Visualizza OK13 il :file:`Report HTML completo <_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`
+
+.
+
+Visualizza OK14 il :file:`Report HTML completo <_96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`
+
+.
+
+Visualizza OK15 il :file:`Report HTML completo <BeehiveCLI.html>`
