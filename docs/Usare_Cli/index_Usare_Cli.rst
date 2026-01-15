@@ -16,25 +16,24 @@ DOWNLOAD :download:`Report HTML completo <_static/BeehiveCLI.html>`
 
 .
 
-
-Visualizza OK1 il :file:https://github.com/marcopasks/nivola_doc_test/blob/master/static/BeehiveCLI.html
-
-.
-
-Visualizza OK2 il :file:https://github.com/marcopasks/nivola_doc_test/tree/master/_static/BeehiveCLI.html
+Visualizza OK1 il :file:`Report HTML completo <_static/BeehiveCLI.html>`
 
 .
 
-Visualizza OK3 il :file:tree/master/_static/BeehiveCLI.html
+Visualizza OK2 il :file:`Report HTML completo <https://github.com/marcopasks/nivola_doc_test/tree/master/_static/BeehiveCLI.html>`
 
 .
 
-Visualizza OK4 il :file:master/_static/BeehiveCLI.html
+Visualizza OK3 il :file:`Report HTML completo <marcopasks/nivola_doc_test/tree/master/_static/BeehiveCLI.html>`
 
 .
 
-Visualizza OK5 il :file:_static/BeehiveCLI.html
+Visualizza OK4 il :file:`Report HTML completo <nivola_doc_test/tree/master/_static/BeehiveCLI.html>`
 
 .
 
-Visualizza OK6 il :file:static/BeehiveCLI.html
+Visualizza OK5 il :file:`Report HTML completo <tree/master/_static/BeehiveCLI.html>`
+
+.
+
+Visualizza OK6 il :file:`Report HTML completo <master/_static/BeehiveCLI.html>`
