@@ -70,4 +70,32 @@ DOC :doc:`Report HTML completo <_static/BeehiveCLI.html>`
 
 **La Soluzione: Link Diretto**
 
-Visualizza il `Report HTML completo <_static/BeehiveCLI.html>`_
+Visualizza1 il `Report HTML completo <_static/BeehiveCLI.html>`_
+
+.
+
+Visualizza2 il `Report HTML completo <static/BeehiveCLI.html>`_
+
+.
+
+Visualizza3 il `Report HTML completo <latest/Usare_Cli/index_Usare_Cli.html>`_
+
+.
+
+Visualizza4 il `Report HTML completo <Usare_Cli/index_Usare_Cli.html>`_
+
+.
+
+Visualizza5 il `Report HTML completo <BeehiveCLI.html>`_
+
+.
+
+Visualizza6 il `Report HTML completo <nivola_doc_test/tree/master/_static/BeehiveCLI.html>`_
+
+.
+
+Visualizza7 il `Report HTML completo <tree/master/_static/BeehiveCLI.html>`_
+
+.
+
+Visualizza8 il `Report HTML completo <master/_static/BeehiveCLI.htmll>`_
