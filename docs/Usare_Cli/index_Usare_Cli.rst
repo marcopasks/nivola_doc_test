@@ -99,3 +99,19 @@ Visualizza7 il `Report HTML completo <tree/master/_static/BeehiveCLI.html>`_
 .
 
 Visualizza8 il `Report HTML completo <master/_static/BeehiveCLI.htmll>`_
+
+.
+
+Visualizza8 il `Report HTML completo <master/_static/BeehiveCLI.htmll>`_
+
+.
+
+Visualizza download1 il `Report HTML completo <latest/_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`_
+
+.
+
+Visualizza download2 il `Report HTML completo <_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`_
+
+.
+
+Visualizza download3 il `Report HTML completo <../_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`_
