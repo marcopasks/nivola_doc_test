@@ -57,3 +57,17 @@ Visualizza OK14 il :file:`Report HTML completo <_96300efcdb1cdfe94f7cc6bbadf19ec
 .
 
 Visualizza OK15 il :file:`Report HTML completo <BeehiveCLI.html>`
+
+.
+
+ANY :any:`Report HTML completo <_static/BeehiveCLI.html>`
+
+.
+
+DOC :doc:`Report HTML completo <_static/BeehiveCLI.html>`
+
+.
+
+**La Soluzione: Link Diretto**
+
+Visualizza il `Report HTML completo <_static/BeehiveCLI.html>`_
