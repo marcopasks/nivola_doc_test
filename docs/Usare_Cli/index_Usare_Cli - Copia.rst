@@ -12,8 +12,7 @@ nascondendo la complessità sottostante.
 In questa sezione, sono raccolte le istruzioni per interagire con la piattaforma, 
 attraverso la suddetta **Command Line Interface**:
 
-.. Questo blocco è un commento e non apparirà nell'HTML
-:download:`Report HTML completo <_static/BeehiveCLI.html>`
+DOWNLOAD :download:`Report HTML completo <_static/BeehiveCLI.html>`
 
 .
 
