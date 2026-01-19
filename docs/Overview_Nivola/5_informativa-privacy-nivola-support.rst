@@ -9,4 +9,3 @@
 .. image:: img/privacy-bot-4.png
 .. image:: img/privacy-bot-5.png
 .. image:: img/privacy-bot-6.png
-.. image:: img/privacy-bot-7.png
