@@ -14,8 +14,6 @@ attraverso la suddetta **Command Line Interface**:
 
 .. Questo blocco è un commento e non apparirà nell'HTML
 
-:download:`Report HTML completo <_static/BeehiveCLI.html>`
-
-
+:download:`. <_static/BeehiveCLI.html>`
 
 Visualizza il `Report HTML completo <../_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`_
