@@ -10,10 +10,6 @@ nascondendo la complessità sottostante.
 
 
 In questa sezione, sono raccolte le istruzioni per interagire con la piattaforma, 
-attraverso la suddetta **Command Line Interface**:
-
-.. Questo blocco è un commento e non apparirà nell'HTML
-
-:download:`. <_static/BeehiveCLI.html>`
+attraverso la suddetta **Command Line Interface**: :download:`. <_static/BeehiveCLI.html>`
 
 Visualizza il `Report HTML completo <../_downloads/96300efcdb1cdfe94f7cc6bbadf19ec0/BeehiveCLI.html>`_
