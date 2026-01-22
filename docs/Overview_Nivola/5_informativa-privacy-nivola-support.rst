@@ -9,3 +9,6 @@
 .. image:: img/privacy-bot-4.png
 .. image:: img/privacy-bot-5.png
 .. image:: img/privacy-bot-6.png
+
+.. COMMENTO: in caso necessità di scaricare pdf
+    :download:`Report HTML completo <static/informativa-privacy-nivola-bot-support.pdf>`

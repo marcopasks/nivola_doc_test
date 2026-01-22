@@ -7,6 +7,14 @@
 
 *Versione 4.22.0*
 
+*Data prevista: 26 gennaio 2026*
+
+- risoluzione bug fix minori
+
+|
+
+*Versione 4.23.0*
+
 *Data prevista: febbraio 2026*
 
 *Nuove funzionalità/Improvement*
@@ -20,7 +28,7 @@
 
 |
 
-*Versione 4.23.0*
+*Versione 4.24.0*
 
 *Data prevista: marzo 2026*
 
@@ -40,49 +48,11 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.0*
+*Versione 1.18.x*
 
-*Data prevista: giovedì 22 gennaio 2026*
+*Data prevista: febbraio 2026*
 
-*Componenti SW*
-
-- Upgrade del runtime Python da 3.9 a 3.12
-
-- Aggiornamento delle dipendenze di progetto alle versioni più recenti compatibili
-
-- Rimosse alcune librerie non necessarie
-
-*Nuove funzionalità e improvement*
-
-- STAAS v2: informazioni sull'aggregato e sulle policy di snaplock
-
-- STAAS v2: raccolta metriche relative alla tipologie di volumi condivisi
-
-- Gestione LBAAS come PAAS
-
-- Raccolta consumi relativi all'utilizzo di IP pubblici
-
-- Aggiunti test di non regressione
-
-- Aggiunti type hints e migliorata leggibilità del codice
-
-- Eliminato client Camunda
-
-- Eliminati file inutilizzati e metodi duplicati
-
-*Bug fixing*
-
-- Corrette definizioni di schemi usati per la validazione dei parametri e la generazione delle specifiche delle API
-
-- Modificata gestione delle sessioni LDAP
-
-- Eliminata possibilità di SQL Injection
-
-- Corretti test di non regressione
-
-- Corretti errori di digitazione
-
-- Corretti errori vari
+- implementazoni KMS e postgres
 
 |
 
