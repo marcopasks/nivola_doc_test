@@ -5,6 +5,20 @@
 **Portale**
 ***********
 
+.. _release-4.21.1:
+
+Service Portal 4.21.1 (2026-01-26)
+
+*Nuove funzionalità/Improvement*
+
+•  Pubblicazione SLA II semestre 2025
+
+•  Correzioni strumenti per i rendiconti 2025
+
+•  Bug fixing minori
+
+|
+
 .. _release-4.21.0:
 
 Service Portal 4.21.0 (2025-12-10)

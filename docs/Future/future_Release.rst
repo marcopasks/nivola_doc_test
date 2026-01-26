@@ -7,14 +7,6 @@
 
 *Versione 4.22.0*
 
-*Data prevista: 26 gennaio 2026*
-
-- risoluzione bug fix minori
-
-|
-
-*Versione 4.23.0*
-
 *Data prevista: febbraio 2026*
 
 *Nuove funzionalità/Improvement*
@@ -28,7 +20,7 @@
 
 |
 
-*Versione 4.24.0*
+*Versione 4.23.0*
 
 *Data prevista: marzo 2026*
 
