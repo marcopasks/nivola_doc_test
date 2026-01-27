@@ -175,6 +175,12 @@ ambientali significativi sui quali effettuare un monitoraggio continuo, per il p
 
 |
 
+**Qualifiche ACN**
+
+Le Infrastrutture e Servizi Cloud Nivola sono qualificate/adeguate ACN Livello 2 e sono esposte nel catalogo ACN delle infrastrutture e dei servizi cloud.
+
+|
+
  |pic1|
 
 .. |pic1| image:: img/Cert_infrastruttura.png
