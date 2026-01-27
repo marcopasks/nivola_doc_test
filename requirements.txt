@@ -1,2 +1,5 @@
-docutils<0.18
+# docs/requirements.txt aggiornato
+sphinx>=7.2.0
+sphinx_rtd_theme>=2.0.0
+docutils<0.19
 sphinxcontrib-jquery
