@@ -1469,6 +1469,31 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.1 - patch (2026-02-12)
+--------------------------------------
+
+*Componenti SW*
+
+- Aggiornamento ProxySQL e RabbitMQ
+
+*Nuove funzionalità e improvement*
+
+- ECAAS: aggiornamento versione application 0.25.0 per log elastic
+
+- CPAAS: servizio light elenco vm
+
+*Bug fixing*
+
+- Bugfix cambio flavor test oid (. valid in names)
+
+- Fix resource in status ERROR dopo azione su CPAAS, DBAAS (start, stop, attivazione/disattivazione logging, monitoring)
+
+- Fix ruoli utente relativi ad account cancellati
+
+- Bug fixing NSX firewall rules optimization
+
+|
+
 CMP Nivola 1.18.0 - minor (2026-01-22)
 --------------------------------------
 
