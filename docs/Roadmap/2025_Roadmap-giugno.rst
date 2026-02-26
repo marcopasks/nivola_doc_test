@@ -8,4 +8,3 @@
 .. image:: img/2025_Diapositiva14.PNG
 .. image:: img/2025_Diapositiva15.PNG
 .. image:: img/2025_Diapositiva16.PNG
-.. image:: img/2025_Diapositiva17.PNG
