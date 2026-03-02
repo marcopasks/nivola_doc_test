@@ -7,11 +7,13 @@
 
 *Versione 4.22.0*
 
-*Data prevista: febbraio 2026*
+*Data prevista: giovedì 5 marzo 2026*
 
 *Nuove funzionalità/Improvement*
 
-- risposta da parte dell’utente ad un ticket su richiesta chiarimenti da Support / Operations
+- Sistema di richiesta chiarimenti ad un ticket tramite ITSM
+
+- Sistema di notifiche utente
 
 
 *Bug fixing*
@@ -22,7 +24,7 @@
 
 *Versione 4.23.0*
 
-*Data prevista: marzo 2026*
+*Data prevista: marzo/aprile 2026*
 
 *Nuove funzionalità/Improvement*
 
