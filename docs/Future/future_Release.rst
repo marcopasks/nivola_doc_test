@@ -5,23 +5,6 @@
 **Portale**
 ***********
 
-*Versione 4.22.0*
-
-*Data prevista: giovedì 5 marzo 2026*
-
-*Nuove funzionalità/Improvement*
-
-- Sistema di richiesta chiarimenti ad un ticket tramite ITSM
-
-- Sistema di notifiche utente
-
-
-*Bug fixing*
-
-- risoluzione bug fix minori
-
-|
-
 *Versione 4.23.0*
 
 *Data prevista: marzo/aprile 2026*

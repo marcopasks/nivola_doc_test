@@ -5,6 +5,23 @@
 **Portale**
 ***********
 
+.. _release-4.22.0:
+
+Service Portal 4.22.0 (2026-03-05)
+
+*Nuove funzionalità/Improvement*
+
+- Sistema di richiesta chiarimenti ad un ticket tramite ITSM
+
+- Sistema di notifiche utente
+
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
 .. _release-4.21.1:
 
 Service Portal 4.21.1 (2026-01-26)

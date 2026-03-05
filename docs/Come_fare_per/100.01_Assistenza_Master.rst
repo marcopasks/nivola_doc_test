@@ -15,4 +15,4 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
    100.25_Cercare_E_Visualizzare_bozze.rst
    100.35_Creare_nuovo_ticket.rst
    100.42_Cambio_stato_ticket.rst
-   
+   100.70_Integrazione_Richiesta_ITSM.rst
