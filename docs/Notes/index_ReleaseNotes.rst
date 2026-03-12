@@ -8,6 +8,7 @@
 .. _release-4.22.0:
 
 Service Portal 4.22.0 (2026-03-05)
+----------------------------------
 
 *Nuove funzionalità/Improvement*
 
@@ -25,6 +26,7 @@ Service Portal 4.22.0 (2026-03-05)
 .. _release-4.21.1:
 
 Service Portal 4.21.1 (2026-01-26)
+----------------------------------
 
 *Nuove funzionalità/Improvement*
 
@@ -39,6 +41,7 @@ Service Portal 4.21.1 (2026-01-26)
 .. _release-4.21.0:
 
 Service Portal 4.21.0 (2025-12-10)
+----------------------------------
 
 *Nuove funzionalità/Improvement*
 
@@ -697,11 +700,8 @@ Service Portal 3.4.0 (2023-04-27)
 ---------------------------------
 
 •  Completamento funzionalità di Budget e Alerting comprensiva di notifiche superamento soglie di spesa
-
 •  Opzione scelta tecnologia in creazione VM
-
 •  Miglioramento funzione per Servizi gestione abilitati
-
 •  Risoluzione bug minori
 
 
