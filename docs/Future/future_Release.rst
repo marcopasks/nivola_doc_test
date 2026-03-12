@@ -7,13 +7,26 @@
 
 *Versione 4.23.0*
 
-*Data prevista: marzo/aprile 2026*
+*Data prevista: aprile 2026*
 
 *Nuove funzionalità/Improvement*
 
-- IP Pubblici
+- Load Balancer
 
-- profilo VPN custom su account, quando censito
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
+*Versione 4.24.0*
+
+*Data prevista: maggio 2026*
+
+*Nuove funzionalità/Improvement*
+
+- TBD
 
 
 *Bug fixing*
@@ -27,7 +40,7 @@
 
 *Versione 1.18.2 (patch)*
 
-*Data prevista: giovedì 12 marzo 2026*
+*Data prevista: martedì 17 marzo 2026*
 
 *Nuove funzionalità/Improvement*
 
