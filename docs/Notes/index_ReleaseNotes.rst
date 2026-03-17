@@ -1489,6 +1489,42 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.2 - patch (2026-03-17)
+--------------------------------------
+
+*Nuove funzionalità/Improvement*
+
+- Cancellazione di volumi
+
+- Edb con TDE
+
+- Db simple list
+
+- Generate fake_response
+
+
+*Bug fixing*
+
+- Migliorato richiamo vSphere API
+
+- Recovery automatico da socket/SSL timeout durate connessione LDAP
+
+- Acquisizione metriche ComputeStack
+
+- Modernize string formatting using f-strings and logging placeholders to resolve linter warnings (E713, W1203)
+
+- Eliminati alcuni warning
+
+- Ottimizzazioni
+
+- Aggiornati requirements
+
+- Rimosso codice obsoleto
+
+- Problemi minori ed errori di battitura
+
+|
+
 CMP Nivola 1.18.1 - patch (2026-02-12)
 --------------------------------------
 

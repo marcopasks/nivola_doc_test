@@ -38,40 +38,9 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.2 (patch)*
+*Versione 1.18.x (patch)*
 
-*Data prevista: martedì 17 marzo 2026*
-
-*Nuove funzionalità/Improvement*
-
-- Cancellazione di volumi
-
-- Edb con TDE
-
-- Db simple list
-
-- Generate fake_response
-
-
-*Bug fixing*
-
-- Migliorato richiamo vSphere API
-
-- Recovery automatico da socket/SSL timeout durate connessione LDAP
-
-- Acquisizione metriche ComputeStack
-
-- Modernize string formatting using f-strings and logging placeholders to resolve linter warnings (E713, W1203)
-
-- Eliminati alcuni warning
-
-- Ottimizzazioni
-
-- Aggiornati requirements
-
-- Rimosso codice obsoleto
-
-- Problemi minori ed errori di battitura
+*Data prevista: aprile 2026*
 
 |
 
