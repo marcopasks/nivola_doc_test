@@ -5,16 +5,6 @@
 **Portale**
 ***********
 
-*Versione 4.22.1*
-
-*Data prevista: 24 marzo 2026*
-
-*Bug fixing*
-
-- risoluzione bug fix minori
-
-|
-
 *Versione 4.23.0*
 
 *Data prevista: aprile 2026*
