@@ -38,9 +38,29 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.x (patch)*
+*Versione 1.18.3 (patch)*
 
-*Data prevista: aprile 2026*
+*Data prevista: giovedì 9 aprile 2026*
+
+*Nuove funzionalità e improvement*
+
+- [STAAS] Aggiunta snapshot policy staas_snap_4h_7d.
+N.B. Per applicare la snapshot policy agli account creati prima di questo rilascio e per ulteriori informazioni, consultare la ​guida utente​ del nuovo servizio STAAS.
+
+- [ACCOUNT] Introduzione dell’obbligatorietà del campo management_model nella creazione degli account.
+N.B. Il ​Manuale Tecnico di Gestione Servizi​ verrà aggiornato con i nuovi comandi entro la data di rilascio.
+
+- Drop useless tables, views, store procedures 
+
+- Remove useless classes 
+
+*Bug fixing*
+
+- Fix alert list (case resource doesn't exist) 
+
+- Fix replaced get_linked_resources_optimized with get_linked_resources
+
+- Fix Handle non-existent VMs in get_vm_object
 
 |
 

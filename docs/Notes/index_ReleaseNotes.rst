@@ -5,6 +5,17 @@
 **Portale**
 ***********
 
+.. _release-4.22.2:
+
+Service Portal 4.22.2 (2026-04-01)
+----------------------------------
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
 .. _release-4.22.1:
 
 Service Portal 4.22.1 (2026-03-24)
@@ -1503,7 +1514,7 @@ Service Portal 1.8.0 (2020-04-10)
 CMP Nivola 1.18.2 - patch (2026-03-17)
 --------------------------------------
 
-*Nuove funzionalità/Improvement*
+*Nuove funzionalità e Improvement*
 
 - Cancellazione di volumi
 
