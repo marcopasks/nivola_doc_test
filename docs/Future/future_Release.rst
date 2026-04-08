@@ -44,11 +44,9 @@
 
 *Nuove funzionalità e improvement*
 
-- [STAAS] Aggiunta snapshot policy staas_snap_4h_7d.
-N.B. Per applicare la snapshot policy agli account creati prima di questo rilascio e per ulteriori informazioni, consultare la ​guida utente​ del nuovo servizio STAAS.
+- [STAAS] Aggiunta snapshot policy staas_snap_4h_7d N.B.: Per applicare la snapshot policy agli account creati prima di questo rilascio e per ulteriori informazioni, consultare la ​guida utente​ del nuovo servizio STAAS.
 
-- [ACCOUNT] Introduzione dell’obbligatorietà del campo management_model nella creazione degli account.
-N.B. Il ​Manuale Tecnico di Gestione Servizi​ verrà aggiornato con i nuovi comandi entro la data di rilascio.
+- [ACCOUNT] Introduzione dell’obbligatorietà del campo management_model nella creazione degli account N.B.: Il ​Manuale Tecnico di Gestione Servizi​ verrà aggiornato con i nuovi comandi entro la data di rilascio.
 
 - Drop useless tables, views, store procedures 
 
