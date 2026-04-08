@@ -1511,6 +1511,29 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.3 - patch (2026-04-09)
+--------------------------------------
+
+*Nuove funzionalità e improvement*
+
+- [STAAS] Aggiunta snapshot policy staas_snap_4h_7d - *N.B.: Per applicare la snapshot policy agli account creati prima di questo rilascio e per ulteriori informazioni, consultare la ​guida utente​ del nuovo servizio STAAS*
+
+- [ACCOUNT] Introduzione dell’obbligatorietà del campo management_model nella creazione degli account - *N.B.: Il ​Manuale Tecnico di Gestione Servizi​ verrà aggiornato con i nuovi comandi entro la data di rilascio*
+
+- Drop useless tables, views, store procedures 
+
+- Remove useless classes 
+
+*Bug fixing*
+
+- Fix alert list (case resource doesn't exist) 
+
+- Fix replaced get_linked_resources_optimized with get_linked_resources
+
+- Fix Handle non-existent VMs in get_vm_object
+
+|
+
 CMP Nivola 1.18.2 - patch (2026-03-17)
 --------------------------------------
 
@@ -1523,7 +1546,6 @@ CMP Nivola 1.18.2 - patch (2026-03-17)
 - Db simple list
 
 - Generate fake_response
-
 
 *Bug fixing*
 
