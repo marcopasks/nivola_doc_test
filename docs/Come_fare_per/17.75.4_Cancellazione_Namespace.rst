@@ -1,0 +1,13 @@
+
+**Cancellare Namespace (ECAAS)**
+================================
+
+Per cancellare un Namespace (ECAAS) occorre selezionarne uno, quindi cliccare sull'icona in alto a destra "**Elimina Namespace**":
+
+.. image:: img/17.75.4_Cancellazione_Namespace1.png
+
+|
+
+Comparirà la seguente richiesta di conferma di cancellazione:
+
+.. image:: img/17.75.4_Cancellazione_Namespace2.png

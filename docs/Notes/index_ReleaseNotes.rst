@@ -5,10 +5,19 @@
 **Portale**
 ***********
 
-.. _release-4.23.1:
+.. _release-4.24.0:
 
-Service Portal 4.23.1 (2026-05-11)
+Service Portal 4.24.0 (2026-06-11)
 ----------------------------------
+
+*Nuove funzionalità/Improvement*
+
+- Le funzionalità di creazione e modifica Load Balancer e Container sono state abilitate solo se l'account è correttamente configurato
+
+- Gli utenti che non fanno accesso da più di 6 mesi vengono disattivati. Per riattivarli è sufficiente da Amministratore di BO selezionare l'utente e premere il pulsante "Riattiva Utente"
+
+- Amministratore di backoffice - Oscuramento dei dati utente: in caso di richiesta formale da parte di un utente di esercizio della facoltà di eliminazione dei dati personali dal sistema è possibile procedere all'oscuramento di tali dati
+
 
 *Bug fixing*
 

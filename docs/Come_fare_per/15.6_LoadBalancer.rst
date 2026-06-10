@@ -31,3 +31,34 @@ La configurazione di un servizio di load balancing passa attraverso:
 - la creazione di un load balancer;
 
 - la creazione di una regola per ciascuno dei security group delle vm bilanciate.
+
+|
+
+**Lavorare con i Load Balancer**
+********************************
+
+La funzione rientra nel menù **Servizi**. I Load Balancer sono visualizzabili dalla parte
+sinistra dello schermo, cliccando sulla label **Load Balancer** sotto **Reti e Sicurezza**
+
+.. image:: img/15.6_LoadBalancer1.png
+
+|
+
+A seguito di un click su Load Balancer, il sistema popolerà la parte destra della pagina web con la lista dei Load Balancer, se presenti. 
+In alternativa verrà visualizza la scritta “*Non sono presenti Load Balancer*""
+
+.. image:: img/15.6_LoadBalancer2.png
+
+|
+
+Nel caso in cui l'account in uso non sia configurato per l'utilizzo dei Load Balancer, comparirà il seguente messaggio:
+
+.. image:: img/15.6_LoadBalancer3.png
+
+.. toctree::
+   :maxdepth: 2
+ 
+   15.61_Creare_LBAAS.rst
+   15.62_Visualizzare_LBAAS.rst
+   15.64_Modificare_LBAAS.rst
+   15.67_Cancellare_LBAAS.rst

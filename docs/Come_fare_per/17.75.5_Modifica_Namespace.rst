@@ -1,0 +1,21 @@
+
+**Modificare Namespace (ECAAS)**
+================================
+
+Per modificare un Namespace (ECAAS) occorre selezionarne uno, quindi cliccare sull'icona in alto a destra "**Modifica Namespace**":
+
+.. image:: img/17.75.5_Modifica_Namespace1.png
+
+|
+
+Si accederà alla pagina **Modifica Namespace**, da cui è possibile effettuare le modifiche richieste:
+
+.. image:: img/17.75.5_Modifica_Namespace2.png
+
+Alla prima modifica effettuata, il tasto **INVIA** diventerà cliccabile. Una volta terminate le modifiche, cliccare sul tasto in basso a destra **INVIA**.
+
+|
+
+Comparirà il seguente messaggio di conferma:
+
+.. image:: img/17.75.5_Modifica_Namespace3.png

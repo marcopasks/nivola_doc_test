@@ -1,0 +1,55 @@
+
+**Creare Namespace (ECAAS)**
+============================
+
+1. Fare clic sul pulsante in alto a destra **Crea Namespace**:
+
+.. image:: img/17.75.3_Creazione_Namespace1.png
+
+|
+
+Comparirà la seguente schermata:
+
+.. image:: img/17.75.3_Creazione_Namespace2.png
+
+|
+
+Compilare i campi indicati:
+
+- selezionare il Nome Cluster dal relativo menù a tendina
+
+- selezionare il Backup Policy dal relativo menù a tendina
+
+- selezionare l'Environment dal relativo menù a tendina
+
+- inserire manualmente il Limite Memory
+
+- inserire manualmente l'Email PM
+
+- inserire manualmente l'Allowed Hosts
+
+- inserire manualmente l'Allowed CIDR
+
+- inserire manualmente l'Allowed Host Patterns
+
+- inserire manualmente il Codice Ente
+
+- inserire manualmente il Codice Prodotto
+
+- inserire manualmente il Limite CPU
+
+- inserire manualmente il Limite Storage
+
+.. image:: img/17.75.3_Creazione_Namespace3.png
+
+|
+
+Al termine cliccare sul tasto in basso a destra **INVIA**
+
+.. image:: img/17.75.3_Creazione_Namespace4.png
+
+|
+
+Comparirà il seguente messaggio di conferma:
+
+.. image:: img/17.75.3_Creazione_Namespace5.png

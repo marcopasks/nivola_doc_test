@@ -5,13 +5,28 @@
 **Portale**
 ***********
 
-*Versione 4.24.0*
+*Versione 4.25.0*
 
-*Data prevista: maggio 2026*
+*Data prevista: luglio 2026*
 
 *Nuove funzionalità/Improvement*
 
-- ECaaS
+- Symon Mercato: Integrazione Delegati
+
+
+*Bug fixing*
+
+- risoluzione bug fix minori
+
+|
+
+*Versione 4.26.0*
+
+*Data prevista: settembre 2026*
+
+*Nuove funzionalità/Improvement*
+
+- Gestione utenze fornitori
 
 
 *Bug fixing*
