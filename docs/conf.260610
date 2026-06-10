@@ -73,7 +73,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_path = [ "." ]
 
 # 09/01/26 eliminato commento riga sotto:
-#html_static_path = ['_static']
+html_static_path = ['_static']
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -107,7 +107,7 @@ html_css_files = [
 #             'js/sphinxcontrib/jquery/jquery.js',
 #             ]
 
-#html_extra_path = [ 'extra' ]
+html_extra_path = [ 'extra' ]
 def setup(app):
     #app.add_stylesheet("css/nivola.css")
     app.add_css_file("css/nivola.css")
