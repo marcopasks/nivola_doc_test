@@ -38,9 +38,22 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.x (patch)*
+*Versione 1.18.6 (patch)*
 
-*Data prevista: giugno 2026*
+*Data prevista: giovedì 18 giugno 2026*
+
+*Nuove funzionalità e improvement*
+
+- Controllo cancellazione VM/DB tracciando l'environment in cui vengono creati service/resource
+
+- Check method in ComputeInstance, ComputeStackV2 to check IP is allocated
+
+*Bug fixing*
+
+- Fix template account viewer permission
+
+- Fix seguire gli step definiti per la creazione e cancellazione dei dbaas
+
 
 |
 
