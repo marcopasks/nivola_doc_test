@@ -1553,6 +1553,23 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.6 - patch (2026-06-18)
+--------------------------------------
+
+*Nuove funzionalità e improvement*
+
+- Controllo cancellazione VM/DB tracciando l'environment in cui vengono creati service/resource
+
+- Check method in ComputeInstance, ComputeStackV2 to check IP is allocated
+
+*Bug fixing*
+
+- Fix template account viewer permission
+
+- Fix seguire gli step definiti per la creazione e cancellazione dei dbaas
+
+|
+
 CMP Nivola 1.18.5 - patch (2026-05-14)
 --------------------------------------
 
