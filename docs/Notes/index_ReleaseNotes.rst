@@ -1553,6 +1553,17 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.7 - patch (2026-06-23)
+--------------------------------------
+
+*Bug fixing*
+
+- [LBAAS] check univocità nome a livello account
+
+- Bugfix: dict can not be used as parameter
+
+|
+
 CMP Nivola 1.18.6 - patch (2026-06-18)
 --------------------------------------
 
