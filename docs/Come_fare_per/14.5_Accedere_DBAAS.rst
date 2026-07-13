@@ -15,7 +15,7 @@
 
 |
 
-• Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire **cmpto2-gw02.site02.nivolapiemonte.it**,su User Name inserire nome.cognome@fornitori.nivola e Password nel relativo campo
+• Scheda SSH, inserire flag Use SSH Tunnel, nel pannello Host inserire **cmpto2-gw01.site02.nivolapiemonte.it** (IP 10.138.154.13), su User Name inserire nome.cognome@fornitori.nivola e Password nel relativo campo
 
   .. image:: img/14.5c.png
 
