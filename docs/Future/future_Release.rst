@@ -38,9 +38,16 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.x (patch)*
+*Versione 1.18.8 (patch)*
 
-*Data prevista: luglio 2026*
+*Data prevista: giovedì 16 luglio 2026*
+
+*Nuove funzionalità e improvement*
+
+- [STAAS v2] Aggiunta l'informazione sullo spazio disponibile del volume
+
+*Bug fixing*
+- [CPAAS] Corretto bug in clonazione vm cross-site
 
 |
 
