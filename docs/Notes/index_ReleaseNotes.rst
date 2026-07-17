@@ -1564,6 +1564,18 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.8 - patch (2026-07-16)
+--------------------------------------
+
+*Nuove funzionalità e improvement*
+
+- [STAAS v2] Aggiunta l'informazione sullo spazio disponibile del volume
+
+*Bug fixing*
+- [CPAAS] Corretto bug in clonazione vm cross-site
+
+|
+
 CMP Nivola 1.18.7 - patch (2026-06-23)
 --------------------------------------
 
