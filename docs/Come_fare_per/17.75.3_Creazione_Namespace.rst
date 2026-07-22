@@ -2,7 +2,7 @@
 **Creare Namespace (ECAAS)**
 ============================
 
-1. Fare clic sul pulsante in alto a destra **Crea Namespace**:
+1. Fare clic sul pulsante +, la cui descrizione passandoci sopra col mouse è **Crea Namespace**:
 
 .. image:: img/17.75.3_Creazione_Namespace1.png
 

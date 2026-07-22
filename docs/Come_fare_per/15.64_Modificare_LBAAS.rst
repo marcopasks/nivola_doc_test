@@ -8,17 +8,16 @@ Per modificare un LBAAS occorre selezionarne uno, quindi cliccare sull'icona in 
 
 |
 
-Espandere la sezione dell'alias da modificare, quindi effettuare le modifiche richieste.
-Alla prima modifica effettuata, il tasto **INVIA** diventerà cliccabile ed inoltre comparirà in basso il messaggio
-"**Sono state effettuate modifiche al Load Balancer e/o alle sue configurazioni, per renderle effettive è necessario completare la procedura di salvataggio**"
+Cliccare sul tasto **Modifica** relativo agli alias e relativi backend:
 
-.. image:: img/15.64_Modificare_LBAAS3.png
+.. image:: img/15.64_Modificare_LBAAS31.png
 
 |
 
-Al termine cliccare sul tasto in basso a destra **INVIA**
+Modificare i dati desiderati, quindi cliccare su INVIA (che a fronte delle modifiche, sarà diventato selezionabile)
 
-|
+.. image:: img/15.64_Modificare_LBAAS32.png
+
 
 Comparirà il seguente messaggio di conferma:
 

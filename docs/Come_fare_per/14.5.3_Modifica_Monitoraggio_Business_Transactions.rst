@@ -1,0 +1,61 @@
+
+**Modificare un Monitoraggio Servizi di Business**
+==================================================
+
+Per modificare un Monitoraggio Servizi di Business occorre cliccare sul pulsante a in alto a destra a forma di matita, 
+la cui descrizione passandoci sopra col mouse è **Modifica**:
+
+.. image:: img/30.5.5_SyMon1.png
+
+|
+
+Si accederà alla pagina **Dettaglio Monitoraggio**, da cui è possibile effettuare le modifiche richieste:
+
+.. image:: img/30.5.5_SyMon2.png
+
+|
+
+|
+
+**Aggiunta transazione**
+========================
+
+Andare in fondo alla pagina alla voce **Transazioni da Aggiungere**. In **Numero transazioni** inserire il valore numerico desiderato:
+
+.. image:: img/30.5.5_SyMon3.png
+
+|
+
+Quindi premere sul tasto "+". Comparirà il seguente messaggio di conferma:
+
+.. image:: img/30.5.5_SyMon4.png
+
+|
+
+Le transazioni inserite compariranno in elenco:
+
+.. image:: img/30.5.5_SyMon5.png
+
+|
+
+**Cancellazione transazione**
+=============================
+
+Andare nell'Elenco Transazioni attive, individuare la transazione da cancellare e cliccare sul simbolo del cestino arancione, 
+la cui descrizione passandoci sopra col mouse è **Elimina transazione**:
+
+.. image:: img/30.5.5_SyMon6.png
+
+|
+
+Comparirà questa schermata intermedia, in cui è necessario scrivere "ELIMINA" per poter per attivare l'omomimo tasto:
+
+.. image:: img/30.5.5_SyMon7.png
+
+.. image:: img/30.5.5_SyMon8.png
+
+|    
+
+Cliccando su Elimina, comparirà il seguente messaggio di conferma:
+
+.. image:: img/30.5.5_SyMon9.png

@@ -5,29 +5,6 @@
 **Portale**
 ***********
 
-*Versione 4.25.0*
-
-*Data prevista: 20 luglio 2026*
-
-*Nuove funzionalità/Improvement*
-
-- Symon mercato: possibilità di aggiungere e rimuovere delegati. Vengono automaticamente delegati sul documento tutti gli utenti accreditati su account, divisioni o organizzazioni che contengono monitoraggi Symon
-
-- Symon mercato: aggiunta e rimozione di transazioni da un documento precedentemente creato
-
-- Apertura ticket da amministratore di backoffice: ora possibile l'apertura ticket da amministratore, dopo aver selezionato un account e aver scelto la scheda servizi
-
-- Aggiunto all'anagrafica account l'attributo che indica se l'account gestisce dati di tipo critico
-
-- Migliorata l'interfaccia di gestione del Load Balancer
-
-
-*Bug fixing*
-
-- risoluzione bug fix minori
-
-|
-
 *Versione 4.26.0*
 
 *Data prevista: settembre 2026*

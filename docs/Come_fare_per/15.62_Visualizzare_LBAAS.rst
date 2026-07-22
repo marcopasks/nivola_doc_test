@@ -10,4 +10,4 @@ Per visualizzare il dettaglio di un LBAAS occorre selezionarne uno, quindi clicc
 
 Compariranno i dettagli di tutti gli alias e relativi backend:
 
-.. image:: img/15.62_Visualizzare_LBAAS2.png
+.. image:: img/15.62_Visualizzare_LBAAS21.png

@@ -2,35 +2,203 @@
 **Load Balancer**
 *****************
 
-Il load balancing è una tecnologia concepita per distribuire il carico di lavoro tra diversi server o applicazioni. 
-L’obiettivo è ottimizzare le prestazioni globali, il rendimento e la capacità dell’infrastruttura.
+Il servizio Load Balancer as a Service (LBaaS) permette di distribuire il traffico di rete
+tra più istanze applicative, garantendo elevata disponibilità, scalabilità e continuità
+operativa dei servizi esposti.
 
-Il modello di Servizio di Load Balancing è il seguente
+L'infrastruttura si basa su un motore di bilanciamento ad alte prestazioni in grado di
+gestire traffico HTTP e HTTPS, offrendo funzionalità avanzate quali:
 
-.. image:: img/15.6_LB_overview.png
+- persistenza delle sessioni (sticky sessions);
 
-Un bilanciatore si compone di 4 elementi:
+- monitoraggio dello stato dei backend mediante health check automatici;
 
-- **Load balancer**: definisce l’indirizzo ip di frontend e la porta su cui avviene il bilanciamento del carico; ha riferimenti al target group e al listener;
+- terminazione SSL/TLS;
 
-- **Listener**: descrive la tipologia di traffico in ingresso al load balancer e le regole di inoltro alle macchine bilanciate (SSP Passthrough, cifratura lato client, cifratura lato client e lato server);
+- riscrittura degli header HTTP
 
-- **Target Group**: definisce l’algoritmo di bilanciamento, l’insieme degli host bilanciati (Target) e l’health monitor attraverso cui controllarne lo stato;
+La piattaforma supporta sia configurazioni dedicate a un singolo account sia scenari
+condivisi tra account differenti (cross-tenant), consentendo l'erogazione di servizi
+comuni in contesti multi-organizzazione o la gestione centralizzata delle applicazioni.
 
-- **Health monitor**: controlla lo stato degli host bilanciati (raggiungibili, non raggiungibili).
+Ogni istanza di bilanciamento è associata a una specifica rete di esposizione (Internet,
+rete regionale o rete interna dei servizi) e a uno o più Security Group, che regolano la
+raggiungibilità dei nodi backend.
+
+Le funzionalità sono rese disponibili in modalità self-service, consentendo al Master
+Account di creare, modificare e dismettere autonomamente le configurazioni di
+bilanciamento.
+
+|
+
+**Il servizio comprende le seguenti funzionalità:**
+
+- creazione e provisioning delle istanze di Load Balancer;
+
+- selezione della rete di esposizione (Internet, rete interna dei servizi, reti front-end e back-end);
+
+- configurazione e gestione degli health check automatici sui nodi backend;
+
+- configurazione della persistenza delle sessioni (sticky sessions);
+
+- terminazione SSL/TLS mediante caricamento di certificati e Autorità di Certificazione (CA) forniti dall'utente;
+
+- aggiornamento dei certificati SSL/TLS su istanze esistenti;
+
+- definizione e gestione di whitelist basate su indirizzi IP o reti in formato CIDR;
+
+- aggiunta, modifica e rimozione dei server backend, con configurazione di nome, indirizzo IP, porta e protocollo;
+
+- modifica delle configurazioni di bilanciamento, inclusi backend, porte, whitelist, certificati e abilitazione/disabilitazione di SSL;
+
+- dismissione delle istanze di Load Balancer;
+
+- consultazione dell'elenco delle configurazioni attive e dei relativi dettagli;
+
+- accesso alle statistiche di bilanciamento mediante credenziali dedicate
+
+|
+
+**Configurazioni di bilanciamento supportate**
+
+Un account Nivola può creare un numero arbitrario di istanze Load Balancer as a
+Service (LBaaS) all'interno dei propri ambienti. Tuttavia, non tutte le configurazioni di
+bilanciamento sono supportate dalla piattaforma.
+
+Le sezioni seguenti descrivono i principali pattern di utilizzo previsti e le relative
+limitazioni.
+
+|
+
+**Bilanciamento all'interno di un singolo account**
+
+Un'istanza di Load Balancer può distribuire il traffico esclusivamente verso backend
+ubicati nello stesso sito (Data Center) in cui è stata creata.
+
+Ad esempio:
+
+- configurazione degli algoritmi di distribuzione del traffico;
+
+- configurazione e amministrazione dei sistemi applicativi backend;
+
+- gestione dell'infrastruttura di rete fisica e dei dispositivi di livello inferiore;
+
+- servizi di ottimizzazione e distribuzione dei contenuti (CDN);
+
+- registrazione automatica di record DNS per domini esterni a quelli gestiti dalla piattaforma;
+
+- funzionalità avanzate di tracing e logging del traffico, attualmente soggette a valutazione;
+
+- un Load Balancer creato nel sito di Torino può bilanciare il traffico solo verso macchine virtuali presenti nello stesso sito e non verso backend ubicati, ad esempio, nel sito di Genova.
 
 
-La configurazione di un servizio di load balancing passa attraverso:
+Qualora sia necessario esporre servizi ospitati in un altro sito, è necessario creare
+un'ulteriore istanza di Load Balancer nel sito di destinazione.
 
-- la creazione di un health monitor custom (o la selezione di un health monitor predefinito);
+Ad esempio:
+per bilanciare servizi presenti nel sito di Genova, dovrà essere creato un Load Balancer dedicato all'interno dello stesso sito.
 
-- la creazione e il popolamento di un target group;
+Per scenari che richiedono un instradamento geografico del traffico o la distribuzione
+delle richieste tra più siti, è possibile utilizzare il servizio Global Load Balancer (GLB)
+basato su tecnologia Radware.
 
-- la creazione di un listener custom (o la selezione di un listener predefinito);
+In questa configurazione, il GLB indirizza il traffico verso i Load Balancer locali presenti
+nei rispettivi Data Center.
 
-- la creazione di un load balancer;
+|
 
-- la creazione di una regola per ciascuno dei security group delle vm bilanciate.
+**Bilanciamento tra più account**
+
+Il servizio supporta anche scenari di bilanciamento tra risorse appartenenti a account
+differenti, purché tali account siano associati allo stesso cliente (Division).
+
+In questo scenario:
+
+- il Load Balancer viene creato in uno degli account scelto dall'utente;
+
+- i backend possono appartenere anche ad altri account della medesima Division;
+
+- il bilanciamento viene gestito in modo trasparente tra gli account autorizzati
+
+E' cmq possibile utilizzare il GLB per scenari che richiedono un instradamento
+geografico del traffico o la distribuzione delle richieste tra più siti.
+
+|
+
+**Limitazioni**
+
+La prima versione del servizio Load Balancer as a Service (LBaaS) presenta le
+seguenti limitazioni funzionali:
+
+- sono supportati esclusivamente i protocolli HTTP e HTTPS per le connessioni tra front-end e back-end;
+
+- le porte di ascolto del front-end sono limitate alle porte 80 e 443;
+
+- non è attualmente supportata la configurazione di whitelist degli indirizzi IP;
+
+- non è possibile personalizzare le credenziali di accesso alla pagina delle statistiche;
+
+- l'algoritmo di bilanciamento è fisso e impostato su Round Robin;
+
+-  la funzionalità di Session Persistence (Sticky Sessions), se abilitata, utilizza esclusivamente la modalità Cookie-based Persistence;
+
+- il monitoraggio dello stato dei backend è basato su un Health Check HTTP di tipo httpchk , configurato automaticamente
+
+|
+
+**Gestione ordinaria**
+
+Il servizio non richiede attività di gestione ordinaria differenti rispetto a quelle
+normalmente previste per un'infrastruttura HAProxy.
+
+Ogni istanza di LBaaS è costituita da una macchina virtuale Ubuntu sulla quale è
+installato e configurato HAProxy. Di conseguenza, le attività di monitoraggio e
+manutenzione dell'infrastruttura seguono le stesse modalità operative adottate per i
+tradizionali Load Balancer basati su HAProxy.
+
+È tuttavia fondamentale tenere presente che la configurazione del servizio è
+interamente gestita dalla piattaforma.
+
+Ad ogni modifica della configurazione effettuata tramite CLI o Portale, la piattaforma
+rigenera il file di configurazione sulla base delle informazioni memorizzate nel sistema e
+lo distribuisce sull'istanza del Load Balancer, sostituendo integralmente quello presente
+sulla macchina.
+
+Di conseguenza:
+
+- tutte le modifiche alla configurazione del Load Balancer devono essere effettuate;
+
+- esclusivamente tramite la CLI beehive o il Portale Nivola;
+
+- eventuali modifiche manuali ai file di configurazione di HAProxy sono da considerarsi temporanee e verranno perse al primo aggiornamento del servizio
+
+|
+
+**Modifica del Flavor**
+
+Una volta creata un'istanza di LBaaS, non è possibile modificarne il Flavor.
+
+Qualora fosse necessario utilizzare una configurazione con caratteristiche hardware
+differenti, il procedimento consigliato è il seguente:
+
+- esportare la configurazione dell'istanza esistente;
+
+- cancellare l'istanza esistente (questo fa si che la nuova istanza creata immediatamente dopo, nel 99% dei casi, si riprende l'ip dell'istanza originale);
+
+- creare una nuova istanza di LBaaS specificando il Flavor desiderato;
+
+- importare la configurazione precedentemente esportata
+
+|
+
+**Modifica dei volumi della macchina virtuale**
+
+La modifica dei volumi disco associati alla macchina virtuale che ospita il servizio
+LBaaS non è supportata.
+
+La dimensione e la configurazione dello storage vengono definite in fase di provisioning
+dell'istanza e non possono essere modificate successivamente
+
 
 |
 

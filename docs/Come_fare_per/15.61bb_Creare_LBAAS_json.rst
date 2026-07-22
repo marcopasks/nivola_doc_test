@@ -10,13 +10,13 @@
 
 Comparirà la seguente schermata:
 
-.. image:: img/15.61a_Creare_LBAAS_dati_input2.png
+.. image:: img/15.61a_Creare_LBAAS_dati_input51.png
 
 |
 
 Cliccare sull'icona in alto a destra "**Carica le configurazioni da un file locale**":
 
-.. image:: img/15.61bb_Creare_LBAAS_json1.png
+.. image:: img/15.61bb_Creare_LBAAS_json52.png
 
 |
 
@@ -28,28 +28,51 @@ Caricare il file json da risorse locali:
 
 Verrà popolata la parte relativa ad **alias** e **backend**:
 
-.. image:: img/15.61bb_Creare_LBAAS_json3.png
+.. image:: img/15.61bb_Creare_LBAAS_json53.png
 
 |
 
-Compilare i dati mancanti, quindi cliccare su **INVIA** in basso a destra:
+Per ogni configurazione aggiunta dal file json occorre entrare nella relativa sezione (cliccando su "Espandi sezione")
+quindi validare i dati presenti cliccando su CONFERMA.
 
-.. image:: img/15.61bb_Creare_LBAAS_json4.png
+.. image:: img/15.61bb_Creare_LBAAS_json61.png
+
+.. image:: img/15.61bb_Creare_LBAAS_json62.png
+
+|
+
+Compilare i dati mancanti:
+
+1. Inserire il Nome e cliccare CONFERMA:
+
+.. image:: img/15.61bb_Creare_LBAAS_json54.png
+
+|
+
+2. Inserirei i dati relativi a template e rete e cliccare su CONFERMA:
+
+.. image:: img/15.61bb_Creare_LBAAS_json55.png
+
+|
+
+Solo a questo punto il pulsante **INVIA** in basso a destra diventerà selezionabile. Cliccarlo per lanciare la creazione:
+
+.. image:: img/15.61bb_Creare_LBAAS_json56.png
 
 |
 
 Comparirà il seguente messaggio di conferma:
 
-.. image:: img/15.61a_Creare_LBAAS_dati_input17.png
+.. image:: img/15.61a_Creare_LBAAS_dati_input41.png
 
 |
 
 Il Load Balancer in creazione assumerà il seguente stato transitorio:
 
-.. image:: img/15.61a_Creare_LBAAS_dati_input18.png
+.. image:: img/15.61a_Creare_LBAAS_dati_input42.png
 
 |
 
 Al termine della creazione assumerà lo stato "available":
 
-.. image:: img/15.61a_Creare_LBAAS_dati_input19.png
+.. image:: img/15.61a_Creare_LBAAS_dati_input43.png

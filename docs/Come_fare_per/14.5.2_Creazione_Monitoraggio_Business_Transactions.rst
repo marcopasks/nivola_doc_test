@@ -2,7 +2,7 @@
 **Creazione Monitoraggio di Business Transactions**
 ***************************************************
 
-La funzione rientra nel menù **Strumenti**. IL Monitoraggio di Business Transactions è attivabile dalla parte
+La funzione rientra nel menù **Strumenti**. Il Monitoraggio Business Transactions è attivabile dalla parte
 sinistra dello schermo, cliccando sulla label **Servizi di Business** sotto la label **Monitoraggio**.
 
 .. image:: img/14.5_MonBussTrans1.png
@@ -17,13 +17,21 @@ Cliccare sul simbolo in alto a destra a forma di **+** la cui descrizione passan
 
 Si accede alla pagina **Richiesta Monitoraggio Servizio di Business**:
 
-.. image:: img/14.5_MonBussTrans4.png
+.. image:: img/30.5.3_Creazione_SyMon2.png
+
+Compilare i campi indicati:
+
+- inserire manualmente il "Nome applicazione", dopo la stringa fissa rappresentata dall'acronimo del nome account (nell'esempio "ademo")
+
+- inserire manualmente il Numero di Monitoraggi, rappresentato da un numero da 1 a 9
+
+.. image:: img/30.5.3_Creazione_SyMon3.png
 
 |
 
 Una volta compilati i campi richiesti, cliccare sul tasto **INVIA** in basso a destra:
 
-.. image:: img/14.5_MonBussTrans5.png
+.. image:: img/30.5.3_Creazione_SyMon4.png
 
 |    
 
@@ -36,6 +44,8 @@ Comparirà la seguente schermata di conferma, comprensiva del link di accesso al
 Cliccando sul link indicato https://symon-enti.nivolapiemonte.it/ si accederà alla seguente pagina:
 
 .. image:: img/14.5_MonBussTrans9.png
+
+|    
 
 Una volta effettuato l'accesso si atterra nella dashboard di SyMon:
 
