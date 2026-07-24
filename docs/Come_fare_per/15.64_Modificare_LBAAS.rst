@@ -14,10 +14,25 @@ Cliccare sul tasto **Modifica** relativo agli alias e relativi backend:
 
 |
 
-Modificare i dati desiderati, quindi cliccare su INVIA (che a fronte delle modifiche, sarà diventato selezionabile)
+Verrà mostrata la configurazione corrente:
 
-.. image:: img/15.64_Modificare_LBAAS32.png
+.. image:: img/15.64_Modificare_LBAAS41.png
 
+|
+
+Modificare i dati desiderati (in basso comparirà il messaggio "Sono state effettuate modifiche al Load Balancer e/o alle sue configurazioni, 
+per renderle effettive è necessario completare la procedura di salvataggio").
+Quindi cliccare su CONFERMA:
+
+.. image:: img/15.64_Modificare_LBAAS42.png
+
+|
+
+Quindi cliccare su INVIA (che a fronte delle modifiche inserite e confermate, sarà diventato selezionabile):
+
+.. image:: img/15.64_Modificare_LBAAS43.png
+
+|
 
 Comparirà il seguente messaggio di conferma:
 
