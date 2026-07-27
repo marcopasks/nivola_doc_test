@@ -11,4 +11,5 @@ Tutte le funzioni per gestire il ciclo di vita delle Virtual Machine
    2025_Roadmap-gennaio.rst
    2025_Roadmap-giugno.rst
    2026_Roadmap-gennaio.rst
+   2026_Roadmap-luglio.rst
    2025_TABELLA.rst
