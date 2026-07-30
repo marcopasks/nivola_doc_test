@@ -1,6 +1,6 @@
 
-Installazione impianto Openshit
--------------------------------
+Installazione impianto Openshift
+--------------------------------
 
 |
 
