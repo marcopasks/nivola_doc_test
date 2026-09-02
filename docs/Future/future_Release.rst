@@ -23,9 +23,12 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.9 (patch)*
+CMP Nivola 1.18.9 - patch (2026-09-03)
+--------------------------------------
 
-*Data prevista: settembre 2026*
+*Improvement*
+
+- query optimization for MariaDB 11
 
 |
 
