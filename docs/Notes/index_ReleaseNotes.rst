@@ -1587,6 +1587,15 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.9 - patch (2026-09-03)
+--------------------------------------
+
+*Improvement*
+
+- query optimization for MariaDB 11
+
+|
+
 CMP Nivola 1.18.8 - patch (2026-07-16)
 --------------------------------------
 

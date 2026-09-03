@@ -5,14 +5,9 @@
 **Portale**
 ***********
 
-*Versione 4.26.0*
+*Versione 4.25.1*
 
 *Data prevista: settembre 2026*
-
-*Nuove funzionalità/Improvement*
-
-- Gestione utenze fornitori
-
 
 *Bug fixing*
 
@@ -20,15 +15,22 @@
 
 |
 
+*Versione 4.26.0*
+
+*Data prevista: ottobre 2026*
+
+*Nuove funzionalità/Improvement*
+
+- Object Storage
+
+|
+
 **Cloud Management Platform**
 *****************************
 
-CMP Nivola 1.18.9 - patch (2026-09-03)
---------------------------------------
+*CMP Nivola 1.18.x*
 
-*Improvement*
-
-- query optimization for MariaDB 11
+*Data prevista: ottobre 2026*
 
 |
 

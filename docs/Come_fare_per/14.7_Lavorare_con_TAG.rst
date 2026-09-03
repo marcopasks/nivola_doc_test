@@ -11,6 +11,32 @@ utilizzare la relativa interfaccia.
 
 |
 
+**Creazione nuovo tag**
+***********************
+
+Nel caso in cui si volesse associare un Tag nuovo, quindi non presente fra quelli in elenco, occorre crearlo cliccando 
+sulla label **Gestione Tags** sotto **Gestione account**. Quindi cliccare su **Aggiungi Tag** in alto a destra:
+
+.. image:: img/24.5_tag200.png
+
+|
+
+Inserire il nome e cliccare su conferma:
+
+.. image:: img/24.5_tag201.png
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione:
+
+.. image:: img/24.5_tag202.png
+
+Il tag appena creato sarà aggiunto all'elenco dei tag disponibili e associabili.
+
+|
+
+|
+
 **Associazione Tag ad una Risorsa specifica**
 *********************************************
 
@@ -67,7 +93,7 @@ Dalla lista che apparirà, occorre individuare e cliccare sul tag prescelto:
 
 |
 
-Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione:
 
 .. image:: img/24.5_tag43.png
 
