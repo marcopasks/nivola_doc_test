@@ -5,7 +5,7 @@
 **Portale**
 ***********
 
-*Versione 4.25.1*
+*Versione 4.25.2*
 
 *Data prevista: settembre 2026*
 
@@ -28,9 +28,31 @@
 **Cloud Management Platform**
 *****************************
 
-*CMP Nivola 1.18.x*
+*Versione 1.18.10 (patch)*
 
-*Data prevista: ottobre 2026*
+*Data prevista: giovedì 24 settembre 2026*
+
+*New features*
+
+- Bucket-as-a-Service (Bucketaas) object storage compatibile S3
+
+- GitLab Epic di riferimento: link
+
+- Guida ai comandi CLI: ​link
+
+
+*Improvement*
+
+- Optimized security group list
+
+- ECAAS: check supported environment for cluster (avoid wrong policy rules)
+
+
+*Bug fixing*
+
+- ECAAS: check namespace codice_prodotto, codice_ente lowercase
+
+- Fix send audit data
 
 |
 
