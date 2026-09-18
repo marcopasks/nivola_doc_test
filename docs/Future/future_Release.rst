@@ -36,9 +36,9 @@
 
 - Bucket-as-a-Service (Bucketaas) object storage compatibile S3
 
-- GitLab Epic di riferimento: link
+- GitLab Epic di riferimento
 
-- Guida ai comandi CLI: ​link
+- Guida ai comandi CLI
 
 
 *Improvement*
