@@ -28,31 +28,9 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.10 (patch)*
+*Versione 1.18.x (patch)*
 
-*Data prevista: giovedì 24 settembre 2026*
-
-*New features*
-
-- Bucket-as-a-Service (Bucketaas) object storage compatibile S3
-
-- GitLab Epic di riferimento
-
-- Guida ai comandi CLI
-
-
-*Improvement*
-
-- Optimized security group list
-
-- ECAAS: check supported environment for cluster (avoid wrong policy rules)
-
-
-*Bug fixing*
-
-- ECAAS: check namespace codice_prodotto, codice_ente lowercase
-
-- Fix send audit data
+*Data prevista: novembre 2026*
 
 |
 

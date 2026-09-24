@@ -1587,6 +1587,33 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.10 - patch (2026-09-24)
+---------------------------------------
+
+*New features*
+
+- Bucket-as-a-Service (Bucketaas) object storage compatibile S3
+
+- GitLab Epic di riferimento
+
+- Guida ai comandi CLI
+
+
+*Improvement*
+
+- Optimized security group list
+
+- ECAAS: check supported environment for cluster (avoid wrong policy rules)
+
+
+*Bug fixing*
+
+- ECAAS: check namespace codice_prodotto, codice_ente lowercase
+
+- Fix send audit data
+
+|
+
 CMP Nivola 1.18.9 - patch (2026-09-03)
 --------------------------------------
 
