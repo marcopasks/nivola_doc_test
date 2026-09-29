@@ -59,7 +59,7 @@ nella combo box
 |
 
 6. Nella stessa sezione, attraverso la combo box,
-precisare la **tipologia** dello spazio di archviazione
+precisare la **tipologia** dello spazio di archiviazione
 e cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_tipologia.png
@@ -88,6 +88,8 @@ Al termine cliccare sul pulsante **AVANTI**
 
 .. image:: img/DBAAS_scegli_info_finali.png
 
+NB: relativamente al cloud di tipo Enti, il deploy fallirà se nel Gruppo di sicurezza (SG) selezionato per il dbaas non fosse presente la regola in ingresso per lo zabbix proxy
+
 |
 
 10. Nel caso in cui il database sia di tipo **Postgres** oppure **Oracle** comparirà il seguente tab aggiuntivo di configurazione da compilare:
@@ -99,6 +101,12 @@ Al termine cliccare sul pulsante **AVANTI**
 |
 
 11. Nella schermata del Riepilogo, dopo aver controllato i parametri inseriti nel processo 
-di creazione, cliccare su **CONFERMA E CREA L’ISTANZA** per materializzare virtualmente la nuova istanza.
+di creazione, cliccare su **CONFERMA E CREA L’ISTANZA** per lanciare la creazione della nuova istanza.
 
 .. image:: img/DBAAS_finale.png
+
+|
+
+I seguenti messaggi in verde in alto a destra daranno conferma dell'avvenuta operazione, e della comunicazione della stessa al gruppo competente:
+
+.. image:: img/14.1_Creare_DBAAS1.png
