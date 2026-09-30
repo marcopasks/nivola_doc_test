@@ -27,13 +27,13 @@ con le bozze che soddisfano il criterio di selezione;
 
 .. image:: img/100.25_RicercaStringaBozzeOkDX.png
 
-!
+|
     
 3. Usare il pulsante **Aggiorna richiesta**;
 
 .. image:: img/100.25_AggiornaRichiesta.png
 
-!
+|
 
 4. Verranno visualizzate le informazioni della bozza;
     

@@ -7,64 +7,82 @@ sotto **Assistenza**:
 
 .. image:: img/100.35_Nuovo_TicketSX.png
 
+|
 
-Il sistema popolerà la parte destra del video con l'elenco delle scelte guidate suddivise per macro argomenti.
-Selezionare una delle seguenti voci a seconda del tipo di problema/necessità:
+Apparirà sulla destra il Chatbot del Supporto Nivola Cloud, con in primo piano l'Informativa sulla Privacy:
 
-- **Malfunzionamento**
-
-- **Rallentamento**
-
-- **Nuovo servizio**
-
-- **Modifica servizio**
-
-- **Dismissione servizio**
-
-- **Backup e ripristino**
-
-- **Informazioni**
+.. image:: img/100.35_Nuovo_Ticket10.png
 
 |
 
-Nel caso si selezionino le prime due voci, **Malfunzionamento** e **Rallentamento**, comparirà la seguente schermata di scelta:
+Dopo aver cliccato su "Ho capito" verrà mostrata la schermata di partenza in cui, oltre al messaggio di benvenuto,
+viene ricordato l'attuale account in uso:
 
-.. image:: img/100.35_Nuovo_Ticket2.png
-
-|
-
-Selezionando la prima opzione **CHATTA CON UNO SPECIALISTA** verrà aperta la chat
-
-.. image:: img/100.35_Chat1.png
-
-con cui sarà possibile interagire con l'operatore.
-
-**Ricordiamo che l'orario di servizo della chat è dalle 9 alle 18, dal lunedì a venerdì. Al di fuori di tali orari il servizio non è attivo, in conseguenza l'apertura della relativa finestra non avverrà.**
+.. image:: img/100.35_Nuovo_Ticket11.png
 
 |
 
-Cliccando sui tre puntini in alto a sinistra è possibile scaricare la conversazione avvenuta, quindi cliccare su **Salva** in basso a destra
+Utilizzare il campo di input in basso per digitare le proprie domande / esigenze, quindi cliccare sulla
+corrispondente freccia blu sulla destra:
 
-.. image:: img/100.35_Chat5.png
-
-.. image:: img/100.35_Chat6.png
-
-Infine per chiudere la chat, cliccare sul pulsante in basso **Fine Chat**
-
-.. image:: img/100.35_Chat7.png
-
-L'icona relativa alla chat sarà comunque sempre presente sulla destra e la funzionalità richiamabile in qualsiasi momento cliccandoci sopra
-(ricordiamo solamente in relazione alle voci **Malfunzionamento** e **Rallentamento**)
-
-.. image:: img/100.35_Chat8.png
+.. image:: img/100.35_Nuovo_Ticket12.png
 
 |
 
-Selezionando invece la seconda opzione **CONTINUA CON LA COMPILAZIONE** oppure nel caso si sia selezonato inizialmente una delle altre voci 
-(Nuovo servizio, Modifica servizio, Dismissione servizio, Backup e ripristino, Informazioni) verranno visualizzati tutti, oppure una sottoparte, 
-dei seguenti bottoni:
+Percorriamo il caso specifico, per fornire un esempio utile di come utilizzarlo per aprire un ticket:
 
-.. image:: img/100.35_Nuovo_TicketBottoniDX.png
+.. image:: img/100.35_Nuovo_Ticket13.png
+
+.. image:: img/100.35_Nuovo_Ticket14.png
+
+.. image:: img/100.35_Nuovo_Ticket15.png
+
+.. image:: img/100.35_Nuovo_Ticket16.png
+
+.. image:: img/100.35_Nuovo_Ticket17.png
+
+.. image:: img/100.35_Nuovo_Ticket18.png
+
+|
+
+Al termine verrà mostrata la schermata riassuntiva dei dati inseriti e con i quali verrà aperto il ticket:
+
+.. image:: img/100.35_Nuovo_Ticket19.png
+
+|
+
+Cliccando su **Crea ticket** il ticket verrà aperto:
+
+.. image:: img/100.35_Nuovo_Ticket20.png
+
+|
+
+Dopo aver cliccato su **Fine** sarà possibile scaricare la trascrizione, aprire una nuova chat, oppure chiudere la 
+finestra del Chatbot:
+
+.. image:: img/100.35_Nuovo_Ticket21.png
+
+|
+
+E' comunque possibile richiamare il Chatbot in qualsiasi momento, cliccando sull'icona in basso a destra:
+
+.. image:: img/100.35_Nuovo_Ticket22.png
+
+|
+
+|
+
+Se invece di decide di seguire le scelte guidate da menù, cliccare subito su **Termina Chat** per chiudere la finestra 
+del Chatbot in modo da lasciare in primo piano il menù:
+
+.. image:: img/100.35_Nuovo_Ticket23.png
+
+|
+
+Cliccando su una della voci presenti verranno visualizzati tutti, oppure una sottoparte, 
+dei seguenti bottoni (l'esempio sottostante è relativo al caso si selezioni la voce "Malfunzionamento"):
+
+.. image:: img/100.35_Creare_nuovo_ticket100.png
 
 |
 

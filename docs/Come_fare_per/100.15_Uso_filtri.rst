@@ -22,13 +22,19 @@ Cliccare sul simbolo in alto a destra la cui descrizione passandoci sopra col mo
 
 .. image:: img/100.1_FiltroDX.png
 
+|
+
 Comparirà la seguente schermata
 
 .. image:: img/100.15_Filtro1.png
 
+|
+
 Alla primo caricamento dei ticket, gli stati filtrati sono quelli descritti nella voce "**Stato**"
 
 .. image:: img/100.15_Filtro1rosso.png
+
+|
 
 Per modificare tali valori cliccare sulla freccia a destra in corrispondenza della voce **Stato** e selezionare gli stati desiderati
 
@@ -57,11 +63,15 @@ La ricerca per **account** è attivabile cliccando sul pulsante **SELEZIONA L'AC
 
 .. image:: img/100.15_Filtro1selezAccount.png
 
+|
+
 Utilizzare la freccia per far comparire la lista degli **Account**
 
 .. image:: img/100.15_Filtro1selezAccount2.png
 
 .. image:: img/100.15_Filtro1selezAccount3.png
+
+|
 
 Quindi selezionare l'account desiderato e cliccare su **CONFERMA**
 
@@ -78,9 +88,13 @@ La ricerca per **account** è attivabile cliccando sul pulsante **SELEZIONA L'AC
 
 .. image:: img/100.15_Filtro1selezAccount.png
 
+|
+
 Utilizzare le frecce per far comparire le liste delle **Division** e degli **Account**
 
 .. image:: img/100.15_Filtro1selezAccount2MO.png
+
+|
 
 Quindi selezionare la division e l'account desiderati e cliccare su **CONFERMA**
 

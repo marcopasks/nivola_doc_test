@@ -24,15 +24,19 @@ con i ticket che soddisfano il criterio di selezione;
 
 .. image:: img/100.5_RicercaStringaTicketDX.png
 
+|
+
 2. Individuare il ticket dalla lista, mettendo una spunta a fianco del nome;
 
 .. image:: img/100.5_RicercaStringaTicketOkDX.png
+
+|
     
 3. Usare il pulsante **Visualizza i dettagli della richiesta**;
 
-|
-
 .. image:: img/100.5_iconaDettagliTicket.png
+
+|
 
 4. Verranno visualizzati le informazioni del ticket;
     
