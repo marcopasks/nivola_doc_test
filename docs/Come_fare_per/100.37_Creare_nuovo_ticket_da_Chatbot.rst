@@ -1,0 +1,90 @@
+
+**Creazione di un nuovo ticket tramite l'Assistente Digitale**
+==============================================================
+
+La funzione rientra nel servizio **Assistenza**. Accedere al menù di creazione di un nuovo ticket cliccando sulla label **Nuova Richiesta** 
+sotto **Assistenza**:
+
+.. image:: img/100.35_Nuovo_TicketSX.png
+
+|
+
+Apparirà sulla destra l'Assistente Digitale del Supporto Nivola Cloud, con in primo piano l'Informativa sulla Privacy:
+
+.. image:: img/100.35_Nuovo_Ticket10.png
+
+|
+
+Dopo aver cliccato su "Ho capito" verrà mostrata la schermata di partenza in cui, oltre al messaggio di benvenuto,
+viene ricordato l'attuale account in uso:
+
+.. image:: img/100.35_Nuovo_Ticket11.png
+
+|
+
+Utilizzare il campo di input in basso per digitare le proprie domande / esigenze, quindi cliccare sulla
+corrispondente freccia blu sulla destra:
+
+.. image:: img/100.35_Nuovo_Ticket12.png
+
+|
+
+Percorriamo il caso specifico, per fornire un esempio utile di come utilizzarlo per aprire un ticket.
+Simuliamo la necessità di creare una nuova Virtual Machine, digitando la relativa richiesta:
+
+.. image:: img/100.35_Nuovo_Ticket13.png
+
+|
+
+Come indicato, inserire i dettagli della VM richiesti:
+
+- Nome della VM
+
+- Template (sistema operativo)
+
+- Dimensione (VCPUs, RAM, Disco)
+
+- Region e Availability Zone
+
+- Chiave SSH
+
+.. image:: img/100.35_Nuovo_Ticket14.png
+
+|
+
+Per sfruttare la possibilità di aprire il ticket, cliccare su **Apri ticket**
+
+.. image:: img/100.35_Nuovo_Ticket15.png
+
+|
+
+Eventualmente inserire un numero di telefono per essere ricontattato e mail aggiuntiva:
+
+.. image:: img/100.35_Nuovo_Ticket16.png
+
+.. image:: img/100.35_Nuovo_Ticket17.png
+
+|
+
+A fronte del riassunto di tutte le informazione inserite, cliccare su **Crea ticket**
+
+.. image:: img/100.35_Nuovo_Ticket18.png
+
+|
+
+Cliccando su **Crea ticket** il ticket verrà aperto:
+
+.. image:: img/100.35_Nuovo_Ticket20.png
+
+|
+
+Dopo aver cliccato su **Fine** sarà possibile scaricare la trascrizione, aprire una nuova chat, oppure chiudere la 
+finestra dell'Assistente Digitale:
+
+.. image:: img/100.35_Nuovo_Ticket21.png
+
+|
+
+E' comunque possibile richiamare l'Assistente Digitale in qualsiasi momento, cliccando sull'icona in basso a destra:
+
+.. image:: img/100.35_Nuovo_Ticket22.png

@@ -1,0 +1,11 @@
+
+**Assistente Digitale**
+=======================
+
+L'Assistente Digitale permette di:
+
+- assistere l'utente nella preparazione e apertura ticket (vedi prossimo capitolo "Creazione di un nuovo ticket tramite l'Assistente Digitale*)
+
+- assistere l'utente per l'apertura di chat dirette con specialisti del Supporto 
+
+- assistere l'utente nel rispondere alle domande legate al mondo del Cloud Nivola

@@ -1,6 +1,6 @@
 
-**Creazione di un nuovo ticket**
-================================
+**Creazione manuale di un nuovo ticket**
+========================================
 
 La funzione rientra nel servizio **Assistenza**. Accedere al menù di creazione di un nuovo ticket cliccando sulla label **Nuova Richiesta** 
 sotto **Assistenza**:
@@ -9,71 +9,8 @@ sotto **Assistenza**:
 
 |
 
-Apparirà sulla destra il Chatbot del Supporto Nivola Cloud, con in primo piano l'Informativa sulla Privacy:
-
-.. image:: img/100.35_Nuovo_Ticket10.png
-
-|
-
-Dopo aver cliccato su "Ho capito" verrà mostrata la schermata di partenza in cui, oltre al messaggio di benvenuto,
-viene ricordato l'attuale account in uso:
-
-.. image:: img/100.35_Nuovo_Ticket11.png
-
-|
-
-Utilizzare il campo di input in basso per digitare le proprie domande / esigenze, quindi cliccare sulla
-corrispondente freccia blu sulla destra:
-
-.. image:: img/100.35_Nuovo_Ticket12.png
-
-|
-
-Percorriamo il caso specifico, per fornire un esempio utile di come utilizzarlo per aprire un ticket:
-
-.. image:: img/100.35_Nuovo_Ticket13.png
-
-.. image:: img/100.35_Nuovo_Ticket14.png
-
-.. image:: img/100.35_Nuovo_Ticket15.png
-
-.. image:: img/100.35_Nuovo_Ticket16.png
-
-.. image:: img/100.35_Nuovo_Ticket17.png
-
-.. image:: img/100.35_Nuovo_Ticket18.png
-
-|
-
-Al termine verrà mostrata la schermata riassuntiva dei dati inseriti e con i quali verrà aperto il ticket:
-
-.. image:: img/100.35_Nuovo_Ticket19.png
-
-|
-
-Cliccando su **Crea ticket** il ticket verrà aperto:
-
-.. image:: img/100.35_Nuovo_Ticket20.png
-
-|
-
-Dopo aver cliccato su **Fine** sarà possibile scaricare la trascrizione, aprire una nuova chat, oppure chiudere la 
-finestra del Chatbot:
-
-.. image:: img/100.35_Nuovo_Ticket21.png
-
-|
-
-E' comunque possibile richiamare il Chatbot in qualsiasi momento, cliccando sull'icona in basso a destra:
-
-.. image:: img/100.35_Nuovo_Ticket22.png
-
-|
-
-|
-
-Se invece di decide di seguire le scelte guidate da menù, cliccare subito su **Termina Chat** per chiudere la finestra 
-del Chatbot in modo da lasciare in primo piano il menù:
+Se si necessita di seguire manualmente e autonomamente di seguire le scelte guidate da menù, cliccare su **Termina Chat** per chiudere la finestra 
+dell'Assistente Digitale in modo da lasciare in primo piano il menù:
 
 .. image:: img/100.35_Nuovo_Ticket23.png
 

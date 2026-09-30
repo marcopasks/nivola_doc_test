@@ -14,5 +14,7 @@ Attraverso questo menù è possibile aprire delle segnalazione relative ad anoma
    100.20_Elenco_bozze.rst
    100.25_Cercare_E_Visualizzare_bozze.rst
    100.35_Creare_nuovo_ticket.rst
+   100.36_Assistente_Digitale.rst
+   100.37_Creare_nuovo_ticket_da_Chatbot.rst
    100.42_Cambio_stato_ticket.rst
    100.70_Integrazione_Richiesta_ITSM.rst
