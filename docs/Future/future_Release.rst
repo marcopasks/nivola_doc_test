@@ -28,7 +28,7 @@
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.18.x (patch)*
+*Versione 1.19.x (patch)*
 
 *Data prevista: novembre 2026*
 

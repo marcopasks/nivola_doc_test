@@ -1587,6 +1587,21 @@ Service Portal 1.8.0 (2020-04-10)
 **Cloud Management Platform**
 *****************************
 
+CMP Nivola 1.18.11 - patch (2026-10-08)
+---------------------------------------
+
+*Bug fixing*
+
+- Aggiunti metadati e logiche per utilizzare awx aggiornati nell'abilitazione del monitoraggio
+
+- Corretto bug che preveniva la deregistrazione del server disabilitando il monitoraggio
+
+- Aggiunta subnet ed fqdn nei campi della lista dei load balancer
+
+- Corretto bug in gestione dei priovilegi degli utenti dei bucket e migliorie generali
+
+|
+
 CMP Nivola 1.18.10 - patch (2026-09-24)
 ---------------------------------------
 
