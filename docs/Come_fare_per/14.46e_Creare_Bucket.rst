@@ -1,0 +1,61 @@
+
+**Creare Bucket**
+*****************
+
+Il servizio per la creazione e gestione dei bucket è attivabile dalla parte sinistra dello schermo, cliccando sulla label
+**Gestione bucket** sotto **Object Storage**:
+
+.. image:: img/14.46c_Lista_Bucket1.png
+
+|
+
+A seguito di un clic su **Gestione bucket**, il sistema popolerà la parte destra del video con l'**Elenco buckets**:
+
+.. image:: img/14.46c_Lista_Bucket2.png
+
+|
+
+Per la creazione di un bucket, procedere nel seguente modo
+
+Fare clic sul pulsante in alto a destra **Crea nuovo bucket**:
+
+.. image:: img/14.46e_Creare_Bucket1.png
+
+|
+
+Apparirà la seguente pagina:
+
+.. image:: img/14.46e_Creare_Bucket2.png
+
+|
+
+Compilare i campi richiesti e se necessario flaggare le opzioni presenti:
+
+.. image:: img/14.46e_Creare_Bucket3.png
+
+|
+
+Come nell'esempio riportato qui sotto, nel caso si selezioni la voce **Attiva protezione degli oggetti (object lock)**
+comparirà automaticamente a fianco la voce **Numero giorni di protezione (retention)**, 
+in cui occorrerà inserire il relativo valore numerico:
+
+.. image:: img/14.46e_Creare_Bucket4.png
+
+|
+
+Una volta compilati tutti i campi richiesta, cliccare su INVIA in basso a destra 
+(che a fronte delle modifiche inserite sarà diventato selezionabile):
+
+.. image:: img/14.46e_Creare_Bucket5.png
+
+|
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione:
+
+.. image:: img/14.46e_Creare_Bucket6.png
+
+|
+
+Una volta terminata la creazione, il bucket creato apparirà nell'elenco:
+
+.. image:: img/14.46c_Lista_Bucket2.png

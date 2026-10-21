@@ -5,30 +5,16 @@
 **Portale**
 ***********
 
-*Versione 4.25.2*
+*Versione 4.26.x*
 
-*Data prevista: settembre 2026*
-
-*Bug fixing*
-
-- risoluzione bug fix minori
-
-|
-
-*Versione 4.26.0*
-
-*Data prevista: ottobre 2026*
-
-*Nuove funzionalità/Improvement*
-
-- Object Storage
+*Data prevista: novembre 2026*
 
 |
 
 **Cloud Management Platform**
 *****************************
 
-*Versione 1.19.x (patch)*
+*Versione 1.19.0 (minor)*
 
 *Data prevista: novembre 2026*
 

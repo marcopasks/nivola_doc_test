@@ -1,0 +1,14 @@
+
+**Lista Utenti Bucket**
+***********************
+
+La **Lista Utenti Bucket** è attivabile dalla parte sinistra dello schermo, cliccando sulla label
+**Gestione utenti** sotto **Object Storage**:
+
+.. image:: img/14.46h_Lista_Utenti_Bucket1.png
+
+|
+
+A seguito di un clic su **Gestione utenti**, il sistema popolerà la parte destra del video con la lista degli utenti relativi ai bucket:
+
+.. image:: img/14.46h_Lista_Utenti_Bucket2.png

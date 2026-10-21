@@ -1,0 +1,25 @@
+
+**Cancellare Bucket**
+*********************
+
+Selezionare il bucket che si desidera cancellare:
+
+.. image:: img/14.46g_Cancellare_Bucket1.png
+
+|
+
+Quindi cliccare sul bottone **Elimina bucket**:
+
+.. image:: img/14.46g_Cancellare_Bucket2.png
+
+|
+
+Verrà aperta la finestra di cancellazione:
+
+.. image:: img/14.46g_Cancellare_Bucket3.png
+
+|
+
+Quindi cliccare su CONFERMA. Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione:
+
+.. image:: img/14.46g_Cancellare_Bucket4.png

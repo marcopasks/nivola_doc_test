@@ -3,7 +3,7 @@
 **Creazione Nuovo Share**
 *************************
 
-Per la creazione di uno share, procedere come segue:
+Per la creazione di uno share, procedere nel seguente modo:
 
 Fare clic sul pulsante in alto a destra **Crea Nuovo Share**
 

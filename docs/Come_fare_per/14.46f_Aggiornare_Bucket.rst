@@ -1,0 +1,39 @@
+
+**Aggiornare Bucket**
+*********************
+
+Per aggiornare un bucket occorre selezionarne uno:
+
+.. image:: img/14.46d_Dettaglio_Bucket22.png
+
+|
+
+quindi cliccare sull'icona in alto a destra "**Modifica bucket**":
+
+.. image:: img/14.46f_Aggiornare_Bucket1.png
+
+|
+
+Apparirà la seguente pagina:
+
+.. image:: img/14.46f_Aggiornare_Bucket2.png
+
+|
+
+Inserire le modifiche necessarie, come da esempio:
+
+.. image:: img/14.46f_Aggiornare_Bucket3.png
+
+|
+
+Il tasto INVIA in basso a destra diventerà cliccabile. Cliccarlo per salvare la configurazione appena inserita.
+
+Un messaggio in verde in alto a destra darà conferma dell'avvenuta operazione:
+
+.. image:: img/14.46f_Aggiornare_Bucket4.png
+
+|
+
+Aggiornando la lista dopo il termine dell'operazione, i dati appariranno aggiornati:
+
+.. image:: img/14.46f_Aggiornare_Bucket5.png

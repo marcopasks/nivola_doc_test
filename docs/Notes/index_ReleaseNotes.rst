@@ -5,6 +5,17 @@
 **Portale**
 ***********
 
+.. _release-4.26.0:
+
+Service Portal 4.26.0 (2026-10-22)
+----------------------------------
+
+- Creazione ed eliminazione bucket (Object Storage)
+
+- Creazione ed eliminazione utenti, chiavi
+
+|
+
 .. _release-4.25.0:
 
 Service Portal 4.25.0 (2026-07-20)
@@ -1586,6 +1597,19 @@ Service Portal 1.8.0 (2020-04-10)
 
 **Cloud Management Platform**
 *****************************
+
+CMP Nivola 1.18.12 - patch (2026-10-22)
+---------------------------------------
+
+*Improvement*
+
+- ECaaS chart “infrastructure“ nuova versione 0.25.1 per network policy
+
+- ECaaS CLI commands for updating allowedHosts
+
+- CMP chart “nivolacmp“ nuova versione 0.1.4 (necessario Helm upgrade)
+
+|
 
 CMP Nivola 1.18.11 - patch (2026-10-08)
 ---------------------------------------

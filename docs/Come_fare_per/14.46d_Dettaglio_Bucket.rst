@@ -1,0 +1,17 @@
+
+**Dettaglio Bucket**
+********************
+
+Per visualizzare i dettagli di un bucket occorre selezionarne uno:
+
+.. image:: img/14.46d_Dettaglio_Bucket2.png
+
+|
+
+quindi cliccare sull'icona in alto a destra "**Dettaglio bucket**":
+
+.. image:: img/14.46d_Dettaglio_Bucket1.png
+
+|
+
+.. image:: img/14.46d_Dettaglio_Bucket3.png
