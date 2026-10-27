@@ -2,6 +2,12 @@
 **Cancellare le Virtual Machine**
 =================================
 
+**Prima di cancellare le Virtual Machine occorre verificare che non siano associati servizi di monitoring o logging.
+Inoltre la cancellazione deve avvenire a Virtual Machine ACCESA e NON SPENTA, per permettere la corretta propagazione verso gli hypervisor 
+delle istruzioni di cancellazione.**
+
+|
+
 Per **cancellare** una Virtual Machine procedere con le seguenti operazioni:
 
     1. Cercare e Selezionare, dall’**Elenco VM**, la virtual machine da eliminare;
